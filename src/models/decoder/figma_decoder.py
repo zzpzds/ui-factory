@@ -26,7 +26,7 @@ def _hex_to_rgba(hex_str: str) -> dict:
 
 def _extract_color_from_html(html_text: str) -> list[dict]:
     """从 HTML 内联样式提取颜色，返回 Figma fills 格式。解析失败返回 []。"""
-    hex_pattern = r'(?:background(?:-color)?|color)\s*:\s*(#[0-9a-fA-F]{3,6})'
+    hex_pattern = r'(?:background(?:-color)?|color)\s*:\s*(#(?:[0-9a-fA-F]{6}|[0-9a-fA-F]{3}))\b'
     rgb_pattern = r'(?:background(?:-color)?|color)\s*:\s*rgb\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)'
 
     m = re.search(hex_pattern, html_text)
