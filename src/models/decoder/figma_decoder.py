@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from typing import Optional
 import re
+import copy
 
 from .figma_types import (
     DESIGN_NODE_TYPES,
@@ -74,6 +75,53 @@ def _make_node_name(html_text: str, node_type: str) -> str:
         return f"{tag}[{aria_m.group(1)}]"
 
     return tag
+
+
+def _build_tree(nodes: list[dict], node_boxes: torch.Tensor) -> list[dict]:
+    """
+    用边界框包含关系将平铺节点列表重建为嵌套树。
+    node_boxes: [N, 4] float，格式 (x1, y1, x2, y2)
+    返回根节点列表（每个根节点的 children 字段为嵌套子节点对象）。
+    """
+    N = len(nodes)
+    if N == 0:
+        return []
+
+    boxes = node_boxes.float()
+    # parent[j] = i 表示 i 是 j 的最近父节点，-1 表示根节点
+    parent = [-1] * N
+
+    for j in range(N):
+        best_parent = -1
+        best_area = float("inf")
+        bj = boxes[j]
+        for i in range(N):
+            if i == j:
+                continue
+            bi = boxes[i]
+            # 检查 i 是否包含 j
+            if bi[0] <= bj[0] and bi[1] <= bj[1] and bi[2] >= bj[2] and bi[3] >= bj[3]:
+                area = float((bi[2] - bi[0]) * (bi[3] - bi[1]))
+                if area < best_area:
+                    best_area = area
+                    best_parent = i
+        parent[j] = best_parent
+
+    # 深拷贝节点（避免修改原始 list）
+    node_copies = [copy.copy(n) for n in nodes]
+    # 移除旧 children 字段
+    for n in node_copies:
+        n.pop("children", None)
+
+    # 构建树
+    for j, p in enumerate(parent):
+        if p >= 0:
+            if "children" not in node_copies[p]:
+                node_copies[p]["children"] = []
+            node_copies[p]["children"].append(node_copies[j])
+
+    # 只返回根节点
+    return [node_copies[i] for i in range(N) if parent[i] == -1]
 
 
 class FigmaStylePredictor(nn.Module):
