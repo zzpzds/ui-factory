@@ -311,36 +311,43 @@ def build_figma_json(
     type_indices: torch.Tensor,
     parent_child_logits: torch.Tensor,
     style_attrs: Optional[dict[str, torch.Tensor]] = None,
-    node_texts: Optional[list[list[str]]] = None,
+    node_texts: Optional[list[str]] = None,
     node_boxes: Optional[torch.Tensor] = None,
 ) -> list[dict]:
     """
-    将解码器输出转换为 Figma JSON 格式。
+    将解码器输出转换为 Figma JSON 格式（嵌套树）。
 
-    type_indices:       [N] int64，节点类型索引
-    parent_child_logits: [N, N] float，子节点关系
-    style_attrs:        样式属性字典
-    node_texts:         [N] str，节点文本（可选）
-    node_boxes:         [N, 4] float，边界框（可选）
-
-    返回：Figma JSON 格式的节点列表
+    type_indices:        [N] int64
+    parent_child_logits: [N, N] float（保留参数，树结构由 node_boxes 包含关系决定）
+    style_attrs:         样式属性字典，值已经过激活函数约束
+    node_texts:          [N] str
+    node_boxes:          [N, 4] float (x1, y1, x2, y2)
     """
+    _STYLE_CLAMP = {
+        "opacity":       lambda v: max(0.0, min(1.0, v)),
+        "fill_opacity":  lambda v: max(0.0, min(1.0, v)),
+        "corner_radius": lambda v: max(0.0, v),
+        "rotation":      lambda v: v,
+        "visible":       lambda v: v > 0.5,
+    }
+
     N = type_indices.shape[0]
     nodes = []
 
     for i in range(N):
         type_id = type_indices[i].item()
         node_type = IDX_TO_NODE_TYPE.get(type_id, "FRAME")
+        html_text = node_texts[i] if node_texts and i < len(node_texts) else ""
 
         node = {
             "id": f"node_{i}",
-            "name": node_texts[i][:30] if node_texts and i < len(node_texts) else node_type,
+            "name": _make_node_name(html_text, node_type),
             "type": node_type,
-            "fills": [],
+            "fills": _extract_color_from_html(html_text),
             "strokes": [],
         }
 
-        # 添加位置和尺寸
+        # 边界框
         if node_boxes is not None and i < node_boxes.shape[0]:
             box = node_boxes[i]
             node["absoluteBoundingBox"] = {
@@ -350,20 +357,18 @@ def build_figma_json(
                 "height": float(box[3] - box[1]),
             }
 
-        # 添加样式属性
+        # 样式属性
         if style_attrs is not None:
             for attr_name, attr_values in style_attrs.items():
                 if i < attr_values.shape[0]:
-                    node[attr_name] = float(attr_values[i].item())
-
-        # 解析子节点
-        children = []
-        for j in range(N):
-            if i != j and parent_child_logits[i, j] > 0:
-                children.append(f"node_{j}")
-        if children:
-            node["children"] = children
+                    raw = float(attr_values[i].item())
+                    clamp_fn = _STYLE_CLAMP.get(attr_name)
+                    node[attr_name] = clamp_fn(raw) if clamp_fn else raw
 
         nodes.append(node)
+
+    # 建树（需要 node_boxes）
+    if node_boxes is not None and len(nodes) > 0:
+        return _build_tree(nodes, node_boxes)
 
     return nodes
