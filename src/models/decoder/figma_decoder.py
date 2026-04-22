@@ -125,6 +125,15 @@ def _build_tree(nodes: list[dict], node_boxes: torch.Tensor) -> list[dict]:
     return [node_copies[i] for i in range(N) if parent[i] == -1]
 
 
+_STYLE_CLAMP = {
+    "opacity":       lambda v: max(0.0, min(1.0, v)),
+    "fill_opacity":  lambda v: max(0.0, min(1.0, v)),
+    "corner_radius": lambda v: max(0.0, v),
+    "rotation":      lambda v: v,
+    "visible":       lambda v: v > 0.5,
+}
+
+
 class FigmaStylePredictor(nn.Module):
     """
     第三层解码器：样式属性预测器。
@@ -323,14 +332,6 @@ def build_figma_json(
     node_texts:          [N] str
     node_boxes:          [N, 4] float (x1, y1, x2, y2)
     """
-    _STYLE_CLAMP = {
-        "opacity":       lambda v: max(0.0, min(1.0, v)),
-        "fill_opacity":  lambda v: max(0.0, min(1.0, v)),
-        "corner_radius": lambda v: max(0.0, v),
-        "rotation":      lambda v: v,
-        "visible":       lambda v: v > 0.5,
-    }
-
     N = type_indices.shape[0]
     nodes = []
 
