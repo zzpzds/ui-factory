@@ -103,13 +103,14 @@ def _build_tree(nodes: list[dict], node_boxes: torch.Tensor) -> list[dict]:
             # 检查 i 是否包含 j
             if bi[0] <= bj[0] and bi[1] <= bj[1] and bi[2] >= bj[2] and bi[3] >= bj[3]:
                 area = float((bi[2] - bi[0]) * (bi[3] - bi[1]))
-                if area < best_area:
+                # 面积相同时取索引较小者，避免完全相同的框互为父节点导致节点丢失
+                if area < best_area or (area == best_area and i < best_parent):
                     best_area = area
                     best_parent = i
         parent[j] = best_parent
 
-    # 深拷贝节点（避免修改原始 list）
-    node_copies = [copy.copy(n) for n in nodes]
+    # 深拷贝节点（避免修改调用方持有的原始节点对象）
+    node_copies = [copy.deepcopy(n) for n in nodes]
     # 移除旧 children 字段
     for n in node_copies:
         n.pop("children", None)
