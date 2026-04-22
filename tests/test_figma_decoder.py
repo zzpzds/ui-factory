@@ -9,6 +9,7 @@ from src.models.decoder.figma_decoder import (
     _make_node_name,
     _build_tree,
     build_figma_json,
+    FigmaStylePredictor,
 )
 
 
@@ -120,3 +121,39 @@ class TestBuildTree:
         nodes = self._make_nodes(boxes)
         roots = _build_tree(nodes, boxes)
         assert "children" not in roots[0]
+
+
+# ── 样式预测器激活 ─────────────────────────────────────────
+class TestFigmaStylePredictorActivations:
+    def setup_method(self):
+        self.predictor = FigmaStylePredictor(dim=64)
+        self.predictor.eval()
+
+    def test_opacity_in_range(self):
+        x = torch.randn(1, 5, 64) * 10  # 故意放大，触发越界
+        out = self.predictor(x)
+        assert out["opacity"].min() >= 0.0
+        assert out["opacity"].max() <= 1.0
+
+    def test_fill_opacity_in_range(self):
+        x = torch.randn(1, 5, 64) * 10
+        out = self.predictor(x)
+        assert out["fill_opacity"].min() >= 0.0
+        assert out["fill_opacity"].max() <= 1.0
+
+    def test_corner_radius_nonneg(self):
+        x = torch.randn(1, 5, 64) * 10
+        out = self.predictor(x)
+        assert out["corner_radius"].min() >= 0.0
+
+    def test_rotation_bounded(self):
+        x = torch.randn(1, 5, 64) * 10
+        out = self.predictor(x)
+        assert out["rotation"].min() > -180.0
+        assert out["rotation"].max() < 180.0
+
+    def test_visible_in_01(self):
+        x = torch.randn(1, 5, 64) * 10
+        out = self.predictor(x)
+        assert out["visible"].min() >= 0.0
+        assert out["visible"].max() <= 1.0

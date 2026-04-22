@@ -153,13 +153,21 @@ class FigmaStylePredictor(nn.Module):
     def forward(self, fused_features: torch.Tensor) -> dict[str, torch.Tensor]:
         """
         fused_features: [B, N, D]
-        返回: 样式属性字典
+        返回: 样式属性字典，所有值已约束到合法范围
         """
+        import torch.nn.functional as F
         h = self.net(fused_features)  # [B, N, D//2]
         outputs = {}
         for name, head in self.style_heads.items():
-            out = head(h).squeeze(-1)  # [B, N]
-            outputs[name] = out
+            raw = head(h).squeeze(-1)  # [B, N]
+            if name in ("opacity", "fill_opacity", "visible"):
+                outputs[name] = torch.sigmoid(raw)
+            elif name == "corner_radius":
+                outputs[name] = F.softplus(raw)
+            elif name == "rotation":
+                outputs[name] = torch.tanh(raw) * 180.0
+            else:
+                outputs[name] = raw
         return outputs
 
 
