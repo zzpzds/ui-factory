@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from typing import Optional
 import re
 import copy
@@ -155,7 +156,6 @@ class FigmaStylePredictor(nn.Module):
         fused_features: [B, N, D]
         返回: 样式属性字典，所有值已约束到合法范围
         """
-        import torch.nn.functional as F
         h = self.net(fused_features)  # [B, N, D//2]
         outputs = {}
         for name, head in self.style_heads.items():
