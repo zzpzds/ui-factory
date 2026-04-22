@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 from typing import Optional
+import re
 
 from .figma_types import (
     DESIGN_NODE_TYPES,
@@ -10,6 +11,46 @@ from .figma_types import (
     LayoutMode,
     html_tag_to_node_type,
 )
+
+
+def _hex_to_rgba(hex_str: str) -> dict:
+    """将 #RGB 或 #RRGGBB 转为 Figma color dict。"""
+    h = hex_str.lstrip("#")
+    if len(h) == 3:
+        h = h[0]*2 + h[1]*2 + h[2]*2
+    r = int(h[0:2], 16) / 255.0
+    g = int(h[2:4], 16) / 255.0
+    b = int(h[4:6], 16) / 255.0
+    return {"r": r, "g": g, "b": b, "a": 1.0}
+
+
+def _extract_color_from_html(html_text: str) -> list[dict]:
+    """从 HTML 内联样式提取颜色，返回 Figma fills 格式。解析失败返回 []。"""
+    hex_pattern = r'(?:background(?:-color)?|color)\s*:\s*(#[0-9a-fA-F]{3,6})'
+    rgb_pattern = r'(?:background(?:-color)?|color)\s*:\s*rgb\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)'
+
+    m = re.search(hex_pattern, html_text)
+    if m:
+        try:
+            color = _hex_to_rgba(m.group(1))
+            return [{"type": "SOLID", "color": color}]
+        except (ValueError, IndexError):
+            pass
+
+    m = re.search(rgb_pattern, html_text)
+    if m:
+        try:
+            color = {
+                "r": int(m.group(1)) / 255.0,
+                "g": int(m.group(2)) / 255.0,
+                "b": int(m.group(3)) / 255.0,
+                "a": 1.0,
+            }
+            return [{"type": "SOLID", "color": color}]
+        except (ValueError, IndexError):
+            pass
+
+    return []
 
 
 class FigmaStylePredictor(nn.Module):
