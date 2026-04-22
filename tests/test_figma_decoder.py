@@ -7,7 +7,6 @@ import pytest
 from src.models.decoder.figma_decoder import (
     _extract_color_from_html,
     _make_node_name,
-    _build_tree,
     build_figma_json,
 )
 
@@ -46,3 +45,24 @@ class TestExtractColorFromHtml:
 
     def test_empty(self):
         assert _extract_color_from_html("") == []
+
+
+# ── 节点命名 ──────────────────────────────────────────────
+class TestMakeNodeName:
+    def test_tag_with_id(self):
+        assert _make_node_name('<nav id="main-nav">', "FRAME") == "nav#main-nav"
+
+    def test_tag_with_class(self):
+        assert _make_node_name('<button class="btn-primary">', "INSTANCE") == "button.btn-primary"
+
+    def test_tag_with_aria_label(self):
+        assert _make_node_name('<div aria-label="hero section">', "FRAME") == "div[hero section]"
+
+    def test_tag_only(self):
+        assert _make_node_name('<section>', "FRAME") == "section"
+
+    def test_no_tag_falls_back_to_type(self):
+        assert _make_node_name("some plain text", "TEXT") == "TEXT"
+
+    def test_multiple_attrs_id_wins(self):
+        assert _make_node_name('<div id="root" class="container">', "FRAME") == "div#root"

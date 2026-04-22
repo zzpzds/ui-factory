@@ -53,6 +53,29 @@ def _extract_color_from_html(html_text: str) -> list[dict]:
     return []
 
 
+def _make_node_name(html_text: str, node_type: str) -> str:
+    """从 HTML 文本提取语义化节点名。"""
+    tag_m = re.match(r'<(\w+)', html_text)
+    if not tag_m:
+        return node_type
+    tag = tag_m.group(1)
+
+    id_m = re.search(r'\bid=["\']([^"\']+)["\']', html_text)
+    if id_m:
+        return f"{tag}#{id_m.group(1)}"
+
+    class_m = re.search(r'\bclass=["\']([^"\']+)["\']', html_text)
+    if class_m:
+        first_class = class_m.group(1).split()[0]
+        return f"{tag}.{first_class}"
+
+    aria_m = re.search(r'\baria-label=["\']([^"\']+)["\']', html_text)
+    if aria_m:
+        return f"{tag}[{aria_m.group(1)}]"
+
+    return tag
+
+
 class FigmaStylePredictor(nn.Module):
     """
     第三层解码器：样式属性预测器。
