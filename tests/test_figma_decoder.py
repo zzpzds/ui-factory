@@ -7,6 +7,7 @@ import pytest
 from src.models.decoder.figma_decoder import (
     _extract_color_from_html,
     _make_node_name,
+    _build_tree,
     build_figma_json,
 )
 
