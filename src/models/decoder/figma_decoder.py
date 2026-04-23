@@ -263,8 +263,8 @@ class FigmaStructurePlanner(nn.Module):
             if type_name in self.LEAF_TYPES:
                 leaf_mask = leaf_mask + (node_type_indices == type_id).float().unsqueeze(-1)
 
-        # 应用 mask：叶子节点的输出行设为 -inf
-        scores = scores.masked_fill(leaf_mask.bool(), float("-inf"))
+        # 应用 mask：叶子节点的输出行设为大负数（-inf 会导致 BCEWithLogitsLoss 中 -inf*0=nan）
+        scores = scores.masked_fill(leaf_mask.bool(), -1e9)
 
         return scores
 
