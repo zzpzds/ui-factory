@@ -1,0 +1,15 @@
+# A1a：完全去掉对齐监督（lambda 设 0）
+defaults: configs/default.yaml
+experiment:
+  name: A1a-no-align
+  output_dir: outputs/A1a-no-align
+training:
+  epochs: 30
+  loss_weights:
+    type: 1.0
+    struct: 0.5
+    align_bce: 0.0
+    align_nce: 0.0
+    style_reg: 0.2
+    style_color: 0.05
+    style_cls: 0.1

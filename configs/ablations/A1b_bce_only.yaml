@@ -1,0 +1,14 @@
+# A1b：对齐只用 BCE，去掉 InfoNCE
+experiment:
+  name: A1b-bce-only
+  output_dir: outputs/A1b-bce-only
+training:
+  epochs: 30
+  loss_weights:
+    type: 1.0
+    struct: 0.5
+    align_bce: 0.3
+    align_nce: 0.0
+    style_reg: 0.2
+    style_color: 0.05
+    style_cls: 0.1

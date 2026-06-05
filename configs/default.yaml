@@ -1,0 +1,55 @@
+# 默认训练配置（本机 16GB MPS 保守版）
+# 论文 spec：基于网页图像与源码的 Figma 设计稿生成
+
+experiment:
+  name: M1-baseline
+  output_dir: outputs/M1-baseline
+  seed: 42
+
+data:
+  data_dir: data/sampled
+  max_nodes: 96
+  iou_threshold: 0.3
+  train_ratio: 0.85         # train/val 划分（在 sampled 内部）
+
+model:
+  dim: 768
+  align_heads: 4
+  ctx_layers: 2
+  ctx_heads: 4
+  struct_layers: 2
+  struct_heads: 4
+  freeze_visual: true
+  codebert_unfreeze_last: 2
+
+training:
+  epochs: 60
+  batch_size: 1                # physical batch
+  grad_accum: 4                # 等效 batch=4
+  lr_heads: 2.0e-4             # 解码器/对齐/上下文等
+  lr_codebert: 2.0e-5          # 解冻部分
+  weight_decay: 0.01
+  warmup_ratio: 0.05
+  grad_clip: 1.0
+  enable_styles_after_epoch: 2 # 前 2 个 epoch 关掉 style/color，先稳类型/对齐
+  loss_weights:
+    type: 1.0
+    struct: 0.5
+    align_bce: 0.3
+    align_nce: 0.05
+    style_reg: 0.2
+    style_color: 0.05
+    style_cls: 0.1
+
+resource_safety:
+  sleep_every_n_steps: 50
+  sleep_seconds: 0.5
+  mem_check_every_n_steps: 100
+  mem_threshold_pct: 85.0      # 超过自动 break + checkpoint
+  empty_cache_every_n_steps: 10
+
+logging:
+  log_every: 10
+  eval_every: 1
+  save_every: 10
+  generate_every: 5

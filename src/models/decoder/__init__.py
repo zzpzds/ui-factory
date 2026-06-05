@@ -8,10 +8,14 @@ from .figma_types import (
 )
 from .figma_decoder import (
     FigmaNodeTypeClassifier,
-    FigmaStructurePlanner,
+    RecursiveStructDecoder,
     FigmaStylePredictor,
     FigmaDecoder,
     build_figma_json,
+    decode_parents_recursive,
+    STYLE_REG_DIM,
+    STYLE_COLOR_DIM,
+    STYLE_CLS_DIMS,
 )
 
 __all__ = [
@@ -22,8 +26,12 @@ __all__ = [
     "TAG_TO_NODE_TYPE",
     "html_tag_to_node_type",
     "FigmaNodeTypeClassifier",
-    "FigmaStructurePlanner",
+    "RecursiveStructDecoder",
     "FigmaStylePredictor",
     "FigmaDecoder",
     "build_figma_json",
+    "decode_parents_recursive",
+    "STYLE_REG_DIM",
+    "STYLE_COLOR_DIM",
+    "STYLE_CLS_DIMS",
 ]

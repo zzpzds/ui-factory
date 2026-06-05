@@ -1,0 +1,8 @@
+# A4b：max_nodes=128
+experiment:
+  name: A4b-max128
+  output_dir: outputs/A4b-max128
+data:
+  max_nodes: 128
+training:
+  epochs: 30

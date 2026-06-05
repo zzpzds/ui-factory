@@ -4,12 +4,14 @@
 - nodes.pt：节点渲染框 Tensor [N, 4]（224×224 坐标系）
 - node_texts.json：节点文本列表（与 nodes.pt 顺序一致，含 inner text）
 - parents.pt：每个节点的父索引 LongTensor [N]（-1 表示根）
+- styles.json：每节点的 computed style 字典列表（与上述同序）
 
 运行：
     python scripts/render_pages.py [--data_dir data/processed]
 """
 import os
 import sys
+import time
 import json
 import argparse
 from pathlib import Path
@@ -31,6 +33,21 @@ JS_GET_NODES = """
 () => {
     const skipTags = new Set(['html','head','body','script','style','meta','link','noscript']);
     const escapeAttr = (s) => s.replace(/"/g, '&quot;');
+
+    // 颜色字符串解析为 [r,g,b,a]，归一化到 0-1。失败返回 null。
+    const parseColor = (s) => {
+        if (!s || s === 'transparent' || s === 'none') return null;
+        const m = s.match(/rgba?\\(([^)]+)\\)/);
+        if (!m) return null;
+        const parts = m[1].split(',').map(x => parseFloat(x.trim()));
+        if (parts.length < 3) return null;
+        return [parts[0]/255, parts[1]/255, parts[2]/255, parts.length > 3 ? parts[3] : 1.0];
+    };
+    const parsePx = (s) => {
+        if (!s) return 0;
+        const m = s.match(/(-?[0-9.]+)/);
+        return m ? parseFloat(m[1]) : 0;
+    };
 
     // 第一遍：过滤并序列化
     const kept = [];
@@ -56,12 +73,26 @@ JS_GET_NODES = """
         if (inner.length > 100) inner = inner.substring(0, 100);
         text += '>' + inner + '</' + el.tagName.toLowerCase() + '>';
 
+        // 计算样式（监督信号源）
+        const cs = {
+            backgroundColor: parseColor(style.backgroundColor),
+            color: parseColor(style.color),
+            borderColor: parseColor(style.borderTopColor),
+            borderRadius: parsePx(style.borderTopLeftRadius),
+            borderWidth: parsePx(style.borderTopWidth),
+            opacity: parseFloat(style.opacity) || 1.0,
+            fontSize: parsePx(style.fontSize),
+            fontWeight: parseInt(style.fontWeight) || 400,
+            textAlign: style.textAlign || 'start',
+            display: style.display || 'block',
+        };
+
         elemToIdx.set(el, kept.length);
-        kept.push({ el, text, rect });
+        kept.push({ el, text, rect, cs });
     }
 
     // 第二遍：解析最近保留祖先作为父节点
-    return kept.map(({ el, text, rect }) => {
+    return kept.map(({ el, text, rect, cs }) => {
         let p = el.parentElement;
         while (p && !elemToIdx.has(p)) p = p.parentElement;
         return {
@@ -71,6 +102,7 @@ JS_GET_NODES = """
             y1: rect.top,
             x2: rect.right,
             y2: rect.bottom,
+            style: cs,
         };
     });
 }
@@ -89,17 +121,19 @@ def scale_box(x1, y1, x2, y2):
     ]
 
 
-def render_one(page, sample_dir: str) -> bool:
+def render_one(page, sample_dir: str, force: bool = False) -> bool:
     html_path = os.path.join(sample_dir, "page.html")
     screenshot_path = os.path.join(sample_dir, "screenshot.png")
     nodes_path = os.path.join(sample_dir, "nodes.pt")
     texts_path = os.path.join(sample_dir, "node_texts.json")
     parents_path = os.path.join(sample_dir, "parents.pt")
+    styles_path = os.path.join(sample_dir, "styles.json")
 
     if not os.path.exists(html_path):
         return False
-    # 已处理过则跳过（包含 parents.pt 才算完整，旧样本会被重渲）
-    if all(os.path.exists(p) for p in (nodes_path, texts_path, parents_path, screenshot_path)):
+    # 已处理过则跳过（包含 styles.json 才算完整，旧样本会被重渲）
+    expected = (nodes_path, texts_path, parents_path, screenshot_path, styles_path)
+    if not force and all(os.path.exists(p) for p in expected):
         return True
 
     try:
@@ -116,7 +150,7 @@ def render_one(page, sample_dir: str) -> bool:
         # 截图
         page.screenshot(path=screenshot_path, clip={"x": 0, "y": 0, "width": VIEWPORT_W, "height": VIEWPORT_H})
 
-        # 提取节点框 + 父索引
+        # 提取节点框 + 父索引 + 样式
         nodes = page.evaluate(JS_GET_NODES)
         if not nodes:
             return False
@@ -124,11 +158,14 @@ def render_one(page, sample_dir: str) -> bool:
         node_texts = [n["text"] for n in nodes]
         boxes = [scale_box(n["x1"], n["y1"], n["x2"], n["y2"]) for n in nodes]
         parents = [n["parent_idx"] for n in nodes]
+        styles = [n["style"] for n in nodes]
 
         torch.save(torch.tensor(boxes, dtype=torch.float32), nodes_path)
         torch.save(torch.tensor(parents, dtype=torch.long), parents_path)
         with open(texts_path, "w", encoding="utf-8") as f:
             json.dump(node_texts, f, ensure_ascii=False)
+        with open(styles_path, "w", encoding="utf-8") as f:
+            json.dump(styles, f, ensure_ascii=False)
 
         return True
 
@@ -137,7 +174,7 @@ def render_one(page, sample_dir: str) -> bool:
         return False
 
 
-def main(data_dir: str):
+def main(data_dir: str, force: bool = False, sleep_between: float = 0.2):
     sample_dirs = sorted([
         os.path.join(data_dir, d)
         for d in os.listdir(data_dir)
@@ -152,10 +189,13 @@ def main(data_dir: str):
         page = context.new_page()
 
         for sample_dir in tqdm(sample_dirs, desc="渲染"):
-            if render_one(page, sample_dir):
+            if render_one(page, sample_dir, force=force):
                 success += 1
             else:
                 failed += 1
+            # 留资源冗余：每条样本之间稍作 sleep
+            if sleep_between > 0:
+                time.sleep(sleep_between)
 
         browser.close()
 
@@ -165,5 +205,7 @@ def main(data_dir: str):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", default="data/processed")
+    parser.add_argument("--force", action="store_true", help="强制重渲已有样本")
+    parser.add_argument("--sleep", type=float, default=0.2, help="样本间 sleep 秒数")
     args = parser.parse_args()
-    main(os.path.abspath(args.data_dir))
+    main(os.path.abspath(args.data_dir), force=args.force, sleep_between=args.sleep)

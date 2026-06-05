@@ -1,0 +1,8 @@
+# A4a：max_nodes=50（旧版默认值）
+experiment:
+  name: A4a-max50
+  output_dir: outputs/A4a-max50
+data:
+  max_nodes: 50
+training:
+  epochs: 30

@@ -1,0 +1,37 @@
+# GPU 集群训练配置（A100/H100 类）
+# 以 default.yaml 为 base，仅覆盖差异项。
+# 用法：accelerate launch scripts/train_accelerate.py --config configs/gpu.yaml
+
+experiment:
+  name: M1-gpu
+  output_dir: outputs/M1-gpu
+
+data:
+  data_dir: data/sampled        # 上集群后改成完整 WebCode2M 路径
+  max_nodes: 192                # GPU 显存允许更大 N
+
+model:
+  freeze_visual: true           # 全集群 fine-tune 时改 false
+  codebert_unfreeze_last: 4     # 解冻更多层
+
+training:
+  epochs: 100                   # 完整训练
+  batch_size: 4                 # GPU 上的 physical batch
+  grad_accum: 2                 # 等效 batch=8
+  lr_heads: 2.0e-4
+  lr_codebert: 2.0e-5
+  warmup_ratio: 0.05
+  num_workers: 4                # GPU 下 DataLoader 多进程
+  enable_styles_after_epoch: 2
+
+resource_safety:
+  # GPU 上去掉散热 sleep（用机器全速）
+  sleep_every_n_steps: 0
+  mem_check_every_n_steps: 0
+  empty_cache_every_n_steps: 0
+
+logging:
+  log_every: 50
+  eval_every: 1
+  save_every: 10
+  generate_every: 5

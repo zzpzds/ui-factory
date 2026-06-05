@@ -1,11 +1,66 @@
-.venv/
+# ──────────────────────────── Python ────────────────────────────
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# ──────────────────────────── 虚拟环境 ────────────────────────────
+.venv/
+venv/
+
+# ──────────────────────────── OS / 编辑器 ────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# ──────────────────────────── Notebook checkpoints ────────────────────────────
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+Untitled.ipynb
+
+# ──────────────────────────── 环境变量 ────────────────────────────
 .env
+
+# ──────────────────────────── Playwright / 浏览器 ────────────────────────────
+.playwright-cli/
+
+# ──────────────────────────── 日志 / 实验追踪 ────────────────────────────
+wandb/
+mlruns/
+*.log
+
+# ──────────────────────────── 大文件：模型权重 ────────────────────────────
+# GitHub 单文件 100MB 限制；GPU 端会重新训练，无需上传 .pt
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+# 反向放行：data/sampled/*.pt 是小张量（节点框/父索引，每个 < 5KB）
+!data/sampled/**/*.pt
+
+# ──────────────────────────── 数据：原始 / 中间产物 ────────────────────────────
+# raw / processed 是从 WebCode2M 流式拉取的样本，可由脚本重生成
 data/raw/
 data/processed/
-outputs/
-.DS_Store
-*.egg-info/
-.ipynb_checkpoints/
-wandb/
+data/figma/raw/
+
+# parquet / 原始 dump
+*.parquet
+*.parquet.gz
+*.tar
+*.tar.gz
+*.zip
+
+# ──────────────────────────── outputs：保留小产物，过滤大产物 ────────────────────────────
+# 整体目录不忽略，但忽略其中的大文件
+outputs/_demo_smoke/
+outputs/_real_smoke/
+outputs/best_model.pt
+outputs/download*.log
+# 旧版 figma_epoch*.json（重构前），保留新版 outputs/M1-baseline/figma_e*.json
+outputs/figma_epoch*.json

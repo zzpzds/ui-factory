@@ -1,6 +1,6 @@
 """
-端到端 pipeline 验证脚本：
-数据加载 → 视觉编码 → 代码编码 → 跨模态对齐 → Figma 解码 → 打印形状和损失
+端到端 pipeline 验证脚本（适配新架构）：
+WebpageDataset → FigmaGenerationModel → compute_losses → build_figma_json
 """
 import os
 import sys
@@ -8,76 +8,82 @@ import sys
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 os.environ["HF_HUB_OFFLINE"] = "1"
 
-# 确保从项目根目录运行
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+import json
 import torch
-from src.data.dataset import WebpageDataset
-from src.models.encoders.visual_encoder import VisualEncoder
-from src.models.encoders.code_encoder import CodeEncoder
-from src.models.alignment.cross_modal_alignment import CrossModalAlignment
-from src.models.decoder import FigmaDecoder, build_figma_json
+
+from src.data.dataset import WebpageDataset, webpage_collate_fn
+from src.training.trainer import FigmaGenerationModel, compute_losses, build_type_targets
+from src.models.decoder import build_figma_json
 
 
 def main():
     device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
     print(f"使用设备: {device}\n")
 
-    # 1. 加载 demo 数据
-    dataset = WebpageDataset(use_demo=True)
+    # 1. 加载 demo 数据（batch=1）
+    dataset = WebpageDataset(use_demo=True, max_nodes=32)
     sample = dataset[0]
-    print(f"节点数量: {len(sample['node_texts'])}")
-    print(f"对齐标签形状: {sample['alignment_labels'].shape}")
-    print(f"对齐的 patch 数（各节点）: {sample['alignment_labels'].sum(dim=1).int().tolist()}\n")
+    batch = webpage_collate_fn([sample])
+    print(f"有效节点数: {batch['num_nodes'].tolist()}")
+    print(f"node_mask:  {batch['node_mask'].shape}")
+    print(f"node_boxes: {batch['node_boxes'].shape}")
+    print(f"alignment_labels: {batch['alignment_labels'].shape}")
+    print(f"styles keys: {list(batch['styles'].keys())}\n")
 
-    # 2. 视觉编码
-    visual_encoder = VisualEncoder().to(device)
-    visual_encoder.eval()
-    with torch.no_grad():
-        visual_features = visual_encoder([sample["image"]])
-    print(f"视觉特征: {visual_features.shape}")  # [1, 196, 768]
+    # 2. 模型
+    model = FigmaGenerationModel().to(device)
+    n_trainable = sum(p.numel() for p in model.trainable_parameters())
+    n_total = sum(p.numel() for p in model.parameters())
+    print(f"模型总参数: {n_total/1e6:.1f}M  可训练: {n_trainable/1e6:.1f}M\n")
 
-    # 3. 代码编码
-    code_encoder = CodeEncoder().to(device)
-    code_encoder.eval()
-    with torch.no_grad():
-        code_features = code_encoder([sample["node_texts"]])
-    print(f"代码特征: {code_features.shape}")  # [1, N, 768]
+    model.train()
+    target_types = build_type_targets(batch["node_texts"], batch["node_mask"].shape[1])
+    outputs = model(batch, return_styles=True, teacher_force=True, target_types=target_types)
+    print(f"type_logits:    {outputs['type_logits'].shape}")
+    print(f"parent_logits:  {outputs['parent_logits'].shape}")
+    print(f"sim_logits:     {outputs['sim_logits'].shape}")
+    print(f"styles.reg:     {outputs['styles']['reg'].shape}")
+    print(f"styles.color:   {outputs['styles']['color'].shape}\n")
 
-    # 4. 跨模态对齐
-    alignment_model = CrossModalAlignment().to(device)
-    alignment_model.eval()
-    labels = sample["alignment_labels"].unsqueeze(0).to(device)  # [1, N, 196]
-    with torch.no_grad():
-        fused, attn_weights, loss = alignment_model(visual_features, code_features, labels)
-    print(f"融合特征:   {fused.shape}")        # [1, N, 768]
-    print(f"注意力权重: {attn_weights.shape}")  # [1, N, 196]
-    print(f"对齐损失:   {loss.item():.4f}\n")
-
-    # 5. Figma 解码
-    decoder = FigmaDecoder().to(device)
-    decoder.eval()
-    with torch.no_grad():
-        decoder_outputs = decoder(fused, return_styles=True)
-
-    print(f"节点类型 logits:   {decoder_outputs['type_logits'].shape}")
-    print(f"节点类型预测:      {decoder_outputs['type_indices'].tolist()}")
-    print(f"父子关系矩阵:      {decoder_outputs['parent_child_logits'].shape}")
-    print(f"样式属性:          {list(decoder_outputs['style_attrs'].keys())}\n")
-
-    # 6. 构建 Figma JSON
-    style_attrs_batch0 = {k: v[0] for k, v in decoder_outputs["style_attrs"].items()}
-    figma_json = build_figma_json(
-        decoder_outputs["type_indices"][0],
-        decoder_outputs["parent_child_logits"][0],
-        style_attrs_batch0,
-        sample["node_texts"],
-        sample["node_boxes"],
+    # 3. 损失
+    target_types_dev = target_types.to(device)
+    losses = compute_losses(
+        outputs,
+        target_types=target_types_dev,
+        parents=batch["parents"].to(device),
+        node_mask=batch["node_mask"].to(device),
+        style_targets=batch["styles"],
     )
-    print(f"Figma JSON 节点数: {len(figma_json)}")
-    print("第一个节点示例:")
-    import json
-    print(json.dumps(figma_json[0], indent=2, ensure_ascii=False))
+    print("各项损失：")
+    for k, v in losses.items():
+        print(f"  {k:14s} = {v.item():.4f}")
+    print()
+
+    # 4. 反向传播（验证可训练）
+    losses["total"].backward()
+    grad_norm = sum(p.grad.norm().item() for p in model.trainable_parameters() if p.grad is not None)
+    print(f"反向传播 OK，可训练参数总梯度范数 = {grad_norm:.4f}\n")
+
+    # 5. 推理路径：build_figma_json
+    model.eval()
+    with torch.no_grad():
+        out = model(batch, return_styles=True, teacher_force=False)
+        b = 0
+        figma_json = build_figma_json(
+            type_indices=out["type_indices"][b].cpu(),
+            parent_logits=out["parent_logits"][b].cpu(),
+            candidate_mask=out["candidate_mask"][b].cpu(),
+            node_mask=out["node_mask"][b].cpu(),
+            styles={k: v[b].cpu() for k, v in out["styles"].items()},
+            node_texts=batch["node_texts"][b],
+            node_boxes=batch["node_boxes"][b].cpu(),
+        )
+    print(f"Figma JSON 根节点数: {len(figma_json)}")
+    if figma_json:
+        print("第一个根节点示例:")
+        print(json.dumps(figma_json[0], indent=2, ensure_ascii=False)[:800])
 
     print("\n✅ Pipeline 端到端验证通过")
 
