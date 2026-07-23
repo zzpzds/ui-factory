@@ -16,6 +16,7 @@ venv/
 .idea/
 .vscode/
 *.swp
+.superpowers/
 
 # ──────────────────────────── Notebook checkpoints ────────────────────────────
 .ipynb_checkpoints/
