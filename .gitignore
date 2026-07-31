@@ -65,3 +65,10 @@ outputs/best_model.pt
 outputs/download*.log
 # 旧版 figma_epoch*.json（重构前），保留新版 outputs/M1-baseline/figma_e*.json
 outputs/figma_epoch*.json
+
+# 新设计意图链路的可重建 smoke 产物
+outputs/intent-manifest-smoke/
+outputs/intent-pilot/
+outputs/intent-smoke-split.json
+outputs/intent-visual-smoke/
+outputs/intent-pilot-500/

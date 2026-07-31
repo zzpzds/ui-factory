@@ -1,0 +1,42 @@
+experiment:
+  name: intent-full-v1
+  output_dir: outputs/intent-full-v1
+  seed: 42
+
+data:
+  data_dir: data/sampled
+  annotation_name: weak_intent.json
+  max_nodes: 192
+  split_manifest: data/intent_split.json
+
+model:
+  dim: 256
+  freeze_visual: true
+  freeze_text: true
+  code_model_path: null
+  visual_model_name: null
+  use_visual: true
+  use_text: true
+  use_tags: true
+  use_structured: true
+  use_dom_graph: true
+
+training:
+  init_checkpoint: null
+  epochs: 30
+  batch_size: 1
+  grad_accum: 4
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  grad_clip: 1.0
+  loss_weights:
+    action: 1.0
+    element: 0.8
+    group: 0.8
+    role: 0.3
+    layout_mode: 0.5
+    layout_reg: 0.3
+    layout_align: 0.2
+    token: 0.5
+    tree: 0.8
+    align: 0.2

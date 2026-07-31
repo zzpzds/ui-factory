@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [],
+  "groups": [],
+  "layouts": [],
+  "tree": [],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1429",
+    "label_source": "human_annotation",
+    "annotator": "annotator_b",
+    "status": "draft",
+    "weak_labels_viewed": false
+  }
+}

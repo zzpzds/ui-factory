@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Intent Annotator</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-block">
+      <strong>Intent Annotator</strong>
+      <span id="saveState" class="status-badge">已保存</span>
+    </div>
+    <div class="header-controls">
+      <label class="compact-field">
+        <span>标注者</span>
+        <select id="annotatorSelect"></select>
+      </label>
+      <button id="previousSample" class="icon-button" type="button" title="上一页" aria-label="上一页">←</button>
+      <label class="compact-field sample-field">
+        <span>样本</span>
+        <select id="sampleSelect"></select>
+      </label>
+      <button id="nextSample" class="icon-button" type="button" title="下一页" aria-label="下一页">→</button>
+      <span id="progressText" class="progress-text"></span>
+      <button id="saveButton" class="secondary-button" type="button">保存草稿</button>
+      <button id="submitButton" class="primary-button" type="button">提交完成</button>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <aside class="left-panel">
+      <div class="panel-tabs" role="tablist">
+        <button class="panel-tab active" data-tab="nodes" type="button">节点</button>
+        <button class="panel-tab" data-tab="entities" type="button">实体</button>
+        <button class="panel-tab" data-tab="tokens" type="button">Token</button>
+      </div>
+
+      <section id="nodesTab" class="tab-content active">
+        <div class="panel-toolbar">
+          <input id="nodeSearch" type="search" placeholder="筛选 tag / text">
+          <span id="nodeSelectionCount" class="selection-count">0</span>
+        </div>
+        <div class="inline-actions">
+          <select id="newElementType" aria-label="元素类型">
+            <option value="TEXT">TEXT</option>
+            <option value="IMAGE">IMAGE</option>
+            <option value="ICON">ICON</option>
+            <option value="SHAPE">SHAPE</option>
+            <option value="INPUT">INPUT</option>
+            <option value="BUTTON_VISUAL">BUTTON</option>
+          </select>
+          <button id="createElement" class="primary-button grow" type="button">创建元素</button>
+        </div>
+        <div id="nodeList" class="scroll-list"></div>
+      </section>
+
+      <section id="entitiesTab" class="tab-content">
+        <div class="panel-toolbar">
+          <strong>元素与分组</strong>
+          <span id="entitySelectionCount" class="selection-count">0</span>
+        </div>
+        <button id="createGroup" class="primary-button full-button" type="button">创建分组</button>
+        <div id="entityList" class="scroll-list"></div>
+      </section>
+
+      <section id="tokensTab" class="tab-content">
+        <div class="field-grid">
+          <label>
+            <span>类型</span>
+            <select id="tokenKind">
+              <option value="COLOR">COLOR</option>
+              <option value="TEXT">TEXT</option>
+              <option value="RADIUS">RADIUS</option>
+              <option value="SPACING">SPACING</option>
+            </select>
+          </label>
+          <label>
+            <span>名称</span>
+            <input id="tokenName" value="color/token">
+          </label>
+        </div>
+        <div id="tokenValueEditor"></div>
+        <button id="createToken" class="primary-button full-button" type="button">从所选实体创建</button>
+        <div id="tokenList" class="scroll-list"></div>
+      </section>
+    </aside>
+
+    <section class="canvas-panel">
+      <div class="canvas-toolbar">
+        <label class="toggle-field">
+          <input id="showAllNodes" type="checkbox" checked>
+          <span>候选框</span>
+        </label>
+        <label class="toggle-field">
+          <input id="showLabels" type="checkbox">
+          <span>ID</span>
+        </label>
+        <div class="zoom-controls">
+          <button id="zoomOut" class="icon-button" type="button" title="缩小" aria-label="缩小">−</button>
+          <output id="zoomValue">100%</output>
+          <button id="zoomIn" class="icon-button" type="button" title="放大" aria-label="放大">+</button>
+          <button id="fitCanvas" class="secondary-button" type="button">适配</button>
+        </div>
+      </div>
+      <div id="canvasViewport" class="canvas-viewport">
+        <div id="canvasStage" class="canvas-stage">
+          <img id="pageScreenshot" alt="">
+          <div id="nodeOverlay" class="node-overlay"></div>
+          <div id="entityOverlay" class="entity-overlay"></div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="right-panel">
+      <div class="inspector-heading">
+        <div>
+          <span class="eyebrow">属性</span>
+          <strong id="inspectorTitle">未选择实体</strong>
+        </div>
+        <button id="deleteEntity" class="danger-button hidden" type="button">删除</button>
+      </div>
+      <div id="inspectorEmpty" class="empty-state">选择元素、分组或 Token</div>
+      <form id="entityInspector" class="inspector-form hidden"></form>
+      <form id="tokenInspector" class="inspector-form hidden"></form>
+      <section class="validation-panel">
+        <div class="validation-heading">
+          <strong>校验</strong>
+          <span id="validationCount">0</span>
+        </div>
+        <div id="validationList" class="validation-list"></div>
+      </section>
+    </aside>
+  </main>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

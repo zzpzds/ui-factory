@@ -1,0 +1,1119 @@
+const ELEMENT_TYPES = ["TEXT", "IMAGE", "ICON", "SHAPE", "INPUT", "BUTTON_VISUAL"];
+const GROUP_ROLES = [
+  "CONTAINER", "CARD", "NAV", "FORM", "LIST", "LIST_ITEM",
+  "TABLE", "TABLE_ROW", "SECTION", "UNKNOWN",
+];
+const LAYOUT_MODES = ["HORIZONTAL", "VERTICAL", "GRID", "FREE"];
+const PRIMARY_ALIGNMENTS = ["START", "CENTER", "END", "SPACE_BETWEEN"];
+const CROSS_ALIGNMENTS = ["START", "CENTER", "END", "STRETCH"];
+const RESIZE_MODES = ["FIXED", "HUG", "STRETCH"];
+
+const state = {
+  assignment: null,
+  annotator: "annotator_a",
+  sampleId: null,
+  graph: null,
+  annotation: null,
+  selectedNodeIds: new Set(),
+  selectedEntityIds: new Set(),
+  activeEntityId: null,
+  activeTokenId: null,
+  scale: 1,
+  dirty: false,
+  validationErrors: [],
+  nodeSearch: "",
+  toastTimer: null,
+};
+
+const $ = (id) => document.getElementById(id);
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+function apiUrl(path) {
+  return path.split("/").map((part, index) => (
+    index === 0 ? part : encodeURIComponent(part)
+  )).join("/");
+}
+
+async function requestJson(url, options = {}) {
+  const response = await fetch(url, options);
+  const data = await response.json().catch(() => ({ error: "服务返回了无效 JSON" }));
+  if (!response.ok && !Array.isArray(data.errors)) {
+    throw new Error(data.error || `请求失败：${response.status}`);
+  }
+  return { response, data };
+}
+
+function toast(message, isError = false) {
+  const element = $("toast");
+  window.clearTimeout(state.toastTimer);
+  element.textContent = message;
+  element.classList.toggle("error", isError);
+  element.classList.remove("hidden");
+  state.toastTimer = window.setTimeout(() => element.classList.add("hidden"), 2800);
+}
+
+function getSample() {
+  return state.assignment.samples.find((sample) => sample.sample_id === state.sampleId);
+}
+
+function entityById(id) {
+  if (!state.annotation) return null;
+  return state.annotation.elements.find((item) => item.id === id)
+    || state.annotation.groups.find((item) => item.id === id)
+    || null;
+}
+
+function tokenById(id) {
+  return state.annotation?.style_tokens.find((item) => item.id === id) || null;
+}
+
+function nodeById(id) {
+  return state.graph?.nodes.find((item) => item.id === Number(id)) || null;
+}
+
+function entityKind(id) {
+  if (state.annotation.elements.some((item) => item.id === id)) return "element";
+  if (state.annotation.groups.some((item) => item.id === id)) return "group";
+  return null;
+}
+
+function uniqueId(prefix, items) {
+  const ids = new Set(items.map((item) => item.id));
+  let index = 1;
+  while (ids.has(`${prefix}_${index}`)) index += 1;
+  return `${prefix}_${index}`;
+}
+
+function bboxUnion(boxes) {
+  if (!boxes.length) return { x: 0, y: 0, width: 0, height: 0 };
+  const x1 = Math.min(...boxes.map((box) => box.x));
+  const y1 = Math.min(...boxes.map((box) => box.y));
+  const x2 = Math.max(...boxes.map((box) => box.x + box.width));
+  const y2 = Math.max(...boxes.map((box) => box.y + box.height));
+  return { x: x1, y: y1, width: x2 - x1, height: y2 - y1 };
+}
+
+function updateGroupBBox(group) {
+  const members = directChildIds(group.id).map(entityById).filter(Boolean);
+  if (members.length) group.bbox = bboxUnion(members.map((item) => item.bbox));
+}
+
+function currentParent(id) {
+  return state.annotation.tree.find((edge) => edge.child_id === id)?.parent_id || "page_root";
+}
+
+function descendantsOf(id) {
+  const result = new Set();
+  const visit = (parentId) => {
+    state.annotation.tree
+      .filter((edge) => edge.parent_id === parentId)
+      .forEach((edge) => {
+        if (!result.has(edge.child_id)) {
+          result.add(edge.child_id);
+          visit(edge.child_id);
+        }
+      });
+  };
+  visit(id);
+  return result;
+}
+
+function directChildIds(parentId) {
+  return state.annotation.tree
+    .filter((edge) => edge.parent_id === parentId)
+    .sort((left, right) => (left.order - right.order) || left.child_id.localeCompare(right.child_id))
+    .map((edge) => edge.child_id);
+}
+
+function descendantElementIds(entityId, visiting = new Set()) {
+  if (entityKind(entityId) === "element") return [entityId];
+  if (entityKind(entityId) !== "group" || visiting.has(entityId)) return [];
+  const nextVisiting = new Set(visiting);
+  nextVisiting.add(entityId);
+  return [...new Set(
+    directChildIds(entityId)
+      .flatMap((childId) => descendantElementIds(childId, nextVisiting)),
+  )];
+}
+
+function refreshGroupSourceElements() {
+  state.annotation.groups.forEach((group) => {
+    group.source_element_ids = descendantElementIds(group.id);
+  });
+}
+
+function setParent(childId, parentId) {
+  const descendants = descendantsOf(childId);
+  if (parentId === childId || descendants.has(parentId)) {
+    toast("不能把实体放入自身或其后代分组", true);
+    return false;
+  }
+  state.annotation.tree = state.annotation.tree.filter((edge) => edge.child_id !== childId);
+  state.annotation.tree.push({
+    parent_id: parentId || "page_root",
+    child_id: childId,
+    order: 0,
+    confidence: 1,
+  });
+  normalizeTree();
+  refreshGroupSourceElements();
+  markDirty();
+  return true;
+}
+
+function normalizeTree() {
+  const validIds = new Set([
+    ...state.annotation.elements.map((item) => item.id),
+    ...state.annotation.groups.map((item) => item.id),
+  ]);
+  const groupIds = new Set(state.annotation.groups.map((item) => item.id));
+  const seenChildren = new Set();
+  state.annotation.tree = state.annotation.tree.filter((edge) => {
+    const valid = validIds.has(edge.child_id)
+      && (edge.parent_id === "page_root" || groupIds.has(edge.parent_id))
+      && edge.child_id !== edge.parent_id
+      && !seenChildren.has(edge.child_id);
+    if (valid) seenChildren.add(edge.child_id);
+    return valid;
+  });
+  validIds.forEach((id) => {
+    if (!seenChildren.has(id)) {
+      state.annotation.tree.push({
+        parent_id: "page_root", child_id: id, order: 0, confidence: 1,
+      });
+    }
+  });
+
+  const byParent = new Map();
+  state.annotation.tree.forEach((edge) => {
+    if (!byParent.has(edge.parent_id)) byParent.set(edge.parent_id, []);
+    byParent.get(edge.parent_id).push(edge);
+  });
+  byParent.forEach((edges) => {
+    edges.sort((left, right) => {
+      const a = entityById(left.child_id)?.bbox || { x: 0, y: 0 };
+      const b = entityById(right.child_id)?.bbox || { x: 0, y: 0 };
+      return (a.y - b.y) || (a.x - b.x) || left.child_id.localeCompare(right.child_id);
+    });
+    edges.forEach((edge, index) => { edge.order = index; });
+  });
+}
+
+function normalizeAnnotation() {
+  const elementIds = new Set(state.annotation.elements.map((item) => item.id));
+  const groupIds = new Set(state.annotation.groups.map((item) => item.id));
+  const entityIds = new Set([...elementIds, ...groupIds]);
+
+  state.annotation.layouts = state.annotation.layouts
+    .filter((layout) => groupIds.has(layout.target_id))
+    .filter((layout, index, all) => (
+      all.findIndex((item) => item.target_id === layout.target_id) === index
+    ));
+  state.annotation.groups.forEach((group) => {
+    if (!state.annotation.layouts.some((layout) => layout.target_id === group.id)) {
+      state.annotation.layouts.push(defaultLayout(group.id));
+    }
+  });
+  state.annotation.style_tokens.forEach((token) => {
+    token.member_ids = [...new Set(token.member_ids)].filter((id) => entityIds.has(id));
+  });
+  normalizeTree();
+  refreshGroupSourceElements();
+}
+
+function markDirty() {
+  state.dirty = true;
+  renderSaveState();
+}
+
+function renderSaveState() {
+  const badge = $("saveState");
+  const complete = state.annotation?.provenance?.status === "complete";
+  badge.classList.toggle("dirty", state.dirty);
+  badge.classList.toggle("complete", !state.dirty && complete);
+  badge.textContent = state.dirty ? "未保存" : (complete ? "已完成" : "已保存");
+}
+
+function renderProgress() {
+  const progress = state.assignment.progress[state.annotator];
+  $("progressText").textContent = `${progress.complete} / ${progress.total}`;
+  [...$("sampleSelect").options].forEach((option) => {
+    const status = state.assignment.sample_status[state.annotator][option.value];
+    const sample = state.assignment.samples.find((item) => item.sample_id === option.value);
+    option.textContent = `${status === "complete" ? "✓ " : ""}${option.value} · ${sample.size_bin}`;
+  });
+}
+
+function renderValidation() {
+  $("validationCount").textContent = String(state.validationErrors.length);
+  if (!state.validationErrors.length) {
+    $("validationList").innerHTML = '<div class="validation-ok">当前没有校验错误</div>';
+    return;
+  }
+  $("validationList").innerHTML = state.validationErrors
+    .map((error) => `<div class="validation-error">${escapeHtml(error)}</div>`)
+    .join("");
+}
+
+function usedNodeIds() {
+  return new Set(state.annotation.elements.flatMap((item) => item.source_node_ids));
+}
+
+function toggleNode(nodeId) {
+  if (usedNodeIds().has(nodeId) && !state.selectedNodeIds.has(nodeId)) {
+    toast("该源节点已属于其他原子元素", true);
+    return;
+  }
+  if (state.selectedNodeIds.has(nodeId)) state.selectedNodeIds.delete(nodeId);
+  else state.selectedNodeIds.add(nodeId);
+  if (state.selectedNodeIds.size === 1) {
+    $("newElementType").value = inferElementType(nodeById(nodeId));
+  }
+  renderNodes();
+  renderCanvas();
+}
+
+function nodeLabel(node) {
+  const semantic = node.attributes?.["aria-label"]
+    || node.attributes?.alt
+    || node.attributes?.title
+    || node.attributes?.name
+    || node.attributes?.id
+    || node.text;
+  return semantic?.trim().slice(0, 44) || `${node.tag} ${node.id}`;
+}
+
+function inferElementType(node) {
+  if (!node) return "SHAPE";
+  if (["img", "picture", "video", "canvas"].includes(node.tag)) return "IMAGE";
+  if (["svg", "i"].includes(node.tag)) return "ICON";
+  if (["input", "textarea", "select"].includes(node.tag)) return "INPUT";
+  if (node.tag === "button" || node.attributes?.role === "button") return "BUTTON_VISUAL";
+  if (["p", "span", "label", "a", "h1", "h2", "h3", "h4", "h5", "h6", "li"].includes(node.tag)
+      && node.text?.trim()) return "TEXT";
+  return "SHAPE";
+}
+
+function styleFromNode(node) {
+  const style = node?.computed_style || {};
+  const result = {};
+  const mapping = {
+    backgroundColor: "background_color",
+    color: "text_color",
+    borderColor: "border_color",
+    borderRadius: "border_radius",
+    fontFamily: "font_family",
+    fontSize: "font_size",
+    fontWeight: "font_weight",
+    lineHeight: "line_height",
+    opacity: "opacity",
+  };
+  Object.entries(mapping).forEach(([source, target]) => {
+    if (style[source] != null && style[source] !== "") result[target] = style[source];
+  });
+  const imageSrc = node?.attributes?.src || node?.attributes?.["data-src"];
+  if (imageSrc) result.image_src = imageSrc;
+  return result;
+}
+
+function renderNodes() {
+  if (!state.graph) return;
+  const query = state.nodeSearch.trim().toLowerCase();
+  const used = usedNodeIds();
+  const nodes = state.graph.nodes.filter((node) => {
+    if (!query) return true;
+    return [
+      node.tag, node.text, node.attributes?.id, node.attributes?.class,
+      node.attributes?.["aria-label"],
+    ].some((value) => String(value || "").toLowerCase().includes(query));
+  });
+  $("nodeSelectionCount").textContent = String(state.selectedNodeIds.size);
+  $("nodeList").innerHTML = nodes.map((node) => `
+    <button class="list-row ${state.selectedNodeIds.has(node.id) ? "active" : ""}"
+      type="button" data-node-id="${node.id}">
+      <input type="checkbox" tabindex="-1" ${state.selectedNodeIds.has(node.id) ? "checked" : ""}
+        ${used.has(node.id) && !state.selectedNodeIds.has(node.id) ? "disabled" : ""}>
+      <span class="row-copy">
+        <span class="row-title">${escapeHtml(nodeLabel(node))}</span>
+        <span class="row-subtitle">#${node.id} · ${escapeHtml(node.tag)} · ${Math.round(node.bbox.width)}×${Math.round(node.bbox.height)}</span>
+      </span>
+      <span class="row-badge">${used.has(node.id) ? "USED" : `D${node.depth}`}</span>
+    </button>
+  `).join("") || '<div class="empty-state compact">没有匹配节点</div>';
+  $("nodeList").querySelectorAll("[data-node-id]").forEach((row) => {
+    row.addEventListener("click", () => toggleNode(Number(row.dataset.nodeId)));
+  });
+}
+
+function renderCanvas() {
+  if (!state.graph) return;
+  const { width, height } = state.graph.canvas;
+  const scaledWidth = Math.max(1, width * state.scale);
+  const scaledHeight = Math.max(1, height * state.scale);
+  const stage = $("canvasStage");
+  stage.style.width = `${scaledWidth}px`;
+  stage.style.height = `${scaledHeight}px`;
+  $("zoomValue").textContent = `${Math.round(state.scale * 100)}%`;
+
+  const used = usedNodeIds();
+  const showAll = $("showAllNodes").checked;
+  const showLabels = $("showLabels").checked;
+  const nodes = [...state.graph.nodes].sort((a, b) => (
+    (b.bbox.width * b.bbox.height) - (a.bbox.width * a.bbox.height)
+  ));
+  $("nodeOverlay").innerHTML = nodes
+    .filter((node) => showAll || state.selectedNodeIds.has(node.id))
+    .map((node, index) => {
+      const box = node.bbox;
+      const classes = [
+        "node-box",
+        state.selectedNodeIds.has(node.id) ? "selected" : "",
+        used.has(node.id) ? "used" : "",
+      ].filter(Boolean).join(" ");
+      return `<button type="button" class="${classes}" data-canvas-node-id="${node.id}"
+        title="#${node.id} ${escapeHtml(node.tag)} ${escapeHtml(nodeLabel(node))}"
+        style="left:${box.x * state.scale}px;top:${box.y * state.scale}px;width:${Math.max(2, box.width * state.scale)}px;height:${Math.max(2, box.height * state.scale)}px;z-index:${index + 1}">
+        ${showLabels ? `<span class="node-label">#${node.id} ${escapeHtml(node.tag)}</span>` : ""}
+      </button>`;
+    }).join("");
+  $("nodeOverlay").querySelectorAll("[data-canvas-node-id]").forEach((box) => {
+    box.addEventListener("click", (event) => {
+      event.stopPropagation();
+      toggleNode(Number(box.dataset.canvasNodeId));
+    });
+  });
+
+  const entities = [
+    ...state.annotation.groups.map((entity) => ({ entity, kind: "group" })),
+    ...state.annotation.elements.map((entity) => ({ entity, kind: "element" })),
+  ];
+  $("entityOverlay").innerHTML = entities.map(({ entity, kind }, index) => {
+    const box = entity.bbox;
+    const active = entity.id === state.activeEntityId ? "active" : "";
+    return `<div class="entity-box ${kind} ${active}"
+      title="${escapeHtml(entity.name)}"
+      style="left:${box.x * state.scale}px;top:${box.y * state.scale}px;width:${Math.max(2, box.width * state.scale)}px;height:${Math.max(2, box.height * state.scale)}px;z-index:${100 + index}"></div>`;
+  }).join("");
+}
+
+function createElement() {
+  const nodes = [...state.selectedNodeIds].map(nodeById).filter(Boolean);
+  if (!nodes.length) {
+    toast("请先选择至少一个实现节点", true);
+    return;
+  }
+  const selectedIds = nodes.map((node) => node.id);
+  const taken = usedNodeIds();
+  if (selectedIds.some((id) => taken.has(id))) {
+    toast("选择中包含已使用节点", true);
+    return;
+  }
+  const first = nodes[0];
+  const id = uniqueId("e", state.annotation.elements);
+  const texts = [...new Set(nodes.map((node) => node.text?.trim()).filter(Boolean))];
+  state.annotation.elements.push({
+    id,
+    source_node_ids: selectedIds,
+    type: $("newElementType").value,
+    bbox: bboxUnion(nodes.map((node) => node.bbox)),
+    name: nodeLabel(first),
+    text: texts.join(" ").slice(0, 500),
+    style: styleFromNode(first),
+    style_token_refs: [],
+    confidence: 1,
+  });
+  state.annotation.tree.push({
+    parent_id: "page_root", child_id: id, order: 0, confidence: 1,
+  });
+  state.selectedNodeIds.clear();
+  state.activeEntityId = id;
+  state.activeTokenId = null;
+  markDirty();
+  renderAll();
+  toast(`已创建元素 ${id}`);
+}
+
+function renderEntities() {
+  $("entitySelectionCount").textContent = String(state.selectedEntityIds.size);
+  const rows = [
+    ...state.annotation.groups.map((item) => ({ item, badge: item.role, group: true })),
+    ...state.annotation.elements.map((item) => ({ item, badge: item.type, group: false })),
+  ];
+  $("entityList").innerHTML = rows.map(({ item, badge, group }) => `
+    <button class="list-row ${state.activeEntityId === item.id ? "active" : ""}"
+      type="button" data-entity-id="${escapeHtml(item.id)}">
+      <input class="entity-checkbox" type="checkbox" tabindex="-1"
+        ${state.selectedEntityIds.has(item.id) ? "checked" : ""}>
+      <span class="row-copy">
+        <span class="row-title">${escapeHtml(item.name || item.id)}</span>
+        <span class="row-subtitle">${escapeHtml(item.id)} · ${group ? `${directChildIds(item.id).length} 直接子项` : `${item.source_node_ids.length} 源节点`}</span>
+      </span>
+      <span class="row-badge">${escapeHtml(badge)}</span>
+    </button>
+  `).join("") || '<div class="empty-state compact">尚未创建实体</div>';
+  $("entityList").querySelectorAll("[data-entity-id]").forEach((row) => {
+    row.addEventListener("click", (event) => {
+      const id = row.dataset.entityId;
+      if (event.target.classList.contains("entity-checkbox")) {
+        if (state.selectedEntityIds.has(id)) state.selectedEntityIds.delete(id);
+        else state.selectedEntityIds.add(id);
+        renderEntities();
+        renderTokens();
+        return;
+      }
+      state.activeEntityId = id;
+      state.activeTokenId = null;
+      renderEntities();
+      renderCanvas();
+      renderInspector();
+    });
+  });
+}
+
+function defaultLayout(targetId) {
+  return {
+    target_id: targetId,
+    mode: "FREE",
+    gap: 0,
+    padding: [0, 0, 0, 0],
+    primary_align: "START",
+    cross_align: "START",
+    horizontal_resize: "FIXED",
+    vertical_resize: "FIXED",
+    confidence: 1,
+  };
+}
+
+function createGroup() {
+  const memberIds = [...state.selectedEntityIds]
+    .filter((id) => entityKind(id));
+  if (!memberIds.length) {
+    toast("请先选择设计元素或子分组", true);
+    return;
+  }
+  if (memberIds.length === 1 && entityKind(memberIds[0]) === "element") {
+    toast("单个原子元素不能独立成组；请选择至少两个实体或一个子分组", true);
+    return;
+  }
+  const containsAncestorPair = memberIds.some((left) => (
+    memberIds.some((right) => left !== right && descendantsOf(left).has(right))
+  ));
+  if (containsAncestorPair) {
+    toast("不能同时选择祖先分组及其后代实体", true);
+    return;
+  }
+  const members = memberIds.map(entityById);
+  const id = uniqueId("g", state.annotation.groups);
+  state.annotation.groups.push({
+    id,
+    source_element_ids: [],
+    role: "CONTAINER",
+    bbox: bboxUnion(members.map((item) => item.bbox)),
+    name: `group ${state.annotation.groups.length + 1}`,
+    style: {},
+    source_node_id: null,
+    confidence: 1,
+  });
+  state.annotation.layouts.push(defaultLayout(id));
+  const memberParents = memberIds.map(currentParent);
+  const sharedParent = memberParents.every((value) => value === memberParents[0])
+    ? memberParents[0] : "page_root";
+  state.annotation.tree.push({
+    parent_id: sharedParent, child_id: id, order: 0, confidence: 1,
+  });
+  memberIds.forEach((memberId) => setParent(memberId, id));
+  normalizeAnnotation();
+  state.selectedEntityIds.clear();
+  state.activeEntityId = id;
+  state.activeTokenId = null;
+  markDirty();
+  renderAll();
+  toast(`已创建分组 ${id}`);
+}
+
+function parentOptions(entityId) {
+  const invalid = descendantsOf(entityId);
+  return [
+    { value: "page_root", label: "画布（page_root）" },
+    ...state.annotation.groups
+      .filter((group) => group.id !== entityId && !invalid.has(group.id))
+      .map((group) => ({ value: group.id, label: `${group.name} · ${group.id}` })),
+  ];
+}
+
+function optionsHtml(values, selected) {
+  return values.map((value) => {
+    const option = typeof value === "string" ? { value, label: value } : value;
+    return `<option value="${escapeHtml(option.value)}" ${option.value === selected ? "selected" : ""}>${escapeHtml(option.label)}</option>`;
+  }).join("");
+}
+
+function numericField(label, path, value, step = "1") {
+  return `<label><span>${label}</span><input type="number" step="${step}" data-path="${path}" value="${Number(value)}"></label>`;
+}
+
+function renderInspector() {
+  const entity = entityById(state.activeEntityId);
+  const token = tokenById(state.activeTokenId);
+  $("inspectorEmpty").classList.toggle("hidden", Boolean(entity || token));
+  $("entityInspector").classList.toggle("hidden", !entity);
+  $("tokenInspector").classList.toggle("hidden", !token);
+  $("deleteEntity").classList.toggle("hidden", !entity && !token);
+
+  if (entity) {
+    const kind = entityKind(entity.id);
+    $("inspectorTitle").textContent = `${entity.name || entity.id} · ${entity.id}`;
+    $("deleteEntity").textContent = kind === "group" ? "删除分组" : "删除元素";
+    renderEntityInspector(entity, kind);
+  } else if (token) {
+    $("inspectorTitle").textContent = `${token.name} · ${token.id}`;
+    $("deleteEntity").textContent = "删除 Token";
+    renderTokenInspector(token);
+  } else {
+    $("inspectorTitle").textContent = "未选择实体";
+  }
+}
+
+function renderEntityInspector(entity, kind) {
+  const isGroup = kind === "group";
+  const typeValues = isGroup ? GROUP_ROLES : ELEMENT_TYPES;
+  const typeValue = isGroup ? entity.role : entity.type;
+  let html = `
+    <div class="field-grid">
+      <label class="wide"><span>名称</span><input data-path="name" value="${escapeHtml(entity.name)}"></label>
+      <label><span>${isGroup ? "语义角色" : "元素类型"}</span>
+        <select data-path="${isGroup ? "role" : "type"}">${optionsHtml(typeValues, typeValue)}</select>
+      </label>
+      <label><span>父级</span>
+        <select data-parent>${optionsHtml(parentOptions(entity.id), currentParent(entity.id))}</select>
+      </label>
+    </div>`;
+  if (!isGroup) {
+    html += `
+      <label class="inspector-wide"><span>文本</span><textarea data-path="text">${escapeHtml(entity.text)}</textarea></label>
+      <div class="read-only-line">源节点：${entity.source_node_ids.map((id) => `#${id}`).join(", ")}</div>`;
+  }
+  html += `
+    <div class="section-label">边界框</div>
+    <div class="field-grid">
+      ${numericField("X", "bbox.x", entity.bbox.x, "0.1")}
+      ${numericField("Y", "bbox.y", entity.bbox.y, "0.1")}
+      ${numericField("宽", "bbox.width", entity.bbox.width, "0.1")}
+      ${numericField("高", "bbox.height", entity.bbox.height, "0.1")}
+    </div>`;
+  if (isGroup) {
+    const layout = state.annotation.layouts.find((item) => item.target_id === entity.id)
+      || defaultLayout(entity.id);
+    const children = directChildIds(entity.id);
+    const childCandidates = [
+      ...state.annotation.groups
+        .filter((group) => group.id !== entity.id),
+      ...state.annotation.elements,
+    ];
+    html += `
+      <div class="section-label">直接子实体</div>
+      <div class="member-list">${childCandidates.map((child) => `
+        <label class="member-option">
+          <input type="checkbox" data-group-child="${escapeHtml(child.id)}"
+            ${children.includes(child.id) ? "checked" : ""}>
+          <span>${escapeHtml(child.name)} · ${escapeHtml(child.id)} · ${entityKind(child.id) === "group" ? "GROUP" : child.type}</span>
+        </label>`).join("")}</div>
+      <div class="read-only-line">后代原子覆盖（自动）：${entity.source_element_ids.length ? entity.source_element_ids.join(", ") : "无"}</div>
+      <div class="section-label">布局约束</div>
+      <div class="field-grid">
+        <label><span>方向</span><select data-layout="mode">${optionsHtml(LAYOUT_MODES, layout.mode)}</select></label>
+        ${numericField("间距", "layout.gap", layout.gap, "0.1")}
+        <label><span>主轴对齐</span><select data-layout="primary_align">${optionsHtml(PRIMARY_ALIGNMENTS, layout.primary_align)}</select></label>
+        <label><span>交叉轴对齐</span><select data-layout="cross_align">${optionsHtml(CROSS_ALIGNMENTS, layout.cross_align)}</select></label>
+        <label><span>水平尺寸</span><select data-layout="horizontal_resize">${optionsHtml(RESIZE_MODES, layout.horizontal_resize)}</select></label>
+        <label><span>垂直尺寸</span><select data-layout="vertical_resize">${optionsHtml(RESIZE_MODES, layout.vertical_resize)}</select></label>
+      </div>
+      <div class="section-label">内边距（上 / 右 / 下 / 左）</div>
+      <div class="quad-grid">
+        ${[0, 1, 2, 3].map((index) => `<input type="number" step="0.1" data-padding="${index}" value="${Number(layout.padding[index] || 0)}">`).join("")}
+      </div>`;
+  }
+  $("entityInspector").innerHTML = html;
+  bindEntityInspector(entity, isGroup);
+}
+
+function assignPath(object, path, value) {
+  const parts = path.split(".");
+  const final = parts.pop();
+  const target = parts.reduce((current, part) => current[part], object);
+  target[final] = value;
+}
+
+function inputValue(input) {
+  return input.type === "number" ? Number(input.value) : input.value;
+}
+
+function bindEntityInspector(entity, isGroup) {
+  const form = $("entityInspector");
+  form.querySelectorAll("[data-path]").forEach((input) => {
+    if (input.dataset.path.startsWith("layout.")) return;
+    input.addEventListener("change", () => {
+      assignPath(entity, input.dataset.path, inputValue(input));
+      markDirty();
+      renderEntities();
+      renderCanvas();
+      renderInspector();
+    });
+  });
+  form.querySelector("[data-parent]")?.addEventListener("change", (event) => {
+    if (setParent(entity.id, event.target.value)) {
+      renderEntities();
+      renderInspector();
+    }
+  });
+  if (!isGroup) return;
+  const layout = state.annotation.layouts.find((item) => item.target_id === entity.id);
+  form.querySelectorAll("[data-group-child]").forEach((input) => {
+    input.addEventListener("change", () => {
+      const memberId = input.dataset.groupChild;
+      const groupParent = currentParent(entity.id);
+      if (input.checked) {
+        if (!setParent(memberId, entity.id)) {
+          renderInspector();
+          return;
+        }
+      } else {
+        if (currentParent(memberId) === entity.id) {
+          setParent(memberId, groupParent);
+        }
+      }
+      normalizeAnnotation();
+      updateGroupBBox(entity);
+      markDirty();
+      renderAll();
+    });
+  });
+  form.querySelectorAll("[data-layout]").forEach((input) => {
+    input.addEventListener("change", () => {
+      layout[input.dataset.layout] = inputValue(input);
+      markDirty();
+      renderInspector();
+    });
+  });
+  form.querySelectorAll("[data-path='layout.gap']").forEach((input) => {
+    input.addEventListener("change", () => {
+      layout.gap = Number(input.value);
+      markDirty();
+      renderInspector();
+    });
+  });
+  form.querySelectorAll("[data-padding]").forEach((input) => {
+    input.addEventListener("change", () => {
+      layout.padding[Number(input.dataset.padding)] = Number(input.value);
+      markDirty();
+      renderInspector();
+    });
+  });
+}
+
+function rgbaToHex(color) {
+  if (!Array.isArray(color) || color.length < 3) return "#2563eb";
+  return `#${color.slice(0, 3).map((value) => (
+    Math.round(clamp(Number(value), 0, 1) * 255).toString(16).padStart(2, "0")
+  )).join("")}`;
+}
+
+function hexToRgba(value) {
+  const normalized = value.replace("#", "");
+  return [
+    parseInt(normalized.slice(0, 2), 16) / 255,
+    parseInt(normalized.slice(2, 4), 16) / 255,
+    parseInt(normalized.slice(4, 6), 16) / 255,
+    1,
+  ];
+}
+
+function defaultTokenValue(kind) {
+  if (kind === "COLOR") return { property: "background", rgba: [0.145, 0.388, 0.922, 1] };
+  if (kind === "TEXT") return { font_size: 16, font_weight: 400 };
+  if (kind === "RADIUS") return { radius: 4 };
+  return { spacing: 8 };
+}
+
+function tokenValueFields(kind, value, prefix) {
+  if (kind === "COLOR") {
+    return `
+      <label><span>属性</span><select data-token-value="property">
+        ${optionsHtml(["background", "foreground", "border"], value.property || "background")}
+      </select></label>
+      <label><span>颜色</span><input type="color" data-token-color value="${rgbaToHex(value.rgba)}"></label>`;
+  }
+  if (kind === "TEXT") {
+    return `
+      <label><span>字号</span><input type="number" min="1" step="0.5" data-token-value="font_size" value="${Number(value.font_size || 16)}"></label>
+      <label><span>字重</span><input type="number" min="100" max="900" step="100" data-token-value="font_weight" value="${Number(value.font_weight || 400)}"></label>`;
+  }
+  const key = kind === "RADIUS" ? "radius" : "spacing";
+  const label = kind === "RADIUS" ? "圆角" : "间距";
+  return `<label class="${prefix === "create" ? "wide" : ""}"><span>${label}</span>
+    <input type="number" min="0" step="0.5" data-token-value="${key}" value="${Number(value[key] || 0)}">
+  </label>`;
+}
+
+function renderTokenValueEditor() {
+  const kind = $("tokenKind").value;
+  const value = defaultTokenValue(kind);
+  $("tokenValueEditor").innerHTML = `<div class="field-grid">${tokenValueFields(kind, value, "create")}</div>`;
+}
+
+function readTokenValue(container, kind) {
+  const value = defaultTokenValue(kind);
+  container.querySelectorAll("[data-token-value]").forEach((input) => {
+    value[input.dataset.tokenValue] = input.type === "number" ? Number(input.value) : input.value;
+  });
+  const color = container.querySelector("[data-token-color]");
+  if (color) value.rgba = hexToRgba(color.value);
+  return value;
+}
+
+function createToken() {
+  const memberIds = [...state.selectedEntityIds].filter((id) => entityById(id));
+  if (memberIds.length < 2) {
+    toast("创建 Token 至少需要选择两个实体", true);
+    return;
+  }
+  const kind = $("tokenKind").value;
+  const id = uniqueId(`token_${kind.toLowerCase()}`, state.annotation.style_tokens);
+  state.annotation.style_tokens.push({
+    id,
+    kind,
+    value: readTokenValue($("tokenValueEditor"), kind),
+    member_ids: memberIds,
+    name: $("tokenName").value.trim() || id,
+    confidence: 1,
+  });
+  state.selectedEntityIds.clear();
+  state.activeTokenId = id;
+  state.activeEntityId = null;
+  markDirty();
+  renderAll();
+  toast(`已创建 Token ${id}`);
+}
+
+function renderTokens() {
+  $("tokenList").innerHTML = state.annotation.style_tokens.map((token) => `
+    <button type="button" class="token-row ${state.activeTokenId === token.id ? "active" : ""}"
+      data-token-id="${escapeHtml(token.id)}">
+      <span class="token-row-main">
+        ${token.kind === "COLOR" ? `<span class="token-swatch" style="background:${rgbaToHex(token.value.rgba)}"></span>` : ""}
+        <span class="row-copy">
+          <span class="row-title">${escapeHtml(token.name)}</span>
+          <span class="row-subtitle">${escapeHtml(token.id)} · ${token.member_ids.length} 成员</span>
+        </span>
+      </span>
+      <span class="row-badge">${escapeHtml(token.kind)}</span>
+    </button>
+  `).join("") || '<div class="empty-state compact">尚未创建 Token</div>';
+  $("tokenList").querySelectorAll("[data-token-id]").forEach((row) => {
+    row.addEventListener("click", () => {
+      state.activeTokenId = row.dataset.tokenId;
+      state.activeEntityId = null;
+      renderTokens();
+      renderEntities();
+      renderCanvas();
+      renderInspector();
+    });
+  });
+}
+
+function renderTokenInspector(token) {
+  const allEntities = [...state.annotation.elements, ...state.annotation.groups];
+  $("tokenInspector").innerHTML = `
+    <div class="field-grid">
+      <label class="wide"><span>名称</span><input data-token-name value="${escapeHtml(token.name)}"></label>
+      <label><span>类型</span><select data-token-kind>${optionsHtml(["COLOR", "TEXT", "RADIUS", "SPACING"], token.kind)}</select></label>
+      ${tokenValueFields(token.kind, token.value, "inspect")}
+    </div>
+    <div class="section-label">成员</div>
+    <div class="member-list">${allEntities.map((entity) => `
+      <label class="member-option">
+        <input type="checkbox" data-token-member="${escapeHtml(entity.id)}"
+          ${token.member_ids.includes(entity.id) ? "checked" : ""}>
+        <span>${escapeHtml(entity.name)} · ${escapeHtml(entity.id)}</span>
+      </label>`).join("")}</div>`;
+  const form = $("tokenInspector");
+  form.querySelector("[data-token-name]").addEventListener("change", (event) => {
+    token.name = event.target.value.trim() || token.id;
+    markDirty();
+    renderTokens();
+    renderInspector();
+  });
+  form.querySelector("[data-token-kind]").addEventListener("change", (event) => {
+    token.kind = event.target.value;
+    token.value = defaultTokenValue(token.kind);
+    markDirty();
+    renderTokens();
+    renderInspector();
+  });
+  form.querySelectorAll("[data-token-value], [data-token-color]").forEach((input) => {
+    input.addEventListener("change", () => {
+      token.value = readTokenValue(form, token.kind);
+      markDirty();
+      renderTokens();
+      renderInspector();
+    });
+  });
+  form.querySelectorAll("[data-token-member]").forEach((input) => {
+    input.addEventListener("change", () => {
+      const id = input.dataset.tokenMember;
+      if (input.checked && !token.member_ids.includes(id)) token.member_ids.push(id);
+      if (!input.checked) token.member_ids = token.member_ids.filter((item) => item !== id);
+      markDirty();
+      renderTokens();
+      renderInspector();
+    });
+  });
+}
+
+function deleteActive() {
+  if (state.activeTokenId) {
+    const id = state.activeTokenId;
+    state.annotation.style_tokens = state.annotation.style_tokens.filter((token) => token.id !== id);
+    state.activeTokenId = null;
+    markDirty();
+    renderAll();
+    return;
+  }
+  const id = state.activeEntityId;
+  const kind = entityKind(id);
+  if (!kind) return;
+  const parent = currentParent(id);
+  if (kind === "element") {
+    state.annotation.elements = state.annotation.elements.filter((item) => item.id !== id);
+  } else {
+    state.annotation.groups = state.annotation.groups.filter((item) => item.id !== id);
+    state.annotation.layouts = state.annotation.layouts.filter((item) => item.target_id !== id);
+    state.annotation.tree
+      .filter((edge) => edge.parent_id === id)
+      .forEach((edge) => { edge.parent_id = parent; });
+  }
+  state.annotation.tree = state.annotation.tree.filter((edge) => edge.child_id !== id);
+  state.annotation.style_tokens.forEach((token) => {
+    token.member_ids = token.member_ids.filter((memberId) => memberId !== id);
+  });
+  state.selectedEntityIds.delete(id);
+  state.activeEntityId = null;
+  normalizeAnnotation();
+  markDirty();
+  renderAll();
+}
+
+function localValidation() {
+  const errors = [];
+  const sourceCounts = new Map();
+  state.annotation.elements.forEach((element) => {
+    if (!element.source_node_ids.length) errors.push(`${element.id} 没有源节点`);
+    element.source_node_ids.forEach((id) => sourceCounts.set(id, (sourceCounts.get(id) || 0) + 1));
+    if (element.bbox.width <= 0 || element.bbox.height <= 0) errors.push(`${element.id} 的 bbox 面积无效`);
+  });
+  [...sourceCounts.entries()].filter(([, count]) => count > 1)
+    .forEach(([id]) => errors.push(`源节点 #${id} 被多个元素引用`));
+  state.annotation.groups.forEach((group) => {
+    const children = directChildIds(group.id);
+    if (!children.length) errors.push(`${group.id} 至少需要一个直接设计子实体`);
+    if (children.length === 1 && entityKind(children[0]) === "element") {
+      errors.push(`${group.id} 不能只包含一个直接原子元素`);
+    }
+    if (!group.source_element_ids.length) {
+      errors.push(`${group.id} 必须覆盖至少一个后代原子元素`);
+    }
+  });
+  state.annotation.style_tokens.forEach((token) => {
+    if (new Set(token.member_ids).size < 2) errors.push(`${token.id} 至少需要两个成员`);
+  });
+  if (!state.annotation.elements.length) errors.push("完整标注至少需要一个原子元素");
+  return errors;
+}
+
+async function saveAnnotation(submit = false, silent = false) {
+  if (!state.annotation) return false;
+  normalizeAnnotation();
+  state.validationErrors = localValidation();
+  renderValidation();
+  if (submit && state.validationErrors.length) {
+    toast("请先修复右侧校验错误", true);
+    return false;
+  }
+  $("saveButton").disabled = true;
+  $("submitButton").disabled = true;
+  try {
+    const url = apiUrl(`/api/annotation/${state.annotator}/${state.sampleId}`)
+      + (submit ? "?submit=1" : "");
+    const { data } = await requestJson(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(state.annotation),
+    });
+    state.annotation = data.annotation;
+    state.validationErrors = data.errors || [];
+    state.dirty = false;
+    const status = state.annotation.provenance.status;
+    state.assignment.sample_status[state.annotator][state.sampleId] = status;
+    const statuses = Object.values(state.assignment.sample_status[state.annotator]);
+    state.assignment.progress[state.annotator] = {
+      complete: statuses.filter((value) => value === "complete").length,
+      draft: statuses.filter((value) => value !== "complete").length,
+      total: statuses.length,
+    };
+    renderAll();
+    if (!silent) {
+      toast(data.submitted ? "标注已提交完成" : "草稿已保存", submit && !data.submitted);
+    }
+    return !submit || data.submitted;
+  } catch (error) {
+    toast(error.message, true);
+    return false;
+  } finally {
+    $("saveButton").disabled = false;
+    $("submitButton").disabled = false;
+  }
+}
+
+async function loadSample(sampleId) {
+  if (state.dirty) await saveAnnotation(false, true);
+  state.sampleId = sampleId;
+  state.selectedNodeIds.clear();
+  state.selectedEntityIds.clear();
+  state.activeEntityId = null;
+  state.activeTokenId = null;
+  state.validationErrors = [];
+  $("sampleSelect").value = sampleId;
+  try {
+    const [graphResult, annotationResult] = await Promise.all([
+      requestJson(apiUrl(`/api/sample/${sampleId}/graph`)),
+      requestJson(apiUrl(`/api/annotation/${state.annotator}/${sampleId}`)),
+    ]);
+    state.graph = graphResult.data;
+    state.annotation = annotationResult.data;
+    state.dirty = false;
+    $("pageScreenshot").src = apiUrl(`/api/sample/${sampleId}/screenshot`);
+    $("pageScreenshot").alt = `样本 ${sampleId} 的网页截图`;
+    renderAll();
+    window.requestAnimationFrame(fitCanvas);
+  } catch (error) {
+    toast(error.message, true);
+  }
+}
+
+async function changeAnnotator(annotator) {
+  if (state.dirty) await saveAnnotation(false, true);
+  state.annotator = annotator;
+  renderProgress();
+  await loadSample(state.sampleId);
+}
+
+function fitCanvas() {
+  if (!state.graph) return;
+  const viewport = $("canvasViewport");
+  const availableWidth = Math.max(120, viewport.clientWidth - 48);
+  const availableHeight = Math.max(120, viewport.clientHeight - 48);
+  state.scale = clamp(Math.min(
+    availableWidth / state.graph.canvas.width,
+    availableHeight / state.graph.canvas.height,
+  ), 0.1, 1);
+  renderCanvas();
+}
+
+function changeZoom(delta) {
+  state.scale = clamp(Math.round((state.scale + delta) * 10) / 10, 0.1, 2);
+  renderCanvas();
+}
+
+function renderAll() {
+  if (!state.annotation || !state.graph) return;
+  renderSaveState();
+  renderProgress();
+  renderNodes();
+  renderEntities();
+  renderTokens();
+  renderCanvas();
+  renderInspector();
+  renderValidation();
+}
+
+function bindStaticEvents() {
+  document.querySelectorAll(".panel-tab").forEach((button) => {
+    button.addEventListener("click", () => {
+      document.querySelectorAll(".panel-tab").forEach((item) => item.classList.remove("active"));
+      document.querySelectorAll(".tab-content").forEach((item) => item.classList.remove("active"));
+      button.classList.add("active");
+      $(`${button.dataset.tab}Tab`).classList.add("active");
+    });
+  });
+  $("nodeSearch").addEventListener("input", (event) => {
+    state.nodeSearch = event.target.value;
+    renderNodes();
+  });
+  $("createElement").addEventListener("click", createElement);
+  $("createGroup").addEventListener("click", createGroup);
+  $("createToken").addEventListener("click", createToken);
+  $("tokenKind").addEventListener("change", renderTokenValueEditor);
+  $("deleteEntity").addEventListener("click", deleteActive);
+  $("showAllNodes").addEventListener("change", renderCanvas);
+  $("showLabels").addEventListener("change", renderCanvas);
+  $("zoomOut").addEventListener("click", () => changeZoom(-0.1));
+  $("zoomIn").addEventListener("click", () => changeZoom(0.1));
+  $("fitCanvas").addEventListener("click", fitCanvas);
+  $("saveButton").addEventListener("click", () => saveAnnotation(false));
+  $("submitButton").addEventListener("click", () => saveAnnotation(true));
+  $("annotatorSelect").addEventListener("change", (event) => changeAnnotator(event.target.value));
+  $("sampleSelect").addEventListener("change", (event) => loadSample(event.target.value));
+  $("previousSample").addEventListener("click", () => {
+    const index = state.assignment.samples.findIndex((sample) => sample.sample_id === state.sampleId);
+    const next = state.assignment.samples[(index - 1 + state.assignment.samples.length) % state.assignment.samples.length];
+    loadSample(next.sample_id);
+  });
+  $("nextSample").addEventListener("click", () => {
+    const index = state.assignment.samples.findIndex((sample) => sample.sample_id === state.sampleId);
+    const next = state.assignment.samples[(index + 1) % state.assignment.samples.length];
+    loadSample(next.sample_id);
+  });
+  $("pageScreenshot").addEventListener("load", fitCanvas);
+  window.addEventListener("beforeunload", (event) => {
+    if (!state.dirty) return;
+    event.preventDefault();
+    event.returnValue = "";
+  });
+  window.addEventListener("resize", () => {
+    window.clearTimeout(window.intentResizeTimer);
+    window.intentResizeTimer = window.setTimeout(fitCanvas, 120);
+  });
+}
+
+async function initialize() {
+  bindStaticEvents();
+  renderTokenValueEditor();
+  try {
+    const { data } = await requestJson("/api/assignment");
+    state.assignment = data;
+    $("annotatorSelect").innerHTML = data.annotators
+      .map((annotator) => `<option value="${escapeHtml(annotator)}">${escapeHtml(annotator)}</option>`)
+      .join("");
+    $("sampleSelect").innerHTML = data.samples
+      .map((sample) => `<option value="${escapeHtml(sample.sample_id)}">${escapeHtml(sample.sample_id)}</option>`)
+      .join("");
+    state.sampleId = data.samples[0]?.sample_id;
+    renderProgress();
+    if (state.sampleId) await loadSample(state.sampleId);
+  } catch (error) {
+    toast(`初始化失败：${error.message}`, true);
+  }
+}
+
+initialize();

@@ -1,9 +1,11 @@
+import os
+
 import torch
 import torch.nn as nn
 from transformers import ViTModel, ViTImageProcessor
 from PIL import Image
 
-VIT_MODEL_NAME = "google/vit-base-patch16-224"
+VIT_MODEL_NAME = os.environ.get("VIT_MODEL_PATH", "google/vit-base-patch16-224")
 
 
 class VisualEncoder(nn.Module):

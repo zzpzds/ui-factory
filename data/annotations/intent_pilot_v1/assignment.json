@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "seed": 42,
+  "blind_double_annotation": true,
+  "weak_labels_visible": false,
+  "near_duplicate_policy": "one_representative_per_cluster",
+  "protocol": "docs/thesis/05_annotation_protocol.md",
+  "samples": [
+    {
+      "sample_id": "0001",
+      "node_count": 12,
+      "size_bin": "small",
+      "structure_fingerprint": "921c95e3268d3faa",
+      "screenshot": "data/processed/0001/screenshot.png",
+      "page_graph": "data/processed/0001/page_graph.json"
+    },
+    {
+      "sample_id": "0020",
+      "node_count": 70,
+      "size_bin": "medium",
+      "structure_fingerprint": "59fe5ff5ff2358a1",
+      "screenshot": "data/processed/0020/screenshot.png",
+      "page_graph": "data/processed/0020/page_graph.json"
+    },
+    {
+      "sample_id": "0319",
+      "node_count": 50,
+      "size_bin": "small",
+      "structure_fingerprint": "0daae4dfac1f75d2",
+      "screenshot": "data/processed/0319/screenshot.png",
+      "page_graph": "data/processed/0319/page_graph.json"
+    },
+    {
+      "sample_id": "0419",
+      "node_count": 38,
+      "size_bin": "small",
+      "structure_fingerprint": "1521dfcc24c14221",
+      "screenshot": "data/processed/0419/screenshot.png",
+      "page_graph": "data/processed/0419/page_graph.json"
+    },
+    {
+      "sample_id": "0601",
+      "node_count": 152,
+      "size_bin": "large",
+      "structure_fingerprint": "19f42bf51def64aa",
+      "screenshot": "data/processed/0601/screenshot.png",
+      "page_graph": "data/processed/0601/page_graph.json"
+    },
+    {
+      "sample_id": "0860",
+      "node_count": 83,
+      "size_bin": "medium",
+      "structure_fingerprint": "30cddc12bd285ee2",
+      "screenshot": "data/processed/0860/screenshot.png",
+      "page_graph": "data/processed/0860/page_graph.json"
+    },
+    {
+      "sample_id": "0052",
+      "node_count": 141,
+      "size_bin": "large",
+      "structure_fingerprint": "5a610a8ed775d05c",
+      "screenshot": "data/processed/0052/screenshot.png",
+      "page_graph": "data/processed/0052/page_graph.json"
+    },
+    {
+      "sample_id": "1094",
+      "node_count": 51,
+      "size_bin": "medium",
+      "structure_fingerprint": "a0e3537888f40d2a",
+      "screenshot": "data/processed/1094/screenshot.png",
+      "page_graph": "data/processed/1094/page_graph.json"
+    },
+    {
+      "sample_id": "1429",
+      "node_count": 125,
+      "size_bin": "medium",
+      "structure_fingerprint": "3092e4a71e5a3811",
+      "screenshot": "data/processed/1429/screenshot.png",
+      "page_graph": "data/processed/1429/page_graph.json"
+    },
+    {
+      "sample_id": "1474",
+      "node_count": 149,
+      "size_bin": "large",
+      "structure_fingerprint": "08136a36e9da5263",
+      "screenshot": "data/processed/1474/screenshot.png",
+      "page_graph": "data/processed/1474/page_graph.json"
+    }
+  ],
+  "replacement_history": [
+    {
+      "old_sample_id": "0733",
+      "new_sample_id": "0860",
+      "reason": "截图存在大量破损图片、外部资源加载失败与严重布局失序，不满足人工金标准 Pilot 的页面质量要求",
+      "old_size_bin": "medium",
+      "new_size_bin": "medium",
+      "old_node_count": 128,
+      "new_node_count": 83,
+      "replaced_at": "2026-07-30T14:47:37+08:00",
+      "archive_dir": "data/annotations/intent_pilot_v1/replaced/0733_to_0860"
+    },
+    {
+      "old_sample_id": "1248",
+      "new_sample_id": "1429",
+      "reason": "筛选与导航区域样式加载不完整，首屏结构明显失真，不满足人工金标准 Pilot 的页面质量要求",
+      "old_size_bin": "medium",
+      "new_size_bin": "medium",
+      "old_node_count": 90,
+      "new_node_count": 125,
+      "replaced_at": "2026-07-30T14:58:57+08:00",
+      "archive_dir": "data/annotations/intent_pilot_v1/replaced/1248_to_1429"
+    },
+    {
+      "old_sample_id": "1467",
+      "new_sample_id": "1474",
+      "reason": "顶部导航严重重叠且首屏布局失序，不满足人工金标准 Pilot 的页面质量要求",
+      "old_size_bin": "large",
+      "new_size_bin": "large",
+      "old_node_count": 129,
+      "new_node_count": 149,
+      "replaced_at": "2026-07-30T14:59:07+08:00",
+      "archive_dir": "data/annotations/intent_pilot_v1/replaced/1467_to_1474"
+    },
+    {
+      "old_sample_id": "0884",
+      "new_sample_id": "0052",
+      "reason": "首屏商品列表存在大量内容缺失与空白控件，页面实现信息不完整，不满足人工金标准 Pilot 的页面质量要求",
+      "old_size_bin": "large",
+      "new_size_bin": "large",
+      "old_node_count": 269,
+      "new_node_count": 141,
+      "replaced_at": "2026-07-30T17:27:23+08:00",
+      "archive_dir": "data/annotations/intent_pilot_v1/replaced/0884_to_0052"
+    }
+  ]
+}

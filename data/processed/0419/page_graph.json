@@ -1,0 +1,2511 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "0419",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "parent_id": null,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "site sscroll",
+        "id": "page"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 24.0,
+        "width": 1280.0,
+        "height": 776.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 0,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 1,
+      "parent_id": 0,
+      "tag": "header",
+      "text": "",
+      "attributes": {
+        "class": "site-header navbar-static-top",
+        "id": "mastheadx"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 24.0,
+        "width": 1280.0,
+        "height": 62.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 2,
+      "parent_id": 1,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "nav-container"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 24.0,
+        "width": 1280.0,
+        "height": 62.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 3,
+      "parent_id": 2,
+      "tag": "nav",
+      "text": "",
+      "attributes": {
+        "class": "sina-nav mobile-sidebar"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 24.0,
+        "width": 1280.0,
+        "height": 62.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 4,
+      "parent_id": 3,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "container"
+      },
+      "bbox": {
+        "x": 1.0,
+        "y": 25.0,
+        "width": 1279.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 0,
+        "marginRight": -30,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 5,
+      "parent_id": 4,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "sina-nav-header"
+      },
+      "bbox": {
+        "x": 16.0,
+        "y": 25.0,
+        "width": 1264.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 6,
+      "parent_id": 5,
+      "tag": "button",
+      "text": "",
+      "attributes": {
+        "class": "navbar-toggle"
+      },
+      "bbox": {
+        "x": 291.0,
+        "y": 25.0,
+        "width": 16.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.9372549019607843,
+          0.9372549019607843,
+          0.9372549019607843,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 2,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 1,
+        "paddingRight": 6,
+        "paddingBottom": 1,
+        "paddingLeft": 6,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 7,
+      "parent_id": 5,
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "sina-brand"
+      },
+      "bbox": {
+        "x": 16.0,
+        "y": 25.0,
+        "width": 260.0,
+        "height": 60.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderColor": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 15,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 8,
+      "parent_id": 7,
+      "tag": "h2",
+      "text": "sebastiancountyhumanesociety.org",
+      "attributes": {},
+      "bbox": {
+        "x": 16.0,
+        "y": 25.0,
+        "width": 260.0,
+        "height": 36.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 30,
+        "fontWeight": 500,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 36,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 9,
+      "parent_id": 7,
+      "tag": "p",
+      "text": "sebastiancountyhumanesociety.org",
+      "attributes": {},
+      "bbox": {
+        "x": 16.0,
+        "y": 61.0,
+        "width": 260.0,
+        "height": 16.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 16,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 10,
+      "parent_id": 0,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "site-content",
+        "id": "content"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 86.0,
+        "width": 1280.0,
+        "height": 714.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 11,
+      "parent_id": 10,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "wpbstarter-page-title-area"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 86.0,
+        "width": 1280.0,
+        "height": 297.1875
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 100,
+        "paddingRight": 0,
+        "paddingBottom": 100,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 12,
+      "parent_id": 11,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "container"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 186.0,
+        "width": 1280.0,
+        "height": 97.1875
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 0,
+        "marginRight": -30,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 13,
+      "parent_id": 12,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "row"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 186.0,
+        "width": 1280.0,
+        "height": 97.1875
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "flex",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": -15,
+        "marginBottom": 0,
+        "marginLeft": -15,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 14,
+      "parent_id": 13,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "col-lg-12"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 186.0,
+        "width": 1280.0,
+        "height": 97.1875
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 15,
+      "parent_id": 14,
+      "tag": "h1",
+      "text": "How to Play the Nevada Lottery Online",
+      "attributes": {
+        "class": "entry-title"
+      },
+      "bbox": {
+        "x": 15.0,
+        "y": 186.0,
+        "width": 1265.0,
+        "height": 48.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 40,
+        "fontWeight": 500,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 8,
+        "marginLeft": 0,
+        "lineHeight": 48,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 16,
+      "parent_id": 14,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "blog-entry-meta"
+      },
+      "bbox": {
+        "x": 15.0,
+        "y": 264.0,
+        "width": 1265.0,
+        "height": 19.1875
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12.8,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 30,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 17,
+      "parent_id": 16,
+      "tag": "span",
+      "text": "Posted on",
+      "attributes": {
+        "class": "posted-on"
+      },
+      "bbox": {
+        "x": 15.0,
+        "y": 266.0,
+        "width": 223.671875,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12.8,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 20,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 18,
+      "parent_id": 17,
+      "tag": "a",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 82.046875,
+        "y": 266.0,
+        "width": 136.625,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderColor": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12.8,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 19,
+      "parent_id": 18,
+      "tag": "time",
+      "text": "06/12/2022",
+      "attributes": {
+        "class": "entry-date published"
+      },
+      "bbox": {
+        "x": 82.046875,
+        "y": 266.0,
+        "width": 68.3125,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderColor": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12.8,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 20,
+      "parent_id": 18,
+      "tag": "time",
+      "text": "06/12/2022",
+      "attributes": {
+        "class": "updated"
+      },
+      "bbox": {
+        "x": 150.359375,
+        "y": 266.0,
+        "width": 68.3125,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderColor": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12.8,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 21,
+      "parent_id": 16,
+      "tag": "span",
+      "text": "by",
+      "attributes": {
+        "class": "byline"
+      },
+      "bbox": {
+        "x": 238.671875,
+        "y": 266.0,
+        "width": 250.515625,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12.8,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 20,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 22,
+      "parent_id": 21,
+      "tag": "span",
+      "text": "",
+      "attributes": {
+        "class": "author vcard"
+      },
+      "bbox": {
+        "x": 260.203125,
+        "y": 266.0,
+        "width": 208.984375,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12.8,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 20,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 23,
+      "parent_id": 22,
+      "tag": "a",
+      "text": "sebastiancountyhumanesociety",
+      "attributes": {
+        "class": "url fn n"
+      },
+      "bbox": {
+        "x": 260.203125,
+        "y": 266.0,
+        "width": 188.984375,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderColor": [
+          0,
+          0.4823529411764706,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12.8,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 24,
+      "parent_id": 10,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "content-area wpbstarter-content-area-padding",
+        "id": "primary"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 383.1875,
+        "width": 1280.0,
+        "height": 416.8125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 80,
+        "paddingRight": 0,
+        "paddingBottom": 80,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 25,
+      "parent_id": 24,
+      "tag": "main",
+      "text": "",
+      "attributes": {
+        "class": "site-main",
+        "id": "main"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 463.1875,
+        "width": 1280.0,
+        "height": 336.8125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 26,
+      "parent_id": 25,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "container"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 463.1875,
+        "width": 1280.0,
+        "height": 336.8125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 0,
+        "marginRight": -30,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 27,
+      "parent_id": 26,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "row"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 463.1875,
+        "width": 1280.0,
+        "height": 336.8125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "flex",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": -15,
+        "marginBottom": 0,
+        "marginLeft": -15,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 28,
+      "parent_id": 27,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "col-lg-8"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 463.1875,
+        "width": 1280.0,
+        "height": 336.8125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 29,
+      "parent_id": 28,
+      "tag": "article",
+      "text": "",
+      "attributes": {
+        "class": "post-102 post type-post status-publish format-standard hentry category-uncategorized",
+        "id": "post-102"
+      },
+      "bbox": {
+        "x": 15.0,
+        "y": 463.1875,
+        "width": 1265.0,
+        "height": 336.8125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 24,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 30,
+      "parent_id": 29,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "entry-content ulol"
+      },
+      "bbox": {
+        "x": 15.0,
+        "y": 463.1875,
+        "width": 1265.0,
+        "height": 336.8125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 7
+    },
+    {
+      "id": 31,
+      "parent_id": 30,
+      "tag": "p",
+      "text": "Unlike many other states, Nevada does not have a state-wide lottery. Instead, residents travel acros",
+      "attributes": {},
+      "bbox": {
+        "x": 15.0,
+        "y": 463.1875,
+        "width": 1265.0,
+        "height": 45.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 15,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 16,
+        "marginLeft": 0,
+        "lineHeight": 22.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 32,
+      "parent_id": 30,
+      "tag": "p",
+      "text": "The lottery’s jackpots often reach multi-million dollar amounts. This is because the jackpots are pr",
+      "attributes": {},
+      "bbox": {
+        "x": 15.0,
+        "y": 524.1875,
+        "width": 1265.0,
+        "height": 45.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 15,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 16,
+        "marginLeft": 0,
+        "lineHeight": 22.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 33,
+      "parent_id": 30,
+      "tag": "p",
+      "text": "Players can purchase tickets for the lottery at any of the seven jurisdictions that offer online lot",
+      "attributes": {},
+      "bbox": {
+        "x": 15.0,
+        "y": 585.1875,
+        "width": 1265.0,
+        "height": 45.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 15,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 16,
+        "marginLeft": 0,
+        "lineHeight": 22.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 2,
+      "child_count": 0
+    },
+    {
+      "id": 34,
+      "parent_id": 30,
+      "tag": "p",
+      "text": "In order to participate in a lottery, players must be at least 18 years old. Some states have a mini",
+      "attributes": {},
+      "bbox": {
+        "x": 15.0,
+        "y": 646.1875,
+        "width": 1265.0,
+        "height": 22.5
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 15,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 16,
+        "marginLeft": 0,
+        "lineHeight": 22.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 3,
+      "child_count": 0
+    },
+    {
+      "id": 35,
+      "parent_id": 30,
+      "tag": "p",
+      "text": "Most states offer at least one daily lottery. Daily lotteries have smaller jackpots than other lotte",
+      "attributes": {},
+      "bbox": {
+        "x": 15.0,
+        "y": 684.6875,
+        "width": 1265.0,
+        "height": 45.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 15,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 16,
+        "marginLeft": 0,
+        "lineHeight": 22.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 4,
+      "child_count": 0
+    },
+    {
+      "id": 36,
+      "parent_id": 30,
+      "tag": "p",
+      "text": "Players must select one or two numbers out of a pool. The Mega Millions pool includes five numbers, ",
+      "attributes": {},
+      "bbox": {
+        "x": 15.0,
+        "y": 745.6875,
+        "width": 1265.0,
+        "height": 22.5
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 15,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 16,
+        "marginLeft": 0,
+        "lineHeight": 22.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 5,
+      "child_count": 0
+    },
+    {
+      "id": 37,
+      "parent_id": 30,
+      "tag": "p",
+      "text": "The odds of winning a jackpot are usually very low. But, when the jackpot reaches a huge amount, the",
+      "attributes": {},
+      "bbox": {
+        "x": 15.0,
+        "y": 784.1875,
+        "width": 1265.0,
+        "height": 15.8125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderColor": [
+          0.12941176470588237,
+          0.1450980392156863,
+          0.1607843137254902,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 15,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 16,
+        "marginLeft": 0,
+        "lineHeight": 22.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 6,
+      "child_count": 0
+    }
+  ],
+  "metadata": {
+    "source_format": "playwright_page_graph_v1",
+    "coordinate_space": "viewport_pixels",
+    "target_vit_size": 224,
+    "viewport_filter": "intersects_and_clipped_v2",
+    "resource_policy": "block_media_and_font_v1"
+  }
+}

@@ -1,8 +1,13 @@
+import os
+
 import torch
 import torch.nn as nn
 from transformers import AutoTokenizer, AutoModel
 
-CODEBERT_MODEL_PATH = "/Users/didi/.cache/modelscope/microsoft/codebert-base"
+CODEBERT_MODEL_PATH = os.environ.get(
+    "CODEBERT_PATH",
+    "/Users/didi/.cache/modelscope/microsoft/codebert-base",
+)
 
 
 class CodeEncoder(nn.Module):
@@ -11,13 +16,20 @@ class CodeEncoder(nn.Module):
     输出形状：[B, N, 768]，其中 N 为节点数
     """
 
-    def __init__(self, model_path: str = CODEBERT_MODEL_PATH, max_length: int = 128):
+    def __init__(
+        self,
+        model_path: str = CODEBERT_MODEL_PATH,
+        max_length: int = 128,
+        local_files_only: bool = True,
+    ):
         super().__init__()
         self.max_length = max_length
         self.tokenizer = AutoTokenizer.from_pretrained(
-            model_path, local_files_only=True
+            model_path, local_files_only=local_files_only
         )
-        self.model = AutoModel.from_pretrained(model_path, local_files_only=True)
+        self.model = AutoModel.from_pretrained(
+            model_path, local_files_only=local_files_only
+        )
 
     def forward(self, batch_node_texts: list[list[str]]) -> torch.Tensor:
         """
