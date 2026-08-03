@@ -63,3 +63,14 @@ AI 文件冻结后，才读取设计师 A 已完成的 7 个样本并运行人�
 
 最终 `gold_intent.json` 必须保留人工复核记录。条件允许时，另请外部人员抽查
 至少 2 个样本，并在论文中披露其背景和抽查范围。
+
+## 仲裁材料状态
+
+已为设计师 A 完成的 7 页生成源节点签名对齐的逐项差异记录，位于
+`data/annotations/intent_pilot_v1/adjudication/`；以人工版本为底稿的待审核文件
+位于 `data/annotations/intent_pilot_v1/gold_drafts/`。两类文件都未进入训练目录，
+当前 `gold_status` 为 `draft_only`、`training_exported` 为 `false`。
+
+生成脚本支持在剩余 3 页完成后增量补齐，并使用原始输入 SHA-256 阻止静默覆盖。
+最终导出必须通过真实人员审核门槛，具体步骤见
+`docs/thesis/14_human_ai_adjudication_sop.md`。

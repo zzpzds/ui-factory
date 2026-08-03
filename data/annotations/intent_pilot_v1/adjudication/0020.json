@@ -1,0 +1,1554 @@
+{
+  "schema_version": "1.0",
+  "comparison_kind": "human-ai",
+  "sample_id": "0020",
+  "status": "pending",
+  "inputs": {
+    "human": {
+      "annotator": "annotator_a",
+      "path": "data/annotations/intent_pilot_v1/annotator_a/0020.json",
+      "sha256": "8a360648faabda6499805bc974b088c01b19cb65f866ff447a98a98fe55d916b"
+    },
+    "ai": {
+      "annotator": "annotator_ai",
+      "path": "data/annotations/intent_pilot_v1/annotator_ai/0020.json",
+      "sha256": "7d49e86bdf8d3054caa2af5d385f0a60d9023c6861979ed61ad946cc95b5e68b",
+      "must_not_be_reported_as_human": true
+    }
+  },
+  "metrics": {
+    "leaf_precision": 0.7222222222222222,
+    "leaf_recall": 0.7222222222222222,
+    "leaf_f1": 0.7222222222222222,
+    "group_pair_precision": 0.13580246913580246,
+    "group_pair_recall": 0.5238095238095238,
+    "group_pair_f1": 0.2156862745098039,
+    "group_bcubed_precision": 0.7166666666666667,
+    "group_bcubed_recall": 0.7939393939393938,
+    "group_bcubed_f1": 0.7533266466064861,
+    "group_match_precision": 0.5,
+    "group_match_recall": 0.6666666666666666,
+    "group_match_f1": 0.5714285714285715,
+    "parent_precision": 0.38461538461538464,
+    "parent_recall": 0.4166666666666667,
+    "parent_f1": 0.4,
+    "token_bcubed_precision": 0.2857142857142857,
+    "token_bcubed_recall": 1.0,
+    "token_bcubed_f1": 0.4444444444444445,
+    "layout_mode_accuracy": 0.6666666666666666,
+    "layout_mode_macro_f1": 0.5555555555555555,
+    "gap_normalized_mae": 0.013541666666666667,
+    "padding_normalized_mae": 0.005208333333333333,
+    "tree_normalized_edit_distance": 0.696969696969697,
+    "token_coverage": 0.3888888888888889,
+    "semantic_naming_rate": 1.0,
+    "layer_compression_ratio": 0.6285714285714286,
+    "layout_cohen_kappa": 0.49999999999999994
+  },
+  "summary": {
+    "elements_only_human": 5,
+    "elements_only_ai": 5,
+    "elements_matched_but_changed": 4,
+    "group_signature_disagreements": 8,
+    "tree_parent_disagreements": 25,
+    "layout_disagreements": 11,
+    "tokens_only_human": 0,
+    "tokens_only_ai": 2
+  },
+  "differences": {
+    "elements": {
+      "only_human": [
+        {
+          "source_node_ids": [
+            41
+          ],
+          "human": {
+            "id": "e_8",
+            "type": "TEXT",
+            "name": "卡片标题",
+            "text": "PATROCINADO",
+            "bbox": {
+              "x": 981.453125,
+              "y": 456.0,
+              "width": 126.0,
+              "height": 18.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            42
+          ],
+          "human": {
+            "id": "e_9",
+            "type": "TEXT",
+            "name": "卡片标题",
+            "text": "POR",
+            "bbox": {
+              "x": 1111.3125,
+              "y": 454.0,
+              "width": 38.0,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            47,
+            49
+          ],
+          "human": {
+            "id": "e_13",
+            "type": "TEXT",
+            "name": "页面背景图的标签",
+            "text": "Inicio",
+            "bbox": {
+              "x": 0.0,
+              "y": 150.0,
+              "width": 76.65625,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            53,
+            54
+          ],
+          "human": {
+            "id": "e_14",
+            "type": "BUTTON_VISUAL",
+            "name": "返回按钮",
+            "text": "Volver a",
+            "bbox": {
+              "x": 101.375,
+              "y": 548.0,
+              "width": 104.09375,
+              "height": 16.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            66,
+            68
+          ],
+          "human": {
+            "id": "e_18",
+            "type": "TEXT",
+            "name": "文章第二段",
+            "text": "200 gr de chocolate para fundir. 200 gr de manjar blanco.",
+            "bbox": {
+              "x": 142.390625,
+              "y": 733.0,
+              "width": 728.0,
+              "height": 67.0
+            }
+          }
+        }
+      ],
+      "only_ai": [
+        {
+          "source_node_ids": [
+            15
+          ],
+          "ai": {
+            "id": "e_social",
+            "type": "ICON",
+            "name": "社交图标",
+            "text": "",
+            "bbox": {
+              "x": 610.125,
+              "y": 29.0,
+              "width": 50.0,
+              "height": 50.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            41,
+            42
+          ],
+          "ai": {
+            "id": "e_sponsor_heading",
+            "type": "TEXT",
+            "name": "赞助商标题",
+            "text": "PATROCINADO POR",
+            "bbox": {
+              "x": 981.453125,
+              "y": 454.0,
+              "width": 167.859375,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            49
+          ],
+          "ai": {
+            "id": "e_breadcrumb",
+            "type": "TEXT",
+            "name": "首页面包屑",
+            "text": "Inicio",
+            "bbox": {
+              "x": 22.0,
+              "y": 156.0,
+              "width": 32.65625,
+              "height": 17.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            54
+          ],
+          "ai": {
+            "id": "e_back",
+            "type": "TEXT",
+            "name": "返回链接",
+            "text": "Volver a",
+            "bbox": {
+              "x": 106.375,
+              "y": 548.0,
+              "width": 94.09375,
+              "height": 16.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            66
+          ],
+          "ai": {
+            "id": "e_ingredient",
+            "type": "TEXT",
+            "name": "食材条目",
+            "text": "200 gr de chocolate para fundir.",
+            "bbox": {
+              "x": 142.390625,
+              "y": 733.0,
+              "width": 728.0,
+              "height": 40.0
+            }
+          }
+        }
+      ],
+      "matched_but_changed": [
+        {
+          "source_node_ids": [
+            10
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 0.9996143463170073,
+          "human": {
+            "id": "e_1",
+            "type": "BUTTON_VISUAL",
+            "name": "联系按钮",
+            "text": "Contáctanos",
+            "bbox": {
+              "x": 67.53125,
+              "y": 50.0,
+              "width": 81.0,
+              "height": 11.0
+            }
+          },
+          "ai": {
+            "id": "e_contact",
+            "type": "TEXT",
+            "name": "联系入口",
+            "text": "Contáctanos",
+            "bbox": {
+              "x": 67.53125,
+              "y": 50.0,
+              "width": 81.03125,
+              "height": 11.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            20
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_2",
+            "type": "BUTTON_VISUAL",
+            "name": "主页链接",
+            "text": "Inicio",
+            "bbox": {
+              "x": 35.53125,
+              "y": 112.0,
+              "width": 40.4375,
+              "height": 13.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_home",
+            "type": "TEXT",
+            "name": "首页导航",
+            "text": "Inicio",
+            "bbox": {
+              "x": 35.53125,
+              "y": 112.0,
+              "width": 40.4375,
+              "height": 13.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            24
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 0.9990817263544536,
+          "human": {
+            "id": "e_4",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接-产品",
+            "text": "Productos",
+            "bbox": {
+              "x": 546.59375,
+              "y": 112.0,
+              "width": 85.0,
+              "height": 13.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_products",
+            "type": "TEXT",
+            "name": "产品导航",
+            "text": "Productos",
+            "bbox": {
+              "x": 546.59375,
+              "y": 112.0,
+              "width": 85.078125,
+              "height": 13.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            26
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_5",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接-杂志",
+            "text": "Magazín",
+            "bbox": {
+              "x": 631.671875,
+              "y": 112.0,
+              "width": 69.390625,
+              "height": 13.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_magazine",
+            "type": "TEXT",
+            "name": "杂志导航",
+            "text": "Magazín",
+            "bbox": {
+              "x": 631.671875,
+              "y": 112.0,
+              "width": 69.390625,
+              "height": 13.0
+            }
+          }
+        }
+      ]
+    },
+    "groups": [
+      {
+        "source_node_ids": [
+          10,
+          15
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_top_nav",
+            "role": "NAV",
+            "name": "顶部辅助导航",
+            "bbox": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 710.671875,
+              "height": 71.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          10,
+          15,
+          20,
+          22,
+          24,
+          26
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_header",
+            "role": "SECTION",
+            "name": "页面页眉",
+            "bbox": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 710.671875,
+              "height": 150.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          32,
+          36,
+          41,
+          42,
+          43,
+          44,
+          46,
+          49,
+          54,
+          58,
+          60,
+          63,
+          66
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_main",
+            "role": "SECTION",
+            "name": "页面主体",
+            "bbox": {
+              "x": 0.0,
+              "y": 150.0,
+              "width": 1280.0,
+              "height": 650.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          32,
+          36,
+          47,
+          49
+        ],
+        "human": [
+          {
+            "id": "g_2",
+            "role": "CONTAINER",
+            "name": "页面背景主题",
+            "bbox": {
+              "x": 0.0,
+              "y": 150.0,
+              "width": 1280.0,
+              "height": 376.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          32,
+          36,
+          49
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_hero",
+            "role": "SECTION",
+            "name": "文章主视觉",
+            "bbox": {
+              "x": 0.0,
+              "y": 150.0,
+              "width": 1280.0,
+              "height": 376.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          41,
+          42
+        ],
+        "human": [
+          {
+            "id": "g_3",
+            "role": "SECTION",
+            "name": "卡片标题",
+            "bbox": {
+              "x": 981.453125,
+              "y": 454.0,
+              "width": 167.859375,
+              "height": 22.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          54,
+          58,
+          60,
+          63,
+          66
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_article",
+            "role": "SECTION",
+            "name": "文章正文",
+            "bbox": {
+              "x": 101.375,
+              "y": 548.0,
+              "width": 769.015625,
+              "height": 225.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          63,
+          66,
+          68
+        ],
+        "human": [
+          {
+            "id": "g_6",
+            "role": "CONTAINER",
+            "name": "文章正文",
+            "bbox": {
+              "x": 102.390625,
+              "y": 638.0,
+              "width": 768.0,
+              "height": 162.0
+            }
+          }
+        ],
+        "ai": []
+      }
+    ],
+    "tree": [
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            10
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              10,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            15
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              10,
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            32
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              47,
+              49
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            36
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              47,
+              49
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            41
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              41,
+              42
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            41,
+            42
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              41,
+              42,
+              43,
+              44,
+              46
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            42
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              41,
+              42
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            47,
+            49
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              47,
+              49
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            49
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              49
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            53,
+            54
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            54
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              54,
+              58,
+              60,
+              63,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            63
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              63,
+              66,
+              68
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              54,
+              58,
+              60,
+              63,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            66
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              54,
+              58,
+              60,
+              63,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            66,
+            68
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              63,
+              66,
+              68
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            10,
+            15
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              10,
+              15,
+              20,
+              22,
+              24,
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            10,
+            15,
+            20,
+            22,
+            24,
+            26
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            20,
+            22,
+            24,
+            26
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              10,
+              15,
+              20,
+              22,
+              24,
+              26
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            32,
+            36,
+            41,
+            42,
+            43,
+            44,
+            46,
+            49,
+            54,
+            58,
+            60,
+            63,
+            66
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            32,
+            36,
+            47,
+            49
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            32,
+            36,
+            49
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              41,
+              42,
+              43,
+              44,
+              46,
+              49,
+              54,
+              58,
+              60,
+              63,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            41,
+            42
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              41,
+              42,
+              43,
+              44,
+              46
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            41,
+            42,
+            43,
+            44,
+            46
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              41,
+              42,
+              43,
+              44,
+              46,
+              49,
+              54,
+              58,
+              60,
+              63,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            54,
+            58,
+            60,
+            63,
+            66
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              32,
+              36,
+              41,
+              42,
+              43,
+              44,
+              46,
+              49,
+              54,
+              58,
+              60,
+              63,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            58,
+            60
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              54,
+              58,
+              60,
+              63,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            63,
+            66,
+            68
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      }
+    ],
+    "layouts": [
+      {
+        "source_node_ids": [
+          10,
+          15
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_top_nav",
+            "mode": "HORIZONTAL",
+            "gap": 16.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          10,
+          15,
+          20,
+          22,
+          24,
+          26
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_header",
+            "mode": "VERTICAL",
+            "gap": 20.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          20,
+          22,
+          24,
+          26
+        ],
+        "human": [
+          {
+            "target_id": "g_1",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_primary_nav",
+            "mode": "HORIZONTAL",
+            "gap": 24.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          32,
+          36,
+          41,
+          42,
+          43,
+          44,
+          46,
+          49,
+          54,
+          58,
+          60,
+          63,
+          66
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_main",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          32,
+          36,
+          47,
+          49
+        ],
+        "human": [
+          {
+            "target_id": "g_2",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          32,
+          36,
+          49
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_hero",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          41,
+          42
+        ],
+        "human": [
+          {
+            "target_id": "g_3",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          41,
+          42,
+          43,
+          44,
+          46
+        ],
+        "human": [
+          {
+            "target_id": "g_4",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_sponsor",
+            "mode": "VERTICAL",
+            "gap": 16.0,
+            "padding": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          54,
+          58,
+          60,
+          63,
+          66
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_article",
+            "mode": "VERTICAL",
+            "gap": 20.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          58,
+          60
+        ],
+        "human": [
+          {
+            "target_id": "g_5",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_meta",
+            "mode": "HORIZONTAL",
+            "gap": 12.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          63,
+          66,
+          68
+        ],
+        "human": [
+          {
+            "target_id": "g_6",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "END",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      }
+    ],
+    "tokens": {
+      "only_human": [],
+      "only_ai": [
+        {
+          "kind": "COLOR",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                41,
+                42
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                44
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                20
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                22
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                24
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                26
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "notes": "",
+    "required_checks": [
+      "逐项核对原子元素的合并、拆分与类型",
+      "逐项核对语义分组及父子层级",
+      "逐项核对布局模式、间距与内边距",
+      "确认样式 Token 是否代表应联动修改的设计变量",
+      "在金标准草稿中记录采用人工、采用 AI 或重新标注的决定"
+    ]
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        1
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 18.0,
+        "y": 18.0,
+        "width": 33.78125,
+        "height": 18.0
+      },
+      "name": "页面LOGO",
+      "text": "Logo",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 28.0,
+        "y": 87.4375,
+        "width": 1224.0,
+        "height": 37.0
+      },
+      "name": "主标题",
+      "text": "Welcome",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 32,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 28.0,
+        "y": 145.875,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "内容文本",
+      "text": "This is a test paragraph.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        8
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 28.0,
+        "y": 180.0,
+        "width": 90.0,
+        "height": 39.0
+      },
+      "name": "默认按钮",
+      "text": "Primary",
+      "style": {
+        "background_color": [
+          0.09411764705882353,
+          0.5647058823529412,
+          1,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        9
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 128.0,
+        "y": 180.0,
+        "width": 106.0,
+        "height": 39.0
+      },
+      "name": "其他按钮",
+      "text": "Secondary",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 238.0,
+        "width": 1264.0,
+        "height": 90.0
+      },
+      "name": "网站著作权声明",
+      "text": "© 2024 Test Company",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        2
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1222.0,
+        "y": 18.0,
+        "width": 40.0,
+        "height": 18.0
+      },
+      "name": "网站介绍按钮",
+      "text": "About",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_1",
+        "e_2"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 1264.0,
+        "height": 38.0
+      },
+      "name": "导航区域",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_5",
+        "e_6"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 28.0,
+        "y": 180.0,
+        "width": 1224.0,
+        "height": 39.0
+      },
+      "name": "操作区",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_3",
+        "e_4",
+        "e_5",
+        "e_6"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 8.0,
+        "y": 46.0,
+        "width": 1264.0,
+        "height": 193.0
+      },
+      "name": "内容区域",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_2",
+      "mode": "HORIZONTAL",
+      "gap": 10.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_3",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "e_7",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_2",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_6",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_3",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_3",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_4",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "g_2",
+      "order": 2,
+      "confidence": 1.0
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0001",
+    "label_source": "human_ai_adjudication_draft",
+    "status": "draft",
+    "adjudication_status": "pending",
+    "gold_finalized": false,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "0001",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "62204032e39745e4a45fa70967ed49d108689dc89285c96d68d76f1df0b199dd",
+    "ai_annotation_sha256": "e9c89e0ce45dcc2929d5460761e1059af50ad054ba25c94357cf1c65eb1d8639",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": ""
+  }
+}

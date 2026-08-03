@@ -14,7 +14,8 @@
 10. `10_phase2_checkpoint.md`：进入 pilot 前检查点；
 11. `11_pilot_data_report.md`：500 页 Pilot 的生产与质量结论；
 12. `12_ai_proxy_annotation_protocol.md`：AI 代理盲态、来源和披露协议；
-13. `13_ai_proxy_pilot_report.md`：AI 代理标注与人机跨来源初步结果。
+13. `13_ai_proxy_pilot_report.md`：AI 代理标注与人机跨来源初步结果；
+14. `14_human_ai_adjudication_sop.md`：逐项差异复核、审核凭证与金标准导出门槛。
 
 ## 新主链路
 
@@ -65,6 +66,10 @@ python scripts/evaluate_annotation_agreement.py \
   --comparison-kind human-ai \
   --allow-incomplete \
   --output outputs/intent-pilot-500/human-ai-agreement.json
+python scripts/prepare_human_ai_adjudication.py
+
+# 仅在真实人员完成逐页仲裁后执行；待审核草稿会被拒绝
+python scripts/finalize_human_ai_adjudication.py
 
 # 训练与测试
 python scripts/train_intent.py --config configs/intent/full.yaml

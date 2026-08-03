@@ -1,0 +1,3792 @@
+{
+  "schema_version": "1.0",
+  "comparison_kind": "human-ai",
+  "sample_id": "0860",
+  "status": "pending",
+  "inputs": {
+    "human": {
+      "annotator": "annotator_a",
+      "path": "data/annotations/intent_pilot_v1/annotator_a/0860.json",
+      "sha256": "b18130a805978f8151cf154e6ac55effca605cde60e7b9d4778dadbb9a13ed32"
+    },
+    "ai": {
+      "annotator": "annotator_ai",
+      "path": "data/annotations/intent_pilot_v1/annotator_ai/0860.json",
+      "sha256": "5bb19956dc2339a55c97f6e66a91f85b8ef1e5d301a4a0d7c798629a141f5c84",
+      "must_not_be_reported_as_human": true
+    }
+  },
+  "metrics": {
+    "leaf_precision": 0.5384615384615384,
+    "leaf_recall": 0.45161290322580644,
+    "leaf_f1": 0.4912280701754386,
+    "group_pair_precision": 0.21875,
+    "group_pair_recall": 0.23863636363636365,
+    "group_pair_f1": 0.22826086956521738,
+    "group_bcubed_precision": 0.6964716391866584,
+    "group_bcubed_recall": 0.692719881744272,
+    "group_bcubed_f1": 0.6945906943231464,
+    "group_match_precision": 0.5,
+    "group_match_recall": 0.46153846153846156,
+    "group_match_f1": 0.48000000000000004,
+    "parent_precision": 0.18421052631578946,
+    "parent_recall": 0.1590909090909091,
+    "parent_f1": 0.17073170731707316,
+    "token_bcubed_precision": 0.23076923076923078,
+    "token_bcubed_recall": 1.0,
+    "token_bcubed_f1": 0.375,
+    "layout_mode_accuracy": 1.0,
+    "layout_mode_macro_f1": 1.0,
+    "gap_normalized_mae": 0.008854166666666668,
+    "padding_normalized_mae": 0.007552083333333333,
+    "tree_normalized_edit_distance": 0.890625,
+    "token_coverage": 0.5,
+    "semantic_naming_rate": 1.0,
+    "layer_compression_ratio": 0.5421686746987953,
+    "layout_cohen_kappa": 1.0
+  },
+  "summary": {
+    "elements_only_human": 17,
+    "elements_only_ai": 12,
+    "elements_matched_but_changed": 0,
+    "group_signature_disagreements": 20,
+    "tree_parent_disagreements": 58,
+    "layout_disagreements": 22,
+    "tokens_only_human": 0,
+    "tokens_only_ai": 3
+  },
+  "differences": {
+    "elements": {
+      "only_human": [
+        {
+          "source_node_ids": [
+            5
+          ],
+          "human": {
+            "id": "e_2",
+            "type": "TEXT",
+            "name": "文本",
+            "text": "",
+            "bbox": {
+              "x": 984.671875,
+              "y": 18.0,
+              "width": 295.328125,
+              "height": 27.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            21
+          ],
+          "human": {
+            "id": "e_3",
+            "type": "TEXT",
+            "name": "标题",
+            "text": "",
+            "bbox": {
+              "x": 40.0,
+              "y": 90.0,
+              "width": 1200.0,
+              "height": 56.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            52
+          ],
+          "human": {
+            "id": "e_13",
+            "type": "TEXT",
+            "name": "列表项",
+            "text": "",
+            "bbox": {
+              "x": 77.0,
+              "y": 764.984375,
+              "width": 326.0,
+              "height": 27.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            54
+          ],
+          "human": {
+            "id": "e_14",
+            "type": "TEXT",
+            "name": "列表项",
+            "text": "",
+            "bbox": {
+              "x": 77.0,
+              "y": 791.984375,
+              "width": 326.0,
+              "height": 6.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            60
+          ],
+          "human": {
+            "id": "e_16",
+            "type": "TEXT",
+            "name": "文本段落内容",
+            "text": "According to the U.S. Bureau of Labor Statistics, prices for  are  in 2023 versus 2022 (a $0.34 diff",
+            "bbox": {
+              "x": 476.953125,
+              "y": 246.0,
+              "width": 725.90625,
+              "height": 54.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            61
+          ],
+          "human": {
+            "id": "e_18",
+            "type": "TEXT",
+            "name": "被框选的文本",
+            "text": "citrus fruits",
+            "bbox": {
+              "x": 948.234375,
+              "y": 249.0,
+              "width": 90.6875,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            62
+          ],
+          "human": {
+            "id": "e_17",
+            "type": "TEXT",
+            "name": "被标记的文本",
+            "text": "1.69% lower",
+            "bbox": {
+              "x": 1073.375,
+              "y": 249.0,
+              "width": 97.453125,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            63
+          ],
+          "human": {
+            "id": "e_19",
+            "type": "TEXT",
+            "name": "段落文本内容",
+            "text": "experienced an average inflation rate of . In other words,  costing $20 in the year 2022 would cost",
+            "bbox": {
+              "x": 476.953125,
+              "y": 318.0,
+              "width": 725.90625,
+              "height": 108.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            64
+          ],
+          "human": {
+            "id": "e_20",
+            "type": "SHAPE",
+            "name": "段落开头的几个粗体文字",
+            "text": "Between 2022 and 2023:",
+            "bbox": {
+              "x": 476.953125,
+              "y": 321.0,
+              "width": 216.28125,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            65
+          ],
+          "human": {
+            "id": "e_21",
+            "type": "TEXT",
+            "name": "被框选的文本",
+            "text": "Citrus fruits",
+            "bbox": {
+              "x": 697.796875,
+              "y": 321.0,
+              "width": 93.515625,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            66
+          ],
+          "human": {
+            "id": "e_22",
+            "type": "TEXT",
+            "name": "被标记的文本",
+            "text": "-1.69% per year",
+            "bbox": {
+              "x": 476.953125,
+              "y": 321.0,
+              "width": 697.546875,
+              "height": 48.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            67
+          ],
+          "human": {
+            "id": "e_23",
+            "type": "TEXT",
+            "name": "被框选的文本",
+            "text": "citrus fruits",
+            "bbox": {
+              "x": 675.046875,
+              "y": 348.0,
+              "width": 90.6875,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            68
+          ],
+          "human": {
+            "id": "e_24",
+            "type": "TEXT",
+            "name": "被框选的文本",
+            "text": "citrus fruits",
+            "bbox": {
+              "x": 714.125,
+              "y": 402.0,
+              "width": 90.6875,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            69
+          ],
+          "human": {
+            "id": "e_25",
+            "type": "TEXT",
+            "name": "段落文本",
+            "text": "Pricing changed by 11.58%, which is significantly above the average yearly change for  during the 20",
+            "bbox": {
+              "x": 476.953125,
+              "y": 444.0,
+              "width": 725.90625,
+              "height": 81.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            70
+          ],
+          "human": {
+            "id": "e_26",
+            "type": "TEXT",
+            "name": "段落开头的几个粗体单词",
+            "text": "In the year 2022:",
+            "bbox": {
+              "x": 476.953125,
+              "y": 447.0,
+              "width": 145.25,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            71
+          ],
+          "human": {
+            "id": "e_27",
+            "type": "TEXT",
+            "name": "被框选的文本",
+            "text": "citrus fruits",
+            "bbox": {
+              "x": 620.078125,
+              "y": 474.0,
+              "width": 90.6875,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            73
+          ],
+          "human": {
+            "id": "e_28",
+            "type": "TEXT",
+            "name": "被框选文本",
+            "text": "citrus fruits",
+            "bbox": {
+              "x": 756.828125,
+              "y": 501.0,
+              "width": 90.6875,
+              "height": 22.0
+            }
+          }
+        }
+      ],
+      "only_ai": [
+        {
+          "source_node_ids": [
+            7
+          ],
+          "ai": {
+            "id": "e_nav_7",
+            "type": "TEXT",
+            "name": "美国导航",
+            "text": "U.S.",
+            "bbox": {
+              "x": 984.671875,
+              "y": 21.0,
+              "width": 33.046875,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            9
+          ],
+          "ai": {
+            "id": "e_nav_9",
+            "type": "TEXT",
+            "name": "加拿大导航",
+            "text": "Canada",
+            "bbox": {
+              "x": 1017.71875,
+              "y": 21.0,
+              "width": 61.359375,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            11
+          ],
+          "ai": {
+            "id": "e_nav_11",
+            "type": "TEXT",
+            "name": "英国导航",
+            "text": "U.K.",
+            "bbox": {
+              "x": 1079.078125,
+              "y": 21.0,
+              "width": 33.421875,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            13
+          ],
+          "ai": {
+            "id": "e_nav_13",
+            "type": "TEXT",
+            "name": "澳大利亚导航",
+            "text": "Australia",
+            "bbox": {
+              "x": 1112.5,
+              "y": 21.0,
+              "width": 69.4375,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            15
+          ],
+          "ai": {
+            "id": "e_nav_15",
+            "type": "TEXT",
+            "name": "欧洲导航",
+            "text": "Europe",
+            "bbox": {
+              "x": 1181.9375,
+              "y": 21.0,
+              "width": 56.78125,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            17
+          ],
+          "ai": {
+            "id": "e_nav_17",
+            "type": "TEXT",
+            "name": "更多导航",
+            "text": "More",
+            "bbox": {
+              "x": 1238.71875,
+              "y": 21.0,
+              "width": 41.28125,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "ai": {
+            "id": "e_headline",
+            "type": "TEXT",
+            "name": "价格换算标题",
+            "text": "Citrus fruits priced at $20 in 2022 → $19.66 in 2023",
+            "bbox": {
+              "x": 204.671875,
+              "y": 90.0,
+              "width": 870.640625,
+              "height": 56.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            36
+          ],
+          "ai": {
+            "id": "e_currency",
+            "type": "TEXT",
+            "name": "货币符号",
+            "text": "$",
+            "bbox": {
+              "x": 77.0,
+              "y": 335.25,
+              "width": 25.0,
+              "height": 40.5
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            53
+          ],
+          "ai": {
+            "id": "e_related_link",
+            "type": "TEXT",
+            "name": "相关查询链接",
+            "text": "Wireless telephone services",
+            "bbox": {
+              "x": 117.0,
+              "y": 767.984375,
+              "width": 224.34375,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            60,
+            61,
+            62
+          ],
+          "ai": {
+            "id": "e_article_p1",
+            "type": "TEXT",
+            "name": "结果说明 1",
+            "text": "According to the U.S. Bureau of Labor Statistics, prices for  are  in 2023 versus 2022 (a $0.34 diff citrus fruits 1.69%",
+            "bbox": {
+              "x": 476.953125,
+              "y": 246.0,
+              "width": 725.90625,
+              "height": 54.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "ai": {
+            "id": "e_article_p2",
+            "type": "TEXT",
+            "name": "结果说明 2",
+            "text": "experienced an average inflation rate of . In other words,  costing $20 in the year 2022 would cost Between 2022 and 202",
+            "bbox": {
+              "x": 476.953125,
+              "y": 318.0,
+              "width": 725.90625,
+              "height": 108.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            69,
+            70,
+            71,
+            72,
+            73
+          ],
+          "ai": {
+            "id": "e_article_p3",
+            "type": "TEXT",
+            "name": "结果说明 3",
+            "text": "Pricing changed by 11.58%, which is significantly above the average yearly change for  during the 20 In the year 2022: c",
+            "bbox": {
+              "x": 476.953125,
+              "y": 444.0,
+              "width": 725.90625,
+              "height": 81.0
+            }
+          }
+        }
+      ],
+      "matched_but_changed": []
+    },
+    "groups": [
+      {
+        "source_node_ids": [
+          2,
+          3,
+          5
+        ],
+        "human": [
+          {
+            "id": "g_1",
+            "role": "NAV",
+            "name": "导航栏",
+            "bbox": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1280.0,
+              "height": 63.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          2,
+          3,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_nav",
+            "role": "NAV",
+            "name": "顶部导航",
+            "bbox": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1280.0,
+              "height": 63.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          7,
+          9,
+          11,
+          13,
+          15,
+          17
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_nav_links",
+            "role": "NAV",
+            "name": "地区导航",
+            "bbox": {
+              "x": 984.671875,
+              "y": 18.0,
+              "width": 295.328125,
+              "height": 27.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          22,
+          23,
+          24,
+          25,
+          30,
+          33,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48,
+          50,
+          53,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_page",
+            "role": "SECTION",
+            "name": "通胀页面",
+            "bbox": {
+              "x": 77.0,
+              "y": 90.0,
+              "width": 1125.859375,
+              "height": 710.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          30,
+          33,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48,
+          50,
+          53
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_calculator",
+            "role": "SECTION",
+            "name": "计算器面板",
+            "bbox": {
+              "x": 77.0,
+              "y": 183.0,
+              "width": 325.953125,
+              "height": 617.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          30,
+          33,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48,
+          50,
+          53,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_main",
+            "role": "SECTION",
+            "name": "计算器与结果",
+            "bbox": {
+              "x": 77.0,
+              "y": 183.0,
+              "width": 1125.859375,
+              "height": 617.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          30,
+          33,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48,
+          50,
+          52,
+          54
+        ],
+        "human": [
+          {
+            "id": "g_8",
+            "role": "CONTAINER",
+            "name": "表单区域",
+            "bbox": {
+              "x": 58.0,
+              "y": 164.0,
+              "width": 364.0,
+              "height": 636.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          33,
+          36,
+          37
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_cost_field",
+            "role": "CONTAINER",
+            "name": "金额字段",
+            "bbox": {
+              "x": 77.0,
+              "y": 297.0,
+              "width": 325.953125,
+              "height": 90.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          33,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_form",
+            "role": "FORM",
+            "name": "通胀计算表单",
+            "bbox": {
+              "x": 77.0,
+              "y": 297.0,
+              "width": 325.953125,
+              "height": 503.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          33,
+          37
+        ],
+        "human": [
+          {
+            "id": "g_2",
+            "role": "CONTAINER",
+            "name": "表单项",
+            "bbox": {
+              "x": 77.0,
+              "y": 300.0,
+              "width": 325.953125,
+              "height": 87.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          33,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48
+        ],
+        "human": [
+          {
+            "id": "g_5",
+            "role": "FORM",
+            "name": "表单",
+            "bbox": {
+              "x": 77.0,
+              "y": 300.0,
+              "width": 325.953125,
+              "height": 383.984375
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          50,
+          52,
+          54
+        ],
+        "human": [
+          {
+            "id": "g_7",
+            "role": "SECTION",
+            "name": "表单介绍区域",
+            "bbox": {
+              "x": 77.0,
+              "y": 719.984375,
+              "width": 326.0,
+              "height": 80.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          50,
+          53
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_related",
+            "role": "LIST",
+            "name": "相关价格查询",
+            "bbox": {
+              "x": 77.0,
+              "y": 719.984375,
+              "width": 325.953125,
+              "height": 80.015625
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          52,
+          54
+        ],
+        "human": [
+          {
+            "id": "g_6",
+            "role": "LIST",
+            "name": "表单介绍列表",
+            "bbox": {
+              "x": 77.0,
+              "y": 764.984375,
+              "width": 326.0,
+              "height": 34.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_article",
+            "role": "SECTION",
+            "name": "通胀结果说明",
+            "bbox": {
+              "x": 476.953125,
+              "y": 183.0,
+              "width": 725.90625,
+              "height": 342.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          59,
+          60,
+          61,
+          62,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [
+          {
+            "id": "g_13",
+            "role": "CONTAINER",
+            "name": "文本内容区域",
+            "bbox": {
+              "x": 458.0,
+              "y": 164.0,
+              "width": 764.0,
+              "height": 636.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          60,
+          61,
+          62
+        ],
+        "human": [
+          {
+            "id": "g_9",
+            "role": "SECTION",
+            "name": "第一段文本",
+            "bbox": {
+              "x": 476.953125,
+              "y": 246.0,
+              "width": 725.90625,
+              "height": 54.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "human": [
+          {
+            "id": "g_10",
+            "role": "SECTION",
+            "name": "第二段文本",
+            "bbox": {
+              "x": 476.953125,
+              "y": 321.0,
+              "width": 697.546875,
+              "height": 103.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          69,
+          70,
+          71,
+          73
+        ],
+        "human": [
+          {
+            "id": "g_11",
+            "role": "SECTION",
+            "name": "第三段文本",
+            "bbox": {
+              "x": 476.953125,
+              "y": 444.0,
+              "width": 725.90625,
+              "height": 81.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [
+          {
+            "id": "g_12",
+            "role": "CONTAINER",
+            "name": "介绍区域",
+            "bbox": {
+              "x": 477.953125,
+              "y": 589.9375,
+              "width": 723.90625,
+              "height": 181.28125
+            }
+          }
+        ],
+        "ai": [
+          {
+            "id": "g_chart",
+            "role": "CARD",
+            "name": "历史价格摘要",
+            "bbox": {
+              "x": 476.953125,
+              "y": 545.0,
+              "width": 725.90625,
+              "height": 247.21875
+            }
+          }
+        ]
+      }
+    ],
+    "tree": [
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            2,
+            3
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              2,
+              3,
+              5
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              2,
+              3,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            5
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              2,
+              3,
+              5
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            7
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            9
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            11
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            13
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            15
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            17
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            21
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            22,
+            23,
+            24,
+            25
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              22,
+              23,
+              24,
+              25,
+              30,
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              53,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            30
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              30,
+              33,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              52,
+              54
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              30,
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            33
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              37
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              36,
+              37
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            36
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              36,
+              37
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            37
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              37
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              36,
+              37
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            48
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            50
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              50,
+              52,
+              54
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              50,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            52
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              52,
+              54
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            53
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              50,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            54
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              52,
+              54
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            59
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            60
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              60,
+              61,
+              62
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            60,
+            61,
+            62
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            61
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              60,
+              61,
+              62
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            62
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              60,
+              61,
+              62
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            63
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            64
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            65
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            66
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            67
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            68
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              64,
+              65,
+              66,
+              67,
+              68
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            69
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              73
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            69,
+            70,
+            71,
+            72,
+            73
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            70
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              73
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            71
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              73
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            73
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              73
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            2,
+            3,
+            5
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            2,
+            3,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            7,
+            9,
+            11,
+            13,
+            15,
+            17
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              2,
+              3,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            22,
+            23,
+            24,
+            25,
+            30,
+            33,
+            36,
+            37,
+            39,
+            41,
+            43,
+            45,
+            48,
+            50,
+            53,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            75,
+            76,
+            77,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            30,
+            33,
+            36,
+            37,
+            39,
+            41,
+            43,
+            45,
+            48,
+            50,
+            53
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              30,
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              53,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            30,
+            33,
+            36,
+            37,
+            39,
+            41,
+            43,
+            45,
+            48,
+            50,
+            53,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            75,
+            76,
+            77,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              22,
+              23,
+              24,
+              25,
+              30,
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              53,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            30,
+            33,
+            37,
+            39,
+            41,
+            43,
+            45,
+            48,
+            50,
+            52,
+            54
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            33,
+            36,
+            37
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            33,
+            36,
+            37,
+            39,
+            41,
+            43,
+            45,
+            48
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              30,
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            33,
+            37
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            33,
+            37,
+            39,
+            41,
+            43,
+            45,
+            48
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              30,
+              33,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              52,
+              54
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            39,
+            41
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            43,
+            45
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            50,
+            52,
+            54
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              30,
+              33,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              52,
+              54
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            50,
+            53
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              30,
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            52,
+            54
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              50,
+              52,
+              54
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            75,
+            76,
+            77,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              30,
+              33,
+              36,
+              37,
+              39,
+              41,
+              43,
+              45,
+              48,
+              50,
+              53,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            59,
+            60,
+            61,
+            62,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            73,
+            75,
+            76,
+            77,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            60,
+            61,
+            62
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            69,
+            70,
+            71,
+            73
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            75,
+            76,
+            77,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              75,
+              76,
+              77,
+              79,
+              80,
+              81,
+              82
+            ]
+          }
+        ]
+      }
+    ],
+    "layouts": [
+      {
+        "source_node_ids": [
+          2,
+          3,
+          5
+        ],
+        "human": [
+          {
+            "target_id": "g_1",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          2,
+          3,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_nav",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          7,
+          9,
+          11,
+          13,
+          15,
+          17
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_nav_links",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          22,
+          23,
+          24,
+          25,
+          30,
+          33,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48,
+          50,
+          53,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_page",
+            "mode": "VERTICAL",
+            "gap": 24.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          30,
+          33,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48,
+          50,
+          53
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_calculator",
+            "mode": "VERTICAL",
+            "gap": 20.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          30,
+          33,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48,
+          50,
+          53,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_main",
+            "mode": "HORIZONTAL",
+            "gap": 54.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          30,
+          33,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48,
+          50,
+          52,
+          54
+        ],
+        "human": [
+          {
+            "target_id": "g_8",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              19.0,
+              19.0,
+              19.0,
+              19.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          33,
+          36,
+          37
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_cost_field",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          33,
+          36,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_form",
+            "mode": "VERTICAL",
+            "gap": 18.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          33,
+          37
+        ],
+        "human": [
+          {
+            "target_id": "g_2",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          33,
+          37,
+          39,
+          41,
+          43,
+          45,
+          48
+        ],
+        "human": [
+          {
+            "target_id": "g_5",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          39,
+          41
+        ],
+        "human": [
+          {
+            "target_id": "g_3",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_start_field",
+            "mode": "VERTICAL",
+            "gap": 6.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          43,
+          45
+        ],
+        "human": [
+          {
+            "target_id": "g_4",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_end_field",
+            "mode": "VERTICAL",
+            "gap": 6.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          50,
+          52,
+          54
+        ],
+        "human": [
+          {
+            "target_id": "g_7",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          50,
+          53
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_related",
+            "mode": "VERTICAL",
+            "gap": 12.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          52,
+          54
+        ],
+        "human": [
+          {
+            "target_id": "g_6",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_article",
+            "mode": "VERTICAL",
+            "gap": 20.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          59,
+          60,
+          61,
+          62,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [
+          {
+            "target_id": "g_13",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              19.0,
+              19.0,
+              19.0,
+              19.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          60,
+          61,
+          62
+        ],
+        "human": [
+          {
+            "target_id": "g_9",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "human": [
+          {
+            "target_id": "g_10",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          69,
+          70,
+          71,
+          73
+        ],
+        "human": [
+          {
+            "target_id": "g_11",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          82
+        ],
+        "human": [
+          {
+            "target_id": "g_12",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_chart",
+            "mode": "VERTICAL",
+            "gap": 22.0,
+            "padding": [
+              44.0,
+              26.0,
+              20.0,
+              26.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      }
+    ],
+    "tokens": {
+      "only_human": [],
+      "only_ai": [
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                7
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                9
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                11
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                13
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                15
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                33
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                39
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                63,
+                64,
+                65,
+                66,
+                67,
+                68
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                69,
+                70,
+                71,
+                72,
+                73
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                79,
+                80,
+                81,
+                82
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "notes": "",
+    "required_checks": [
+      "逐项核对原子元素的合并、拆分与类型",
+      "逐项核对语义分组及父子层级",
+      "逐项核对布局模式、间距与内边距",
+      "确认样式 Token 是否代表应联动修改的设计变量",
+      "在金标准草稿中记录采用人工、采用 AI 或重新标注的决定"
+    ]
+  }
+}

@@ -1,0 +1,3297 @@
+{
+  "schema_version": "1.0",
+  "comparison_kind": "human-ai",
+  "sample_id": "0052",
+  "status": "pending",
+  "inputs": {
+    "human": {
+      "annotator": "annotator_a",
+      "path": "data/annotations/intent_pilot_v1/annotator_a/0052.json",
+      "sha256": "945b01d7a5c7a83456163fcc67441a3b4cc18fbd0435ce6ffe82cdace7b70930"
+    },
+    "ai": {
+      "annotator": "annotator_ai",
+      "path": "data/annotations/intent_pilot_v1/annotator_ai/0052.json",
+      "sha256": "8bdfbb13d0ef46af7168561fd92788ce24a8c7d10e17bbaec2cf7395ba429b47",
+      "must_not_be_reported_as_human": true
+    }
+  },
+  "metrics": {
+    "leaf_precision": 0.7777777777777778,
+    "leaf_recall": 0.7368421052631579,
+    "leaf_f1": 0.7567567567567567,
+    "group_pair_precision": 0.39766081871345027,
+    "group_pair_recall": 0.6445497630331753,
+    "group_pair_f1": 0.4918625678119348,
+    "group_bcubed_precision": 0.7488471673254281,
+    "group_bcubed_recall": 0.7725752508361204,
+    "group_bcubed_f1": 0.7605261776455957,
+    "group_match_precision": 0.5833333333333334,
+    "group_match_recall": 0.6363636363636364,
+    "group_match_f1": 0.6086956521739131,
+    "parent_precision": 0.4166666666666667,
+    "parent_recall": 0.40816326530612246,
+    "parent_f1": 0.4123711340206186,
+    "token_bcubed_precision": 0.10526315789473684,
+    "token_bcubed_recall": 1.0,
+    "token_bcubed_f1": 0.1904761904761905,
+    "layout_mode_accuracy": 1.0,
+    "layout_mode_macro_f1": 1.0,
+    "gap_normalized_mae": 0.006510416666666667,
+    "padding_normalized_mae": 0.0,
+    "tree_normalized_edit_distance": 0.6774193548387096,
+    "token_coverage": 0.5277777777777778,
+    "semantic_naming_rate": 1.0,
+    "layer_compression_ratio": 0.6595744680851063,
+    "layout_cohen_kappa": 1.0
+  },
+  "summary": {
+    "elements_only_human": 10,
+    "elements_only_ai": 8,
+    "elements_matched_but_changed": 11,
+    "group_signature_disagreements": 12,
+    "tree_parent_disagreements": 43,
+    "layout_disagreements": 17,
+    "tokens_only_human": 0,
+    "tokens_only_ai": 2
+  },
+  "differences": {
+    "elements": {
+      "only_human": [
+        {
+          "source_node_ids": [
+            55
+          ],
+          "human": {
+            "id": "e_13",
+            "type": "BUTTON_VISUAL",
+            "name": "主页链接",
+            "text": "Home",
+            "bbox": {
+              "x": 120.0,
+              "y": 182.0,
+              "width": 37.890625,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            57
+          ],
+          "human": {
+            "id": "e_14",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "China",
+            "bbox": {
+              "x": 157.890625,
+              "y": 182.0,
+              "width": 37.96875,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            59
+          ],
+          "human": {
+            "id": "e_15",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "global",
+            "bbox": {
+              "x": 195.859375,
+              "y": 182.0,
+              "width": 39.5,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            60
+          ],
+          "human": {
+            "id": "e_16",
+            "type": "TEXT",
+            "name": "小标题",
+            "text": "俄模特在华死亡时间扑朔迷离",
+            "bbox": {
+              "x": 235.359375,
+              "y": 182.0,
+              "width": 179.40625,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            73
+          ],
+          "human": {
+            "id": "e_19",
+            "type": "BUTTON_VISUAL",
+            "name": "按钮",
+            "text": "",
+            "bbox": {
+              "x": 237.96875,
+              "y": 278.5,
+              "width": 82.375,
+              "height": 25.5
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            75
+          ],
+          "human": {
+            "id": "e_20",
+            "type": "BUTTON_VISUAL",
+            "name": "按钮",
+            "text": "",
+            "bbox": {
+              "x": 324.34375,
+              "y": 278.5,
+              "width": 79.5,
+              "height": 25.5
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            77
+          ],
+          "human": {
+            "id": "e_21",
+            "type": "BUTTON_VISUAL",
+            "name": "按钮",
+            "text": "",
+            "bbox": {
+              "x": 407.84375,
+              "y": 278.5,
+              "width": 59.890625,
+              "height": 25.5
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            79
+          ],
+          "human": {
+            "id": "e_22",
+            "type": "BUTTON_VISUAL",
+            "name": "按钮",
+            "text": "",
+            "bbox": {
+              "x": 471.734375,
+              "y": 278.5,
+              "width": 71.125,
+              "height": 25.5
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            81
+          ],
+          "human": {
+            "id": "e_23",
+            "type": "BUTTON_VISUAL",
+            "name": "按钮",
+            "text": "",
+            "bbox": {
+              "x": 546.859375,
+              "y": 278.5,
+              "width": 74.515625,
+              "height": 25.5
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            83
+          ],
+          "human": {
+            "id": "e_24",
+            "type": "BUTTON_VISUAL",
+            "name": "按钮",
+            "text": "",
+            "bbox": {
+              "x": 625.375,
+              "y": 278.5,
+              "width": 70.828125,
+              "height": 25.5
+            }
+          }
+        }
+      ],
+      "only_ai": [
+        {
+          "source_node_ids": [
+            55,
+            57,
+            59,
+            60
+          ],
+          "ai": {
+            "id": "e_breadcrumb",
+            "type": "TEXT",
+            "name": "文章面包屑",
+            "text": "Home China global 俄模特在华死亡时间扑朔迷离",
+            "bbox": {
+              "x": 120.0,
+              "y": 182.0,
+              "width": 294.765625,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            74
+          ],
+          "ai": {
+            "id": "e_share_74",
+            "type": "BUTTON_VISUAL",
+            "name": "WhatsApp 分享",
+            "text": "WhatsApp",
+            "bbox": {
+              "x": 245.96875,
+              "y": 283.5,
+              "width": 66.375,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            76
+          ],
+          "ai": {
+            "id": "e_share_76",
+            "type": "BUTTON_VISUAL",
+            "name": "Facebook 分享",
+            "text": "Facebook",
+            "bbox": {
+              "x": 332.34375,
+              "y": 283.5,
+              "width": 63.5,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            78
+          ],
+          "ai": {
+            "id": "e_share_78",
+            "type": "BUTTON_VISUAL",
+            "name": "Twitter 分享",
+            "text": "Twitter",
+            "bbox": {
+              "x": 415.84375,
+              "y": 283.5,
+              "width": 43.890625,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            80
+          ],
+          "ai": {
+            "id": "e_share_80",
+            "type": "BUTTON_VISUAL",
+            "name": "Google+ 分享",
+            "text": "Google+",
+            "bbox": {
+              "x": 479.734375,
+              "y": 283.5,
+              "width": 55.125,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            82
+          ],
+          "ai": {
+            "id": "e_share_82",
+            "type": "BUTTON_VISUAL",
+            "name": "Pinterest 分享",
+            "text": "Pinterest",
+            "bbox": {
+              "x": 554.859375,
+              "y": 283.5,
+              "width": 58.515625,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            84
+          ],
+          "ai": {
+            "id": "e_share_84",
+            "type": "BUTTON_VISUAL",
+            "name": "LinkedIn 分享",
+            "text": "Linkedin",
+            "bbox": {
+              "x": 633.375,
+              "y": 283.5,
+              "width": 54.828125,
+              "height": 15.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            86
+          ],
+          "ai": {
+            "id": "e_body",
+            "type": "TEXT",
+            "name": "文章正文",
+            "text": "俄罗斯未成年模特在华死亡事件出现新细节，或令局面大大复杂化并促使警方介入。\n这名模特死亡原因起初被认为是脑膜炎或高强度工作引发的神经系统疾病。多名证人对年轻模特海外工作境遇的描述也支持这种说法：日程满",
+            "bbox": {
+              "x": 120.0,
+              "y": 775.0,
+              "width": 690.0,
+              "height": 25.0
+            }
+          }
+        }
+      ],
+      "matched_but_changed": [
+        {
+          "source_node_ids": [
+            20
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_2",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "新加坡",
+            "bbox": {
+              "x": 100.0,
+              "y": 120.0,
+              "width": 78.40625,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_20",
+            "type": "TEXT",
+            "name": "新加坡导航",
+            "text": "新加坡",
+            "bbox": {
+              "x": 100.0,
+              "y": 120.0,
+              "width": 78.40625,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            22
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_3",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "中港台",
+            "bbox": {
+              "x": 178.40625,
+              "y": 120.0,
+              "width": 78.40625,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_22",
+            "type": "TEXT",
+            "name": "中港台导航",
+            "text": "中港台",
+            "bbox": {
+              "x": 178.40625,
+              "y": 120.0,
+              "width": 78.40625,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            24
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_4",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "国际",
+            "bbox": {
+              "x": 256.8125,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_24",
+            "type": "TEXT",
+            "name": "国际导航",
+            "text": "国际",
+            "bbox": {
+              "x": 256.8125,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            26
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_5",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "财经",
+            "bbox": {
+              "x": 318.421875,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_26",
+            "type": "TEXT",
+            "name": "财经导航",
+            "text": "财经",
+            "bbox": {
+              "x": 318.421875,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            28
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_6",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "IT",
+            "bbox": {
+              "x": 380.03125,
+              "y": 120.0,
+              "width": 43.828125,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_28",
+            "type": "TEXT",
+            "name": "IT 导航",
+            "text": "IT",
+            "bbox": {
+              "x": 380.03125,
+              "y": 120.0,
+              "width": 43.828125,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            30
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_7",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "科学",
+            "bbox": {
+              "x": 423.859375,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_30",
+            "type": "TEXT",
+            "name": "科学导航",
+            "text": "科学",
+            "bbox": {
+              "x": 423.859375,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            32
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_8",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "健康",
+            "bbox": {
+              "x": 485.46875,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_32",
+            "type": "TEXT",
+            "name": "健康导航",
+            "text": "健康",
+            "bbox": {
+              "x": 485.46875,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            34
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_9",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "观点",
+            "bbox": {
+              "x": 547.078125,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_34",
+            "type": "TEXT",
+            "name": "观点导航",
+            "text": "观点",
+            "bbox": {
+              "x": 547.078125,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            36
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_10",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "文化",
+            "bbox": {
+              "x": 608.6875,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_36",
+            "type": "TEXT",
+            "name": "文化导航",
+            "text": "文化",
+            "bbox": {
+              "x": 608.6875,
+              "y": 120.0,
+              "width": 61.609375,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            38
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_11",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "关于我们",
+            "bbox": {
+              "x": 670.296875,
+              "y": 120.0,
+              "width": 95.203125,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_38",
+            "type": "TEXT",
+            "name": "关于导航",
+            "text": "关于我们",
+            "bbox": {
+              "x": 670.296875,
+              "y": 120.0,
+              "width": 95.203125,
+              "height": 30.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            40
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_12",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "广告洽询",
+            "bbox": {
+              "x": 765.5,
+              "y": 120.0,
+              "width": 95.203125,
+              "height": 30.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_40",
+            "type": "TEXT",
+            "name": "广告导航",
+            "text": "广告洽询",
+            "bbox": {
+              "x": 765.5,
+              "y": 120.0,
+              "width": 95.203125,
+              "height": 30.0
+            }
+          }
+        }
+      ]
+    },
+    "groups": [
+      {
+        "source_node_ids": [
+          13,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_header",
+            "role": "SECTION",
+            "name": "站点页头",
+            "bbox": {
+              "x": 100.0,
+              "y": 30.0,
+              "width": 1080.0,
+              "height": 120.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60
+        ],
+        "human": [
+          {
+            "id": "g_2",
+            "role": "SECTION",
+            "name": "文章信息栏",
+            "bbox": {
+              "x": 120.0,
+              "y": 182.0,
+              "width": 294.765625,
+              "height": 15.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60,
+          62,
+          66,
+          67,
+          68,
+          69
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_article_header",
+            "role": "SECTION",
+            "name": "文章信息",
+            "bbox": {
+              "x": 110.0,
+              "y": 170.0,
+              "width": 710.1875,
+              "height": 98.5
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60,
+          62,
+          66,
+          67,
+          68,
+          69,
+          73,
+          75,
+          77,
+          79,
+          81,
+          83,
+          89
+        ],
+        "human": [
+          {
+            "id": "g_4",
+            "role": "CONTAINER",
+            "name": "页面左侧内容",
+            "bbox": {
+              "x": 110.0,
+              "y": 170.0,
+              "width": 710.0,
+              "height": 630.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60,
+          62,
+          66,
+          67,
+          68,
+          69,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          89
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_article",
+            "role": "SECTION",
+            "name": "文章正文栏",
+            "bbox": {
+              "x": 110.0,
+              "y": 170.0,
+              "width": 710.1875,
+              "height": 630.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60,
+          62,
+          66,
+          67,
+          68,
+          69,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          89,
+          94,
+          101,
+          103,
+          108,
+          110,
+          115,
+          117,
+          122,
+          124,
+          128,
+          132,
+          136,
+          140
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_main",
+            "role": "SECTION",
+            "name": "文章与侧栏",
+            "bbox": {
+              "x": 110.0,
+              "y": 170.0,
+              "width": 1060.0,
+              "height": 630.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          73,
+          75,
+          77,
+          79,
+          81,
+          83
+        ],
+        "human": [
+          {
+            "id": "g_3",
+            "role": "CONTAINER",
+            "name": "文章按钮操作组",
+            "bbox": {
+              "x": 237.96875,
+              "y": 278.5,
+              "width": 458.234375,
+              "height": 25.5
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          74,
+          76,
+          78,
+          80,
+          82,
+          84
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_share",
+            "role": "CONTAINER",
+            "name": "社交分享",
+            "bbox": {
+              "x": 245.96875,
+              "y": 283.5,
+              "width": 442.234375,
+              "height": 15.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          94,
+          101,
+          103,
+          108,
+          110,
+          115,
+          117,
+          122,
+          124,
+          128,
+          132,
+          136,
+          140
+        ],
+        "human": [
+          {
+            "id": "g_11",
+            "role": "CONTAINER",
+            "name": "右侧区域",
+            "bbox": {
+              "x": 852.0,
+              "y": 170.0,
+              "width": 318.0,
+              "height": 630.0
+            }
+          }
+        ],
+        "ai": [
+          {
+            "id": "g_sidebar",
+            "role": "SECTION",
+            "name": "热门新闻侧栏",
+            "bbox": {
+              "x": 852.0,
+              "y": 205.0,
+              "width": 318.0,
+              "height": 595.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          101,
+          103,
+          108,
+          110,
+          115,
+          117,
+          122,
+          124
+        ],
+        "human": [
+          {
+            "id": "g_9",
+            "role": "LIST",
+            "name": "列表组",
+            "bbox": {
+              "x": 852.0,
+              "y": 252.0,
+              "width": 315.609375,
+              "height": 307.78125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          101,
+          103,
+          108,
+          110,
+          115,
+          117,
+          122,
+          124,
+          128,
+          132,
+          136,
+          140
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_news_list",
+            "role": "LIST",
+            "name": "热门新闻列表",
+            "bbox": {
+              "x": 852.0,
+              "y": 242.0,
+              "width": 318.0,
+              "height": 558.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          128,
+          132,
+          136,
+          140
+        ],
+        "human": [
+          {
+            "id": "g_10",
+            "role": "LIST",
+            "name": "列表组",
+            "bbox": {
+              "x": 852.0,
+              "y": 580.78125,
+              "width": 306.609375,
+              "height": 213.5625
+            }
+          }
+        ],
+        "ai": []
+      }
+    ],
+    "tree": [
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            13
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              13,
+              20,
+              22,
+              24,
+              26,
+              28,
+              30,
+              32,
+              34,
+              36,
+              38,
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            55
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            55,
+            57,
+            59,
+            60
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            57
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            59
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            60
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            62
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              73,
+              75,
+              77,
+              79,
+              81,
+              83,
+              89
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            66,
+            67,
+            68,
+            69
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              73,
+              75,
+              77,
+              79,
+              81,
+              83,
+              89
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            73
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              73,
+              75,
+              77,
+              79,
+              81,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            74
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              74,
+              76,
+              78,
+              80,
+              82,
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            75
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              73,
+              75,
+              77,
+              79,
+              81,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            76
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              74,
+              76,
+              78,
+              80,
+              82,
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            77
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              73,
+              75,
+              77,
+              79,
+              81,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            78
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              74,
+              76,
+              78,
+              80,
+              82,
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            79
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              73,
+              75,
+              77,
+              79,
+              81,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            80
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              74,
+              76,
+              78,
+              80,
+              82,
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            81
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              73,
+              75,
+              77,
+              79,
+              81,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            82
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              74,
+              76,
+              78,
+              80,
+              82,
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            83
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              73,
+              75,
+              77,
+              79,
+              81,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            84
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              74,
+              76,
+              78,
+              80,
+              82,
+              84
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            86
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            89
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              73,
+              75,
+              77,
+              79,
+              81,
+              83,
+              89
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            128
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            132
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            136
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            140
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            13,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              13,
+              20,
+              22,
+              24,
+              26,
+              28,
+              30,
+              32,
+              34,
+              36,
+              38,
+              40
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            55,
+            57,
+            59,
+            60
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              73,
+              75,
+              77,
+              79,
+              81,
+              83,
+              89
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            55,
+            57,
+            59,
+            60,
+            62,
+            66,
+            67,
+            68,
+            69
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            55,
+            57,
+            59,
+            60,
+            62,
+            66,
+            67,
+            68,
+            69,
+            73,
+            75,
+            77,
+            79,
+            81,
+            83,
+            89
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            55,
+            57,
+            59,
+            60,
+            62,
+            66,
+            67,
+            68,
+            69,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84,
+            86,
+            89
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              89,
+              94,
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            55,
+            57,
+            59,
+            60,
+            62,
+            66,
+            67,
+            68,
+            69,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84,
+            86,
+            89,
+            94,
+            101,
+            103,
+            108,
+            110,
+            115,
+            117,
+            122,
+            124,
+            128,
+            132,
+            136,
+            140
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            73,
+            75,
+            77,
+            79,
+            81,
+            83
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              73,
+              75,
+              77,
+              79,
+              81,
+              83,
+              89
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            74,
+            76,
+            78,
+            80,
+            82,
+            84
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              89
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            94,
+            101,
+            103,
+            108,
+            110,
+            115,
+            117,
+            122,
+            124,
+            128,
+            132,
+            136,
+            140
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              55,
+              57,
+              59,
+              60,
+              62,
+              66,
+              67,
+              68,
+              69,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              89,
+              94,
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            101,
+            103
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            101,
+            103,
+            108,
+            110,
+            115,
+            117,
+            122,
+            124
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              94,
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            101,
+            103,
+            108,
+            110,
+            115,
+            117,
+            122,
+            124,
+            128,
+            132,
+            136,
+            140
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              94,
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            108,
+            110
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            115,
+            117
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            122,
+            124
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            128,
+            132,
+            136,
+            140
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              94,
+              101,
+              103,
+              108,
+              110,
+              115,
+              117,
+              122,
+              124,
+              128,
+              132,
+              136,
+              140
+            ]
+          }
+        ],
+        "ai_parents": []
+      }
+    ],
+    "layouts": [
+      {
+        "source_node_ids": [
+          13,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_header",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40
+        ],
+        "human": [
+          {
+            "target_id": "g_1",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_nav",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60
+        ],
+        "human": [
+          {
+            "target_id": "g_2",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60,
+          62,
+          66,
+          67,
+          68,
+          69
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_article_header",
+            "mode": "VERTICAL",
+            "gap": 8.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60,
+          62,
+          66,
+          67,
+          68,
+          69,
+          73,
+          75,
+          77,
+          79,
+          81,
+          83,
+          89
+        ],
+        "human": [
+          {
+            "target_id": "g_4",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              10.0,
+              10.0,
+              10.0,
+              10.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60,
+          62,
+          66,
+          67,
+          68,
+          69,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          89
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_article",
+            "mode": "VERTICAL",
+            "gap": 20.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          55,
+          57,
+          59,
+          60,
+          62,
+          66,
+          67,
+          68,
+          69,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          89,
+          94,
+          101,
+          103,
+          108,
+          110,
+          115,
+          117,
+          122,
+          124,
+          128,
+          132,
+          136,
+          140
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_main",
+            "mode": "HORIZONTAL",
+            "gap": 32.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          73,
+          75,
+          77,
+          79,
+          81,
+          83
+        ],
+        "human": [
+          {
+            "target_id": "g_3",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          74,
+          76,
+          78,
+          80,
+          82,
+          84
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_share",
+            "mode": "HORIZONTAL",
+            "gap": 4.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          94,
+          101,
+          103,
+          108,
+          110,
+          115,
+          117,
+          122,
+          124,
+          128,
+          132,
+          136,
+          140
+        ],
+        "human": [
+          {
+            "target_id": "g_11",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_sidebar",
+            "mode": "VERTICAL",
+            "gap": 10.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          101,
+          103
+        ],
+        "human": [
+          {
+            "target_id": "g_5",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_news_1",
+            "mode": "HORIZONTAL",
+            "gap": 10.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          101,
+          103,
+          108,
+          110,
+          115,
+          117,
+          122,
+          124
+        ],
+        "human": [
+          {
+            "target_id": "g_9",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          101,
+          103,
+          108,
+          110,
+          115,
+          117,
+          122,
+          124,
+          128,
+          132,
+          136,
+          140
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_news_list",
+            "mode": "VERTICAL",
+            "gap": 10.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          108,
+          110
+        ],
+        "human": [
+          {
+            "target_id": "g_6",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_news_2",
+            "mode": "HORIZONTAL",
+            "gap": 10.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          115,
+          117
+        ],
+        "human": [
+          {
+            "target_id": "g_7",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_news_3",
+            "mode": "HORIZONTAL",
+            "gap": 10.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          122,
+          124
+        ],
+        "human": [
+          {
+            "target_id": "g_8",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_news_4",
+            "mode": "HORIZONTAL",
+            "gap": 10.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          128,
+          132,
+          136,
+          140
+        ],
+        "human": [
+          {
+            "target_id": "g_10",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      }
+    ],
+    "tokens": {
+      "only_human": [],
+      "only_ai": [
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                20
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                22
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                24
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                26
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                28
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                30
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                32
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                34
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                36
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                38
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                103
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                110
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                117
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                124
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                128
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                132
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                136
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                140
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "notes": "",
+    "required_checks": [
+      "逐项核对原子元素的合并、拆分与类型",
+      "逐项核对语义分组及父子层级",
+      "逐项核对布局模式、间距与内边距",
+      "确认样式 Token 是否代表应联动修改的设计变量",
+      "在金标准草稿中记录采用人工、采用 AI 或重新标注的决定"
+    ]
+  }
+}

@@ -1,0 +1,1005 @@
+{
+  "schema_version": "1.0",
+  "comparison_kind": "human-ai",
+  "sample_id": "0319",
+  "status": "pending",
+  "inputs": {
+    "human": {
+      "annotator": "annotator_a",
+      "path": "data/annotations/intent_pilot_v1/annotator_a/0319.json",
+      "sha256": "e041aca8f8af603cecec39ab73f3d29dad6d8113051eaf9d2f515cb6387ff964"
+    },
+    "ai": {
+      "annotator": "annotator_ai",
+      "path": "data/annotations/intent_pilot_v1/annotator_ai/0319.json",
+      "sha256": "d2c6894565cc7d78412f39637ce2949a2bb89b82de841a89e3d31880b35f1016",
+      "must_not_be_reported_as_human": true
+    }
+  },
+  "metrics": {
+    "leaf_precision": 0.7272727272727273,
+    "leaf_recall": 0.6153846153846154,
+    "leaf_f1": 0.6666666666666667,
+    "group_pair_precision": 0.6,
+    "group_pair_recall": 0.5769230769230769,
+    "group_pair_f1": 0.5882352941176471,
+    "group_bcubed_precision": 0.8125,
+    "group_bcubed_recall": 0.6875,
+    "group_bcubed_f1": 0.7447916666666666,
+    "group_match_precision": 0.25,
+    "group_match_recall": 0.3333333333333333,
+    "group_match_f1": 0.28571428571428575,
+    "parent_precision": 0.5333333333333333,
+    "parent_recall": 0.5,
+    "parent_f1": 0.5161290322580646,
+    "token_bcubed_precision": 0.25,
+    "token_bcubed_recall": 1.0,
+    "token_bcubed_f1": 0.4,
+    "layout_mode_accuracy": 1.0,
+    "layout_mode_macro_f1": 1.0,
+    "gap_normalized_mae": 0.01796875,
+    "padding_normalized_mae": 0.0328125,
+    "tree_normalized_edit_distance": 0.6190476190476191,
+    "token_coverage": 0.7272727272727273,
+    "semantic_naming_rate": 1.0,
+    "layer_compression_ratio": 0.7,
+    "layout_cohen_kappa": 1.0
+  },
+  "summary": {
+    "elements_only_human": 5,
+    "elements_only_ai": 3,
+    "elements_matched_but_changed": 6,
+    "group_signature_disagreements": 3,
+    "tree_parent_disagreements": 13,
+    "layout_disagreements": 5,
+    "tokens_only_human": 0,
+    "tokens_only_ai": 2
+  },
+  "differences": {
+    "elements": {
+      "only_human": [
+        {
+          "source_node_ids": [
+            23
+          ],
+          "human": {
+            "id": "e_7",
+            "type": "SHAPE",
+            "name": "标题背景",
+            "text": "",
+            "bbox": {
+              "x": 0.0,
+              "y": 80.0,
+              "width": 1280.0,
+              "height": 287.59375
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            38
+          ],
+          "human": {
+            "id": "e_9",
+            "type": "TEXT",
+            "name": "一段文本首字母",
+            "text": "Hawaii",
+            "bbox": {
+              "x": 128.0,
+              "y": 419.59375,
+              "width": 53.859375,
+              "height": 20.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            39,
+            40
+          ],
+          "human": {
+            "id": "e_10",
+            "type": "TEXT",
+            "name": "一段文本",
+            "text": "is the only U.S. state located in Oceania and the only one composed entirely of islands. It is the n Wikipedia",
+            "bbox": {
+              "x": 128.0,
+              "y": 419.59375,
+              "width": 1005.421875,
+              "height": 193.4375
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            46
+          ],
+          "human": {
+            "id": "e_12",
+            "type": "TEXT",
+            "name": "一段文本",
+            "text": "The Hawaii Department of Agriculture’s (HDOA) 240 employees statewide work to support, enhance, prom",
+            "bbox": {
+              "x": 128.0,
+              "y": 663.84375,
+              "width": 1024.0,
+              "height": 136.15625
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            47
+          ],
+          "human": {
+            "id": "e_13",
+            "type": "TEXT",
+            "name": "网站链接",
+            "text": "http://hdoa.hawaii.gov/",
+            "bbox": {
+              "x": 128.0,
+              "y": 783.46875,
+              "width": 170.125,
+              "height": 16.53125
+            }
+          }
+        }
+      ],
+      "only_ai": [
+        {
+          "source_node_ids": [
+            26
+          ],
+          "ai": {
+            "id": "e_hero_background",
+            "type": "SHAPE",
+            "name": "主视觉背景",
+            "text": "",
+            "bbox": {
+              "x": 0.0,
+              "y": 80.0,
+              "width": 1280.0,
+              "height": 287.59375
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            38,
+            39,
+            40
+          ],
+          "ai": {
+            "id": "e_summary",
+            "type": "TEXT",
+            "name": "夏威夷概述",
+            "text": "Hawaii is the only U.S. state located in Oceania and the only one composed entirely of islands. It is the n Wikipedia",
+            "bbox": {
+              "x": 128.0,
+              "y": 419.59375,
+              "width": 1005.421875,
+              "height": 193.4375
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            46,
+            47
+          ],
+          "ai": {
+            "id": "e_section_body",
+            "type": "TEXT",
+            "name": "农业部门正文",
+            "text": "The Hawaii Department of Agriculture’s (HDOA) 240 employees statewide work to support, enhance, prom http://hdoa.hawaii.",
+            "bbox": {
+              "x": 128.0,
+              "y": 663.84375,
+              "width": 1024.0,
+              "height": 136.15625
+            }
+          }
+        }
+      ],
+      "matched_but_changed": [
+        {
+          "source_node_ids": [
+            6
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_1",
+            "type": "BUTTON_VISUAL",
+            "name": "链接按钮",
+            "text": "Home",
+            "bbox": {
+              "x": 441.90625,
+              "y": 33.0,
+              "width": 45.6875,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_home",
+            "type": "TEXT",
+            "name": "首页导航",
+            "text": "Home",
+            "bbox": {
+              "x": 441.90625,
+              "y": 33.0,
+              "width": 45.6875,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            8
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_2",
+            "type": "BUTTON_VISUAL",
+            "name": "链接按钮",
+            "text": "About",
+            "bbox": {
+              "x": 509.59375,
+              "y": 33.0,
+              "width": 48.328125,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_about",
+            "type": "TEXT",
+            "name": "关于导航",
+            "text": "About",
+            "bbox": {
+              "x": 509.59375,
+              "y": 33.0,
+              "width": 48.328125,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            10
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_3",
+            "type": "BUTTON_VISUAL",
+            "name": "链接按钮",
+            "text": "CMA Roster",
+            "bbox": {
+              "x": 579.921875,
+              "y": 33.0,
+              "width": 95.296875,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_roster",
+            "type": "TEXT",
+            "name": "成员导航",
+            "text": "CMA Roster",
+            "bbox": {
+              "x": 579.921875,
+              "y": 33.0,
+              "width": 95.296875,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            12
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_4",
+            "type": "BUTTON_VISUAL",
+            "name": "链接按钮",
+            "text": "Become a Member",
+            "bbox": {
+              "x": 697.21875,
+              "y": 33.0,
+              "width": 147.5625,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_member",
+            "type": "TEXT",
+            "name": "加入会员导航",
+            "text": "Become a Member",
+            "bbox": {
+              "x": 697.21875,
+              "y": 33.0,
+              "width": 147.5625,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            14
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_5",
+            "type": "BUTTON_VISUAL",
+            "name": "链接按钮",
+            "text": "Manufacturing",
+            "bbox": {
+              "x": 866.78125,
+              "y": 33.0,
+              "width": 116.34375,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_manufacturing",
+            "type": "TEXT",
+            "name": "制造业导航",
+            "text": "Manufacturing",
+            "bbox": {
+              "x": 866.78125,
+              "y": 33.0,
+              "width": 116.34375,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            16
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_6",
+            "type": "BUTTON_VISUAL",
+            "name": "链接按钮",
+            "text": "State Programs",
+            "bbox": {
+              "x": 1005.125,
+              "y": 33.0,
+              "width": 124.875,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_programs",
+            "type": "TEXT",
+            "name": "州项目导航",
+            "text": "State Programs",
+            "bbox": {
+              "x": 1005.125,
+              "y": 33.0,
+              "width": 124.875,
+              "height": 47.0
+            }
+          }
+        }
+      ]
+    },
+    "groups": [
+      {
+        "source_node_ids": [
+          23,
+          30
+        ],
+        "human": [
+          {
+            "id": "g_2",
+            "role": "SECTION",
+            "name": "标题栏",
+            "bbox": {
+              "x": 0.0,
+              "y": 80.0,
+              "width": 1280.0,
+              "height": 287.59375
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          26,
+          30
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_hero",
+            "role": "SECTION",
+            "name": "标题主视觉",
+            "bbox": {
+              "x": 0.0,
+              "y": 80.0,
+              "width": 1280.0,
+              "height": 287.59375
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          26,
+          30,
+          38,
+          39,
+          40,
+          45,
+          46,
+          47
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_page",
+            "role": "SECTION",
+            "name": "页面内容",
+            "bbox": {
+              "x": 0.0,
+              "y": 80.0,
+              "width": 1280.0,
+              "height": 720.0
+            }
+          }
+        ]
+      }
+    ],
+    "tree": [
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            23
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              23,
+              30
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            26
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              26,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            30
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              23,
+              30
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              26,
+              30
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            38
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              38,
+              39,
+              40,
+              45,
+              46,
+              47
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            38,
+            39,
+            40
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              38,
+              39,
+              40,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            39,
+            40
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              38,
+              39,
+              40,
+              45,
+              46,
+              47
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            46
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              38,
+              39,
+              40,
+              45,
+              46,
+              47
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            46,
+            47
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              38,
+              39,
+              40,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            47
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              38,
+              39,
+              40,
+              45,
+              46,
+              47
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            23,
+            30
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            26,
+            30
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              26,
+              30,
+              38,
+              39,
+              40,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            26,
+            30,
+            38,
+            39,
+            40,
+            45,
+            46,
+            47
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            38,
+            39,
+            40,
+            45,
+            46,
+            47
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              26,
+              30,
+              38,
+              39,
+              40,
+              45,
+              46,
+              47
+            ]
+          }
+        ]
+      }
+    ],
+    "layouts": [
+      {
+        "source_node_ids": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          16
+        ],
+        "human": [
+          {
+            "target_id": "g_1",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "START",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_nav",
+            "mode": "HORIZONTAL",
+            "gap": 22.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          23,
+          30
+        ],
+        "human": [
+          {
+            "target_id": "g_2",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "CENTER",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          26,
+          30
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_hero",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          26,
+          30,
+          38,
+          39,
+          40,
+          45,
+          46,
+          47
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_page",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          38,
+          39,
+          40,
+          45,
+          46,
+          47
+        ],
+        "human": [
+          {
+            "target_id": "g_3",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_body",
+            "mode": "VERTICAL",
+            "gap": 24.0,
+            "padding": [
+              48.0,
+              128.0,
+              32.0,
+              128.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      }
+    ],
+    "tokens": {
+      "only_human": [],
+      "only_ai": [
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                6
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                8
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                10
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                12
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                14
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                38,
+                39,
+                40
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                46,
+                47
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "notes": "",
+    "required_checks": [
+      "逐项核对原子元素的合并、拆分与类型",
+      "逐项核对语义分组及父子层级",
+      "逐项核对布局模式、间距与内边距",
+      "确认样式 Token 是否代表应联动修改的设计变量",
+      "在金标准草稿中记录采用人工、采用 AI 或重新标注的决定"
+    ]
+  }
+}

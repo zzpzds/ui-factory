@@ -1,0 +1,1153 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        10
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 67.53125,
+        "y": 50.0,
+        "width": 81.0,
+        "height": 11.0
+      },
+      "name": "联系按钮",
+      "text": "Contáctanos",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 11,
+        "font_weight": 400,
+        "line_height": 11,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        24
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 546.59375,
+        "y": 112.0,
+        "width": 85.0,
+        "height": 13.0
+      },
+      "name": "跳转链接-产品",
+      "text": "Productos",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13,
+        "font_weight": 400,
+        "line_height": 13,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        26
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 631.671875,
+        "y": 112.0,
+        "width": 69.390625,
+        "height": 13.0
+      },
+      "name": "跳转链接-杂志",
+      "text": "Magazín",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13,
+        "font_weight": 400,
+        "line_height": 13,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        32
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 0.0,
+        "y": 150.0,
+        "width": 1280.0,
+        "height": 376.0
+      },
+      "name": "背景图片",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 16,
+        "opacity": 1,
+        "image_src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAAEABQDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwj/xAAiEAACAgIABgMAAAAAAAAAAAACAwERBAUABgcSMTIUQWH/xAAWAQEBAQAAAAAAAAAAAAAAAAADBAX/xAAbEQADAAMBAQAAAAAAAAAAAAAAAQIREiEDMf/aAAwDAQACEQMRAD8AnHp31r5o5xTjajaZGO5Wvzvl4zloFZrdAX3xA0Hd5i+26maq+InT1Rq6JXgX+qW6nmHeGnJwsIK0mPnmxCIAmvJ7FmZV9kIBcxXr+zaw3X0L0lQ+AIx0EZTKl+Zj14tlcCyf/9k="
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 90.875,
+        "y": 383.0,
+        "width": 1126.390625,
+        "height": 53.0
+      },
+      "name": "页面标题",
+      "text": "¿Cómo hacer unas deliciosas trufas?",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 53,
+        "font_weight": 700,
+        "line_height": 53,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        20
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 35.53125,
+        "y": 112.0,
+        "width": 40.4375,
+        "height": 13.0
+      },
+      "name": "主页链接",
+      "text": "Inicio",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13,
+        "font_weight": 400,
+        "line_height": 13,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 75.96875,
+        "y": 105.5,
+        "width": 76.625,
+        "height": 26.0
+      },
+      "name": "网站主题",
+      "text": "Entre Nosotras",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13,
+        "font_weight": 400,
+        "line_height": 13,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 981.453125,
+        "y": 456.0,
+        "width": 126.0,
+        "height": 18.0
+      },
+      "name": "卡片标题",
+      "text": "PATROCINADO",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6862745098039216,
+          0.43137254901960786,
+          0.807843137254902,
+          1
+        ],
+        "border_color": [
+          0.6862745098039216,
+          0.43137254901960786,
+          0.807843137254902,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 18,
+        "font_weight": 400,
+        "line_height": 18,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1111.3125,
+        "y": 454.0,
+        "width": 38.0,
+        "height": 22.0
+      },
+      "name": "卡片标题",
+      "text": "POR",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6862745098039216,
+          0.43137254901960786,
+          0.807843137254902,
+          1
+        ],
+        "border_color": [
+          0.6862745098039216,
+          0.43137254901960786,
+          0.807843137254902,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 18,
+        "font_weight": 700,
+        "line_height": 18,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        43
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 981.328125,
+        "y": 494.0,
+        "width": 168.109375,
+        "height": 159.703125
+      },
+      "name": "卡片内图片",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 16,
+        "opacity": 1,
+        "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5wsQAScINYC3dAAAA6NJREFUGBkdwUtvVGUYB/Dn/7znnLl0Lu1QGLCtloI1kJampYZNo0Zj1C+gEa0bMdEYt27cyTdwIfEbaGShLrwsJCamXrogwQQoRBouBWeYnumZnpk5c8553+cR+P1w5Mg0AMMgkAgZAxA8j48dbMSDPhH1R9le4oj0DD/zlqzWUfpYv+nbkWE2tWrN9w0RiSgIRGSdFD1vqmLeeePFGmftbm8/d6rUlSEDV9Ha4nax4BcD3zOeEVFjoEoEElGQVgterRQ8f3rZywd/Xt+uFPxokA6RfeeuAGDGRKXQiRJPnDADMOvvvb22tgbg3LkPrM1PHJ+zWT5WHjvebHTuRsYY54SeUNVklIGJVZWAEydPnD//+ebm5tLS0tHZWWvt3dZ/3AuTh/d3wh6TiggABkDEhke5c1YYACltbd3Y2NiI9qKxsfLyyoqSulHMFXPtQTuz4jNEHwMDIKjmVkTU1Gt1VXXOPXdsdmFx8eK3Fw9Elz59LXhldSq3XgHun+32wmS+NFfearlisVQoFtI0JSIlMpMHDpQKXmbdxh9//fzTL82g9clLVA7I56wgO8Xs3q/X3biffvSyfy0sDnXMiTQPNRmUZRmL6iDJSAnMYCzPwKrJ1Yxylzh/SEFvkICpH2fzM41SqTQ/f1xV2fjWipfnVgmGmVScqFC9HSaliknNoTuNs2RvpHKhXkWv72q+BEEh2tvr9XpZlhrDpl4fB0CqoqSq1fGZZvlZP8lv9ac+u1/f7sSnbTzleR3M/nA1ftjdt9YaY3r7MakyM5gxUSkwHoviuHOrW/n6hev86jSVqwcXZqrrqzdf7/btcJTGcRyG3TDcBZGSmpnGYfV0lDt6ouyDarTdiNr3zE43Cm+359Nws/l3lA1ud4eZdZ4haxVQZjZfVNYv8U1mEiVxLvB9Ae5FOxPpv8O7Eyfj8L75sTNMHXvteGSdIyVRBRiAN42JGge72VBUF08tjpLh5FTTZf3yRH0l6gxM6rKjJmdTKD0dHAx3O61Wixmij5lrjW6Xhk6EiHzfH+z1V3mukVSCXUjX1ZLKWFys9YtI+Grndp7bwTBhZjxC5D2QnqqKKIg67da7cubDeK36/hKqQXa5FZw65NoDnizHFy6/Gd7c1i4DosoMJXgiAsIjRJRb9ztuHYuuFL/fIQY5ocvOHK6ok058p8WxIaMiRfJzcWDF1FPTzKxKqgoQAarCYCUFgQgEEhEG2LCIGsFXONuh/pf+b/8DwCoZ+tPwKVMAAAAASUVORK5CYII="
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 982.390625,
+        "y": 678.703125,
+        "width": 165.96875,
+        "height": 24.0
+      },
+      "name": "卡片内容文本",
+      "text": "Nosotras Tik Tok",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6862745098039216,
+          0.43137254901960786,
+          0.807843137254902,
+          1
+        ],
+        "border_color": [
+          0.6862745098039216,
+          0.43137254901960786,
+          0.807843137254902,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 24,
+        "font_weight": 400,
+        "line_height": 24,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 977.125,
+        "y": 717.703125,
+        "width": 176.515625,
+        "height": 32.0
+      },
+      "name": "卡片底部文本",
+      "text": "Haz parte de nuestra comunidad.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6862745098039216,
+          0.43137254901960786,
+          0.807843137254902,
+          1
+        ],
+        "border_color": [
+          0.6862745098039216,
+          0.43137254901960786,
+          0.807843137254902,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 16,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        47,
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 150.0,
+        "width": 76.65625,
+        "height": 30.0
+      },
+      "name": "页面背景图的标签",
+      "text": "Inicio",
+      "style": {
+        "background_color": [
+          0.00392156862745098,
+          0.11764705882352941,
+          0.3803921568627451,
+          0.5
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 400,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        54,
+        53
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 101.375,
+        "y": 548.0,
+        "width": 104.09375,
+        "height": 16.0
+      },
+      "name": "返回按钮",
+      "text": "Volver a",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0.25098039215686274,
+          0.6078431372549019,
+          1
+        ],
+        "border_color": [
+          1,
+          0.25098039215686274,
+          0.6078431372549019,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 16,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 129.375,
+        "y": 589.0,
+        "width": 149.15625,
+        "height": 18.0
+      },
+      "name": "文章作者名",
+      "text": "Mariana Avalos - PE",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.403921568627451,
+          0.3607843137254902,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.403921568627451,
+          0.3607843137254902,
+          0.3764705882352941,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 18,
+        "font_weight": 400,
+        "line_height": 18,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 288.53125,
+        "y": 590.0,
+        "width": 75.8125,
+        "height": 17.0
+      },
+      "name": "文章日期",
+      "text": "16 de Marzo",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6549019607843137,
+          0.6588235294117647,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6549019607843137,
+          0.6588235294117647,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 15,
+        "font_weight": 400,
+        "line_height": 15,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        63
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 102.390625,
+        "y": 638.0,
+        "width": 768.0,
+        "height": 80.0
+      },
+      "name": "文章第一段",
+      "text": "Hola chicas el día de hoy les enseñare como hacer unas deliciosas trufas, para esto vas a necesitar",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4549019607843137,
+          0.4588235294117647,
+          1
+        ],
+        "border_color": [
+          0.4666666666666667,
+          0.4549019607843137,
+          0.4588235294117647,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 40,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        66,
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 142.390625,
+        "y": 733.0,
+        "width": 728.0,
+        "height": 67.0
+      },
+      "name": "文章第二段",
+      "text": "200 gr de chocolate para fundir. 200 gr de manjar blanco.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4549019607843137,
+          0.4588235294117647,
+          1
+        ],
+        "border_color": [
+          0.4666666666666667,
+          0.4549019607843137,
+          0.4588235294117647,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 40,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_4",
+        "e_5",
+        "e_2",
+        "e_3"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 0.0,
+        "y": 90.0,
+        "width": 711.0,
+        "height": 60.0
+      },
+      "name": "导航栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_6",
+        "e_7",
+        "e_13"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 0.0,
+        "y": 150.0,
+        "width": 1280.0,
+        "height": 376.0
+      },
+      "name": "页面背景主题",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_8",
+        "e_9"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 981.453125,
+        "y": 454.0,
+        "width": 167.859375,
+        "height": 22.0
+      },
+      "name": "卡片标题",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_8",
+        "e_9",
+        "e_10",
+        "e_11",
+        "e_12"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 940.0,
+        "y": 436.0,
+        "width": 250.0,
+        "height": 334.0
+      },
+      "name": "卡片",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_5",
+      "source_element_ids": [
+        "e_15",
+        "e_16"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 129.375,
+        "y": 589.0,
+        "width": 234.96875,
+        "height": 18.0
+      },
+      "name": "文章信息",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_6",
+      "source_element_ids": [
+        "e_17",
+        "e_18"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 102.390625,
+        "y": 638.0,
+        "width": 768.0,
+        "height": 162.0
+      },
+      "name": "文章正文",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_2",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_3",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_4",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_5",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_6",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "END",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "e_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_14",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_4",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_5",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_2",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_3",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_6",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_7",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_13",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_9",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_4",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_10",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_11",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_12",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_5",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_15",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_16",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_6",
+      "order": 6,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_17",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_18",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "g_3",
+      "order": 0,
+      "confidence": 1.0
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0020",
+    "label_source": "human_ai_adjudication_draft",
+    "status": "draft",
+    "adjudication_status": "pending",
+    "gold_finalized": false,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "0020",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "8a360648faabda6499805bc974b088c01b19cb65f866ff447a98a98fe55d916b",
+    "ai_annotation_sha256": "7d49e86bdf8d3054caa2af5d385f0a60d9023c6861979ed61ad946cc95b5e68b",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": ""
+  }
+}
