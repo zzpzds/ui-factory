@@ -233,3 +233,10 @@ python scripts/evaluate_annotation_agreement.py \
 ```
 
 只要存在未完成文件、格式错误或任一一致性指标未达门槛，脚本都会返回非零状态。
+
+## 无第二位真人标注者时的边界
+
+若无法招募第二位真人设计师，可以增加独立 AI 代理标注用于分歧发现和人工
+复核，但不得写入 `annotator_b/` 或伪装为真人结果，也不得将人机一致性表述为
+双人标注者一致性。AI 轨道的隔离、来源记录和论文披露要求见
+`docs/thesis/12_ai_proxy_annotation_protocol.md`。

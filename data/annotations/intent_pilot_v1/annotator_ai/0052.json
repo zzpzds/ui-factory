@@ -1,0 +1,2664 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_logo",
+      "source_node_ids": [
+        13
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 100.0,
+        "y": 30.0,
+        "width": 300.0,
+        "height": 90.0
+      },
+      "name": "南洋视界标识",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "http://4.bp.blogspot.com/-dI8Dv4qlL84/WMy2BZucghI/AAAAAAAAC-E/Ax-dkQ22q0cLPqKcseFFzxfa-hJcOEa4QCK4B/s1600/logo-v3.gif"
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 100.0,
+        "y": 120.0,
+        "width": 78.40625,
+        "height": 30.0
+      },
+      "name": "新加坡导航",
+      "text": "新加坡",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 178.40625,
+        "y": 120.0,
+        "width": 78.40625,
+        "height": 30.0
+      },
+      "name": "中港台导航",
+      "text": "中港台",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 256.8125,
+        "y": 120.0,
+        "width": 61.609375,
+        "height": 30.0
+      },
+      "name": "国际导航",
+      "text": "国际",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 318.421875,
+        "y": 120.0,
+        "width": 61.609375,
+        "height": 30.0
+      },
+      "name": "财经导航",
+      "text": "财经",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 380.03125,
+        "y": 120.0,
+        "width": 43.828125,
+        "height": 30.0
+      },
+      "name": "IT 导航",
+      "text": "IT",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 423.859375,
+        "y": 120.0,
+        "width": 61.609375,
+        "height": 30.0
+      },
+      "name": "科学导航",
+      "text": "科学",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 485.46875,
+        "y": 120.0,
+        "width": 61.609375,
+        "height": 30.0
+      },
+      "name": "健康导航",
+      "text": "健康",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 547.078125,
+        "y": 120.0,
+        "width": 61.609375,
+        "height": 30.0
+      },
+      "name": "观点导航",
+      "text": "观点",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 608.6875,
+        "y": 120.0,
+        "width": 61.609375,
+        "height": 30.0
+      },
+      "name": "文化导航",
+      "text": "文化",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 670.296875,
+        "y": 120.0,
+        "width": 95.203125,
+        "height": 30.0
+      },
+      "name": "关于导航",
+      "text": "关于我们",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 765.5,
+        "y": 120.0,
+        "width": 95.203125,
+        "height": 30.0
+      },
+      "name": "广告导航",
+      "text": "广告洽询",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_breadcrumb",
+      "source_node_ids": [
+        55,
+        57,
+        59,
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.0,
+        "y": 182.0,
+        "width": 294.765625,
+        "height": 15.0
+      },
+      "name": "文章面包屑",
+      "text": "Home China global 俄模特在华死亡时间扑朔迷离",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8823529411764706,
+          0.8627450980392157,
+          0.792156862745098,
+          1
+        ],
+        "border_color": [
+          0.8823529411764706,
+          0.8627450980392157,
+          0.792156862745098,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_title",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.0,
+        "y": 199.5,
+        "width": 690.1875,
+        "height": 33.0
+      },
+      "name": "文章标题",
+      "text": "俄模特在华死亡时间扑朔迷离",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_meta",
+      "source_node_ids": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 125.0,
+        "y": 240.5,
+        "width": 248.34375,
+        "height": 15.0
+      },
+      "name": "文章日期与分类",
+      "text": "星期六, 十一月 18, 2017 , China global",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.796078431372549,
+          0.796078431372549,
+          0.796078431372549,
+          1
+        ],
+        "border_color": [
+          0.796078431372549,
+          0.796078431372549,
+          0.796078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_share_74",
+      "source_node_ids": [
+        74
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 245.96875,
+        "y": 283.5,
+        "width": 66.375,
+        "height": 15.0
+      },
+      "name": "WhatsApp 分享",
+      "text": "WhatsApp",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_share_76",
+      "source_node_ids": [
+        76
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 332.34375,
+        "y": 283.5,
+        "width": 63.5,
+        "height": 15.0
+      },
+      "name": "Facebook 分享",
+      "text": "Facebook",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_share_78",
+      "source_node_ids": [
+        78
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 415.84375,
+        "y": 283.5,
+        "width": 43.890625,
+        "height": 15.0
+      },
+      "name": "Twitter 分享",
+      "text": "Twitter",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_share_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 479.734375,
+        "y": 283.5,
+        "width": 55.125,
+        "height": 15.0
+      },
+      "name": "Google+ 分享",
+      "text": "Google+",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_share_82",
+      "source_node_ids": [
+        82
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 554.859375,
+        "y": 283.5,
+        "width": 58.515625,
+        "height": 15.0
+      },
+      "name": "Pinterest 分享",
+      "text": "Pinterest",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_share_84",
+      "source_node_ids": [
+        84
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 633.375,
+        "y": 283.5,
+        "width": 54.828125,
+        "height": 15.0
+      },
+      "name": "LinkedIn 分享",
+      "text": "Linkedin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_main_image",
+      "source_node_ids": [
+        89
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 202.59375,
+        "y": 324.0,
+        "width": 525.0,
+        "height": 427.0
+      },
+      "name": "文章主图",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "https://pbs.twimg.com/media/DNK8mm_VwAIUlZb.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_body",
+      "source_node_ids": [
+        86
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120,
+        "y": 775,
+        "width": 690,
+        "height": 25
+      },
+      "name": "文章正文",
+      "text": "俄罗斯未成年模特在华死亡事件出现新细节，或令局面大大复杂化并促使警方介入。\n这名模特死亡原因起初被认为是脑膜炎或高强度工作引发的神经系统疾病。多名证人对年轻模特海外工作境遇的描述也支持这种说法：日程满",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_sidebar_title",
+      "source_node_ids": [
+        94
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 852.0,
+        "y": 205.0,
+        "width": 91.203125,
+        "height": 37.0
+      },
+      "name": "热门新闻标题",
+      "text": "热门新闻",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.1803921568627451,
+          0.1803921568627451,
+          0.1803921568627451,
+          1
+        ],
+        "border_color": [
+          0,
+          0.7450980392156863,
+          0.596078431372549,
+          1
+        ],
+        "border_radius": 2.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_1_image",
+      "source_node_ids": [
+        101
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 852.0,
+        "y": 252.0,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "name": "热门新闻 1 图片",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": "https://1.bp.blogspot.com/-EQqkR_eZqhs/XtPP76MIR4I/AAAAAAACjmk/w7b2MaJY3Ig36f7_xVby04pbcJA19U6SACK4BGAsYHg/s72-c-d/yq-hkprotest1-31052020.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_1_text",
+      "source_node_ids": [
+        103
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 942.0,
+        "y": 252.0,
+        "width": 225.609375,
+        "height": 64.1875
+      },
+      "name": "热门新闻 1 标题",
+      "text": "日本部长：中美在香港问题上的紧张关系对全球经济构成风险",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_sidebar_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_2_image",
+      "source_node_ids": [
+        108
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 852.0,
+        "y": 337.78125,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "name": "热门新闻 2 图片",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": "http://4.bp.blogspot.com/-1qKPAGF59wI/UVzlaorTM1I/AAAAAAAAodM/dEb3AQKuSGg/s72-c/20121225083056247.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_2_text",
+      "source_node_ids": [
+        110
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 942.0,
+        "y": 337.78125,
+        "width": 212.609375,
+        "height": 42.59375
+      },
+      "name": "热门新闻 2 标题",
+      "text": "习近平独生女习明泽 情牵中国富豪梁稳根之子",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_sidebar_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_3_image",
+      "source_node_ids": [
+        115
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 852.0,
+        "y": 418.78125,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "name": "热门新闻 3 图片",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": "http://4.bp.blogspot.com/-B4YBtAs57TY/UVzfxvJpyWI/AAAAAAAAocw/bFPLd12X79M/s72-c/63f6eb0agw1e3cmrore38j.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_3_text",
+      "source_node_ids": [
+        117
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 942.0,
+        "y": 418.78125,
+        "width": 225.609375,
+        "height": 42.59375
+      },
+      "name": "热门新闻 3 标题",
+      "text": "温州秘书长情妇被黑白两道追杀",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_sidebar_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_4_image",
+      "source_node_ids": [
+        122
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 852.0,
+        "y": 499.78125,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "name": "热门新闻 4 图片",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": "http://4.bp.blogspot.com/-1h1F5_ICXeM/UPizYAxcLKI/AAAAAAAAkFY/Dycoz9Y6YuE/s72-c/china-economy_2192221b.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_4_text",
+      "source_node_ids": [
+        124
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 942.0,
+        "y": 499.78125,
+        "width": 215.4375,
+        "height": 42.59375
+      },
+      "name": "热门新闻 4 标题",
+      "text": "中国去年房产销售额6.4万亿 政府拿走逾6成",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_sidebar_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_5_text",
+      "source_node_ids": [
+        128
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 852.0,
+        "y": 580.78125,
+        "width": 306.609375,
+        "height": 42.59375
+      },
+      "name": "热门新闻 5 标题",
+      "text": "印度趁贸易战展开魅力攻势 吸引苹果等从中国转入业务",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_sidebar_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_6_text",
+      "source_node_ids": [
+        132
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 852.0,
+        "y": 644.96875,
+        "width": 300.8125,
+        "height": 21.0
+      },
+      "name": "热门新闻 6 标题",
+      "text": "华为拟建首条海底光缆连接南美亚洲",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_sidebar_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_7_text",
+      "source_node_ids": [
+        136
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 852.0,
+        "y": 687.5625,
+        "width": 306.609375,
+        "height": 42.59375
+      },
+      "name": "热门新闻 7 标题",
+      "text": "马克龙提西方霸权或终结 主张法国扮演平衡角色",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_sidebar_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_news_8_text",
+      "source_node_ids": [
+        140
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 852.0,
+        "y": 751.75,
+        "width": 300.8125,
+        "height": 42.59375
+      },
+      "name": "热门新闻 8 标题",
+      "text": "日本研发出用一滴血检测多种癌症的技术",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_color": [
+          0.7411764705882353,
+          0.011764705882352941,
+          0.011764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_sidebar_text"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_nav",
+      "source_element_ids": [
+        "e_nav_20",
+        "e_nav_22",
+        "e_nav_24",
+        "e_nav_26",
+        "e_nav_28",
+        "e_nav_30",
+        "e_nav_32",
+        "e_nav_34",
+        "e_nav_36",
+        "e_nav_38",
+        "e_nav_40"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 100.0,
+        "y": 120.0,
+        "width": 1080.0,
+        "height": 30.0
+      },
+      "name": "频道导航",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 18,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_header",
+      "source_element_ids": [
+        "e_logo",
+        "e_nav_20",
+        "e_nav_22",
+        "e_nav_24",
+        "e_nav_26",
+        "e_nav_28",
+        "e_nav_30",
+        "e_nav_32",
+        "e_nav_34",
+        "e_nav_36",
+        "e_nav_38",
+        "e_nav_40"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 100.0,
+        "y": 30.0,
+        "width": 1080.0,
+        "height": 120.0
+      },
+      "name": "站点页头",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_article_header",
+      "source_element_ids": [
+        "e_breadcrumb",
+        "e_title",
+        "e_meta"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 110.0,
+        "y": 170.0,
+        "width": 710.1875,
+        "height": 98.5
+      },
+      "name": "文章信息",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 52,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_share",
+      "source_element_ids": [
+        "e_share_74",
+        "e_share_76",
+        "e_share_78",
+        "e_share_80",
+        "e_share_82",
+        "e_share_84"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 245.96875,
+        "y": 283.5,
+        "width": 442.234375,
+        "height": 15.0
+      },
+      "name": "社交分享",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_article",
+      "source_element_ids": [
+        "e_breadcrumb",
+        "e_title",
+        "e_meta",
+        "e_share_74",
+        "e_share_76",
+        "e_share_78",
+        "e_share_80",
+        "e_share_82",
+        "e_share_84",
+        "e_main_image",
+        "e_body"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 110.0,
+        "y": 170.0,
+        "width": 710.1875,
+        "height": 630.0
+      },
+      "name": "文章正文栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_news_1",
+      "source_element_ids": [
+        "e_news_1_image",
+        "e_news_1_text"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 852.0,
+        "y": 242.0,
+        "width": 318.0,
+        "height": 85.78125
+      },
+      "name": "热门新闻 1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 97,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_news_2",
+      "source_element_ids": [
+        "e_news_2_image",
+        "e_news_2_text"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 852.0,
+        "y": 327.78125,
+        "width": 318.0,
+        "height": 81.0
+      },
+      "name": "热门新闻 2",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 104,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_news_3",
+      "source_element_ids": [
+        "e_news_3_image",
+        "e_news_3_text"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 852.0,
+        "y": 408.78125,
+        "width": 318.0,
+        "height": 81.0
+      },
+      "name": "热门新闻 3",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 111,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_news_4",
+      "source_element_ids": [
+        "e_news_4_image",
+        "e_news_4_text"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 852.0,
+        "y": 489.78125,
+        "width": 318.0,
+        "height": 81.0
+      },
+      "name": "热门新闻 4",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 118,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_news_list",
+      "source_element_ids": [
+        "e_news_1_image",
+        "e_news_1_text",
+        "e_news_2_image",
+        "e_news_2_text",
+        "e_news_3_image",
+        "e_news_3_text",
+        "e_news_4_image",
+        "e_news_4_text",
+        "e_news_5_text",
+        "e_news_6_text",
+        "e_news_7_text",
+        "e_news_8_text"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 852.0,
+        "y": 242.0,
+        "width": 318.0,
+        "height": 558.0
+      },
+      "name": "热门新闻列表",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.12156862745098039,
+          0.14901960784313725,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 96,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_sidebar",
+      "source_element_ids": [
+        "e_sidebar_title",
+        "e_news_1_image",
+        "e_news_1_text",
+        "e_news_2_image",
+        "e_news_2_text",
+        "e_news_3_image",
+        "e_news_3_text",
+        "e_news_4_image",
+        "e_news_4_text",
+        "e_news_5_text",
+        "e_news_6_text",
+        "e_news_7_text",
+        "e_news_8_text"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 852.0,
+        "y": 205.0,
+        "width": 318.0,
+        "height": 595.0
+      },
+      "name": "热门新闻侧栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_main",
+      "source_element_ids": [
+        "e_breadcrumb",
+        "e_title",
+        "e_meta",
+        "e_share_74",
+        "e_share_76",
+        "e_share_78",
+        "e_share_80",
+        "e_share_82",
+        "e_share_84",
+        "e_main_image",
+        "e_body",
+        "e_sidebar_title",
+        "e_news_1_image",
+        "e_news_1_text",
+        "e_news_2_image",
+        "e_news_2_text",
+        "e_news_3_image",
+        "e_news_3_text",
+        "e_news_4_image",
+        "e_news_4_text",
+        "e_news_5_text",
+        "e_news_6_text",
+        "e_news_7_text",
+        "e_news_8_text"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 110.0,
+        "y": 170.0,
+        "width": 1060.0,
+        "height": 630.0
+      },
+      "name": "文章与侧栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_nav",
+      "mode": "HORIZONTAL",
+      "gap": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_header",
+      "mode": "VERTICAL",
+      "gap": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_article_header",
+      "mode": "VERTICAL",
+      "gap": 8,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_share",
+      "mode": "HORIZONTAL",
+      "gap": 4,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_article",
+      "mode": "VERTICAL",
+      "gap": 20,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_news_1",
+      "mode": "HORIZONTAL",
+      "gap": 10,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_news_2",
+      "mode": "HORIZONTAL",
+      "gap": 10,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_news_3",
+      "mode": "HORIZONTAL",
+      "gap": 10,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_news_4",
+      "mode": "HORIZONTAL",
+      "gap": 10,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_news_list",
+      "mode": "VERTICAL",
+      "gap": 10,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_sidebar",
+      "mode": "VERTICAL",
+      "gap": 10,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_main",
+      "mode": "HORIZONTAL",
+      "gap": 32,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_20",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_22",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_24",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_26",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_28",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_30",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_32",
+      "order": 6,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_34",
+      "order": 7,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_36",
+      "order": 8,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_38",
+      "order": 9,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_40",
+      "order": 10,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_header",
+      "child_id": "e_logo",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_header",
+      "child_id": "g_nav",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article_header",
+      "child_id": "e_breadcrumb",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article_header",
+      "child_id": "e_title",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article_header",
+      "child_id": "e_meta",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_share",
+      "child_id": "e_share_74",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_share",
+      "child_id": "e_share_76",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_share",
+      "child_id": "e_share_78",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_share",
+      "child_id": "e_share_80",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_share",
+      "child_id": "e_share_82",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_share",
+      "child_id": "e_share_84",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "g_article_header",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "g_share",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "e_main_image",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "e_body",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_1",
+      "child_id": "e_news_1_image",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_1",
+      "child_id": "e_news_1_text",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_2",
+      "child_id": "e_news_2_image",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_2",
+      "child_id": "e_news_2_text",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_3",
+      "child_id": "e_news_3_image",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_3",
+      "child_id": "e_news_3_text",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_4",
+      "child_id": "e_news_4_image",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_4",
+      "child_id": "e_news_4_text",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_list",
+      "child_id": "g_news_1",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_list",
+      "child_id": "g_news_2",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_list",
+      "child_id": "g_news_3",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_list",
+      "child_id": "g_news_4",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_list",
+      "child_id": "e_news_5_text",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_list",
+      "child_id": "e_news_6_text",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_list",
+      "child_id": "e_news_7_text",
+      "order": 6,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_news_list",
+      "child_id": "e_news_8_text",
+      "order": 7,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_sidebar",
+      "child_id": "e_sidebar_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_sidebar",
+      "child_id": "g_news_list",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_main",
+      "child_id": "g_article",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_main",
+      "child_id": "g_sidebar",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_header",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_main",
+      "order": 1,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_nav_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_nav_20",
+        "e_nav_22",
+        "e_nav_24",
+        "e_nav_26",
+        "e_nav_28",
+        "e_nav_30",
+        "e_nav_32",
+        "e_nav_34",
+        "e_nav_36",
+        "e_nav_38",
+        "e_nav_40"
+      ],
+      "name": "频道导航文字",
+      "confidence": 0.78
+    },
+    {
+      "id": "token_sidebar_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 18.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_news_1_text",
+        "e_news_2_text",
+        "e_news_3_text",
+        "e_news_4_text",
+        "e_news_5_text",
+        "e_news_6_text",
+        "e_news_7_text",
+        "e_news_8_text"
+      ],
+      "name": "热门新闻标题文字",
+      "confidence": 0.78
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "0052",
+    "label_source": "ai_proxy_annotation",
+    "annotator": "annotator_ai",
+    "annotator_kind": "ai_proxy",
+    "model_provider": "OpenAI",
+    "model_family": "Codex GPT-5 family",
+    "annotation_protocol": "docs/thesis/12_ai_proxy_annotation_protocol.md",
+    "annotation_protocol_version": "1.0",
+    "status": "complete",
+    "weak_labels_viewed": false,
+    "human_labels_viewed": false,
+    "visual_input_viewed": true,
+    "page_graph_viewed": true,
+    "screenshot_sha256": "c2e69a6d907122ffd569963e61f47b337d3ebd30f05cd074e30152882884877a",
+    "page_graph_sha256": "2f27bd04353380fede59204409b1ac755cc0333233f001446a8c5dc7c70ca368",
+    "generated_at": "2026-08-03T00:00:00+08:00",
+    "limitations": [
+      "AI 代理标注不能作为第二位真人设计师标注。",
+      "人机一致性不能表述为双人标注者一致性。"
+    ]
+  }
+}

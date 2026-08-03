@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "track": "ai_proxy_annotation",
+  "annotator": "annotator_ai",
+  "protocol": "docs/thesis/12_ai_proxy_annotation_protocol.md",
+  "blind_annotation_completed_at": "2026-08-03T00:00:00+08:00",
+  "human_labels_viewed_before_freeze": false,
+  "weak_labels_viewed_before_freeze": false,
+  "samples": [
+    {
+      "sample_id": "0001",
+      "elements": 7,
+      "groups": 3,
+      "tokens": 0,
+      "status": "complete",
+      "annotation_sha256": "e9c89e0ce45dcc2929d5460761e1059af50ad054ba25c94357cf1c65eb1d8639"
+    },
+    {
+      "sample_id": "0020",
+      "elements": 18,
+      "groups": 8,
+      "tokens": 2,
+      "status": "complete",
+      "annotation_sha256": "7d49e86bdf8d3054caa2af5d385f0a60d9023c6861979ed61ad946cc95b5e68b"
+    },
+    {
+      "sample_id": "0319",
+      "elements": 11,
+      "groups": 4,
+      "tokens": 2,
+      "status": "complete",
+      "annotation_sha256": "d2c6894565cc7d78412f39637ce2949a2bb89b82de841a89e3d31880b35f1016"
+    },
+    {
+      "sample_id": "0419",
+      "elements": 14,
+      "groups": 5,
+      "tokens": 1,
+      "status": "complete",
+      "annotation_sha256": "cc71adecb4fe0e69f14e5f48bb3019109046edc8aba02cbf9e8dd8dd7cd1222e"
+    },
+    {
+      "sample_id": "0601",
+      "elements": 56,
+      "groups": 20,
+      "tokens": 2,
+      "status": "complete",
+      "annotation_sha256": "c14cf14f10d95b873ba2ccb6e68e92cd22f4090a5042e694c28781bc0ec3010f"
+    },
+    {
+      "sample_id": "0860",
+      "elements": 26,
+      "groups": 12,
+      "tokens": 3,
+      "status": "complete",
+      "annotation_sha256": "5bb19956dc2339a55c97f6e66a91f85b8ef1e5d301a4a0d7c798629a141f5c84"
+    },
+    {
+      "sample_id": "0052",
+      "elements": 36,
+      "groups": 12,
+      "tokens": 2,
+      "status": "complete",
+      "annotation_sha256": "8bdfbb13d0ef46af7168561fd92788ce24a8c7d10e17bbaec2cf7395ba429b47"
+    },
+    {
+      "sample_id": "1094",
+      "elements": 15,
+      "groups": 6,
+      "tokens": 2,
+      "status": "complete",
+      "annotation_sha256": "20f75c8321edc3e9fdc097f837ee47a9888e0d806e977c9ce4d27991e756c85d"
+    },
+    {
+      "sample_id": "1429",
+      "elements": 38,
+      "groups": 12,
+      "tokens": 3,
+      "status": "complete",
+      "annotation_sha256": "abccc55c5335525c70ba3e0459f78a2d1c6235495c5b3751ab167a7a7cdf3c69"
+    },
+    {
+      "sample_id": "1474",
+      "elements": 58,
+      "groups": 11,
+      "tokens": 3,
+      "status": "complete",
+      "annotation_sha256": "987b299885dd6531fee2883831cedbedd5bfa1403a793135607c84cc1d1238be"
+    }
+  ]
+}

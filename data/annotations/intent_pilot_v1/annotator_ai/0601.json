@@ -1,0 +1,4300 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_logo",
+      "source_node_ids": [
+        4
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 444.0,
+        "y": 21.4375,
+        "width": 392.0,
+        "height": 44.0
+      },
+      "name": "赛事站点标识",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 700,
+        "text_align": "-webkit-center",
+        "image_src": "http://layout.asobrain.com/semi/title.png.php?title=Master+of+the+Seas+Basic+2008"
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 542.890625,
+        "y": 162.875,
+        "width": 76.421875,
+        "height": 18.0
+      },
+      "name": "信息导航",
+      "text": "Information",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 619.3125,
+        "y": 162.875,
+        "width": 59.125,
+        "height": 18.0
+      },
+      "name": "报名导航",
+      "text": "Sign Ups",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 678.4375,
+        "y": 162.875,
+        "width": 58.65625,
+        "height": 18.0
+      },
+      "name": "赛程导航",
+      "text": "Schedule",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 568.4375,
+        "y": 180.875,
+        "width": 47.109375,
+        "height": 18.0
+      },
+      "name": "选手导航",
+      "text": "Players",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 615.546875,
+        "y": 180.875,
+        "width": 48.90625,
+        "height": 18.0
+      },
+      "name": "轮次导航",
+      "text": "Rounds",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 664.453125,
+        "y": 180.875,
+        "width": 47.109375,
+        "height": 18.0
+      },
+      "name": "分组导航",
+      "text": "Groups",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_title",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.0,
+        "y": 218.78125,
+        "width": 1040.0,
+        "height": 28.0
+      },
+      "name": "分组页标题",
+      "text": "Groups for Benton",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 700,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_h0",
+      "source_node_ids": [
+        28,
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.0,
+        "y": 268.6875,
+        "width": 145.09375,
+        "height": 38.0
+      },
+      "name": "半决赛状态",
+      "text": "Semi Finals: Coins Status: Finished",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_h1",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 489.09375,
+        "y": 268.6875,
+        "width": 110.0,
+        "height": 38.0
+      },
+      "name": "半决赛列 1",
+      "text": "Sea Master 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_h2",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 601.09375,
+        "y": 268.6875,
+        "width": 110.0,
+        "height": 38.0
+      },
+      "name": "半决赛列 2",
+      "text": "Sea Master 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_h3",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 713.09375,
+        "y": 268.6875,
+        "width": 110.0,
+        "height": 38.0
+      },
+      "name": "半决赛列 3",
+      "text": "Sea Master 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_h4",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 825.09375,
+        "y": 268.6875,
+        "width": 49.84375,
+        "height": 38.0
+      },
+      "name": "半决赛积分列",
+      "text": "Points",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r1_rank",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.0,
+        "y": 308.6875,
+        "width": 145.09375,
+        "height": 30.0
+      },
+      "name": "半决赛第一名",
+      "text": "1.",
+      "style": {
+        "background_color": [
+          0,
+          1,
+          0,
+          0.2
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r1_name",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 516.65625,
+        "y": 314.6875,
+        "width": 54.875,
+        "height": 18.0
+      },
+      "name": "半决赛第一名选手",
+      "text": "Taniquis",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r1_points",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.9375,
+        "y": 308.6875,
+        "width": 61.0625,
+        "height": 30.0
+      },
+      "name": "半决赛第一名积分",
+      "text": "33 pts",
+      "style": {
+        "background_color": [
+          0,
+          1,
+          0,
+          0.2
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r2_rank",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.0,
+        "y": 340.6875,
+        "width": 145.09375,
+        "height": 30.0
+      },
+      "name": "半决赛第二名",
+      "text": "2.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r2_name",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 520.984375,
+        "y": 346.6875,
+        "width": 46.21875,
+        "height": 18.0
+      },
+      "name": "半决赛第二名选手",
+      "text": "Benton",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r2_points",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.9375,
+        "y": 340.6875,
+        "width": 61.0625,
+        "height": 30.0
+      },
+      "name": "半决赛第二名积分",
+      "text": "29 pts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r3_rank",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.0,
+        "y": 372.6875,
+        "width": 145.09375,
+        "height": 30.0
+      },
+      "name": "半决赛第三名",
+      "text": "3.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r3_name",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 528.53125,
+        "y": 378.6875,
+        "width": 31.125,
+        "height": 18.0
+      },
+      "name": "半决赛第三名选手",
+      "text": "Jmpj",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t1_r3_points",
+      "source_node_ids": [
+        61
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.9375,
+        "y": 372.6875,
+        "width": 61.0625,
+        "height": 30.0
+      },
+      "name": "半决赛第三名积分",
+      "text": "29 pts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_h0",
+      "source_node_ids": [
+        68,
+        69
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.796875,
+        "y": 436.6875,
+        "width": 163.9375,
+        "height": 38.0
+      },
+      "name": "四分之一决赛状态",
+      "text": "Quarter Finals: Coins 1 Status: Finished",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_h1",
+      "source_node_ids": [
+        70
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 476.734375,
+        "y": 436.6875,
+        "width": 128.375,
+        "height": 38.0
+      },
+      "name": "四分之一决赛列 1",
+      "text": "Search the Seas 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_h2",
+      "source_node_ids": [
+        72
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 607.109375,
+        "y": 436.6875,
+        "width": 128.375,
+        "height": 38.0
+      },
+      "name": "四分之一决赛列 2",
+      "text": "Search the Seas 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_h3",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 737.484375,
+        "y": 436.6875,
+        "width": 128.375,
+        "height": 38.0
+      },
+      "name": "四分之一决赛列 3",
+      "text": "Search the Seas 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_h4",
+      "source_node_ids": [
+        76
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 867.859375,
+        "y": 436.6875,
+        "width": 44.671875,
+        "height": 38.0
+      },
+      "name": "四分之一决赛积分列",
+      "text": "Points",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r1_rank",
+      "source_node_ids": [
+        79
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.796875,
+        "y": 476.6875,
+        "width": 163.9375,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第一名",
+      "text": "1.",
+      "style": {
+        "background_color": [
+          0,
+          1,
+          0,
+          0.2
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r1_name",
+      "source_node_ids": [
+        81
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 517.8125,
+        "y": 482.6875,
+        "width": 46.21875,
+        "height": 18.0
+      },
+      "name": "四分之一决赛第一名选手",
+      "text": "Benton",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r1_points",
+      "source_node_ids": [
+        85
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 914.53125,
+        "y": 476.6875,
+        "width": 54.671875,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第一名积分",
+      "text": "39 pts",
+      "style": {
+        "background_color": [
+          0,
+          1,
+          0,
+          0.2
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r2_rank",
+      "source_node_ids": [
+        87
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.796875,
+        "y": 508.6875,
+        "width": 163.9375,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第二名",
+      "text": "2.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r2_name",
+      "source_node_ids": [
+        89
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 524.921875,
+        "y": 514.6875,
+        "width": 32.0,
+        "height": 18.0
+      },
+      "name": "四分之一决赛第二名选手",
+      "text": "15ph",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r2_points",
+      "source_node_ids": [
+        93
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 914.53125,
+        "y": 508.6875,
+        "width": 54.671875,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第二名积分",
+      "text": "37 pts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r3_rank",
+      "source_node_ids": [
+        95
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.796875,
+        "y": 540.6875,
+        "width": 163.9375,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第三名",
+      "text": "3.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r3_name",
+      "source_node_ids": [
+        97
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 525.359375,
+        "y": 546.6875,
+        "width": 31.125,
+        "height": 18.0
+      },
+      "name": "四分之一决赛第三名选手",
+      "text": "Jmpj",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t2_r3_points",
+      "source_node_ids": [
+        101
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 914.53125,
+        "y": 540.6875,
+        "width": 54.671875,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第三名积分",
+      "text": "26 pts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_table_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_history_title",
+      "source_node_ids": [
+        104
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.0,
+        "y": 634.6875,
+        "width": 1040.0,
+        "height": 28.0
+      },
+      "name": "赛事历史标题",
+      "text": "Tournament history for Benton",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 700,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_h0",
+      "source_node_ids": [
+        109
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 672.6875,
+        "width": 87.5625,
+        "height": 20.0
+      },
+      "name": "历史日期列",
+      "text": "Date",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_h1",
+      "source_node_ids": [
+        110
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 360.640625,
+        "y": 672.6875,
+        "width": 99.984375,
+        "height": 20.0
+      },
+      "name": "历史赛事列",
+      "text": "Tournament",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_h2",
+      "source_node_ids": [
+        111
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 462.625,
+        "y": 672.6875,
+        "width": 306.96875,
+        "height": 20.0
+      },
+      "name": "历史成绩列",
+      "text": "Performance",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r1_date",
+      "source_node_ids": [
+        113,
+        114
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 694.6875,
+        "width": 189.546875,
+        "height": 20.0
+      },
+      "name": "历史日期 1",
+      "text": "Mar 2009 - Jun 2009",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r1_name",
+      "source_node_ids": [
+        116
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 695.6875,
+        "width": 258.96875,
+        "height": 18.0
+      },
+      "name": "历史赛事 1",
+      "text": "Xplorers C&K Winter Tournament 2009",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r1_result",
+      "source_node_ids": [
+        118
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 695.6875,
+        "width": 75.546875,
+        "height": 18.0
+      },
+      "name": "历史成绩 1",
+      "text": "Preliminary",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r2_date",
+      "source_node_ids": [
+        121,
+        122
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 716.6875,
+        "width": 189.546875,
+        "height": 20.0
+      },
+      "name": "历史日期 2",
+      "text": "Jun 2008 - Oct 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r2_name",
+      "source_node_ids": [
+        124
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 717.6875,
+        "width": 247.453125,
+        "height": 18.0
+      },
+      "name": "历史赛事 2",
+      "text": "Xplorers 2v2 Spring Tournament 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r2_result",
+      "source_node_ids": [
+        126
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 717.6875,
+        "width": 76.015625,
+        "height": 18.0
+      },
+      "name": "历史成绩 2",
+      "text": "Semi Finals",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r3_date",
+      "source_node_ids": [
+        129,
+        130
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 738.6875,
+        "width": 189.546875,
+        "height": 20.0
+      },
+      "name": "历史日期 3",
+      "text": "Mar 2008 - Jul 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r3_name",
+      "source_node_ids": [
+        132
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 739.6875,
+        "width": 141.328125,
+        "height": 18.0
+      },
+      "name": "历史赛事 3",
+      "text": "MapQuest C&K 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r3_result",
+      "source_node_ids": [
+        134
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 739.6875,
+        "width": 75.546875,
+        "height": 18.0
+      },
+      "name": "历史成绩 3",
+      "text": "Preliminary",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r4_date",
+      "source_node_ids": [
+        137,
+        138
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 760.6875,
+        "width": 189.546875,
+        "height": 20.0
+      },
+      "name": "历史日期 4",
+      "text": "Dec 2007 - Apr 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r4_name",
+      "source_node_ids": [
+        140
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 761.6875,
+        "width": 248.296875,
+        "height": 18.0
+      },
+      "name": "历史赛事 4",
+      "text": "Xplorers 2v2 Winter Tournament 2007",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r4_result",
+      "source_node_ids": [
+        142
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 761.6875,
+        "width": 39.125,
+        "height": 18.0
+      },
+      "name": "历史成绩 4",
+      "text": "Finals",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r4_award",
+      "source_node_ids": [
+        143
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 913.578125,
+        "y": 760.6875,
+        "width": 95.34375,
+        "height": 20.0
+      },
+      "name": "历史奖项 4",
+      "text": "Winner",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r5_date",
+      "source_node_ids": [
+        145,
+        146
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 782.6875,
+        "width": 189.546875,
+        "height": 17.3125
+      },
+      "name": "历史日期 5",
+      "text": "Nov 2007 - Mar 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r5_name",
+      "source_node_ids": [
+        148
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 783.6875,
+        "width": 194.1875,
+        "height": 16.3125
+      },
+      "name": "历史赛事 5",
+      "text": "Master of the Seas Basic 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_t3_r5_result",
+      "source_node_ids": [
+        150
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 783.6875,
+        "width": 76.015625,
+        "height": 16.3125
+      },
+      "name": "历史成绩 5",
+      "text": "Semi Finals",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.8
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_nav",
+      "source_element_ids": [
+        "e_nav_11",
+        "e_nav_13",
+        "e_nav_15",
+        "e_nav_18",
+        "e_nav_20",
+        "e_nav_22"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 542.890625,
+        "y": 162.875,
+        "width": 194.203125,
+        "height": 36.0
+      },
+      "name": "站点导航",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_header",
+      "source_element_ids": [
+        "e_logo",
+        "e_nav_11",
+        "e_nav_13",
+        "e_nav_15",
+        "e_nav_18",
+        "e_nav_20",
+        "e_nav_22"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 444.0,
+        "y": 21.4375,
+        "width": 392.0,
+        "height": 177.4375
+      },
+      "name": "站点页头",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t1_header",
+      "source_element_ids": [
+        "e_t1_h0",
+        "e_t1_h1",
+        "e_t1_h2",
+        "e_t1_h3",
+        "e_t1_h4"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 342.0,
+        "y": 268.6875,
+        "width": 596.0,
+        "height": 38.0
+      },
+      "name": "半决赛表头",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 27,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t1_r1",
+      "source_element_ids": [
+        "e_t1_r1_rank",
+        "e_t1_r1_name",
+        "e_t1_r1_points"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 342.0,
+        "y": 308.6875,
+        "width": 596.0,
+        "height": 30.0
+      },
+      "name": "半决赛第一行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 38,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t1_r2",
+      "source_element_ids": [
+        "e_t1_r2_rank",
+        "e_t1_r2_name",
+        "e_t1_r2_points"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 342.0,
+        "y": 340.6875,
+        "width": 596.0,
+        "height": 30.0
+      },
+      "name": "半决赛第二行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 46,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t1_r3",
+      "source_element_ids": [
+        "e_t1_r3_rank",
+        "e_t1_r3_name",
+        "e_t1_r3_points"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 342.0,
+        "y": 372.6875,
+        "width": 596.0,
+        "height": 30.0
+      },
+      "name": "半决赛第三行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 54,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_table_1",
+      "source_element_ids": [
+        "e_t1_h0",
+        "e_t1_h1",
+        "e_t1_h2",
+        "e_t1_h3",
+        "e_t1_h4",
+        "e_t1_r1_rank",
+        "e_t1_r1_name",
+        "e_t1_r1_points",
+        "e_t1_r2_rank",
+        "e_t1_r2_name",
+        "e_t1_r2_points",
+        "e_t1_r3_rank",
+        "e_t1_r3_name",
+        "e_t1_r3_points"
+      ],
+      "role": "TABLE",
+      "bbox": {
+        "x": 340.0,
+        "y": 266.6875,
+        "width": 600.0,
+        "height": 152.0
+      },
+      "name": "半决赛积分表",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 25,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t2_header",
+      "source_element_ids": [
+        "e_t2_h0",
+        "e_t2_h1",
+        "e_t2_h2",
+        "e_t2_h3",
+        "e_t2_h4"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 310.796875,
+        "y": 436.6875,
+        "width": 658.40625,
+        "height": 38.0
+      },
+      "name": "四分之一决赛表头",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 67,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t2_r1",
+      "source_element_ids": [
+        "e_t2_r1_rank",
+        "e_t2_r1_name",
+        "e_t2_r1_points"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 310.796875,
+        "y": 476.6875,
+        "width": 658.40625,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第一行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 78,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t2_r2",
+      "source_element_ids": [
+        "e_t2_r2_rank",
+        "e_t2_r2_name",
+        "e_t2_r2_points"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 310.796875,
+        "y": 508.6875,
+        "width": 658.40625,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第二行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 86,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t2_r3",
+      "source_element_ids": [
+        "e_t2_r3_rank",
+        "e_t2_r3_name",
+        "e_t2_r3_points"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 310.796875,
+        "y": 540.6875,
+        "width": 658.40625,
+        "height": 30.0
+      },
+      "name": "四分之一决赛第三行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 94,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_table_2",
+      "source_element_ids": [
+        "e_t2_h0",
+        "e_t2_h1",
+        "e_t2_h2",
+        "e_t2_h3",
+        "e_t2_h4",
+        "e_t2_r1_rank",
+        "e_t2_r1_name",
+        "e_t2_r1_points",
+        "e_t2_r2_rank",
+        "e_t2_r2_name",
+        "e_t2_r2_points",
+        "e_t2_r3_rank",
+        "e_t2_r3_name",
+        "e_t2_r3_points"
+      ],
+      "role": "TABLE",
+      "bbox": {
+        "x": 308.796875,
+        "y": 434.6875,
+        "width": 662.40625,
+        "height": 152.0
+      },
+      "name": "四分之一决赛积分表",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 65,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t3_header",
+      "source_element_ids": [
+        "e_t3_h0",
+        "e_t3_h1",
+        "e_t3_h2"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 271.078125,
+        "y": 672.6875,
+        "width": 737.84375,
+        "height": 20.0
+      },
+      "name": "历史表头",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 108,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t3_r1",
+      "source_element_ids": [
+        "e_t3_r1_date",
+        "e_t3_r1_name",
+        "e_t3_r1_result"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 271.078125,
+        "y": 694.6875,
+        "width": 737.84375,
+        "height": 20.0
+      },
+      "name": "历史第一行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 112,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t3_r2",
+      "source_element_ids": [
+        "e_t3_r2_date",
+        "e_t3_r2_name",
+        "e_t3_r2_result"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 271.078125,
+        "y": 716.6875,
+        "width": 737.84375,
+        "height": 20.0
+      },
+      "name": "历史第二行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 120,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t3_r3",
+      "source_element_ids": [
+        "e_t3_r3_date",
+        "e_t3_r3_name",
+        "e_t3_r3_result"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 271.078125,
+        "y": 738.6875,
+        "width": 737.84375,
+        "height": 20.0
+      },
+      "name": "历史第三行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 128,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t3_r4",
+      "source_element_ids": [
+        "e_t3_r4_date",
+        "e_t3_r4_name",
+        "e_t3_r4_result",
+        "e_t3_r4_award"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 271.078125,
+        "y": 760.6875,
+        "width": 737.84375,
+        "height": 20.0
+      },
+      "name": "历史第四行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 136,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_t3_r5",
+      "source_element_ids": [
+        "e_t3_r5_date",
+        "e_t3_r5_name",
+        "e_t3_r5_result"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 271.078125,
+        "y": 782.6875,
+        "width": 737.84375,
+        "height": 17.3125
+      },
+      "name": "历史第五行",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 144,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_table_3",
+      "source_element_ids": [
+        "e_t3_h0",
+        "e_t3_h1",
+        "e_t3_h2",
+        "e_t3_r1_date",
+        "e_t3_r1_name",
+        "e_t3_r1_result",
+        "e_t3_r2_date",
+        "e_t3_r2_name",
+        "e_t3_r2_result",
+        "e_t3_r3_date",
+        "e_t3_r3_name",
+        "e_t3_r3_result",
+        "e_t3_r4_date",
+        "e_t3_r4_name",
+        "e_t3_r4_result",
+        "e_t3_r4_award",
+        "e_t3_r5_date",
+        "e_t3_r5_name",
+        "e_t3_r5_result"
+      ],
+      "role": "TABLE",
+      "bbox": {
+        "x": 269.078125,
+        "y": 670.6875,
+        "width": 741.84375,
+        "height": 129.3125
+      },
+      "name": "赛事历史表",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 106,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_content",
+      "source_element_ids": [
+        "e_title",
+        "e_t1_h0",
+        "e_t1_h1",
+        "e_t1_h2",
+        "e_t1_h3",
+        "e_t1_h4",
+        "e_t1_r1_rank",
+        "e_t1_r1_name",
+        "e_t1_r1_points",
+        "e_t1_r2_rank",
+        "e_t1_r2_name",
+        "e_t1_r2_points",
+        "e_t1_r3_rank",
+        "e_t1_r3_name",
+        "e_t1_r3_points",
+        "e_t2_h0",
+        "e_t2_h1",
+        "e_t2_h2",
+        "e_t2_h3",
+        "e_t2_h4",
+        "e_t2_r1_rank",
+        "e_t2_r1_name",
+        "e_t2_r1_points",
+        "e_t2_r2_rank",
+        "e_t2_r2_name",
+        "e_t2_r2_points",
+        "e_t2_r3_rank",
+        "e_t2_r3_name",
+        "e_t2_r3_points",
+        "e_history_title",
+        "e_t3_h0",
+        "e_t3_h1",
+        "e_t3_h2",
+        "e_t3_r1_date",
+        "e_t3_r1_name",
+        "e_t3_r1_result",
+        "e_t3_r2_date",
+        "e_t3_r2_name",
+        "e_t3_r2_result",
+        "e_t3_r3_date",
+        "e_t3_r3_name",
+        "e_t3_r3_result",
+        "e_t3_r4_date",
+        "e_t3_r4_name",
+        "e_t3_r4_result",
+        "e_t3_r4_award",
+        "e_t3_r5_date",
+        "e_t3_r5_name",
+        "e_t3_r5_result"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 120.0,
+        "y": 218.78125,
+        "width": 1040.0,
+        "height": 581.21875
+      },
+      "name": "赛事数据内容",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_nav",
+      "mode": "GRID",
+      "gap": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_header",
+      "mode": "VERTICAL",
+      "gap": 80,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t1_header",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t1_r1",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t1_r2",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t1_r3",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_table_1",
+      "mode": "VERTICAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t2_header",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t2_r1",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t2_r2",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t2_r3",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_table_2",
+      "mode": "VERTICAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t3_header",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t3_r1",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t3_r2",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t3_r3",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t3_r4",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_t3_r5",
+      "mode": "HORIZONTAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_table_3",
+      "mode": "VERTICAL",
+      "gap": 2,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_content",
+      "mode": "VERTICAL",
+      "gap": 16,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_11",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_13",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_15",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_18",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_20",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_22",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_header",
+      "child_id": "e_logo",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_header",
+      "child_id": "g_nav",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_header",
+      "child_id": "e_t1_h0",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_header",
+      "child_id": "e_t1_h1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_header",
+      "child_id": "e_t1_h2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_header",
+      "child_id": "e_t1_h3",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_header",
+      "child_id": "e_t1_h4",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r1",
+      "child_id": "e_t1_r1_rank",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r1",
+      "child_id": "e_t1_r1_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r1",
+      "child_id": "e_t1_r1_points",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r2",
+      "child_id": "e_t1_r2_rank",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r2",
+      "child_id": "e_t1_r2_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r2",
+      "child_id": "e_t1_r2_points",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r3",
+      "child_id": "e_t1_r3_rank",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r3",
+      "child_id": "e_t1_r3_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t1_r3",
+      "child_id": "e_t1_r3_points",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_1",
+      "child_id": "g_t1_header",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_1",
+      "child_id": "g_t1_r1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_1",
+      "child_id": "g_t1_r2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_1",
+      "child_id": "g_t1_r3",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_header",
+      "child_id": "e_t2_h0",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_header",
+      "child_id": "e_t2_h1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_header",
+      "child_id": "e_t2_h2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_header",
+      "child_id": "e_t2_h3",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_header",
+      "child_id": "e_t2_h4",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r1",
+      "child_id": "e_t2_r1_rank",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r1",
+      "child_id": "e_t2_r1_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r1",
+      "child_id": "e_t2_r1_points",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r2",
+      "child_id": "e_t2_r2_rank",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r2",
+      "child_id": "e_t2_r2_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r2",
+      "child_id": "e_t2_r2_points",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r3",
+      "child_id": "e_t2_r3_rank",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r3",
+      "child_id": "e_t2_r3_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t2_r3",
+      "child_id": "e_t2_r3_points",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_2",
+      "child_id": "g_t2_header",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_2",
+      "child_id": "g_t2_r1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_2",
+      "child_id": "g_t2_r2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_2",
+      "child_id": "g_t2_r3",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_header",
+      "child_id": "e_t3_h0",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_header",
+      "child_id": "e_t3_h1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_header",
+      "child_id": "e_t3_h2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r1",
+      "child_id": "e_t3_r1_date",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r1",
+      "child_id": "e_t3_r1_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r1",
+      "child_id": "e_t3_r1_result",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r2",
+      "child_id": "e_t3_r2_date",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r2",
+      "child_id": "e_t3_r2_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r2",
+      "child_id": "e_t3_r2_result",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r3",
+      "child_id": "e_t3_r3_date",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r3",
+      "child_id": "e_t3_r3_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r3",
+      "child_id": "e_t3_r3_result",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r4",
+      "child_id": "e_t3_r4_date",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r4",
+      "child_id": "e_t3_r4_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r4",
+      "child_id": "e_t3_r4_result",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r4",
+      "child_id": "e_t3_r4_award",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r5",
+      "child_id": "e_t3_r5_date",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r5",
+      "child_id": "e_t3_r5_name",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_t3_r5",
+      "child_id": "e_t3_r5_result",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_3",
+      "child_id": "g_t3_header",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_3",
+      "child_id": "g_t3_r1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_3",
+      "child_id": "g_t3_r2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_3",
+      "child_id": "g_t3_r3",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_3",
+      "child_id": "g_t3_r4",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_table_3",
+      "child_id": "g_t3_r5",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_content",
+      "child_id": "e_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_content",
+      "child_id": "g_table_1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_content",
+      "child_id": "g_table_2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_content",
+      "child_id": "e_history_title",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_content",
+      "child_id": "g_table_3",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_header",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_content",
+      "order": 1,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_nav_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_nav_11",
+        "e_nav_13",
+        "e_nav_15",
+        "e_nav_18",
+        "e_nav_20",
+        "e_nav_22"
+      ],
+      "name": "站点导航文字",
+      "confidence": 0.78
+    },
+    {
+      "id": "token_table_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_t1_r1_rank",
+        "e_t1_r1_name",
+        "e_t1_r1_points",
+        "e_t1_r2_rank",
+        "e_t1_r2_name",
+        "e_t1_r2_points",
+        "e_t1_r3_rank",
+        "e_t1_r3_name",
+        "e_t1_r3_points",
+        "e_t2_r1_rank",
+        "e_t2_r1_name",
+        "e_t2_r1_points",
+        "e_t2_r2_rank",
+        "e_t2_r2_name",
+        "e_t2_r2_points",
+        "e_t2_r3_rank",
+        "e_t2_r3_name",
+        "e_t2_r3_points"
+      ],
+      "name": "表格正文文字",
+      "confidence": 0.78
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "0601",
+    "label_source": "ai_proxy_annotation",
+    "annotator": "annotator_ai",
+    "annotator_kind": "ai_proxy",
+    "model_provider": "OpenAI",
+    "model_family": "Codex GPT-5 family",
+    "annotation_protocol": "docs/thesis/12_ai_proxy_annotation_protocol.md",
+    "annotation_protocol_version": "1.0",
+    "status": "complete",
+    "weak_labels_viewed": false,
+    "human_labels_viewed": false,
+    "visual_input_viewed": true,
+    "page_graph_viewed": true,
+    "screenshot_sha256": "7fa4dcfb07c510aff88571a54265c463716ef63fbae1108cab8dd2400ade7aff",
+    "page_graph_sha256": "bda994b1d2eb2be54234b7dabb94638a64497ffc3550f561c08229ffb23b56ef",
+    "generated_at": "2026-08-03T00:00:00+08:00",
+    "limitations": [
+      "AI 代理标注不能作为第二位真人设计师标注。",
+      "人机一致性不能表述为双人标注者一致性。"
+    ]
+  }
+}

@@ -1,0 +1,588 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_logo",
+      "source_node_ids": [
+        1
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 18.0,
+        "y": 18.0,
+        "width": 33.78125,
+        "height": 18.0
+      },
+      "name": "站点标识",
+      "text": "Logo",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_about",
+      "source_node_ids": [
+        3
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1222.0,
+        "y": 18.0,
+        "width": 40.0,
+        "height": 18.0
+      },
+      "name": "关于链接",
+      "text": "About",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_heading",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 28.0,
+        "y": 87.4375,
+        "width": 1224.0,
+        "height": 37.0
+      },
+      "name": "欢迎标题",
+      "text": "Welcome",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_intro",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 28.0,
+        "y": 145.875,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "介绍文本",
+      "text": "This is a test paragraph.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_primary",
+      "source_node_ids": [
+        8
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 28.0,
+        "y": 179.875,
+        "width": 89.921875,
+        "height": 39.0
+      },
+      "name": "主要按钮",
+      "text": "Primary",
+      "style": {
+        "background_color": [
+          0.09411764705882353,
+          0.5647058823529412,
+          1,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_secondary",
+      "source_node_ids": [
+        9
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 127.921875,
+        "y": 179.875,
+        "width": 105.734375,
+        "height": 39.0
+      },
+      "name": "次要按钮",
+      "text": "Secondary",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_copyright",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 28.0,
+        "y": 274.875,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "版权信息",
+      "text": "© 2024 Test Company",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_nav",
+      "source_element_ids": [
+        "e_logo",
+        "e_about"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 1264.0,
+        "height": 38.0
+      },
+      "name": "顶部导航",
+      "style": {
+        "background_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_actions",
+      "source_element_ids": [
+        "e_primary",
+        "e_secondary"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 28.0,
+        "y": 179.875,
+        "width": 1224.0,
+        "height": 39.0
+      },
+      "name": "操作按钮",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 7,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_intro",
+      "source_element_ids": [
+        "e_heading",
+        "e_intro",
+        "e_primary",
+        "e_secondary"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 8.0,
+        "y": 46.0,
+        "width": 1264.0,
+        "height": 192.875
+      },
+      "name": "欢迎内容",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 4,
+      "confidence": 0.85
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_nav",
+      "mode": "HORIZONTAL",
+      "gap": 16,
+      "padding": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_actions",
+      "mode": "HORIZONTAL",
+      "gap": 10,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_intro",
+      "mode": "VERTICAL",
+      "gap": 16,
+      "padding": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_logo",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_about",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_actions",
+      "child_id": "e_primary",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_actions",
+      "child_id": "e_secondary",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_intro",
+      "child_id": "e_heading",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_intro",
+      "child_id": "e_intro",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_intro",
+      "child_id": "g_actions",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_nav",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_intro",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_copyright",
+      "order": 2,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0001",
+    "label_source": "ai_proxy_annotation",
+    "annotator": "annotator_ai",
+    "annotator_kind": "ai_proxy",
+    "model_provider": "OpenAI",
+    "model_family": "Codex GPT-5 family",
+    "annotation_protocol": "docs/thesis/12_ai_proxy_annotation_protocol.md",
+    "annotation_protocol_version": "1.0",
+    "status": "complete",
+    "weak_labels_viewed": false,
+    "human_labels_viewed": false,
+    "visual_input_viewed": true,
+    "page_graph_viewed": true,
+    "screenshot_sha256": "dcdf58b9321411eb8cf832ee77cba43f00573b6fa039f3a374467971ead31050",
+    "page_graph_sha256": "bd2a7c10910e93023c7d2f498ad0eff49d703dc9500aeb94aace00ebb7e3d77f",
+    "generated_at": "2026-08-03T00:00:00+08:00",
+    "limitations": [
+      "AI 代理标注不能作为第二位真人设计师标注。",
+      "人机一致性不能表述为双人标注者一致性。"
+    ]
+  }
+}

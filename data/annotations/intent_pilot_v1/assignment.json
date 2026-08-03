@@ -132,5 +132,19 @@
       "replaced_at": "2026-07-30T17:27:23+08:00",
       "archive_dir": "data/annotations/intent_pilot_v1/replaced/0884_to_0052"
     }
-  ]
+  ],
+  "annotation_tracks": {
+    "human": [
+      "annotator_a",
+      "annotator_b"
+    ],
+    "ai_proxy": {
+      "annotator": "annotator_ai",
+      "directory": "data/annotations/intent_pilot_v1/annotator_ai",
+      "manifest": "data/annotations/intent_pilot_v1/annotator_ai/manifest.json",
+      "protocol": "docs/thesis/12_ai_proxy_annotation_protocol.md",
+      "status": "complete",
+      "must_not_be_reported_as_human": true
+    }
+  }
 }

@@ -118,12 +118,18 @@ assignment 的 `replacement_history`。
 规模分层、结构指纹和近重复检查，旧模板分别保存在 `replaced/` 下。
 
 前三次替换时 `annotator_a` 已完成前 5 页；替换第 7 页时，第 6 页也已完成。
-`annotator_b` 尚未开始，已有标注均未修改。当前状态为 A 完成 6/10、B 完成
+`annotator_b` 尚未开始，已有标注均未修改。当前状态为 A 完成 7/10、B 完成
 0/10，一致性门仍按预期返回未通过。
 
 本轮人工试标还暴露了层级分组规则问题：group 的直接子实体不能限定为原子
 元素。IR 已明确区分 `tree` 的直接子实体与 `source_element_ids` 的后代原子
 覆盖，因此支持 `TABLE → TABLE_ROW → cell elements`，后者由系统自动展开。
+
+2026-08-03，在无法招募第二位真人设计师的情况下，新增了独立
+`annotator_ai` 轨道。该轨道不写入 `annotator_b/`，不读取人工或弱标签，并按
+`docs/thesis/12_ai_proxy_annotation_protocol.md` 记录模型来源、输入哈希与限制。
+其结果只用于人机差异分析和人工复核，不能解释为第二位真人标注或人工标注者
+间信度。详细结果见 `docs/thesis/13_ai_proxy_pilot_report.md`。
 
 ## Pilot 决策
 

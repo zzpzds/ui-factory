@@ -1,0 +1,2237 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_brand",
+      "source_node_ids": [
+        2,
+        3
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 36.0,
+        "y": 21.0,
+        "width": 352.953125,
+        "height": 21.0
+      },
+      "name": "通胀主题标识",
+      "text": "★ Citrus fruits price inflation since 2022",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 984.671875,
+        "y": 21.0,
+        "width": 33.046875,
+        "height": 21.0
+      },
+      "name": "美国导航",
+      "text": "U.S.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1017.71875,
+        "y": 21.0,
+        "width": 61.359375,
+        "height": 21.0
+      },
+      "name": "加拿大导航",
+      "text": "Canada",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1079.078125,
+        "y": 21.0,
+        "width": 33.421875,
+        "height": 21.0
+      },
+      "name": "英国导航",
+      "text": "U.K.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1112.5,
+        "y": 21.0,
+        "width": 69.4375,
+        "height": 21.0
+      },
+      "name": "澳大利亚导航",
+      "text": "Australia",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1181.9375,
+        "y": 21.0,
+        "width": 56.78125,
+        "height": 21.0
+      },
+      "name": "欧洲导航",
+      "text": "Europe",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1238.71875,
+        "y": 21.0,
+        "width": 41.28125,
+        "height": 21.0
+      },
+      "name": "更多导航",
+      "text": "More",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_headline",
+      "source_node_ids": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 204.671875,
+        "y": 90.0,
+        "width": 870.640625,
+        "height": 56.0
+      },
+      "name": "价格换算标题",
+      "text": "Citrus fruits priced at $20 in 2022 → $19.66 in 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 36.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_calc_title",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 77.0,
+        "y": 183.0,
+        "width": 325.953125,
+        "height": 90.0
+      },
+      "name": "计算器标题",
+      "text": "Citrus Fruits Inflation Calculator",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cost_label",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 77.0,
+        "y": 300.0,
+        "width": 40.171875,
+        "height": 21.0
+      },
+      "name": "金额标签",
+      "text": "Cost",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_field_label"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_currency",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 77.0,
+        "y": 335.25,
+        "width": 25.0,
+        "height": 40.5
+      },
+      "name": "货币符号",
+      "text": "$",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 27.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cost_input",
+      "source_node_ids": [
+        37
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 77.0,
+        "y": 324.0,
+        "width": 325.953125,
+        "height": 63.0
+      },
+      "name": "金额输入框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 25.2,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_start_label",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 77.0,
+        "y": 408.0,
+        "width": 85.09375,
+        "height": 21.0
+      },
+      "name": "开始年份标签",
+      "text": "Start year",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_field_label"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_start_input",
+      "source_node_ids": [
+        41
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 77.0,
+        "y": 432.0,
+        "width": 325.953125,
+        "height": 63.0
+      },
+      "name": "开始年份输入框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 25.2,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_end_label",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 77.0,
+        "y": 516.0,
+        "width": 74.609375,
+        "height": 21.0
+      },
+      "name": "结束年份标签",
+      "text": "End year",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_field_label"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_end_input",
+      "source_node_ids": [
+        45
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 77.0,
+        "y": 540.0,
+        "width": 325.953125,
+        "height": 63.0
+      },
+      "name": "结束年份输入框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 25.2,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_calculate",
+      "source_node_ids": [
+        48
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 80.59375,
+        "y": 621.0,
+        "width": 318.765625,
+        "height": 62.984375
+      },
+      "name": "计算按钮",
+      "text": "Calculate Inflation",
+      "style": {
+        "background_color": [
+          0.3607843137254902,
+          0.7215686274509804,
+          0.3607843137254902,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 2.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_related_title",
+      "source_node_ids": [
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 77.0,
+        "y": 719.984375,
+        "width": 325.953125,
+        "height": 27.0
+      },
+      "name": "相关查询提示",
+      "text": "See price inflation for:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_related_link",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 117.0,
+        "y": 767.984375,
+        "width": 224.34375,
+        "height": 21.0
+      },
+      "name": "相关查询链接",
+      "text": "Wireless telephone services",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_article_title",
+      "source_node_ids": [
+        59
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 476.953125,
+        "y": 183.0,
+        "width": 725.90625,
+        "height": 45.0
+      },
+      "name": "结果标题",
+      "text": "Prices for Citrus Fruits, 2022-2023 ($20)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_article_p1",
+      "source_node_ids": [
+        60,
+        61,
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 476.953125,
+        "y": 246.0,
+        "width": 725.90625,
+        "height": 54.0
+      },
+      "name": "结果说明 1",
+      "text": "According to the U.S. Bureau of Labor Statistics, prices for  are  in 2023 versus 2022 (a $0.34 diff citrus fruits 1.69% lower",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_body_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_article_p2",
+      "source_node_ids": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 476.953125,
+        "y": 318.0,
+        "width": 725.90625,
+        "height": 108.0
+      },
+      "name": "结果说明 2",
+      "text": "experienced an average inflation rate of . In other words,  costing $20 in the year 2022 would cost Between 2022 and 2023: Citrus fruits -1.69% per year citrus fruits citrus fruits",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_body_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_article_p3",
+      "source_node_ids": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 476.953125,
+        "y": 444.0,
+        "width": 725.90625,
+        "height": 81.0
+      },
+      "name": "结果说明 3",
+      "text": "Pricing changed by 11.58%, which is significantly above the average yearly change for  during the 20 In the year 2022: citrus fruits inflation for all items citrus fruits",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_body_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_chart_title",
+      "source_node_ids": [
+        75,
+        76
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 477.953125,
+        "y": 589.9375,
+        "width": 723.90625,
+        "height": 27.0
+      },
+      "name": "历史图表标题",
+      "text": "Price Inflation for  since 1997 Citrus fruits",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_chart_subtitle",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 477.953125,
+        "y": 641.875,
+        "width": 723.90625,
+        "height": 22.40625
+      },
+      "name": "图表来源",
+      "text": "Consumer Price Index, U.S. Bureau of Labor Statistics",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.94,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_chart_body",
+      "source_node_ids": [
+        79,
+        80,
+        81,
+        82
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 477.953125,
+        "y": 717.21875,
+        "width": 723.90625,
+        "height": 54.0
+      },
+      "name": "图表摘要",
+      "text": "Years with the largest changes in pricing: 1998 , 1999 , and 2000 . (28.08%) (24.12%) (-14.63%)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_body_text"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_nav_links",
+      "source_element_ids": [
+        "e_nav_7",
+        "e_nav_9",
+        "e_nav_11",
+        "e_nav_13",
+        "e_nav_15",
+        "e_nav_17"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 984.671875,
+        "y": 18.0,
+        "width": 295.328125,
+        "height": 27.0
+      },
+      "name": "地区导航",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "source_node_id": 5,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_nav",
+      "source_element_ids": [
+        "e_brand",
+        "e_nav_7",
+        "e_nav_9",
+        "e_nav_11",
+        "e_nav_13",
+        "e_nav_15",
+        "e_nav_17"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 63.0
+      },
+      "name": "顶部导航",
+      "style": {
+        "background_color": [
+          0.6,
+          0,
+          0,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_cost_field",
+      "source_element_ids": [
+        "e_cost_label",
+        "e_currency",
+        "e_cost_input"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 77.0,
+        "y": 297.0,
+        "width": 325.953125,
+        "height": 90.0
+      },
+      "name": "金额字段",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 32,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_start_field",
+      "source_element_ids": [
+        "e_start_label",
+        "e_start_input"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 77.0,
+        "y": 405.0,
+        "width": 325.953125,
+        "height": 90.0
+      },
+      "name": "开始年份字段",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 38,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_end_field",
+      "source_element_ids": [
+        "e_end_label",
+        "e_end_input"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 77.0,
+        "y": 513.0,
+        "width": 325.953125,
+        "height": 90.0
+      },
+      "name": "结束年份字段",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 42,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_form",
+      "source_element_ids": [
+        "e_cost_label",
+        "e_currency",
+        "e_cost_input",
+        "e_start_label",
+        "e_start_input",
+        "e_end_label",
+        "e_end_input",
+        "e_calculate"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 77.0,
+        "y": 297.0,
+        "width": 325.953125,
+        "height": 503.0
+      },
+      "name": "通胀计算表单",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 31,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_related",
+      "source_element_ids": [
+        "e_related_title",
+        "e_related_link"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 77.0,
+        "y": 719.984375,
+        "width": 325.953125,
+        "height": 80.015625
+      },
+      "name": "相关价格查询",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 49,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_calculator",
+      "source_element_ids": [
+        "e_calc_title",
+        "e_cost_label",
+        "e_currency",
+        "e_cost_input",
+        "e_start_label",
+        "e_start_input",
+        "e_end_label",
+        "e_end_input",
+        "e_calculate",
+        "e_related_title",
+        "e_related_link"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 77.0,
+        "y": 183.0,
+        "width": 325.953125,
+        "height": 617.0
+      },
+      "name": "计算器面板",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 29,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_chart",
+      "source_element_ids": [
+        "e_chart_title",
+        "e_chart_subtitle",
+        "e_chart_body"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 476.953125,
+        "y": 545.0,
+        "width": 725.90625,
+        "height": 247.21875
+      },
+      "name": "历史价格摘要",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 74,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_article",
+      "source_element_ids": [
+        "e_article_title",
+        "e_article_p1",
+        "e_article_p2",
+        "e_article_p3",
+        "e_chart_title",
+        "e_chart_subtitle",
+        "e_chart_body"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 476.953125,
+        "y": 183.0,
+        "width": 725.90625,
+        "height": 342.0
+      },
+      "name": "通胀结果说明",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 58,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_main",
+      "source_element_ids": [
+        "e_calc_title",
+        "e_cost_label",
+        "e_currency",
+        "e_cost_input",
+        "e_start_label",
+        "e_start_input",
+        "e_end_label",
+        "e_end_input",
+        "e_calculate",
+        "e_related_title",
+        "e_related_link",
+        "e_article_title",
+        "e_article_p1",
+        "e_article_p2",
+        "e_article_p3",
+        "e_chart_title",
+        "e_chart_subtitle",
+        "e_chart_body"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 77.0,
+        "y": 183.0,
+        "width": 1125.859375,
+        "height": 617.0
+      },
+      "name": "计算器与结果",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_page",
+      "source_element_ids": [
+        "e_headline",
+        "e_calc_title",
+        "e_cost_label",
+        "e_currency",
+        "e_cost_input",
+        "e_start_label",
+        "e_start_input",
+        "e_end_label",
+        "e_end_input",
+        "e_calculate",
+        "e_related_title",
+        "e_related_link",
+        "e_article_title",
+        "e_article_p1",
+        "e_article_p2",
+        "e_article_p3",
+        "e_chart_title",
+        "e_chart_subtitle",
+        "e_chart_body"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 77.0,
+        "y": 90.0,
+        "width": 1125.859375,
+        "height": 710.0
+      },
+      "name": "通胀页面",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 0.85
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_nav_links",
+      "mode": "HORIZONTAL",
+      "gap": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_nav",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_cost_field",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_start_field",
+      "mode": "VERTICAL",
+      "gap": 6,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_end_field",
+      "mode": "VERTICAL",
+      "gap": 6,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_form",
+      "mode": "VERTICAL",
+      "gap": 18,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_related",
+      "mode": "VERTICAL",
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_calculator",
+      "mode": "VERTICAL",
+      "gap": 20,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_chart",
+      "mode": "VERTICAL",
+      "gap": 22,
+      "padding": [
+        44,
+        26,
+        20,
+        26
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_article",
+      "mode": "VERTICAL",
+      "gap": 20,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_main",
+      "mode": "HORIZONTAL",
+      "gap": 54,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_page",
+      "mode": "VERTICAL",
+      "gap": 24,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "g_nav_links",
+      "child_id": "e_nav_7",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav_links",
+      "child_id": "e_nav_9",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav_links",
+      "child_id": "e_nav_11",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav_links",
+      "child_id": "e_nav_13",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav_links",
+      "child_id": "e_nav_15",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav_links",
+      "child_id": "e_nav_17",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_brand",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "g_nav_links",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_cost_field",
+      "child_id": "e_cost_label",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_cost_field",
+      "child_id": "e_currency",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_cost_field",
+      "child_id": "e_cost_input",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_start_field",
+      "child_id": "e_start_label",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_start_field",
+      "child_id": "e_start_input",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_end_field",
+      "child_id": "e_end_label",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_end_field",
+      "child_id": "e_end_input",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_form",
+      "child_id": "g_cost_field",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_form",
+      "child_id": "g_start_field",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_form",
+      "child_id": "g_end_field",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_form",
+      "child_id": "e_calculate",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_related",
+      "child_id": "e_related_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_related",
+      "child_id": "e_related_link",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_calculator",
+      "child_id": "e_calc_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_calculator",
+      "child_id": "g_form",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_calculator",
+      "child_id": "g_related",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_chart",
+      "child_id": "e_chart_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_chart",
+      "child_id": "e_chart_subtitle",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_chart",
+      "child_id": "e_chart_body",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "e_article_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "e_article_p1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "e_article_p2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "e_article_p3",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_article",
+      "child_id": "g_chart",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_main",
+      "child_id": "g_calculator",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_main",
+      "child_id": "g_article",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_page",
+      "child_id": "e_headline",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_page",
+      "child_id": "g_main",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_nav",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_page",
+      "order": 1,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_nav_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 18.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_nav_7",
+        "e_nav_9",
+        "e_nav_11",
+        "e_nav_13",
+        "e_nav_15",
+        "e_nav_17"
+      ],
+      "name": "地区导航文字",
+      "confidence": 0.78
+    },
+    {
+      "id": "token_field_label",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 18.0,
+        "font_weight": 700
+      },
+      "member_ids": [
+        "e_cost_label",
+        "e_start_label",
+        "e_end_label"
+      ],
+      "name": "表单标签",
+      "confidence": 0.78
+    },
+    {
+      "id": "token_body_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 18.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_article_p1",
+        "e_article_p2",
+        "e_article_p3",
+        "e_chart_body"
+      ],
+      "name": "说明正文",
+      "confidence": 0.78
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "0860",
+    "label_source": "ai_proxy_annotation",
+    "annotator": "annotator_ai",
+    "annotator_kind": "ai_proxy",
+    "model_provider": "OpenAI",
+    "model_family": "Codex GPT-5 family",
+    "annotation_protocol": "docs/thesis/12_ai_proxy_annotation_protocol.md",
+    "annotation_protocol_version": "1.0",
+    "status": "complete",
+    "weak_labels_viewed": false,
+    "human_labels_viewed": false,
+    "visual_input_viewed": true,
+    "page_graph_viewed": true,
+    "screenshot_sha256": "a2c403e1a77f242c3d08a97cbf33f56e67636b62ba32513b8f3def7d02b3e441",
+    "page_graph_sha256": "dc0e545238fb151d2c6fac98658be5ae0e92aa2e953af8f21297d20e9b78aa4c",
+    "generated_at": "2026-08-03T00:00:00+08:00",
+    "limitations": [
+      "AI 代理标注不能作为第二位真人设计师标注。",
+      "人机一致性不能表述为双人标注者一致性。"
+    ]
+  }
+}

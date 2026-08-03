@@ -11,8 +11,10 @@
 7. `07_implementation_status.md`：当前代码完成度；
 8. `08_verified_literature_map.md`：已核验文献与差异定位；
 9. `09_thesis_outline.md`：论文写作结构与证据占位；
-10. `10_phase2_checkpoint.md`：进入 pilot 前检查点。
-11. `11_pilot_data_report.md`：500 页 Pilot 的生产与质量结论。
+10. `10_phase2_checkpoint.md`：进入 pilot 前检查点；
+11. `11_pilot_data_report.md`：500 页 Pilot 的生产与质量结论；
+12. `12_ai_proxy_annotation_protocol.md`：AI 代理盲态、来源和披露协议；
+13. `13_ai_proxy_pilot_report.md`：AI 代理标注与人机跨来源初步结果。
 
 ## 新主链路
 
@@ -53,6 +55,17 @@ python scripts/serve_intent_annotation.py \
   --package_dir data/annotations/intent_pilot_v1 \
   --port 8765
 
+# 无第二位真人时的独立 AI 代理轨道（不能解释为双人一致性）
+python scripts/generate_ai_proxy_annotations.py \
+  --package_dir data/annotations/intent_pilot_v1
+python scripts/evaluate_annotation_agreement.py \
+  --package_dir data/annotations/intent_pilot_v1 \
+  --left-annotator annotator_a \
+  --right-annotator annotator_ai \
+  --comparison-kind human-ai \
+  --allow-incomplete \
+  --output outputs/intent-pilot-500/human-ai-agreement.json
+
 # 训练与测试
 python scripts/train_intent.py --config configs/intent/full.yaml
 python scripts/evaluate_intent.py \
@@ -65,6 +78,7 @@ python scripts/evaluate_intent.py \
 
 - 正式训练必须提供 `data.split_manifest`，禁止内部随机页面切分；
 - 主测试只使用人工 `gold_intent.json`，弱标签不能作为论文真值；
+- AI 代理只能用于差异检测和人工复核，不能冒充第二位真人标注员；
 - 三个随机种子固定为 `42`、`123`、`2026`；
 - 测试集在阈值、排除规则和模型选择冻结前不得解封；
 - smoke 指标只证明链路连通，不作为研究结果。

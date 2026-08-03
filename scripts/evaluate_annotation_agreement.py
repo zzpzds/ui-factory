@@ -71,6 +71,18 @@ def main() -> None:
     parser.add_argument(
         "--output", default="outputs/intent-pilot-500/agreement.json"
     )
+    parser.add_argument("--left-annotator", default="annotator_a")
+    parser.add_argument("--right-annotator", default="annotator_b")
+    parser.add_argument(
+        "--comparison-kind",
+        choices=("human-human", "human-ai"),
+        default="human-human",
+    )
+    parser.add_argument(
+        "--allow-incomplete",
+        action="store_true",
+        help="允许只统计双方均完成的样本；结果不能作为完整 Pilot 门槛结论。",
+    )
     args = parser.parse_args()
 
     package_dir = Path(args.package_dir)
@@ -85,10 +97,10 @@ def main() -> None:
         sample_id = item["sample_id"]
         graph = PageGraph.load(item["page_graph"])
         left = DesignIntentIR.load(
-            package_dir / "annotator_a" / f"{sample_id}.json"
+            package_dir / args.left_annotator / f"{sample_id}.json"
         )
         right = DesignIntentIR.load(
-            package_dir / "annotator_b" / f"{sample_id}.json"
+            package_dir / args.right_annotator / f"{sample_id}.json"
         )
         if (
             left.provenance.get("status") != "complete"
@@ -99,6 +111,13 @@ def main() -> None:
         errors = validate_intent_ir(left, graph) + validate_intent_ir(
             right, graph
         )
+        if args.comparison_kind == "human-ai":
+            if left.provenance.get("label_source") != "human_annotation":
+                errors.append("human-ai 左侧必须是 human_annotation")
+            if right.provenance.get("label_source") != "ai_proxy_annotation":
+                errors.append("human-ai 右侧必须是 ai_proxy_annotation")
+            if right.provenance.get("human_labels_viewed") is not False:
+                errors.append("AI 代理必须显式记录 human_labels_viewed=false")
         if errors:
             invalid.append({"sample_id": sample_id, "errors": errors})
             continue
@@ -127,7 +146,15 @@ def main() -> None:
             value is not None
             and (value >= threshold if operator == ">=" else value <= threshold)
         )
+    human_human_passed = (
+        len(per_sample) == len(assignment["samples"])
+        and not invalid
+        and all(gates.values())
+    )
     result = {
+        "comparison_kind": args.comparison_kind,
+        "left_annotator": args.left_annotator,
+        "right_annotator": args.right_annotator,
         "assigned": len(assignment["samples"]),
         "completed_pairs": len(per_sample),
         "incomplete": incomplete,
@@ -138,10 +165,12 @@ def main() -> None:
             for name, (operator, value) in thresholds.items()
         },
         "gates": gates,
-        "passed": (
-            len(per_sample) == len(assignment["samples"])
-            and not invalid
-            and all(gates.values())
+        "complete": len(per_sample) == len(assignment["samples"]) and not invalid,
+        "passed": human_human_passed if args.comparison_kind == "human-human" else None,
+        "interpretation": (
+            "人工标注者间一致性门槛"
+            if args.comparison_kind == "human-human"
+            else "人机跨来源描述性比较；阈值仅作参照，不代表人工标注者间信度"
         ),
         "per_sample": per_sample,
     }
@@ -152,7 +181,9 @@ def main() -> None:
         encoding="utf-8",
     )
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    if incomplete or invalid or not result["passed"]:
+    if invalid or (incomplete and not args.allow_incomplete):
+        raise SystemExit(1)
+    if args.comparison_kind == "human-human" and not result["passed"]:
         raise SystemExit(1)
 
 
