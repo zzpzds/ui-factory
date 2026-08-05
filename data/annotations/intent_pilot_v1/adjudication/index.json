@@ -1,6 +1,9 @@
 {
   "comparison_kind": "human-ai",
-  "prepared": [],
+  "prepared": [
+    "1094",
+    "1429"
+  ],
   "existing": [
     "0001",
     "0020",
@@ -11,13 +14,11 @@
     "0052"
   ],
   "incomplete_human": [
-    "1094",
-    "1429",
-    "1474"
+    "0937"
   ],
   "invalid": [],
   "assigned": 10,
-  "ready_pairs": 7,
+  "ready_pairs": 9,
   "complete": false,
   "gold_status": "draft_only",
   "training_exported": false

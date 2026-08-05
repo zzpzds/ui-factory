@@ -26,9 +26,9 @@ source .venv/bin/activate
 python scripts/prepare_human_ai_adjudication.py
 ```
 
-脚本只处理人工和 AI 均为 `complete` 的样本。当前会生成 7 对材料，并把
-`1094`、`1429`、`1474` 标为 `incomplete_human`。设计师 A 完成剩余样本后，
-再次运行同一命令即可；已有记录不会被覆盖，新增 3 个样本会被补齐。
+脚本只处理人工和 AI 均为 `complete` 的样本。当前已有 9 对材料，新替换的
+`0937` 标为 `incomplete_human`。设计师 A 完成该样本后，再次运行同一命令即可；
+已有记录不会被覆盖，最后一个样本会被补齐。
 
 若原始人工或 AI 文件在生成后发生变化，脚本会因 SHA-256 不一致而中止。此时
 不要删除旧记录直接重跑，应先确认变更原因并保留变更审计记录。

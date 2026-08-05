@@ -22,6 +22,7 @@ from src.design_intent.validation import validate_page_graph
 
 
 ANNOTATORS = ("annotator_a", "annotator_b")
+AI_ANNOTATOR = "annotator_ai"
 
 
 def _atomic_json(path: Path, payload: dict[str, Any]) -> None:
@@ -100,6 +101,13 @@ def replace_sample(
                 f"{annotator}/{old_sample_id} 已开始标注，禁止替换"
             )
         old_annotations[annotator] = path
+
+    ai_annotation_path = package_dir / AI_ANNOTATOR / f"{old_sample_id}.json"
+    ai_manifest_path = package_dir / AI_ANNOTATOR / "manifest.json"
+    has_ai_track = ai_annotation_path.exists()
+    new_ai_annotation_path = package_dir / AI_ANNOTATOR / f"{new_sample_id}.json"
+    if has_ai_track and new_ai_annotation_path.exists():
+        raise FileExistsError(f"新 AI 代理标注已存在：{new_ai_annotation_path}")
 
     graph_path = data_dir / new_sample_id / "page_graph.json"
     screenshot_path = data_dir / new_sample_id / "screenshot.png"
@@ -194,6 +202,16 @@ def replace_sample(
             annotator_archive / f"{old_sample_id}.json",
         )
 
+    if has_ai_track:
+        ai_archive = archive_dir / AI_ANNOTATOR
+        ai_archive.mkdir()
+        os.replace(
+            ai_annotation_path,
+            ai_archive / f"{old_sample_id}.json",
+        )
+        if ai_manifest_path.exists():
+            os.replace(ai_manifest_path, ai_archive / "manifest.json")
+
     samples[index] = new_item
     event["replaced_at"] = datetime.now().astimezone().isoformat(
         timespec="seconds"
@@ -202,8 +220,14 @@ def replace_sample(
         Path(os.path.relpath(archive_dir, Path.cwd()))
     )
     assignment.setdefault("replacement_history", []).append(event)
+    ai_track = assignment.get("annotation_tracks", {}).get("ai_proxy")
+    if has_ai_track and isinstance(ai_track, dict):
+        ai_track["status"] = "replacement_pending"
+        ai_track["pending_sample_id"] = new_sample_id
+        ai_track["replaced_sample_id"] = old_sample_id
     _atomic_json(assignment_path, assignment)
     result["replacement"] = event
+    result["ai_proxy_rebuild_required"] = has_ai_track
     return result
 
 

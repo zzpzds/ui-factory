@@ -1,0 +1,1184 @@
+{
+  "schema_version": "1.0",
+  "comparison_kind": "human-ai",
+  "sample_id": "1094",
+  "status": "pending",
+  "inputs": {
+    "human": {
+      "annotator": "annotator_a",
+      "path": "data/annotations/intent_pilot_v1/annotator_a/1094.json",
+      "sha256": "7799e86c2019d7bad58a8906a3dd6af5693cd2af38817f5e77b1acf57ab9b9c7"
+    },
+    "ai": {
+      "annotator": "annotator_ai",
+      "path": "data/annotations/intent_pilot_v1/annotator_ai/1094.json",
+      "sha256": "20f75c8321edc3e9fdc097f837ee47a9888e0d806e977c9ce4d27991e756c85d",
+      "must_not_be_reported_as_human": true
+    }
+  },
+  "metrics": {
+    "leaf_precision": 1.0,
+    "leaf_recall": 0.9375,
+    "leaf_f1": 0.967741935483871,
+    "group_pair_precision": 0.5510204081632653,
+    "group_pair_recall": 0.9310344827586207,
+    "group_pair_f1": 0.6923076923076924,
+    "group_bcubed_precision": 0.925,
+    "group_bcubed_recall": 0.9166666666666666,
+    "group_bcubed_f1": 0.920814479638009,
+    "group_match_precision": 0.6666666666666666,
+    "group_match_recall": 0.8,
+    "group_match_f1": 0.7272727272727272,
+    "parent_precision": 0.5238095238095238,
+    "parent_recall": 0.5238095238095238,
+    "parent_f1": 0.5238095238095238,
+    "token_bcubed_precision": 0.25,
+    "token_bcubed_recall": 1.0,
+    "token_bcubed_f1": 0.4,
+    "layout_mode_accuracy": 0.3333333333333333,
+    "layout_mode_macro_f1": 0.3333333333333333,
+    "gap_normalized_mae": 0.012499999999999999,
+    "padding_normalized_mae": 0.0,
+    "tree_normalized_edit_distance": 0.5416666666666666,
+    "token_coverage": 0.5333333333333333,
+    "semantic_naming_rate": 1.0,
+    "layer_compression_ratio": 0.5882352941176471,
+    "layout_cohen_kappa": 0.25
+  },
+  "summary": {
+    "elements_only_human": 1,
+    "elements_only_ai": 0,
+    "elements_matched_but_changed": 8,
+    "group_signature_disagreements": 7,
+    "tree_parent_disagreements": 13,
+    "layout_disagreements": 8,
+    "tokens_only_human": 0,
+    "tokens_only_ai": 2
+  },
+  "differences": {
+    "elements": {
+      "only_human": [
+        {
+          "source_node_ids": [
+            1
+          ],
+          "human": {
+            "id": "e_9",
+            "type": "SHAPE",
+            "name": "头部背景",
+            "text": "",
+            "bbox": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1280.0,
+              "height": 30.0
+            }
+          }
+        }
+      ],
+      "only_ai": [],
+      "matched_but_changed": [
+        {
+          "source_node_ids": [
+            6
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_1",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "Read our Blog",
+            "bbox": {
+              "x": 917.296875,
+              "y": 9.0,
+              "width": 82.015625,
+              "height": 21.0
+            }
+          },
+          "ai": {
+            "id": "e_top_blog",
+            "type": "TEXT",
+            "name": "博客入口",
+            "text": "Read our Blog",
+            "bbox": {
+              "x": 917.296875,
+              "y": 9.0,
+              "width": 82.015625,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            8
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_2",
+            "type": "BUTTON_VISUAL",
+            "name": "跳转链接",
+            "text": "Listen to our Podcast",
+            "bbox": {
+              "x": 1014.3125,
+              "y": 9.0,
+              "width": 122.6875,
+              "height": 21.0
+            }
+          },
+          "ai": {
+            "id": "e_top_podcast",
+            "type": "TEXT",
+            "name": "播客入口",
+            "text": "Listen to our Podcast",
+            "bbox": {
+              "x": 1014.3125,
+              "y": 9.0,
+              "width": 122.6875,
+              "height": 21.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            14
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_3",
+            "type": "BUTTON_VISUAL",
+            "name": "导航按钮",
+            "text": "Home",
+            "bbox": {
+              "x": 425.765625,
+              "y": 63.0,
+              "width": 38.90625,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_14",
+            "type": "TEXT",
+            "name": "首页导航",
+            "text": "Home",
+            "bbox": {
+              "x": 425.765625,
+              "y": 63.0,
+              "width": 38.90625,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            16
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_4",
+            "type": "BUTTON_VISUAL",
+            "name": "导航按钮",
+            "text": "START HERE",
+            "bbox": {
+              "x": 486.671875,
+              "y": 63.0,
+              "width": 88.421875,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_16",
+            "type": "TEXT",
+            "name": "开始导航",
+            "text": "START HERE",
+            "bbox": {
+              "x": 486.671875,
+              "y": 63.0,
+              "width": 88.421875,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            18
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_5",
+            "type": "BUTTON_VISUAL",
+            "name": "导航按钮",
+            "text": "Get Weekly Marketing Ideas",
+            "bbox": {
+              "x": 597.09375,
+              "y": 63.0,
+              "width": 184.9375,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_18",
+            "type": "TEXT",
+            "name": "营销创意导航",
+            "text": "Get Weekly Marketing Ideas",
+            "bbox": {
+              "x": 597.09375,
+              "y": 63.0,
+              "width": 184.9375,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            20
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_6",
+            "type": "BUTTON_VISUAL",
+            "name": "导航按钮",
+            "text": "Speaking",
+            "bbox": {
+              "x": 804.03125,
+              "y": 63.0,
+              "width": 62.25,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_20",
+            "type": "TEXT",
+            "name": "演讲导航",
+            "text": "Speaking",
+            "bbox": {
+              "x": 804.03125,
+              "y": 63.0,
+              "width": 62.25,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            22
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_7",
+            "type": "BUTTON_VISUAL",
+            "name": "导航按钮",
+            "text": "1-832-7ENROLL",
+            "bbox": {
+              "x": 888.28125,
+              "y": 63.0,
+              "width": 105.8125,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_22",
+            "type": "TEXT",
+            "name": "电话导航",
+            "text": "1-832-7ENROLL",
+            "bbox": {
+              "x": 888.28125,
+              "y": 63.0,
+              "width": 105.8125,
+              "height": 47.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            24
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_8",
+            "type": "BUTTON_VISUAL",
+            "name": "导航按钮",
+            "text": "Contact Us",
+            "bbox": {
+              "x": 1016.09375,
+              "y": 63.0,
+              "width": 73.90625,
+              "height": 47.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_24",
+            "type": "TEXT",
+            "name": "联系导航",
+            "text": "Contact Us",
+            "bbox": {
+              "x": 1016.09375,
+              "y": 63.0,
+              "width": 73.90625,
+              "height": 47.0
+            }
+          }
+        }
+      ]
+    },
+    "groups": [
+      {
+        "source_node_ids": [
+          1,
+          6,
+          8
+        ],
+        "human": [
+          {
+            "id": "g_1",
+            "role": "CONTAINER",
+            "name": "网站头部栏",
+            "bbox": {
+              "x": 0.0,
+              "y": 0.0,
+              "width": 1280.0,
+              "height": 30.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          6,
+          8
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_top_nav",
+            "role": "NAV",
+            "name": "顶部内容入口",
+            "bbox": {
+              "x": 917.296875,
+              "y": 9.0,
+              "width": 219.703125,
+              "height": 21.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          6,
+          8,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_header",
+            "role": "SECTION",
+            "name": "站点页头",
+            "bbox": {
+              "x": 0.0,
+              "y": 30.0,
+              "width": 1280.0,
+              "height": 80.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          37,
+          39,
+          40,
+          41,
+          43
+        ],
+        "human": [
+          {
+            "id": "g_4",
+            "role": "CONTAINER",
+            "name": "内容区域",
+            "bbox": {
+              "x": 128.0,
+              "y": 109.0,
+              "width": 1024.0,
+              "height": 475.1875
+            }
+          }
+        ],
+        "ai": [
+          {
+            "id": "g_article",
+            "role": "CARD",
+            "name": "新闻稿文章摘要",
+            "bbox": {
+              "x": 128.0,
+              "y": 111.0,
+              "width": 1024.0,
+              "height": 487.1875
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          37,
+          39,
+          40,
+          41,
+          43,
+          47,
+          50
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_main",
+            "role": "SECTION",
+            "name": "页面内容",
+            "bbox": {
+              "x": 128.0,
+              "y": 111.0,
+              "width": 1024.0,
+              "height": 689.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          41,
+          43
+        ],
+        "human": [
+          {
+            "id": "g_3",
+            "role": "SECTION",
+            "name": "可展开伸缩文本",
+            "bbox": {
+              "x": 128.0,
+              "y": 498.796875,
+              "width": 1024.0,
+              "height": 85.390625
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          47,
+          50
+        ],
+        "human": [
+          {
+            "id": "g_5",
+            "role": "CONTAINER",
+            "name": "网站底部区域",
+            "bbox": {
+              "x": 128.0,
+              "y": 658.1875,
+              "width": 1024.0,
+              "height": 141.8125
+            }
+          }
+        ],
+        "ai": [
+          {
+            "id": "g_services",
+            "role": "SECTION",
+            "name": "服务介绍",
+            "bbox": {
+              "x": 128.0,
+              "y": 658.1875,
+              "width": 1024.0,
+              "height": 141.8125
+            }
+          }
+        ]
+      }
+    ],
+    "tree": [
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            1
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              1,
+              6,
+              8
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            6
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              1,
+              6,
+              8
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              6,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            8
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              1,
+              6,
+              8
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              6,
+              8
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            41
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              41,
+              43
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              37,
+              39,
+              40,
+              41,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            43
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              41,
+              43
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              37,
+              39,
+              40,
+              41,
+              43
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            1,
+            6,
+            8
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            6,
+            8
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              6,
+              8,
+              14,
+              16,
+              18,
+              20,
+              22,
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            6,
+            8,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            14,
+            16,
+            18,
+            20,
+            22,
+            24
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              6,
+              8,
+              14,
+              16,
+              18,
+              20,
+              22,
+              24
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            37,
+            39,
+            40,
+            41,
+            43
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              37,
+              39,
+              40,
+              41,
+              43,
+              47,
+              50
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            37,
+            39,
+            40,
+            41,
+            43,
+            47,
+            50
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            41,
+            43
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              37,
+              39,
+              40,
+              41,
+              43
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            47,
+            50
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              37,
+              39,
+              40,
+              41,
+              43,
+              47,
+              50
+            ]
+          }
+        ]
+      }
+    ],
+    "layouts": [
+      {
+        "source_node_ids": [
+          1,
+          6,
+          8
+        ],
+        "human": [
+          {
+            "target_id": "g_1",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          6,
+          8
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_top_nav",
+            "mode": "HORIZONTAL",
+            "gap": 16.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          6,
+          8,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_header",
+            "mode": "VERTICAL",
+            "gap": 24.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          14,
+          16,
+          18,
+          20,
+          22,
+          24
+        ],
+        "human": [
+          {
+            "target_id": "g_2",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_primary_nav",
+            "mode": "HORIZONTAL",
+            "gap": 22.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          37,
+          39,
+          40,
+          41,
+          43
+        ],
+        "human": [
+          {
+            "target_id": "g_4",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_article",
+            "mode": "VERTICAL",
+            "gap": 14.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          37,
+          39,
+          40,
+          41,
+          43,
+          47,
+          50
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_main",
+            "mode": "VERTICAL",
+            "gap": 56.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          41,
+          43
+        ],
+        "human": [
+          {
+            "target_id": "g_3",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          47,
+          50
+        ],
+        "human": [
+          {
+            "target_id": "g_5",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_services",
+            "mode": "VERTICAL",
+            "gap": 12.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      }
+    ],
+    "tokens": {
+      "only_human": [],
+      "only_ai": [
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                14
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                16
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                18
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                20
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                22
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                40
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                41
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "notes": "",
+    "required_checks": [
+      "逐项核对原子元素的合并、拆分与类型",
+      "逐项核对语义分组及父子层级",
+      "逐项核对布局模式、间距与内边距",
+      "确认样式 Token 是否代表应联动修改的设计变量",
+      "在金标准草稿中记录采用人工、采用 AI 或重新标注的决定"
+    ]
+  }
+}

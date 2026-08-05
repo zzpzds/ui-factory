@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 import hashlib
 import json
 from pathlib import Path
@@ -28,6 +29,10 @@ from src.design_intent.schema import (
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PROTOCOL = "docs/thesis/12_ai_proxy_annotation_protocol.md"
+INITIAL_FREEZE_AT = "2026-08-03T00:00:00+08:00"
+REPLACEMENT_GENERATED_AT = {
+    "0937": "2026-08-05T00:00:00+08:00",
+}
 
 
 def E(
@@ -376,35 +381,102 @@ SPECS: dict[str, dict[str, Any]] = {
             T("token_sidebar_text", "TEXT", "侧栏菜单文字", [*[f"e_menu_{node}" for node in [87, 89, 92, 94, 96, 99, 101, 103, 105, 107, 109, 112, 114, 116, 118]]]),
         ],
     },
-    "1474": {
+    "0937": {
         "elements": [
-            *[E(f"e_nav_{node}", node, "TEXT", f"顶部导航 {node}") for node in [13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35]],
-            E("e_logo", 41, "IMAGE", "Agility Lana 标识"), E("e_site_title", 44, "TEXT", "站点名称"), E("e_site_subtitle", 45, "TEXT", "站点说明"), E("e_posts", 49, "TEXT", "文章入口"), E("e_comments", 48, "TEXT", "评论入口"), E("e_search", 55, "INPUT", "站内搜索"), E("e_dog_banner", 57, "IMAGE", "犬类横幅", confidence=0.82),
-            E("e_categories_title", 63, "TEXT", "分类标题"),
-            E("e_category_1", [65, 66], "TEXT", "Agility 分类"), E("e_category_2", [67, 68], "TEXT", "常规分类"), E("e_category_3", [69, 70], "TEXT", "服从分类"), E("e_category_4", [71, 72], "TEXT", "日程分类"), E("e_category_5", [73, 74], "TEXT", "幼犬分类"),
-            E("e_archives_title", 77, "TEXT", "归档标题"),
-            *[E(f"e_archive_{node}", node, "TEXT", f"归档月份 {node}") for node in [80, 82, 84, 86, 88, 90, 92, 94, 96, 98]],
-            E("e_prev", 102, "TEXT", "上一篇"), E("e_next", 104, "TEXT", "下一篇"), E("e_title", 107, "TEXT", "文章标题"), E("e_p1", 109, "TEXT", "文章导语"), E("e_p2", [110, 111], "TEXT", "周六赛程"), E("e_p3", [112, 113], "TEXT", "周日赛程"), E("e_p4", [114, 115], "TEXT", "报名信息"), E("e_p5", 116, "TEXT", "截止日期"), E("e_p6", 117, "TEXT", "结束语"),
-            E("e_recent_title", 123, "TEXT", "近期文章标题"),
-            *[E(f"e_recent_{node}", node, "TEXT", f"近期文章 {node}") for node in [126, 128, 130, 132, 134, 136, 138, 140, 142, 144, 146, 148]],
+            *[
+                E(f"e_nav_{node}", node, "TEXT", name)
+                for node, name in [
+                    (7, "首页导航"),
+                    (8, "添加商家导航"),
+                    (9, "商家论坛导航"),
+                    (10, "客户评价导航"),
+                    (11, "推广导航"),
+                ]
+            ],
+            E("e_login", 5, "BUTTON_VISUAL", "登录按钮"),
+            E("e_social_1", 17, "IMAGE", "社交入口 1", confidence=0.72),
+            E("e_social_2", 19, "IMAGE", "社交入口 2", confidence=0.72),
+            E("e_social_3", 21, "IMAGE", "社交入口 3", confidence=0.72),
+            E(
+                "e_search_label",
+                24,
+                "TEXT",
+                "业务搜索标签",
+                bbox=[232, 194, 82, 22],
+            ),
+            E("e_search_query", 26, "INPUT", "业务搜索框"),
+            E(
+                "e_location_label",
+                27,
+                "TEXT",
+                "地点搜索标签",
+                bbox=[538, 194, 38, 22],
+            ),
+            E("e_search_location", 29, "INPUT", "地点搜索框"),
+            E("e_search_submit", 31, "BUTTON_VISUAL", "搜索按钮"),
+            E("e_breadcrumb_home", 37, "TEXT", "本地服务面包屑"),
+            E("e_breadcrumb_result", 39, "TEXT", "搜索结果面包屑"),
+            E("e_recent_title", 42, "TEXT", "近期搜索标题"),
+            *[
+                E(f"e_recent_{index}", nodes, "TEXT", f"近期搜索 {index}")
+                for index, nodes in enumerate(
+                    ([45, 46], [49, 50], [53, 54], [57, 58], [61, 62], [65, 66]),
+                    start=1,
+                )
+            ],
+            E("e_cta_review", [70, 71], "BUTTON_VISUAL", "留下评价", text="Leave a Review"),
+            E("e_cta_add", [73, 74], "BUTTON_VISUAL", "添加商家", text="Add your Business"),
+            E("e_cta_feedback", [76, 77], "BUTTON_VISUAL", "查看反馈", text="View our Feedback"),
+            E("e_cta_promotion", [79, 80], "BUTTON_VISUAL", "商家推广", text="Business Promotion"),
+            E("e_cta_forum", [82, 83], "BUTTON_VISUAL", "商家论坛", text="Business Forum"),
+            E("e_cta_showcase", [85, 86], "BUTTON_VISUAL", "论坛展示", text="Forum Showcase"),
+            E("e_title", 89, "TEXT", "搜索结果标题"),
+            E(
+                "e_result_label",
+                90,
+                "TEXT",
+                "搜索结果说明",
+                bbox=[220, 304, 120, 22],
+            ),
+            E("e_filter_query", 92, "INPUT", "结果筛选框 1"),
+            E("e_filter_location", 93, "INPUT", "结果筛选框 2"),
+            E("e_sort_label", 95, "TEXT", "排序标签"),
+            E("e_sort_select", 96, "INPUT", "排序选择器"),
+            E("e_result_1_title", 104, "TEXT", "商家 1 名称"),
+            E("e_result_1_address", 106, "TEXT", "商家 1 地址"),
+            E("e_result_1_distance", 107, "TEXT", "商家 1 距离"),
+            E("e_result_1_categories", 108, "TEXT", "商家 1 分类"),
+            E("e_result_1_contact", 112, "TEXT", "商家 1 联系入口"),
+            E("e_result_1_verified", 114, "TEXT", "商家 1 认证状态"),
+            E("e_result_1_detail", 117, "BUTTON_VISUAL", "商家 1 详情"),
+            E("e_result_2_title", 121, "TEXT", "商家 2 名称"),
+            E("e_result_2_address", 123, "TEXT", "商家 2 地址"),
+            E("e_result_2_distance", 124, "TEXT", "商家 2 距离"),
+            E("e_result_2_categories", 125, "TEXT", "商家 2 分类"),
+            E("e_result_2_contact", 129, "TEXT", "商家 2 联系入口"),
+            E("e_result_2_verified", 131, "TEXT", "商家 2 认证状态"),
+            E("e_result_2_detail", 134, "BUTTON_VISUAL", "商家 2 详情"),
         ],
         "groups": [
-            G("g_top_nav", "NAV", "顶部导航", [*[f"e_nav_{node}" for node in [13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35]]], "GRID", source_node_id=11, gap=0, horizontal_resize="FIXED"),
-            G("g_brand", "SECTION", "站点品牌", ["e_logo", "e_site_title", "e_site_subtitle"], "HORIZONTAL", gap=134, cross="CENTER"),
-            G("g_utility", "NAV", "文章入口", ["e_posts", "e_comments"], "HORIZONTAL", gap=12, cross="CENTER"),
-            G("g_header", "SECTION", "博客页头", ["g_top_nav", "g_brand", "g_utility", "e_search", "e_dog_banner"], "FREE", source_node_id=8, horizontal_resize="STRETCH"),
-            G("g_categories", "LIST", "文章分类", ["e_categories_title", "e_category_1", "e_category_2", "e_category_3", "e_category_4", "e_category_5"], "VERTICAL", gap=2, horizontal_resize="STRETCH"),
-            G("g_archives", "LIST", "月份归档", ["e_archives_title", *[f"e_archive_{node}" for node in [80, 82, 84, 86, 88, 90, 92, 94, 96, 98]]], "VERTICAL", gap=2, horizontal_resize="STRETCH"),
-            G("g_left_sidebar", "SECTION", "分类与归档侧栏", ["g_categories", "g_archives"], "VERTICAL", gap=14, horizontal_resize="STRETCH"),
-            G("g_post_nav", "NAV", "上一篇与下一篇", ["e_prev", "e_next"], "HORIZONTAL", gap=32, primary="SPACE_BETWEEN", horizontal_resize="STRETCH"),
-            G("g_article", "SECTION", "文章正文", ["g_post_nav", "e_title", "e_p1", "e_p2", "e_p3", "e_p4", "e_p5", "e_p6"], "VERTICAL", gap=14, horizontal_resize="STRETCH"),
-            G("g_recent", "LIST", "近期文章列表", ["e_recent_title", *[f"e_recent_{node}" for node in [126, 128, 130, 132, 134, 136, 138, 140, 142, 144, 146, 148]]], "VERTICAL", gap=2, horizontal_resize="STRETCH"),
-            G("g_main", "SECTION", "博客三栏内容", ["g_left_sidebar", "g_article", "g_recent"], "HORIZONTAL", gap=17, horizontal_resize="STRETCH"),
+            G("g_nav", "NAV", "主导航", [*[f"e_nav_{node}" for node in [7, 8, 9, 10, 11]], "e_login"], "HORIZONTAL", source_node_id=3, gap=0, primary="SPACE_BETWEEN", cross="CENTER", horizontal_resize="STRETCH"),
+            G("g_social", "NAV", "社交入口", ["e_social_1", "e_social_2", "e_social_3"], "HORIZONTAL", source_node_id=14, gap=24, cross="CENTER"),
+            G("g_search", "FORM", "业务与地点搜索", ["e_search_label", "e_search_query", "e_location_label", "e_search_location", "e_search_submit"], "HORIZONTAL", source_node_id=23, gap=0, cross="CENTER", horizontal_resize="STRETCH"),
+            G("g_search_bar", "SECTION", "页面搜索栏", ["g_social", "g_search"], "HORIZONTAL", source_node_id=13, gap=4, cross="CENTER", horizontal_resize="STRETCH"),
+            G("g_breadcrumb", "NAV", "搜索面包屑", ["e_breadcrumb_home", "e_breadcrumb_result"], "HORIZONTAL", source_node_id=33, gap=8, cross="CENTER"),
+            G("g_recent", "LIST", "近期搜索列表", ["e_recent_title", *[f"e_recent_{index}" for index in range(1, 7)]], "VERTICAL", source_node_id=41, gap=0, horizontal_resize="STRETCH"),
+            G("g_actions", "LIST", "商家操作入口", ["e_cta_review", "e_cta_add", "e_cta_feedback", "e_cta_promotion", "e_cta_forum", "e_cta_showcase"], "VERTICAL", source_node_id=68, gap=17, horizontal_resize="STRETCH"),
+            G("g_filters", "FORM", "结果筛选与排序", ["e_filter_query", "e_filter_location", "e_sort_label", "e_sort_select"], "FREE", source_node_id=91, horizontal_resize="STRETCH"),
+            G("g_result_1", "LIST_ITEM", "商家结果 1", ["e_result_1_title", "e_result_1_address", "e_result_1_distance", "e_result_1_categories", "e_result_1_contact", "e_result_1_verified", "e_result_1_detail"], "FREE", source_node_id=101, horizontal_resize="STRETCH"),
+            G("g_result_2", "LIST_ITEM", "商家结果 2", ["e_result_2_title", "e_result_2_address", "e_result_2_distance", "e_result_2_categories", "e_result_2_contact", "e_result_2_verified", "e_result_2_detail"], "FREE", source_node_id=118, horizontal_resize="STRETCH"),
+            G("g_results", "LIST", "商家结果列表", ["g_result_1", "g_result_2"], "VERTICAL", source_node_id=97, gap=17, horizontal_resize="STRETCH"),
+            G("g_main", "SECTION", "搜索结果主体", ["e_title", "e_result_label", "g_filters", "g_results"], "VERTICAL", source_node_id=87, gap=12, horizontal_resize="STRETCH"),
+            G("g_content", "SECTION", "目录页面内容", ["g_actions", "g_main", "g_recent"], "HORIZONTAL", source_node_id=32, gap=20, horizontal_resize="STRETCH"),
         ],
         "tokens": [
-            T("token_top_nav", "TEXT", "顶部导航文字", [*[f"e_nav_{node}" for node in [13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35]]]),
-            T("token_sidebar_text", "TEXT", "侧栏链接文字", ["e_category_1", "e_category_2", "e_category_3", "e_category_4", "e_category_5", *[f"e_archive_{node}" for node in [80, 82, 84, 86, 88, 90, 92, 94, 96, 98]], *[f"e_recent_{node}" for node in [126, 128, 130, 132, 134, 136, 138, 140, 142, 144, 146, 148]]]),
-            T("token_body_text", "TEXT", "文章正文文字", ["e_p1", "e_p2", "e_p3", "e_p4", "e_p5", "e_p6"]),
+            T("token_nav_text", "TEXT", "主导航文字", [*[f"e_nav_{node}" for node in [7, 8, 9, 10, 11]]]),
+            T("token_cta_text", "TEXT", "侧栏操作文字", ["e_cta_review", "e_cta_add", "e_cta_feedback", "e_cta_promotion", "e_cta_forum", "e_cta_showcase"]),
+            T("token_result_meta", "TEXT", "商家结果元信息", ["e_result_1_address", "e_result_1_distance", "e_result_1_categories", "e_result_2_address", "e_result_2_distance", "e_result_2_categories"]),
+            T("token_recent_text", "TEXT", "近期搜索文字", [*[f"e_recent_{index}" for index in range(1, 7)]]),
         ],
     },
 }
@@ -613,7 +685,9 @@ def build_annotation(
             "page_graph_viewed": True,
             "screenshot_sha256": _sha256(screenshot_path),
             "page_graph_sha256": _sha256(graph_path),
-            "generated_at": "2026-08-03T00:00:00+08:00",
+            "generated_at": REPLACEMENT_GENERATED_AT.get(
+                sample_id, INITIAL_FREEZE_AT
+            ),
             "limitations": [
                 "AI 代理标注不能作为第二位真人设计师标注。",
                 "人机一致性不能表述为双人标注者一致性。",
@@ -677,7 +751,10 @@ def main() -> None:
             "track": "ai_proxy_annotation",
             "annotator": "annotator_ai",
             "protocol": PROTOCOL,
-            "blind_annotation_completed_at": "2026-08-03T00:00:00+08:00",
+            "initial_blind_annotation_completed_at": INITIAL_FREEZE_AT,
+            "blind_annotation_completed_at": datetime.now().astimezone().isoformat(
+                timespec="seconds"
+            ),
             "human_labels_viewed_before_freeze": False,
             "weak_labels_viewed_before_freeze": False,
             "samples": summaries,
@@ -686,6 +763,15 @@ def main() -> None:
             json.dumps(manifest, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
+        ai_track = assignment.get("annotation_tracks", {}).get("ai_proxy")
+        if isinstance(ai_track, dict):
+            ai_track["status"] = "complete"
+            ai_track.pop("pending_sample_id", None)
+            ai_track.pop("replaced_sample_id", None)
+            (package_dir / "assignment.json").write_text(
+                json.dumps(assignment, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
     print(json.dumps(summaries, ensure_ascii=False, indent=2))
 
 

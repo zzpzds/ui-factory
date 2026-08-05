@@ -2329,9 +2329,24 @@
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "1429",
-    "label_source": "human_annotation",
-    "annotator": "annotator_a",
-    "status": "complete",
-    "weak_labels_viewed": false
+    "label_source": "human_ai_adjudication_draft",
+    "status": "draft",
+    "adjudication_status": "pending",
+    "gold_finalized": false,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "1429",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "3168f0217e1ba38f7d1f761e447e676fc0fad44d2de8d0767ac800e563edcc32",
+    "ai_annotation_sha256": "abccc55c5335525c70ba3e0459f78a2d1c6235495c5b3751ab167a7a7cdf3c69",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": ""
   }
 }

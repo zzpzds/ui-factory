@@ -3,8 +3,7 @@
   "track": "ai_proxy_annotation",
   "annotator": "annotator_ai",
   "protocol": "docs/thesis/12_ai_proxy_annotation_protocol.md",
-  "initial_blind_annotation_completed_at": "2026-08-03T00:00:00+08:00",
-  "blind_annotation_completed_at": "2026-08-05T17:51:32+08:00",
+  "blind_annotation_completed_at": "2026-08-03T00:00:00+08:00",
   "human_labels_viewed_before_freeze": false,
   "weak_labels_viewed_before_freeze": false,
   "samples": [
@@ -81,12 +80,12 @@
       "annotation_sha256": "abccc55c5335525c70ba3e0459f78a2d1c6235495c5b3751ab167a7a7cdf3c69"
     },
     {
-      "sample_id": "0937",
-      "elements": 49,
-      "groups": 13,
-      "tokens": 4,
+      "sample_id": "1474",
+      "elements": 58,
+      "groups": 11,
+      "tokens": 3,
       "status": "complete",
-      "annotation_sha256": "d7fad422cde8e833b6cc3ce5a97ebf2ae96e46b84da04b22131df07b04838e9a"
+      "annotation_sha256": "987b299885dd6531fee2883831cedbedd5bfa1403a793135607c84cc1d1238be"
     }
   ]
 }

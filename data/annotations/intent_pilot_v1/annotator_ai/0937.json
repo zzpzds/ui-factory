@@ -1,0 +1,3572 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_nav_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 428.0,
+        "y": 0.0,
+        "width": 81.28125,
+        "height": 46.0
+      },
+      "name": "首页导航",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 509.28125,
+        "y": 0.0,
+        "width": 150.125,
+        "height": 46.0
+      },
+      "name": "添加商家导航",
+      "text": "Add Business",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 659.40625,
+        "y": 0.0,
+        "width": 172.28125,
+        "height": 46.0
+      },
+      "name": "商家论坛导航",
+      "text": "Business Forum",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 831.6875,
+        "y": 0.0,
+        "width": 137.875,
+        "height": 46.0
+      },
+      "name": "客户评价导航",
+      "text": "Testimonials",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_nav_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 969.5625,
+        "y": 0.0,
+        "width": 119.015625,
+        "height": 46.0
+      },
+      "name": "推广导航",
+      "text": "Promotion",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_nav_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_login",
+      "source_node_ids": [
+        5
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1148.0625,
+        "y": 0.0,
+        "width": 83.9375,
+        "height": 45.0
+      },
+      "name": "登录按钮",
+      "text": "Log-in",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 8.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.311,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_social_1",
+      "source_node_ids": [
+        17
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 48.0,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "社交入口 1",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": "/images/new/twitter.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_social_2",
+      "source_node_ids": [
+        19
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 108.421875,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "社交入口 2",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": "/images/new/facebook.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_social_3",
+      "source_node_ids": [
+        21
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 168.84375,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "社交入口 3",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": "/images/new/linkedin.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.72
+    },
+    {
+      "id": "e_search_label",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 232,
+        "y": 194,
+        "width": 82,
+        "height": 22
+      },
+      "name": "业务搜索标签",
+      "text": "Search for",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_search_query",
+      "source_node_ids": [
+        26
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 314.125,
+        "y": 197.421875,
+        "width": 224.0,
+        "height": 19.0
+      },
+      "name": "业务搜索框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_location_label",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 538,
+        "y": 194,
+        "width": 38,
+        "height": 22
+      },
+      "name": "地点搜索标签",
+      "text": "near",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_search_location",
+      "source_node_ids": [
+        29
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 576.0625,
+        "y": 197.421875,
+        "width": 224.0,
+        "height": 19.0
+      },
+      "name": "地点搜索框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_search_submit",
+      "source_node_ids": [
+        31
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 810.0625,
+        "y": 188.0,
+        "width": 125.1875,
+        "height": 36.0
+      },
+      "name": "搜索按钮",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 23.305,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_breadcrumb_home",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 239.0,
+        "width": 118.796875,
+        "height": 16.0
+      },
+      "name": "本地服务面包屑",
+      "text": "My Local Services",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.6488,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_breadcrumb_result",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 179.953125,
+        "y": 239.0,
+        "width": 93.578125,
+        "height": 16.0
+      },
+      "name": "搜索结果面包屑",
+      "text": "Search results",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.6488,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_recent_title",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 265.046875,
+        "width": 158.75,
+        "height": 24.46875
+      },
+      "name": "近期搜索标题",
+      "text": "Recent searches",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0.4,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0.4,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_recent_1",
+      "source_node_ids": [
+        45,
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 298.515625,
+        "width": 277.453125,
+        "height": 22.46875
+      },
+      "name": "近期搜索 1",
+      "text": "Food Services in Clarkston, Michigan",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_recent_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_recent_2",
+      "source_node_ids": [
+        49,
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 333.984375,
+        "width": 320.0,
+        "height": 22.46875
+      },
+      "name": "近期搜索 2",
+      "text": "Insurance Company in Topsfield, Massachusetts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_recent_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_recent_3",
+      "source_node_ids": [
+        53,
+        54
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 369.453125,
+        "width": 320.0,
+        "height": 22.46875
+      },
+      "name": "近期搜索 3",
+      "text": "Accident & Health Insurance in Huntingburg, Indiana",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_recent_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_recent_4",
+      "source_node_ids": [
+        57,
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 404.921875,
+        "width": 320.0,
+        "height": 22.46875
+      },
+      "name": "近期搜索 4",
+      "text": "Health Clubs Studios & Gymnasiums in Fort Worth, Texas",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_recent_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_recent_5",
+      "source_node_ids": [
+        61,
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 440.390625,
+        "width": 320.0,
+        "height": 22.46875
+      },
+      "name": "近期搜索 5",
+      "text": "Money Transfer Service in Dyersburg, Tennessee",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_recent_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_recent_6",
+      "source_node_ids": [
+        65,
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 475.859375,
+        "width": 320.0,
+        "height": 22.46875
+      },
+      "name": "近期搜索 6",
+      "text": "Bathroom Remodeling in Greencastle, Pennsylvania",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_recent_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cta_review",
+      "source_node_ids": [
+        70,
+        71
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 40.0,
+        "y": 269.046875,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "留下评价",
+      "text": "Leave a Review",
+      "style": {
+        "background_color": [
+          0.4,
+          0.7529411764705882,
+          0.4196078431372549,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_cta_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cta_add",
+      "source_node_ids": [
+        73,
+        74
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 40.0,
+        "y": 347.5,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "添加商家",
+      "text": "Add your Business",
+      "style": {
+        "background_color": [
+          0.3176470588235294,
+          0.6666666666666666,
+          0.3411764705882353,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_cta_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cta_feedback",
+      "source_node_ids": [
+        76,
+        77
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 40.0,
+        "y": 425.953125,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "查看反馈",
+      "text": "View our Feedback",
+      "style": {
+        "background_color": [
+          0.2549019607843137,
+          0.6039215686274509,
+          0.2784313725490196,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_cta_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cta_promotion",
+      "source_node_ids": [
+        79,
+        80
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 40.0,
+        "y": 504.40625,
+        "width": 160.0,
+        "height": 88.453125
+      },
+      "name": "商家推广",
+      "text": "Business Promotion",
+      "style": {
+        "background_color": [
+          0.043137254901960784,
+          0.5058823529411764,
+          0.25882352941176473,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_cta_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cta_forum",
+      "source_node_ids": [
+        82,
+        83
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 40.0,
+        "y": 609.5,
+        "width": 160.0,
+        "height": 88.453125
+      },
+      "name": "商家论坛",
+      "text": "Business Forum",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_cta_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_cta_showcase",
+      "source_node_ids": [
+        85,
+        86
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 40.0,
+        "y": 714.59375,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "论坛展示",
+      "text": "Forum Showcase",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_cta_text"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_title",
+      "source_node_ids": [
+        89
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220.0,
+        "y": 269.046875,
+        "width": 720.0,
+        "height": 32.953125
+      },
+      "name": "搜索结果标题",
+      "text": "Painting Contractor near Galway",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 29.9635,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_label",
+      "source_node_ids": [
+        90
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220,
+        "y": 304,
+        "width": 120,
+        "height": 22
+      },
+      "name": "搜索结果说明",
+      "text": "Search results",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_filter_query",
+      "source_node_ids": [
+        92
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 220.0,
+        "y": 337.46875,
+        "width": 149.0,
+        "height": 19.0
+      },
+      "name": "结果筛选框 1",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_filter_location",
+      "source_node_ids": [
+        93
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 369.0,
+        "y": 337.46875,
+        "width": 149.0,
+        "height": 19.0
+      },
+      "name": "结果筛选框 2",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_sort_label",
+      "source_node_ids": [
+        95
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220.0,
+        "y": 362.9375,
+        "width": 52.71875,
+        "height": 20.0
+      },
+      "name": "排序标签",
+      "text": "Sort by",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_sort_select",
+      "source_node_ids": [
+        96
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 281.96875,
+        "y": 358.9375,
+        "width": 130.0,
+        "height": 29.0
+      },
+      "name": "排序选择器",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_1_title",
+      "source_node_ids": [
+        104
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 442.578125,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "商家 1 名称",
+      "text": "N.E.S Painting and Pressure Cleaning",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_1_address",
+      "source_node_ids": [
+        106
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 467.046875,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "商家 1 地址",
+      "text": "378 Fayville Rd, Saratoga, New York",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_result_meta"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_1_distance",
+      "source_node_ids": [
+        107
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 489.515625,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "商家 1 距离",
+      "text": "3.8 miles away",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_result_meta"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_1_categories",
+      "source_node_ids": [
+        108
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 511.984375,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "商家 1 分类",
+      "text": "Painting Contractor • Painters • Pressure Washing Equipment (Wholesale)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_result_meta"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_1_contact",
+      "source_node_ids": [
+        112
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 537.453125,
+        "width": 99.203125,
+        "height": 22.46875
+      },
+      "name": "商家 1 联系入口",
+      "text": "Contact form",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_1_verified",
+      "source_node_ids": [
+        114
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 341.203125,
+        "y": 537.453125,
+        "width": 105.890625,
+        "height": 22.46875
+      },
+      "name": "商家 1 认证状态",
+      "text": "Verified listing",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_1_detail",
+      "source_node_ids": [
+        117
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 811.625,
+        "y": 536.453125,
+        "width": 118.375,
+        "height": 32.46875
+      },
+      "name": "商家 1 详情",
+      "text": "Full details ▸",
+      "style": {
+        "background_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_2_title",
+      "source_node_ids": [
+        121
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 605.5625,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "商家 2 名称",
+      "text": "Zachary Painting",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_2_address",
+      "source_node_ids": [
+        123
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 630.03125,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "商家 2 地址",
+      "text": "39 Pruyn Hill Road, Saratoga, New York",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_result_meta"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_2_distance",
+      "source_node_ids": [
+        124
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 652.5,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "商家 2 距离",
+      "text": "6.8 miles away",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_result_meta"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_2_categories",
+      "source_node_ids": [
+        125
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 674.96875,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "商家 2 分类",
+      "text": "Painters • Painting Contractor • Kitchen Cabinets & Equipment",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_result_meta"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_2_contact",
+      "source_node_ids": [
+        129
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 700.4375,
+        "width": 99.203125,
+        "height": 22.46875
+      },
+      "name": "商家 2 联系入口",
+      "text": "Contact form",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_2_verified",
+      "source_node_ids": [
+        131
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 341.203125,
+        "y": 700.4375,
+        "width": 105.890625,
+        "height": 22.46875
+      },
+      "name": "商家 2 认证状态",
+      "text": "Verified listing",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_result_2_detail",
+      "source_node_ids": [
+        134
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 811.625,
+        "y": 699.4375,
+        "width": 118.375,
+        "height": 32.46875
+      },
+      "name": "商家 2 详情",
+      "text": "Full details ▸",
+      "style": {
+        "background_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_nav",
+      "source_element_ids": [
+        "e_nav_7",
+        "e_nav_8",
+        "e_nav_9",
+        "e_nav_10",
+        "e_nav_11",
+        "e_login"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 40.0,
+        "y": 0.0,
+        "width": 1200.0,
+        "height": 176.0
+      },
+      "name": "主导航",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_social",
+      "source_element_ids": [
+        "e_social_1",
+        "e_social_2",
+        "e_social_3"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 48.0,
+        "y": 186.0,
+        "width": 180.0,
+        "height": 41.46875
+      },
+      "name": "社交入口",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 14,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_search",
+      "source_element_ids": [
+        "e_search_label",
+        "e_search_query",
+        "e_location_label",
+        "e_search_location",
+        "e_search_submit"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 232.734375,
+        "y": 188.0,
+        "width": 702.515625,
+        "height": 36.0
+      },
+      "name": "业务与地点搜索",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 23,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_search_bar",
+      "source_element_ids": [
+        "e_social_1",
+        "e_social_2",
+        "e_social_3",
+        "e_search_label",
+        "e_search_query",
+        "e_location_label",
+        "e_search_location",
+        "e_search_submit"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 40.0,
+        "y": 180.0,
+        "width": 1200.0,
+        "height": 52.0
+      },
+      "name": "页面搜索栏",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 13,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_breadcrumb",
+      "source_element_ids": [
+        "e_breadcrumb_home",
+        "e_breadcrumb_result"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 40.0,
+        "y": 238.0,
+        "width": 1200.0,
+        "height": 19.046875
+      },
+      "name": "搜索面包屑",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.6488,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 33,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_recent",
+      "source_element_ids": [
+        "e_recent_title",
+        "e_recent_1",
+        "e_recent_2",
+        "e_recent_3",
+        "e_recent_4",
+        "e_recent_5",
+        "e_recent_6"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 960.0,
+        "y": 265.046875,
+        "width": 280.0,
+        "height": 244.28125
+      },
+      "name": "近期搜索列表",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 41,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_actions",
+      "source_element_ids": [
+        "e_cta_review",
+        "e_cta_add",
+        "e_cta_feedback",
+        "e_cta_promotion",
+        "e_cta_forum",
+        "e_cta_showcase"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 40.0,
+        "y": 269.046875,
+        "width": 180.0,
+        "height": 507.359375
+      },
+      "name": "商家操作入口",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 68,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_filters",
+      "source_element_ids": [
+        "e_filter_query",
+        "e_filter_location",
+        "e_sort_label",
+        "e_sort_select"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 220.0,
+        "y": 334.46875,
+        "width": 298.0,
+        "height": 61.46875
+      },
+      "name": "结果筛选与排序",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 91,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_result_1",
+      "source_element_ids": [
+        "e_result_1_title",
+        "e_result_1_address",
+        "e_result_1_distance",
+        "e_result_1_categories",
+        "e_result_1_contact",
+        "e_result_1_verified",
+        "e_result_1_detail"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 220.0,
+        "y": 432.578125,
+        "width": 720.0,
+        "height": 146.34375
+      },
+      "name": "商家结果 1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 101,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_result_2",
+      "source_element_ids": [
+        "e_result_2_title",
+        "e_result_2_address",
+        "e_result_2_distance",
+        "e_result_2_categories",
+        "e_result_2_contact",
+        "e_result_2_verified",
+        "e_result_2_detail"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 220.0,
+        "y": 595.5625,
+        "width": 720.0,
+        "height": 146.34375
+      },
+      "name": "商家结果 2",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 118,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_results",
+      "source_element_ids": [
+        "e_result_1_title",
+        "e_result_1_address",
+        "e_result_1_distance",
+        "e_result_1_categories",
+        "e_result_1_contact",
+        "e_result_1_verified",
+        "e_result_1_detail",
+        "e_result_2_title",
+        "e_result_2_address",
+        "e_result_2_distance",
+        "e_result_2_categories",
+        "e_result_2_contact",
+        "e_result_2_verified",
+        "e_result_2_detail"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 220.0,
+        "y": 395.9375,
+        "width": 720.0,
+        "height": 345.96875
+      },
+      "name": "商家结果列表",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 97,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_main",
+      "source_element_ids": [
+        "e_title",
+        "e_result_label",
+        "e_filter_query",
+        "e_filter_location",
+        "e_sort_label",
+        "e_sort_select",
+        "e_result_1_title",
+        "e_result_1_address",
+        "e_result_1_distance",
+        "e_result_1_categories",
+        "e_result_1_contact",
+        "e_result_1_verified",
+        "e_result_1_detail",
+        "e_result_2_title",
+        "e_result_2_address",
+        "e_result_2_distance",
+        "e_result_2_categories",
+        "e_result_2_contact",
+        "e_result_2_verified",
+        "e_result_2_detail"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 220.0,
+        "y": 269.046875,
+        "width": 720.0,
+        "height": 530.953125
+      },
+      "name": "搜索结果主体",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 87,
+      "confidence": 0.85
+    },
+    {
+      "id": "g_content",
+      "source_element_ids": [
+        "e_recent_title",
+        "e_recent_1",
+        "e_recent_2",
+        "e_recent_3",
+        "e_recent_4",
+        "e_recent_5",
+        "e_recent_6",
+        "e_cta_review",
+        "e_cta_add",
+        "e_cta_feedback",
+        "e_cta_promotion",
+        "e_cta_forum",
+        "e_cta_showcase",
+        "e_title",
+        "e_result_label",
+        "e_filter_query",
+        "e_filter_location",
+        "e_sort_label",
+        "e_sort_select",
+        "e_result_1_title",
+        "e_result_1_address",
+        "e_result_1_distance",
+        "e_result_1_categories",
+        "e_result_1_contact",
+        "e_result_1_verified",
+        "e_result_1_detail",
+        "e_result_2_title",
+        "e_result_2_address",
+        "e_result_2_distance",
+        "e_result_2_categories",
+        "e_result_2_contact",
+        "e_result_2_verified",
+        "e_result_2_detail"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 20.0,
+        "y": 232.0,
+        "width": 1240.0,
+        "height": 568.0
+      },
+      "name": "目录页面内容",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 32,
+      "confidence": 0.85
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_nav",
+      "mode": "HORIZONTAL",
+      "gap": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_social",
+      "mode": "HORIZONTAL",
+      "gap": 24,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_search",
+      "mode": "HORIZONTAL",
+      "gap": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_search_bar",
+      "mode": "HORIZONTAL",
+      "gap": 4,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_breadcrumb",
+      "mode": "HORIZONTAL",
+      "gap": 8,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_recent",
+      "mode": "VERTICAL",
+      "gap": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_actions",
+      "mode": "VERTICAL",
+      "gap": 17,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_filters",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_result_1",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_result_2",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_results",
+      "mode": "VERTICAL",
+      "gap": 17,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_main",
+      "mode": "VERTICAL",
+      "gap": 12,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    },
+    {
+      "target_id": "g_content",
+      "mode": "HORIZONTAL",
+      "gap": 20,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.85
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_7",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_8",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_9",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_10",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_nav_11",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_nav",
+      "child_id": "e_login",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_social",
+      "child_id": "e_social_1",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_social",
+      "child_id": "e_social_2",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_social",
+      "child_id": "e_social_3",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_search",
+      "child_id": "e_search_label",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_search",
+      "child_id": "e_search_query",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_search",
+      "child_id": "e_location_label",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_search",
+      "child_id": "e_search_location",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_search",
+      "child_id": "e_search_submit",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_search_bar",
+      "child_id": "g_social",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_search_bar",
+      "child_id": "g_search",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_breadcrumb",
+      "child_id": "e_breadcrumb_home",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_breadcrumb",
+      "child_id": "e_breadcrumb_result",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_recent",
+      "child_id": "e_recent_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_recent",
+      "child_id": "e_recent_1",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_recent",
+      "child_id": "e_recent_2",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_recent",
+      "child_id": "e_recent_3",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_recent",
+      "child_id": "e_recent_4",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_recent",
+      "child_id": "e_recent_5",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_recent",
+      "child_id": "e_recent_6",
+      "order": 6,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_actions",
+      "child_id": "e_cta_review",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_actions",
+      "child_id": "e_cta_add",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_actions",
+      "child_id": "e_cta_feedback",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_actions",
+      "child_id": "e_cta_promotion",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_actions",
+      "child_id": "e_cta_forum",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_actions",
+      "child_id": "e_cta_showcase",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_filters",
+      "child_id": "e_filter_query",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_filters",
+      "child_id": "e_filter_location",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_filters",
+      "child_id": "e_sort_label",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_filters",
+      "child_id": "e_sort_select",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_1",
+      "child_id": "e_result_1_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_1",
+      "child_id": "e_result_1_address",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_1",
+      "child_id": "e_result_1_distance",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_1",
+      "child_id": "e_result_1_categories",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_1",
+      "child_id": "e_result_1_contact",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_1",
+      "child_id": "e_result_1_verified",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_1",
+      "child_id": "e_result_1_detail",
+      "order": 6,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_2",
+      "child_id": "e_result_2_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_2",
+      "child_id": "e_result_2_address",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_2",
+      "child_id": "e_result_2_distance",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_2",
+      "child_id": "e_result_2_categories",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_2",
+      "child_id": "e_result_2_contact",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_2",
+      "child_id": "e_result_2_verified",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_result_2",
+      "child_id": "e_result_2_detail",
+      "order": 6,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_results",
+      "child_id": "g_result_1",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_results",
+      "child_id": "g_result_2",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_main",
+      "child_id": "e_title",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_main",
+      "child_id": "e_result_label",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_main",
+      "child_id": "g_filters",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_main",
+      "child_id": "g_results",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_content",
+      "child_id": "g_actions",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_content",
+      "child_id": "g_main",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_content",
+      "child_id": "g_recent",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_nav",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_search_bar",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_content",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_breadcrumb",
+      "order": 3,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_nav_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 19.9757,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_nav_7",
+        "e_nav_8",
+        "e_nav_9",
+        "e_nav_10",
+        "e_nav_11"
+      ],
+      "name": "主导航文字",
+      "confidence": 0.78
+    },
+    {
+      "id": "token_cta_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 26.6342,
+        "font_weight": 600
+      },
+      "member_ids": [
+        "e_cta_review",
+        "e_cta_add",
+        "e_cta_feedback",
+        "e_cta_promotion",
+        "e_cta_forum",
+        "e_cta_showcase"
+      ],
+      "name": "侧栏操作文字",
+      "confidence": 0.78
+    },
+    {
+      "id": "token_result_meta",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.6464,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_result_1_address",
+        "e_result_1_distance",
+        "e_result_1_categories",
+        "e_result_2_address",
+        "e_result_2_distance",
+        "e_result_2_categories"
+      ],
+      "name": "商家结果元信息",
+      "confidence": 0.78
+    },
+    {
+      "id": "token_recent_text",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.6464,
+        "font_weight": 600
+      },
+      "member_ids": [
+        "e_recent_1",
+        "e_recent_2",
+        "e_recent_3",
+        "e_recent_4",
+        "e_recent_5",
+        "e_recent_6"
+      ],
+      "name": "近期搜索文字",
+      "confidence": 0.78
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "0937",
+    "label_source": "ai_proxy_annotation",
+    "annotator": "annotator_ai",
+    "annotator_kind": "ai_proxy",
+    "model_provider": "OpenAI",
+    "model_family": "Codex GPT-5 family",
+    "annotation_protocol": "docs/thesis/12_ai_proxy_annotation_protocol.md",
+    "annotation_protocol_version": "1.0",
+    "status": "complete",
+    "weak_labels_viewed": false,
+    "human_labels_viewed": false,
+    "visual_input_viewed": true,
+    "page_graph_viewed": true,
+    "screenshot_sha256": "1ab418ed757a2b85d9b7fccf4b8ed7409b670d137fa14eb0c29154526cb7e6af",
+    "page_graph_sha256": "b13aa4883df71415a59c36f49e9a2a9c73762990059daa0d8909e5d896177bf1",
+    "generated_at": "2026-08-05T00:00:00+08:00",
+    "limitations": [
+      "AI 代理标注不能作为第二位真人设计师标注。",
+      "人机一致性不能表述为双人标注者一致性。"
+    ]
+  }
+}

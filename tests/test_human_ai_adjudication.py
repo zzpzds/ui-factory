@@ -27,8 +27,8 @@ def test_prepare_adjudication_is_incremental_and_draft_only(tmp_path):
         adjudication_dir,
         gold_drafts_dir,
     )
-    assert len(first["prepared"]) == 7
-    assert first["incomplete_human"] == ["1094", "1429", "1474"]
+    assert len(first["prepared"]) == 9
+    assert first["incomplete_human"] == ["0937"]
     assert first["invalid"] == []
     assert first["training_exported"] is False
 
@@ -50,7 +50,7 @@ def test_prepare_adjudication_is_incremental_and_draft_only(tmp_path):
         gold_drafts_dir,
     )
     assert second["prepared"] == []
-    assert len(second["existing"]) == 7
+    assert len(second["existing"]) == 9
 
 
 def test_finalize_requires_review_and_exports_disclosed_gold(tmp_path):

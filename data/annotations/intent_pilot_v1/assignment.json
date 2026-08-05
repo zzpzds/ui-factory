@@ -79,12 +79,12 @@
       "page_graph": "data/processed/1429/page_graph.json"
     },
     {
-      "sample_id": "1474",
-      "node_count": 149,
+      "sample_id": "0937",
+      "node_count": 135,
       "size_bin": "large",
-      "structure_fingerprint": "08136a36e9da5263",
-      "screenshot": "data/processed/1474/screenshot.png",
-      "page_graph": "data/processed/1474/page_graph.json"
+      "structure_fingerprint": "8b031293d51c8376",
+      "screenshot": "data/processed/0937/screenshot.png",
+      "page_graph": "data/processed/0937/page_graph.json"
     }
   ],
   "replacement_history": [
@@ -131,6 +131,17 @@
       "new_node_count": 141,
       "replaced_at": "2026-07-30T17:27:23+08:00",
       "archive_dir": "data/annotations/intent_pilot_v1/replaced/0884_to_0052"
+    },
+    {
+      "old_sample_id": "1474",
+      "new_sample_id": "0937",
+      "reason": "页面样式与列表组件堆叠失序，不满足人工金标准 Pilot 的页面质量要求；替换为结构清晰的商业目录结果页",
+      "old_size_bin": "large",
+      "new_size_bin": "large",
+      "old_node_count": 149,
+      "new_node_count": 135,
+      "replaced_at": "2026-08-05T17:50:10+08:00",
+      "archive_dir": "data/annotations/intent_pilot_v1/replaced/1474_to_0937"
     }
   ],
   "annotation_tracks": {
