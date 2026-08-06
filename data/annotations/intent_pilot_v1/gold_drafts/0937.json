@@ -4811,9 +4811,24 @@
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "0937",
-    "label_source": "human_annotation",
-    "annotator": "annotator_a",
-    "status": "complete",
-    "weak_labels_viewed": false
+    "label_source": "human_ai_adjudication_draft",
+    "status": "draft",
+    "adjudication_status": "pending",
+    "gold_finalized": false,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "0937",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "bd0c2ab69c1c51d29f42b29347108eb6e690230104062e2c7a81103309cd61ef",
+    "ai_annotation_sha256": "d7fad422cde8e833b6cc3ce5a97ebf2ae96e46b84da04b22131df07b04838e9a",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": ""
   }
 }

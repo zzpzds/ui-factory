@@ -1,0 +1,6614 @@
+{
+  "schema_version": "1.0",
+  "comparison_kind": "human-ai",
+  "sample_id": "0937",
+  "status": "pending",
+  "inputs": {
+    "human": {
+      "annotator": "annotator_a",
+      "path": "data/annotations/intent_pilot_v1/annotator_a/0937.json",
+      "sha256": "bd0c2ab69c1c51d29f42b29347108eb6e690230104062e2c7a81103309cd61ef"
+    },
+    "ai": {
+      "annotator": "annotator_ai",
+      "path": "data/annotations/intent_pilot_v1/annotator_ai/0937.json",
+      "sha256": "d7fad422cde8e833b6cc3ce5a97ebf2ae96e46b84da04b22131df07b04838e9a",
+      "must_not_be_reported_as_human": true
+    }
+  },
+  "metrics": {
+    "leaf_precision": 0.7551020408163265,
+    "leaf_recall": 0.5138888888888888,
+    "leaf_f1": 0.6115702479338843,
+    "group_pair_precision": 0.2465034965034965,
+    "group_pair_recall": 0.32339449541284404,
+    "group_pair_f1": 0.27976190476190477,
+    "group_bcubed_precision": 0.7956916099773242,
+    "group_bcubed_recall": 0.6847781847781848,
+    "group_bcubed_f1": 0.7360802067744799,
+    "group_match_precision": 0.6923076923076923,
+    "group_match_recall": 0.2903225806451613,
+    "group_match_f1": 0.4090909090909091,
+    "parent_precision": 0.2903225806451613,
+    "parent_recall": 0.17475728155339806,
+    "parent_f1": 0.21818181818181823,
+    "token_bcubed_precision": 0.17391304347826086,
+    "token_bcubed_recall": 1.0,
+    "token_bcubed_f1": 0.29629629629629634,
+    "layout_mode_accuracy": 1.0,
+    "layout_mode_macro_f1": 1.0,
+    "gap_normalized_mae": 0.003645833333333333,
+    "padding_normalized_mae": 0.0,
+    "tree_normalized_edit_distance": 0.8448275862068966,
+    "token_coverage": 0.46938775510204084,
+    "semantic_naming_rate": 1.0,
+    "layer_compression_ratio": 0.5407407407407407,
+    "layout_cohen_kappa": 1.0
+  },
+  "summary": {
+    "elements_only_human": 35,
+    "elements_only_ai": 12,
+    "elements_matched_but_changed": 13,
+    "group_signature_disagreements": 36,
+    "tree_parent_disagreements": 104,
+    "layout_disagreements": 37,
+    "tokens_only_human": 0,
+    "tokens_only_ai": 4
+  },
+  "differences": {
+    "elements": {
+      "only_human": [
+        {
+          "source_node_ids": [
+            35
+          ],
+          "human": {
+            "id": "e_17",
+            "type": "SHAPE",
+            "name": "面包屑箭头",
+            "text": "›",
+            "bbox": {
+              "x": 160.0,
+              "y": 239.0,
+              "width": 18.0,
+              "height": 16.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            45
+          ],
+          "human": {
+            "id": "e_19",
+            "type": "TEXT",
+            "name": "列表项小标题",
+            "text": "Food Services",
+            "bbox": {
+              "x": 960.0,
+              "y": 298.515625,
+              "width": 113.75,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            46
+          ],
+          "human": {
+            "id": "e_20",
+            "type": "TEXT",
+            "name": "列表项内容",
+            "text": "in Clarkston, Michigan",
+            "bbox": {
+              "x": 1073.75,
+              "y": 298.515625,
+              "width": 163.703125,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            49
+          ],
+          "human": {
+            "id": "e_21",
+            "type": "TEXT",
+            "name": "列表项小标题",
+            "text": "Insurance Company",
+            "bbox": {
+              "x": 960.0,
+              "y": 333.984375,
+              "width": 159.046875,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            50
+          ],
+          "human": {
+            "id": "e_22",
+            "type": "TEXT",
+            "name": "列表项内容",
+            "text": "in Topsfield, Massachusetts",
+            "bbox": {
+              "x": 1119.046875,
+              "y": 333.984375,
+              "width": 160.953125,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            53
+          ],
+          "human": {
+            "id": "e_23",
+            "type": "TEXT",
+            "name": "列表项小标题",
+            "text": "Accident & Health Insurance",
+            "bbox": {
+              "x": 960.0,
+              "y": 369.453125,
+              "width": 225.625,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            54
+          ],
+          "human": {
+            "id": "e_24",
+            "type": "TEXT",
+            "name": "列表项内容",
+            "text": "in Huntingburg, Indiana",
+            "bbox": {
+              "x": 1185.625,
+              "y": 369.453125,
+              "width": 94.375,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            57
+          ],
+          "human": {
+            "id": "e_25",
+            "type": "TEXT",
+            "name": "列表项小标题",
+            "text": "Health Clubs Studios & Gymnasiums",
+            "bbox": {
+              "x": 960.0,
+              "y": 404.921875,
+              "width": 293.109375,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            58
+          ],
+          "human": {
+            "id": "e_26",
+            "type": "TEXT",
+            "name": "列表项内容",
+            "text": "in Fort Worth, Texas",
+            "bbox": {
+              "x": 1253.109375,
+              "y": 404.921875,
+              "width": 26.890625,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            61
+          ],
+          "human": {
+            "id": "e_27",
+            "type": "TEXT",
+            "name": "列表项小标题",
+            "text": "Money Transfer Service",
+            "bbox": {
+              "x": 960.0,
+              "y": 440.390625,
+              "width": 186.84375,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            62
+          ],
+          "human": {
+            "id": "e_28",
+            "type": "TEXT",
+            "name": "列表项内容",
+            "text": "in Dyersburg, Tennessee",
+            "bbox": {
+              "x": 1146.84375,
+              "y": 440.390625,
+              "width": 133.15625,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            65
+          ],
+          "human": {
+            "id": "e_29",
+            "type": "TEXT",
+            "name": "列表项小标题",
+            "text": "Bathroom Remodeling",
+            "bbox": {
+              "x": 960.0,
+              "y": 475.859375,
+              "width": 178.4375,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            66
+          ],
+          "human": {
+            "id": "e_30",
+            "type": "TEXT",
+            "name": "列表项内容",
+            "text": "in Greencastle, Pennsylvania",
+            "bbox": {
+              "x": 1138.4375,
+              "y": 475.859375,
+              "width": 141.5625,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            69
+          ],
+          "human": {
+            "id": "e_33",
+            "type": "SHAPE",
+            "name": "按钮区域",
+            "text": "",
+            "bbox": {
+              "x": 40.0,
+              "y": 269.046875,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            70
+          ],
+          "human": {
+            "id": "e_31",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Review »",
+            "bbox": {
+              "x": 40.0,
+              "y": 269.046875,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            71
+          ],
+          "human": {
+            "id": "e_32",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Leave a",
+            "bbox": {
+              "x": 49.0,
+              "y": 276.046875,
+              "width": 150.0,
+              "height": 19.171875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            72
+          ],
+          "human": {
+            "id": "e_34",
+            "type": "SHAPE",
+            "name": "按钮区域",
+            "text": "",
+            "bbox": {
+              "x": 40.0,
+              "y": 347.5,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            73
+          ],
+          "human": {
+            "id": "e_35",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Business »",
+            "bbox": {
+              "x": 40.0,
+              "y": 347.5,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            74
+          ],
+          "human": {
+            "id": "e_36",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Add your",
+            "bbox": {
+              "x": 49.0,
+              "y": 354.5,
+              "width": 150.0,
+              "height": 19.171875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            75
+          ],
+          "human": {
+            "id": "e_37",
+            "type": "SHAPE",
+            "name": "按钮区域",
+            "text": "",
+            "bbox": {
+              "x": 40.0,
+              "y": 425.953125,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            76
+          ],
+          "human": {
+            "id": "e_38",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Feedback »",
+            "bbox": {
+              "x": 40.0,
+              "y": 425.953125,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            77
+          ],
+          "human": {
+            "id": "e_39",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "View our",
+            "bbox": {
+              "x": 49.0,
+              "y": 432.953125,
+              "width": 150.0,
+              "height": 19.171875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            78
+          ],
+          "human": {
+            "id": "e_40",
+            "type": "SHAPE",
+            "name": "按钮区域",
+            "text": "",
+            "bbox": {
+              "x": 40.0,
+              "y": 504.40625,
+              "width": 160.0,
+              "height": 88.453125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            79
+          ],
+          "human": {
+            "id": "e_41",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Promotion »",
+            "bbox": {
+              "x": 40.0,
+              "y": 504.40625,
+              "width": 160.0,
+              "height": 88.453125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            80
+          ],
+          "human": {
+            "id": "e_42",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Business",
+            "bbox": {
+              "x": 49.0,
+              "y": 511.40625,
+              "width": 150.0,
+              "height": 19.171875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            81
+          ],
+          "human": {
+            "id": "e_43",
+            "type": "SHAPE",
+            "name": "按钮区域",
+            "text": "",
+            "bbox": {
+              "x": 40.0,
+              "y": 609.5,
+              "width": 160.0,
+              "height": 88.453125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            82
+          ],
+          "human": {
+            "id": "e_44",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Business Forum",
+            "bbox": {
+              "x": 40.0,
+              "y": 609.5,
+              "width": 160.0,
+              "height": 88.453125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            83
+          ],
+          "human": {
+            "id": "e_45",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Visit our",
+            "bbox": {
+              "x": 49.0,
+              "y": 616.5,
+              "width": 150.0,
+              "height": 19.171875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            84
+          ],
+          "human": {
+            "id": "e_46",
+            "type": "SHAPE",
+            "name": "按钮区域",
+            "text": "",
+            "bbox": {
+              "x": 40.0,
+              "y": 714.59375,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            85
+          ],
+          "human": {
+            "id": "e_47",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Showcase",
+            "bbox": {
+              "x": 40.0,
+              "y": 714.59375,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            86
+          ],
+          "human": {
+            "id": "e_48",
+            "type": "TEXT",
+            "name": "按钮内文字",
+            "text": "Forum",
+            "bbox": {
+              "x": 49.0,
+              "y": 721.59375,
+              "width": 150.0,
+              "height": 19.171875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            113
+          ],
+          "human": {
+            "id": "e_60",
+            "type": "SHAPE",
+            "name": "标记icon",
+            "text": "✓",
+            "bbox": {
+              "x": 230.0,
+              "y": 537.453125,
+              "width": 11.453125,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            115
+          ],
+          "human": {
+            "id": "e_62",
+            "type": "SHAPE",
+            "name": "标记icon",
+            "text": "✓",
+            "bbox": {
+              "x": 341.203125,
+              "y": 537.453125,
+              "width": 11.453125,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            130
+          ],
+          "human": {
+            "id": "e_69",
+            "type": "SHAPE",
+            "name": "标记icon",
+            "text": "✓",
+            "bbox": {
+              "x": 230.0,
+              "y": 700.4375,
+              "width": 11.453125,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            132
+          ],
+          "human": {
+            "id": "e_71",
+            "type": "SHAPE",
+            "name": "标记icon",
+            "text": "✓",
+            "bbox": {
+              "x": 341.203125,
+              "y": 700.4375,
+              "width": 11.453125,
+              "height": 22.46875
+            }
+          }
+        }
+      ],
+      "only_ai": [
+        {
+          "source_node_ids": [
+            45,
+            46
+          ],
+          "ai": {
+            "id": "e_recent_1",
+            "type": "TEXT",
+            "name": "近期搜索 1",
+            "text": "Food Services in Clarkston, Michigan",
+            "bbox": {
+              "x": 960.0,
+              "y": 298.515625,
+              "width": 277.453125,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            49,
+            50
+          ],
+          "ai": {
+            "id": "e_recent_2",
+            "type": "TEXT",
+            "name": "近期搜索 2",
+            "text": "Insurance Company in Topsfield, Massachusetts",
+            "bbox": {
+              "x": 960.0,
+              "y": 333.984375,
+              "width": 320.0,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            53,
+            54
+          ],
+          "ai": {
+            "id": "e_recent_3",
+            "type": "TEXT",
+            "name": "近期搜索 3",
+            "text": "Accident & Health Insurance in Huntingburg, Indiana",
+            "bbox": {
+              "x": 960.0,
+              "y": 369.453125,
+              "width": 320.0,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            57,
+            58
+          ],
+          "ai": {
+            "id": "e_recent_4",
+            "type": "TEXT",
+            "name": "近期搜索 4",
+            "text": "Health Clubs Studios & Gymnasiums in Fort Worth, Texas",
+            "bbox": {
+              "x": 960.0,
+              "y": 404.921875,
+              "width": 320.0,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            61,
+            62
+          ],
+          "ai": {
+            "id": "e_recent_5",
+            "type": "TEXT",
+            "name": "近期搜索 5",
+            "text": "Money Transfer Service in Dyersburg, Tennessee",
+            "bbox": {
+              "x": 960.0,
+              "y": 440.390625,
+              "width": 320.0,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            65,
+            66
+          ],
+          "ai": {
+            "id": "e_recent_6",
+            "type": "TEXT",
+            "name": "近期搜索 6",
+            "text": "Bathroom Remodeling in Greencastle, Pennsylvania",
+            "bbox": {
+              "x": 960.0,
+              "y": 475.859375,
+              "width": 320.0,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            70,
+            71
+          ],
+          "ai": {
+            "id": "e_cta_review",
+            "type": "BUTTON_VISUAL",
+            "name": "留下评价",
+            "text": "Leave a Review",
+            "bbox": {
+              "x": 40.0,
+              "y": 269.046875,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            73,
+            74
+          ],
+          "ai": {
+            "id": "e_cta_add",
+            "type": "BUTTON_VISUAL",
+            "name": "添加商家",
+            "text": "Add your Business",
+            "bbox": {
+              "x": 40.0,
+              "y": 347.5,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            76,
+            77
+          ],
+          "ai": {
+            "id": "e_cta_feedback",
+            "type": "BUTTON_VISUAL",
+            "name": "查看反馈",
+            "text": "View our Feedback",
+            "bbox": {
+              "x": 40.0,
+              "y": 425.953125,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            79,
+            80
+          ],
+          "ai": {
+            "id": "e_cta_promotion",
+            "type": "BUTTON_VISUAL",
+            "name": "商家推广",
+            "text": "Business Promotion",
+            "bbox": {
+              "x": 40.0,
+              "y": 504.40625,
+              "width": 160.0,
+              "height": 88.453125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            82,
+            83
+          ],
+          "ai": {
+            "id": "e_cta_forum",
+            "type": "BUTTON_VISUAL",
+            "name": "商家论坛",
+            "text": "Business Forum",
+            "bbox": {
+              "x": 40.0,
+              "y": 609.5,
+              "width": 160.0,
+              "height": 88.453125
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            85,
+            86
+          ],
+          "ai": {
+            "id": "e_cta_showcase",
+            "type": "BUTTON_VISUAL",
+            "name": "论坛展示",
+            "text": "Forum Showcase",
+            "bbox": {
+              "x": 40.0,
+              "y": 714.59375,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        }
+      ],
+      "matched_but_changed": [
+        {
+          "source_node_ids": [
+            7
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_2",
+            "type": "BUTTON_VISUAL",
+            "name": "导航链接",
+            "text": "Home",
+            "bbox": {
+              "x": 428.0,
+              "y": 0.0,
+              "width": 81.28125,
+              "height": 46.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_7",
+            "type": "TEXT",
+            "name": "首页导航",
+            "text": "Home",
+            "bbox": {
+              "x": 428.0,
+              "y": 0.0,
+              "width": 81.28125,
+              "height": 46.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            8
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_3",
+            "type": "BUTTON_VISUAL",
+            "name": "导航链接",
+            "text": "Add Business",
+            "bbox": {
+              "x": 509.28125,
+              "y": 0.0,
+              "width": 150.125,
+              "height": 46.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_8",
+            "type": "TEXT",
+            "name": "添加商家导航",
+            "text": "Add Business",
+            "bbox": {
+              "x": 509.28125,
+              "y": 0.0,
+              "width": 150.125,
+              "height": 46.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            9
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_4",
+            "type": "BUTTON_VISUAL",
+            "name": "导航链接",
+            "text": "Business Forum",
+            "bbox": {
+              "x": 659.40625,
+              "y": 0.0,
+              "width": 172.28125,
+              "height": 46.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_9",
+            "type": "TEXT",
+            "name": "商家论坛导航",
+            "text": "Business Forum",
+            "bbox": {
+              "x": 659.40625,
+              "y": 0.0,
+              "width": 172.28125,
+              "height": 46.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            10
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_5",
+            "type": "BUTTON_VISUAL",
+            "name": "导航链接",
+            "text": "Testimonials",
+            "bbox": {
+              "x": 831.6875,
+              "y": 0.0,
+              "width": 137.875,
+              "height": 46.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_10",
+            "type": "TEXT",
+            "name": "客户评价导航",
+            "text": "Testimonials",
+            "bbox": {
+              "x": 831.6875,
+              "y": 0.0,
+              "width": 137.875,
+              "height": 46.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            11
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_6",
+            "type": "BUTTON_VISUAL",
+            "name": "导航链接",
+            "text": "Promotion",
+            "bbox": {
+              "x": 969.5625,
+              "y": 0.0,
+              "width": 119.015625,
+              "height": 46.0
+            }
+          },
+          "ai": {
+            "id": "e_nav_11",
+            "type": "TEXT",
+            "name": "推广导航",
+            "text": "Promotion",
+            "bbox": {
+              "x": 969.5625,
+              "y": 0.0,
+              "width": 119.015625,
+              "height": 46.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            24
+          ],
+          "type_disagrees": false,
+          "bbox_iou": 0.9205439274763365,
+          "human": {
+            "id": "e_10",
+            "type": "TEXT",
+            "name": "表单项标签",
+            "text": "Search for",
+            "bbox": {
+              "x": 232.734375,
+              "y": 194.421875,
+              "width": 80.0,
+              "height": 22.46875
+            }
+          },
+          "ai": {
+            "id": "e_search_label",
+            "type": "TEXT",
+            "name": "业务搜索标签",
+            "text": "Search for",
+            "bbox": {
+              "x": 232.0,
+              "y": 194.0,
+              "width": 82.0,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            27
+          ],
+          "type_disagrees": false,
+          "bbox_iou": 0.8948808409532724,
+          "human": {
+            "id": "e_12",
+            "type": "TEXT",
+            "name": "表单项标签",
+            "text": "near",
+            "bbox": {
+              "x": 538.125,
+              "y": 194.421875,
+              "width": 36.0,
+              "height": 22.46875
+            }
+          },
+          "ai": {
+            "id": "e_location_label",
+            "type": "TEXT",
+            "name": "地点搜索标签",
+            "text": "near",
+            "bbox": {
+              "x": 538.0,
+              "y": 194.0,
+              "width": 38.0,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            31
+          ],
+          "type_disagrees": true,
+          "bbox_iou": 1.0,
+          "human": {
+            "id": "e_14",
+            "type": "INPUT",
+            "name": "搜索框按钮",
+            "text": "",
+            "bbox": {
+              "x": 810.0625,
+              "y": 188.0,
+              "width": 125.1875,
+              "height": 36.0
+            }
+          },
+          "ai": {
+            "id": "e_search_submit",
+            "type": "BUTTON_VISUAL",
+            "name": "搜索按钮",
+            "text": "",
+            "bbox": {
+              "x": 810.0625,
+              "y": 188.0,
+              "width": 125.1875,
+              "height": 36.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            90
+          ],
+          "type_disagrees": false,
+          "bbox_iou": 0.16318961520630507,
+          "human": {
+            "id": "e_50",
+            "type": "TEXT",
+            "name": "小标题",
+            "text": "Search results",
+            "bbox": {
+              "x": 220.0,
+              "y": 304.0,
+              "width": 720.0,
+              "height": 22.46875
+            }
+          },
+          "ai": {
+            "id": "e_result_label",
+            "type": "TEXT",
+            "name": "搜索结果说明",
+            "text": "Search results",
+            "bbox": {
+              "x": 220.0,
+              "y": 304.0,
+              "width": 120.0,
+              "height": 22.0
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            112
+          ],
+          "type_disagrees": false,
+          "bbox_iou": 0.89203125,
+          "human": {
+            "id": "e_59",
+            "type": "TEXT",
+            "name": "标记文字",
+            "text": "Contact form",
+            "bbox": {
+              "x": 240.0,
+              "y": 537.453125,
+              "width": 90.0,
+              "height": 22.46875
+            }
+          },
+          "ai": {
+            "id": "e_result_1_contact",
+            "type": "TEXT",
+            "name": "商家 1 联系入口",
+            "text": "Contact form",
+            "bbox": {
+              "x": 230.0,
+              "y": 537.453125,
+              "width": 99.203125,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            114
+          ],
+          "type_disagrees": false,
+          "bbox_iou": 0.879730504587156,
+          "human": {
+            "id": "e_61",
+            "type": "TEXT",
+            "name": "标记文字",
+            "text": "Verified listing",
+            "bbox": {
+              "x": 351.203125,
+              "y": 537.453125,
+              "width": 99.0,
+              "height": 22.46875
+            }
+          },
+          "ai": {
+            "id": "e_result_1_verified",
+            "type": "TEXT",
+            "name": "商家 1 认证状态",
+            "text": "Verified listing",
+            "bbox": {
+              "x": 341.203125,
+              "y": 537.453125,
+              "width": 105.890625,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            129
+          ],
+          "type_disagrees": false,
+          "bbox_iou": 0.89203125,
+          "human": {
+            "id": "e_68",
+            "type": "TEXT",
+            "name": "标记文字",
+            "text": "Contact form",
+            "bbox": {
+              "x": 240.0,
+              "y": 700.4375,
+              "width": 90.0,
+              "height": 22.46875
+            }
+          },
+          "ai": {
+            "id": "e_result_2_contact",
+            "type": "TEXT",
+            "name": "商家 2 联系入口",
+            "text": "Contact form",
+            "bbox": {
+              "x": 230.0,
+              "y": 700.4375,
+              "width": 99.203125,
+              "height": 22.46875
+            }
+          }
+        },
+        {
+          "source_node_ids": [
+            131
+          ],
+          "type_disagrees": false,
+          "bbox_iou": 0.8660879464921019,
+          "human": {
+            "id": "e_70",
+            "type": "TEXT",
+            "name": "标记文字",
+            "text": "Verified listing",
+            "bbox": {
+              "x": 352.0,
+              "y": 700.4375,
+              "width": 99.0,
+              "height": 22.46875
+            }
+          },
+          "ai": {
+            "id": "e_result_2_verified",
+            "type": "TEXT",
+            "name": "商家 2 认证状态",
+            "text": "Verified listing",
+            "bbox": {
+              "x": 341.203125,
+              "y": 700.4375,
+              "width": 105.890625,
+              "height": 22.46875
+            }
+          }
+        }
+      ]
+    },
+    "groups": [
+      {
+        "source_node_ids": [
+          5,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "human": [
+          {
+            "id": "g_2",
+            "role": "CONTAINER",
+            "name": "页面顶部",
+            "bbox": {
+              "x": 428.0,
+              "y": 0.0,
+              "width": 804.0,
+              "height": 46.0
+            }
+          }
+        ],
+        "ai": [
+          {
+            "id": "g_nav",
+            "role": "NAV",
+            "name": "主导航",
+            "bbox": {
+              "x": 40.0,
+              "y": 0.0,
+              "width": 1200.0,
+              "height": 176.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "human": [
+          {
+            "id": "g_1",
+            "role": "NAV",
+            "name": "导航列表",
+            "bbox": {
+              "x": 428.0,
+              "y": 0.0,
+              "width": 660.578125,
+              "height": 46.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          17,
+          19,
+          21
+        ],
+        "human": [
+          {
+            "id": "g_3",
+            "role": "LIST",
+            "name": "搜索前的图片列表",
+            "bbox": {
+              "x": 48.0,
+              "y": 186.0,
+              "width": 156.84375,
+              "height": 36.0
+            }
+          }
+        ],
+        "ai": [
+          {
+            "id": "g_social",
+            "role": "NAV",
+            "name": "社交入口",
+            "bbox": {
+              "x": 48.0,
+              "y": 186.0,
+              "width": 180.0,
+              "height": 41.46875
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          17,
+          19,
+          21,
+          24,
+          26,
+          27,
+          29,
+          31
+        ],
+        "human": [
+          {
+            "id": "g_5",
+            "role": "CONTAINER",
+            "name": "搜索栏",
+            "bbox": {
+              "x": 48.0,
+              "y": 186.0,
+              "width": 887.25,
+              "height": 38.0
+            }
+          }
+        ],
+        "ai": [
+          {
+            "id": "g_search_bar",
+            "role": "SECTION",
+            "name": "页面搜索栏",
+            "bbox": {
+              "x": 40.0,
+              "y": 180.0,
+              "width": 1200.0,
+              "height": 52.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          35,
+          37,
+          39
+        ],
+        "human": [
+          {
+            "id": "g_6",
+            "role": "CONTAINER",
+            "name": "面包屑导航",
+            "bbox": {
+              "x": 40.0,
+              "y": 239.0,
+              "width": 233.53125,
+              "height": 16.0
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          37,
+          39
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_breadcrumb",
+            "role": "NAV",
+            "name": "搜索面包屑",
+            "bbox": {
+              "x": 40.0,
+              "y": 238.0,
+              "width": 1200.0,
+              "height": 19.046875
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          42,
+          45,
+          46,
+          49,
+          50,
+          53,
+          54,
+          57,
+          58,
+          61,
+          62,
+          65,
+          66
+        ],
+        "human": [
+          {
+            "id": "g_14",
+            "role": "CONTAINER",
+            "name": "搜索历史模块",
+            "bbox": {
+              "x": 960.0,
+              "y": 265.046875,
+              "width": 280.0,
+              "height": 233.28125
+            }
+          }
+        ],
+        "ai": [
+          {
+            "id": "g_recent",
+            "role": "LIST",
+            "name": "近期搜索列表",
+            "bbox": {
+              "x": 960.0,
+              "y": 265.046875,
+              "width": 280.0,
+              "height": 244.28125
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          42,
+          45,
+          46,
+          49,
+          50,
+          53,
+          54,
+          57,
+          58,
+          61,
+          62,
+          65,
+          66,
+          70,
+          71,
+          73,
+          74,
+          76,
+          77,
+          79,
+          80,
+          82,
+          83,
+          85,
+          86,
+          89,
+          90,
+          92,
+          93,
+          95,
+          96,
+          104,
+          106,
+          107,
+          108,
+          112,
+          114,
+          117,
+          121,
+          123,
+          124,
+          125,
+          129,
+          131,
+          134
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_content",
+            "role": "SECTION",
+            "name": "目录页面内容",
+            "bbox": {
+              "x": 20.0,
+              "y": 232.0,
+              "width": 1240.0,
+              "height": 568.0
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          45,
+          46
+        ],
+        "human": [
+          {
+            "id": "g_7",
+            "role": "LIST_ITEM",
+            "name": "搜索历史列表项",
+            "bbox": {
+              "x": 960.0,
+              "y": 298.515625,
+              "width": 280.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          45,
+          46,
+          49,
+          50,
+          53,
+          54,
+          57,
+          58,
+          61,
+          62,
+          65,
+          66
+        ],
+        "human": [
+          {
+            "id": "g_13",
+            "role": "LIST",
+            "name": "搜索历史列表",
+            "bbox": {
+              "x": 960.0,
+              "y": 298.515625,
+              "width": 280.0,
+              "height": 199.8125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          49,
+          50
+        ],
+        "human": [
+          {
+            "id": "g_8",
+            "role": "LIST_ITEM",
+            "name": "搜索历史列表项",
+            "bbox": {
+              "x": 960.0,
+              "y": 333.984375,
+              "width": 280.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          53,
+          54
+        ],
+        "human": [
+          {
+            "id": "g_9",
+            "role": "LIST_ITEM",
+            "name": "搜索历史列表项",
+            "bbox": {
+              "x": 960.0,
+              "y": 369.453125,
+              "width": 280.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          57,
+          58
+        ],
+        "human": [
+          {
+            "id": "g_10",
+            "role": "LIST_ITEM",
+            "name": "搜索历史列表项",
+            "bbox": {
+              "x": 960.0,
+              "y": 404.921875,
+              "width": 280.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          61,
+          62
+        ],
+        "human": [
+          {
+            "id": "g_11",
+            "role": "LIST_ITEM",
+            "name": "搜索历史列表项",
+            "bbox": {
+              "x": 960.0,
+              "y": 440.390625,
+              "width": 280.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          65,
+          66
+        ],
+        "human": [
+          {
+            "id": "g_12",
+            "role": "LIST_ITEM",
+            "name": "搜索历史列表项",
+            "bbox": {
+              "x": 960.0,
+              "y": 475.859375,
+              "width": 280.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          69,
+          70,
+          71
+        ],
+        "human": [
+          {
+            "id": "g_16",
+            "role": "CARD",
+            "name": "左侧按钮项",
+            "bbox": {
+              "x": 40.0,
+              "y": 269.046875,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "human": [
+          {
+            "id": "g_22",
+            "role": "LIST",
+            "name": "左侧按钮列表",
+            "bbox": {
+              "x": 40.0,
+              "y": 269.046875,
+              "width": 160.0,
+              "height": 507.359375
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          70,
+          71,
+          73,
+          74,
+          76,
+          77,
+          79,
+          80,
+          82,
+          83,
+          85,
+          86
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_actions",
+            "role": "LIST",
+            "name": "商家操作入口",
+            "bbox": {
+              "x": 40.0,
+              "y": 269.046875,
+              "width": 180.0,
+              "height": 507.359375
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          72,
+          73,
+          74
+        ],
+        "human": [
+          {
+            "id": "g_17",
+            "role": "CARD",
+            "name": "左侧按钮项",
+            "bbox": {
+              "x": 40.0,
+              "y": 347.5,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          75,
+          76,
+          77
+        ],
+        "human": [
+          {
+            "id": "g_18",
+            "role": "CARD",
+            "name": "左侧按钮项",
+            "bbox": {
+              "x": 40.0,
+              "y": 425.953125,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          78,
+          79,
+          80
+        ],
+        "human": [
+          {
+            "id": "g_19",
+            "role": "CARD",
+            "name": "左侧按钮项",
+            "bbox": {
+              "x": 40.0,
+              "y": 504.40625,
+              "width": 160.0,
+              "height": 88.453125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          81,
+          82,
+          83
+        ],
+        "human": [
+          {
+            "id": "g_20",
+            "role": "CARD",
+            "name": "左侧按钮项",
+            "bbox": {
+              "x": 40.0,
+              "y": 609.5,
+              "width": 160.0,
+              "height": 88.453125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          84,
+          85,
+          86
+        ],
+        "human": [
+          {
+            "id": "g_21",
+            "role": "CARD",
+            "name": "左侧按钮项",
+            "bbox": {
+              "x": 40.0,
+              "y": 714.59375,
+              "width": 160.0,
+              "height": 61.8125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          89,
+          90,
+          92,
+          93,
+          95,
+          96,
+          104,
+          106,
+          107,
+          108,
+          112,
+          114,
+          117,
+          121,
+          123,
+          124,
+          125,
+          129,
+          131,
+          134
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_main",
+            "role": "SECTION",
+            "name": "搜索结果主体",
+            "bbox": {
+              "x": 220.0,
+              "y": 269.046875,
+              "width": 720.0,
+              "height": 530.953125
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          104,
+          106,
+          107,
+          108,
+          112,
+          113,
+          114,
+          115,
+          117
+        ],
+        "human": [
+          {
+            "id": "g_26",
+            "role": "LIST_ITEM",
+            "name": "搜索结果列表项",
+            "bbox": {
+              "x": 230.0,
+              "y": 442.578125,
+              "width": 700.0,
+              "height": 126.34375
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          104,
+          106,
+          107,
+          108,
+          112,
+          113,
+          114,
+          115,
+          117,
+          121,
+          123,
+          124,
+          125,
+          129,
+          130,
+          131,
+          132,
+          134
+        ],
+        "human": [
+          {
+            "id": "g_31",
+            "role": "LIST",
+            "name": "搜索结果列表",
+            "bbox": {
+              "x": 230.0,
+              "y": 442.578125,
+              "width": 700.0,
+              "height": 289.328125
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          104,
+          106,
+          107,
+          108,
+          112,
+          114,
+          117
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_result_1",
+            "role": "LIST_ITEM",
+            "name": "商家结果 1",
+            "bbox": {
+              "x": 220.0,
+              "y": 432.578125,
+              "width": 720.0,
+              "height": 146.34375
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          104,
+          106,
+          107,
+          108,
+          112,
+          114,
+          117,
+          121,
+          123,
+          124,
+          125,
+          129,
+          131,
+          134
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_results",
+            "role": "LIST",
+            "name": "商家结果列表",
+            "bbox": {
+              "x": 220.0,
+              "y": 395.9375,
+              "width": 720.0,
+              "height": 345.96875
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          112,
+          113
+        ],
+        "human": [
+          {
+            "id": "g_23",
+            "role": "LIST_ITEM",
+            "name": "搜索结果标记项",
+            "bbox": {
+              "x": 230.0,
+              "y": 537.453125,
+              "width": 100.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          112,
+          113,
+          114,
+          115
+        ],
+        "human": [
+          {
+            "id": "g_25",
+            "role": "LIST",
+            "name": "搜索结果标记组",
+            "bbox": {
+              "x": 230.0,
+              "y": 537.453125,
+              "width": 220.203125,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          114,
+          115
+        ],
+        "human": [
+          {
+            "id": "g_24",
+            "role": "LIST_ITEM",
+            "name": "搜索结果标记项",
+            "bbox": {
+              "x": 341.203125,
+              "y": 537.453125,
+              "width": 109.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          121,
+          123,
+          124,
+          125,
+          129,
+          130,
+          131,
+          132,
+          134
+        ],
+        "human": [
+          {
+            "id": "g_30",
+            "role": "LIST_ITEM",
+            "name": "搜索结果列表项",
+            "bbox": {
+              "x": 230.0,
+              "y": 605.5625,
+              "width": 700.0,
+              "height": 126.34375
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          121,
+          123,
+          124,
+          125,
+          129,
+          131,
+          134
+        ],
+        "human": [],
+        "ai": [
+          {
+            "id": "g_result_2",
+            "role": "LIST_ITEM",
+            "name": "商家结果 2",
+            "bbox": {
+              "x": 220.0,
+              "y": 595.5625,
+              "width": 720.0,
+              "height": 146.34375
+            }
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          129,
+          130
+        ],
+        "human": [
+          {
+            "id": "g_27",
+            "role": "LIST_ITEM",
+            "name": "搜索结果标记列表项",
+            "bbox": {
+              "x": 230.0,
+              "y": 700.4375,
+              "width": 100.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          129,
+          130,
+          131,
+          132
+        ],
+        "human": [
+          {
+            "id": "g_29",
+            "role": "LIST",
+            "name": "搜索结果标记组",
+            "bbox": {
+              "x": 230.0,
+              "y": 700.4375,
+              "width": 221.0,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          131,
+          132
+        ],
+        "human": [
+          {
+            "id": "g_28",
+            "role": "LIST_ITEM",
+            "name": "搜索结果标记列表项",
+            "bbox": {
+              "x": 341.203125,
+              "y": 700.4375,
+              "width": 109.796875,
+              "height": 22.46875
+            }
+          }
+        ],
+        "ai": []
+      }
+    ],
+    "tree": [
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            7
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            8
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            9
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            10
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            11
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            35
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              35,
+              37,
+              39
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            37
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              35,
+              37,
+              39
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              37,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            39
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              35,
+              37,
+              39
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              37,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            45
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              45,
+              46
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            45,
+            46
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            46
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              45,
+              46
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            49
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              49,
+              50
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            49,
+            50
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            50
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              49,
+              50
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            53
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              53,
+              54
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            53,
+            54
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            54
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              53,
+              54
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            57
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              57,
+              58
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            57,
+            58
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            58
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              57,
+              58
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            61
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              61,
+              62
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            61,
+            62
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            62
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              61,
+              62
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            65
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            65,
+            66
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            66
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            69
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            70
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            70,
+            71
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            71
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            72
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              72,
+              73,
+              74
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            73
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              72,
+              73,
+              74
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            73,
+            74
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            74
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              72,
+              73,
+              74
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            75
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              75,
+              76,
+              77
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            76
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              75,
+              76,
+              77
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            76,
+            77
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            77
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              75,
+              76,
+              77
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            78
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              78,
+              79,
+              80
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            79
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              78,
+              79,
+              80
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            79,
+            80
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            80
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              78,
+              79,
+              80
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            81
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              81,
+              82,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            82
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              81,
+              82,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            82,
+            83
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            83
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              81,
+              82,
+              83
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            84
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            85
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            85,
+            86
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            86
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            89
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              89,
+              90,
+              92,
+              93,
+              95,
+              96,
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            90
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              89,
+              90,
+              92,
+              93,
+              95,
+              96,
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            104
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              113,
+              114,
+              115,
+              117
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            106
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              113,
+              114,
+              115,
+              117
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            107
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              113,
+              114,
+              115,
+              117
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            108
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              113,
+              114,
+              115,
+              117
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            112
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              112,
+              113
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            113
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              112,
+              113
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            114
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              114,
+              115
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            115
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              114,
+              115
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            117
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              113,
+              114,
+              115,
+              117
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            121
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              130,
+              131,
+              132,
+              134
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            123
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              130,
+              131,
+              132,
+              134
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            124
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              130,
+              131,
+              132,
+              134
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            125
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              130,
+              131,
+              132,
+              134
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            129
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              129,
+              130
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            130
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              129,
+              130
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            131
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              131,
+              132
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            132
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              131,
+              132
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "element",
+          "source_node_ids": [
+            134
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              130,
+              131,
+              132,
+              134
+            ]
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              5,
+              7,
+              8,
+              9,
+              10,
+              11
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            35,
+            37,
+            39
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            37,
+            39
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            42,
+            45,
+            46,
+            49,
+            50,
+            53,
+            54,
+            57,
+            58,
+            61,
+            62,
+            65,
+            66
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66,
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86,
+              89,
+              90,
+              92,
+              93,
+              95,
+              96,
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            42,
+            45,
+            46,
+            49,
+            50,
+            53,
+            54,
+            57,
+            58,
+            61,
+            62,
+            65,
+            66,
+            70,
+            71,
+            73,
+            74,
+            76,
+            77,
+            79,
+            80,
+            82,
+            83,
+            85,
+            86,
+            89,
+            90,
+            92,
+            93,
+            95,
+            96,
+            104,
+            106,
+            107,
+            108,
+            112,
+            114,
+            117,
+            121,
+            123,
+            124,
+            125,
+            129,
+            131,
+            134
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            45,
+            46
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            45,
+            46,
+            49,
+            50,
+            53,
+            54,
+            57,
+            58,
+            61,
+            62,
+            65,
+            66
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            49,
+            50
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            53,
+            54
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            57,
+            58
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            61,
+            62
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            65,
+            66
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            69,
+            70,
+            71
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            70,
+            71,
+            73,
+            74,
+            76,
+            77,
+            79,
+            80,
+            82,
+            83,
+            85,
+            86
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66,
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86,
+              89,
+              90,
+              92,
+              93,
+              95,
+              96,
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            72,
+            73,
+            74
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            75,
+            76,
+            77
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            78,
+            79,
+            80
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            81,
+            82,
+            83
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            84,
+            85,
+            86
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            89,
+            90,
+            92,
+            93,
+            95,
+            96,
+            104,
+            106,
+            107,
+            108,
+            112,
+            114,
+            117,
+            121,
+            123,
+            124,
+            125,
+            129,
+            131,
+            134
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              42,
+              45,
+              46,
+              49,
+              50,
+              53,
+              54,
+              57,
+              58,
+              61,
+              62,
+              65,
+              66,
+              70,
+              71,
+              73,
+              74,
+              76,
+              77,
+              79,
+              80,
+              82,
+              83,
+              85,
+              86,
+              89,
+              90,
+              92,
+              93,
+              95,
+              96,
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            92,
+            93,
+            95,
+            96
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              89,
+              90,
+              92,
+              93,
+              95,
+              96,
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            104,
+            106,
+            107,
+            108,
+            112,
+            113,
+            114,
+            115,
+            117
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              113,
+              114,
+              115,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              130,
+              131,
+              132,
+              134
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            104,
+            106,
+            107,
+            108,
+            112,
+            113,
+            114,
+            115,
+            117,
+            121,
+            123,
+            124,
+            125,
+            129,
+            130,
+            131,
+            132,
+            134
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "root",
+            "source_node_ids": []
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            104,
+            106,
+            107,
+            108,
+            112,
+            114,
+            117
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            104,
+            106,
+            107,
+            108,
+            112,
+            114,
+            117,
+            121,
+            123,
+            124,
+            125,
+            129,
+            131,
+            134
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              89,
+              90,
+              92,
+              93,
+              95,
+              96,
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            112,
+            113
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              112,
+              113,
+              114,
+              115
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            112,
+            113,
+            114,
+            115
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              113,
+              114,
+              115,
+              117
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            114,
+            115
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              112,
+              113,
+              114,
+              115
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            121,
+            123,
+            124,
+            125,
+            129,
+            130,
+            131,
+            132,
+            134
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              113,
+              114,
+              115,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              130,
+              131,
+              132,
+              134
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            121,
+            123,
+            124,
+            125,
+            129,
+            131,
+            134
+          ]
+        },
+        "human_parents": [],
+        "ai_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              104,
+              106,
+              107,
+              108,
+              112,
+              114,
+              117,
+              121,
+              123,
+              124,
+              125,
+              129,
+              131,
+              134
+            ]
+          }
+        ]
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            129,
+            130
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              129,
+              130,
+              131,
+              132
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            129,
+            130,
+            131,
+            132
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              121,
+              123,
+              124,
+              125,
+              129,
+              130,
+              131,
+              132,
+              134
+            ]
+          }
+        ],
+        "ai_parents": []
+      },
+      {
+        "child": {
+          "kind": "group",
+          "source_node_ids": [
+            131,
+            132
+          ]
+        },
+        "human_parents": [
+          {
+            "kind": "group",
+            "source_node_ids": [
+              129,
+              130,
+              131,
+              132
+            ]
+          }
+        ],
+        "ai_parents": []
+      }
+    ],
+    "layouts": [
+      {
+        "source_node_ids": [
+          5,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "human": [
+          {
+            "target_id": "g_2",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_nav",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "human": [
+          {
+            "target_id": "g_1",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          17,
+          19,
+          21
+        ],
+        "human": [
+          {
+            "target_id": "g_3",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_social",
+            "mode": "HORIZONTAL",
+            "gap": 24.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          17,
+          19,
+          21,
+          24,
+          26,
+          27,
+          29,
+          31
+        ],
+        "human": [
+          {
+            "target_id": "g_5",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_search_bar",
+            "mode": "HORIZONTAL",
+            "gap": 4.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          24,
+          26,
+          27,
+          29,
+          31
+        ],
+        "human": [
+          {
+            "target_id": "g_4",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_search",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          35,
+          37,
+          39
+        ],
+        "human": [
+          {
+            "target_id": "g_6",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          37,
+          39
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_breadcrumb",
+            "mode": "HORIZONTAL",
+            "gap": 8.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          42,
+          45,
+          46,
+          49,
+          50,
+          53,
+          54,
+          57,
+          58,
+          61,
+          62,
+          65,
+          66,
+          70,
+          71,
+          73,
+          74,
+          76,
+          77,
+          79,
+          80,
+          82,
+          83,
+          85,
+          86,
+          89,
+          90,
+          92,
+          93,
+          95,
+          96,
+          104,
+          106,
+          107,
+          108,
+          112,
+          114,
+          117,
+          121,
+          123,
+          124,
+          125,
+          129,
+          131,
+          134
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_content",
+            "mode": "HORIZONTAL",
+            "gap": 20.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          45,
+          46
+        ],
+        "human": [
+          {
+            "target_id": "g_7",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          45,
+          46,
+          49,
+          50,
+          53,
+          54,
+          57,
+          58,
+          61,
+          62,
+          65,
+          66
+        ],
+        "human": [
+          {
+            "target_id": "g_13",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          49,
+          50
+        ],
+        "human": [
+          {
+            "target_id": "g_8",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          53,
+          54
+        ],
+        "human": [
+          {
+            "target_id": "g_9",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          57,
+          58
+        ],
+        "human": [
+          {
+            "target_id": "g_10",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          61,
+          62
+        ],
+        "human": [
+          {
+            "target_id": "g_11",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          65,
+          66
+        ],
+        "human": [
+          {
+            "target_id": "g_12",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          69,
+          70,
+          71
+        ],
+        "human": [
+          {
+            "target_id": "g_16",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        "human": [
+          {
+            "target_id": "g_22",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          70,
+          71,
+          73,
+          74,
+          76,
+          77,
+          79,
+          80,
+          82,
+          83,
+          85,
+          86
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_actions",
+            "mode": "VERTICAL",
+            "gap": 17.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          72,
+          73,
+          74
+        ],
+        "human": [
+          {
+            "target_id": "g_17",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          75,
+          76,
+          77
+        ],
+        "human": [
+          {
+            "target_id": "g_18",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          78,
+          79,
+          80
+        ],
+        "human": [
+          {
+            "target_id": "g_19",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          81,
+          82,
+          83
+        ],
+        "human": [
+          {
+            "target_id": "g_20",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          84,
+          85,
+          86
+        ],
+        "human": [
+          {
+            "target_id": "g_21",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          89,
+          90,
+          92,
+          93,
+          95,
+          96,
+          104,
+          106,
+          107,
+          108,
+          112,
+          114,
+          117,
+          121,
+          123,
+          124,
+          125,
+          129,
+          131,
+          134
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_main",
+            "mode": "VERTICAL",
+            "gap": 12.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          92,
+          93,
+          95,
+          96
+        ],
+        "human": [
+          {
+            "target_id": "g_15",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": [
+          {
+            "target_id": "g_filters",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          104,
+          106,
+          107,
+          108,
+          112,
+          113,
+          114,
+          115,
+          117
+        ],
+        "human": [
+          {
+            "target_id": "g_26",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          104,
+          106,
+          107,
+          108,
+          112,
+          113,
+          114,
+          115,
+          117,
+          121,
+          123,
+          124,
+          125,
+          129,
+          130,
+          131,
+          132,
+          134
+        ],
+        "human": [
+          {
+            "target_id": "g_31",
+            "mode": "VERTICAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          104,
+          106,
+          107,
+          108,
+          112,
+          114,
+          117
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_result_1",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          104,
+          106,
+          107,
+          108,
+          112,
+          114,
+          117,
+          121,
+          123,
+          124,
+          125,
+          129,
+          131,
+          134
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_results",
+            "mode": "VERTICAL",
+            "gap": 17.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          112,
+          113
+        ],
+        "human": [
+          {
+            "target_id": "g_23",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          112,
+          113,
+          114,
+          115
+        ],
+        "human": [
+          {
+            "target_id": "g_25",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          114,
+          115
+        ],
+        "human": [
+          {
+            "target_id": "g_24",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          121,
+          123,
+          124,
+          125,
+          129,
+          130,
+          131,
+          132,
+          134
+        ],
+        "human": [
+          {
+            "target_id": "g_30",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "FIXED",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          121,
+          123,
+          124,
+          125,
+          129,
+          131,
+          134
+        ],
+        "human": [],
+        "ai": [
+          {
+            "target_id": "g_result_2",
+            "mode": "FREE",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "START",
+            "horizontal_resize": "STRETCH",
+            "vertical_resize": "HUG"
+          }
+        ]
+      },
+      {
+        "source_node_ids": [
+          129,
+          130
+        ],
+        "human": [
+          {
+            "target_id": "g_27",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          129,
+          130,
+          131,
+          132
+        ],
+        "human": [
+          {
+            "target_id": "g_29",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "SPACE_BETWEEN",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      },
+      {
+        "source_node_ids": [
+          131,
+          132
+        ],
+        "human": [
+          {
+            "target_id": "g_28",
+            "mode": "HORIZONTAL",
+            "gap": 0.0,
+            "padding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "primary_align": "START",
+            "cross_align": "CENTER",
+            "horizontal_resize": "HUG",
+            "vertical_resize": "FIXED"
+          }
+        ],
+        "ai": []
+      }
+    ],
+    "tokens": {
+      "only_human": [],
+      "only_ai": [
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                7
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                8
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                9
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                10
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                45,
+                46
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                49,
+                50
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                53,
+                54
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                57,
+                58
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                61,
+                62
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                65,
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                70,
+                71
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                73,
+                74
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                76,
+                77
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                79,
+                80
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                82,
+                83
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                85,
+                86
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "TEXT",
+          "members": [
+            {
+              "kind": "element",
+              "source_node_ids": [
+                106
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                107
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                108
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                123
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                124
+              ]
+            },
+            {
+              "kind": "element",
+              "source_node_ids": [
+                125
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "review": {
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "notes": "",
+    "required_checks": [
+      "逐项核对原子元素的合并、拆分与类型",
+      "逐项核对语义分组及父子层级",
+      "逐项核对布局模式、间距与内边距",
+      "确认样式 Token 是否代表应联动修改的设计变量",
+      "在金标准草稿中记录采用人工、采用 AI 或重新标注的决定"
+    ]
+  }
+}
