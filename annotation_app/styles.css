@@ -244,6 +244,10 @@ button:focus-visible {
   border-bottom: 1px solid var(--border);
 }
 
+.panel-tabs.adjudication {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .panel-tab {
   min-height: 45px;
   border: 0;
@@ -436,11 +440,13 @@ button:focus-visible {
 }
 
 .node-overlay,
+.reference-overlay,
 .entity-overlay {
   position: absolute;
   inset: 0;
 }
 
+.reference-overlay,
 .entity-overlay {
   pointer-events: none;
 }
@@ -502,6 +508,46 @@ button:focus-visible {
   z-index: 1200 !important;
   border-width: 3px;
   border-color: #dc2626;
+}
+
+.reference-box {
+  position: absolute;
+  min-height: 0;
+  padding: 0;
+  border-radius: 1px;
+  background: transparent;
+}
+
+.reference-box.human {
+  border: 2px solid rgb(217 119 6 / 78%);
+}
+
+.reference-box.ai {
+  border: 2px solid rgb(14 116 144 / 82%);
+}
+
+.reference-box.group {
+  border-style: dashed;
+}
+
+.reference-box.focused {
+  z-index: 1150 !important;
+  border-width: 3px;
+  background: rgb(255 255 255 / 10%);
+}
+
+.reference-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reference-human {
+  color: #9a5b05;
+}
+
+.reference-ai {
+  color: #0e7490;
 }
 
 .inspector-heading {
@@ -628,6 +674,137 @@ button:focus-visible {
 
 .validation-panel {
   padding: 13px 14px;
+}
+
+.adjudication-panel {
+  padding: 13px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.adjudication-panel label {
+  display: block;
+  margin-top: 10px;
+}
+
+.adjudication-panel label > span {
+  display: block;
+  margin-bottom: 4px;
+  color: #667085;
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.review-status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.review-meta {
+  margin-top: 9px;
+  color: #667085;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.metric-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.metric-item {
+  padding: 7px 8px;
+  border: 1px solid #e1e6ec;
+  border-radius: 6px;
+  background: #f8fafb;
+}
+
+.metric-item span,
+.metric-item strong {
+  display: block;
+}
+
+.metric-item span {
+  color: #667085;
+  font-size: 10px;
+}
+
+.metric-item strong {
+  margin-top: 2px;
+  color: #273142;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.difference-list {
+  border-top: 0;
+}
+
+.difference-row {
+  width: 100%;
+  min-height: 58px;
+  padding: 8px 7px;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #edf0f4;
+  border-radius: 0;
+  text-align: left;
+}
+
+.difference-row:hover,
+.difference-row.active {
+  background: #eef5f7;
+}
+
+.difference-row-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.difference-kind {
+  color: #0e7490;
+  font-size: 10px;
+  font-weight: 750;
+}
+
+.difference-source {
+  color: #667085;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+
+.difference-title {
+  margin-top: 4px;
+  overflow: hidden;
+  color: #273142;
+  font-size: 12px;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.difference-detail {
+  margin-top: 2px;
+  overflow: hidden;
+  color: #667085;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.workspace.adjudication-locked .left-panel button:not(.panel-tab):not(.difference-row),
+.workspace.adjudication-locked .left-panel input:not(#differenceFilter),
+.workspace.adjudication-locked .left-panel select:not(#differenceFilter),
+.workspace.adjudication-locked .right-panel form input,
+.workspace.adjudication-locked .right-panel form select,
+.workspace.adjudication-locked .right-panel form textarea,
+.workspace.adjudication-locked #deleteEntity {
+  pointer-events: none;
+  opacity: 0.55;
 }
 
 .validation-heading {

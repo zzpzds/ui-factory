@@ -13,7 +13,14 @@
       <span id="saveState" class="status-badge">已保存</span>
     </div>
     <div class="header-controls">
-      <label class="compact-field">
+      <label class="compact-field mode-field">
+        <span>模式</span>
+        <select id="modeSelect">
+          <option value="annotation">人工标注</option>
+          <option value="adjudication">差异仲裁</option>
+        </select>
+      </label>
+      <label id="annotatorField" class="compact-field">
         <span>标注者</span>
         <select id="annotatorSelect"></select>
       </label>
@@ -35,6 +42,7 @@
         <button class="panel-tab active" data-tab="nodes" type="button">节点</button>
         <button class="panel-tab" data-tab="entities" type="button">实体</button>
         <button class="panel-tab" data-tab="tokens" type="button">Token</button>
+        <button id="differencesTabButton" class="panel-tab hidden" data-tab="differences" type="button">差异</button>
       </div>
 
       <section id="nodesTab" class="tab-content active">
@@ -85,6 +93,22 @@
         <button id="createToken" class="primary-button full-button" type="button">从所选实体创建</button>
         <div id="tokenList" class="scroll-list"></div>
       </section>
+
+      <section id="differencesTab" class="tab-content">
+        <div id="metricSummary" class="metric-summary"></div>
+        <div class="panel-toolbar">
+          <select id="differenceFilter" aria-label="差异类型">
+            <option value="all">全部差异</option>
+            <option value="elements">原子元素</option>
+            <option value="groups">语义分组</option>
+            <option value="tree">父子层级</option>
+            <option value="layouts">布局约束</option>
+            <option value="tokens">样式 Token</option>
+          </select>
+          <span id="differenceCount" class="selection-count">0</span>
+        </div>
+        <div id="differenceList" class="scroll-list difference-list"></div>
+      </section>
     </aside>
 
     <section class="canvas-panel">
@@ -97,6 +121,16 @@
           <input id="showLabels" type="checkbox">
           <span>ID</span>
         </label>
+        <div id="referenceControls" class="reference-controls hidden">
+          <label class="toggle-field reference-human">
+            <input id="showHumanReference" type="checkbox">
+            <span>人工参考</span>
+          </label>
+          <label class="toggle-field reference-ai">
+            <input id="showAiReference" type="checkbox" checked>
+            <span>AI 参考</span>
+          </label>
+        </div>
         <div class="zoom-controls">
           <button id="zoomOut" class="icon-button" type="button" title="缩小" aria-label="缩小">−</button>
           <output id="zoomValue">100%</output>
@@ -108,6 +142,7 @@
         <div id="canvasStage" class="canvas-stage">
           <img id="pageScreenshot" alt="">
           <div id="nodeOverlay" class="node-overlay"></div>
+          <div id="referenceOverlay" class="reference-overlay"></div>
           <div id="entityOverlay" class="entity-overlay"></div>
         </div>
       </div>
@@ -124,6 +159,21 @@
       <div id="inspectorEmpty" class="empty-state">选择元素、分组或 Token</div>
       <form id="entityInspector" class="inspector-form hidden"></form>
       <form id="tokenInspector" class="inspector-form hidden"></form>
+      <section id="adjudicationPanel" class="adjudication-panel hidden">
+        <div class="review-status-row">
+          <strong>人工审核</strong>
+          <span id="reviewStatus" class="status-badge">待审核</span>
+        </div>
+        <label>
+          <span>审核人标识</span>
+          <input id="reviewerName" autocomplete="name" placeholder="填写真实审核人姓名或编号">
+        </label>
+        <label>
+          <span>审核说明</span>
+          <textarea id="reviewNotes" placeholder="记录主要分歧、采用依据和重新标注内容"></textarea>
+        </label>
+        <div id="reviewMeta" class="review-meta"></div>
+      </section>
       <section class="validation-panel">
         <div class="validation-heading">
           <strong>校验</strong>

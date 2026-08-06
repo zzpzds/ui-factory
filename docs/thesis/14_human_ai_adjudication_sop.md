@@ -33,59 +33,56 @@ python scripts/prepare_human_ai_adjudication.py
 若原始人工或 AI 文件在生成后发生变化，脚本会因 SHA-256 不一致而中止。此时
 不要删除旧记录直接重跑，应先确认变更原因并保留变更审计记录。
 
-## 4. 单页审核顺序
+## 4. 启动仲裁平台
 
-以 `0001` 为例，同时打开网页截图、
-`adjudication/0001.json` 和 `gold_drafts/0001.json`，按以下顺序处理：
+在项目根目录执行：
 
-1. 查看 `differences.elements.only_human` 与 `only_ai`，判断是否为源节点选择、
-   合并/拆分或漏标；在 gold draft 中保留正确方案或重新标注。
-2. 查看 `matched_but_changed`，重点核对 `type_disagrees` 与低 `bbox_iou` 项；
-   名称差异不是自动错误，类型和可编辑边界才是主要判断依据。
-3. 查看 `differences.groups`，判断每个语义组是否具有独立选择、移动或复用意义；
-   组可以只含子组，但必须至少有一个直接设计子实体。
-4. 查看 `differences.tree`，确认每个元素/组应挂在哪个父组。表格优先检查
+```bash
+source .venv/bin/activate
+python scripts/serve_intent_annotation.py \
+  --package_dir data/annotations/intent_pilot_v1 \
+  --port 8765
+```
+
+浏览器打开 `http://127.0.0.1:8765`。平台默认进入“差异仲裁”模式，顶部进度表示
+已由真实人员审核的样本数；样本编号前出现勾选表示该页已审核并锁定。不要在仲裁
+阶段切换到“人工标注”模式修改原始的 `annotator_a` 文件。
+
+## 5. 单页审核顺序
+
+1. 在左侧“差异”页签查看一致性摘要；这些指标只用于定位争议，不能作为自动采用
+   人工或 AI 版本的规则。
+2. 依次选择“原子元素、语义分组、父子层级、布局约束、样式 Token”筛选器。点击
+   任意差异项后，平台会选中对应源节点并将画布滚动到相关区域。
+3. 画布默认以青色框显示 AI 参考。按需打开琥珀色“人工参考”，或关闭其中一层以
+   避免框线重叠。实线框表示原子元素，虚线框表示语义分组。
+4. 在左侧“节点”页签和“实体”页签修改当前金标准草稿。草稿初始来自人工标注；
+   只有经视觉与语义判断确认后，才采用 AI 方案或重新标注。原始人工与 AI 文件
+   始终保持只读。
+5. 元素差异重点检查合并/拆分、漏标、类型和 bbox；名称差异本身不代表错误。
+6. 分组与层级重点检查独立选择、移动或复用意义。分组可以只包含子分组，也可以
+   只有一个直接设计子实体，但最终必须覆盖至少一个后代原子元素。表格优先检查
    `TABLE -> TABLE_ROW -> elements`，列表优先检查 `LIST -> LIST_ITEM`。
-5. 查看 `differences.layouts`，结合截图核对方向、gap、padding、对齐和 resize。
-6. 查看 `differences.tokens`，只把“应当联动修改”的成员放入同一 Token；数值
-   相同但语义无关的样式不应强行合并。
-7. 修改 gold draft 后，使用标注平台或校验代码确认 schema、bbox、tree、layout
-   和 Token 全部合法。
+7. 布局差异结合截图核对方向、gap、padding、对齐和 resize；Token 只合并应当
+   联动修改的成员，不要仅因样式数值相同而强行合并。
+8. 中途点击“保存仲裁草稿”。此操作只更新 `gold_drafts/<id>.json`，不会把样本
+   标成已审核，也不会生成训练用金标准。
 
-`metrics` 只帮助定位分歧密集区域，不能代替逐项视觉判断，也不能作为自动采用
-人工或 AI 版本的规则。
+## 6. 完成人工审核
 
-## 5. 写入审核凭证
+确认右侧校验错误为 0 后，在“人工审核”区域填写：
 
-完成一页后，修改 `adjudication/<id>.json`：
+- `审核人标识`：真实审核人的姓名或稳定编号；不能填写 `annotator_ai`。
+- `审核说明`：说明主要分歧、最终采用依据以及重新标注的内容，不能留空。
 
-```json
-{
-  "status": "reviewed",
-  "review": {
-    "reviewed_by": "真实审核人标识",
-    "reviewed_at": "2026-08-03T15:00:00+08:00",
-    "notes": "说明主要分歧、采用依据和重新标注内容"
-  }
-}
-```
+点击“完成人工审核”。服务端会重新校验 IR 结构、输入哈希、bbox、tree、layout
+与 Token，并自动写入审核时间和 provenance。校验失败时，页面仍保持待审核，右侧
+会列出原因；通过后该样本锁定，不能继续修改。
 
-同时修改 `gold_drafts/<id>.json` 的 `provenance`：
+审核凭证由平台同时写入 `adjudication/<id>.json` 和 `gold_drafts/<id>.json`，
+不要再手工编辑这两处状态字段。审核动作必须由真实人员完成。
 
-```json
-{
-  "status": "complete",
-  "adjudication_status": "reviewed",
-  "gold_finalized": false,
-  "reviewed_by": "与仲裁记录相同的审核人标识",
-  "reviewed_at": "与仲裁记录相同的时间",
-  "review_notes": "非空审核说明"
-}
-```
-
-不要把 `reviewed_by` 填为 `annotator_ai`。审核动作必须由真实人员完成。
-
-## 6. 导出最终金标准
+## 7. 导出最终金标准
 
 先按单样本导出，确认无误后再批量执行：
 
@@ -106,7 +103,7 @@ python scripts/finalize_human_ai_adjudication.py
 `human_ai_adjudicated_gold`，并保留 `ai_assistance_disclosed=true`。任何门槛失败
 都会拒绝导出，不会用待审核草稿覆盖训练金标准。
 
-## 7. 论文披露
+## 8. 论文披露
 
 方法章节应明确说明：AI 代理在盲态下独立生成候选标注，用于发现分歧；最终标签
 由真实人员结合截图、HTML/PageGraph 和差异报告逐项复核。人机指标属于跨来源

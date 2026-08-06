@@ -13,7 +13,7 @@ from urllib.parse import parse_qs, unquote, urlparse
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.annotation import AnnotationStore
+from src.annotation import AdjudicationStore, AnnotationStore
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -22,6 +22,7 @@ STATIC_DIR = REPO_ROOT / "annotation_app"
 
 class AnnotationHandler(BaseHTTPRequestHandler):
     store: AnnotationStore
+    adjudication_store: AdjudicationStore
 
     def _json(self, payload, status: int = 200) -> None:
         encoded = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -58,7 +59,15 @@ class AnnotationHandler(BaseHTTPRequestHandler):
         parts = self._parts(parsed.path)
         try:
             if parsed.path == "/api/assignment":
-                self._json(self.store.assignment_payload())
+                payload = self.store.assignment_payload()
+                payload["adjudication"] = self.adjudication_store.summary()
+                self._json(payload)
+                return
+            if parsed.path == "/api/adjudication":
+                self._json(self.adjudication_store.summary())
+                return
+            if len(parts) == 3 and parts[:2] == ["api", "adjudication"]:
+                self._json(self.adjudication_store.payload(parts[2]))
                 return
             if len(parts) == 4 and parts[:2] == ["api", "sample"]:
                 sample_id, resource = parts[2], parts[3]
@@ -91,6 +100,26 @@ class AnnotationHandler(BaseHTTPRequestHandler):
     def do_POST(self) -> None:
         parsed = urlparse(self.path)
         parts = self._parts(parsed.path)
+        if len(parts) == 3 and parts[:2] == ["api", "adjudication"]:
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+                if length <= 0 or length > 20 * 1024 * 1024:
+                    raise ValueError("请求体尺寸非法。")
+                payload = json.loads(self.rfile.read(length))
+                submit = parse_qs(parsed.query).get("submit", ["0"])[0] == "1"
+                result = self.adjudication_store.save(
+                    parts[2],
+                    payload.get("draft", {}),
+                    review_payload=payload.get("review"),
+                    submit=submit,
+                )
+                self._json(
+                    result,
+                    200 if not submit or result["reviewed"] else 422,
+                )
+            except (KeyError, ValueError, TypeError, json.JSONDecodeError) as error:
+                self._json({"error": str(error)}, 400)
+            return
         if len(parts) != 4 or parts[:2] != ["api", "annotation"]:
             self._json({"error": "未知接口"}, 404)
             return
@@ -121,6 +150,9 @@ def main() -> None:
     args = parser.parse_args()
 
     AnnotationHandler.store = AnnotationStore(
+        REPO_ROOT, REPO_ROOT / args.package_dir
+    )
+    AnnotationHandler.adjudication_store = AdjudicationStore(
         REPO_ROOT, REPO_ROOT / args.package_dir
     )
     server = ThreadingHTTPServer((args.host, args.port), AnnotationHandler)

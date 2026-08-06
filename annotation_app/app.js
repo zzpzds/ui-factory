@@ -10,6 +10,7 @@ const RESIZE_MODES = ["FIXED", "HUG", "STRETCH"];
 
 const state = {
   assignment: null,
+  mode: "adjudication",
   annotator: "annotator_a",
   sampleId: null,
   graph: null,
@@ -23,6 +24,10 @@ const state = {
   validationErrors: [],
   nodeSearch: "",
   toastTimer: null,
+  adjudication: null,
+  references: { human: null, ai: null },
+  differenceFilter: "all",
+  activeDifferenceIndex: null,
 };
 
 const $ = (id) => document.getElementById(id);
@@ -65,6 +70,15 @@ function toast(message, isError = false) {
 
 function getSample() {
   return state.assignment.samples.find((sample) => sample.sample_id === state.sampleId);
+}
+
+function isAdjudication() {
+  return state.mode === "adjudication";
+}
+
+function isAdjudicationLocked() {
+  return isAdjudication()
+    && ["reviewed", "finalized"].includes(state.adjudication?.record?.status);
 }
 
 function entityById(id) {
@@ -233,6 +247,10 @@ function normalizeAnnotation() {
 }
 
 function markDirty() {
+  if (isAdjudicationLocked()) {
+    toast("该样本已完成审核，不能继续修改", true);
+    return;
+  }
   state.dirty = true;
   renderSaveState();
 }
@@ -246,12 +264,21 @@ function renderSaveState() {
 }
 
 function renderProgress() {
-  const progress = state.assignment.progress[state.annotator];
-  $("progressText").textContent = `${progress.complete} / ${progress.total}`;
+  const progress = isAdjudication()
+    ? state.assignment.adjudication.progress
+    : state.assignment.progress[state.annotator];
+  $("progressText").textContent = isAdjudication()
+    ? `${progress.reviewed} / ${progress.total}`
+    : `${progress.complete} / ${progress.total}`;
   [...$("sampleSelect").options].forEach((option) => {
-    const status = state.assignment.sample_status[state.annotator][option.value];
+    const status = isAdjudication()
+      ? state.assignment.adjudication.sample_status[option.value]
+      : state.assignment.sample_status[state.annotator][option.value];
     const sample = state.assignment.samples.find((item) => item.sample_id === option.value);
-    option.textContent = `${status === "complete" ? "✓ " : ""}${option.value} · ${sample.size_bin}`;
+    const complete = isAdjudication()
+      ? ["reviewed", "finalized"].includes(status)
+      : status === "complete";
+    option.textContent = `${complete ? "✓ " : ""}${option.value} · ${sample.size_bin}`;
   });
 }
 
@@ -356,6 +383,40 @@ function renderNodes() {
   });
 }
 
+function referenceEntities(annotation, source) {
+  if (!annotation) return [];
+  return [
+    ...annotation.groups.map((entity) => ({ entity, kind: "group", source })),
+    ...annotation.elements.map((entity) => ({ entity, kind: "element", source })),
+  ];
+}
+
+function renderReferenceOverlay() {
+  if (!isAdjudication()) {
+    $("referenceOverlay").innerHTML = "";
+    return;
+  }
+  const entities = [];
+  if ($("showHumanReference").checked) {
+    entities.push(...referenceEntities(state.references.human, "human"));
+  }
+  if ($("showAiReference").checked) {
+    entities.push(...referenceEntities(state.references.ai, "ai"));
+  }
+  const focusedSources = new Set(state.selectedNodeIds);
+  $("referenceOverlay").innerHTML = entities.map(({ entity, kind, source }, index) => {
+    const box = entity.bbox;
+    const sourceIds = entitySourceIds(
+      source === "human" ? state.references.human : state.references.ai,
+      entity,
+    );
+    const focused = sourceIds.some((id) => focusedSources.has(id)) ? "focused" : "";
+    return `<div class="reference-box ${source} ${kind} ${focused}"
+      title="${source === "human" ? "人工" : "AI"} · ${escapeHtml(entity.name)}"
+      style="left:${box.x * state.scale}px;top:${box.y * state.scale}px;width:${Math.max(2, box.width * state.scale)}px;height:${Math.max(2, box.height * state.scale)}px;z-index:${50 + index}"></div>`;
+  }).join("");
+}
+
 function renderCanvas() {
   if (!state.graph) return;
   const { width, height } = state.graph.canvas;
@@ -393,6 +454,8 @@ function renderCanvas() {
       toggleNode(Number(box.dataset.canvasNodeId));
     });
   });
+
+  renderReferenceOverlay();
 
   const entities = [
     ...state.annotation.groups.map((entity) => ({ entity, kind: "group" })),
@@ -500,10 +563,6 @@ function createGroup() {
     .filter((id) => entityKind(id));
   if (!memberIds.length) {
     toast("请先选择设计元素或子分组", true);
-    return;
-  }
-  if (memberIds.length === 1 && entityKind(memberIds[0]) === "element") {
-    toast("单个原子元素不能独立成组；请选择至少两个实体或一个子分组", true);
     return;
   }
   const containsAncestorPair = memberIds.some((left) => (
@@ -914,6 +973,164 @@ function deleteActive() {
   renderAll();
 }
 
+function sourceText(nodeIds) {
+  if (!nodeIds?.length) return "无源节点";
+  return nodeIds.map((id) => `#${id}`).join(", ");
+}
+
+function tokenSourceIds(token) {
+  return [...new Set((token?.members || []).flatMap((member) => member.source_node_ids || []))];
+}
+
+function differenceItems() {
+  const differences = state.adjudication?.record?.differences;
+  if (!differences) return [];
+  const items = [];
+  differences.elements.only_human.forEach((item) => items.push({
+    category: "elements", kind: "仅人工", title: item.human.name,
+    detail: `${item.human.type} · ${item.human.text || "无文本"}`,
+    nodeIds: item.source_node_ids,
+  }));
+  differences.elements.only_ai.forEach((item) => items.push({
+    category: "elements", kind: "仅 AI", title: item.ai.name,
+    detail: `${item.ai.type} · ${item.ai.text || "无文本"}`,
+    nodeIds: item.source_node_ids,
+  }));
+  differences.elements.matched_but_changed.forEach((item) => items.push({
+    category: "elements", kind: "元素属性", title: `${item.human.name} ↔ ${item.ai.name}`,
+    detail: `${item.human.type} / ${item.ai.type} · IoU ${Number(item.bbox_iou).toFixed(2)}`,
+    nodeIds: item.source_node_ids,
+  }));
+  differences.groups.forEach((item) => items.push({
+    category: "groups", kind: "语义分组",
+    title: `${item.human.map((group) => group.name).join("、") || "人工无对应"} ↔ ${item.ai.map((group) => group.name).join("、") || "AI 无对应"}`,
+    detail: `${item.human.map((group) => group.role).join("、") || "—"} / ${item.ai.map((group) => group.role).join("、") || "—"}`,
+    nodeIds: item.source_node_ids,
+  }));
+  differences.tree.forEach((item) => items.push({
+    category: "tree", kind: "父子层级", title: `子实体 ${item.child.kind}`,
+    detail: `人工父级 ${item.human_parents.length} · AI 父级 ${item.ai_parents.length}`,
+    nodeIds: item.child.source_node_ids || [],
+  }));
+  differences.layouts.forEach((item) => items.push({
+    category: "layouts", kind: "布局约束", title: `布局 ${sourceText(item.source_node_ids)}`,
+    detail: `${item.human.map((layout) => layout.mode).join("、") || "—"} / ${item.ai.map((layout) => layout.mode).join("、") || "—"}`,
+    nodeIds: item.source_node_ids,
+  }));
+  differences.tokens.only_human.forEach((item) => items.push({
+    category: "tokens", kind: "仅人工 Token", title: item.kind,
+    detail: `${item.members.length} 个成员`, nodeIds: tokenSourceIds(item),
+  }));
+  differences.tokens.only_ai.forEach((item) => items.push({
+    category: "tokens", kind: "仅 AI Token", title: item.kind,
+    detail: `${item.members.length} 个成员`, nodeIds: tokenSourceIds(item),
+  }));
+  return items;
+}
+
+function entitySourceIds(annotation, entity) {
+  if (!annotation || !entity) return [];
+  if (Array.isArray(entity.source_node_ids)) return entity.source_node_ids;
+  const elements = new Map(annotation.elements.map((item) => [item.id, item]));
+  return [...new Set((entity.source_element_ids || [])
+    .flatMap((id) => elements.get(id)?.source_node_ids || []))].sort((a, b) => a - b);
+}
+
+function goldEntityForSources(nodeIds) {
+  const signature = [...nodeIds].sort((a, b) => a - b).join(",");
+  return [...state.annotation.elements, ...state.annotation.groups].find((entity) => (
+    entitySourceIds(state.annotation, entity).join(",") === signature
+  ));
+}
+
+function focusDifference(item, index) {
+  state.activeDifferenceIndex = index;
+  state.selectedNodeIds = new Set(item.nodeIds || []);
+  const entity = goldEntityForSources(item.nodeIds || []);
+  state.activeEntityId = entity?.id || null;
+  state.activeTokenId = null;
+  renderDifferences();
+  renderNodes();
+  renderEntities();
+  renderCanvas();
+  renderInspector();
+  const boxes = (item.nodeIds || []).map(nodeById).filter(Boolean).map((node) => node.bbox);
+  if (boxes.length) {
+    const box = bboxUnion(boxes);
+    $("canvasViewport").scrollTo({
+      left: Math.max(0, box.x * state.scale - 40),
+      top: Math.max(0, box.y * state.scale - 40),
+      behavior: "smooth",
+    });
+  }
+}
+
+function renderDifferences() {
+  if (!isAdjudication() || !state.adjudication) return;
+  const metrics = state.adjudication.record.metrics || {};
+  $("metricSummary").innerHTML = [
+    ["元素 F1", metrics.leaf_f1],
+    ["分组 F1", metrics.group_bcubed_f1],
+    ["父子 F1", metrics.parent_f1],
+    ["布局 κ", metrics.layout_cohen_kappa],
+  ].map(([label, value]) => `<div class="metric-item"><span>${label}</span><strong>${Number(value || 0).toFixed(3)}</strong></div>`).join("");
+  const allItems = differenceItems();
+  const indexedItems = allItems.map((item, index) => ({ item, index }));
+  const visible = state.differenceFilter === "all"
+    ? indexedItems
+    : indexedItems.filter(({ item }) => item.category === state.differenceFilter);
+  $("differenceCount").textContent = String(visible.length);
+  $("differenceList").innerHTML = visible.map(({ item, index }) => `
+    <button type="button" class="difference-row ${state.activeDifferenceIndex === index ? "active" : ""}" data-difference-index="${index}">
+      <span class="difference-row-head">
+        <span class="difference-kind">${escapeHtml(item.kind)}</span>
+        <span class="difference-source">${escapeHtml(sourceText(item.nodeIds))}</span>
+      </span>
+      <span class="difference-title">${escapeHtml(item.title)}</span>
+      <span class="difference-detail">${escapeHtml(item.detail)}</span>
+    </button>`).join("") || '<div class="empty-state compact">该类型没有差异</div>';
+  $("differenceList").querySelectorAll("[data-difference-index]").forEach((row) => {
+    row.addEventListener("click", () => {
+      const index = Number(row.dataset.differenceIndex);
+      focusDifference(allItems[index], index);
+    });
+  });
+}
+
+function renderAdjudicationPanel() {
+  const panel = $("adjudicationPanel");
+  panel.classList.toggle("hidden", !isAdjudication());
+  if (!isAdjudication() || !state.adjudication) return;
+  const record = state.adjudication.record;
+  const review = record.review || {};
+  const locked = isAdjudicationLocked();
+  $("reviewStatus").textContent = locked ? "已审核" : "待审核";
+  $("reviewStatus").classList.toggle("complete", locked);
+  $("reviewerName").value = review.reviewed_by || $("reviewerName").value || "";
+  $("reviewNotes").value = review.notes || $("reviewNotes").value || "";
+  $("reviewerName").disabled = locked;
+  $("reviewNotes").disabled = locked;
+  $("reviewMeta").textContent = locked
+    ? `${review.reviewed_by} · ${review.reviewed_at}`
+    : `${differenceItems().length} 项差异待复核`;
+}
+
+function renderModeChrome() {
+  const adjudication = isAdjudication();
+  $("annotatorField").classList.toggle("hidden", adjudication);
+  $("differencesTabButton").classList.toggle("hidden", !adjudication);
+  $("referenceControls").classList.toggle("hidden", !adjudication);
+  $("adjudicationPanel").classList.toggle("hidden", !adjudication);
+  $("saveButton").textContent = adjudication ? "保存仲裁草稿" : "保存草稿";
+  $("submitButton").textContent = adjudication ? "完成人工审核" : "提交完成";
+  document.querySelector(".panel-tabs").classList.toggle("adjudication", adjudication);
+  document.querySelector(".workspace").classList.toggle(
+    "adjudication-locked", isAdjudicationLocked(),
+  );
+  $("saveButton").disabled = isAdjudicationLocked();
+  $("submitButton").disabled = isAdjudicationLocked();
+}
+
 function localValidation() {
   const errors = [];
   const sourceCounts = new Map();
@@ -927,9 +1144,6 @@ function localValidation() {
   state.annotation.groups.forEach((group) => {
     const children = directChildIds(group.id);
     if (!children.length) errors.push(`${group.id} 至少需要一个直接设计子实体`);
-    if (children.length === 1 && entityKind(children[0]) === "element") {
-      errors.push(`${group.id} 不能只包含一个直接原子元素`);
-    }
     if (!group.source_element_ids.length) {
       errors.push(`${group.id} 必须覆盖至少一个后代原子元素`);
     }
@@ -953,6 +1167,32 @@ async function saveAnnotation(submit = false, silent = false) {
   $("saveButton").disabled = true;
   $("submitButton").disabled = true;
   try {
+    if (isAdjudication()) {
+      const url = apiUrl(`/api/adjudication/${state.sampleId}`)
+        + (submit ? "?submit=1" : "");
+      const { data } = await requestJson(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          draft: state.annotation,
+          review: {
+            reviewed_by: $("reviewerName").value.trim(),
+            notes: $("reviewNotes").value.trim(),
+          },
+        }),
+      });
+      state.annotation = data.draft;
+      state.adjudication.record = data.record;
+      state.validationErrors = data.errors || [];
+      state.dirty = false;
+      state.assignment.adjudication.progress = data.progress;
+      state.assignment.adjudication.sample_status[state.sampleId] = data.record.status;
+      renderAll();
+      if (!silent) {
+        toast(data.reviewed ? "该页已完成人工审核" : "仲裁草稿已保存", submit && !data.reviewed);
+      }
+      return !submit || data.reviewed;
+    }
     const url = apiUrl(`/api/annotation/${state.annotator}/${state.sampleId}`)
       + (submit ? "?submit=1" : "");
     const { data } = await requestJson(url, {
@@ -980,8 +1220,8 @@ async function saveAnnotation(submit = false, silent = false) {
     toast(error.message, true);
     return false;
   } finally {
-    $("saveButton").disabled = false;
-    $("submitButton").disabled = false;
+    $("saveButton").disabled = isAdjudicationLocked();
+    $("submitButton").disabled = isAdjudicationLocked();
   }
 }
 
@@ -992,15 +1232,32 @@ async function loadSample(sampleId) {
   state.selectedEntityIds.clear();
   state.activeEntityId = null;
   state.activeTokenId = null;
+  state.activeDifferenceIndex = null;
   state.validationErrors = [];
+  state.adjudication = null;
+  state.references = { human: null, ai: null };
+  $("reviewerName").value = "";
+  $("reviewNotes").value = "";
+  $("showAllNodes").checked = !isAdjudication();
   $("sampleSelect").value = sampleId;
   try {
     const [graphResult, annotationResult] = await Promise.all([
       requestJson(apiUrl(`/api/sample/${sampleId}/graph`)),
-      requestJson(apiUrl(`/api/annotation/${state.annotator}/${sampleId}`)),
+      requestJson(apiUrl(isAdjudication()
+        ? `/api/adjudication/${sampleId}`
+        : `/api/annotation/${state.annotator}/${sampleId}`)),
     ]);
     state.graph = graphResult.data;
-    state.annotation = annotationResult.data;
+    if (isAdjudication()) {
+      state.adjudication = annotationResult.data;
+      state.annotation = annotationResult.data.draft;
+      state.references = {
+        human: annotationResult.data.human,
+        ai: annotationResult.data.ai,
+      };
+    } else {
+      state.annotation = annotationResult.data;
+    }
     state.dirty = false;
     $("pageScreenshot").src = apiUrl(`/api/sample/${sampleId}/screenshot`);
     $("pageScreenshot").alt = `样本 ${sampleId} 的网页截图`;
@@ -1014,6 +1271,16 @@ async function loadSample(sampleId) {
 async function changeAnnotator(annotator) {
   if (state.dirty) await saveAnnotation(false, true);
   state.annotator = annotator;
+  renderProgress();
+  await loadSample(state.sampleId);
+}
+
+async function changeMode(mode) {
+  if (state.dirty) await saveAnnotation(false, true);
+  state.mode = mode;
+  $("modeSelect").value = mode;
+  activateTab(mode === "adjudication" ? "differences" : "nodes");
+  renderModeChrome();
   renderProgress();
   await loadSample(state.sampleId);
 }
@@ -1045,15 +1312,24 @@ function renderAll() {
   renderCanvas();
   renderInspector();
   renderValidation();
+  renderDifferences();
+  renderAdjudicationPanel();
+  renderModeChrome();
+}
+
+function activateTab(name) {
+  document.querySelectorAll(".panel-tab").forEach((item) => {
+    item.classList.toggle("active", item.dataset.tab === name);
+  });
+  document.querySelectorAll(".tab-content").forEach((item) => {
+    item.classList.toggle("active", item.id === `${name}Tab`);
+  });
 }
 
 function bindStaticEvents() {
   document.querySelectorAll(".panel-tab").forEach((button) => {
     button.addEventListener("click", () => {
-      document.querySelectorAll(".panel-tab").forEach((item) => item.classList.remove("active"));
-      document.querySelectorAll(".tab-content").forEach((item) => item.classList.remove("active"));
-      button.classList.add("active");
-      $(`${button.dataset.tab}Tab`).classList.add("active");
+      activateTab(button.dataset.tab);
     });
   });
   $("nodeSearch").addEventListener("input", (event) => {
@@ -1067,11 +1343,19 @@ function bindStaticEvents() {
   $("deleteEntity").addEventListener("click", deleteActive);
   $("showAllNodes").addEventListener("change", renderCanvas);
   $("showLabels").addEventListener("change", renderCanvas);
+  $("showHumanReference").addEventListener("change", renderCanvas);
+  $("showAiReference").addEventListener("change", renderCanvas);
+  $("differenceFilter").addEventListener("change", (event) => {
+    state.differenceFilter = event.target.value;
+    state.activeDifferenceIndex = null;
+    renderDifferences();
+  });
   $("zoomOut").addEventListener("click", () => changeZoom(-0.1));
   $("zoomIn").addEventListener("click", () => changeZoom(0.1));
   $("fitCanvas").addEventListener("click", fitCanvas);
   $("saveButton").addEventListener("click", () => saveAnnotation(false));
   $("submitButton").addEventListener("click", () => saveAnnotation(true));
+  $("modeSelect").addEventListener("change", (event) => changeMode(event.target.value));
   $("annotatorSelect").addEventListener("change", (event) => changeAnnotator(event.target.value));
   $("sampleSelect").addEventListener("change", (event) => loadSample(event.target.value));
   $("previousSample").addEventListener("click", () => {
@@ -1102,6 +1386,7 @@ async function initialize() {
   try {
     const { data } = await requestJson("/api/assignment");
     state.assignment = data;
+    $("modeSelect").value = state.mode;
     $("annotatorSelect").innerHTML = data.annotators
       .map((annotator) => `<option value="${escapeHtml(annotator)}">${escapeHtml(annotator)}</option>`)
       .join("");
@@ -1109,6 +1394,8 @@ async function initialize() {
       .map((sample) => `<option value="${escapeHtml(sample.sample_id)}">${escapeHtml(sample.sample_id)}</option>`)
       .join("");
     state.sampleId = data.samples[0]?.sample_id;
+    activateTab(state.mode === "adjudication" ? "differences" : "nodes");
+    renderModeChrome();
     renderProgress();
     if (state.sampleId) await loadSample(state.sampleId);
   } catch (error) {
