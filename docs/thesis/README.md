@@ -16,7 +16,8 @@
 12. `12_ai_proxy_annotation_protocol.md`：AI 代理盲态、来源和披露协议；
 13. `13_ai_proxy_pilot_report.md`：AI 代理标注与人机跨来源初步结果；
 14. `14_human_ai_adjudication_sop.md`：逐项差异复核、审核凭证与金标准导出门槛。
-15. `15_adjudicated_gold_report.md`：10 页最终 Gold 的数量、描述性指标与研究限制。
+15. `15_adjudicated_gold_report.md`：10 页最终 Gold 的数量、描述性指标与研究限制；
+16. `16_formal_gold_v1_sampling_and_sop.md`：60 页正式 Gold 的筛选设计、解释边界与标注 SOP。
 
 ## 新主链路
 
@@ -71,6 +72,12 @@ python scripts/prepare_human_ai_adjudication.py
 
 # 仅在真实人员完成逐页仲裁后执行；待审核草稿会被拒绝
 python scripts/finalize_human_ai_adjudication.py
+
+# 创建 60 页正式 Gold 扩展包并开始新增 50 页人工标注
+python scripts/create_formal_gold_package.py
+python scripts/serve_intent_annotation.py \
+  --package_dir data/annotations/intent_gold_v1 \
+  --port 8766
 
 # 训练与测试
 python scripts/train_intent.py --config configs/intent/full.yaml

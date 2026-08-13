@@ -848,13 +848,13 @@ button:focus-visible {
   color: #0e647a;
 }
 
-.workspace.adjudication-locked .left-panel button:not(.panel-tab):not(.difference-focus),
-.workspace.adjudication-locked .left-panel input:not(#differenceFilter),
-.workspace.adjudication-locked .left-panel select:not(#differenceFilter),
-.workspace.adjudication-locked .right-panel form input,
-.workspace.adjudication-locked .right-panel form select,
-.workspace.adjudication-locked .right-panel form textarea,
-.workspace.adjudication-locked #deleteEntity {
+.workspace.editor-locked .left-panel button:not(.panel-tab):not(.difference-focus),
+.workspace.editor-locked .left-panel input:not(#differenceFilter),
+.workspace.editor-locked .left-panel select:not(#differenceFilter),
+.workspace.editor-locked .right-panel form input,
+.workspace.editor-locked .right-panel form select,
+.workspace.editor-locked .right-panel form textarea,
+.workspace.editor-locked #deleteEntity {
   pointer-events: none;
   opacity: 0.55;
 }

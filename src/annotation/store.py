@@ -41,7 +41,18 @@ class AnnotationStore:
         self.samples = {
             item["sample_id"]: item for item in self.assignment["samples"]
         }
-        self.annotators = ("annotator_a", "annotator_b")
+        configured_annotators = self.assignment.get(
+            "annotators", ["annotator_a", "annotator_b"]
+        )
+        if not configured_annotators:
+            raise ValueError("标注包至少需要配置一名标注者。")
+        self.annotators = tuple(str(value) for value in configured_annotators)
+        self.locked_sample_ids = {
+            str(value) for value in self.assignment.get("locked_sample_ids", [])
+        }
+        unknown_locked = self.locked_sample_ids - set(self.samples)
+        if unknown_locked:
+            raise ValueError(f"冻结列表包含未知样本：{sorted(unknown_locked)}")
 
     def _sample(self, sample_id: str) -> dict[str, Any]:
         if sample_id not in self.samples:
@@ -201,6 +212,9 @@ class AnnotationStore:
         payload: dict[str, Any],
         submit: bool = False,
     ) -> dict[str, Any]:
+        self.annotation_path(annotator, sample_id)
+        if sample_id in self.locked_sample_ids:
+            raise ValueError("该样本已冻结为金标准，不能继续修改")
         graph = self.graph(sample_id)
         ir = DesignIntentIR.from_dict(payload)
         if (

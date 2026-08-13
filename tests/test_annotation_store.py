@@ -179,6 +179,51 @@ def test_assignment_progress_is_isolated_by_annotator(annotation_store):
     assert payload["sample_status"]["annotator_b"]["sample-1"] == "draft"
 
 
+def test_assignment_can_configure_one_annotator_and_lock_sample(tmp_path):
+    graph_path = tmp_path / "data/page_graph.json"
+    graph_path.parent.mkdir(parents=True)
+    PageGraph(
+        schema_version="1.0",
+        sample_id="sample-1",
+        canvas=Canvas(100, 100),
+        nodes=[_node(0, "标题", 8)],
+    ).dump(graph_path)
+    screenshot_path = tmp_path / "data/screenshot.png"
+    screenshot_path.write_bytes(b"png")
+
+    package = tmp_path / "annotations"
+    annotation_dir = package / "annotator_a"
+    annotation_dir.mkdir(parents=True)
+    assignment = {
+        "schema_version": "1.0",
+        "annotators": ["annotator_a"],
+        "locked_sample_ids": ["sample-1"],
+        "samples": [{
+            "sample_id": "sample-1",
+            "size_bin": "small",
+            "page_graph": "data/page_graph.json",
+            "screenshot": "data/screenshot.png",
+        }],
+    }
+    (package / "assignment.json").write_text(
+        json.dumps(assignment), encoding="utf-8"
+    )
+    (annotation_dir / "sample-1.json").write_text(
+        json.dumps(_empty_annotation("sample-1", "annotator_a")),
+        encoding="utf-8",
+    )
+
+    store = AnnotationStore(tmp_path, package)
+
+    assert store.assignment_payload()["annotators"] == ["annotator_a"]
+    with pytest.raises(ValueError, match="已冻结为金标准"):
+        store.save(
+            "annotator_a",
+            "sample-1",
+            _empty_annotation("sample-1", "annotator_a"),
+        )
+
+
 def test_draft_saves_even_when_incomplete(annotation_store):
     result = annotation_store.save(
         "annotator_a",

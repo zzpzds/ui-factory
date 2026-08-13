@@ -1,0 +1,7939 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "0074",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "parent_id": null,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "outer-wrapper"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 800.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 0,
+      "sibling_index": 0,
+      "child_count": 3
+    },
+    {
+      "id": 1,
+      "parent_id": 0,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "header-wrap"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 56.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 2,
+      "parent_id": 1,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "header-logo"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 0.0,
+        "width": 99.078125,
+        "height": 56.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 20,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 3,
+      "parent_id": 2,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "main-logo section",
+        "id": "main-logo"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 0.0,
+        "width": 99.078125,
+        "height": 56.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 8,
+        "paddingRight": 0,
+        "paddingBottom": 8,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 4,
+      "parent_id": 3,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget Header",
+        "id": "Header1"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 8.0,
+        "width": 99.078125,
+        "height": 42.984375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 5,
+      "parent_id": 4,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "header-widget"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 8.0,
+        "width": 99.078125,
+        "height": 42.984375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 6,
+      "parent_id": 5,
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "header-brand"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 34.984375,
+        "width": 99.046875,
+        "height": 16.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 7,
+      "parent_id": 6,
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "src": "https://blogger.googleusercontent.com/img/a/AVvXsEhMYUtQhERAMw0riOFK9pdrTDztRcEffM5F_dud1ThM1jBPxOyO5Sho2KlOoAiRJ0GXo8aJsUHtxyotvGhPBYeP-MHAGyVMYnZgaDdPIo0q1O1CmcpYBkQ2LwcBdXIM3PrFBLvzImjvnGSsppOk90fcCGRiYOfS53RYNkrAeJQB2Z2D2qJ4u-6V_s0y=s109"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 8.0,
+        "width": 99.046875,
+        "height": 39.984375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "clip",
+        "overflowY": "clip",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 8,
+      "parent_id": 1,
+      "tag": "span",
+      "text": "",
+      "attributes": {
+        "class": "show-search"
+      },
+      "bbox": {
+        "x": 1100.0,
+        "y": 8.0,
+        "width": 40.0,
+        "height": 40.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "right",
+        "display": "block",
+        "position": "absolute",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 40,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 9,
+      "parent_id": 0,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "row",
+        "id": "content-wrapper"
+      },
+      "bbox": {
+        "x": 130.0,
+        "y": 86.0,
+        "width": 1020.0,
+        "height": 397.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 10,
+        "paddingRight": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "marginTop": 30,
+        "marginRight": 130,
+        "marginBottom": 30,
+        "marginLeft": 130,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 10,
+      "parent_id": 9,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "main-wrapper"
+      },
+      "bbox": {
+        "x": 125.0,
+        "y": 96.0,
+        "width": 1030.0,
+        "height": 377.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 11,
+      "parent_id": 10,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "main section",
+        "id": "main"
+      },
+      "bbox": {
+        "x": 125.0,
+        "y": 96.0,
+        "width": 1030.0,
+        "height": 367.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 12,
+      "parent_id": 11,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget Blog",
+        "id": "Blog1"
+      },
+      "bbox": {
+        "x": 125.0,
+        "y": 96.0,
+        "width": 1030.0,
+        "height": 367.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 3
+    },
+    {
+      "id": 13,
+      "parent_id": 12,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "queryMessage"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 96.0,
+        "width": 1000.0,
+        "height": 31.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 8,
+        "paddingRight": 10,
+        "paddingBottom": 8,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 15,
+        "marginBottom": 30,
+        "marginLeft": 15,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 14,
+      "parent_id": 13,
+      "tag": "span",
+      "text": "etiketine sahip yayınlar gösteriliyor",
+      "attributes": {
+        "class": "query-info query-success"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 104.0,
+        "width": 430.34375,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 5,
+        "marginBottom": 0,
+        "marginLeft": 5,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 15,
+      "parent_id": 14,
+      "tag": "span",
+      "text": "ankara gelin arabası süsleme",
+      "attributes": {
+        "class": "search-label"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 104.0,
+        "width": 228.015625,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 700,
+        "textAlign": "start",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 16,
+      "parent_id": 13,
+      "tag": "a",
+      "text": "Tümünü göster",
+      "attributes": {
+        "class": "show-more"
+      },
+      "bbox": {
+        "x": 1042.5625,
+        "y": 104.0,
+        "width": 87.4375,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.9176470588235294,
+          0.2980392156862745,
+          0.5372549019607843,
+          1
+        ],
+        "borderColor": [
+          0.9176470588235294,
+          0.2980392156862745,
+          0.5372549019607843,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 17,
+      "parent_id": 12,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "blog-posts hfeed index-post-wrap"
+      },
+      "bbox": {
+        "x": 125.0,
+        "y": 157.0,
+        "width": 1030.0,
+        "height": 250.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "flex",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 18,
+      "parent_id": 17,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "blog-post hentry index-post"
+      },
+      "bbox": {
+        "x": 125.0,
+        "y": 157.0,
+        "width": 343.328125,
+        "height": 220.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "column",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 30,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 19,
+      "parent_id": 18,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-content"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 157.0,
+        "width": 313.328125,
+        "height": 220.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 10,
+        "paddingRight": 10,
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 20,
+      "parent_id": 19,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-image-wrap"
+      },
+      "bbox": {
+        "x": 150.0,
+        "y": 167.0,
+        "width": 293.328125,
+        "height": 200.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 21,
+      "parent_id": 20,
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "post-image-link"
+      },
+      "bbox": {
+        "x": 150.0,
+        "y": 167.0,
+        "width": 293.328125,
+        "height": 200.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.9764705882352941,
+          0.9764705882352941,
+          0.9764705882352941,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 22,
+      "parent_id": 21,
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "post-thumb",
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgMGWylxWE7PNflOCdIdUpyld3Pcq6LzciDy2HkhBLJUHdnUYnq9uOlpnAQZuIv8DDB5_6xydqhm463yh7dONvn0SBZFQilCr73qM9J2axw25i29123PHHLHTFBe83OVns5w1UVQFjIL-OqIn4rnokEZz4VE_kNz91TLeQq6cEqkuT9lrybR_9otII/w480/audi-gelin-arabasi-susleme-.jpeg"
+      },
+      "bbox": {
+        "x": 150.0,
+        "y": 167.0,
+        "width": 293.328125,
+        "height": 200.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "clip",
+        "overflowY": "clip",
+        "objectFit": "cover",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 23,
+      "parent_id": 21,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-info"
+      },
+      "bbox": {
+        "x": 150.0,
+        "y": 167.0,
+        "width": 293.328125,
+        "height": 200.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.95
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "absolute",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 20,
+        "paddingRight": 20,
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 24,
+      "parent_id": 23,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-info-inner"
+      },
+      "bbox": {
+        "x": 170.0,
+        "y": 187.0,
+        "width": 253.328125,
+        "height": 160.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 11,
+      "sibling_index": 0,
+      "child_count": 3
+    },
+    {
+      "id": 25,
+      "parent_id": 24,
+      "tag": "h2",
+      "text": "Siyah Audi Q3 Gelin Arabası Süsleme",
+      "attributes": {
+        "class": "post-title"
+      },
+      "bbox": {
+        "x": 170.0,
+        "y": 187.0,
+        "width": 253.328125,
+        "height": 22.40625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 10,
+        "marginLeft": 0,
+        "lineHeight": 22.4,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 12,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 26,
+      "parent_id": 24,
+      "tag": "span",
+      "text": "Kasım 04, 2022",
+      "attributes": {
+        "class": "post-date published"
+      },
+      "bbox": {
+        "x": 170.0,
+        "y": 219.40625,
+        "width": 253.328125,
+        "height": 13.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "borderColor": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 11,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 1,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 7,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 12,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 27,
+      "parent_id": 24,
+      "tag": "p",
+      "text": "Siyah gelin arabası süsleme Bu gelin arabası süslemesinde siyah audi q3 modelini süsledik.T…",
+      "attributes": {
+        "class": "post-snippet"
+      },
+      "bbox": {
+        "x": 170.0,
+        "y": 242.40625,
+        "width": 253.328125,
+        "height": 57.609375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 10,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19.2,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 12,
+      "sibling_index": 2,
+      "child_count": 0
+    },
+    {
+      "id": 28,
+      "parent_id": 20,
+      "tag": "a",
+      "text": "Devamını oku »",
+      "attributes": {
+        "class": "read-more"
+      },
+      "bbox": {
+        "x": 150.0,
+        "y": 382.0,
+        "width": 119.65625,
+        "height": 28.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 28,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 11,
+        "fontWeight": 700,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 15,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 28,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 29,
+      "parent_id": 12,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "blog-pager",
+        "id": "blog-pager"
+      },
+      "bbox": {
+        "x": 125.0,
+        "y": 427.0,
+        "width": 1030.0,
+        "height": 36.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 20,
+        "marginRight": 0,
+        "marginBottom": 10,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 2,
+      "child_count": 1
+    },
+    {
+      "id": 30,
+      "parent_id": 29,
+      "tag": "a",
+      "text": "Diğer yayınları yükle",
+      "attributes": {
+        "class": "blog-pager-older-link",
+        "id": "Blog1_blog-pager-older-link"
+      },
+      "bbox": {
+        "x": 531.90625,
+        "y": 427.0,
+        "width": 216.1875,
+        "height": 36.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.9176470588235294,
+          0.2980392156862745,
+          0.5372549019607843,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 600,
+        "textAlign": "center",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 40,
+        "paddingBottom": 0,
+        "paddingLeft": 40,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 36,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 31,
+      "parent_id": 0,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "footer-wrapper"
+      },
+      "bbox": {
+        "x": 0.0,
+        "y": 513.0,
+        "width": 1280.0,
+        "height": 287.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 2,
+      "child_count": 1
+    },
+    {
+      "id": 32,
+      "parent_id": 31,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "container row"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 513.0,
+        "width": 1000.0,
+        "height": 287.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 140,
+        "marginBottom": 0,
+        "marginLeft": 140,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 33,
+      "parent_id": 32,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "footer-sec section",
+        "id": "footer-sec"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 513.0,
+        "width": 1000.0,
+        "height": 287.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 30,
+        "paddingRight": 0,
+        "paddingBottom": 30,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 34,
+      "parent_id": 33,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget Label",
+        "id": "Label1"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 543.0,
+        "width": 666.65625,
+        "height": 257.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 35,
+      "parent_id": 34,
+      "tag": "h3",
+      "text": "Kategori",
+      "attributes": {
+        "class": "title"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 543.0,
+        "width": 666.65625,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 15,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 36,
+      "parent_id": 34,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget-content"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 573.0,
+        "width": 666.65625,
+        "height": 227.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 37,
+      "parent_id": 36,
+      "tag": "ul",
+      "text": "",
+      "attributes": {
+        "class": "label-list"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 573.0,
+        "width": 666.65625,
+        "height": 227.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 29
+    },
+    {
+      "id": 38,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 140.0,
+        "y": 573.0,
+        "width": 155.421875,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 39,
+      "parent_id": 38,
+      "tag": "a",
+      "text": "ankara araba süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 573.0,
+        "width": 145.421875,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 40,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 295.421875,
+        "y": 573.0,
+        "width": 186.75,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 41,
+      "parent_id": 40,
+      "tag": "a",
+      "text": "ankara gelin araba süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 295.421875,
+        "y": 573.0,
+        "width": 176.75,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 42,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 482.171875,
+        "y": 573.0,
+        "width": 196.765625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 2,
+      "child_count": 1
+    },
+    {
+      "id": 43,
+      "parent_id": 42,
+      "tag": "a",
+      "text": "ankara gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 482.171875,
+        "y": 573.0,
+        "width": 186.765625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 44,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 140.0,
+        "y": 603.0,
+        "width": 242.78125,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 3,
+      "child_count": 1
+    },
+    {
+      "id": 45,
+      "parent_id": 44,
+      "tag": "a",
+      "text": "ankara gelin arabası süsleme fiyatları",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 603.0,
+        "width": 232.78125,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 46,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 382.78125,
+        "y": 603.0,
+        "width": 113.390625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 4,
+      "child_count": 1
+    },
+    {
+      "id": 47,
+      "parent_id": 46,
+      "tag": "a",
+      "text": "araba süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 382.78125,
+        "y": 603.0,
+        "width": 103.390625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 48,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 496.171875,
+        "y": 603.0,
+        "width": 170.078125,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 5,
+      "child_count": 1
+    },
+    {
+      "id": 49,
+      "parent_id": 48,
+      "tag": "a",
+      "text": "araba süsleme modelleri",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 496.171875,
+        "y": 603.0,
+        "width": 160.078125,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 50,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 666.25,
+        "y": 603.0,
+        "width": 93.375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 6,
+      "child_count": 1
+    },
+    {
+      "id": 51,
+      "parent_id": 50,
+      "tag": "a",
+      "text": "araba süsü",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 666.25,
+        "y": 603.0,
+        "width": 83.375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 52,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 140.0,
+        "y": 633.0,
+        "width": 106.0625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 7,
+      "child_count": 1
+    },
+    {
+      "id": 53,
+      "parent_id": 52,
+      "tag": "a",
+      "text": "araç süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 633.0,
+        "width": 96.0625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 54,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 246.0625,
+        "y": 633.0,
+        "width": 182.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 8,
+      "child_count": 1
+    },
+    {
+      "id": 55,
+      "parent_id": 54,
+      "tag": "a",
+      "text": "audi gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 246.0625,
+        "y": 633.0,
+        "width": 172.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 56,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 428.796875,
+        "y": 633.0,
+        "width": 191.421875,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 9,
+      "child_count": 1
+    },
+    {
+      "id": 57,
+      "parent_id": 56,
+      "tag": "a",
+      "text": "beyaz gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 428.796875,
+        "y": 633.0,
+        "width": 181.421875,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 58,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 620.21875,
+        "y": 633.0,
+        "width": 185.40625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 10,
+      "child_count": 1
+    },
+    {
+      "id": 59,
+      "parent_id": 58,
+      "tag": "a",
+      "text": "bmw gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 620.21875,
+        "y": 633.0,
+        "width": 175.40625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 60,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 140.0,
+        "y": 663.0,
+        "width": 204.765625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 11,
+      "child_count": 1
+    },
+    {
+      "id": 61,
+      "parent_id": 60,
+      "tag": "a",
+      "text": "chrysler gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 663.0,
+        "width": 194.765625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 62,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 344.765625,
+        "y": 663.0,
+        "width": 112.015625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 12,
+      "child_count": 1
+    },
+    {
+      "id": 63,
+      "parent_id": 62,
+      "tag": "a",
+      "text": "düğün arabası",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 344.765625,
+        "y": 663.0,
+        "width": 102.015625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 64,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 456.78125,
+        "y": 663.0,
+        "width": 163.390625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 13,
+      "child_count": 1
+    },
+    {
+      "id": 65,
+      "parent_id": 64,
+      "tag": "a",
+      "text": "düğün arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 456.78125,
+        "y": 663.0,
+        "width": 153.390625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 66,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 620.171875,
+        "y": 663.0,
+        "width": 176.0625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 14,
+      "child_count": 1
+    },
+    {
+      "id": 67,
+      "parent_id": 66,
+      "tag": "a",
+      "text": "fiat gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 620.171875,
+        "y": 663.0,
+        "width": 166.0625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 68,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 140.0,
+        "y": 693.0,
+        "width": 144.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 15,
+      "child_count": 1
+    },
+    {
+      "id": 69,
+      "parent_id": 68,
+      "tag": "a",
+      "text": "gelin araba süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 693.0,
+        "width": 134.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 70,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 284.734375,
+        "y": 693.0,
+        "width": 172.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 16,
+      "child_count": 1
+    },
+    {
+      "id": 71,
+      "parent_id": 70,
+      "tag": "a",
+      "text": "gelin araba süsleme fiyat",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 284.734375,
+        "y": 693.0,
+        "width": 162.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 72,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 457.46875,
+        "y": 693.0,
+        "width": 103.375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 17,
+      "child_count": 1
+    },
+    {
+      "id": 73,
+      "parent_id": 72,
+      "tag": "a",
+      "text": "gelin arabası",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 457.46875,
+        "y": 693.0,
+        "width": 93.375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 74,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 560.84375,
+        "y": 693.0,
+        "width": 160.0625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 18,
+      "child_count": 1
+    },
+    {
+      "id": 75,
+      "parent_id": 74,
+      "tag": "a",
+      "text": "gelin arabası modelleri",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 560.84375,
+        "y": 693.0,
+        "width": 150.0625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 76,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 140.0,
+        "y": 723.0,
+        "width": 154.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 19,
+      "child_count": 1
+    },
+    {
+      "id": 77,
+      "parent_id": 76,
+      "tag": "a",
+      "text": "gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 723.0,
+        "width": 144.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 78,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 294.734375,
+        "y": 723.0,
+        "width": 200.75,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 20,
+      "child_count": 1
+    },
+    {
+      "id": 79,
+      "parent_id": 78,
+      "tag": "a",
+      "text": "gelin arabası süsleme fiyatları",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 294.734375,
+        "y": 723.0,
+        "width": 190.75,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 80,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 495.484375,
+        "y": 723.0,
+        "width": 196.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 21,
+      "child_count": 1
+    },
+    {
+      "id": 81,
+      "parent_id": 80,
+      "tag": "a",
+      "text": "gelin arabası süsleme modeli",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 495.484375,
+        "y": 723.0,
+        "width": 186.734375,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 82,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 140.0,
+        "y": 753.0,
+        "width": 164.75,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 22,
+      "child_count": 1
+    },
+    {
+      "id": 83,
+      "parent_id": 82,
+      "tag": "a",
+      "text": "gelin arabası süslemesi",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 753.0,
+        "width": 154.75,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 84,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 304.75,
+        "y": 753.0,
+        "width": 134.71875,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 23,
+      "child_count": 1
+    },
+    {
+      "id": 85,
+      "parent_id": 84,
+      "tag": "a",
+      "text": "gelin arabası süsü",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 304.75,
+        "y": 753.0,
+        "width": 124.71875,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 86,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 439.46875,
+        "y": 753.0,
+        "width": 147.40625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 24,
+      "child_count": 1
+    },
+    {
+      "id": 87,
+      "parent_id": 86,
+      "tag": "a",
+      "text": "gelin arabası yazıları",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 439.46875,
+        "y": 753.0,
+        "width": 137.40625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 88,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 586.875,
+        "y": 753.0,
+        "width": 180.0625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 25,
+      "child_count": 1
+    },
+    {
+      "id": 89,
+      "parent_id": 88,
+      "tag": "a",
+      "text": "golf gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 586.875,
+        "y": 753.0,
+        "width": 170.0625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 90,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 140.0,
+        "y": 783.0,
+        "width": 173.40625,
+        "height": 17.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 26,
+      "child_count": 1
+    },
+    {
+      "id": 91,
+      "parent_id": 90,
+      "tag": "a",
+      "text": "gri gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 783.0,
+        "width": 163.40625,
+        "height": 17.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 92,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 313.40625,
+        "y": 783.0,
+        "width": 142.703125,
+        "height": 17.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 27,
+      "child_count": 1
+    },
+    {
+      "id": 93,
+      "parent_id": 92,
+      "tag": "a",
+      "text": "honda gelin arabası",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 313.40625,
+        "y": 783.0,
+        "width": 132.703125,
+        "height": 17.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 94,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 456.109375,
+        "y": 783.0,
+        "width": 182.078125,
+        "height": 17.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 28,
+      "child_count": 1
+    },
+    {
+      "id": 95,
+      "parent_id": 94,
+      "tag": "a",
+      "text": "jeep gelin arabası süsleme",
+      "attributes": {
+        "class": "label-name"
+      },
+      "bbox": {
+        "x": 456.109375,
+        "y": 783.0,
+        "width": 172.078125,
+        "height": 17.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 10,
+        "paddingBottom": 0,
+        "paddingLeft": 10,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 96,
+      "parent_id": 33,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget LinkList",
+        "id": "LinkList75"
+      },
+      "bbox": {
+        "x": 860.0,
+        "y": 543.0,
+        "width": 280.0,
+        "height": 63.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 97,
+      "parent_id": 96,
+      "tag": "h3",
+      "text": "Follow Us",
+      "attributes": {
+        "class": "title"
+      },
+      "bbox": {
+        "x": 860.0,
+        "y": 543.0,
+        "width": 280.0,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 600,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 15,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 98,
+      "parent_id": 96,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget-content"
+      },
+      "bbox": {
+        "x": 860.0,
+        "y": 573.0,
+        "width": 280.0,
+        "height": 33.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 99,
+      "parent_id": 98,
+      "tag": "ul",
+      "text": "",
+      "attributes": {
+        "class": "social-footer social social-color"
+      },
+      "bbox": {
+        "x": 860.0,
+        "y": 573.0,
+        "width": 280.0,
+        "height": 33.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 7
+    },
+    {
+      "id": 100,
+      "parent_id": 99,
+      "tag": "li",
+      "text": "",
+      "attributes": {
+        "class": "facebook-f"
+      },
+      "bbox": {
+        "x": 860.0,
+        "y": 573.0,
+        "width": 40.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 101,
+      "parent_id": 100,
+      "tag": "a",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 860.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.23137254901960785,
+          0.34901960784313724,
+          0.6,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 102,
+      "parent_id": 99,
+      "tag": "li",
+      "text": "",
+      "attributes": {
+        "class": "twitter"
+      },
+      "bbox": {
+        "x": 900.0,
+        "y": 573.0,
+        "width": 40.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 103,
+      "parent_id": 102,
+      "tag": "a",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 900.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0.6745098039215687,
+          0.9333333333333333,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 104,
+      "parent_id": 99,
+      "tag": "li",
+      "text": "",
+      "attributes": {
+        "class": "pinterest-p"
+      },
+      "bbox": {
+        "x": 940.0,
+        "y": 573.0,
+        "width": 40.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 2,
+      "child_count": 1
+    },
+    {
+      "id": 105,
+      "parent_id": 104,
+      "tag": "a",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 940.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.792156862745098,
+          0.12941176470588237,
+          0.15294117647058825,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 106,
+      "parent_id": 99,
+      "tag": "li",
+      "text": "",
+      "attributes": {
+        "class": "instagram"
+      },
+      "bbox": {
+        "x": 980.0,
+        "y": 573.0,
+        "width": 40.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 3,
+      "child_count": 1
+    },
+    {
+      "id": 107,
+      "parent_id": 106,
+      "tag": "a",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 980.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 108,
+      "parent_id": 99,
+      "tag": "li",
+      "text": "",
+      "attributes": {
+        "class": "youtube"
+      },
+      "bbox": {
+        "x": 1020.0,
+        "y": 573.0,
+        "width": 40.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 4,
+      "child_count": 1
+    },
+    {
+      "id": 109,
+      "parent_id": 108,
+      "tag": "a",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 1020.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.8588235294117647,
+          0.2901960784313726,
+          0.2235294117647059,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 110,
+      "parent_id": 99,
+      "tag": "li",
+      "text": "",
+      "attributes": {
+        "class": "tumblr"
+      },
+      "bbox": {
+        "x": 1060.0,
+        "y": 573.0,
+        "width": 40.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 5,
+      "child_count": 1
+    },
+    {
+      "id": 111,
+      "parent_id": 110,
+      "tag": "a",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 1060.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.21176470588235294,
+          0.3137254901960784,
+          0.4117647058823529,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 112,
+      "parent_id": 99,
+      "tag": "li",
+      "text": "",
+      "attributes": {
+        "class": "linkedin"
+      },
+      "bbox": {
+        "x": 1100.0,
+        "y": 573.0,
+        "width": 40.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 6,
+      "child_count": 1
+    },
+    {
+      "id": 113,
+      "parent_id": 112,
+      "tag": "a",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 1100.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0.4666666666666667,
+          0.7098039215686275,
+          1
+        ],
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "borderRadius": 3,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 10,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 30,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 114,
+      "parent_id": null,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "ww-right ww-normal ww-yes",
+        "id": "whatsapp-widget"
+      },
+      "bbox": {
+        "x": 979.765625,
+        "y": 720.0,
+        "width": 280.234375,
+        "height": 60.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "flex",
+        "position": "fixed",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "gap": 20,
+        "rowGap": 20,
+        "columnGap": 20,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 0,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 115,
+      "parent_id": 114,
+      "tag": "a",
+      "text": "Nasıl yardımcı olabiliriz?",
+      "attributes": {
+        "class": "ww-text"
+      },
+      "bbox": {
+        "x": 979.765625,
+        "y": 720.0,
+        "width": 210.234375,
+        "height": 45.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.8862745098039215,
+          0.8862745098039215,
+          0.8862745098039215,
+          1
+        ],
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 12,
+        "paddingRight": 12,
+        "paddingBottom": 12,
+        "paddingLeft": 12,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 15,
+        "marginLeft": 0,
+        "lineHeight": 19,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 116,
+      "parent_id": 115,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "ww-arrow"
+      },
+      "bbox": {
+        "x": 988.4163818359375,
+        "y": 727.6507568359375,
+        "width": 29.698486328125,
+        "height": 29.698486328125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "absolute",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 19,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 117,
+      "parent_id": 114,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "ww-icon"
+      },
+      "bbox": {
+        "x": 1210.0,
+        "y": 725.0,
+        "width": 50.0,
+        "height": 50.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "flex",
+        "position": "static",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "gap": 5,
+        "rowGap": 5,
+        "columnGap": 5,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 118,
+      "parent_id": 117,
+      "tag": "div",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 1210.0,
+        "y": 725.0,
+        "width": 50.0,
+        "height": 50.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderColor": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "flex",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 119,
+      "parent_id": 118,
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "ww-icon-link"
+      },
+      "bbox": {
+        "x": 1210.0,
+        "y": 725.0,
+        "width": 50.0,
+        "height": 50.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.30196078431372547,
+          0.7607843137254902,
+          0.2784313725490196,
+          1
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 50,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 5,
+        "paddingRight": 5,
+        "paddingBottom": 5,
+        "paddingLeft": 5,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 120,
+      "parent_id": 119,
+      "tag": "svg",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 1215.0,
+        "y": 730.0,
+        "width": 40.0,
+        "height": 40.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderColor": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "borderRadius": 50,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 0
+    }
+  ],
+  "metadata": {
+    "source_format": "playwright_page_graph_v1",
+    "coordinate_space": "viewport_pixels",
+    "target_vit_size": 224,
+    "viewport_filter": "intersects_and_clipped_v2",
+    "resource_policy": "block_media_and_font_v1"
+  }
+}

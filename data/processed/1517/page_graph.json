@@ -1,0 +1,5400 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "1517",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "parent_id": null,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "outer-wrapper"
+      },
+      "bbox": {
+        "x": 120.0,
+        "y": 0.0,
+        "width": 1040.0,
+        "height": 800.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 120,
+        "marginBottom": 0,
+        "marginLeft": 120,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 0,
+      "sibling_index": 0,
+      "child_count": 3
+    },
+    {
+      "id": 1,
+      "parent_id": 0,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "top-bar"
+      },
+      "bbox": {
+        "x": 120.0,
+        "y": 0.0,
+        "width": 1040.0,
+        "height": 32.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.2901960784313726,
+          0.3843137254901961,
+          0.5764705882352941,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 2,
+      "parent_id": 0,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "header-wrap"
+      },
+      "bbox": {
+        "x": 120.0,
+        "y": 32.0,
+        "width": 1040.0,
+        "height": 186.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 3,
+      "parent_id": 2,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "header-header"
+      },
+      "bbox": {
+        "x": 120.0,
+        "y": 32.0,
+        "width": 1040.0,
+        "height": 138.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 4,
+      "parent_id": 3,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "container row"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 32.0,
+        "width": 970.0,
+        "height": 105.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 35,
+        "marginBottom": 0,
+        "marginLeft": 35,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 5,
+      "parent_id": 4,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "header-logo section",
+        "id": "header-logo"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 32.0,
+        "width": 199.0,
+        "height": 105.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline-block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 35,
+        "paddingRight": 0,
+        "paddingBottom": 35,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 6,
+      "parent_id": 5,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget Header",
+        "id": "Header1"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 67.0,
+        "width": 199.0,
+        "height": 35.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 7,
+      "parent_id": 6,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "header-widget"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 67.0,
+        "width": 199.0,
+        "height": 35.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 8,
+      "parent_id": 7,
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "header-image-wrapper"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 67.0,
+        "width": 199.0,
+        "height": 35.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 9,
+      "parent_id": 8,
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "src": "https://blogger.googleusercontent.com/img/a/AVvXsEhpiYDkDSufTWNwYlduvK_PAfjA57MqS2nRA4fGi_1nagCkea-BC2fphxjlYPHtrCiuYGru9X4-J6pL2E24CiEw-KamyaDlBA1liumTjmd_s0gV3IyoK-xN5P0iQjoJzFS4AUuJDVse6vBbuNZIFoTyE1Ji-vwk0HjQy2gAx4C_BzltvNdVeXrCUEkdWlOR=s199"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 67.0,
+        "width": 199.0,
+        "height": 31.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "clip",
+        "overflowY": "clip",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 10,
+      "parent_id": 2,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "header-menu"
+      },
+      "bbox": {
+        "x": 120.0,
+        "y": 170.0,
+        "width": 1040.0,
+        "height": 48.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 11,
+      "parent_id": 10,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "container row"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 170.0,
+        "width": 970.0,
+        "height": 42.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 35,
+        "marginBottom": 0,
+        "marginLeft": 35,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 12,
+      "parent_id": 11,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "main-menu section",
+        "id": "main-menu"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 171.0,
+        "width": 970.0,
+        "height": 40.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 13,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 13,
+      "parent_id": 11,
+      "tag": "span",
+      "text": "",
+      "attributes": {
+        "class": "show-search"
+      },
+      "bbox": {
+        "x": 1077.0,
+        "y": 171.0,
+        "width": 48.0,
+        "height": 48.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.2980392156862745,
+          0.2980392156862745,
+          0.2980392156862745,
+          1
+        ],
+        "borderColor": [
+          0.2980392156862745,
+          0.2980392156862745,
+          0.2980392156862745,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 15,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "display": "block",
+        "position": "absolute",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 40,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 14,
+      "parent_id": 0,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "row",
+        "id": "content-wrapper"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 970.0,
+        "height": 532.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 30,
+        "marginRight": 35,
+        "marginBottom": 0,
+        "marginLeft": 35,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 1,
+      "sibling_index": 2,
+      "child_count": 2
+    },
+    {
+      "id": 15,
+      "parent_id": 14,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "main-wrapper"
+      },
+      "bbox": {
+        "x": 140.0,
+        "y": 268.0,
+        "width": 650.0,
+        "height": 532.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 16,
+      "parent_id": 15,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "main section",
+        "id": "main"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 620.0,
+        "height": 532.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 17,
+      "parent_id": 16,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget Blog",
+        "id": "Blog1"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 620.0,
+        "height": 532.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 18,
+      "parent_id": 17,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "blog-posts hfeed container item-post-wrap"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 620.0,
+        "height": 532.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 19,
+      "parent_id": 18,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "blog-post hentry item-post"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 620.0,
+        "height": 532.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 4
+    },
+    {
+      "id": 20,
+      "parent_id": 19,
+      "tag": "nav",
+      "text": "",
+      "attributes": {
+        "id": "breadcrumb"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 620.0,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 10,
+        "marginLeft": 0,
+        "lineHeight": 15,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 3
+    },
+    {
+      "id": 21,
+      "parent_id": 20,
+      "tag": "a",
+      "text": "Home",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.9803921568627451,
+          0.2980392156862745,
+          0.16470588235294117,
+          1
+        ],
+        "borderColor": [
+          0.9803921568627451,
+          0.2980392156862745,
+          0.16470588235294117,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 15,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 22,
+      "parent_id": 20,
+      "tag": "a",
+      "text": "Incident",
+      "attributes": {
+        "class": "b-label"
+      },
+      "bbox": {
+        "x": 185.0,
+        "y": 268.0,
+        "width": 47.234375,
+        "height": 15.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0.9803921568627451,
+          0.2980392156862745,
+          0.16470588235294117,
+          1
+        ],
+        "borderColor": [
+          0.9803921568627451,
+          0.2980392156862745,
+          0.16470588235294117,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline-block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 15,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 23,
+      "parent_id": 20,
+      "tag": "span",
+      "text": "\"Severe Turbulence\" Sends 11 from Delta Flight to Hospital",
+      "attributes": {
+        "class": "current"
+      },
+      "bbox": {
+        "x": 232.234375,
+        "y": 269.0,
+        "width": 339.640625,
+        "height": 12.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 15,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 2,
+      "child_count": 0
+    },
+    {
+      "id": 24,
+      "parent_id": 19,
+      "tag": "h1",
+      "text": "\"Severe Turbulence\" Sends 11 from Delta Flight to Hospital",
+      "attributes": {
+        "class": "post-title"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 298.0,
+        "width": 620.0,
+        "height": 81.59375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 34,
+        "fontWeight": 800,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 15,
+        "marginRight": 0,
+        "marginBottom": 15,
+        "marginLeft": 0,
+        "lineHeight": 40.8,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 25,
+      "parent_id": 19,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-meta"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 394.59375,
+        "width": 620.0,
+        "height": 23.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 1,
+        "paddingBottom": 10,
+        "paddingLeft": 1,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 2,
+      "child_count": 1
+    },
+    {
+      "id": 26,
+      "parent_id": 25,
+      "tag": "span",
+      "text": "August 31, 2023",
+      "attributes": {
+        "class": "post-date published"
+      },
+      "bbox": {
+        "x": 156.0,
+        "y": 394.59375,
+        "width": 83.203125,
+        "height": 12.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 27,
+      "parent_id": 19,
+      "tag": "div",
+      "text": "ATLANTA — Delta Air Lines has confirmed that 11 people were hospitalized due to \"severe turbulence\" ",
+      "attributes": {
+        "class": "post-body post-content"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 417.59375,
+        "width": 620.0,
+        "height": 382.40625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 20,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 22.1,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 3,
+      "child_count": 3
+    },
+    {
+      "id": 28,
+      "parent_id": 27,
+      "tag": "b",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 438.59375,
+        "width": 93.53125,
+        "height": 20.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 700,
+        "textAlign": "start",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 22.1,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 29,
+      "parent_id": 28,
+      "tag": "i",
+      "text": "Key Points:",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 438.59375,
+        "width": 93.53125,
+        "height": 20.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 700,
+        "textAlign": "start",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 22.1,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 30,
+      "parent_id": 27,
+      "tag": "div",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 459.6875,
+        "width": 620.0,
+        "height": 22.09375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 22.1,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 31,
+      "parent_id": 27,
+      "tag": "div",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 486.78125,
+        "width": 620.0,
+        "height": 313.21875
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 22.1,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 2,
+      "child_count": 7
+    },
+    {
+      "id": 32,
+      "parent_id": 31,
+      "tag": "ul",
+      "text": "",
+      "attributes": {
+        "style": "text-align: left;"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 486.78125,
+        "width": 620.0,
+        "height": 51.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 33,
+      "parent_id": 32,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 486.78125,
+        "width": 620.0,
+        "height": 51.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "list-item",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 5,
+        "marginRight": 0,
+        "marginBottom": 5,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 34,
+      "parent_id": 33,
+      "tag": "b",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 488.78125,
+        "width": 524.828125,
+        "height": 45.5
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 700,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 11,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 35,
+      "parent_id": 34,
+      "tag": "i",
+      "text": "A Delta Air Lines flight from Milan to Atlanta experienced \"severe turbulence,\" requiring 11 people ",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 488.78125,
+        "width": 524.828125,
+        "height": 45.5
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 700,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 12,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 36,
+      "parent_id": 31,
+      "tag": "div",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 542.78125,
+        "width": 620.0,
+        "height": 22.09375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 22.1,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 1,
+      "child_count": 0
+    },
+    {
+      "id": 37,
+      "parent_id": 31,
+      "tag": "ul",
+      "text": "",
+      "attributes": {
+        "style": "text-align: left;"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 569.875,
+        "width": 620.0,
+        "height": 76.5
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 2,
+      "child_count": 1
+    },
+    {
+      "id": 38,
+      "parent_id": 37,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 569.875,
+        "width": 620.0,
+        "height": 76.5
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "list-item",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 5,
+        "marginRight": 0,
+        "marginBottom": 5,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 39,
+      "parent_id": 38,
+      "tag": "b",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 571.875,
+        "width": 550.734375,
+        "height": 71.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 700,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 11,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 40,
+      "parent_id": 39,
+      "tag": "i",
+      "text": "Delta Air Lines confirms that the Airbus A350-900, which had 151 passengers, 10 attendants, and four",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 571.875,
+        "width": 550.734375,
+        "height": 71.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 700,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 12,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 41,
+      "parent_id": 31,
+      "tag": "div",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 651.375,
+        "width": 620.0,
+        "height": 22.09375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 22.1,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 3,
+      "child_count": 0
+    },
+    {
+      "id": 42,
+      "parent_id": 31,
+      "tag": "ul",
+      "text": "",
+      "attributes": {
+        "style": "text-align: left;"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 678.46875,
+        "width": 620.0,
+        "height": 51.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 4,
+      "child_count": 1
+    },
+    {
+      "id": 43,
+      "parent_id": 42,
+      "tag": "li",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 678.46875,
+        "width": 620.0,
+        "height": 51.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "left",
+        "display": "list-item",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 5,
+        "marginRight": 0,
+        "marginBottom": 5,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 44,
+      "parent_id": 43,
+      "tag": "b",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 680.46875,
+        "width": 610.296875,
+        "height": 45.5
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 700,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 11,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 45,
+      "parent_id": 44,
+      "tag": "i",
+      "text": "Crew members and passengers are among those injured. Delta is providing accommodation, food, and reb",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 680.46875,
+        "width": 610.296875,
+        "height": 45.5
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 700,
+        "textAlign": "left",
+        "display": "inline",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 25.5,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 12,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 46,
+      "parent_id": 31,
+      "tag": "div",
+      "text": "",
+      "attributes": {},
+      "bbox": {
+        "x": 155.0,
+        "y": 734.46875,
+        "width": 620.0,
+        "height": 22.09375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 22.1,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 5,
+      "child_count": 0
+    },
+    {
+      "id": 47,
+      "parent_id": 31,
+      "tag": "h2",
+      "text": "Delta's Milan-Atlanta Flight Faces Turbulence, Hospitalizes 11",
+      "attributes": {
+        "style": "clear: both; text-align: center;"
+      },
+      "bbox": {
+        "x": 155.0,
+        "y": 756.5625,
+        "width": 620.0,
+        "height": 43.4375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 18,
+        "fontWeight": 700,
+        "textAlign": "center",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 15,
+        "marginLeft": 0,
+        "lineHeight": 23.4,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 6,
+      "child_count": 1
+    },
+    {
+      "id": 48,
+      "parent_id": 47,
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIRq_WVUsY3YlCA4tubQtWykOa0U50QgyRJPe3zOP80-xqR_ZVBIpygUFxKreScaCKzNv_xPyjs5dVAmPKU8zNO6uAeKXx-aHO3d8w4YzLPVS_ORw5NqhtOWO1W4FXJy9WTxrSi_bYuCcfjHNJufW_7wDvHQF168ysRcYlT-0WZ1MVseEWvHKVRmBP1wjs/s16000/phpAA8GcAAM.jpg"
+      },
+      "bbox": {
+        "x": 155.015625,
+        "y": 756.5625,
+        "width": 619.96875,
+        "height": 43.4375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 18,
+        "fontWeight": 700,
+        "textAlign": "center",
+        "display": "inline",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 23.4,
+        "letterSpacing": 0,
+        "overflowX": "clip",
+        "overflowY": "clip",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 49,
+      "parent_id": 14,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "id": "sidebar-wrapper"
+      },
+      "bbox": {
+        "x": 810.0,
+        "y": 268.0,
+        "width": 330.0,
+        "height": 359.78125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 15,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 2,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 50,
+      "parent_id": 49,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "sidebar common-widget section",
+        "id": "sidebar1"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 268.0,
+        "width": 300.0,
+        "height": 329.78125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 3,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 51,
+      "parent_id": 50,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget PopularPosts",
+        "id": "PopularPosts1"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 268.0,
+        "width": 300.0,
+        "height": 299.78125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 30,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 4,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 52,
+      "parent_id": 51,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget-title"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 268.0,
+        "width": 300.0,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 20,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 53,
+      "parent_id": 52,
+      "tag": "h3",
+      "text": "Trending",
+      "attributes": {
+        "class": "title"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 268.0,
+        "width": 67.5625,
+        "height": 30.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 16,
+        "fontWeight": 700,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 10,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 20,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 54,
+      "parent_id": 51,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "widget-content"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 318.0,
+        "width": 300.0,
+        "height": 249.78125
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 5,
+      "sibling_index": 1,
+      "child_count": 3
+    },
+    {
+      "id": 55,
+      "parent_id": 54,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 338.0,
+        "width": 300.0,
+        "height": 55.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 20,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 56,
+      "parent_id": 55,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-content"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 338.0,
+        "width": 300.0,
+        "height": 50.59375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 57,
+      "parent_id": 56,
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "post-image-link"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 338.0,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.6078431372549019,
+          0.6078431372549019,
+          0.6078431372549019,
+          0.05
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 12,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 58,
+      "parent_id": 57,
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "post-thumb",
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja18oVBbQzYrDAYh9YpdBPybRAe4IUC5z0DA_hQ_b5HHwnzs29d1kME7PnJnu7zRSnSgLt6BDFhsOhAElSqYpVteiLA_Wa7KcNCaOJRDcDM99LfG3QM2fybRRbZiVe58ADbZ6Yepax_a2KleSrntv-psVcuxlERqnnwBZn2gsVhBr4E35FyJ8SkQuDzUZ0/w72-h72-p-k-no-nu/Global-Airlines-A380-800.webp"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 338.0,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "clip",
+        "overflowY": "clip",
+        "objectFit": "cover",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 59,
+      "parent_id": 56,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-info"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 338.0,
+        "width": 208.0,
+        "height": 50.59375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 60,
+      "parent_id": 59,
+      "tag": "h2",
+      "text": "",
+      "attributes": {
+        "class": "post-title"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 338.0,
+        "width": 208.0,
+        "height": 33.59375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 500,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 5,
+        "marginLeft": 0,
+        "lineHeight": 16.8,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 61,
+      "parent_id": 60,
+      "tag": "a",
+      "text": "British Startup Global Airlines Outlines A380 Strategy",
+      "attributes": {},
+      "bbox": {
+        "x": 917.0,
+        "y": 338.0,
+        "width": 208.0,
+        "height": 33.59375
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 500,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 16.8,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 62,
+      "parent_id": 59,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-meta"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 376.59375,
+        "width": 208.0,
+        "height": 12.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 63,
+      "parent_id": 62,
+      "tag": "span",
+      "text": "November 25, 2023",
+      "attributes": {
+        "class": "post-date published"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 376.59375,
+        "width": 98.9375,
+        "height": 12.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 64,
+      "parent_id": 54,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 413.0,
+        "width": 300.0,
+        "height": 67.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 20,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 65,
+      "parent_id": 64,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-content"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 413.0,
+        "width": 300.0,
+        "height": 67.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 66,
+      "parent_id": 65,
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "post-image-link"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 413.0,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.6078431372549019,
+          0.6078431372549019,
+          0.6078431372549019,
+          0.05
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 12,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 67,
+      "parent_id": 66,
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "post-thumb",
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeWzPURldZgo9GS5LPVsJxDgEvGQO7xOSESjcT8_vpAuRNqybfJn8fyyieULr_RXeQh9i0X8Tlu2Wxg_xHGHacglKWFJXQk9xI4slwrvt1rBTwBlzhNPGcDOJVIHw0qb2oXT-BY_bu3F5PczL6F_exYvKmLj0FRfrES_zffEYs2AcgmYtiIQP9CEusaHO3/w72-h72-p-k-no-nu/652658cc55f52b01b35c1ddd.webp"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 413.0,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "clip",
+        "overflowY": "clip",
+        "objectFit": "cover",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 68,
+      "parent_id": 65,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-info"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 413.0,
+        "width": 208.0,
+        "height": 67.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 69,
+      "parent_id": 68,
+      "tag": "h2",
+      "text": "",
+      "attributes": {
+        "class": "post-title"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 413.0,
+        "width": 208.0,
+        "height": 50.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 500,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 5,
+        "marginLeft": 0,
+        "lineHeight": 16.8,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 70,
+      "parent_id": 69,
+      "tag": "a",
+      "text": "Ural Airlines Faces Challenges Returning Stranded A320 from Isolated Siberian Field",
+      "attributes": {},
+      "bbox": {
+        "x": 917.0,
+        "y": 413.0,
+        "width": 208.0,
+        "height": 50.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 500,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 16.8,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 71,
+      "parent_id": 68,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-meta"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 468.390625,
+        "width": 208.0,
+        "height": 12.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 72,
+      "parent_id": 71,
+      "tag": "span",
+      "text": "November 25, 2023",
+      "attributes": {
+        "class": "post-date published"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 468.390625,
+        "width": 98.9375,
+        "height": 12.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 73,
+      "parent_id": 54,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 500.390625,
+        "width": 300.0,
+        "height": 67.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 20,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 6,
+      "sibling_index": 2,
+      "child_count": 1
+    },
+    {
+      "id": 74,
+      "parent_id": 73,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-content"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 500.390625,
+        "width": 300.0,
+        "height": 67.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 7,
+      "sibling_index": 0,
+      "child_count": 2
+    },
+    {
+      "id": 75,
+      "parent_id": 74,
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "post-image-link"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 500.390625,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0.6078431372549019,
+          0.6078431372549019,
+          0.6078431372549019,
+          0.05
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 12,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 76,
+      "parent_id": 75,
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "post-thumb",
+        "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKMUEI4s_RbkyGaOuIxNfnBfa7gv8E69rvCfxI1h-YcKIfwqkbULnCHjY-wKJfmCNR70ABFKBMGmzPZXPBRArysFEbuLhyHJw7AtMLf1ZZGhbF7nK0rVWzeZJZZLu41pcDIpd8stkJmipq49515n4TkVxTUrJMscov96hqBUakycxRGXiOwT1hu-NzBPK4/w72-h72-p-k-no-nu/phpm4OoE9AM.jpg"
+      },
+      "bbox": {
+        "x": 825.0,
+        "y": 500.390625,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "relative",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "clip",
+        "overflowY": "clip",
+        "objectFit": "cover",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 77,
+      "parent_id": 74,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-info"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 500.390625,
+        "width": 208.0,
+        "height": 67.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 17,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 8,
+      "sibling_index": 1,
+      "child_count": 2
+    },
+    {
+      "id": 78,
+      "parent_id": 77,
+      "tag": "h2",
+      "text": "",
+      "attributes": {
+        "class": "post-title"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 500.390625,
+        "width": 208.0,
+        "height": 50.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 500,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 5,
+        "marginLeft": 0,
+        "lineHeight": 16.8,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 0,
+      "child_count": 1
+    },
+    {
+      "id": 79,
+      "parent_id": 78,
+      "tag": "a",
+      "text": "SunExpress Secures Future with 45 Boeing 737 Max Jets, Options for 40 More",
+      "attributes": {},
+      "bbox": {
+        "x": 917.0,
+        "y": 500.390625,
+        "width": 208.0,
+        "height": 50.390625
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 12,
+        "fontWeight": 500,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 16.8,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 0
+    },
+    {
+      "id": 80,
+      "parent_id": 77,
+      "tag": "div",
+      "text": "",
+      "attributes": {
+        "class": "post-meta"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 555.78125,
+        "width": 208.0,
+        "height": 12.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "hidden",
+        "overflowY": "hidden",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 9,
+      "sibling_index": 1,
+      "child_count": 1
+    },
+    {
+      "id": 81,
+      "parent_id": 80,
+      "tag": "span",
+      "text": "November 25, 2023",
+      "attributes": {
+        "class": "post-date published"
+      },
+      "bbox": {
+        "x": 917.0,
+        "y": 555.78125,
+        "width": 98.9375,
+        "height": 12.0
+      },
+      "computed_style": {
+        "backgroundColor": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "borderRadius": 0,
+        "borderWidth": 0,
+        "opacity": 1,
+        "fontSize": 10,
+        "fontWeight": 400,
+        "textAlign": "start",
+        "display": "block",
+        "position": "static",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "gap": 0,
+        "rowGap": 0,
+        "columnGap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "marginTop": 0,
+        "marginRight": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "objectFit": "fill",
+        "gridTemplateColumns": "none"
+      },
+      "depth": 10,
+      "sibling_index": 0,
+      "child_count": 0
+    }
+  ],
+  "metadata": {
+    "source_format": "playwright_page_graph_v1",
+    "coordinate_space": "viewport_pixels",
+    "target_vit_size": 224,
+    "viewport_filter": "intersects_and_clipped_v2",
+    "resource_policy": "block_media_and_font_v1"
+  }
+}

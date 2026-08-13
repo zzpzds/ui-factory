@@ -1,0 +1,4047 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        4
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 444.0,
+        "y": 21.4375,
+        "width": 392.0,
+        "height": 44.0
+      },
+      "name": "标题图片",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 32,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1,
+        "image_src": "http://layout.asobrain.com/semi/title.png.php?title=Master+of+the+Seas+Basic+2008"
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.0,
+        "y": 162.875,
+        "width": 1040.0,
+        "height": 18.0
+      },
+      "name": "标题介绍",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.0,
+        "y": 180.875,
+        "width": 1040.0,
+        "height": 18.0
+      },
+      "name": "标题介绍",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.0,
+        "y": 218.78125,
+        "width": 1040.0,
+        "height": 28.0
+      },
+      "name": "表格标题",
+      "text": "Groups for Benton",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 24,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.0,
+        "y": 268.6875,
+        "width": 145.09375,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Semi Finals: Coins",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 379.25,
+        "y": 291.6875,
+        "width": 70.59375,
+        "height": 13.0
+      },
+      "name": "表头名补充信息",
+      "text": "Status: Finished",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 11,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 489.09375,
+        "y": 268.6875,
+        "width": 110.0,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Sea Master 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 601.09375,
+        "y": 268.6875,
+        "width": 110.0,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Sea Master 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 713.09375,
+        "y": 268.6875,
+        "width": 110.0,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Sea Master 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 825.09375,
+        "y": 268.6875,
+        "width": 49.84375,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Points",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.0,
+        "y": 308.6875,
+        "width": 145.09375,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "1.",
+      "style": {
+        "background_color": [
+          0,
+          1,
+          0,
+          0.2
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 516.65625,
+        "y": 314.6875,
+        "width": 54.875,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Taniquis",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.9375,
+        "y": 308.6875,
+        "width": 61.0625,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "33 pts",
+      "style": {
+        "background_color": [
+          0,
+          1,
+          0,
+          0.2
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.0,
+        "y": 340.6875,
+        "width": 145.09375,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "2.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 520.984375,
+        "y": 346.6875,
+        "width": 46.21875,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Benton",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.9375,
+        "y": 340.6875,
+        "width": 61.0625,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "29 pts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.0,
+        "y": 372.6875,
+        "width": 145.09375,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "3.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 528.53125,
+        "y": 378.6875,
+        "width": 31.125,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Jmpj",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        61
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.9375,
+        "y": 372.6875,
+        "width": 61.0625,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "29 pts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.796875,
+        "y": 436.6875,
+        "width": 163.9375,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Quarter Finals: Coins 1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        69
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 357.46875,
+        "y": 459.6875,
+        "width": 70.59375,
+        "height": 13.0
+      },
+      "name": "表头名介绍信息",
+      "text": "Status: Finished",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 11,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        70
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 476.734375,
+        "y": 436.6875,
+        "width": 128.375,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Search the Seas 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        72
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 607.109375,
+        "y": 436.6875,
+        "width": 128.375,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Search the Seas 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 737.484375,
+        "y": 436.6875,
+        "width": 128.375,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Search the Seas 15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        76
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 867.859375,
+        "y": 436.6875,
+        "width": 44.671875,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Points",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        79
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.796875,
+        "y": 476.6875,
+        "width": 163.9375,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "1.",
+      "style": {
+        "background_color": [
+          0,
+          1,
+          0,
+          0.2
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        81
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 517.8125,
+        "y": 482.6875,
+        "width": 46.21875,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Benton",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        85
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 914.53125,
+        "y": 476.6875,
+        "width": 54.671875,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "39 pts",
+      "style": {
+        "background_color": [
+          0,
+          1,
+          0,
+          0.2
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        87
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.796875,
+        "y": 508.6875,
+        "width": 163.9375,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "2.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        89
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 524.921875,
+        "y": 514.6875,
+        "width": 32.0,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "15ph",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        93
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 914.53125,
+        "y": 508.6875,
+        "width": 54.671875,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "37 pts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        95
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.796875,
+        "y": 540.6875,
+        "width": 163.9375,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "3.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        97
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 525.359375,
+        "y": 546.6875,
+        "width": 31.125,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Jmpj",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        101
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 914.53125,
+        "y": 540.6875,
+        "width": 54.671875,
+        "height": 30.0
+      },
+      "name": "单元格内容",
+      "text": "26 pts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        104
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.0,
+        "y": 634.6875,
+        "width": 1040.0,
+        "height": 28.0
+      },
+      "name": "表格名称",
+      "text": "Tournament history for Benton",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 24,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        109
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 672.6875,
+        "width": 87.5625,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Date",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        110
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 360.640625,
+        "y": 672.6875,
+        "width": 99.984375,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Tournament",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        111
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 462.625,
+        "y": 672.6875,
+        "width": 306.96875,
+        "height": 20.0
+      },
+      "name": "表头名",
+      "text": "Performance",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        113
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 694.6875,
+        "width": 87.5625,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "Mar 2009",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        114
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 360.640625,
+        "y": 694.6875,
+        "width": 99.984375,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "- Jun 2009",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        116
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 695.6875,
+        "width": 258.96875,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Xplorers C&K Winter Tournament 2009",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        118
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 695.6875,
+        "width": 75.546875,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Preliminary",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        121
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 716.6875,
+        "width": 87.5625,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "Jun 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        122
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 360.640625,
+        "y": 716.6875,
+        "width": 99.984375,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "- Oct 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        124
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 717.6875,
+        "width": 247.453125,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Xplorers 2v2 Spring Tournament 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        126
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 717.6875,
+        "width": 76.015625,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Semi Finals",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        129
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 738.6875,
+        "width": 87.5625,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "Mar 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        130
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 360.640625,
+        "y": 738.6875,
+        "width": 99.984375,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "- Jul 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        132
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 739.6875,
+        "width": 141.328125,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "MapQuest C&K 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        134
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 739.6875,
+        "width": 75.546875,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Preliminary",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        137
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 760.6875,
+        "width": 87.5625,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "Dec 2007",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        138
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 360.640625,
+        "y": 760.6875,
+        "width": 99.984375,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "- Apr 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        140
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 761.6875,
+        "width": 248.296875,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Xplorers 2v2 Winter Tournament 2007",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        142
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 761.6875,
+        "width": 39.125,
+        "height": 18.0
+      },
+      "name": "单元格内容",
+      "text": "Finals",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        143
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 913.578125,
+        "y": 760.6875,
+        "width": 95.34375,
+        "height": 20.0
+      },
+      "name": "单元格内容",
+      "text": "Winner",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        145
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 271.078125,
+        "y": 782.6875,
+        "width": 87.5625,
+        "height": 17.3125
+      },
+      "name": "单元格内容",
+      "text": "Nov 2007",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        146
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 360.640625,
+        "y": 782.6875,
+        "width": 99.984375,
+        "height": 17.3125
+      },
+      "name": "单元格内容",
+      "text": "- Mar 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        148
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 486.625,
+        "y": 783.6875,
+        "width": 194.1875,
+        "height": 16.3125
+      },
+      "name": "单元格内容",
+      "text": "Master of the Seas Basic 2008",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        150
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 795.59375,
+        "y": 783.6875,
+        "width": 76.015625,
+        "height": 16.3125
+      },
+      "name": "单元格内容",
+      "text": "Semi Finals",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 542.890625,
+        "y": 162.875,
+        "width": 76.421875,
+        "height": 18.0
+      },
+      "name": "信息导航",
+      "text": "Information",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "border_width": 0,
+        "opacity": 1,
+        "font_size": 16,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 619.3125,
+        "y": 162.875,
+        "width": 59.125,
+        "height": 18.0
+      },
+      "name": "报名导航",
+      "text": "Sign Ups",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "border_width": 0,
+        "opacity": 1,
+        "font_size": 16,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 678.4375,
+        "y": 162.875,
+        "width": 58.65625,
+        "height": 18.0
+      },
+      "name": "赛程导航",
+      "text": "Schedule",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "border_width": 0,
+        "opacity": 1,
+        "font_size": 16,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 568.4375,
+        "y": 180.875,
+        "width": 47.109375,
+        "height": 18.0
+      },
+      "name": "选手导航",
+      "text": "Players",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "border_width": 0,
+        "opacity": 1,
+        "font_size": 16,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 615.546875,
+        "y": 180.875,
+        "width": 48.90625,
+        "height": 18.0
+      },
+      "name": "轮次导航",
+      "text": "Rounds",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "border_width": 0,
+        "opacity": 1,
+        "font_size": 16,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    },
+    {
+      "id": "e_65",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 664.453125,
+        "y": 180.875,
+        "width": 47.109375,
+        "height": 18.0
+      },
+      "name": "分组导航",
+      "text": "Groups",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "border_width": 0,
+        "opacity": 1,
+        "font_size": 16,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.9
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_2",
+        "e_3"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 120.0,
+        "y": 162.875,
+        "width": 1040.0,
+        "height": 36.0
+      },
+      "name": "文章介绍",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_5",
+        "e_6"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 342.0,
+        "y": 268.6875,
+        "width": 145.09375,
+        "height": 36.0
+      },
+      "name": "表头-带状态信息",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_5",
+        "e_6",
+        "e_7",
+        "e_8",
+        "e_9",
+        "e_10"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 342.0,
+        "y": 268.6875,
+        "width": 532.0,
+        "height": 36.0
+      },
+      "name": "表头行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_11",
+        "e_12",
+        "e_13"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 342.0,
+        "y": 308.6875,
+        "width": 596.0,
+        "height": 30.0
+      },
+      "name": "第一行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_5",
+      "source_element_ids": [
+        "e_14",
+        "e_15",
+        "e_16"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 342.0,
+        "y": 340.6875,
+        "width": 596.0,
+        "height": 30.0
+      },
+      "name": "第二行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_6",
+      "source_element_ids": [
+        "e_17",
+        "e_18",
+        "e_19"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 342.0,
+        "y": 372.6875,
+        "width": 596.0,
+        "height": 30.0
+      },
+      "name": "第三行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_7",
+      "source_element_ids": [
+        "e_20",
+        "e_21"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 310.796875,
+        "y": 436.6875,
+        "width": 163.9375,
+        "height": 36.0
+      },
+      "name": "表头-带状态信息",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_8",
+      "source_element_ids": [
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 310.0,
+        "y": 436.6875,
+        "width": 604.0,
+        "height": 36.0
+      },
+      "name": "表头行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_9",
+      "source_element_ids": [
+        "e_26",
+        "e_27",
+        "e_28"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 310.796875,
+        "y": 476.6875,
+        "width": 658.40625,
+        "height": 30.0
+      },
+      "name": "第一行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_10",
+      "source_element_ids": [
+        "e_29",
+        "e_30",
+        "e_31"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 310.796875,
+        "y": 508.6875,
+        "width": 658.40625,
+        "height": 30.0
+      },
+      "name": "第二行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_11",
+      "source_element_ids": [
+        "e_32",
+        "e_33",
+        "e_34"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 310.796875,
+        "y": 540.6875,
+        "width": 658.40625,
+        "height": 30.0
+      },
+      "name": "第三行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_12",
+      "source_element_ids": [
+        "e_36",
+        "e_37",
+        "e_38"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 271.078125,
+        "y": 672.6875,
+        "width": 498.515625,
+        "height": 20.0
+      },
+      "name": "表头行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_13",
+      "source_element_ids": [
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 271.078125,
+        "y": 694.6875,
+        "width": 600.0625,
+        "height": 20.0
+      },
+      "name": "第一行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_14",
+      "source_element_ids": [
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 271.078125,
+        "y": 716.6875,
+        "width": 600.53125,
+        "height": 20.0
+      },
+      "name": "第二行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_15",
+      "source_element_ids": [
+        "e_47",
+        "e_48",
+        "e_49",
+        "e_50"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 271.078125,
+        "y": 738.6875,
+        "width": 600.0625,
+        "height": 20.0
+      },
+      "name": "第三行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_16",
+      "source_element_ids": [
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 271.078125,
+        "y": 760.6875,
+        "width": 737.84375,
+        "height": 20.0
+      },
+      "name": "第四行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_17",
+      "source_element_ids": [
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 271.078125,
+        "y": 782.6875,
+        "width": 600.53125,
+        "height": 17.3125
+      },
+      "name": "第五行",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_18",
+      "source_element_ids": [
+        "e_5",
+        "e_6",
+        "e_7",
+        "e_8",
+        "e_9",
+        "e_10",
+        "e_11",
+        "e_12",
+        "e_13",
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_19"
+      ],
+      "role": "TABLE",
+      "bbox": {
+        "x": 342.0,
+        "y": 268.6875,
+        "width": 596.0,
+        "height": 134.0
+      },
+      "name": "第一个表格",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_19",
+      "source_element_ids": [
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34"
+      ],
+      "role": "TABLE",
+      "bbox": {
+        "x": 310.0,
+        "y": 436.6875,
+        "width": 659.203125,
+        "height": 134.0
+      },
+      "name": "第二个表格",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_20",
+      "source_element_ids": [
+        "e_36",
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_48",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59"
+      ],
+      "role": "TABLE",
+      "bbox": {
+        "x": 271.078125,
+        "y": 672.6875,
+        "width": 737.84375,
+        "height": 127.3125
+      },
+      "name": "第三个表格",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_2",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_3",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_4",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_5",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_6",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_7",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_8",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_9",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_10",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_11",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_12",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_13",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_14",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_15",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_16",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_17",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_18",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_19",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_20",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "e_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_4",
+      "order": 8,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_35",
+      "order": 11,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_2",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_3",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_6",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_7",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_8",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_9",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_10",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "g_2",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_11",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_12",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_13",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_15",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_16",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_17",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_18",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_19",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_20",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_21",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_22",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_23",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_24",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_25",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "g_7",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_26",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_27",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_28",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_29",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_30",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_31",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_32",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_33",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_34",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_36",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_37",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_38",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_39",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_40",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_41",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_42",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_43",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_44",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_45",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_46",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_50",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_49",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_48",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_47",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_53",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_52",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_51",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_54",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_55",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_59",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_58",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_57",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_56",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_18",
+      "order": 9,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "g_3",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "g_4",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "g_5",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "g_6",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_19",
+      "order": 10,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "g_8",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "g_9",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "g_10",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "g_11",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_20",
+      "order": 12,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_12",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_13",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_14",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_15",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_16",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_17",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_60",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_61",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_62",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_63",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_64",
+      "order": 6,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_65",
+      "order": 7,
+      "confidence": 1.0
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0601",
+    "label_source": "human_ai_adjudicated_gold",
+    "status": "complete",
+    "adjudication_status": "finalized",
+    "gold_finalized": true,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "0601",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "89a6ef593db2385a5d796a1ea5b4ddcbbc6686c8f4e1fc5d39edcd4167383210",
+    "ai_annotation_sha256": "c14cf14f10d95b873ba2ccb6e68e92cd22f4090a5042e694c28781bc0ec3010f",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_by": "赵志鹏",
+    "reviewed_at": "2026-08-13T14:56:54+08:00",
+    "review_notes": "导航部分改为ai标注",
+    "ai_assistance_disclosed": true,
+    "adjudication_record": "data/annotations/intent_pilot_v1/adjudication/0601.json"
+  }
+}

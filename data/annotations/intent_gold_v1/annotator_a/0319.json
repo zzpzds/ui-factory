@@ -1,0 +1,792 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        6
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 441.90625,
+        "y": 33.0,
+        "width": 45.6875,
+        "height": 47.0
+      },
+      "name": "链接按钮",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 15,
+        "font_weight": 700,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        8
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 509.59375,
+        "y": 33.0,
+        "width": 48.328125,
+        "height": 47.0
+      },
+      "name": "链接按钮",
+      "text": "About",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 15,
+        "font_weight": 700,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        10
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 579.921875,
+        "y": 33.0,
+        "width": 95.296875,
+        "height": 47.0
+      },
+      "name": "链接按钮",
+      "text": "CMA Roster",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 15,
+        "font_weight": 700,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        12
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 697.21875,
+        "y": 33.0,
+        "width": 147.5625,
+        "height": 47.0
+      },
+      "name": "链接按钮",
+      "text": "Become a Member",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 15,
+        "font_weight": 700,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        14
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 866.78125,
+        "y": 33.0,
+        "width": 116.34375,
+        "height": 47.0
+      },
+      "name": "链接按钮",
+      "text": "Manufacturing",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 15,
+        "font_weight": 700,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        16
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1005.125,
+        "y": 33.0,
+        "width": 124.875,
+        "height": 47.0
+      },
+      "name": "链接按钮",
+      "text": "State Programs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 15,
+        "font_weight": 700,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        23
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 0.0,
+        "y": 80.0,
+        "width": 1280.0,
+        "height": 287.59375
+      },
+      "name": "标题背景",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 17,
+        "font_weight": 500,
+        "line_height": 28.9,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 250.0,
+        "y": 160.0,
+        "width": 780.0,
+        "height": 127.59375
+      },
+      "name": "标题",
+      "text": "State Department of Agriculture Program: Hawaii",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 42,
+        "font_weight": 700,
+        "line_height": 58.8,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 419.59375,
+        "width": 53.859375,
+        "height": 20.0
+      },
+      "name": "一段文本首字母",
+      "text": "Hawaii",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 17,
+        "font_weight": 700,
+        "line_height": 28.9,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        39,
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 419.59375,
+        "width": 1005.421875,
+        "height": 193.4375
+      },
+      "name": "一段文本",
+      "text": "is the only U.S. state located in Oceania and the only one composed entirely of islands. It is the n Wikipedia",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 17,
+        "font_weight": 500,
+        "line_height": 28.9,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 638.9375,
+        "width": 256.3125,
+        "height": 20.0
+      },
+      "name": "段标题",
+      "text": "State Department of Agriculture",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 17,
+        "font_weight": 700,
+        "line_height": 28.9,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 663.84375,
+        "width": 1024.0,
+        "height": 136.15625
+      },
+      "name": "一段文本",
+      "text": "The Hawaii Department of Agriculture’s (HDOA) 240 employees statewide work to support, enhance, prom",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 17,
+        "font_weight": 500,
+        "line_height": 28.9,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 783.46875,
+        "width": 170.125,
+        "height": 16.53125
+      },
+      "name": "网站链接",
+      "text": "http://hdoa.hawaii.gov/",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 17,
+        "font_weight": 500,
+        "line_height": 28.9,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_1",
+        "e_2",
+        "e_3",
+        "e_4",
+        "e_5",
+        "e_6"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 441.90625,
+        "y": 33.0,
+        "width": 688.09375,
+        "height": 47.0
+      },
+      "name": "导航栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_7",
+        "e_8"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 0.0,
+        "y": 80.0,
+        "width": 1280.0,
+        "height": 287.59375
+      },
+      "name": "标题栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_9",
+        "e_10",
+        "e_11",
+        "e_12",
+        "e_13"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 128.0,
+        "y": 419.59375,
+        "width": 1024.0,
+        "height": 380.40625
+      },
+      "name": "文章内容",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "START",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_2",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "CENTER",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_3",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_2",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_3",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_4",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_5",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_6",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_3",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_9",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_10",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_11",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_12",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_13",
+      "order": 4,
+      "confidence": 1.0
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0319",
+    "label_source": "human_ai_adjudicated_gold",
+    "status": "complete",
+    "adjudication_status": "finalized",
+    "gold_finalized": true,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "0319",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "e041aca8f8af603cecec39ab73f3d29dad6d8113051eaf9d2f515cb6387ff964",
+    "ai_annotation_sha256": "d2c6894565cc7d78412f39637ce2949a2bb89b82de841a89e3d31880b35f1016",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_by": "赵志鹏",
+    "reviewed_at": "2026-08-13T14:33:30+08:00",
+    "review_notes": "主要以人工为准",
+    "ai_assistance_disclosed": true,
+    "adjudication_record": "data/annotations/intent_pilot_v1/adjudication/0319.json"
+  }
+}

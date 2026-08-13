@@ -1,0 +1,2354 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        13
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 897.3125,
+        "y": 9.0,
+        "width": 42.6875,
+        "height": 18.0
+      },
+      "name": "导航链接",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        16
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 831.84375,
+        "y": 9.0,
+        "width": 44.46875,
+        "height": 18.0
+      },
+      "name": "导航链接",
+      "text": "Books",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        19
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 739.03125,
+        "y": 9.0,
+        "width": 81.8125,
+        "height": 18.0
+      },
+      "name": "导航链接",
+      "text": "Contact Me",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        22
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 584.640625,
+        "y": 9.0,
+        "width": 133.390625,
+        "height": 18.0
+      },
+      "name": "导航链接",
+      "text": "Academic Portfolio",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 147.0,
+        "y": 28.0,
+        "width": 280.140625,
+        "height": 43.0
+      },
+      "name": "作者名",
+      "text": "Dustin M. Wax",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 38.4,
+        "font_weight": 700,
+        "line_height": 38.4,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 132.0,
+        "y": 69.40625,
+        "width": 524.0,
+        "height": 44.0
+      },
+      "name": "作者头衔",
+      "text": "museum administrator, educator, anthropologist, and writer",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.2,
+        "font_weight": 700,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        32
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 841.640625,
+        "y": 66.203125,
+        "width": 99.359375,
+        "height": 22.0
+      },
+      "name": "操作按钮",
+      "text": "Comments",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 22,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        33
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 771.625,
+        "y": 66.203125,
+        "width": 60.015625,
+        "height": 22.0
+      },
+      "name": "操作按钮",
+      "text": "Posts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 22,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        39
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 143.0,
+        "y": 119.40625,
+        "width": 179.0,
+        "height": 23.0
+      },
+      "name": "搜索框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        42
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 132.0,
+        "y": 155.40625,
+        "width": 814.0,
+        "height": 160.0
+      },
+      "name": "文章配图",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 147.0,
+        "y": 335.40625,
+        "width": 559.265625,
+        "height": 32.0
+      },
+      "name": "标题",
+      "text": "Twitter Weekly Updates for 2010-01-31",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 28,
+        "font_weight": 700,
+        "line_height": 36.4,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 147.0,
+        "y": 385.796875,
+        "width": 784.0,
+        "height": 72.0
+      },
+      "name": "缩略文本",
+      "text": "@SonjaFoust Book catalogs/bibliography managers are an obvious match for handheld devices, but rarel",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        56
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 324.90625,
+        "y": 439.796875,
+        "width": 130.765625,
+        "height": 18.0
+      },
+      "name": "展开按钮",
+      "text": "[Continue reading]",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 147.0,
+        "y": 473.796875,
+        "width": 784.0,
+        "height": 28.0
+      },
+      "name": "信息介绍",
+      "text": "January 31st, 2010 | Tags:  |  Category:  | twitter Random Thoughts One comment",
+      "style": {
+        "background_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 18,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        64
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 147.0,
+        "y": 533.796875,
+        "width": 424.390625,
+        "height": 32.0
+      },
+      "name": "标题",
+      "text": "Finally Publishing Comments",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 28,
+        "font_weight": 700,
+        "line_height": 36.4,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 147.0,
+        "y": 584.1875,
+        "width": 784.0,
+        "height": 72.0
+      },
+      "name": "缩略文本",
+      "text": "I just noticed a bunch of quite old comments — like, 10 weeks old and older — that had gotten stuck",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        67
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 700.796875,
+        "y": 638.1875,
+        "width": 130.765625,
+        "height": 18.0
+      },
+      "name": "展开按钮",
+      "text": "[Continue reading]",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 147.0,
+        "y": 672.1875,
+        "width": 784.0,
+        "height": 28.0
+      },
+      "name": "介绍信息",
+      "text": "November 9th, 2007 | Tags: , ,  |  Category:  | akismet anthropology spam Random Thoughts Leave a comment",
+      "style": {
+        "background_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 18,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        77
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 499.3125,
+        "y": 741.1875,
+        "width": 48.0,
+        "height": 18.0
+      },
+      "name": "跳转主页链接",
+      "text": "HOME",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        79
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 817.171875,
+        "y": 741.1875,
+        "width": 113.828125,
+        "height": 18.0
+      },
+      "name": "跳转按钮",
+      "text": "Newer Entries »",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        83
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 959.0,
+        "y": 333.40625,
+        "width": 179.0,
+        "height": 22.859375
+      },
+      "name": "目录标题",
+      "text": "Menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 17.6,
+        "font_weight": 700,
+        "line_height": 22.88,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        87
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 959.0,
+        "y": 361.265625,
+        "width": 42.6875,
+        "height": 18.0
+      },
+      "name": "一级目录",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        89
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 959.0,
+        "y": 381.265625,
+        "width": 133.390625,
+        "height": 18.0
+      },
+      "name": "一级目录",
+      "text": "Academic Portfolio",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        92
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 964.0,
+        "y": 401.265625,
+        "width": 109.078125,
+        "height": 18.0
+      },
+      "name": "二级目录",
+      "text": "Curriculum Vita",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        94
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 964.0,
+        "y": 421.265625,
+        "width": 52.453125,
+        "height": 18.0
+      },
+      "name": "二级目录",
+      "text": "Articles",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        96
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 964.0,
+        "y": 441.265625,
+        "width": 77.375,
+        "height": 18.0
+      },
+      "name": "二级目录",
+      "text": "Exhibitions",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        99
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 969.0,
+        "y": 461.265625,
+        "width": 169.0,
+        "height": 36.0
+      },
+      "name": "三级目录",
+      "text": "Spectacular, Erotic, and Slightly Shocking",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        101
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 969.0,
+        "y": 499.265625,
+        "width": 93.09375,
+        "height": 36.0
+      },
+      "name": "三级目录",
+      "text": "Frida Kahlo’s Mexicanidad",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        103
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 969.0,
+        "y": 537.265625,
+        "width": 127.171875,
+        "height": 18.0
+      },
+      "name": "三级目录",
+      "text": "Drawn in the Dust",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        105
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 964.0,
+        "y": 557.265625,
+        "width": 111.78125,
+        "height": 18.0
+      },
+      "name": "二级目录",
+      "text": "Courses Taught",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        107
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 964.0,
+        "y": 577.265625,
+        "width": 158.9375,
+        "height": 36.0
+      },
+      "name": "二级目录",
+      "text": "Statement of Teaching Philosophy",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        109
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 959.0,
+        "y": 615.265625,
+        "width": 44.46875,
+        "height": 18.0
+      },
+      "name": "一级目录",
+      "text": "Books",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        112
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 964.0,
+        "y": 635.265625,
+        "width": 155.921875,
+        "height": 36.0
+      },
+      "name": "二级目录",
+      "text": "Anthropology at the Dawn of the Cold War",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        114
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 964.0,
+        "y": 673.265625,
+        "width": 111.1875,
+        "height": 18.0
+      },
+      "name": "二级目录",
+      "text": "Don’t Be Stupid",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        116
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 959.0,
+        "y": 693.265625,
+        "width": 68.484375,
+        "height": 18.0
+      },
+      "name": "一级目录",
+      "text": "About Me",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        118
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 959.0,
+        "y": 713.265625,
+        "width": 81.8125,
+        "height": 18.0
+      },
+      "name": "一级目录",
+      "text": "Contact Me",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        121
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 959.0,
+        "y": 761.265625,
+        "width": 179.0,
+        "height": 22.859375
+      },
+      "name": "标题",
+      "text": "Most Recent Posts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 17.6,
+        "font_weight": 700,
+        "line_height": 22.88,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        124
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 971.0,
+        "y": 789.125,
+        "width": 158.3125,
+        "height": 10.875
+      },
+      "name": "文本",
+      "text": "Everyday Prepping for Everyday People",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_1",
+        "e_2",
+        "e_3",
+        "e_4"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 584.640625,
+        "y": 9.0,
+        "width": 355.359375,
+        "height": 18.0
+      },
+      "name": "导航栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_5",
+        "e_6",
+        "e_7",
+        "e_8",
+        "e_9"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 132.0,
+        "y": 28.0,
+        "width": 809.0,
+        "height": 114.40625
+      },
+      "name": "页面头部",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_12",
+        "e_13"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 147.0,
+        "y": 385.796875,
+        "width": 784.0,
+        "height": 72.0
+      },
+      "name": "可缩略段落",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_11",
+        "e_12",
+        "e_13",
+        "e_14"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 147.0,
+        "y": 335.40625,
+        "width": 784.0,
+        "height": 166.390625
+      },
+      "name": "文章列表",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_5",
+      "source_element_ids": [
+        "e_16",
+        "e_17"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 147.0,
+        "y": 584.1875,
+        "width": 784.0,
+        "height": 72.0
+      },
+      "name": "可缩略段落",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_6",
+      "source_element_ids": [
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 147.0,
+        "y": 533.796875,
+        "width": 784.0,
+        "height": 166.390625
+      },
+      "name": "文章列表",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_7",
+      "source_element_ids": [
+        "e_19",
+        "e_20"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 499.3125,
+        "y": 741.1875,
+        "width": 431.6875,
+        "height": 18.0
+      },
+      "name": "页面底部",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_8",
+      "source_element_ids": [
+        "e_11",
+        "e_12",
+        "e_13",
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 147.0,
+        "y": 335.40625,
+        "width": 784.0,
+        "height": 364.78125
+      },
+      "name": "文章列表组",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_9",
+      "source_element_ids": [
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 959.0,
+        "y": 361.265625,
+        "width": 179.0,
+        "height": 370.0
+      },
+      "name": "目录",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_10",
+      "source_element_ids": [
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 959.0,
+        "y": 333.40625,
+        "width": 179.0,
+        "height": 397.859375
+      },
+      "name": "目录整体",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_11",
+      "source_element_ids": [
+        "e_37",
+        "e_38"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 959.0,
+        "y": 761.265625,
+        "width": 179.0,
+        "height": 38.734375
+      },
+      "name": "网站补充信息",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_2",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_3",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_4",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_5",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_6",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_7",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_8",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_9",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_10",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_11",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "e_10",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_1",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_2",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_3",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_4",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_6",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_7",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_9",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_12",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_13",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_11",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_14",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "g_3",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_16",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "g_5",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_15",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_18",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_7",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_19",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_8",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "g_4",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "g_6",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_22",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_23",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_24",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_25",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_26",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_27",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_28",
+      "order": 6,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_29",
+      "order": 7,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_30",
+      "order": 8,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_31",
+      "order": 9,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_32",
+      "order": 10,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_33",
+      "order": 11,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_34",
+      "order": 12,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_35",
+      "order": 13,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_36",
+      "order": 14,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_10",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "g_9",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_21",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_11",
+      "order": 6,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_37",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_38",
+      "order": 1,
+      "confidence": 1.0
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1429",
+    "label_source": "human_ai_adjudicated_gold",
+    "status": "complete",
+    "adjudication_status": "finalized",
+    "gold_finalized": true,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "1429",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "3168f0217e1ba38f7d1f761e447e676fc0fad44d2de8d0767ac800e563edcc32",
+    "ai_annotation_sha256": "abccc55c5335525c70ba3e0459f78a2d1c6235495c5b3751ab167a7a7cdf3c69",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_by": "赵志鹏",
+    "reviewed_at": "2026-08-13T15:20:45+08:00",
+    "review_notes": "以人工标注为准",
+    "ai_assistance_disclosed": true,
+    "adjudication_record": "data/annotations/intent_pilot_v1/adjudication/1429.json"
+  }
+}

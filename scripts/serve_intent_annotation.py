@@ -22,7 +22,12 @@ STATIC_DIR = REPO_ROOT / "annotation_app"
 
 class AnnotationHandler(BaseHTTPRequestHandler):
     store: AnnotationStore
-    adjudication_store: AdjudicationStore
+    adjudication_store: AdjudicationStore | None
+
+    def _require_adjudication(self) -> AdjudicationStore:
+        if self.adjudication_store is None:
+            raise ValueError("当前标注包尚未启用人机差异仲裁。")
+        return self.adjudication_store
 
     def _json(self, payload, status: int = 200) -> None:
         encoded = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -60,14 +65,18 @@ class AnnotationHandler(BaseHTTPRequestHandler):
         try:
             if parsed.path == "/api/assignment":
                 payload = self.store.assignment_payload()
-                payload["adjudication"] = self.adjudication_store.summary()
+                payload["adjudication"] = (
+                    self.adjudication_store.summary()
+                    if self.adjudication_store is not None
+                    else None
+                )
                 self._json(payload)
                 return
             if parsed.path == "/api/adjudication":
-                self._json(self.adjudication_store.summary())
+                self._json(self._require_adjudication().summary())
                 return
             if len(parts) == 3 and parts[:2] == ["api", "adjudication"]:
-                self._json(self.adjudication_store.payload(parts[2]))
+                self._json(self._require_adjudication().payload(parts[2]))
                 return
             if len(parts) == 4 and parts[:2] == ["api", "sample"]:
                 sample_id, resource = parts[2], parts[3]
@@ -107,7 +116,7 @@ class AnnotationHandler(BaseHTTPRequestHandler):
                     raise ValueError("请求体尺寸非法。")
                 payload = json.loads(self.rfile.read(length))
                 submit = parse_qs(parsed.query).get("submit", ["0"])[0] == "1"
-                result = self.adjudication_store.save(
+                result = self._require_adjudication().save(
                     parts[2],
                     payload.get("draft", {}),
                     review_payload=payload.get("review"),
@@ -152,8 +161,15 @@ def main() -> None:
     AnnotationHandler.store = AnnotationStore(
         REPO_ROOT, REPO_ROOT / args.package_dir
     )
-    AnnotationHandler.adjudication_store = AdjudicationStore(
-        REPO_ROOT, REPO_ROOT / args.package_dir
+    package_dir = REPO_ROOT / args.package_dir
+    has_adjudication = all(
+        (package_dir / directory).is_dir()
+        for directory in ("annotator_ai", "adjudication", "gold_drafts")
+    )
+    AnnotationHandler.adjudication_store = (
+        AdjudicationStore(REPO_ROOT, package_dir)
+        if has_adjudication
+        else None
     )
     server = ThreadingHTTPServer((args.host, args.port), AnnotationHandler)
     print(f"Intent Annotator: http://{args.host}:{args.port}")

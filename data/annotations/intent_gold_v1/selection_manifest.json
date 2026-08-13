@@ -1,0 +1,4366 @@
+{
+  "schema_version": "1.0",
+  "purpose": "formal_design_intent_gold_v1",
+  "created_date": "2026-08-13",
+  "seed": 20260813,
+  "sampling_strategy": {
+    "fixed_split": "data/intent_pilot_split.json",
+    "split_targets": {
+      "train": 30,
+      "validation": 10,
+      "test": 20
+    },
+    "size_targets": {
+      "train": {
+        "small": 10,
+        "medium": 15,
+        "large": 5
+      },
+      "validation": {
+        "small": 3,
+        "medium": 4,
+        "large": 3
+      },
+      "test": {
+        "small": 7,
+        "medium": 12,
+        "large": 1
+      }
+    },
+    "token_rich_minimums_for_new_samples": {
+      "train": 12,
+      "validation": 4,
+      "test": 8
+    },
+    "token_evidence": "page_graph_repeated_computed_styles_without_weak_labels",
+    "near_duplicate": "dhash_16x16_hamming_le_12",
+    "quality_gate": "8_to_180_nodes_luminance_std_ge_10_no_explicit_adult_or_gambling_terms_no_mass_tiny_image_failure_then_visual_review",
+    "warning": "样式富集用于覆盖 Token 标注，不代表自然网页总体分布。"
+  },
+  "visual_review": {
+    "status": "complete",
+    "completed_date": "2026-08-13",
+    "scope": "contact_sheet_and_full_resolution_review_of_suspected_failures"
+  },
+  "existing_gold_ids": [
+    "0001",
+    "0020",
+    "0052",
+    "0319",
+    "0419",
+    "0601",
+    "0860",
+    "0937",
+    "1094",
+    "1429"
+  ],
+  "annotation_required_ids": [
+    "0044",
+    "0051",
+    "0055",
+    "0074",
+    "0079",
+    "0115",
+    "0118",
+    "0144",
+    "0155",
+    "0165",
+    "0213",
+    "0237",
+    "0304",
+    "0408",
+    "0409",
+    "0412",
+    "0431",
+    "0446",
+    "0540",
+    "0544",
+    "0553",
+    "0616",
+    "0620",
+    "0697",
+    "0827",
+    "0832",
+    "0837",
+    "0995",
+    "0996",
+    "1001",
+    "1030",
+    "1035",
+    "1083",
+    "1084",
+    "1111",
+    "1118",
+    "1203",
+    "1272",
+    "1292",
+    "1302",
+    "1328",
+    "1365",
+    "1373",
+    "1416",
+    "1435",
+    "1437",
+    "1486",
+    "1503",
+    "1517",
+    "1528"
+  ],
+  "splits": {
+    "train": [
+      "0001",
+      "0020",
+      "0051",
+      "0074",
+      "0115",
+      "0155",
+      "0319",
+      "0408",
+      "0409",
+      "0412",
+      "0419",
+      "0431",
+      "0544",
+      "0616",
+      "0620",
+      "0697",
+      "0827",
+      "0832",
+      "0860",
+      "0937",
+      "0996",
+      "1001",
+      "1035",
+      "1094",
+      "1118",
+      "1302",
+      "1365",
+      "1416",
+      "1486",
+      "1528"
+    ],
+    "validation": [
+      "0079",
+      "0118",
+      "0144",
+      "0304",
+      "0553",
+      "0601",
+      "1030",
+      "1111",
+      "1292",
+      "1517"
+    ],
+    "test": [
+      "0044",
+      "0052",
+      "0055",
+      "0165",
+      "0213",
+      "0237",
+      "0446",
+      "0540",
+      "0837",
+      "0995",
+      "1083",
+      "1084",
+      "1203",
+      "1272",
+      "1328",
+      "1373",
+      "1429",
+      "1435",
+      "1437",
+      "1503"
+    ]
+  },
+  "summary": {
+    "total": 60,
+    "by_split": {
+      "test": 20,
+      "train": 30,
+      "validation": 10
+    },
+    "by_size": {
+      "large": 9,
+      "medium": 31,
+      "small": 20
+    },
+    "by_page_type": {
+      "commerce": 11,
+      "content": 7,
+      "form": 8,
+      "generic": 4,
+      "list": 14,
+      "navigation": 6,
+      "table": 10
+    },
+    "token_rich_candidates": 35
+  },
+  "visual_exclusions": [
+    {
+      "sample_id": "0040",
+      "reason": "页面以成人倾向的缩略图图库为主体，不适合作为通用设计意图标注样本"
+    },
+    {
+      "sample_id": "0103",
+      "reason": "页面存在大片空白、区块截断和表格区域错位"
+    },
+    {
+      "sample_id": "0111",
+      "reason": "旧式表单组件布局松散，多个区域边界和控件排列失序"
+    },
+    {
+      "sample_id": "0142",
+      "reason": "表单与表格样式严重冲突，红色区块覆盖且布局失序"
+    },
+    {
+      "sample_id": "0317",
+      "reason": "多列筛选表单出现明显错位、重叠与不完整渲染"
+    },
+    {
+      "sample_id": "0341",
+      "reason": "主体为无内容的大面积深灰占位区，首屏有效设计信息不足"
+    },
+    {
+      "sample_id": "0368",
+      "reason": "页面仅包含重复图片与极少结构信息，设计意图标注价值过低"
+    },
+    {
+      "sample_id": "0602",
+      "reason": "表格与表单控件边界明显重叠，页面结构呈现不完整"
+    },
+    {
+      "sample_id": "0876",
+      "reason": "表格与输入控件拥挤错位，多个区域边界相互覆盖"
+    },
+    {
+      "sample_id": "1233",
+      "reason": "首屏大面积空白且主要内容过少，疑似资源或内容加载不完整"
+    },
+    {
+      "sample_id": "1136",
+      "reason": "原始截图仅由同一张风景图片重复铺放，缺少可用于设计意图标注的页面结构"
+    },
+    {
+      "sample_id": "1370",
+      "reason": "原始截图存在多处破损图片，关键页面内容未成功加载"
+    },
+    {
+      "sample_id": "1532",
+      "reason": "原始截图中的表格与输入控件跨列错位，页面布局明显失序"
+    },
+    {
+      "sample_id": "0439",
+      "reason": "页头、说明区和列表图标均存在破损图片，核心视觉资源加载失败"
+    },
+    {
+      "sample_id": "1436",
+      "reason": "页面存在破损头像资源，且导航和表单控件样式明显缺失"
+    },
+    {
+      "sample_id": "1483",
+      "reason": "页面品牌头图加载失败，不满足正式 Gold 的视觉完整性要求"
+    },
+    {
+      "sample_id": "1509",
+      "reason": "页头、主内容图和联系图标等多处核心图片加载失败"
+    },
+    {
+      "sample_id": "1529",
+      "reason": "首屏主视觉大图加载失败，关键页面内容不完整"
+    },
+    {
+      "sample_id": "0335",
+      "reason": "主内容图片加载失败并留下大面积空白，页面信息明显不完整"
+    },
+    {
+      "sample_id": "0715",
+      "reason": "站点品牌标识图片加载失败，不满足正式 Gold 的视觉完整性要求"
+    },
+    {
+      "sample_id": "0741",
+      "reason": "与已排除样本 1509 属同一缺陷模板，页头和主内容等核心图片均加载失败"
+    },
+    {
+      "sample_id": "1150",
+      "reason": "页面包含成人导流文本且多个内容图标加载失败，不适合作为通用正式 Gold"
+    },
+    {
+      "sample_id": "1303",
+      "reason": "页头和站点标识等多处资源加载失败，页面视觉信息不完整"
+    },
+    {
+      "sample_id": "0535",
+      "reason": "与样本 1303 属同一缺陷论坛模板，页头和站点标识等资源加载失败"
+    },
+    {
+      "sample_id": "1170",
+      "reason": "主体图片加载失败并形成大面积无效空白，页面视觉内容不完整"
+    },
+    {
+      "sample_id": "1492",
+      "reason": "页面为明确的成人视频索引，不适合作为通用设计意图正式 Gold"
+    },
+    {
+      "sample_id": "0506",
+      "reason": "页头、主图均加载失败，嵌入视频播放器同时显示错误状态"
+    },
+    {
+      "sample_id": "1117",
+      "reason": "页面主体大图加载失败并形成大面积无效空白"
+    },
+    {
+      "sample_id": "1273",
+      "reason": "品牌图片加载失败且页面主要样式缺失，视觉呈现不完整"
+    },
+    {
+      "sample_id": "0005",
+      "reason": "页面品牌图和多张正文缩略图均加载失败，视觉内容不完整"
+    },
+    {
+      "sample_id": "0015",
+      "reason": "课程列表中的站点标识和全部课程图标均退化为破损图片"
+    },
+    {
+      "sample_id": "1501",
+      "reason": "页面导航与内容区域存在大量破损图片，布局和视觉信息不完整"
+    },
+    {
+      "sample_id": "0436",
+      "reason": "页面文本编码异常、主体内容缺失且整体结构呈现失序"
+    },
+    {
+      "sample_id": "0505",
+      "reason": "站点品牌资源加载失败且页面主要样式缺失，视觉呈现不完整"
+    },
+    {
+      "sample_id": "0542",
+      "reason": "页头和主内容图片均加载失败，关键视觉信息缺失"
+    },
+    {
+      "sample_id": "1227",
+      "reason": "与样本 0051 属于同一关注列表产品模板，为减少语义近重复仅保留 0051"
+    },
+    {
+      "sample_id": "0131",
+      "reason": "页面页头与多处站点标识图片加载失败，关键视觉资源缺失"
+    },
+    {
+      "sample_id": "0229",
+      "reason": "商品主图和用户头像等关键图片加载失败，页面内容不完整"
+    },
+    {
+      "sample_id": "0866",
+      "reason": "与样本 0051 属于同一关注列表产品模板，为减少语义近重复仅保留 0051"
+    },
+    {
+      "sample_id": "1310",
+      "reason": "与样本 0542 属同一新闻模板，主内容图片均加载失败"
+    }
+  ],
+  "prior_pilot_rejections": [
+    {
+      "sample_id": "0733",
+      "reason": "截图存在大量破损图片、外部资源加载失败与严重布局失序，不满足人工金标准 Pilot 的页面质量要求"
+    },
+    {
+      "sample_id": "1248",
+      "reason": "筛选与导航区域样式加载不完整，首屏结构明显失真，不满足人工金标准 Pilot 的页面质量要求"
+    },
+    {
+      "sample_id": "1467",
+      "reason": "顶部导航严重重叠且首屏布局失序，不满足人工金标准 Pilot 的页面质量要求"
+    },
+    {
+      "sample_id": "0884",
+      "reason": "首屏商品列表存在大量内容缺失与空白控件，页面实现信息不完整，不满足人工金标准 Pilot 的页面质量要求"
+    },
+    {
+      "sample_id": "1474",
+      "reason": "页面样式与列表组件堆叠失序，不满足人工金标准 Pilot 的页面质量要求；替换为结构清晰的商业目录结果页"
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "0001",
+      "split": "train",
+      "node_count": 12,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "921c95e3268d3faa",
+      "duplicate_cluster": "0001",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 9.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 4
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 4
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 243.401,
+        "luminance_std": 44.453,
+        "score": 0.6153
+      },
+      "asset_sha256": {
+        "screenshot": "dcdf58b9321411eb8cf832ee77cba43f00573b6fa039f3a374467971ead31050",
+        "page_graph": "bd2a7c10910e93023c7d2f498ad0eff49d703dc9500aeb94aace00ebb7e3d77f"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.665976,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "0020",
+      "split": "train",
+      "node_count": 70,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "59fe5ff5ff2358a1",
+      "duplicate_cluster": "0020",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 20.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 14
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 7
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 5
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 183.111,
+        "luminance_std": 74.984,
+        "score": 0.9448
+      },
+      "asset_sha256": {
+        "screenshot": "85ac79c561a7ea6671b54d1529df0fc4aef9c28213f1600010af15bb86b4b029",
+        "page_graph": "bcef6916667e63032f76deece9a32b39d6eba8e0dc4303e7edceee8d5acf250f"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 4,
+        "tiny_image_count": 2,
+        "tiny_image_ratio": 0.5,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.60187,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "0044",
+      "split": "test",
+      "node_count": 117,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "b18b1dc432f0c72f",
+      "duplicate_cluster": "0044",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 51.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 54
+          },
+          "TEXT": {
+            "repeated_patterns": 8,
+            "repeated_members": 38
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 12
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 21
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 241.553,
+        "luminance_std": 44.841,
+        "score": 0.6229
+      },
+      "asset_sha256": {
+        "screenshot": "d84b5f325931f744a065293f4b53c375885affa07a5e1031154c60977a910728",
+        "page_graph": "d60c1ff1e3bdbe6d21b11f793d62df92b2a6a38270af4fb144f22e5a0be5ff35"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.580935,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0051",
+      "split": "train",
+      "node_count": 176,
+      "size_bin": "large",
+      "page_type": "commerce",
+      "structure_fingerprint": "bdd4bc1ea8bcbb1d",
+      "duplicate_cluster": "0051",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 48.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 49
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 24
+          },
+          "RADIUS": {
+            "repeated_patterns": 2,
+            "repeated_members": 26
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 20
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 248.722,
+        "luminance_std": 31.225,
+        "score": 0.4514
+      },
+      "asset_sha256": {
+        "screenshot": "d427c78521255844d49306866aa2bed374aaaf2c860c964f9dfcda8a338c6115",
+        "page_graph": "0d370e55e83ea0f4cb5c9699f5e0b4dd3936901b58ccafd13700b0cb0d952457"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 9,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.980744,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0052",
+      "split": "test",
+      "node_count": 141,
+      "size_bin": "large",
+      "page_type": "commerce",
+      "structure_fingerprint": "5a610a8ed775d05c",
+      "duplicate_cluster": "0052",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 52.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 7,
+            "repeated_members": 40
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 31
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 7
+          },
+          "SPACING": {
+            "repeated_patterns": 5,
+            "repeated_members": 32
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 195.737,
+        "luminance_std": 74.551,
+        "score": 0.9238
+      },
+      "asset_sha256": {
+        "screenshot": "c2e69a6d907122ffd569963e61f47b337d3ebd30f05cd074e30152882884877a",
+        "page_graph": "2f27bd04353380fede59204409b1ac755cc0333233f001446a8c5dc7c70ca368"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 6,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.7714,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "0055",
+      "split": "test",
+      "node_count": 85,
+      "size_bin": "medium",
+      "page_type": "navigation",
+      "structure_fingerprint": "547afa93d7b1efb8",
+      "duplicate_cluster": "0055",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 29.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 22
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 19
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 15
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 239.898,
+        "luminance_std": 39.343,
+        "score": 0.5612
+      },
+      "asset_sha256": {
+        "screenshot": "97b99298cd9bc9b4f91180142089f1d785c6eeece86d419fadfc16b3a4eaf54d",
+        "page_graph": "b8e77896bb9150bf6995268e754a326bd045a433f648149be18332dea2fd55f1"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.432538,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0074",
+      "split": "train",
+      "node_count": 121,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "69bf79925e544d54",
+      "duplicate_cluster": "0074",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 42.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 44
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 31
+          },
+          "RADIUS": {
+            "repeated_patterns": 2,
+            "repeated_members": 42
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 34
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 146.538,
+        "luminance_std": 105.553,
+        "score": 0.9942
+      },
+      "asset_sha256": {
+        "screenshot": "31631402e812dfa02a75843aab199eee8cd7caa8368e9933fc69fef0cff7fd3a",
+        "page_graph": "382ed2326bcd5500acd10a6a0a7bfee3b75ccb78da7e5f167cff6894fe2a98bc"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.885372,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0079",
+      "split": "validation",
+      "node_count": 63,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "46b184297e44cff6",
+      "duplicate_cluster": "0079",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 36.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 24
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 15
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 12
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 223.973,
+        "luminance_std": 63.561,
+        "score": 0.8716
+      },
+      "asset_sha256": {
+        "screenshot": "7ca0c154699068161e2ed1da384c0c2e709fcb093fdfb0685e0d69b37885f2a8",
+        "page_graph": "0abbf8c53844f9069bede03fc4305ed6527a915b83d296627bb9a3918a91e169"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 4,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.077045,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0115",
+      "split": "train",
+      "node_count": 96,
+      "size_bin": "medium",
+      "page_type": "navigation",
+      "structure_fingerprint": "aea4cd48fdd49671",
+      "duplicate_cluster": "0115",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 22.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 39
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 36
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 231.586,
+        "luminance_std": 64.99,
+        "score": 0.864
+      },
+      "asset_sha256": {
+        "screenshot": "0bb70dabb010c7395094a533f939afa733ee48ec3200d2b84f750cb184293280",
+        "page_graph": "35640522b5ec3f82fc9f28d8e40a449a675f3149a9155063ee1c3e69e0f4af70"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.668457,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0118",
+      "split": "validation",
+      "node_count": 25,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "eb06d33dae9eb8cf",
+      "duplicate_cluster": "0118",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 5.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 1,
+            "repeated_members": 5
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 5
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 165.549,
+        "luminance_std": 78.109,
+        "score": 0.9741
+      },
+      "asset_sha256": {
+        "screenshot": "b9aa31105019d4ead8d1963413bdbb87494fcfa0bb219d07cb6d32ae4f4ee5fd",
+        "page_graph": "9ec9c82e34821ca0e75a4f4ee63106e2e32b2d422d0daec080f1b4684d730cfc"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.352185,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0144",
+      "split": "validation",
+      "node_count": 68,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "9c4ebfe1af0f0778",
+      "duplicate_cluster": "0144",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 43.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 31
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 27
+          },
+          "SPACING": {
+            "repeated_patterns": 6,
+            "repeated_members": 26
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 221.268,
+        "luminance_std": 64.7,
+        "score": 0.8812
+      },
+      "asset_sha256": {
+        "screenshot": "fbefd14c2e22bdc521cfa231dbe0678469fe62a33e048dc5563a52117b2b40c2",
+        "page_graph": "be0fb2975f8a2747ee674f484cfa37397ca58629d746be5d1b56bc31cbf1a293"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.776092,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0155",
+      "split": "train",
+      "node_count": 40,
+      "size_bin": "small",
+      "page_type": "generic",
+      "structure_fingerprint": "37c2adcf4ac7272c",
+      "duplicate_cluster": "0155",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 23.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 20
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 16
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 6
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 81.926,
+        "luminance_std": 75.577,
+        "score": 0.8865
+      },
+      "asset_sha256": {
+        "screenshot": "a86750fe255885efc5b081a8a84e9ac93cf888b19b64b4d0df7b36a1c4b434d3",
+        "page_graph": "ea3d4b29192c09503a4bc595febbb14fa3dfa31a0dfa3a99e513497700fdfeed"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.985979,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0165",
+      "split": "test",
+      "node_count": 63,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "43de5763884176b3",
+      "duplicate_cluster": "0165",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 37.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 31
+          },
+          "TEXT": {
+            "repeated_patterns": 6,
+            "repeated_members": 27
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 13
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 229.926,
+        "luminance_std": 52.284,
+        "score": 0.7295
+      },
+      "asset_sha256": {
+        "screenshot": "a1b66c8182646d10baaab5b441195048a5e19c1aac7d1a52737528b6f5031465",
+        "page_graph": "64f19ec88317a07528b50d687b57e8cfffaf9094efbe34ffd1fd000673aec2f2"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.670692,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0213",
+      "split": "test",
+      "node_count": 20,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "ba1abf63ff1ac761",
+      "duplicate_cluster": "0213",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 5.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 1,
+            "repeated_members": 4
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 108.792,
+        "luminance_std": 83.711,
+        "score": 0.9313
+      },
+      "asset_sha256": {
+        "screenshot": "505799e00861fc9f5ce0751977c5ee209fec1b86a2d60a8933e98637fb586766",
+        "page_graph": "a644c9b71dcafdb795df9822d60b7de97e00e8e7d22ebbb8e92c6b85ecc6f657"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.558497,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0237",
+      "split": "test",
+      "node_count": 88,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "68b73bfb8597a098",
+      "duplicate_cluster": "0237",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 36.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 30
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 17
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 11
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 200.887,
+        "luminance_std": 76.965,
+        "score": 0.9152
+      },
+      "asset_sha256": {
+        "screenshot": "74cb776e7c9653cf4e4df3657aaa3c304cdbd81b6bea8f6ed292f9e70b9a55f3",
+        "page_graph": "bb89da4cba1d0dc2fb49ca77a5d00ee560ac3216807283b6a2e3b20a08bd77c1"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 2,
+        "tiny_image_ratio": 0.6667,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.944432,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0304",
+      "split": "validation",
+      "node_count": 130,
+      "size_bin": "large",
+      "page_type": "table",
+      "structure_fingerprint": "b0f70e83f41587d9",
+      "duplicate_cluster": "0304",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 39.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 41
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 33
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 42
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 216.782,
+        "luminance_std": 48.651,
+        "score": 0.7088
+      },
+      "asset_sha256": {
+        "screenshot": "8499476e70ff02a5f3b3e57a7b0bd543a8b6fa18293b7192f2effdb42bda0b0b",
+        "page_graph": "30dd59d4c62a7221e322fdd0338a44f2916f1be2412dc93009297c475eb18b67"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.318439,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0319",
+      "split": "train",
+      "node_count": 50,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "0daae4dfac1f75d2",
+      "duplicate_cluster": "0319",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 24.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 14
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 11
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 14
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 196.686,
+        "luminance_std": 70.873,
+        "score": 0.9222
+      },
+      "asset_sha256": {
+        "screenshot": "64e45271c693b6c9cb57387d625aeefdad08e4a517c136c3a6c03188a6c9ea4f",
+        "page_graph": "2ee75cb7ebf5329bbbb03b779417bb7acfc91a89f3f5639c474a28afca84443b"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.445946,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "0408",
+      "split": "train",
+      "node_count": 75,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "c22300a86af6eaff",
+      "duplicate_cluster": "0408",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 29.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 21
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 20
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 6
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 125.499,
+        "luminance_std": 86.606,
+        "score": 0.9592
+      },
+      "asset_sha256": {
+        "screenshot": "069da1d865435d5a3118fe3b787d767e801e713b38aec5312ee4ce7de37a0584",
+        "page_graph": "517fe41993f38e2465ca1de2199ed78e3a78ff225d9bae3ff113fe927a930c8e"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.052764,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0409",
+      "split": "train",
+      "node_count": 34,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "eacce2a6010f2c9e",
+      "duplicate_cluster": "0409",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 16.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 12
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 12
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 165.885,
+        "luminance_std": 88.005,
+        "score": 0.9735
+      },
+      "asset_sha256": {
+        "screenshot": "875f0ddced721fa1787135e835fe1137655fd3ad159e4332f9d9f0717c331597",
+        "page_graph": "b130393fddca8f116969fd0de9634a38381f5c4fdb16cb506724c0c38d47b158"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.314401,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0412",
+      "split": "train",
+      "node_count": 118,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "6af306b150b4a705",
+      "duplicate_cluster": "0412",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 37.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 68
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 57
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 22
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 169.536,
+        "luminance_std": 62.562,
+        "score": 0.9506
+      },
+      "asset_sha256": {
+        "screenshot": "85640dbf293987b8851f8a46253d0df1a9aa1a2411514d2f3236e31147623da8",
+        "page_graph": "7957acba9b74cbb5e7299714bb30da8b125a98f22b6f93edfa33a190ac276470"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.747908,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0419",
+      "split": "train",
+      "node_count": 38,
+      "size_bin": "small",
+      "page_type": "navigation",
+      "structure_fingerprint": "1521dfcc24c14221",
+      "duplicate_cluster": "0419",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 23.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 15
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 12
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 8
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 173.051,
+        "luminance_std": 98.509,
+        "score": 0.9616
+      },
+      "asset_sha256": {
+        "screenshot": "0343fd8b30c493a67f17088caa7e6b5bdd65cd293db8c179edef3bebe6ce5bba",
+        "page_graph": "4155d326835ffeaa7374691642c697188df7198e53717ab3e62d5ef9c74209eb"
+      },
+      "content_safety_flags": [
+        "gambling"
+      ],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": false,
+      "token_rich_candidate": false,
+      "selection_noise": 0.449615,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "0431",
+      "split": "train",
+      "node_count": 31,
+      "size_bin": "small",
+      "page_type": "commerce",
+      "structure_fingerprint": "7cedd808ebfb5d48",
+      "duplicate_cluster": "0431",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 15.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 6
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 4
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 10
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 147.901,
+        "luminance_std": 80.607,
+        "score": 0.9965
+      },
+      "asset_sha256": {
+        "screenshot": "f723dda00024d5fe3bfa86659e25ffd4fffec5c099143c5d1b1bbd1b92972cd4",
+        "page_graph": "9ab63685c64c731a0b1dab44e84be8ac20502757285ce57031fbe04aaee0f075"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 2,
+        "tiny_image_ratio": 0.6667,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.813158,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0446",
+      "split": "test",
+      "node_count": 42,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "4f5a5119d71ac146",
+      "duplicate_cluster": "0446",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 35.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 23
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 21
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 15
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 244.296,
+        "luminance_std": 37.723,
+        "score": 0.5349
+      },
+      "asset_sha256": {
+        "screenshot": "e8d6ea859c40bbfeb1fd16772303204f0da545a17d154d9bd74069678ee11e80",
+        "page_graph": "4a07eeb259ecc68eff3823a6813c903399bdede05e4f48fd4cff37cb2b0b1df7"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.761355,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0540",
+      "split": "test",
+      "node_count": 47,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "ba160bcfaee08525",
+      "duplicate_cluster": "0540",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 23.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 22
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 16
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 4
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 244.728,
+        "luminance_std": 33.805,
+        "score": 0.4883
+      },
+      "asset_sha256": {
+        "screenshot": "0d442bf991bf5dc450c477c190ed58374da91710884f421d9cca54ce9e8321cf",
+        "page_graph": "d3def0f3c8d6499c039cb344e43727dda38baab937a4f9f52eacaa77f741e62d"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.529997,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0544",
+      "split": "train",
+      "node_count": 85,
+      "size_bin": "medium",
+      "page_type": "generic",
+      "structure_fingerprint": "8f5978532797029d",
+      "duplicate_cluster": "0544",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 45.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 70
+          },
+          "TEXT": {
+            "repeated_patterns": 6,
+            "repeated_members": 60
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 49
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 228.125,
+        "luminance_std": 46.949,
+        "score": 0.67
+      },
+      "asset_sha256": {
+        "screenshot": "b28398ce228437f4605c13722931581299b714575c31cd63ef2a40add18a631e",
+        "page_graph": "5f17fe036be92163eb54e3ffa48c04a1802ff4d7c842fcc4b377d8091d06ea21"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.042466,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0553",
+      "split": "validation",
+      "node_count": 30,
+      "size_bin": "small",
+      "page_type": "navigation",
+      "structure_fingerprint": "3a38c9df965b66d8",
+      "duplicate_cluster": "0553",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 9.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 1,
+            "repeated_members": 11
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 8
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 245.429,
+        "luminance_std": 32.72,
+        "score": 0.4744
+      },
+      "asset_sha256": {
+        "screenshot": "e2a71ff61cf392fe68fbcbe840aa20410c7ae0dc8bcd55e2540eac7d1ad0b480",
+        "page_graph": "22a1e96632911d61ea7c2122c841d8670c5d03336ca4d14352fcb89536f5c53b"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.834265,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0601",
+      "split": "validation",
+      "node_count": 152,
+      "size_bin": "large",
+      "page_type": "table",
+      "structure_fingerprint": "19f42bf51def64aa",
+      "duplicate_cluster": "0601",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 37.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 74
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 62
+          },
+          "SPACING": {
+            "repeated_patterns": 5,
+            "repeated_members": 76
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 249.088,
+        "luminance_std": 32.126,
+        "score": 0.4613
+      },
+      "asset_sha256": {
+        "screenshot": "7fa4dcfb07c510aff88571a54265c463716ef63fbae1108cab8dd2400ade7aff",
+        "page_graph": "bda994b1d2eb2be54234b7dabb94638a64497ffc3550f561c08229ffb23b56ef"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.82775,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "0616",
+      "split": "train",
+      "node_count": 112,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "c74b998d82e3c261",
+      "duplicate_cluster": "0616",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 86.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 11,
+            "repeated_members": 60
+          },
+          "TEXT": {
+            "repeated_patterns": 16,
+            "repeated_members": 52
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 8
+          },
+          "SPACING": {
+            "repeated_patterns": 7,
+            "repeated_members": 55
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 234.599,
+        "luminance_std": 63.562,
+        "score": 0.8539
+      },
+      "asset_sha256": {
+        "screenshot": "84bfeac8e2ec4185a27f419d325fd33985c1080930e6cecdecb9f3ac6fea920e",
+        "page_graph": "649cd101de6117c601696775adf7cf3ffa1988732df946d3a721ed3cab89c6a7"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 1.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.806801,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0620",
+      "split": "train",
+      "node_count": 67,
+      "size_bin": "medium",
+      "page_type": "content",
+      "structure_fingerprint": "1f11fb887a48ad44",
+      "duplicate_cluster": "0620",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 32.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 19
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 4
+          },
+          "SPACING": {
+            "repeated_patterns": 5,
+            "repeated_members": 15
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 245.277,
+        "luminance_std": 43.529,
+        "score": 0.6013
+      },
+      "asset_sha256": {
+        "screenshot": "ee8b91db9b302ad7bfd49a0bca55ff86e9d1695b01ded0d774eda243d71c1187",
+        "page_graph": "bcbd6246d4aa2ae1a78feeb6e4282e8f5eab1289bfc54d252986c1bd0fef326b"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.686929,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0697",
+      "split": "train",
+      "node_count": 30,
+      "size_bin": "small",
+      "page_type": "navigation",
+      "structure_fingerprint": "430076285b0ab556",
+      "duplicate_cluster": "0697",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 12.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 7
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 5
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 157.236,
+        "luminance_std": 96.462,
+        "score": 0.9879
+      },
+      "asset_sha256": {
+        "screenshot": "10b56f0a05e8b78504ad9182f2a1cff67fe5a5da4ac86a3064e7e86d2246180b",
+        "page_graph": "946d03df2c032f53d99865bb5a89ab8bf9f5ab84a3228d0f3735dc122e773991"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.657927,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0827",
+      "split": "train",
+      "node_count": 133,
+      "size_bin": "large",
+      "page_type": "table",
+      "structure_fingerprint": "206ae4084a93a620",
+      "duplicate_cluster": "0827",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 40.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 7,
+            "repeated_members": 63
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 24
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 50
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 225.664,
+        "luminance_std": 42.742,
+        "score": 0.6248
+      },
+      "asset_sha256": {
+        "screenshot": "8b0b0bb2781e34a385bea2a75711df1a3e87f7e480d1252cc1c8618fb917a8fa",
+        "page_graph": "ef099d9bc5b4ce2dbfb99e4052b22d20431008a717ba97c3a640708ec331d83e"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 0.3333,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.587608,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0832",
+      "split": "train",
+      "node_count": 92,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "fd0c522047f0389b",
+      "duplicate_cluster": "0832",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 39.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 37
+          },
+          "TEXT": {
+            "repeated_patterns": 6,
+            "repeated_members": 20
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 6
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 206.791,
+        "luminance_std": 95.271,
+        "score": 0.9053
+      },
+      "asset_sha256": {
+        "screenshot": "d139bb9c7d8259edecb4d09e94b9a99e8bdbcc68e48f976501789a4e4183bc6e",
+        "page_graph": "23cbbbf310ab1cfa97f051576717c3edcee814edac1f6ce879f548fc9a57afb0"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 0.3333,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.275309,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0837",
+      "split": "test",
+      "node_count": 13,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "b17d6c3b22b3c22c",
+      "duplicate_cluster": "0837",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 7.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 6
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 235.139,
+        "luminance_std": 46.16,
+        "score": 0.649
+      },
+      "asset_sha256": {
+        "screenshot": "77f110d540e7d819ca7cea5f2643e6322f76ab7003bffa541a46f2f72dee8b2d",
+        "page_graph": "ebfdd72a25580653485caa2c45b7c4f9fe164cdb4ec5bdd5730b7f0379ef9bc9"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.008406,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0860",
+      "split": "train",
+      "node_count": 83,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "30cddc12bd285ee2",
+      "duplicate_cluster": "0860",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 35.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 51
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 41
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 6
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 223.304,
+        "luminance_std": 74.132,
+        "score": 0.8778
+      },
+      "asset_sha256": {
+        "screenshot": "a2c403e1a77f242c3d08a97cbf33f56e67636b62ba32513b8f3def7d02b3e441",
+        "page_graph": "dc0e545238fb151d2c6fac98658be5ae0e92aa2e953af8f21297d20e9b78aa4c"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.756188,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "0937",
+      "split": "train",
+      "node_count": 135,
+      "size_bin": "large",
+      "page_type": "form",
+      "structure_fingerprint": "8b031293d51c8376",
+      "duplicate_cluster": "0937",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 70.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 7,
+            "repeated_members": 68
+          },
+          "TEXT": {
+            "repeated_patterns": 12,
+            "repeated_members": 53
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 13
+          },
+          "SPACING": {
+            "repeated_patterns": 7,
+            "repeated_members": 27
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 238.482,
+        "luminance_std": 50.067,
+        "score": 0.6893
+      },
+      "asset_sha256": {
+        "screenshot": "1ab418ed757a2b85d9b7fccf4b8ed7409b670d137fa14eb0c29154526cb7e6af",
+        "page_graph": "b13aa4883df71415a59c36f49e9a2a9c73762990059daa0d8909e5d896177bf1"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.089485,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "0995",
+      "split": "test",
+      "node_count": 124,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "32bebf9a141e258b",
+      "duplicate_cluster": "0995",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 46.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 74
+          },
+          "TEXT": {
+            "repeated_patterns": 7,
+            "repeated_members": 57
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 16
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 229.371,
+        "luminance_std": 49.979,
+        "score": 0.7034
+      },
+      "asset_sha256": {
+        "screenshot": "d5c386dbd9f155a5c197e52383e8a2b8242872f0ee2d92f2533c855f0f829af5",
+        "page_graph": "7e0ddcfc8958974f996bb30d576652cbcc3f2e9bc167b2939fbe697d10b71212"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 7,
+        "tiny_image_count": 4,
+        "tiny_image_ratio": 0.5714,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.711053,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "0996",
+      "split": "train",
+      "node_count": 111,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "158620dd209ba7ca",
+      "duplicate_cluster": "0996",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 37.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 60
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 54
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 37
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 235.758,
+        "luminance_std": 60.284,
+        "score": 0.8135
+      },
+      "asset_sha256": {
+        "screenshot": "38e27169d954f975266c0163b6dcbb14d286423fe1f61bd97c8a90ff1be0c140",
+        "page_graph": "aaf7be211930452ddc0ac40346e3c803dcdd2e20423b1c0e20136ea3429814eb"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 13,
+        "tiny_image_count": 2,
+        "tiny_image_ratio": 0.1538,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.64603,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1001",
+      "split": "train",
+      "node_count": 71,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "7e11fbedacef10ca",
+      "duplicate_cluster": "1001",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 35.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 8,
+            "repeated_members": 24
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 11
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 7
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 160.093,
+        "luminance_std": 109.391,
+        "score": 0.9832
+      },
+      "asset_sha256": {
+        "screenshot": "5e170b09ff1e3be9d96ccd091f7774cd0a1e4aed121f0aeb8dc85eba87fa8d37",
+        "page_graph": "eefe272640bf7110c3fd0de6be406034a14b3962de457a9d4bb1eec8c98d0081"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 4,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.475608,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1030",
+      "split": "validation",
+      "node_count": 154,
+      "size_bin": "large",
+      "page_type": "commerce",
+      "structure_fingerprint": "86a8707313207cb8",
+      "duplicate_cluster": "0262",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 10.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 1,
+            "repeated_members": 10
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 10
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 4
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 209.023,
+        "luminance_std": 75.349,
+        "score": 0.9016
+      },
+      "asset_sha256": {
+        "screenshot": "8dc6232650caace6f50c2501a46b74fab227bc6806d784d617ce3aaaab349fa7",
+        "page_graph": "ad4c221ec2a7bd4ce88d649aa8120ddcab0113e06d19c1e92bdd3ea78da3175a"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 61,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 0.0164,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.888783,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1035",
+      "split": "train",
+      "node_count": 30,
+      "size_bin": "small",
+      "page_type": "generic",
+      "structure_fingerprint": "c823b4c2d98dd89a",
+      "duplicate_cluster": "1035",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 15.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 13
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 4
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 156.207,
+        "luminance_std": 113.402,
+        "score": 0.9897
+      },
+      "asset_sha256": {
+        "screenshot": "49641993fe371536a354cb88e5c38cda0b455444011328cd918afb72ea865944",
+        "page_graph": "a7bdc9dd04628d0116b5497738d51af46dfea924bb0870b0eda0073c324f9ffd"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.608167,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1083",
+      "split": "test",
+      "node_count": 90,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "3fa7210d7477cfdd",
+      "duplicate_cluster": "1083",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 40.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 30
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 18
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 10
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 241.974,
+        "luminance_std": 42.824,
+        "score": 0.5986
+      },
+      "asset_sha256": {
+        "screenshot": "4a159ddba909e1fa5031e6b987cdb666e4f79942b6d2b4202b243cb5c12e66ce",
+        "page_graph": "20b57a7f82cfc2913f81e0023ae3260fa7efa7c2650d5702f42ea63315dd7bbc"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 5,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.335938,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1084",
+      "split": "test",
+      "node_count": 97,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "d31bf05c752a368f",
+      "duplicate_cluster": "1084",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 18.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 20
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 17
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 213.048,
+        "luminance_std": 69.603,
+        "score": 0.8949
+      },
+      "asset_sha256": {
+        "screenshot": "d4c7808931847cf6d8b4f15e103039f12dd21a79401959f94d8fc9363563c866",
+        "page_graph": "254857bac8f88bbf09077f2ab0907e7ab7b66b34c3bd11e68ea4df026032d724"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 1.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.44438,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1094",
+      "split": "train",
+      "node_count": 51,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "a0e3537888f40d2a",
+      "duplicate_cluster": "1094",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 33.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 14
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 10
+          },
+          "SPACING": {
+            "repeated_patterns": 5,
+            "repeated_members": 20
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 230.676,
+        "luminance_std": 52.708,
+        "score": 0.7332
+      },
+      "asset_sha256": {
+        "screenshot": "76b3165e62c2e2be3f1ea1c21bda5b567ce9090c55a95374c55fcbaa9ca0d671",
+        "page_graph": "d1ea79e785133079fa018a87249a980be31d749ecb3308d80b4474c6cf7d5aca"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.493272,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "1111",
+      "split": "validation",
+      "node_count": 63,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "63bea59eeecbf9c1",
+      "duplicate_cluster": "1111",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 43.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 24
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 16
+          },
+          "SPACING": {
+            "repeated_patterns": 5,
+            "repeated_members": 27
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 217.992,
+        "luminance_std": 73.989,
+        "score": 0.8867
+      },
+      "asset_sha256": {
+        "screenshot": "8cd39929c9f0e7cbca5bead57f8df912ec490e8f095b5a9e77d2a598171ffdc9",
+        "page_graph": "fea0506d1dc6c9e5ad0caa11136b932bc61a87a89f6cee8a57dc2c6dc60205a7"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.036496,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1118",
+      "split": "train",
+      "node_count": 92,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "2e815d32f11f5b74",
+      "duplicate_cluster": "1118",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 28.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 27
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 21
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 4
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 146.564,
+        "luminance_std": 98.041,
+        "score": 0.9943
+      },
+      "asset_sha256": {
+        "screenshot": "727345743f2c08adb840b376e02a6ccc9fe47a7ba9c2f107d6694dd864ebad18",
+        "page_graph": "6ca7d195b7313c7510a5d149618bc9cae5a5a66d8eb3b80df412705bc32d146c"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.80732,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1203",
+      "split": "test",
+      "node_count": 72,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "73e1f572c3b5a9dd",
+      "duplicate_cluster": "1203",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 33.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 33
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 22
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 6
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 12
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 240.558,
+        "luminance_std": 44.981,
+        "score": 0.6262
+      },
+      "asset_sha256": {
+        "screenshot": "8dd3cb8a30dd43c2a70b794f12d7a1fbbcf83974b447ed48844480fd793a4f29",
+        "page_graph": "a39104ff546259aa0c7ad521c372c2941716ec6b22d617fb6fb639747e000df2"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 1.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.959409,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1272",
+      "split": "test",
+      "node_count": 36,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "5c877dfec242281c",
+      "duplicate_cluster": "1272",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 13.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 1,
+            "repeated_members": 16
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 15
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 226.941,
+        "luminance_std": 62.373,
+        "score": 0.8527
+      },
+      "asset_sha256": {
+        "screenshot": "e8368a13fad01017a3f58f6fbf5d77e8a43a785b243be082fba73bb625966f4a",
+        "page_graph": "22108b8c6a2f8d81bd9205a77c695cf8621734a2dc355386b6cb55d10c47bdbb"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.838359,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1292",
+      "split": "validation",
+      "node_count": 26,
+      "size_bin": "small",
+      "page_type": "generic",
+      "structure_fingerprint": "8aa2deb19a469c84",
+      "duplicate_cluster": "1292",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 9.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 6
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 164.6,
+        "luminance_std": 72.845,
+        "score": 0.9757
+      },
+      "asset_sha256": {
+        "screenshot": "60b520531bb73f6ebe1b68633fdb6054cf03a209f98402bb326cc609dca00a1b",
+        "page_graph": "d93b856c2aa3d9a3252a27909fe45ff08a0c1e14af12183331f1737df6eaed9b"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.388918,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1302",
+      "split": "train",
+      "node_count": 84,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "69445930303a99df",
+      "duplicate_cluster": "1302",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 28.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 55
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 36
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 16
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 189.414,
+        "luminance_std": 74.425,
+        "score": 0.9343
+      },
+      "asset_sha256": {
+        "screenshot": "068fcd137310546991fc9725ee5e734fbc1a1e0fc0bd28e8cccc4720027cea0d",
+        "page_graph": "ebae0c7a4df4c1104e1a911f3e167340ad784ee332ce049c1462a72948f4e157"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.595596,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1328",
+      "split": "test",
+      "node_count": 60,
+      "size_bin": "medium",
+      "page_type": "navigation",
+      "structure_fingerprint": "603a113638617e9d",
+      "duplicate_cluster": "1328",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 17.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 22
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 18
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 239.267,
+        "luminance_std": 53.146,
+        "score": 0.724
+      },
+      "asset_sha256": {
+        "screenshot": "258e803918fe36b086c21f81ffd3f60be8a8b10255df4227c64b5160995fb888",
+        "page_graph": "e43077b213b63047274853e257d36ad220f1dd151ac5f09c9222179d334498e1"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.57119,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1365",
+      "split": "train",
+      "node_count": 151,
+      "size_bin": "large",
+      "page_type": "form",
+      "structure_fingerprint": "f8e490deca8a3a40",
+      "duplicate_cluster": "1365",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 30.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 39
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 32
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 14
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 128.908,
+        "luminance_std": 89.448,
+        "score": 0.9648
+      },
+      "asset_sha256": {
+        "screenshot": "119378ef303086baf5139e901b37e9ce0c95e9c13d337cba4693715590154f4d",
+        "page_graph": "ec5f09fd047d1ae1a794363633237e17c6f82393010e0088c586a02bc56cfb84"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.584209,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1373",
+      "split": "test",
+      "node_count": 127,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "6adb87a5b6fd37b5",
+      "duplicate_cluster": "1373",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 48.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 64
+          },
+          "TEXT": {
+            "repeated_patterns": 8,
+            "repeated_members": 57
+          },
+          "SPACING": {
+            "repeated_patterns": 5,
+            "repeated_members": 12
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 242.665,
+        "luminance_std": 39.523,
+        "score": 0.5587
+      },
+      "asset_sha256": {
+        "screenshot": "ad1df770d2fb8ad862abba4f17295c510cc7af2021398666cbcd828edea43aef",
+        "page_graph": "cfaff0e5171895d577952aced1f883ffd6e090d6802d9b76f85002b285faa6b2"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.43394,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1416",
+      "split": "train",
+      "node_count": 160,
+      "size_bin": "large",
+      "page_type": "list",
+      "structure_fingerprint": "3b10513cc61524fd",
+      "duplicate_cluster": "0648",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 39.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 7,
+            "repeated_members": 84
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 74
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 6
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 235.47,
+        "luminance_std": 53.384,
+        "score": 0.7331
+      },
+      "asset_sha256": {
+        "screenshot": "dc2b55467a089c427630922d797937fe0c6dad3d25cca6579e5ef4f2cd8b2499",
+        "page_graph": "375cd5a3ea1f9a6f226bc9ac1ac63c4e3d6eed13f8eddba987f1d04d297e0f18"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.163366,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1429",
+      "split": "test",
+      "node_count": 125,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "3092e4a71e5a3811",
+      "duplicate_cluster": "1429",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 37.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 56
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 42
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 8
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 224.906,
+        "luminance_std": 66.026,
+        "score": 0.8752
+      },
+      "asset_sha256": {
+        "screenshot": "539daceb2878dd30b42ed425ea814096c0c6d785fa08aaad03c8d354c71c9ecd",
+        "page_graph": "96f89883a55cf6050bd530fe533b92321cce7371cf917d2ae836cc37ba918de5"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.879778,
+      "status": "existing_gold",
+      "gold_style_token_count": 0
+    },
+    {
+      "sample_id": "1435",
+      "split": "test",
+      "node_count": 67,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "6bc4a8d7829a9e8e",
+      "duplicate_cluster": "1435",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 38.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 7,
+            "repeated_members": 22
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 13
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 17
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 228.36,
+        "luminance_std": 65.646,
+        "score": 0.8694
+      },
+      "asset_sha256": {
+        "screenshot": "8006ed4c6731fef5aeca2b0b7280e8d6c9cac645f881c7321c8109c65136367c",
+        "page_graph": "c6d3baff3e24fe5405bad13ea5902ee4bb6e10c7d7c362d3080028276a1f35b8"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 0.5,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.500299,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1437",
+      "split": "test",
+      "node_count": 46,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "463f1c9c63e27324",
+      "duplicate_cluster": "0669",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 16.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 15
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 13
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 231.806,
+        "luminance_std": 58.925,
+        "score": 0.8042
+      },
+      "asset_sha256": {
+        "screenshot": "8e45ec28ce4546af414098f8dee1c0d9384499645b5b585a1c86ca0057935f79",
+        "page_graph": "829c628e4ce6044abf5374b45481dfa3332dacb22602597576c2a58e9f8330f9"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.844246,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1486",
+      "split": "train",
+      "node_count": 38,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "fd8a36fb7dd8654d",
+      "duplicate_cluster": "1486",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 27.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 16
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 10
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 4
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 12
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 176.45,
+        "luminance_std": 83.527,
+        "score": 0.9559
+      },
+      "asset_sha256": {
+        "screenshot": "76891c54f6240e2622d387020852934a9b6afd81cdc38bc97ccee94d48920c77",
+        "page_graph": "a9ce92d9e1e5bc237a89db430723c4c6303c982d13ce95f480bdeef9b80224e1"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.892959,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1503",
+      "split": "test",
+      "node_count": 42,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "640d1db9eed4dde3",
+      "duplicate_cluster": "1503",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 21.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 21
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 21
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 4
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 226.421,
+        "luminance_std": 71.688,
+        "score": 0.8726
+      },
+      "asset_sha256": {
+        "screenshot": "962f28b9b7c525c36b9a882c0f78c5206cf68103501bd449da5fde60fa2868fd",
+        "page_graph": "46ac9b7d618acf2276c4809f71a4ce617af4f913b05a66ae25907b127c6282f0"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.951143,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1517",
+      "split": "validation",
+      "node_count": 82,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "c65fa7ff1ff70d16",
+      "duplicate_cluster": "1517",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 22.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 22
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 14
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 205.644,
+        "luminance_std": 77.402,
+        "score": 0.9073
+      },
+      "asset_sha256": {
+        "screenshot": "de41bb0e5329990d01a7094a45d2cbc9afe6a1ac4f5bb4a5c3b2b00f73e5e8c1",
+        "page_graph": "a21c120242e5ea351c8b57dd42af74ece83b4ae41adc1bd7403c69a33d368820"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 5,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.955871,
+      "status": "annotation_required"
+    },
+    {
+      "sample_id": "1528",
+      "split": "train",
+      "node_count": 47,
+      "size_bin": "small",
+      "page_type": "table",
+      "structure_fingerprint": "9ce701f9f4967c28",
+      "duplicate_cluster": "1528",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 27.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 27
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 22
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 21
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 220.54,
+        "luminance_std": 72.81,
+        "score": 0.8824
+      },
+      "asset_sha256": {
+        "screenshot": "c37c2f4d0fd195b24f1925c4e6478e007ada962203b8661a19e2d7ae6acaf702",
+        "page_graph": "54ee74fcabb50e81a279beddc4248da27632719d6bb22fee6621dad44d471b5c"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.970985,
+      "status": "annotation_required"
+    }
+  ],
+  "reserve_summary": {
+    "total": 20,
+    "by_split": {
+      "test": 5,
+      "train": 10,
+      "validation": 5
+    },
+    "by_size": {
+      "large": 1,
+      "medium": 14,
+      "small": 5
+    },
+    "by_page_type": {
+      "commerce": 3,
+      "content": 2,
+      "form": 3,
+      "list": 5,
+      "navigation": 2,
+      "table": 5
+    },
+    "token_rich_candidates": 15
+  },
+  "reserve_samples": [
+    {
+      "sample_id": "0149",
+      "split": "test",
+      "node_count": 79,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "e40e5233458970f3",
+      "duplicate_cluster": "0149",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 40.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 29
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 27
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 31
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 249.324,
+        "luminance_std": 27.495,
+        "score": 0.4067
+      },
+      "asset_sha256": {
+        "screenshot": "f049c4fa550557fead3e72748fe3046e0e216cd2ff6f9add9853d3831f31aed6",
+        "page_graph": "7e5cc72009c90b830174d5d2345914c99a486a55a82f7e1a02f929ebf2f97311"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.397262
+    },
+    {
+      "sample_id": "0394",
+      "split": "test",
+      "node_count": 83,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "42a34a42d089adf4",
+      "duplicate_cluster": "0394",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 36.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 45
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 38
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 25
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 249.417,
+        "luminance_std": 29.279,
+        "score": 0.4274
+      },
+      "asset_sha256": {
+        "screenshot": "021f184326d211e16bd68801beb5311e90459824a29774f106e5585c4bee682a",
+        "page_graph": "a34bad97075deddf6bbb45761422fb282b81a9e99d4c6b0d98b707d1be8de350"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 6,
+        "tiny_image_count": 2,
+        "tiny_image_ratio": 0.3333,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.147966
+    },
+    {
+      "sample_id": "1181",
+      "split": "test",
+      "node_count": 92,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "594323863bda42c8",
+      "duplicate_cluster": "1181",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 29.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 38
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 36
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 9
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 245.964,
+        "luminance_std": 38.062,
+        "score": 0.5361
+      },
+      "asset_sha256": {
+        "screenshot": "4a4863f688123f3f459ae54bc4f9681231356de075a395991cab476b460d1caf",
+        "page_graph": "87a3c1e4b168812eec8f46351357609e925fe39a90f33aeb0f18b08dff57ac26"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 0.5,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.754965
+    },
+    {
+      "sample_id": "1331",
+      "split": "test",
+      "node_count": 125,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "0d45f19232803584",
+      "duplicate_cluster": "1331",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 52.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 36
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 19
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          },
+          "SPACING": {
+            "repeated_patterns": 8,
+            "repeated_members": 26
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 251.222,
+        "luminance_std": 24.765,
+        "score": 0.3715
+      },
+      "asset_sha256": {
+        "screenshot": "055cecc9fc5f22950a1287eea311a930cead1debb2cd7f40412e689e0dc9af06",
+        "page_graph": "40a9b13c50b21df2dbd4f2c4325a758c52ae64b01417d7b44c56a9a05eb06ab7"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 6,
+        "tiny_image_count": 3,
+        "tiny_image_ratio": 0.5,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.233831
+    },
+    {
+      "sample_id": "1408",
+      "split": "test",
+      "node_count": 52,
+      "size_bin": "medium",
+      "page_type": "navigation",
+      "structure_fingerprint": "8b026b72f3068c12",
+      "duplicate_cluster": "1408",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 19.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 23
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 21
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 246.482,
+        "luminance_std": 39.225,
+        "score": 0.5489
+      },
+      "asset_sha256": {
+        "screenshot": "5efebf05f5e25a766964b05f14bf320a50354c04522fdaaf804672ff0d4797cf",
+        "page_graph": "f2eaf15172944598c194b2f711184890c0ac6cba69bd5898701eb43b6d5b54a8"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 1.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.419276
+    },
+    {
+      "sample_id": "0288",
+      "split": "train",
+      "node_count": 42,
+      "size_bin": "small",
+      "page_type": "commerce",
+      "structure_fingerprint": "adf1477aa7d5624f",
+      "duplicate_cluster": "0288",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 30.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 20
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 4
+          },
+          "RADIUS": {
+            "repeated_patterns": 2,
+            "repeated_members": 6
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 6
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 235.996,
+        "luminance_std": 45.923,
+        "score": 0.6448
+      },
+      "asset_sha256": {
+        "screenshot": "f2d9d4132510cc76ed70e1dcd2a0276f4fda49d7b2cc59262c4e9285e9fbf541",
+        "page_graph": "d0204ea9fa0646efc9fb6940e3ddb70fdc085cacc412a1bb3e466bd0faa36663"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 0.3333,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.701616
+    },
+    {
+      "sample_id": "0331",
+      "split": "train",
+      "node_count": 96,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "a3051be21d3c38bd",
+      "duplicate_cluster": "0331",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 32.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 25
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 20
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 8
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 229.851,
+        "luminance_std": 54.931,
+        "score": 0.7606
+      },
+      "asset_sha256": {
+        "screenshot": "ffeb42530d9838691e5313f48d66d2322ba6790d8b0d813b0b1f1ff8eeb5d2ea",
+        "page_graph": "ba91c13a3c20366e147d727d65cbfb12e92fa6b69fe6c417998f464c15107756"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 5,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.685777
+    },
+    {
+      "sample_id": "0690",
+      "split": "train",
+      "node_count": 54,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "1892a5c19d82f118",
+      "duplicate_cluster": "0690",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 30.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 27
+          },
+          "TEXT": {
+            "repeated_patterns": 6,
+            "repeated_members": 21
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 174.833,
+        "luminance_std": 102.155,
+        "score": 0.9586
+      },
+      "asset_sha256": {
+        "screenshot": "ae9bdb159ea8763db092d9f0e4035a3bcc79329fbbf43090fdab3f81b60d506a",
+        "page_graph": "04e246d060f27fdbd06009b70ed80cc4bbe2aa9f5cbb3b0d5a5aa022b5cb4328"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 1.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.677203
+    },
+    {
+      "sample_id": "0747",
+      "split": "train",
+      "node_count": 132,
+      "size_bin": "large",
+      "page_type": "table",
+      "structure_fingerprint": "e390f9c5f59df470",
+      "duplicate_cluster": "0747",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 29.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 36
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 32
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 19
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 248.694,
+        "luminance_std": 28.582,
+        "score": 0.4205
+      },
+      "asset_sha256": {
+        "screenshot": "1fe39146bf77548a8b801c97f2c913a873067ce243912253b72b804ba7aca1ed",
+        "page_graph": "590eb4feab10e8d3515b21d051870e5217e21e0aa0fbd3c48025b308f5adcdd0"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.584329
+    },
+    {
+      "sample_id": "0822",
+      "split": "train",
+      "node_count": 31,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "745ac100e994971d",
+      "duplicate_cluster": "0822",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 9.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 7
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 126.849,
+        "luminance_std": 93.27,
+        "score": 0.9614
+      },
+      "asset_sha256": {
+        "screenshot": "0f301550187fc2657e42e1a1608781a660c1ad9cdb8eb414564b5164970ad285",
+        "page_graph": "225462ee5ee1ec14e084d91870a4c16ae94a586da0a3ac9d9cc6d32a922b9cb3"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.333637
+    },
+    {
+      "sample_id": "0825",
+      "split": "train",
+      "node_count": 103,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "b6088554d20aabc0",
+      "duplicate_cluster": "0057",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 86.333,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 11,
+            "repeated_members": 53
+          },
+          "TEXT": {
+            "repeated_patterns": 16,
+            "repeated_members": 45
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 8
+          },
+          "SPACING": {
+            "repeated_patterns": 7,
+            "repeated_members": 50
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 236.275,
+        "luminance_std": 62.093,
+        "score": 0.8339
+      },
+      "asset_sha256": {
+        "screenshot": "673ff43d046914e01d4ea68b5a6ca523ac087e969d125e21912f149c7f18ae31",
+        "page_graph": "69fcfafd044506251e8b5d76c9f31f287179cdf43157f279582089ab105672f2"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 1.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.214616
+    },
+    {
+      "sample_id": "1060",
+      "split": "train",
+      "node_count": 99,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "5da1ec2d57f463a8",
+      "duplicate_cluster": "1060",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 43.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 7,
+            "repeated_members": 50
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 38
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 23
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 204.82,
+        "luminance_std": 92.766,
+        "score": 0.9086
+      },
+      "asset_sha256": {
+        "screenshot": "62ced48dc35d7a9613e2596e24e729b06d52ecc4ea644721e21c30ab0b2c49b7",
+        "page_graph": "5e16795564e12c4c3ffd004dd323dbb31270e159ea5eb1412e95675373b73368"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.091297
+    },
+    {
+      "sample_id": "1243",
+      "split": "train",
+      "node_count": 32,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "c6b417f144fd85b5",
+      "duplicate_cluster": "1243",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 28.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 21
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 15
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 12
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 17
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 188.458,
+        "luminance_std": 88.95,
+        "score": 0.9359
+      },
+      "asset_sha256": {
+        "screenshot": "37d678431c3bd778e1e1b9a28e4a47b438794084b74df48318c4e693c333a0a4",
+        "page_graph": "44bec29968fc3fc987d47cac273cce8bfc154780c67e56c1caa301c03ca5cf1d"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.584297
+    },
+    {
+      "sample_id": "1512",
+      "split": "train",
+      "node_count": 110,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "5c4ae94241052c2e",
+      "duplicate_cluster": "0744",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 30.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 5,
+            "repeated_members": 41
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 29
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 17
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 165.072,
+        "luminance_std": 100.84,
+        "score": 0.9749
+      },
+      "asset_sha256": {
+        "screenshot": "6b0125f74a039066e961b4f449e169bf10573420864b9ff11ab08eccbf5601f1",
+        "page_graph": "85a741505b8dc6eac7adb5d2dbab9cef8ce33654cf10ddba5bfdf79adc29e8c7"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.053924
+    },
+    {
+      "sample_id": "1526",
+      "split": "train",
+      "node_count": 84,
+      "size_bin": "medium",
+      "page_type": "navigation",
+      "structure_fingerprint": "2984e37d17e85a58",
+      "duplicate_cluster": "1526",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 29.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 22
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 19
+          },
+          "SPACING": {
+            "repeated_patterns": 2,
+            "repeated_members": 14
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 244.52,
+        "luminance_std": 32.035,
+        "score": 0.4679
+      },
+      "asset_sha256": {
+        "screenshot": "b23d253560ee1dd8a127dc8bf05019756697b44ddea79a3268d1ed8b05e0fd41",
+        "page_graph": "713dcce35493e217bdfd988998ba5b6df5af84f6572ca4fe42c42c3a88878929"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.232832
+    },
+    {
+      "sample_id": "0357",
+      "split": "validation",
+      "node_count": 20,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "9cd07886765337fc",
+      "duplicate_cluster": "0357",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 5.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 1,
+            "repeated_members": 7
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 230.233,
+        "luminance_std": 67.915,
+        "score": 0.8663
+      },
+      "asset_sha256": {
+        "screenshot": "3a83aa4b0319c182f511df44bc42ed73ad3db247bfb63a6223ee2297bd690270",
+        "page_graph": "75307a7fc5055786fd87f7a35b2452f22942ba5ef4272e023ab7fa1d4513c05a"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.695758
+    },
+    {
+      "sample_id": "0433",
+      "split": "validation",
+      "node_count": 43,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "3a16a624ab891331",
+      "duplicate_cluster": "0433",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 29.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 14
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 12
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 8
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 12
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 245.845,
+        "luminance_std": 36.771,
+        "score": 0.5212
+      },
+      "asset_sha256": {
+        "screenshot": "38e23096f7fddc734340f9e931057e717cda9bce63255f8af60aae54549d4ee0",
+        "page_graph": "68de5b07edb6ed9128e03b1b2e3d5b08d25dbcc3f0a3cce656a72260ae475cc2"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.160912
+    },
+    {
+      "sample_id": "0570",
+      "split": "validation",
+      "node_count": 83,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "7c380d64f789275e",
+      "duplicate_cluster": "0570",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 43.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 7,
+            "repeated_members": 33
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 16
+          },
+          "RADIUS": {
+            "repeated_patterns": 3,
+            "repeated_members": 6
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 7
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 240.898,
+        "luminance_std": 41.365,
+        "score": 0.5832
+      },
+      "asset_sha256": {
+        "screenshot": "7b258c5a8dcede277b19906daa5a1f05d2ec2c27b44898c36252abe812ffabba",
+        "page_graph": "428272d5222668c9a9c8b2b5cc6c16ad44e57b47e59b04b9673f10a3f509b444"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.963441
+    },
+    {
+      "sample_id": "0584",
+      "split": "validation",
+      "node_count": 64,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "dd70f0b31043de35",
+      "duplicate_cluster": "0584",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 22.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 1,
+            "repeated_members": 14
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 12
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 13
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 238.494,
+        "luminance_std": 57.198,
+        "score": 0.7728
+      },
+      "asset_sha256": {
+        "screenshot": "67cc23dee7bdd4670a555841e07609e3930bec0ae61059ed062212ab117b1001",
+        "page_graph": "50e94f833924c93137c15da1d563f30fe0329e704d83e2f116a5b37493d4d0ab"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 4,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.957511
+    },
+    {
+      "sample_id": "1332",
+      "split": "validation",
+      "node_count": 98,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "b9b3225142cdb3d2",
+      "duplicate_cluster": "0564",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 18.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 6
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 4
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 37
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 150.331,
+        "luminance_std": 66.163,
+        "score": 0.9994
+      },
+      "asset_sha256": {
+        "screenshot": "1b28fe6bff1b4b42df045294f15620d60d3b1234180bd28eca262e9b54f583e8",
+        "page_graph": "19e1a72b0928c4262420435b4c37161c698b303e2a8e70501091591c13c860f0"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 17,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.328305
+    }
+  ]
+}

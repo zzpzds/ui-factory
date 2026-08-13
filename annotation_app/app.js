@@ -81,6 +81,15 @@ function isAdjudicationLocked() {
     && ["reviewed", "finalized"].includes(state.adjudication?.record?.status);
 }
 
+function isAnnotationLocked() {
+  return !isAdjudication()
+    && (state.assignment?.locked_sample_ids || []).includes(state.sampleId);
+}
+
+function isEditorLocked() {
+  return isAdjudicationLocked() || isAnnotationLocked();
+}
+
 function entityById(id) {
   if (!state.annotation) return null;
   return state.annotation.elements.find((item) => item.id === id)
@@ -247,8 +256,10 @@ function normalizeAnnotation() {
 }
 
 function markDirty() {
-  if (isAdjudicationLocked()) {
-    toast("该样本已完成审核，不能继续修改", true);
+  if (isEditorLocked()) {
+    toast(isAdjudication()
+      ? "该样本已完成审核，不能继续修改"
+      : "该样本已冻结为金标准，不能继续修改", true);
     return;
   }
   state.dirty = true;
@@ -1455,6 +1466,10 @@ function renderAdjudicationPanel() {
 
 function renderModeChrome() {
   const adjudication = isAdjudication();
+  const hasAdjudication = Boolean(state.assignment?.adjudication);
+  const adjudicationOption = $("modeSelect").querySelector('option[value="adjudication"]');
+  adjudicationOption.hidden = !hasAdjudication;
+  adjudicationOption.disabled = !hasAdjudication;
   $("annotatorField").classList.toggle("hidden", adjudication);
   $("differencesTabButton").classList.toggle("hidden", !adjudication);
   $("referenceControls").classList.toggle("hidden", !adjudication);
@@ -1463,10 +1478,10 @@ function renderModeChrome() {
   $("submitButton").textContent = adjudication ? "完成人工审核" : "提交完成";
   document.querySelector(".panel-tabs").classList.toggle("adjudication", adjudication);
   document.querySelector(".workspace").classList.toggle(
-    "adjudication-locked", isAdjudicationLocked(),
+    "editor-locked", isEditorLocked(),
   );
-  $("saveButton").disabled = isAdjudicationLocked();
-  $("submitButton").disabled = isAdjudicationLocked();
+  $("saveButton").disabled = isEditorLocked();
+  $("submitButton").disabled = isEditorLocked();
 }
 
 function localValidation() {
@@ -1495,6 +1510,10 @@ function localValidation() {
 
 async function saveAnnotation(submit = false, silent = false) {
   if (!state.annotation) return false;
+  if (isEditorLocked()) {
+    if (!silent) toast("该样本为只读状态", true);
+    return false;
+  }
   normalizeAnnotation();
   state.validationErrors = localValidation();
   renderValidation();
@@ -1558,8 +1577,8 @@ async function saveAnnotation(submit = false, silent = false) {
     toast(error.message, true);
     return false;
   } finally {
-    $("saveButton").disabled = isAdjudicationLocked();
-    $("submitButton").disabled = isAdjudicationLocked();
+    $("saveButton").disabled = isEditorLocked();
+    $("submitButton").disabled = isEditorLocked();
   }
 }
 
@@ -1614,6 +1633,10 @@ async function changeAnnotator(annotator) {
 }
 
 async function changeMode(mode) {
+  if (mode === "adjudication" && !state.assignment.adjudication) {
+    toast("当前标注包尚未启用差异仲裁", true);
+    return;
+  }
   if (state.dirty) await saveAnnotation(false, true);
   state.mode = mode;
   $("modeSelect").value = mode;
@@ -1724,6 +1747,8 @@ async function initialize() {
   try {
     const { data } = await requestJson("/api/assignment");
     state.assignment = data;
+    state.mode = data.adjudication ? "adjudication" : "annotation";
+    state.annotator = data.annotators[0];
     $("modeSelect").value = state.mode;
     $("annotatorSelect").innerHTML = data.annotators
       .map((annotator) => `<option value="${escapeHtml(annotator)}">${escapeHtml(annotator)}</option>`)

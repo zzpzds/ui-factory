@@ -1,0 +1,664 @@
+{
+  "method": "dhash_16x16",
+  "threshold": 12,
+  "samples": 492,
+  "matches": [
+    {
+      "left": "0008",
+      "right": "0776",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0014",
+      "right": "0782",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0051",
+      "right": "0819",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0057",
+      "right": "0825",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0065",
+      "right": "0833",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0066",
+      "right": "0834",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0074",
+      "right": "0842",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0091",
+      "right": "0859",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0094",
+      "right": "0862",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0097",
+      "right": "0865",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0115",
+      "right": "0883",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0140",
+      "right": "0908",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0151",
+      "right": "0919",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0162",
+      "right": "0930",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0164",
+      "right": "0932",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0179",
+      "right": "0947",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0201",
+      "right": "0969",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0218",
+      "right": "0986",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0222",
+      "right": "0647",
+      "distance": 12,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0229",
+      "right": "0997",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0258",
+      "right": "1026",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0262",
+      "right": "1030",
+      "distance": 0,
+      "left_split": "validation",
+      "right_split": "validation",
+      "cross_split": false
+    },
+    {
+      "left": "0268",
+      "right": "1036",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0269",
+      "right": "1037",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0271",
+      "right": "1039",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0272",
+      "right": "1040",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0276",
+      "right": "1044",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0306",
+      "right": "1074",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0319",
+      "right": "1087",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0323",
+      "right": "1091",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0331",
+      "right": "1099",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0334",
+      "right": "1102",
+      "distance": 0,
+      "left_split": "validation",
+      "right_split": "validation",
+      "cross_split": false
+    },
+    {
+      "left": "0339",
+      "right": "0488",
+      "distance": 3,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0363",
+      "right": "1131",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0366",
+      "right": "1134",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0368",
+      "right": "1136",
+      "distance": 0,
+      "left_split": "test",
+      "right_split": "test",
+      "cross_split": false
+    },
+    {
+      "left": "0390",
+      "right": "1158",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0394",
+      "right": "1162",
+      "distance": 0,
+      "left_split": "test",
+      "right_split": "test",
+      "cross_split": false
+    },
+    {
+      "left": "0419",
+      "right": "1187",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0430",
+      "right": "1198",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0434",
+      "right": "1202",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0437",
+      "right": "1205",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0439",
+      "right": "1207",
+      "distance": 0,
+      "left_split": "test",
+      "right_split": "test",
+      "cross_split": false
+    },
+    {
+      "left": "0441",
+      "right": "1209",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0461",
+      "right": "1229",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0469",
+      "right": "1237",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0485",
+      "right": "1253",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0498",
+      "right": "1266",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0505",
+      "right": "1273",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0509",
+      "right": "1277",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0510",
+      "right": "1278",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0515",
+      "right": "1283",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0535",
+      "right": "1303",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0539",
+      "right": "1307",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0541",
+      "right": "1309",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0542",
+      "right": "1310",
+      "distance": 0,
+      "left_split": "validation",
+      "right_split": "validation",
+      "cross_split": false
+    },
+    {
+      "left": "0543",
+      "right": "1311",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0549",
+      "right": "1317",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0564",
+      "right": "1332",
+      "distance": 0,
+      "left_split": "validation",
+      "right_split": "validation",
+      "cross_split": false
+    },
+    {
+      "left": "0578",
+      "right": "0925",
+      "distance": 8,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0585",
+      "right": "1353",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0601",
+      "right": "1369",
+      "distance": 0,
+      "left_split": "validation",
+      "right_split": "validation",
+      "cross_split": false
+    },
+    {
+      "left": "0602",
+      "right": "1370",
+      "distance": 0,
+      "left_split": "validation",
+      "right_split": "validation",
+      "cross_split": false
+    },
+    {
+      "left": "0617",
+      "right": "1385",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0623",
+      "right": "1391",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0626",
+      "right": "1394",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0630",
+      "right": "1398",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0632",
+      "right": "1400",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0639",
+      "right": "1407",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0648",
+      "right": "1416",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0669",
+      "right": "1437",
+      "distance": 0,
+      "left_split": "test",
+      "right_split": "test",
+      "cross_split": false
+    },
+    {
+      "left": "0684",
+      "right": "1452",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0703",
+      "right": "1471",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0715",
+      "right": "1483",
+      "distance": 0,
+      "left_split": "test",
+      "right_split": "test",
+      "cross_split": false
+    },
+    {
+      "left": "0728",
+      "right": "1496",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0733",
+      "right": "1501",
+      "distance": 0,
+      "left_split": "validation",
+      "right_split": "validation",
+      "cross_split": false
+    },
+    {
+      "left": "0741",
+      "right": "1509",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0742",
+      "right": "1510",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0744",
+      "right": "1512",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0757",
+      "right": "1525",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0759",
+      "right": "1527",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    },
+    {
+      "left": "0766",
+      "right": "1534",
+      "distance": 0,
+      "left_split": "train",
+      "right_split": "train",
+      "cross_split": false
+    }
+  ],
+  "cross_split_matches": 0
+}
