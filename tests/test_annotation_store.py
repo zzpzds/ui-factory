@@ -268,6 +268,30 @@ def test_invalid_token_submission_remains_draft(annotation_store):
     assert any("至少需要两个成员" in error for error in result["errors"])
 
 
+def test_candidate_review_mode_requires_explicit_token_review(annotation_store):
+    annotation_store.assignment["token_annotation_mode"] = "candidate_review"
+    payload = _valid_annotation()
+
+    pending = annotation_store.save(
+        "annotator_a", "sample-1", payload, submit=True
+    )
+
+    assert pending["submitted"] is False
+    assert any("Token 样式候选检查" in error for error in pending["errors"])
+
+    payload["provenance"]["token_review"] = {
+        "status": "reviewed",
+        "reviewed_candidate_keys": [],
+        "accepted_candidate_keys": [],
+        "ignored_candidate_keys": [],
+    }
+    reviewed = annotation_store.save(
+        "annotator_a", "sample-1", payload, submit=True
+    )
+
+    assert reviewed["submitted"] is True
+
+
 def test_group_can_directly_contain_only_child_groups(annotation_store):
     payload = _valid_annotation()
     payload["elements"].extend(

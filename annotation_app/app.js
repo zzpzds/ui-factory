@@ -799,16 +799,6 @@ function rgbaToHex(color) {
   )).join("")}`;
 }
 
-function hexToRgba(value) {
-  const normalized = value.replace("#", "");
-  return [
-    parseInt(normalized.slice(0, 2), 16) / 255,
-    parseInt(normalized.slice(2, 4), 16) / 255,
-    parseInt(normalized.slice(4, 6), 16) / 255,
-    1,
-  ];
-}
-
 function defaultTokenValue(kind) {
   if (kind === "COLOR") return { property: "background", rgba: [0.145, 0.388, 0.922, 1] };
   if (kind === "TEXT") return { font_size: 16, font_weight: 400 };
@@ -816,40 +806,175 @@ function defaultTokenValue(kind) {
   return { spacing: 8 };
 }
 
-function tokenValueFields(kind, value, prefix) {
-  if (kind === "COLOR") {
-    return `
-      <label><span>属性</span><select data-token-value="property">
-        ${optionsHtml(["background", "foreground", "border"], value.property || "background")}
-      </select></label>
-      <label><span>颜色</span><input type="color" data-token-color value="${rgbaToHex(value.rgba)}"></label>`;
-  }
-  if (kind === "TEXT") {
-    return `
-      <label><span>字号</span><input type="number" min="1" step="0.5" data-token-value="font_size" value="${Number(value.font_size || 16)}"></label>
-      <label><span>字重</span><input type="number" min="100" max="900" step="100" data-token-value="font_weight" value="${Number(value.font_weight || 400)}"></label>`;
-  }
-  const key = kind === "RADIUS" ? "radius" : "spacing";
-  const label = kind === "RADIUS" ? "圆角" : "间距";
-  return `<label class="${prefix === "create" ? "wide" : ""}"><span>${label}</span>
-    <input type="number" min="0" step="0.5" data-token-value="${key}" value="${Number(value[key] || 0)}">
-  </label>`;
+function roundedNumber(value, digits = 2) {
+  const factor = 10 ** digits;
+  return Math.round(Number(value || 0) * factor) / factor;
 }
 
-function renderTokenValueEditor() {
-  const kind = $("tokenKind").value;
-  const value = defaultTokenValue(kind);
-  $("tokenValueEditor").innerHTML = `<div class="field-grid">${tokenValueFields(kind, value, "create")}</div>`;
+function normalizedColor(value) {
+  if (!Array.isArray(value) || value.length < 3) return null;
+  const rgba = value.slice(0, 4).map((channel) => roundedNumber(channel, 3));
+  if (rgba.length === 3) rgba.push(1);
+  return rgba[3] <= 0.05 ? null : rgba;
 }
 
-function readTokenValue(container, kind) {
-  const value = defaultTokenValue(kind);
-  container.querySelectorAll("[data-token-value]").forEach((input) => {
-    value[input.dataset.tokenValue] = input.type === "number" ? Number(input.value) : input.value;
+function candidateEntries(entity) {
+  const result = [];
+  const style = entity.style || {};
+  const background = normalizedColor(style.background_color);
+  const foreground = normalizedColor(style.text_color);
+  const border = normalizedColor(style.border_color);
+  if (background) result.push({
+    kind: "COLOR", value: { property: "background", rgba: background }, label: "背景色",
   });
-  const color = container.querySelector("[data-token-color]");
-  if (color) value.rgba = hexToRgba(color.value);
-  return value;
+  if (foreground && (entityKind(entity.id) === "group" || entity.text || entity.type === "TEXT")) {
+    result.push({
+      kind: "COLOR", value: { property: "foreground", rgba: foreground }, label: "文字色",
+    });
+  }
+  if (border && roundedNumber(style.border_width) > 0) result.push({
+    kind: "COLOR", value: { property: "border", rgba: border }, label: "边框色",
+  });
+  if (style.font_size != null && (entity.text || entity.type === "TEXT")) result.push({
+    kind: "TEXT",
+    value: {
+      font_size: roundedNumber(style.font_size),
+      font_weight: Math.round(Number(style.font_weight || 400)),
+    },
+    label: "文字样式",
+  });
+  if (roundedNumber(style.border_radius) > 0) result.push({
+    kind: "RADIUS", value: { radius: roundedNumber(style.border_radius) }, label: "圆角",
+  });
+  if (entityKind(entity.id) === "group") {
+    const layout = layoutByTarget(entity.id);
+    if (roundedNumber(layout?.gap) > 0) result.push({
+      kind: "SPACING",
+      value: { property: "gap", spacing: roundedNumber(layout.gap) },
+      label: "项目间距",
+    });
+    const padding = layout?.padding || [];
+    if (padding.length === 4 && padding.every((item) => roundedNumber(item) === roundedNumber(padding[0]))
+      && roundedNumber(padding[0]) > 0) result.push({
+      kind: "SPACING",
+      value: { property: "padding", spacing: roundedNumber(padding[0]) },
+      label: "内边距",
+    });
+  }
+  return result;
+}
+
+function tokenCandidateKey(candidate) {
+  return `${candidate.kind}|${JSON.stringify(candidate.value)}|${[...candidate.member_ids].sort().join(",")}`;
+}
+
+function tokenCandidates() {
+  const buckets = new Map();
+  [...state.annotation.elements, ...state.annotation.groups].forEach((entity) => {
+    candidateEntries(entity).forEach((entry) => {
+      const valueKey = `${entry.kind}|${JSON.stringify(entry.value)}`;
+      if (!buckets.has(valueKey)) buckets.set(valueKey, { ...entry, member_ids: [] });
+      buckets.get(valueKey).member_ids.push(entity.id);
+    });
+  });
+  return [...buckets.values()]
+    .map((candidate) => ({
+      ...candidate,
+      member_ids: [...new Set(candidate.member_ids)].sort(),
+    }))
+    .filter((candidate) => candidate.member_ids.length >= 2)
+    .map((candidate) => ({ ...candidate, key: tokenCandidateKey(candidate) }))
+    .sort((left, right) => left.kind.localeCompare(right.kind)
+      || right.member_ids.length - left.member_ids.length
+      || left.key.localeCompare(right.key));
+}
+
+function tokenReview() {
+  const provenance = state.annotation.provenance;
+  if (!provenance.token_review || typeof provenance.token_review !== "object") {
+    provenance.token_review = {
+      status: "pending", accepted_candidate_keys: [], ignored_candidate_keys: [],
+    };
+  }
+  const review = provenance.token_review;
+  review.accepted_candidate_keys = [...new Set(review.accepted_candidate_keys || [])];
+  review.ignored_candidate_keys = [...new Set(review.ignored_candidate_keys || [])];
+  return review;
+}
+
+function tokenValueLabel(candidate) {
+  if (candidate.kind === "COLOR") return rgbaToHex(candidate.value.rgba);
+  if (candidate.kind === "TEXT") {
+    return `${candidate.value.font_size}px / ${candidate.value.font_weight}`;
+  }
+  if (candidate.kind === "RADIUS") return `${candidate.value.radius}px`;
+  return `${candidate.value.spacing}px`;
+}
+
+function automaticTokenName(candidate) {
+  const index = state.annotation.style_tokens.filter((token) => token.kind === candidate.kind).length + 1;
+  return `${candidate.label} ${index}`;
+}
+
+function addToken(candidate, candidateKey = null) {
+  const id = uniqueId(`token_${candidate.kind.toLowerCase()}`, state.annotation.style_tokens);
+  state.annotation.style_tokens.push({
+    id,
+    kind: candidate.kind,
+    value: structuredClone(candidate.value),
+    member_ids: [...candidate.member_ids],
+    name: automaticTokenName(candidate),
+    confidence: 1,
+  });
+  if (candidateKey) {
+    const review = tokenReview();
+    review.accepted_candidate_keys.push(candidateKey);
+    review.ignored_candidate_keys = review.ignored_candidate_keys.filter((key) => key !== candidateKey);
+  }
+  state.activeTokenId = id;
+  state.activeEntityId = null;
+  return id;
+}
+
+function acceptTokenCandidate(key) {
+  const candidate = tokenCandidates().find((item) => item.key === key);
+  if (!candidate) return;
+  addToken(candidate, key);
+  markDirty();
+  renderAll();
+}
+
+function ignoreTokenCandidate(key) {
+  const review = tokenReview();
+  review.ignored_candidate_keys.push(key);
+  review.accepted_candidate_keys = review.accepted_candidate_keys.filter((item) => item !== key);
+  const removedToken = state.annotation.style_tokens.find(
+    (token) => tokenCandidateKey(token) === key,
+  );
+  state.annotation.style_tokens = state.annotation.style_tokens.filter(
+    (token) => tokenCandidateKey(token) !== key,
+  );
+  if (removedToken?.id === state.activeTokenId) state.activeTokenId = null;
+  markDirty();
+  renderAll();
+}
+
+function completeTokenReview() {
+  const review = tokenReview();
+  const decided = new Set([
+    ...review.accepted_candidate_keys, ...review.ignored_candidate_keys,
+  ]);
+  tokenCandidates().forEach((candidate) => {
+    if (!decided.has(candidate.key)) review.ignored_candidate_keys.push(candidate.key);
+  });
+  review.status = "reviewed";
+  review.reviewed_candidate_keys = tokenCandidates().map((candidate) => candidate.key);
+  review.reviewed_at = new Date().toISOString();
+  markDirty();
+  renderTokens();
+  toast(state.annotation.style_tokens.length
+    ? `Token 检查完成，保留 ${state.annotation.style_tokens.length} 个`
+    : "Token 检查完成：本页无共享 Token");
 }
 
 function createToken() {
@@ -859,24 +984,61 @@ function createToken() {
     return;
   }
   const kind = $("tokenKind").value;
-  const id = uniqueId(`token_${kind.toLowerCase()}`, state.annotation.style_tokens);
-  state.annotation.style_tokens.push({
-    id,
+  const entries = candidateEntries(entityById(memberIds[0]));
+  const inferred = entries.find((entry) => entry.kind === kind);
+  const candidate = {
     kind,
-    value: readTokenValue($("tokenValueEditor"), kind),
+    value: inferred?.value || defaultTokenValue(kind),
     member_ids: memberIds,
-    name: $("tokenName").value.trim() || id,
-    confidence: 1,
-  });
+    label: inferred?.label || ({
+      COLOR: "颜色", TEXT: "文字样式", RADIUS: "圆角", SPACING: "间距",
+    })[kind],
+  };
+  const id = addToken(candidate);
   state.selectedEntityIds.clear();
-  state.activeTokenId = id;
-  state.activeEntityId = null;
   markDirty();
   renderAll();
   toast(`已创建 Token ${id}`);
 }
 
 function renderTokens() {
+  const review = tokenReview();
+  const candidates = tokenCandidates();
+  const reviewedKeys = [...(review.reviewed_candidate_keys || [])].sort();
+  const currentKeys = candidates.map((candidate) => candidate.key).sort();
+  const reviewIsCurrent = review.status === "reviewed"
+    && JSON.stringify(reviewedKeys) === JSON.stringify(currentKeys);
+  const accepted = new Set(review.accepted_candidate_keys);
+  const ignored = new Set(review.ignored_candidate_keys);
+  $("tokenReviewStatus").textContent = reviewIsCurrent ? "已检查" : (
+    review.status === "reviewed" ? "需复查" : "待检查"
+  );
+  $("tokenReviewStatus").classList.toggle("complete", reviewIsCurrent);
+  $("completeTokenReview").disabled = isEditorLocked();
+  $("tokenCandidateList").innerHTML = candidates.map((candidate) => {
+    const status = accepted.has(candidate.key) ? "accepted" : (ignored.has(candidate.key) ? "ignored" : "pending");
+    return `<div class="token-candidate ${status}">
+      <div class="token-candidate-main">
+        ${candidate.kind === "COLOR" ? `<span class="token-swatch" style="background:${rgbaToHex(candidate.value.rgba)}"></span>` : ""}
+        <span class="row-copy">
+          <span class="row-title">${escapeHtml(candidate.label)} · ${escapeHtml(tokenValueLabel(candidate))}</span>
+          <span class="row-subtitle">${candidate.member_ids.length} 个成员 · ${escapeHtml(candidate.member_ids.join("、"))}</span>
+        </span>
+        <span class="row-badge">${escapeHtml(candidate.kind)}</span>
+      </div>
+      <div class="token-candidate-actions">
+        <span class="candidate-decision">${status === "accepted" ? "已保留" : (status === "ignored" ? "已忽略" : "未决定")}</span>
+        ${status !== "ignored" ? `<button type="button" data-ignore-token-candidate="${escapeHtml(candidate.key)}">${status === "accepted" ? "改为忽略" : "忽略"}</button>` : ""}
+        ${status !== "accepted" ? `<button class="primary-button" type="button" data-accept-token-candidate="${escapeHtml(candidate.key)}">${status === "ignored" ? "改为保留" : "保留"}</button>` : ""}
+      </div>
+    </div>`;
+  }).join("") || '<div class="empty-state compact">没有重复样式候选</div>';
+  $("tokenCandidateList").querySelectorAll("[data-accept-token-candidate]").forEach((button) => {
+    button.addEventListener("click", () => acceptTokenCandidate(button.dataset.acceptTokenCandidate));
+  });
+  $("tokenCandidateList").querySelectorAll("[data-ignore-token-candidate]").forEach((button) => {
+    button.addEventListener("click", () => ignoreTokenCandidate(button.dataset.ignoreTokenCandidate));
+  });
   $("tokenList").innerHTML = state.annotation.style_tokens.map((token) => `
     <button type="button" class="token-row ${state.activeTokenId === token.id ? "active" : ""}"
       data-token-id="${escapeHtml(token.id)}">
@@ -907,8 +1069,8 @@ function renderTokenInspector(token) {
   $("tokenInspector").innerHTML = `
     <div class="field-grid">
       <label class="wide"><span>名称</span><input data-token-name value="${escapeHtml(token.name)}"></label>
-      <label><span>类型</span><select data-token-kind>${optionsHtml(["COLOR", "TEXT", "RADIUS", "SPACING"], token.kind)}</select></label>
-      ${tokenValueFields(token.kind, token.value, "inspect")}
+      <label><span>类型</span><input value="${escapeHtml(token.kind)}" disabled></label>
+      <label><span>自动提取值</span><input value="${escapeHtml(tokenValueLabel(token))}" disabled></label>
     </div>
     <div class="section-label">成员</div>
     <div class="member-list">${allEntities.map((entity) => `
@@ -923,21 +1085,6 @@ function renderTokenInspector(token) {
     markDirty();
     renderTokens();
     renderInspector();
-  });
-  form.querySelector("[data-token-kind]").addEventListener("change", (event) => {
-    token.kind = event.target.value;
-    token.value = defaultTokenValue(token.kind);
-    markDirty();
-    renderTokens();
-    renderInspector();
-  });
-  form.querySelectorAll("[data-token-value], [data-token-color]").forEach((input) => {
-    input.addEventListener("change", () => {
-      token.value = readTokenValue(form, token.kind);
-      markDirty();
-      renderTokens();
-      renderInspector();
-    });
   });
   form.querySelectorAll("[data-token-member]").forEach((input) => {
     input.addEventListener("change", () => {
@@ -954,7 +1101,16 @@ function renderTokenInspector(token) {
 function deleteActive() {
   if (state.activeTokenId) {
     const id = state.activeTokenId;
+    const token = tokenById(id);
+    const candidateKey = token ? tokenCandidateKey(token) : null;
     state.annotation.style_tokens = state.annotation.style_tokens.filter((token) => token.id !== id);
+    if (candidateKey) {
+      const review = tokenReview();
+      review.accepted_candidate_keys = review.accepted_candidate_keys.filter(
+        (key) => key !== candidateKey,
+      );
+      review.ignored_candidate_keys.push(candidateKey);
+    }
     state.activeTokenId = null;
     markDirty();
     renderAll();
@@ -1504,6 +1660,14 @@ function localValidation() {
   state.annotation.style_tokens.forEach((token) => {
     if (new Set(token.member_ids).size < 2) errors.push(`${token.id} 至少需要两个成员`);
   });
+  if (state.assignment?.token_annotation_mode === "candidate_review" && !isAnnotationLocked()) {
+    const review = tokenReview();
+    const reviewedKeys = [...(review.reviewed_candidate_keys || [])].sort();
+    const currentKeys = tokenCandidates().map((candidate) => candidate.key).sort();
+    if (review.status !== "reviewed" || JSON.stringify(reviewedKeys) !== JSON.stringify(currentKeys)) {
+      errors.push("请在 Token 页签检查当前样式候选");
+    }
+  }
   if (!state.annotation.elements.length) errors.push("完整标注至少需要一个原子元素");
   return errors;
 }
@@ -1700,7 +1864,7 @@ function bindStaticEvents() {
   $("createElement").addEventListener("click", createElement);
   $("createGroup").addEventListener("click", createGroup);
   $("createToken").addEventListener("click", createToken);
-  $("tokenKind").addEventListener("change", renderTokenValueEditor);
+  $("completeTokenReview").addEventListener("click", completeTokenReview);
   $("deleteEntity").addEventListener("click", deleteActive);
   $("showAllNodes").addEventListener("change", renderCanvas);
   $("showLabels").addEventListener("change", renderCanvas);
@@ -1743,7 +1907,6 @@ function bindStaticEvents() {
 
 async function initialize() {
   bindStaticEvents();
-  renderTokenValueEditor();
   try {
     const { data } = await requestJson("/api/assignment");
     state.assignment = data;

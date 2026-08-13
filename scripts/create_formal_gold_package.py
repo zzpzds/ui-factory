@@ -574,6 +574,7 @@ def create_package(args: argparse.Namespace) -> dict[str, Any]:
         "locked_sample_ids": sorted(existing_ids),
         "blind_double_annotation": False,
         "weak_labels_visible": False,
+        "token_annotation_mode": "candidate_review",
         "near_duplicate_policy": "one_representative_per_dhash_cluster",
         "protocol": "docs/thesis/05_annotation_protocol.md",
         "selection_manifest": str(

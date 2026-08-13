@@ -19,6 +19,7 @@
   ],
   "blind_double_annotation": false,
   "weak_labels_visible": false,
+  "token_annotation_mode": "candidate_review",
   "near_duplicate_policy": "one_representative_per_dhash_cluster",
   "protocol": "docs/thesis/05_annotation_protocol.md",
   "selection_manifest": "data/annotations/intent_gold_v1/selection_manifest.json",

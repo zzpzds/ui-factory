@@ -915,6 +915,86 @@ button:focus-visible {
   background: var(--blue-soft);
 }
 
+.token-review-toolbar {
+  min-height: 38px;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.token-review-toolbar .status-badge {
+  margin-left: auto;
+  background: var(--amber-soft);
+  color: #8a4b08;
+}
+
+.token-review-toolbar .status-badge.complete {
+  background: var(--green-soft);
+  color: #075e54;
+}
+
+.token-candidate-list {
+  max-height: 300px;
+}
+
+.token-candidate {
+  padding: 8px;
+  border-bottom: 1px solid #edf0f4;
+}
+
+.token-candidate.ignored {
+  opacity: 0.58;
+}
+
+.token-candidate-main {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.token-candidate-actions {
+  min-height: 30px;
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.token-candidate-actions button {
+  min-height: 30px;
+}
+
+.candidate-decision {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.manual-token-editor {
+  margin-top: 8px;
+  padding: 0 8px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.manual-token-editor summary {
+  padding: 9px 0;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.manual-token-editor .inline-actions {
+  padding-bottom: 9px;
+}
+
+.token-result-label {
+  margin: 0;
+  padding: 10px 8px 7px;
+}
+
 .token-row-main {
   min-width: 0;
   display: flex;

@@ -193,6 +193,22 @@ class AnnotationStore:
                 errors.append(f"token {token.id} 至少需要两个成员")
         return list(dict.fromkeys(errors))
 
+    def _token_review_errors(
+        self, ir: DesignIntentIR, sample_id: str
+    ) -> list[str]:
+        if (
+            self.assignment.get("token_annotation_mode") != "candidate_review"
+            or sample_id in self.locked_sample_ids
+        ):
+            return []
+        review = ir.provenance.get("token_review", {})
+        if (
+            review.get("status") != "reviewed"
+            or not isinstance(review.get("reviewed_candidate_keys"), list)
+        ):
+            return ["请先完成 Token 样式候选检查"]
+        return []
+
     @staticmethod
     def _normalize_token_references(ir: DesignIntentIR) -> None:
         token_members = {
@@ -234,6 +250,7 @@ class AnnotationStore:
             "status": "draft",
         }
         errors = self._submission_errors(ir, graph)
+        errors.extend(self._token_review_errors(ir, sample_id))
         if submit and not errors:
             ir.provenance["status"] = "complete"
 

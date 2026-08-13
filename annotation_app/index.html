@@ -74,23 +74,25 @@
       </section>
 
       <section id="tokensTab" class="tab-content">
-        <div class="field-grid">
-          <label>
-            <span>类型</span>
-            <select id="tokenKind">
-              <option value="COLOR">COLOR</option>
-              <option value="TEXT">TEXT</option>
-              <option value="RADIUS">RADIUS</option>
-              <option value="SPACING">SPACING</option>
-            </select>
-          </label>
-          <label>
-            <span>名称</span>
-            <input id="tokenName" value="color/token">
-          </label>
+        <div class="panel-toolbar token-review-toolbar">
+          <strong>样式候选</strong>
+          <span id="tokenReviewStatus" class="status-badge">待检查</span>
         </div>
-        <div id="tokenValueEditor"></div>
-        <button id="createToken" class="primary-button full-button" type="button">从所选实体创建</button>
+        <div id="tokenCandidateList" class="scroll-list token-candidate-list"></div>
+        <button id="completeTokenReview" class="secondary-button full-button" type="button">完成 Token 检查</button>
+        <details class="manual-token-editor">
+          <summary>手动补充</summary>
+          <div class="inline-actions">
+            <select id="tokenKind" aria-label="Token 类型">
+              <option value="COLOR">颜色</option>
+              <option value="TEXT">文字</option>
+              <option value="RADIUS">圆角</option>
+              <option value="SPACING">间距</option>
+            </select>
+            <button id="createToken" class="primary-button grow" type="button">从所选实体创建</button>
+          </div>
+        </details>
+        <div class="section-label token-result-label">已保留 Token</div>
         <div id="tokenList" class="scroll-list"></div>
       </section>
 
