@@ -116,3 +116,65 @@ def test_finalize_requires_review_and_exports_disclosed_gold(tmp_path):
     assert gold.provenance["label_source"] == "human_ai_adjudicated_gold"
     assert gold.provenance["gold_finalized"] is True
     assert gold.provenance["ai_assistance_disclosed"] is True
+
+
+def test_canonical_full_finalize_updates_index(tmp_path):
+    repo_root = tmp_path / "repo"
+    package_dir = repo_root / "package"
+    adjudication_dir = package_dir / "adjudication"
+    gold_drafts_dir = package_dir / "gold_drafts"
+    package_dir.mkdir(parents=True)
+    assignment = json.loads((PACKAGE_DIR / "assignment.json").read_text())
+    assignment["samples"] = [assignment["samples"][0]]
+    graph_path = repo_root / assignment["samples"][0]["page_graph"]
+    graph_path.parent.mkdir(parents=True)
+    source_graph = REPO_ROOT / assignment["samples"][0]["page_graph"]
+    graph_path.write_bytes(source_graph.read_bytes())
+    _write(package_dir / "assignment.json", assignment)
+    for directory in ("annotator_a", "annotator_ai"):
+        (package_dir / directory).mkdir()
+        source = PACKAGE_DIR / directory / "0001.json"
+        (package_dir / directory / "0001.json").write_bytes(source.read_bytes())
+    prepare_adjudication(
+        repo_root,
+        package_dir,
+        adjudication_dir,
+        gold_drafts_dir,
+    )
+    record_path = adjudication_dir / "0001.json"
+    record = json.loads(record_path.read_text(encoding="utf-8"))
+    record["status"] = "reviewed"
+    record["review"].update(
+        {
+            "reviewed_by": "designer_a",
+            "reviewed_at": "2026-08-13T15:00:00+08:00",
+            "notes": "逐项核对完成。",
+        }
+    )
+    _write(record_path, record)
+    draft_path = gold_drafts_dir / "0001.json"
+    draft = DesignIntentIR.load(draft_path).to_dict()
+    draft["provenance"].update(
+        {
+            "status": "complete",
+            "adjudication_status": "reviewed",
+            "reviewed_by": "designer_a",
+            "reviewed_at": "2026-08-13T15:00:00+08:00",
+            "review_notes": "逐项核对完成。",
+        }
+    )
+    _write(draft_path, draft)
+
+    result = finalize_adjudication(
+        repo_root,
+        package_dir,
+        adjudication_dir,
+        gold_drafts_dir,
+    )
+
+    assert result["complete"] is True
+    index = json.loads((adjudication_dir / "index.json").read_text())
+    assert index["gold_status"] == "finalized"
+    assert index["training_exported"] is True
+    assert index["finalized_samples"] == ["0001"]
+    assert len(index["gold_files"]["0001"]["sha256"]) == 64

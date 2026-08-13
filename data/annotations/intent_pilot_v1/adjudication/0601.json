@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "comparison_kind": "human-ai",
   "sample_id": "0601",
-  "status": "pending",
+  "status": "reviewed",
   "inputs": {
     "human": {
       "annotator": "annotator_a",
@@ -3533,9 +3533,9 @@
     }
   },
   "review": {
-    "reviewed_by": null,
-    "reviewed_at": null,
-    "notes": "",
+    "reviewed_by": "赵志鹏",
+    "reviewed_at": "2026-08-13T14:56:54+08:00",
+    "notes": "导航部分改为ai标注",
     "required_checks": [
       "逐项核对原子元素的合并、拆分与类型",
       "逐项核对语义分组及父子层级",

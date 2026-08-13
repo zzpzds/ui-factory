@@ -19,6 +19,60 @@
   "assigned": 10,
   "ready_pairs": 10,
   "complete": true,
-  "gold_status": "draft_only",
-  "training_exported": false
+  "gold_status": "finalized",
+  "training_exported": true,
+  "finalized_samples": [
+    "0001",
+    "0020",
+    "0319",
+    "0419",
+    "0601",
+    "0860",
+    "0052",
+    "1094",
+    "1429",
+    "0937"
+  ],
+  "gold_files": {
+    "0001": {
+      "path": "data/processed/0001/gold_intent.json",
+      "sha256": "1c60fb5ebd709c86f846dd05b617610785f29c389408de55aef0503098aca4b5"
+    },
+    "0020": {
+      "path": "data/processed/0020/gold_intent.json",
+      "sha256": "fbb963608e7a7e1b681df4f1184ba0f4d5b443fc6f36e0ff4a03cbec398000cc"
+    },
+    "0319": {
+      "path": "data/processed/0319/gold_intent.json",
+      "sha256": "bd27eb1540412868716f1ccb84d988bcc3b31e84d361279baa6a8c9bf7ac012c"
+    },
+    "0419": {
+      "path": "data/processed/0419/gold_intent.json",
+      "sha256": "66758be8695fe4ada5ce439c2122818473500090adce9af55f1dd469203a9be9"
+    },
+    "0601": {
+      "path": "data/processed/0601/gold_intent.json",
+      "sha256": "abe5fefc3cb424f4a0e4fdb107475c0f00a0b0aef226b13dbff4fe6223d248dd"
+    },
+    "0860": {
+      "path": "data/processed/0860/gold_intent.json",
+      "sha256": "8dd67a6faebbc18d56e75e1e90ef7530e569dd6648c1694f88de66bb2c1939aa"
+    },
+    "0052": {
+      "path": "data/processed/0052/gold_intent.json",
+      "sha256": "82264a69f01a825eb5892f29035de36dcfe58704b47bcadd7cd81a3f3046ad71"
+    },
+    "1094": {
+      "path": "data/processed/1094/gold_intent.json",
+      "sha256": "d51eaf18d3e751d3da1ad2a299b7dd798f7b3b48142546e4c1f12cc9592a0094"
+    },
+    "1429": {
+      "path": "data/processed/1429/gold_intent.json",
+      "sha256": "b20eac1c74076f6252e6cc19cfb4c1ffba636dbc1fa220f5b2940ea8866e1a21"
+    },
+    "0937": {
+      "path": "data/processed/0937/gold_intent.json",
+      "sha256": "8ccaa1690f349eb986d003eccc922806cb095035ca898469ca7660bc0914664d"
+    }
+  }
 }

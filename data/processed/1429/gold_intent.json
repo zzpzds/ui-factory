@@ -8,18 +8,17 @@
     {
       "id": "e_1",
       "source_node_ids": [
-        3,
-        2
+        13
       ],
-      "type": "TEXT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 36.0,
-        "y": 21.0,
-        "width": 352.953125,
-        "height": 21.0
+        "x": 897.3125,
+        "y": 9.0,
+        "width": 42.6875,
+        "height": 18.0
       },
-      "name": "导航栏标题",
-      "text": "Citrus fruits ★  price inflation since 2022",
+      "name": "导航链接",
+      "text": "Home",
       "style": {
         "background_color": [
           0,
@@ -28,21 +27,21 @@
           0
         ],
         "text_color": [
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           1
         ],
         "border_color": [
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
-        "font_weight": 900,
-        "line_height": 27,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -51,17 +50,17 @@
     {
       "id": "e_2",
       "source_node_ids": [
-        5
+        16
       ],
-      "type": "TEXT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 984.671875,
-        "y": 18.0,
-        "width": 295.328125,
-        "height": 27.0
+        "x": 831.84375,
+        "y": 9.0,
+        "width": 44.46875,
+        "height": 18.0
       },
-      "name": "文本",
-      "text": "",
+      "name": "导航链接",
+      "text": "Books",
       "style": {
         "background_color": [
           0,
@@ -82,9 +81,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -93,17 +92,17 @@
     {
       "id": "e_3",
       "source_node_ids": [
-        21
+        19
       ],
-      "type": "TEXT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 40.0,
-        "y": 90.0,
-        "width": 1200.0,
-        "height": 56.0
+        "x": 739.03125,
+        "y": 9.0,
+        "width": 81.8125,
+        "height": 18.0
       },
-      "name": "标题",
-      "text": "",
+      "name": "导航链接",
+      "text": "Contact Me",
       "style": {
         "background_color": [
           0,
@@ -124,9 +123,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 36,
-        "font_weight": 700,
-        "line_height": 54,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -135,17 +134,17 @@
     {
       "id": "e_4",
       "source_node_ids": [
-        30
+        22
       ],
-      "type": "TEXT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 77.0,
-        "y": 183.0,
-        "width": 325.953125,
-        "height": 90.0
+        "x": 584.640625,
+        "y": 9.0,
+        "width": 133.390625,
+        "height": 18.0
       },
-      "name": "表单标题",
-      "text": "Citrus Fruits Inflation Calculator",
+      "name": "导航链接",
+      "text": "Academic Portfolio",
       "style": {
         "background_color": [
           0,
@@ -166,9 +165,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 30,
-        "font_weight": 700,
-        "line_height": 45,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -177,17 +176,17 @@
     {
       "id": "e_5",
       "source_node_ids": [
-        33
+        28
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 77.0,
-        "y": 300.0,
-        "width": 40.171875,
-        "height": 21.0
+        "x": 147.0,
+        "y": 28.0,
+        "width": 280.140625,
+        "height": 43.0
       },
-      "name": "表单项名称",
-      "text": "Cost",
+      "name": "作者名",
+      "text": "Dustin M. Wax",
       "style": {
         "background_color": [
           0,
@@ -208,9 +207,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 38.4,
         "font_weight": 700,
-        "line_height": 27,
+        "line_height": 38.4,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -219,39 +218,39 @@
     {
       "id": "e_6",
       "source_node_ids": [
-        37
+        29
       ],
-      "type": "INPUT",
+      "type": "TEXT",
       "bbox": {
-        "x": 77.0,
-        "y": 324.0,
-        "width": 325.953125,
-        "height": 63.0
+        "x": 132.0,
+        "y": 69.40625,
+        "width": 524.0,
+        "height": 44.0
       },
-      "name": "表单项输入框",
-      "text": "",
+      "name": "作者头衔",
+      "text": "museum administrator, educator, anthropologist, and writer",
       "style": {
         "background_color": [
-          1,
-          1,
-          1,
-          1
+          0,
+          0,
+          0,
+          0
         ],
         "text_color": [
-          0,
-          0,
-          0,
+          0.4,
+          0.4,
+          0.4,
           1
         ],
         "border_color": [
-          0.8,
-          0.8,
-          0.8,
+          0.4,
+          0.4,
+          0.4,
           1
         ],
         "border_radius": 0,
-        "font_size": 25.2,
-        "font_weight": 300,
+        "font_size": 19.2,
+        "font_weight": 700,
         "line_height": 0,
         "opacity": 1
       },
@@ -261,17 +260,17 @@
     {
       "id": "e_7",
       "source_node_ids": [
-        39
+        32
       ],
-      "type": "TEXT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 77.0,
-        "y": 408.0,
-        "width": 85.09375,
-        "height": 21.0
+        "x": 841.640625,
+        "y": 66.203125,
+        "width": 99.359375,
+        "height": 22.0
       },
-      "name": "表单项名",
-      "text": "Start year",
+      "name": "操作按钮",
+      "text": "Comments",
       "style": {
         "background_color": [
           0,
@@ -292,9 +291,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
-        "font_weight": 700,
-        "line_height": 27,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 22,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -303,59 +302,17 @@
     {
       "id": "e_8",
       "source_node_ids": [
-        41
+        33
       ],
-      "type": "INPUT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 77.0,
-        "y": 432.0,
-        "width": 325.953125,
-        "height": 63.0
+        "x": 771.625,
+        "y": 66.203125,
+        "width": 60.015625,
+        "height": 22.0
       },
-      "name": "输入框",
-      "text": "",
-      "style": {
-        "background_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "text_color": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "border_color": [
-          0.8,
-          0.8,
-          0.8,
-          1
-        ],
-        "border_radius": 0,
-        "font_size": 25.2,
-        "font_weight": 300,
-        "line_height": 0,
-        "opacity": 1
-      },
-      "style_token_refs": [],
-      "confidence": 1.0
-    },
-    {
-      "id": "e_9",
-      "source_node_ids": [
-        43
-      ],
-      "type": "TEXT",
-      "bbox": {
-        "x": 77.0,
-        "y": 516.0,
-        "width": 74.609375,
-        "height": 21.0
-      },
-      "name": "表单项名",
-      "text": "End year",
+      "name": "操作按钮",
+      "text": "Posts",
       "style": {
         "background_color": [
           0,
@@ -376,27 +333,27 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
-        "font_weight": 700,
-        "line_height": 27,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 22,
         "opacity": 1
       },
       "style_token_refs": [],
       "confidence": 1.0
     },
     {
-      "id": "e_10",
+      "id": "e_9",
       "source_node_ids": [
-        45
+        39
       ],
       "type": "INPUT",
       "bbox": {
-        "x": 77.0,
-        "y": 540.0,
-        "width": 325.953125,
-        "height": 63.0
+        "x": 143.0,
+        "y": 119.40625,
+        "width": 179.0,
+        "height": 23.0
       },
-      "name": "输入框",
+      "name": "搜索框",
       "text": "",
       "style": {
         "background_color": [
@@ -406,20 +363,62 @@
           1
         ],
         "text_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        42
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 132.0,
+        "y": 155.40625,
+        "width": 814.0,
+        "height": 160.0
+      },
+      "name": "文章配图",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
           0,
           0,
           0,
           1
         ],
         "border_color": [
-          0.8,
-          0.8,
-          0.8,
+          0,
+          0,
+          0,
           1
         ],
         "border_radius": 0,
-        "font_size": 25.2,
-        "font_weight": 300,
+        "font_size": 16,
+        "font_weight": 400,
         "line_height": 0,
         "opacity": 1
       },
@@ -429,40 +428,40 @@
     {
       "id": "e_11",
       "source_node_ids": [
-        48
+        53
       ],
-      "type": "BUTTON_VISUAL",
+      "type": "TEXT",
       "bbox": {
-        "x": 80.59375,
-        "y": 621.0,
-        "width": 318.765625,
-        "height": 62.984375
+        "x": 147.0,
+        "y": 335.40625,
+        "width": 559.265625,
+        "height": 32.0
       },
-      "name": "表单提交按钮",
-      "text": "Calculate Inflation",
+      "name": "标题",
+      "text": "Twitter Weekly Updates for 2010-01-31",
       "style": {
         "background_color": [
-          0.3607843137254902,
-          0.7215686274509804,
-          0.3607843137254902,
-          1
-        ],
-        "text_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "border_color": [
           0,
           0,
           0,
           0
         ],
-        "border_radius": 2,
-        "font_size": 18,
+        "text_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 28,
         "font_weight": 700,
-        "line_height": 24,
+        "line_height": 36.4,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -471,17 +470,17 @@
     {
       "id": "e_12",
       "source_node_ids": [
-        50
+        55
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 77.0,
-        "y": 719.984375,
-        "width": 325.953125,
-        "height": 27.0
+        "x": 147.0,
+        "y": 385.796875,
+        "width": 784.0,
+        "height": 72.0
       },
-      "name": "表单介绍",
-      "text": "See price inflation for:",
+      "name": "缩略文本",
+      "text": "@SonjaFoust Book catalogs/bibliography managers are an obvious match for handheld devices, but rarel",
       "style": {
         "background_color": [
           0,
@@ -502,9 +501,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -513,17 +512,17 @@
     {
       "id": "e_13",
       "source_node_ids": [
-        52
+        56
       ],
-      "type": "TEXT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 77.0,
-        "y": 764.984375,
-        "width": 326.0,
-        "height": 27.0
+        "x": 324.90625,
+        "y": 439.796875,
+        "width": 130.765625,
+        "height": 18.0
       },
-      "name": "列表项",
-      "text": "",
+      "name": "展开按钮",
+      "text": "[Continue reading]",
       "style": {
         "background_color": [
           0,
@@ -544,9 +543,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -555,40 +554,43 @@
     {
       "id": "e_14",
       "source_node_ids": [
-        54
+        57,
+        58,
+        59,
+        60
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 77.0,
-        "y": 791.984375,
-        "width": 326.0,
-        "height": 6.0
+        "x": 147.0,
+        "y": 473.796875,
+        "width": 784.0,
+        "height": 28.0
       },
-      "name": "列表项",
-      "text": "",
+      "name": "信息介绍",
+      "text": "January 31st, 2010 | Tags:  |  Category:  | twitter Random Thoughts One comment",
       "style": {
         "background_color": [
-          0,
-          0,
-          0,
-          0
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
         ],
         "text_color": [
-          0,
-          0,
-          0,
+          0.4,
+          0.4,
+          0.4,
           1
         ],
         "border_color": [
-          0,
-          0,
-          0,
+          0.4,
+          0.4,
+          0.4,
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 18,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -597,17 +599,17 @@
     {
       "id": "e_15",
       "source_node_ids": [
-        59
+        64
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 476.953125,
-        "y": 183.0,
-        "width": 725.90625,
-        "height": 45.0
+        "x": 147.0,
+        "y": 533.796875,
+        "width": 424.390625,
+        "height": 32.0
       },
       "name": "标题",
-      "text": "Prices for Citrus Fruits, 2022-2023 ($20)",
+      "text": "Finally Publishing Comments",
       "style": {
         "background_color": [
           0,
@@ -616,21 +618,21 @@
           0
         ],
         "text_color": [
-          0,
+          0.4,
           0,
           0,
           1
         ],
         "border_color": [
-          0,
+          0.4,
           0,
           0,
           1
         ],
         "border_radius": 0,
-        "font_size": 30,
+        "font_size": 28,
         "font_weight": 700,
-        "line_height": 45,
+        "line_height": 36.4,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -639,17 +641,17 @@
     {
       "id": "e_16",
       "source_node_ids": [
-        60
+        66
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 476.953125,
-        "y": 246.0,
-        "width": 725.90625,
-        "height": 54.0
+        "x": 147.0,
+        "y": 584.1875,
+        "width": 784.0,
+        "height": 72.0
       },
-      "name": "文本段落内容",
-      "text": "According to the U.S. Bureau of Labor Statistics, prices for  are  in 2023 versus 2022 (a $0.34 diff",
+      "name": "缩略文本",
+      "text": "I just noticed a bunch of quite old comments — like, 10 weeks old and older — that had gotten stuck",
       "style": {
         "background_color": [
           0,
@@ -670,9 +672,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -681,23 +683,23 @@
     {
       "id": "e_17",
       "source_node_ids": [
-        62
+        67
       ],
-      "type": "TEXT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 1073.375,
-        "y": 249.0,
-        "width": 97.453125,
-        "height": 21.0
+        "x": 700.796875,
+        "y": 638.1875,
+        "width": 130.765625,
+        "height": 18.0
       },
-      "name": "被标记的文本",
-      "text": "1.69% lower",
+      "name": "展开按钮",
+      "text": "[Continue reading]",
       "style": {
         "background_color": [
-          1,
-          1,
-          0.49411764705882355,
-          0.36
+          0,
+          0,
+          0,
+          0
         ],
         "text_color": [
           0,
@@ -712,9 +714,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -723,40 +725,45 @@
     {
       "id": "e_18",
       "source_node_ids": [
-        61
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 948.234375,
-        "y": 249.0,
-        "width": 90.6875,
-        "height": 22.0
+        "x": 147.0,
+        "y": 672.1875,
+        "width": 784.0,
+        "height": 28.0
       },
-      "name": "被框选的文本",
-      "text": "citrus fruits",
+      "name": "介绍信息",
+      "text": "November 9th, 2007 | Tags: , ,  |  Category:  | akismet anthropology spam Random Thoughts Leave a comment",
       "style": {
         "background_color": [
-          0,
-          0,
-          0,
-          0
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
         ],
         "text_color": [
-          0,
-          0,
-          0,
+          0.4,
+          0.4,
+          0.4,
           1
         ],
         "border_color": [
-          0,
-          0,
-          0,
+          0.4,
+          0.4,
+          0.4,
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 18,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -765,17 +772,17 @@
     {
       "id": "e_19",
       "source_node_ids": [
-        63
+        77
       ],
-      "type": "TEXT",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 476.953125,
-        "y": 318.0,
-        "width": 725.90625,
-        "height": 108.0
+        "x": 499.3125,
+        "y": 741.1875,
+        "width": 48.0,
+        "height": 18.0
       },
-      "name": "段落文本内容",
-      "text": "experienced an average inflation rate of . In other words,  costing $20 in the year 2022 would cost",
+      "name": "跳转主页链接",
+      "text": "HOME",
       "style": {
         "background_color": [
           0,
@@ -796,9 +803,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -807,17 +814,17 @@
     {
       "id": "e_20",
       "source_node_ids": [
-        64
+        79
       ],
-      "type": "SHAPE",
+      "type": "BUTTON_VISUAL",
       "bbox": {
-        "x": 476.953125,
-        "y": 321.0,
-        "width": 216.28125,
-        "height": 21.0
+        "x": 817.171875,
+        "y": 741.1875,
+        "width": 113.828125,
+        "height": 18.0
       },
-      "name": "段落开头的几个粗体文字",
-      "text": "Between 2022 and 2023:",
+      "name": "跳转按钮",
+      "text": "Newer Entries »",
       "style": {
         "background_color": [
           0,
@@ -838,9 +845,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
-        "font_weight": 700,
-        "line_height": 27,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -849,17 +856,17 @@
     {
       "id": "e_21",
       "source_node_ids": [
-        65
+        83
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 697.796875,
-        "y": 321.0,
-        "width": 93.515625,
-        "height": 22.0
+        "x": 959.0,
+        "y": 333.40625,
+        "width": 179.0,
+        "height": 22.859375
       },
-      "name": "被框选的文本",
-      "text": "Citrus fruits",
+      "name": "目录标题",
+      "text": "Menu",
       "style": {
         "background_color": [
           0,
@@ -868,21 +875,21 @@
           0
         ],
         "text_color": [
-          0,
+          0.4,
           0,
           0,
           1
         ],
         "border_color": [
-          0,
+          0.4,
           0,
           0,
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
-        "font_weight": 400,
-        "line_height": 27,
+        "font_size": 17.6,
+        "font_weight": 700,
+        "line_height": 22.88,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -891,23 +898,23 @@
     {
       "id": "e_22",
       "source_node_ids": [
-        66
+        87
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 476.953125,
-        "y": 321.0,
-        "width": 697.546875,
-        "height": 48.0
+        "x": 959.0,
+        "y": 361.265625,
+        "width": 42.6875,
+        "height": 18.0
       },
-      "name": "被标记的文本",
-      "text": "-1.69% per year",
+      "name": "一级目录",
+      "text": "Home",
       "style": {
         "background_color": [
-          1,
-          1,
-          0.49411764705882355,
-          0.36
+          0,
+          0,
+          0,
+          0
         ],
         "text_color": [
           0,
@@ -922,9 +929,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -933,17 +940,17 @@
     {
       "id": "e_23",
       "source_node_ids": [
-        67
+        89
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 675.046875,
-        "y": 348.0,
-        "width": 90.6875,
-        "height": 22.0
+        "x": 959.0,
+        "y": 381.265625,
+        "width": 133.390625,
+        "height": 18.0
       },
-      "name": "被框选的文本",
-      "text": "citrus fruits",
+      "name": "一级目录",
+      "text": "Academic Portfolio",
       "style": {
         "background_color": [
           0,
@@ -964,9 +971,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -975,17 +982,17 @@
     {
       "id": "e_24",
       "source_node_ids": [
-        68
+        92
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 714.125,
-        "y": 402.0,
-        "width": 90.6875,
-        "height": 22.0
+        "x": 964.0,
+        "y": 401.265625,
+        "width": 109.078125,
+        "height": 18.0
       },
-      "name": "被框选的文本",
-      "text": "citrus fruits",
+      "name": "二级目录",
+      "text": "Curriculum Vita",
       "style": {
         "background_color": [
           0,
@@ -1006,9 +1013,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -1017,17 +1024,17 @@
     {
       "id": "e_25",
       "source_node_ids": [
-        69
+        94
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 476.953125,
-        "y": 444.0,
-        "width": 725.90625,
-        "height": 81.0
+        "x": 964.0,
+        "y": 421.265625,
+        "width": 52.453125,
+        "height": 18.0
       },
-      "name": "段落文本",
-      "text": "Pricing changed by 11.58%, which is significantly above the average yearly change for  during the 20",
+      "name": "二级目录",
+      "text": "Articles",
       "style": {
         "background_color": [
           0,
@@ -1048,9 +1055,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -1059,17 +1066,17 @@
     {
       "id": "e_26",
       "source_node_ids": [
-        70
+        96
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 476.953125,
-        "y": 447.0,
-        "width": 145.25,
-        "height": 21.0
+        "x": 964.0,
+        "y": 441.265625,
+        "width": 77.375,
+        "height": 18.0
       },
-      "name": "段落开头的几个粗体单词",
-      "text": "In the year 2022:",
+      "name": "二级目录",
+      "text": "Exhibitions",
       "style": {
         "background_color": [
           0,
@@ -1090,9 +1097,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
-        "font_weight": 700,
-        "line_height": 27,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -1101,17 +1108,17 @@
     {
       "id": "e_27",
       "source_node_ids": [
-        71
+        99
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 620.078125,
-        "y": 474.0,
-        "width": 90.6875,
-        "height": 22.0
+        "x": 969.0,
+        "y": 461.265625,
+        "width": 169.0,
+        "height": 36.0
       },
-      "name": "被框选的文本",
-      "text": "citrus fruits",
+      "name": "三级目录",
+      "text": "Spectacular, Erotic, and Slightly Shocking",
       "style": {
         "background_color": [
           0,
@@ -1132,9 +1139,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -1143,17 +1150,17 @@
     {
       "id": "e_28",
       "source_node_ids": [
-        73
+        101
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 756.828125,
-        "y": 501.0,
-        "width": 90.6875,
-        "height": 22.0
+        "x": 969.0,
+        "y": 499.265625,
+        "width": 93.09375,
+        "height": 36.0
       },
-      "name": "被框选文本",
-      "text": "citrus fruits",
+      "name": "三级目录",
+      "text": "Frida Kahlo’s Mexicanidad",
       "style": {
         "background_color": [
           0,
@@ -1174,9 +1181,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -1185,18 +1192,17 @@
     {
       "id": "e_29",
       "source_node_ids": [
-        75,
-        76
+        103
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 477.953125,
-        "y": 589.9375,
-        "width": 723.90625,
-        "height": 27.0
+        "x": 969.0,
+        "y": 537.265625,
+        "width": 127.171875,
+        "height": 18.0
       },
-      "name": "小标题",
-      "text": "Price Inflation for  since 1997 Citrus fruits",
+      "name": "三级目录",
+      "text": "Drawn in the Dust",
       "style": {
         "background_color": [
           0,
@@ -1217,9 +1223,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
-        "font_weight": 700,
-        "line_height": 27,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -1228,17 +1234,17 @@
     {
       "id": "e_30",
       "source_node_ids": [
-        77
+        105
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 477.953125,
-        "y": 641.875,
-        "width": 723.90625,
-        "height": 22.40625
+        "x": 964.0,
+        "y": 557.265625,
+        "width": 111.78125,
+        "height": 18.0
       },
-      "name": "斜粗体介绍文本",
-      "text": "Consumer Price Index, U.S. Bureau of Labor Statistics",
+      "name": "二级目录",
+      "text": "Courses Taught",
       "style": {
         "background_color": [
           0,
@@ -1259,9 +1265,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 14.94,
-        "font_weight": 700,
-        "line_height": 22.41,
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -1270,20 +1276,17 @@
     {
       "id": "e_31",
       "source_node_ids": [
-        79,
-        80,
-        81,
-        82
+        107
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 477.953125,
-        "y": 717.21875,
-        "width": 723.90625,
-        "height": 54.0
+        "x": 964.0,
+        "y": 577.265625,
+        "width": 158.9375,
+        "height": 36.0
       },
-      "name": "一段文本",
-      "text": "Years with the largest changes in pricing: 1998 , 1999 , and 2000 . (28.08%) (24.12%) (-14.63%)",
+      "name": "二级目录",
+      "text": "Statement of Teaching Philosophy",
       "style": {
         "background_color": [
           0,
@@ -1304,9 +1307,9 @@
           1
         ],
         "border_radius": 0,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "line_height": 27,
+        "line_height": 0,
         "opacity": 1
       },
       "style_token_refs": [],
@@ -1315,17 +1318,17 @@
     {
       "id": "e_32",
       "source_node_ids": [
-        7
+        109
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 984.671875,
-        "y": 21.0,
-        "width": 33.046875,
-        "height": 21.0
+        "x": 959.0,
+        "y": 615.265625,
+        "width": 44.46875,
+        "height": 18.0
       },
-      "name": "美国导航",
-      "text": "U.S.",
+      "name": "一级目录",
+      "text": "Books",
       "style": {
         "background_color": [
           0,
@@ -1346,30 +1349,28 @@
           1
         ],
         "border_radius": 0,
-        "border_width": 0,
-        "opacity": 1,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "text_align": "right",
-        "image_src": null
+        "line_height": 0,
+        "opacity": 1
       },
       "style_token_refs": [],
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
       "id": "e_33",
       "source_node_ids": [
-        9
+        112
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 1017.71875,
-        "y": 21.0,
-        "width": 61.359375,
-        "height": 21.0
+        "x": 964.0,
+        "y": 635.265625,
+        "width": 155.921875,
+        "height": 36.0
       },
-      "name": "加拿大导航",
-      "text": "Canada",
+      "name": "二级目录",
+      "text": "Anthropology at the Dawn of the Cold War",
       "style": {
         "background_color": [
           0,
@@ -1390,30 +1391,28 @@
           1
         ],
         "border_radius": 0,
-        "border_width": 0,
-        "opacity": 1,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "text_align": "right",
-        "image_src": null
+        "line_height": 0,
+        "opacity": 1
       },
       "style_token_refs": [],
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
       "id": "e_34",
       "source_node_ids": [
-        11
+        114
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 1079.078125,
-        "y": 21.0,
-        "width": 33.421875,
-        "height": 21.0
+        "x": 964.0,
+        "y": 673.265625,
+        "width": 111.1875,
+        "height": 18.0
       },
-      "name": "英国导航",
-      "text": "U.K.",
+      "name": "二级目录",
+      "text": "Don’t Be Stupid",
       "style": {
         "background_color": [
           0,
@@ -1434,30 +1433,28 @@
           1
         ],
         "border_radius": 0,
-        "border_width": 0,
-        "opacity": 1,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "text_align": "right",
-        "image_src": null
+        "line_height": 0,
+        "opacity": 1
       },
       "style_token_refs": [],
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
       "id": "e_35",
       "source_node_ids": [
-        13
+        116
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 1112.5,
-        "y": 21.0,
-        "width": 69.4375,
-        "height": 21.0
+        "x": 959.0,
+        "y": 693.265625,
+        "width": 68.484375,
+        "height": 18.0
       },
-      "name": "澳大利亚导航",
-      "text": "Australia",
+      "name": "一级目录",
+      "text": "About Me",
       "style": {
         "background_color": [
           0,
@@ -1478,30 +1475,28 @@
           1
         ],
         "border_radius": 0,
-        "border_width": 0,
-        "opacity": 1,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "text_align": "right",
-        "image_src": null
+        "line_height": 0,
+        "opacity": 1
       },
       "style_token_refs": [],
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
       "id": "e_36",
       "source_node_ids": [
-        15
+        118
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 1181.9375,
-        "y": 21.0,
-        "width": 56.78125,
-        "height": 21.0
+        "x": 959.0,
+        "y": 713.265625,
+        "width": 81.8125,
+        "height": 18.0
       },
-      "name": "欧洲导航",
-      "text": "Europe",
+      "name": "一级目录",
+      "text": "Contact Me",
       "style": {
         "background_color": [
           0,
@@ -1522,30 +1517,28 @@
           1
         ],
         "border_radius": 0,
-        "border_width": 0,
-        "opacity": 1,
-        "font_size": 18,
+        "font_size": 16,
         "font_weight": 400,
-        "text_align": "right",
-        "image_src": null
+        "line_height": 0,
+        "opacity": 1
       },
       "style_token_refs": [],
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
       "id": "e_37",
       "source_node_ids": [
-        17
+        121
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 1238.71875,
-        "y": 21.0,
-        "width": 41.28125,
-        "height": 21.0
+        "x": 959.0,
+        "y": 761.265625,
+        "width": 179.0,
+        "height": 22.859375
       },
-      "name": "更多导航",
-      "text": "More",
+      "name": "标题",
+      "text": "Most Recent Posts",
       "style": {
         "background_color": [
           0,
@@ -1554,45 +1547,40 @@
           0
         ],
         "text_color": [
-          0,
+          0.4,
           0,
           0,
           1
         ],
         "border_color": [
-          0,
+          0.4,
           0,
           0,
           1
         ],
         "border_radius": 0,
-        "border_width": 0,
-        "opacity": 1,
-        "font_size": 18,
-        "font_weight": 400,
-        "text_align": "right",
-        "image_src": null
+        "font_size": 17.6,
+        "font_weight": 700,
+        "line_height": 22.88,
+        "opacity": 1
       },
       "style_token_refs": [],
-      "confidence": 0.9
+      "confidence": 1.0
     },
     {
       "id": "e_38",
       "source_node_ids": [
-        22,
-        23,
-        24,
-        25
+        124
       ],
       "type": "TEXT",
       "bbox": {
-        "x": 204.671875,
-        "y": 90.0,
-        "width": 870.640625,
-        "height": 56.0
+        "x": 971.0,
+        "y": 789.125,
+        "width": 158.3125,
+        "height": 10.875
       },
-      "name": "价格换算标题",
-      "text": "Citrus fruits priced at $20 in 2022 → $19.66 in 2023",
+      "name": "文本",
+      "text": "Everyday Prepping for Everyday People",
       "style": {
         "background_color": [
           0,
@@ -1613,15 +1601,13 @@
           1
         ],
         "border_radius": 0,
-        "border_width": 0,
-        "opacity": 1,
-        "font_size": 36,
-        "font_weight": 700,
-        "text_align": "center",
-        "image_src": null
+        "font_size": 16,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
       },
       "style_token_refs": [],
-      "confidence": 0.9
+      "confidence": 1.0
     }
   ],
   "groups": [
@@ -1630,19 +1616,15 @@
       "source_element_ids": [
         "e_1",
         "e_2",
-        "e_32",
-        "e_33",
-        "e_34",
-        "e_35",
-        "e_36",
-        "e_37"
+        "e_3",
+        "e_4"
       ],
       "role": "NAV",
       "bbox": {
-        "x": 0.0,
-        "y": 0.0,
-        "width": 1280.0,
-        "height": 63.0
+        "x": 584.640625,
+        "y": 9.0,
+        "width": 355.359375,
+        "height": 18.0
       },
       "name": "导航栏",
       "style": {},
@@ -1653,16 +1635,19 @@
       "id": "g_2",
       "source_element_ids": [
         "e_5",
-        "e_6"
+        "e_6",
+        "e_7",
+        "e_8",
+        "e_9"
       ],
       "role": "CONTAINER",
       "bbox": {
-        "x": 77.0,
-        "y": 300.0,
-        "width": 325.953125,
-        "height": 87.0
+        "x": 132.0,
+        "y": 28.0,
+        "width": 809.0,
+        "height": 114.40625
       },
-      "name": "表单项",
+      "name": "页面头部",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1670,17 +1655,17 @@
     {
       "id": "g_3",
       "source_element_ids": [
-        "e_7",
-        "e_8"
+        "e_12",
+        "e_13"
       ],
-      "role": "CONTAINER",
+      "role": "SECTION",
       "bbox": {
-        "x": 77.0,
-        "y": 408.0,
-        "width": 325.953125,
-        "height": 87.0
+        "x": 147.0,
+        "y": 385.796875,
+        "width": 784.0,
+        "height": 72.0
       },
-      "name": "表单项",
+      "name": "可缩略段落",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1688,17 +1673,19 @@
     {
       "id": "g_4",
       "source_element_ids": [
-        "e_9",
-        "e_10"
+        "e_11",
+        "e_12",
+        "e_13",
+        "e_14"
       ],
-      "role": "CONTAINER",
+      "role": "SECTION",
       "bbox": {
-        "x": 77.0,
-        "y": 516.0,
-        "width": 325.953125,
-        "height": 87.0
+        "x": 147.0,
+        "y": 335.40625,
+        "width": 784.0,
+        "height": 166.390625
       },
-      "name": "表单项",
+      "name": "文章列表",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1706,22 +1693,17 @@
     {
       "id": "g_5",
       "source_element_ids": [
-        "e_5",
-        "e_6",
-        "e_7",
-        "e_8",
-        "e_9",
-        "e_10",
-        "e_11"
+        "e_16",
+        "e_17"
       ],
-      "role": "FORM",
+      "role": "SECTION",
       "bbox": {
-        "x": 77.0,
-        "y": 300.0,
-        "width": 325.953125,
-        "height": 383.984375
+        "x": 147.0,
+        "y": 584.1875,
+        "width": 784.0,
+        "height": 72.0
       },
-      "name": "表单",
+      "name": "可缩略段落",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1729,17 +1711,19 @@
     {
       "id": "g_6",
       "source_element_ids": [
-        "e_13",
-        "e_14"
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18"
       ],
-      "role": "LIST",
+      "role": "SECTION",
       "bbox": {
-        "x": 77.0,
-        "y": 764.984375,
-        "width": 326.0,
-        "height": 34.0
+        "x": 147.0,
+        "y": 533.796875,
+        "width": 784.0,
+        "height": 166.390625
       },
-      "name": "表单介绍列表",
+      "name": "文章列表",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1747,18 +1731,17 @@
     {
       "id": "g_7",
       "source_element_ids": [
-        "e_12",
-        "e_13",
-        "e_14"
+        "e_19",
+        "e_20"
       ],
-      "role": "SECTION",
+      "role": "CONTAINER",
       "bbox": {
-        "x": 77.0,
-        "y": 719.984375,
-        "width": 326.0,
-        "height": 80.0
+        "x": 499.3125,
+        "y": 741.1875,
+        "width": 431.6875,
+        "height": 18.0
       },
-      "name": "表单介绍区域",
+      "name": "页面底部",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1766,26 +1749,23 @@
     {
       "id": "g_8",
       "source_element_ids": [
-        "e_4",
-        "e_5",
-        "e_6",
-        "e_7",
-        "e_8",
-        "e_9",
-        "e_10",
         "e_11",
         "e_12",
         "e_13",
-        "e_14"
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18"
       ],
-      "role": "CONTAINER",
+      "role": "LIST",
       "bbox": {
-        "x": 58.0,
-        "y": 164.0,
-        "width": 364.0,
-        "height": 636.0
+        "x": 147.0,
+        "y": 335.40625,
+        "width": 784.0,
+        "height": 364.78125
       },
-      "name": "表单区域",
+      "name": "文章列表组",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1793,18 +1773,30 @@
     {
       "id": "g_9",
       "source_element_ids": [
-        "e_16",
-        "e_17",
-        "e_18"
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36"
       ],
-      "role": "SECTION",
+      "role": "CONTAINER",
       "bbox": {
-        "x": 476.953125,
-        "y": 246.0,
-        "width": 725.90625,
-        "height": 54.0
+        "x": 959.0,
+        "y": 361.265625,
+        "width": 179.0,
+        "height": 370.0
       },
-      "name": "第一段文本",
+      "name": "目录",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1812,71 +1804,6 @@
     {
       "id": "g_10",
       "source_element_ids": [
-        "e_20",
-        "e_21",
-        "e_22",
-        "e_23",
-        "e_24"
-      ],
-      "role": "SECTION",
-      "bbox": {
-        "x": 476.953125,
-        "y": 321.0,
-        "width": 697.546875,
-        "height": 103.0
-      },
-      "name": "第二段文本",
-      "style": {},
-      "source_node_id": null,
-      "confidence": 1.0
-    },
-    {
-      "id": "g_11",
-      "source_element_ids": [
-        "e_25",
-        "e_26",
-        "e_27",
-        "e_28"
-      ],
-      "role": "SECTION",
-      "bbox": {
-        "x": 476.953125,
-        "y": 444.0,
-        "width": 725.90625,
-        "height": 81.0
-      },
-      "name": "第三段文本",
-      "style": {},
-      "source_node_id": null,
-      "confidence": 1.0
-    },
-    {
-      "id": "g_12",
-      "source_element_ids": [
-        "e_29",
-        "e_30",
-        "e_31"
-      ],
-      "role": "CONTAINER",
-      "bbox": {
-        "x": 477.953125,
-        "y": 589.9375,
-        "width": 723.90625,
-        "height": 181.28125
-      },
-      "name": "介绍区域",
-      "style": {},
-      "source_node_id": null,
-      "confidence": 1.0
-    },
-    {
-      "id": "g_13",
-      "source_element_ids": [
-        "e_15",
-        "e_16",
-        "e_17",
-        "e_18",
-        "e_20",
         "e_21",
         "e_22",
         "e_23",
@@ -1887,16 +1814,39 @@
         "e_28",
         "e_29",
         "e_30",
-        "e_31"
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36"
       ],
       "role": "CONTAINER",
       "bbox": {
-        "x": 458.0,
-        "y": 164.0,
-        "width": 764.0,
-        "height": 636.0
+        "x": 959.0,
+        "y": 333.40625,
+        "width": 179.0,
+        "height": 397.859375
       },
-      "name": "文本内容区域",
+      "name": "目录整体",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_11",
+      "source_element_ids": [
+        "e_37",
+        "e_38"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 959.0,
+        "y": 761.265625,
+        "width": 179.0,
+        "height": 38.734375
+      },
+      "name": "网站补充信息",
       "style": {},
       "source_node_id": null,
       "confidence": 1.0
@@ -1905,6 +1855,22 @@
   "layouts": [
     {
       "target_id": "g_1",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_2",
       "mode": "FREE",
       "gap": 0.0,
       "padding": [
@@ -1914,30 +1880,14 @@
         0.0
       ],
       "primary_align": "START",
-      "cross_align": "CENTER",
-      "horizontal_resize": "HUG",
-      "vertical_resize": "HUG",
-      "confidence": 1.0
-    },
-    {
-      "target_id": "g_2",
-      "mode": "VERTICAL",
-      "gap": 0.0,
-      "padding": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "primary_align": "SPACE_BETWEEN",
       "cross_align": "START",
-      "horizontal_resize": "STRETCH",
+      "horizontal_resize": "FIXED",
       "vertical_resize": "FIXED",
       "confidence": 1.0
     },
     {
       "target_id": "g_3",
-      "mode": "VERTICAL",
+      "mode": "FREE",
       "gap": 0.0,
       "padding": [
         0.0,
@@ -1945,9 +1895,9 @@
         0.0,
         0.0
       ],
-      "primary_align": "SPACE_BETWEEN",
+      "primary_align": "START",
       "cross_align": "START",
-      "horizontal_resize": "STRETCH",
+      "horizontal_resize": "FIXED",
       "vertical_resize": "FIXED",
       "confidence": 1.0
     },
@@ -1961,15 +1911,15 @@
         0.0,
         0.0
       ],
-      "primary_align": "SPACE_BETWEEN",
+      "primary_align": "START",
       "cross_align": "START",
       "horizontal_resize": "STRETCH",
-      "vertical_resize": "FIXED",
+      "vertical_resize": "HUG",
       "confidence": 1.0
     },
     {
       "target_id": "g_5",
-      "mode": "VERTICAL",
+      "mode": "FREE",
       "gap": 0.0,
       "padding": [
         0.0,
@@ -1977,9 +1927,9 @@
         0.0,
         0.0
       ],
-      "primary_align": "SPACE_BETWEEN",
+      "primary_align": "START",
       "cross_align": "START",
-      "horizontal_resize": "STRETCH",
+      "horizontal_resize": "FIXED",
       "vertical_resize": "FIXED",
       "confidence": 1.0
     },
@@ -1996,11 +1946,27 @@
       "primary_align": "START",
       "cross_align": "START",
       "horizontal_resize": "STRETCH",
-      "vertical_resize": "FIXED",
+      "vertical_resize": "HUG",
       "confidence": 1.0
     },
     {
       "target_id": "g_7",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_8",
       "mode": "VERTICAL",
       "gap": 0.0,
       "padding": [
@@ -2011,22 +1977,6 @@
       ],
       "primary_align": "START",
       "cross_align": "START",
-      "horizontal_resize": "STRETCH",
-      "vertical_resize": "HUG",
-      "confidence": 1.0
-    },
-    {
-      "target_id": "g_8",
-      "mode": "VERTICAL",
-      "gap": 0.0,
-      "padding": [
-        19.0,
-        19.0,
-        19.0,
-        19.0
-      ],
-      "primary_align": "START",
-      "cross_align": "CENTER",
       "horizontal_resize": "STRETCH",
       "vertical_resize": "HUG",
       "confidence": 1.0
@@ -2043,70 +1993,38 @@
       ],
       "primary_align": "START",
       "cross_align": "START",
-      "horizontal_resize": "FIXED",
-      "vertical_resize": "FIXED",
-      "confidence": 1.0
-    },
-    {
-      "target_id": "g_10",
-      "mode": "FREE",
-      "gap": 0.0,
-      "padding": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "primary_align": "START",
-      "cross_align": "START",
-      "horizontal_resize": "FIXED",
-      "vertical_resize": "FIXED",
-      "confidence": 1.0
-    },
-    {
-      "target_id": "g_11",
-      "mode": "FREE",
-      "gap": 0.0,
-      "padding": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "primary_align": "START",
-      "cross_align": "START",
-      "horizontal_resize": "FIXED",
-      "vertical_resize": "FIXED",
-      "confidence": 1.0
-    },
-    {
-      "target_id": "g_12",
-      "mode": "VERTICAL",
-      "gap": 0.0,
-      "padding": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "primary_align": "START",
-      "cross_align": "CENTER",
       "horizontal_resize": "STRETCH",
       "vertical_resize": "HUG",
       "confidence": 1.0
     },
     {
-      "target_id": "g_13",
+      "target_id": "g_10",
       "mode": "VERTICAL",
       "gap": 0.0,
       "padding": [
-        19.0,
-        19.0,
-        19.0,
-        19.0
+        0.0,
+        0.0,
+        0.0,
+        0.0
       ],
       "primary_align": "START",
-      "cross_align": "CENTER",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_11",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
       "horizontal_resize": "STRETCH",
       "vertical_resize": "HUG",
       "confidence": 1.0
@@ -2115,14 +2033,8 @@
   "tree": [
     {
       "parent_id": "page_root",
-      "child_id": "e_3",
-      "order": 1,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "page_root",
-      "child_id": "e_19",
-      "order": 5,
+      "child_id": "e_10",
+      "order": 2,
       "confidence": 1.0
     },
     {
@@ -2134,13 +2046,31 @@
     {
       "parent_id": "g_1",
       "child_id": "e_1",
-      "order": 1,
+      "order": 3,
       "confidence": 1.0
     },
     {
       "parent_id": "g_1",
       "child_id": "e_2",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_3",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_4",
       "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 1,
       "confidence": 1.0
     },
     {
@@ -2152,295 +2082,273 @@
     {
       "parent_id": "g_2",
       "child_id": "e_6",
-      "order": 1,
+      "order": 3,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_3",
+      "parent_id": "g_2",
       "child_id": "e_7",
-      "order": 0,
+      "order": 2,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_3",
+      "parent_id": "g_2",
       "child_id": "e_8",
       "order": 1,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_4",
+      "parent_id": "g_2",
       "child_id": "e_9",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_12",
       "order": 0,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_4",
-      "child_id": "e_10",
+      "parent_id": "g_3",
+      "child_id": "e_13",
       "order": 1,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_5",
+      "parent_id": "g_4",
       "child_id": "e_11",
-      "order": 3,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_5",
-      "child_id": "g_2",
       "order": 0,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_5",
+      "parent_id": "g_4",
+      "child_id": "e_14",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
       "child_id": "g_3",
       "order": 1,
       "confidence": 1.0
     },
     {
       "parent_id": "g_5",
-      "child_id": "g_4",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_6",
-      "child_id": "e_13",
-      "order": 0,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_6",
-      "child_id": "e_14",
+      "child_id": "e_17",
       "order": 1,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_7",
-      "child_id": "g_6",
-      "order": 1,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_7",
-      "child_id": "e_12",
-      "order": 0,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "page_root",
-      "child_id": "g_8",
-      "order": 3,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_8",
-      "child_id": "g_5",
-      "order": 1,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_8",
-      "child_id": "g_7",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_8",
-      "child_id": "e_4",
-      "order": 0,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_9",
+      "parent_id": "g_5",
       "child_id": "e_16",
       "order": 0,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_9",
-      "child_id": "e_17",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_9",
-      "child_id": "e_18",
+      "parent_id": "g_6",
+      "child_id": "g_5",
       "order": 1,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_10",
-      "child_id": "e_20",
-      "order": 0,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_10",
-      "child_id": "e_21",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_10",
-      "child_id": "e_22",
-      "order": 1,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_10",
-      "child_id": "e_23",
-      "order": 3,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_10",
-      "child_id": "e_24",
-      "order": 4,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_11",
-      "child_id": "e_25",
-      "order": 0,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_11",
-      "child_id": "e_26",
-      "order": 1,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_11",
-      "child_id": "e_27",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_11",
-      "child_id": "e_28",
-      "order": 3,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_12",
-      "child_id": "e_29",
-      "order": 0,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_12",
-      "child_id": "e_30",
-      "order": 1,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_12",
-      "child_id": "e_31",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "page_root",
-      "child_id": "g_13",
-      "order": 4,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_13",
+      "parent_id": "g_6",
       "child_id": "e_15",
       "order": 0,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_13",
+      "parent_id": "g_6",
+      "child_id": "e_18",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_7",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_19",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_8",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "g_4",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "g_6",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_22",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_23",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_24",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_25",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_26",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_27",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_28",
+      "order": 6,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_29",
+      "order": 7,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_30",
+      "order": 8,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_31",
+      "order": 9,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_32",
+      "order": 10,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_33",
+      "order": 11,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_34",
+      "order": 12,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_35",
+      "order": 13,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_36",
+      "order": 14,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_10",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_10",
       "child_id": "g_9",
       "order": 1,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_13",
-      "child_id": "g_10",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_13",
-      "child_id": "g_11",
-      "order": 3,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_13",
-      "child_id": "g_12",
-      "order": 4,
+      "parent_id": "g_10",
+      "child_id": "e_21",
+      "order": 0,
       "confidence": 1.0
     },
     {
       "parent_id": "page_root",
-      "child_id": "e_38",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_1",
-      "child_id": "e_32",
-      "order": 2,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_1",
-      "child_id": "e_33",
-      "order": 3,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_1",
-      "child_id": "e_34",
-      "order": 4,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_1",
-      "child_id": "e_35",
-      "order": 5,
-      "confidence": 1.0
-    },
-    {
-      "parent_id": "g_1",
-      "child_id": "e_36",
+      "child_id": "g_11",
       "order": 6,
       "confidence": 1.0
     },
     {
-      "parent_id": "g_1",
+      "parent_id": "g_11",
       "child_id": "e_37",
-      "order": 7,
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_38",
+      "order": 1,
       "confidence": 1.0
     }
   ],
   "style_tokens": [],
   "provenance": {
-    "source_sample_id": "0860",
-    "label_source": "human_ai_adjudication_draft",
+    "source_sample_id": "1429",
+    "label_source": "human_ai_adjudicated_gold",
     "status": "complete",
-    "adjudication_status": "reviewed",
-    "gold_finalized": false,
+    "adjudication_status": "finalized",
+    "gold_finalized": true,
     "base_annotation": "annotator_a",
     "base_annotation_provenance": {
-      "source_sample_id": "0860",
+      "source_sample_id": "1429",
       "label_source": "human_annotation",
       "annotator": "annotator_a",
       "status": "complete",
       "weak_labels_viewed": false
     },
-    "human_annotation_sha256": "b18130a805978f8151cf154e6ac55effca605cde60e7b9d4778dadbb9a13ed32",
-    "ai_annotation_sha256": "5bb19956dc2339a55c97f6e66a91f85b8ef1e5d301a4a0d7c798629a141f5c84",
+    "human_annotation_sha256": "3168f0217e1ba38f7d1f761e447e676fc0fad44d2de8d0767ac800e563edcc32",
+    "ai_annotation_sha256": "abccc55c5335525c70ba3e0459f78a2d1c6235495c5b3751ab167a7a7cdf3c69",
     "ai_used_for_disagreement_review": true,
     "ai_treated_as_human_annotator": false,
     "reviewed_by": "赵志鹏",
-    "reviewed_at": "2026-08-13T15:05:25+08:00",
-    "review_notes": "修改导航栏地区元素类型"
+    "reviewed_at": "2026-08-13T15:20:45+08:00",
+    "review_notes": "以人工标注为准",
+    "ai_assistance_disclosed": true,
+    "adjudication_record": "data/annotations/intent_pilot_v1/adjudication/1429.json"
   }
 }

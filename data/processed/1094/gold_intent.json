@@ -993,10 +993,10 @@
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "1094",
-    "label_source": "human_ai_adjudication_draft",
+    "label_source": "human_ai_adjudicated_gold",
     "status": "complete",
-    "adjudication_status": "reviewed",
-    "gold_finalized": false,
+    "adjudication_status": "finalized",
+    "gold_finalized": true,
     "base_annotation": "annotator_a",
     "base_annotation_provenance": {
       "source_sample_id": "1094",
@@ -1011,6 +1011,8 @@
     "ai_treated_as_human_annotator": false,
     "reviewed_by": "赵志鹏",
     "reviewed_at": "2026-08-13T15:16:58+08:00",
-    "review_notes": "以人工标注为准"
+    "review_notes": "以人工标注为准",
+    "ai_assistance_disclosed": true,
+    "adjudication_record": "data/annotations/intent_pilot_v1/adjudication/1094.json"
   }
 }

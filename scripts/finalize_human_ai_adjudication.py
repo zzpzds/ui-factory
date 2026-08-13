@@ -148,6 +148,37 @@ def finalize_adjudication(
     result["requested"] = len(selected)
     result["complete"] = not result["errors"]
     result["gold_label_source"] = "human_ai_adjudicated_gold"
+    if sample_ids is None and output_dir is None and result["complete"]:
+        index_path = adjudication_dir / "index.json"
+        index = (
+            json.loads(index_path.read_text(encoding="utf-8"))
+            if index_path.exists()
+            else {}
+        )
+        index.update(
+            {
+                "gold_status": "finalized",
+                "training_exported": True,
+                "finalized_samples": [
+                    str(item["sample_id"]) for item in assignment["samples"]
+                ],
+                "gold_files": {
+                    str(item["sample_id"]): {
+                        "path": str(
+                            (repo_root / item["page_graph"])
+                            .parent.joinpath("gold_intent.json")
+                            .relative_to(repo_root)
+                        ),
+                        "sha256": sha256(
+                            (repo_root / item["page_graph"])
+                            .parent.joinpath("gold_intent.json")
+                        ),
+                    }
+                    for item in assignment["samples"]
+                },
+            }
+        )
+        write_json(index_path, index)
     return result
 
 

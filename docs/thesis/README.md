@@ -16,6 +16,7 @@
 12. `12_ai_proxy_annotation_protocol.md`：AI 代理盲态、来源和披露协议；
 13. `13_ai_proxy_pilot_report.md`：AI 代理标注与人机跨来源初步结果；
 14. `14_human_ai_adjudication_sop.md`：逐项差异复核、审核凭证与金标准导出门槛。
+15. `15_adjudicated_gold_report.md`：10 页最终 Gold 的数量、描述性指标与研究限制。
 
 ## 新主链路
 

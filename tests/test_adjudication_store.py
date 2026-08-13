@@ -33,6 +33,31 @@ def _store(tmp_path: Path) -> AdjudicationStore:
         target = package / directory
         target.mkdir()
         shutil.copy2(SOURCE_PACKAGE / directory / "0001.json", target / "0001.json")
+    record_path = package / "adjudication/0001.json"
+    record = json.loads(record_path.read_text(encoding="utf-8"))
+    record["status"] = "pending"
+    record["review"].update(
+        {"reviewed_by": None, "reviewed_at": None, "notes": ""}
+    )
+    record_path.write_text(
+        json.dumps(record, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    draft_path = package / "gold_drafts/0001.json"
+    draft = json.loads(draft_path.read_text(encoding="utf-8"))
+    draft["provenance"].update(
+        {
+            "status": "draft",
+            "adjudication_status": "pending",
+            "reviewed_by": None,
+            "reviewed_at": None,
+            "review_notes": "",
+        }
+    )
+    draft_path.write_text(
+        json.dumps(draft, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     return AdjudicationStore(REPO_ROOT, package)
 
 

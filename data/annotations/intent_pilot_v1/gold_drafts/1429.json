@@ -2330,8 +2330,8 @@
   "provenance": {
     "source_sample_id": "1429",
     "label_source": "human_ai_adjudication_draft",
-    "status": "draft",
-    "adjudication_status": "pending",
+    "status": "complete",
+    "adjudication_status": "reviewed",
     "gold_finalized": false,
     "base_annotation": "annotator_a",
     "base_annotation_provenance": {
@@ -2345,8 +2345,8 @@
     "ai_annotation_sha256": "abccc55c5335525c70ba3e0459f78a2d1c6235495c5b3751ab167a7a7cdf3c69",
     "ai_used_for_disagreement_review": true,
     "ai_treated_as_human_annotator": false,
-    "reviewed_by": null,
-    "reviewed_at": null,
-    "review_notes": ""
+    "reviewed_by": "赵志鹏",
+    "reviewed_at": "2026-08-13T15:20:45+08:00",
+    "review_notes": "以人工标注为准"
   }
 }
