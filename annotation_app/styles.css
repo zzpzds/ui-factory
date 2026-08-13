@@ -744,18 +744,31 @@ button:focus-visible {
 
 .difference-row {
   width: 100%;
-  min-height: 58px;
-  padding: 8px 7px;
-  display: block;
+  min-height: 92px;
+  padding: 0;
   border: 0;
   border-bottom: 1px solid #edf0f4;
   border-radius: 0;
-  text-align: left;
 }
 
 .difference-row:hover,
 .difference-row.active {
   background: #eef5f7;
+}
+
+.difference-focus {
+  width: 100%;
+  min-height: 58px;
+  padding: 8px 7px 5px;
+  display: block;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  text-align: left;
+}
+
+.difference-focus:hover {
+  background: transparent;
 }
 
 .difference-row-head {
@@ -796,7 +809,46 @@ button:focus-visible {
   white-space: nowrap;
 }
 
-.workspace.adjudication-locked .left-panel button:not(.panel-tab):not(.difference-row),
+.difference-choice {
+  min-height: 34px;
+  padding: 3px 7px 7px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 68px 68px;
+  align-items: center;
+  gap: 5px;
+}
+
+.choice-status {
+  overflow: hidden;
+  color: #667085;
+  font-size: 10px;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.choice-button {
+  min-height: 27px;
+  padding: 0 5px;
+  border-color: #d6dce4;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.choice-button.human.selected {
+  border-color: #d97706;
+  background: #fff4d6;
+  color: #8a4d04;
+}
+
+.choice-button.ai.selected {
+  border-color: #0e7490;
+  background: #e6f5f8;
+  color: #0e647a;
+}
+
+.workspace.adjudication-locked .left-panel button:not(.panel-tab):not(.difference-focus),
 .workspace.adjudication-locked .left-panel input:not(#differenceFilter),
 .workspace.adjudication-locked .left-panel select:not(#differenceFilter),
 .workspace.adjudication-locked .right-panel form input,

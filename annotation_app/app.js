@@ -989,33 +989,33 @@ function differenceItems() {
   differences.elements.only_human.forEach((item) => items.push({
     category: "elements", kind: "仅人工", title: item.human.name,
     detail: `${item.human.type} · ${item.human.text || "无文本"}`,
-    nodeIds: item.source_node_ids,
+    nodeIds: item.source_node_ids, raw: item,
   }));
   differences.elements.only_ai.forEach((item) => items.push({
     category: "elements", kind: "仅 AI", title: item.ai.name,
     detail: `${item.ai.type} · ${item.ai.text || "无文本"}`,
-    nodeIds: item.source_node_ids,
+    nodeIds: item.source_node_ids, raw: item,
   }));
   differences.elements.matched_but_changed.forEach((item) => items.push({
     category: "elements", kind: "元素属性", title: `${item.human.name} ↔ ${item.ai.name}`,
     detail: `${item.human.type} / ${item.ai.type} · IoU ${Number(item.bbox_iou).toFixed(2)}`,
-    nodeIds: item.source_node_ids,
+    nodeIds: item.source_node_ids, raw: item,
   }));
   differences.groups.forEach((item) => items.push({
     category: "groups", kind: "语义分组",
     title: `${item.human.map((group) => group.name).join("、") || "人工无对应"} ↔ ${item.ai.map((group) => group.name).join("、") || "AI 无对应"}`,
     detail: `${item.human.map((group) => group.role).join("、") || "—"} / ${item.ai.map((group) => group.role).join("、") || "—"}`,
-    nodeIds: item.source_node_ids,
+    nodeIds: item.source_node_ids, raw: item,
   }));
   differences.tree.forEach((item) => items.push({
     category: "tree", kind: "父子层级", title: `子实体 ${item.child.kind}`,
     detail: `人工父级 ${item.human_parents.length} · AI 父级 ${item.ai_parents.length}`,
-    nodeIds: item.child.source_node_ids || [],
+    nodeIds: item.child.source_node_ids || [], raw: item,
   }));
   differences.layouts.forEach((item) => items.push({
     category: "layouts", kind: "布局约束", title: `布局 ${sourceText(item.source_node_ids)}`,
     detail: `${item.human.map((layout) => layout.mode).join("、") || "—"} / ${item.ai.map((layout) => layout.mode).join("、") || "—"}`,
-    nodeIds: item.source_node_ids,
+    nodeIds: item.source_node_ids, raw: item,
   }));
   differences.tokens.only_human.forEach((item) => items.push({
     category: "tokens", kind: "仅人工 Token", title: item.kind,
@@ -1034,6 +1034,328 @@ function entitySourceIds(annotation, entity) {
   const elements = new Map(annotation.elements.map((item) => [item.id, item]));
   return [...new Set((entity.source_element_ids || [])
     .flatMap((id) => elements.get(id)?.source_node_ids || []))].sort((a, b) => a - b);
+}
+
+function cloneJson(value) {
+  return JSON.parse(JSON.stringify(value));
+}
+
+function sourceSignature(nodeIds) {
+  return [...(nodeIds || [])].sort((a, b) => a - b).join(",");
+}
+
+function entitiesForSources(annotation, kind, nodeIds) {
+  if (!annotation) return [];
+  const entities = kind === "element" ? annotation.elements : annotation.groups;
+  const signature = sourceSignature(nodeIds);
+  return entities.filter((entity) => (
+    sourceSignature(entitySourceIds(annotation, entity)) === signature
+  ));
+}
+
+function referenceKeyForEntity(annotation, entityId) {
+  if (entityId === "page_root") return { kind: "root", source_node_ids: [] };
+  const entity = [...annotation.elements, ...annotation.groups]
+    .find((item) => item.id === entityId);
+  if (!entity) return null;
+  return {
+    kind: Array.isArray(entity.source_node_ids) ? "element" : "group",
+    source_node_ids: entitySourceIds(annotation, entity),
+  };
+}
+
+function goldIdForKey(key) {
+  if (!key || key.kind === "root") return "page_root";
+  return entitiesForSources(state.annotation, key.kind, key.source_node_ids)[0]?.id || null;
+}
+
+function removeGoldElement(id) {
+  state.annotation.elements = state.annotation.elements.filter((item) => item.id !== id);
+  state.annotation.tree = state.annotation.tree.filter((edge) => edge.child_id !== id);
+  state.annotation.style_tokens.forEach((token) => {
+    token.member_ids = token.member_ids.filter((memberId) => memberId !== id);
+  });
+}
+
+function removeGoldGroup(id) {
+  const parent = currentParent(id);
+  state.annotation.groups = state.annotation.groups.filter((item) => item.id !== id);
+  state.annotation.layouts = state.annotation.layouts.filter((item) => item.target_id !== id);
+  state.annotation.tree
+    .filter((edge) => edge.parent_id === id)
+    .forEach((edge) => { edge.parent_id = parent; });
+  state.annotation.tree = state.annotation.tree.filter((edge) => edge.child_id !== id);
+  state.annotation.style_tokens.forEach((token) => {
+    token.member_ids = token.member_ids.filter((memberId) => memberId !== id);
+  });
+}
+
+function updateGoldElement(target, reference) {
+  const preservedId = target.id;
+  const preservedTokenRefs = target.style_token_refs || [];
+  Object.assign(target, cloneJson(reference), {
+    id: preservedId,
+    style_token_refs: preservedTokenRefs,
+  });
+}
+
+function applyElementChoice(item, source) {
+  const reference = entitiesForSources(
+    state.references[source], "element", item.nodeIds,
+  )[0] || null;
+  const exact = entitiesForSources(state.annotation, "element", item.nodeIds);
+  if (!reference) {
+    exact.forEach((element) => removeGoldElement(element.id));
+    normalizeAnnotation();
+    return true;
+  }
+
+  const desiredNodeIds = new Set(reference.source_node_ids || item.nodeIds);
+  const overlapping = state.annotation.elements.filter((element) => (
+    element.source_node_ids.some((id) => desiredNodeIds.has(id))
+  ));
+  const target = exact[0] || overlapping[0];
+  overlapping.filter((element) => element !== target)
+    .forEach((element) => removeGoldElement(element.id));
+  if (target) {
+    updateGoldElement(target, reference);
+  } else {
+    const element = cloneJson(reference);
+    element.id = uniqueId("e", state.annotation.elements);
+    element.style_token_refs = [];
+    state.annotation.elements.push(element);
+    state.annotation.tree.push({
+      parent_id: "page_root", child_id: element.id, order: state.annotation.tree.length,
+    });
+  }
+  normalizeAnnotation();
+  return true;
+}
+
+function updateGoldGroup(target, reference) {
+  const preservedId = target.id;
+  const preservedMembers = target.source_element_ids || [];
+  Object.assign(target, cloneJson(reference), {
+    id: preservedId,
+    source_element_ids: preservedMembers,
+  });
+}
+
+function applyGroupChoice(item, source) {
+  const referenceAnnotation = state.references[source];
+  const desired = entitiesForSources(referenceAnnotation, "group", item.nodeIds);
+  const existing = entitiesForSources(state.annotation, "group", item.nodeIds);
+  const referenceToGold = new Map();
+
+  const desiredIds = new Set(desired.map((group) => group.id));
+  const missingChild = desired.some((reference) => (
+    referenceAnnotation.tree
+      .filter((edge) => edge.parent_id === reference.id)
+      .some((edge) => {
+        if (desiredIds.has(edge.child_id)) return false;
+        const key = referenceKeyForEntity(referenceAnnotation, edge.child_id);
+        return !goldIdForKey(key);
+      })
+  ));
+  if (missingChild) {
+    toast(`请先采用${source === "human" ? "人工" : "AI"}方案中的相关元素或子分组`, true);
+    return false;
+  }
+
+  desired.forEach((reference, index) => {
+    let target = existing[index];
+    if (!target) {
+      target = cloneJson(reference);
+      target.id = uniqueId("g", state.annotation.groups);
+      target.source_element_ids = [];
+      state.annotation.groups.push(target);
+      state.annotation.layouts.push(defaultLayout(target.id));
+      state.annotation.tree.push({
+        parent_id: "page_root", child_id: target.id, order: state.annotation.tree.length,
+      });
+    } else {
+      updateGoldGroup(target, reference);
+    }
+    referenceToGold.set(reference.id, target.id);
+  });
+  existing.slice(desired.length).forEach((group) => removeGoldGroup(group.id));
+
+  desired.forEach((reference) => {
+    const targetId = referenceToGold.get(reference.id);
+    const childEdges = referenceAnnotation.tree
+      .filter((edge) => edge.parent_id === reference.id)
+      .sort((left, right) => left.order - right.order);
+    childEdges.forEach((edge) => {
+      const key = referenceKeyForEntity(referenceAnnotation, edge.child_id);
+      const childId = referenceToGold.get(edge.child_id) || goldIdForKey(key);
+      if (childId && childId !== targetId) setParent(childId, targetId);
+    });
+  });
+  normalizeAnnotation();
+  return true;
+}
+
+function applyTreeChoice(item, source) {
+  const childId = goldIdForKey(item.raw.child);
+  if (!childId) {
+    toast("金标准中找不到该子实体，请先处理元素或分组差异", true);
+    return false;
+  }
+  const parents = item.raw[`${source}_parents`] || [];
+  if (parents.length !== 1) {
+    toast("参考结果没有唯一父级，不能一键采用", true);
+    return false;
+  }
+  const parentId = goldIdForKey(parents[0]);
+  if (!parentId) {
+    toast("金标准中找不到参考父分组，请先采用对应分组", true);
+    return false;
+  }
+  return setParent(childId, parentId);
+}
+
+function layoutComparable(layout) {
+  if (!layout) return null;
+  return {
+    mode: layout.mode,
+    gap: Number(layout.gap),
+    padding: (layout.padding || []).map(Number),
+    primary_align: layout.primary_align,
+    cross_align: layout.cross_align,
+    horizontal_resize: layout.horizontal_resize,
+    vertical_resize: layout.vertical_resize,
+  };
+}
+
+function applyLayoutChoice(item, source) {
+  const referenceAnnotation = state.references[source];
+  const desired = item.raw[source] || [];
+  if (!desired.length) {
+    toast(`${source === "human" ? "人工" : "AI"}结果中没有该分组布局，请先处理分组差异`, true);
+    return false;
+  }
+  let applied = 0;
+  desired.forEach((referenceLayout) => {
+    const referenceGroup = referenceAnnotation.groups
+      .find((group) => group.id === referenceLayout.target_id);
+    const target = referenceGroup
+      ? entitiesForSources(
+        state.annotation, "group", entitySourceIds(referenceAnnotation, referenceGroup),
+      )[0]
+      : null;
+    if (!target) return;
+    const layout = state.annotation.layouts.find((entry) => entry.target_id === target.id);
+    const next = { ...cloneJson(referenceLayout), target_id: target.id };
+    if (layout) Object.assign(layout, next);
+    else state.annotation.layouts.push(next);
+    applied += 1;
+  });
+  if (!applied) {
+    toast("金标准中找不到对应分组，请先处理分组差异", true);
+    return false;
+  }
+  normalizeAnnotation();
+  return true;
+}
+
+function elementChoiceMatches(item, source) {
+  const reference = entitiesForSources(
+    state.references[source], "element", item.nodeIds,
+  )[0] || null;
+  const current = entitiesForSources(state.annotation, "element", item.nodeIds);
+  if (!reference) return current.length === 0;
+  if (current.length !== 1) return false;
+  const element = current[0];
+  return JSON.stringify({
+    source_node_ids: [...element.source_node_ids].sort((a, b) => a - b),
+    type: element.type, bbox: element.bbox, name: element.name,
+    text: element.text,
+  }) === JSON.stringify({
+    source_node_ids: [...item.nodeIds].sort((a, b) => a - b),
+    type: reference.type, bbox: reference.bbox, name: reference.name,
+    text: reference.text,
+  });
+}
+
+function groupChoiceMatches(item, source) {
+  const desired = entitiesForSources(state.references[source], "group", item.nodeIds);
+  const current = entitiesForSources(state.annotation, "group", item.nodeIds);
+  if (desired.length !== current.length) return false;
+  const values = (groups) => groups.map((group) => ({
+    role: group.role, name: group.name, bbox: group.bbox,
+  }));
+  return JSON.stringify(values(current)) === JSON.stringify(values(desired));
+}
+
+function treeChoiceMatches(item, source) {
+  const childId = goldIdForKey(item.raw.child);
+  if (!childId) return false;
+  const currentParentId = currentParent(childId);
+  const currentKey = referenceKeyForEntity(state.annotation, currentParentId);
+  const desired = item.raw[`${source}_parents`] || [];
+  return desired.length === 1
+    && currentKey?.kind === desired[0].kind
+    && sourceSignature(currentKey.source_node_ids) === sourceSignature(desired[0].source_node_ids);
+}
+
+function layoutChoiceMatches(item, source) {
+  const referenceAnnotation = state.references[source];
+  const desired = item.raw[source] || [];
+  if (!desired.length) return false;
+  return desired.every((referenceLayout) => {
+    const referenceGroup = referenceAnnotation.groups
+      .find((group) => group.id === referenceLayout.target_id);
+    const target = referenceGroup
+      ? entitiesForSources(
+        state.annotation, "group", entitySourceIds(referenceAnnotation, referenceGroup),
+      )[0]
+      : null;
+    const current = target
+      ? state.annotation.layouts.find((layout) => layout.target_id === target.id)
+      : null;
+    return JSON.stringify(layoutComparable(current))
+      === JSON.stringify(layoutComparable(referenceLayout));
+  });
+}
+
+function choiceMatches(item, source) {
+  if (item.category === "elements") return elementChoiceMatches(item, source);
+  if (item.category === "groups") return groupChoiceMatches(item, source);
+  if (item.category === "tree") return treeChoiceMatches(item, source);
+  if (item.category === "layouts") return layoutChoiceMatches(item, source);
+  return false;
+}
+
+function currentChoice(item) {
+  const human = choiceMatches(item, "human");
+  const ai = choiceMatches(item, "ai");
+  if (human && ai) return "人工 / AI 一致";
+  if (human) return "当前：人工";
+  if (ai) return "当前：AI";
+  return "当前：已调整";
+}
+
+function applyDifferenceChoice(item, source) {
+  if (isAdjudicationLocked()) {
+    toast("该样本已完成审核，不能继续修改", true);
+    return;
+  }
+  if (["elements", "groups"].includes(item.category)) {
+    const kind = item.category === "elements" ? "element" : "group";
+    const desired = entitiesForSources(state.references[source], kind, item.nodeIds);
+    const removesEntity = desired.length === 0;
+    if (removesEntity && !window.confirm("该选择会从金标准中删除对应实体，确认继续？")) return;
+  }
+  let applied = false;
+  if (item.category === "elements") applied = applyElementChoice(item, source);
+  if (item.category === "groups") applied = applyGroupChoice(item, source);
+  if (item.category === "tree") applied = applyTreeChoice(item, source);
+  if (item.category === "layouts") applied = applyLayoutChoice(item, source);
+  if (!applied) return;
+  markDirty();
+  state.validationErrors = localValidation();
+  renderAll();
+  toast(`金标准已采用${source === "human" ? "人工" : "AI"}方案，请检查右侧校验`);
 }
 
 function goldEntityForSources(nodeIds) {
@@ -1081,18 +1403,34 @@ function renderDifferences() {
     : indexedItems.filter(({ item }) => item.category === state.differenceFilter);
   $("differenceCount").textContent = String(visible.length);
   $("differenceList").innerHTML = visible.map(({ item, index }) => `
-    <button type="button" class="difference-row ${state.activeDifferenceIndex === index ? "active" : ""}" data-difference-index="${index}">
+    <div class="difference-row ${state.activeDifferenceIndex === index ? "active" : ""}">
+      <button type="button" class="difference-focus" data-difference-index="${index}">
       <span class="difference-row-head">
         <span class="difference-kind">${escapeHtml(item.kind)}</span>
         <span class="difference-source">${escapeHtml(sourceText(item.nodeIds))}</span>
       </span>
       <span class="difference-title">${escapeHtml(item.title)}</span>
       <span class="difference-detail">${escapeHtml(item.detail)}</span>
-    </button>`).join("") || '<div class="empty-state compact">该类型没有差异</div>';
+      </button>
+      ${item.category === "tokens" ? "" : `
+        <div class="difference-choice" role="group" aria-label="金标准采用来源">
+          <span class="choice-status">${escapeHtml(currentChoice(item))}</span>
+          <button type="button" class="choice-button human ${choiceMatches(item, "human") ? "selected" : ""}"
+            data-choice-index="${index}" data-choice-source="human">采用人工</button>
+          <button type="button" class="choice-button ai ${choiceMatches(item, "ai") ? "selected" : ""}"
+            data-choice-index="${index}" data-choice-source="ai">采用 AI</button>
+        </div>`}
+    </div>`).join("") || '<div class="empty-state compact">该类型没有差异</div>';
   $("differenceList").querySelectorAll("[data-difference-index]").forEach((row) => {
     row.addEventListener("click", () => {
       const index = Number(row.dataset.differenceIndex);
       focusDifference(allItems[index], index);
+    });
+  });
+  $("differenceList").querySelectorAll("[data-choice-index]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const index = Number(button.dataset.choiceIndex);
+      applyDifferenceChoice(allItems[index], button.dataset.choiceSource);
     });
   });
 }
