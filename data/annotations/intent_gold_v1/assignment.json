@@ -34,7 +34,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0044/screenshot.png",
-      "page_graph": "data/processed/0044/page_graph.json"
+      "page_graph": "data/processed/0044/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0051",
@@ -46,7 +47,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0051/screenshot.png",
-      "page_graph": "data/processed/0051/page_graph.json"
+      "page_graph": "data/processed/0051/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0055",
@@ -58,7 +60,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0055/screenshot.png",
-      "page_graph": "data/processed/0055/page_graph.json"
+      "page_graph": "data/processed/0055/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0074",
@@ -70,7 +73,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0074/screenshot.png",
-      "page_graph": "data/processed/0074/page_graph.json"
+      "page_graph": "data/processed/0074/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0079",
@@ -82,7 +86,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0079/screenshot.png",
-      "page_graph": "data/processed/0079/page_graph.json"
+      "page_graph": "data/processed/0079/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0115",
@@ -94,7 +99,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0115/screenshot.png",
-      "page_graph": "data/processed/0115/page_graph.json"
+      "page_graph": "data/processed/0115/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0118",
@@ -106,7 +112,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0118/screenshot.png",
-      "page_graph": "data/processed/0118/page_graph.json"
+      "page_graph": "data/processed/0118/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0144",
@@ -118,7 +125,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0144/screenshot.png",
-      "page_graph": "data/processed/0144/page_graph.json"
+      "page_graph": "data/processed/0144/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0155",
@@ -130,7 +138,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0155/screenshot.png",
-      "page_graph": "data/processed/0155/page_graph.json"
+      "page_graph": "data/processed/0155/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0165",
@@ -142,7 +151,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0165/screenshot.png",
-      "page_graph": "data/processed/0165/page_graph.json"
+      "page_graph": "data/processed/0165/page_graph.json",
+      "annotation_condition": "blind_control"
     },
     {
       "sample_id": "0213",
@@ -154,7 +164,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0213/screenshot.png",
-      "page_graph": "data/processed/0213/page_graph.json"
+      "page_graph": "data/processed/0213/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0237",
@@ -166,7 +177,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0237/screenshot.png",
-      "page_graph": "data/processed/0237/page_graph.json"
+      "page_graph": "data/processed/0237/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0304",
@@ -178,7 +190,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0304/screenshot.png",
-      "page_graph": "data/processed/0304/page_graph.json"
+      "page_graph": "data/processed/0304/page_graph.json",
+      "annotation_condition": "blind_control"
     },
     {
       "sample_id": "0408",
@@ -190,7 +203,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0408/screenshot.png",
-      "page_graph": "data/processed/0408/page_graph.json"
+      "page_graph": "data/processed/0408/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0409",
@@ -202,7 +216,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0409/screenshot.png",
-      "page_graph": "data/processed/0409/page_graph.json"
+      "page_graph": "data/processed/0409/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0412",
@@ -214,7 +229,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0412/screenshot.png",
-      "page_graph": "data/processed/0412/page_graph.json"
+      "page_graph": "data/processed/0412/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0431",
@@ -226,7 +242,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0431/screenshot.png",
-      "page_graph": "data/processed/0431/page_graph.json"
+      "page_graph": "data/processed/0431/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0446",
@@ -238,7 +255,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0446/screenshot.png",
-      "page_graph": "data/processed/0446/page_graph.json"
+      "page_graph": "data/processed/0446/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0540",
@@ -250,7 +268,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0540/screenshot.png",
-      "page_graph": "data/processed/0540/page_graph.json"
+      "page_graph": "data/processed/0540/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0544",
@@ -262,7 +281,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0544/screenshot.png",
-      "page_graph": "data/processed/0544/page_graph.json"
+      "page_graph": "data/processed/0544/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0553",
@@ -274,7 +294,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0553/screenshot.png",
-      "page_graph": "data/processed/0553/page_graph.json"
+      "page_graph": "data/processed/0553/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0616",
@@ -286,7 +307,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0616/screenshot.png",
-      "page_graph": "data/processed/0616/page_graph.json"
+      "page_graph": "data/processed/0616/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0620",
@@ -298,7 +320,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0620/screenshot.png",
-      "page_graph": "data/processed/0620/page_graph.json"
+      "page_graph": "data/processed/0620/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0697",
@@ -310,7 +333,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0697/screenshot.png",
-      "page_graph": "data/processed/0697/page_graph.json"
+      "page_graph": "data/processed/0697/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0827",
@@ -322,7 +346,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0827/screenshot.png",
-      "page_graph": "data/processed/0827/page_graph.json"
+      "page_graph": "data/processed/0827/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0832",
@@ -334,7 +359,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0832/screenshot.png",
-      "page_graph": "data/processed/0832/page_graph.json"
+      "page_graph": "data/processed/0832/page_graph.json",
+      "annotation_condition": "blind_control"
     },
     {
       "sample_id": "0837",
@@ -346,7 +372,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/0837/screenshot.png",
-      "page_graph": "data/processed/0837/page_graph.json"
+      "page_graph": "data/processed/0837/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0995",
@@ -358,7 +385,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0995/screenshot.png",
-      "page_graph": "data/processed/0995/page_graph.json"
+      "page_graph": "data/processed/0995/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0996",
@@ -370,7 +398,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/0996/screenshot.png",
-      "page_graph": "data/processed/0996/page_graph.json"
+      "page_graph": "data/processed/0996/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1001",
@@ -382,7 +411,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1001/screenshot.png",
-      "page_graph": "data/processed/1001/page_graph.json"
+      "page_graph": "data/processed/1001/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1030",
@@ -394,7 +424,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1030/screenshot.png",
-      "page_graph": "data/processed/1030/page_graph.json"
+      "page_graph": "data/processed/1030/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1035",
@@ -406,7 +437,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1035/screenshot.png",
-      "page_graph": "data/processed/1035/page_graph.json"
+      "page_graph": "data/processed/1035/page_graph.json",
+      "annotation_condition": "blind_control"
     },
     {
       "sample_id": "1083",
@@ -418,7 +450,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1083/screenshot.png",
-      "page_graph": "data/processed/1083/page_graph.json"
+      "page_graph": "data/processed/1083/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1084",
@@ -430,7 +463,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1084/screenshot.png",
-      "page_graph": "data/processed/1084/page_graph.json"
+      "page_graph": "data/processed/1084/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1111",
@@ -442,7 +476,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1111/screenshot.png",
-      "page_graph": "data/processed/1111/page_graph.json"
+      "page_graph": "data/processed/1111/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1118",
@@ -454,7 +489,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1118/screenshot.png",
-      "page_graph": "data/processed/1118/page_graph.json"
+      "page_graph": "data/processed/1118/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1203",
@@ -466,7 +502,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1203/screenshot.png",
-      "page_graph": "data/processed/1203/page_graph.json"
+      "page_graph": "data/processed/1203/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1272",
@@ -478,7 +515,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1272/screenshot.png",
-      "page_graph": "data/processed/1272/page_graph.json"
+      "page_graph": "data/processed/1272/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1292",
@@ -490,7 +528,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1292/screenshot.png",
-      "page_graph": "data/processed/1292/page_graph.json"
+      "page_graph": "data/processed/1292/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1302",
@@ -502,7 +541,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1302/screenshot.png",
-      "page_graph": "data/processed/1302/page_graph.json"
+      "page_graph": "data/processed/1302/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1328",
@@ -514,7 +554,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1328/screenshot.png",
-      "page_graph": "data/processed/1328/page_graph.json"
+      "page_graph": "data/processed/1328/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1365",
@@ -526,7 +567,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1365/screenshot.png",
-      "page_graph": "data/processed/1365/page_graph.json"
+      "page_graph": "data/processed/1365/page_graph.json",
+      "annotation_condition": "blind_control"
     },
     {
       "sample_id": "1373",
@@ -538,7 +580,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1373/screenshot.png",
-      "page_graph": "data/processed/1373/page_graph.json"
+      "page_graph": "data/processed/1373/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1416",
@@ -550,7 +593,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1416/screenshot.png",
-      "page_graph": "data/processed/1416/page_graph.json"
+      "page_graph": "data/processed/1416/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1435",
@@ -562,7 +606,8 @@
       "token_rich_candidate": true,
       "status": "annotation_required",
       "screenshot": "data/processed/1435/screenshot.png",
-      "page_graph": "data/processed/1435/page_graph.json"
+      "page_graph": "data/processed/1435/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1437",
@@ -574,7 +619,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1437/screenshot.png",
-      "page_graph": "data/processed/1437/page_graph.json"
+      "page_graph": "data/processed/1437/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1486",
@@ -586,7 +632,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1486/screenshot.png",
-      "page_graph": "data/processed/1486/page_graph.json"
+      "page_graph": "data/processed/1486/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1503",
@@ -598,7 +645,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1503/screenshot.png",
-      "page_graph": "data/processed/1503/page_graph.json"
+      "page_graph": "data/processed/1503/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1517",
@@ -610,7 +658,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1517/screenshot.png",
-      "page_graph": "data/processed/1517/page_graph.json"
+      "page_graph": "data/processed/1517/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "1528",
@@ -622,7 +671,8 @@
       "token_rich_candidate": false,
       "status": "annotation_required",
       "screenshot": "data/processed/1528/screenshot.png",
-      "page_graph": "data/processed/1528/page_graph.json"
+      "page_graph": "data/processed/1528/page_graph.json",
+      "annotation_condition": "ai_assisted"
     },
     {
       "sample_id": "0001",
@@ -634,7 +684,8 @@
       "token_rich_candidate": false,
       "status": "existing_gold",
       "screenshot": "data/processed/0001/screenshot.png",
-      "page_graph": "data/processed/0001/page_graph.json"
+      "page_graph": "data/processed/0001/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "0020",
@@ -646,7 +697,8 @@
       "token_rich_candidate": false,
       "status": "existing_gold",
       "screenshot": "data/processed/0020/screenshot.png",
-      "page_graph": "data/processed/0020/page_graph.json"
+      "page_graph": "data/processed/0020/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "0052",
@@ -658,7 +710,8 @@
       "token_rich_candidate": true,
       "status": "existing_gold",
       "screenshot": "data/processed/0052/screenshot.png",
-      "page_graph": "data/processed/0052/page_graph.json"
+      "page_graph": "data/processed/0052/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "0319",
@@ -670,7 +723,8 @@
       "token_rich_candidate": false,
       "status": "existing_gold",
       "screenshot": "data/processed/0319/screenshot.png",
-      "page_graph": "data/processed/0319/page_graph.json"
+      "page_graph": "data/processed/0319/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "0419",
@@ -682,7 +736,8 @@
       "token_rich_candidate": false,
       "status": "existing_gold",
       "screenshot": "data/processed/0419/screenshot.png",
-      "page_graph": "data/processed/0419/page_graph.json"
+      "page_graph": "data/processed/0419/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "0601",
@@ -694,7 +749,8 @@
       "token_rich_candidate": true,
       "status": "existing_gold",
       "screenshot": "data/processed/0601/screenshot.png",
-      "page_graph": "data/processed/0601/page_graph.json"
+      "page_graph": "data/processed/0601/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "0860",
@@ -706,7 +762,8 @@
       "token_rich_candidate": true,
       "status": "existing_gold",
       "screenshot": "data/processed/0860/screenshot.png",
-      "page_graph": "data/processed/0860/page_graph.json"
+      "page_graph": "data/processed/0860/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "0937",
@@ -718,7 +775,8 @@
       "token_rich_candidate": true,
       "status": "existing_gold",
       "screenshot": "data/processed/0937/screenshot.png",
-      "page_graph": "data/processed/0937/page_graph.json"
+      "page_graph": "data/processed/0937/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "1094",
@@ -730,7 +788,8 @@
       "token_rich_candidate": true,
       "status": "existing_gold",
       "screenshot": "data/processed/1094/screenshot.png",
-      "page_graph": "data/processed/1094/page_graph.json"
+      "page_graph": "data/processed/1094/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     },
     {
       "sample_id": "1429",
@@ -742,7 +801,25 @@
       "token_rich_candidate": true,
       "status": "existing_gold",
       "screenshot": "data/processed/1429/screenshot.png",
-      "page_graph": "data/processed/1429/page_graph.json"
+      "page_graph": "data/processed/1429/page_graph.json",
+      "annotation_condition": "existing_independent_gold"
     }
-  ]
+  ],
+  "annotation_workflow": {
+    "mode": "ai_preannotation_then_human_correction",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "prepared_at": "2026-08-14T00:00:00+08:00",
+    "ai_prelabel_dir": "data/annotations/intent_gold_v1/annotator_ai_prelabel",
+    "assisted_sample_count": 45,
+    "blind_control_sample_count": 5,
+    "blind_control_sample_ids": [
+      "0165",
+      "0304",
+      "0832",
+      "1035",
+      "1365"
+    ],
+    "require_human_review_confirmation": true,
+    "test_labels_not_used_for_prelabel_calibration": true
+  }
 }

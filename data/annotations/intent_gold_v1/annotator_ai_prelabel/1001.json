@@ -1,0 +1,1006 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 125.0,
+        "y": 0.0,
+        "width": 40.0,
+        "height": 30.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 170.0,
+        "y": 0.0,
+        "width": 44.453125,
+        "height": 30.0
+      },
+      "name": "About",
+      "text": "About",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 219.453125,
+        "y": 0.0,
+        "width": 74.09375,
+        "height": 30.0
+      },
+      "name": "Contact_Us",
+      "text": "Contact Us",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 125.0,
+        "y": 61.0,
+        "width": 332.0,
+        "height": 86.3125
+      },
+      "name": "header1_headerimg",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://blogger.googleusercontent.com/img/a/AVvXsEiUQU-WsYlHKEqSLZmsGgAn4rnF9BsgtlnTyS2ZC04JN6Xirr2Z4fy7sT0w-cQjvD_dBd4XwfBfWwMjCFRIDVBHUR16_yjHdSalvKuxNgeDU2dNdZ6gN8R0KwhLSY64g8DBrPt_4c01Eu8kk_tvoMHe_zVyAfYIJLmn9QEFFHRBKSmf2gOp6y8YqyR_iwon=s1600"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 125.0,
+        "y": 234.0,
+        "width": 678.234375,
+        "height": 75.0
+      },
+      "name": "post-title",
+      "text": "NECA 'The Final Chapter' Jason Voorhees Figures Coming 2013",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 25.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 125.0,
+        "y": 317.0,
+        "width": 60.984375,
+        "height": 14.0
+      },
+      "name": "Jason_Parker",
+      "text": "Jason Parker",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.592156862745098,
+          0.592156862745098,
+          0.592156862745098,
+          1
+        ],
+        "border_color": [
+          0.592156862745098,
+          0.592156862745098,
+          0.592156862745098,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 195.984375,
+        "y": 317.0,
+        "width": 95.65625,
+        "height": 14.0
+      },
+      "name": "published",
+      "text": "November 07, 2012",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.592156862745098,
+          0.592156862745098,
+          0.592156862745098,
+          1
+        ],
+        "border_color": [
+          0.592156862745098,
+          0.592156862745098,
+          0.592156862745098,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 125.0,
+        "y": 380.5,
+        "width": 652.359375,
+        "height": 39.5
+      },
+      "name": "Friday_The_13th_Part_3",
+      "text": "Friday The 13th Part 3",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 496.234375,
+        "y": 403.0,
+        "width": 213.1875,
+        "height": 17.0
+      },
+      "name": "Friday_The_13th:_The_Final_Chapt",
+      "text": "Friday The 13th: The Final Chapter",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 125.0,
+        "y": 493.0,
+        "width": 666.46875,
+        "height": 39.5
+      },
+      "name": "The_Final_Chapter",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3686274509803922,
+          0.3686274509803922,
+          0.3686274509803922,
+          1
+        ],
+        "border_color": [
+          0.3686274509803922,
+          0.3686274509803922,
+          0.3686274509803922,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 174.109375,
+        "y": 626.0,
+        "width": 580.0,
+        "height": 174.0
+      },
+      "name": "image_51",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "http://1.bp.blogspot.com/-2-OkDI8-PyU/T_8eAoIWhgI/AAAAAAAAEag/-venSix7dRw/s1600/ComicCon_Jason+Packaging.JPG"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 829.0,
+        "y": 245.609375,
+        "width": 326.0,
+        "height": 28.0
+      },
+      "name": "Recent_Forum_Discussions",
+      "text": "Recent Forum Discussions",
+      "style": {
+        "background_color": [
+          0.17254901960784313,
+          0.17254901960784313,
+          0.17254901960784313,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 829.0,
+        "y": 288.609375,
+        "width": 57.15625,
+        "height": 17.0
+      },
+      "name": "Loading...",
+      "text": "Loading...",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 829.0,
+        "y": 337.21875,
+        "width": 326.0,
+        "height": 28.0
+      },
+      "name": "title",
+      "text": "Facebook",
+      "style": {
+        "background_color": [
+          0.17254901960784313,
+          0.17254901960784313,
+          0.17254901960784313,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 829.0,
+        "y": 411.828125,
+        "width": 326.0,
+        "height": 28.0
+      },
+      "name": "title",
+      "text": "Tour Crystal Lake!",
+      "style": {
+        "background_color": [
+          0.17254901960784313,
+          0.17254901960784313,
+          0.17254901960784313,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 829.0,
+        "y": 454.828125,
+        "width": 325.96875,
+        "height": 247.734375
+      },
+      "name": "image_66",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://lh4.googleusercontent.com/zytF7AlJxlMmfC8GCqhnFm6ukmemD6vVY8OjRl_aFZAh5p9tW3a-FFISdqUlnWDfX8M"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_68",
+      "source_node_ids": [
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 829.0,
+        "y": 738.171875,
+        "width": 326.0,
+        "height": 28.0
+      },
+      "name": "title",
+      "text": "Friday The 13th Props Book",
+      "style": {
+        "background_color": [
+          0.17254901960784313,
+          0.17254901960784313,
+          0.17254901960784313,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_70",
+      "source_node_ids": [
+        70
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 829.0,
+        "y": 798.171875,
+        "width": 325.96875,
+        "height": 1.828125
+      },
+      "name": "image_70",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://3.bp.blogspot.com/-PS_tJQtBkVg/W43uAWzjT9I/AAAAAAAAUow/rJTEY_029Lwhat6e-AIi_UGK7N4Z3UK9gCLcBGAs/s1600/banner-1000-400.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_43",
+      "source_element_ids": [
+        "e_46",
+        "e_47",
+        "e_49",
+        "e_51"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 125.0,
+        "y": 356.0,
+        "width": 678.234375,
+        "height": 444.0
+      },
+      "name": "post-article",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 43,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_43",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_43",
+      "order": 10,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_7",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_9",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_17",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_34",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_39",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_42",
+      "order": 8,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_46",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_47",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_49",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_51",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_55",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_58",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_60",
+      "order": 9,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_63",
+      "order": 11,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_66",
+      "order": 12,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_68",
+      "order": 13,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_70",
+      "order": 14,
+      "confidence": 0.98
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1001",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "eefe272640bf7110c3fd0de6be406034a14b3962de457a9d4bb1eec8c98d0081",
+    "screenshot_sha256": "5e170b09ff1e3be9d96ccd091f7774cd0a1e4aed121f0aeb8dc85eba87fa8d37"
+  }
+}

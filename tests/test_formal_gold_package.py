@@ -3,6 +3,7 @@ import hashlib
 from pathlib import Path
 
 from src.annotation import AnnotationStore
+from src.design_intent.schema import DesignIntentIR
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -46,7 +47,7 @@ def test_formal_gold_manifest_has_frozen_split_and_unique_samples():
         }
 
 
-def test_formal_gold_package_has_10_locked_gold_and_50_blank_drafts():
+def test_formal_gold_package_has_locked_gold_and_auditable_ai_assistance():
     assignment = _load("assignment.json")
     store = AnnotationStore(REPO_ROOT, PACKAGE_DIR)
     locked = set(assignment["locked_sample_ids"])
@@ -54,10 +55,18 @@ def test_formal_gold_package_has_10_locked_gold_and_50_blank_drafts():
     assert assignment["annotators"] == ["annotator_a"]
     assert len(assignment["samples"]) == 60
     assert len(locked) == 10
-    assert store.progress()["annotator_a"] == {
-        "complete": 10,
-        "draft": 50,
-        "total": 60,
+    progress = store.progress()["annotator_a"]
+    assert progress["total"] == 60
+    assert progress["complete"] >= 10
+    workflow = assignment["annotation_workflow"]
+    assert workflow["assisted_sample_count"] == 45
+    assert workflow["blind_control_sample_count"] == 5
+    assert workflow["require_human_review_confirmation"] is True
+    conditions = {
+        item["annotation_condition"] for item in assignment["samples"]
+    }
+    assert conditions == {
+        "ai_assisted", "blind_control", "existing_independent_gold",
     }
     for item in assignment["samples"]:
         sample_id = item["sample_id"]
@@ -69,10 +78,26 @@ def test_formal_gold_package_has_10_locked_gold_and_50_blank_drafts():
             assert annotation.provenance["status"] == "complete"
         else:
             assert item["status"] == "annotation_required"
-            assert annotation.provenance["status"] == "draft"
-            assert not annotation.elements
-            assert not annotation.groups
-            assert not annotation.style_tokens
+            ai_path = PACKAGE_DIR / "annotator_ai_prelabel" / f"{sample_id}.json"
+            ai = DesignIntentIR.load(ai_path)
+            assert ai.provenance["label_source"] == "ai_preannotation"
+            assert ai.provenance["human_labels_viewed"] is False
+            assert ai.provenance["visual_input_used"] is False
+            assert ai.provenance["status"] == "complete"
+            assert not ai.style_tokens
+            assert annotation.provenance["ai_preannotation_sha256"] == _sha256(
+                ai_path
+            )
+            if item["annotation_condition"] == "ai_assisted":
+                assert annotation.provenance["ai_assistance_mode"] == (
+                    "preannotation"
+                )
+                assert annotation.provenance["ai_preannotation_visible"] is True
+            else:
+                assert annotation.provenance["ai_assistance_mode"] == (
+                    "blind_control"
+                )
+                assert annotation.provenance["ai_preannotation_visible"] is False
 
 
 def test_formal_gold_new_samples_meet_token_enrichment_minimums():

@@ -1,0 +1,2089 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 55.0,
+        "y": 31.25,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "lazyload",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "#"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 102.0,
+        "y": 43.25,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "lazyload",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "#"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 968.3125,
+        "y": 20.0,
+        "width": 256.6875,
+        "height": 56.0
+      },
+      "name": "lazy",
+      "text": "Book an Appointment",
+      "style": {
+        "background_color": [
+          0,
+          0.5450980392156862,
+          1,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 25.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 615.859375,
+        "y": 100.0,
+        "width": 135.25,
+        "height": 50.0
+      },
+      "name": "About_Dr._Smith",
+      "text": "About Dr. Smith",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 778.34375,
+        "y": 100.0,
+        "width": 80.578125,
+        "height": 50.0
+      },
+      "name": "Services",
+      "text": "Services",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 886.171875,
+        "y": 100.0,
+        "width": 106.734375,
+        "height": 50.0
+      },
+      "name": "Patient_Info",
+      "text": "Patient Info",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1020.140625,
+        "y": 100.0,
+        "width": 64.625,
+        "height": 50.0
+      },
+      "name": "Media",
+      "text": "Media",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1112.015625,
+        "y": 100.0,
+        "width": 99.359375,
+        "height": 50.0
+      },
+      "name": "Contact_Us",
+      "text": "Contact Us",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 218.0,
+        "width": 1170.0,
+        "height": 42.0
+      },
+      "name": "Sally_Hales's_Story",
+      "text": "Sally  Hales's Story",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 35.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 262.0,
+        "width": 1170.0,
+        "height": 25.0
+      },
+      "name": "/_/",
+      "text": "/    /",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 173.640625,
+        "y": 266.0,
+        "width": 518.265625,
+        "height": 17.0
+      },
+      "name": "Dr._Scott_Smith,_Orthopedic_Surg",
+      "text": "Dr. Scott Smith, Orthopedic Surgeon, Westfield, Carmel, Noblesville, IN",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 715.234375,
+        "y": 266.0,
+        "width": 91.5625,
+        "height": 17.0
+      },
+      "name": "Patient_Info",
+      "text": "Patient Info",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 831.125,
+        "y": 266.0,
+        "width": 282.234375,
+        "height": 17.0
+      },
+      "name": "/_Sally_Hales's_Story",
+      "text": "/ Sally  Hales's Story",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 838.125,
+        "y": 266.0,
+        "width": 115.875,
+        "height": 17.0
+      },
+      "name": "Patient_Reviews",
+      "text": "Patient Reviews",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 65.0,
+        "y": 389.0,
+        "width": 206.46875,
+        "height": 26.0
+      },
+      "name": "About_the_Experience",
+      "text": "About the Experience",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.15294117647058825,
+          0.5058823529411764,
+          0.8,
+          1
+        ],
+        "border_color": [
+          0.15294117647058825,
+          0.5058823529411764,
+          0.8,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 68.0,
+        "y": 429.0,
+        "width": 220.640625,
+        "height": 17.0
+      },
+      "name": "How_was_your_overall_experience?",
+      "text": "How was your overall experience?:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 73.0,
+        "y": 454.0,
+        "width": 25.0,
+        "height": 25.0
+      },
+      "name": "icon_58",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 108.0,
+        "y": 454.0,
+        "width": 25.0,
+        "height": 25.0
+      },
+      "name": "icon_60",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 143.0,
+        "y": 454.0,
+        "width": 25.0,
+        "height": 25.0
+      },
+      "name": "icon_62",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        64
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 178.0,
+        "y": 454.0,
+        "width": 25.0,
+        "height": 25.0
+      },
+      "name": "icon_64",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 213.0,
+        "y": 454.0,
+        "width": 25.0,
+        "height": 25.0
+      },
+      "name": "icon_66",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_68",
+      "source_node_ids": [
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 68.0,
+        "y": 498.0,
+        "width": 75.25,
+        "height": 17.0
+      },
+      "name": "Comments:",
+      "text": "Comments:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_72",
+      "source_node_ids": [
+        72
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 1068.0,
+        "y": 372.0,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "name": "lazyload",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.0784313725490196,
+          0.40784313725490196,
+          0.6823529411764706,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 4.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "#"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_74",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 938.0,
+        "y": 416.0,
+        "width": 284.0,
+        "height": 22.0
+      },
+      "name": "d1",
+      "text": "Scott A. Smith, M.D.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 938.0,
+        "y": 453.0,
+        "width": 284.0,
+        "height": 22.0
+      },
+      "name": "d2",
+      "text": "Board-Certified Orthopedic Surgeon",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 998.296875,
+        "y": 500.0,
+        "width": 163.40625,
+        "height": 50.0
+      },
+      "name": "View_Full_Profile",
+      "text": "View Full Profile",
+      "style": {
+        "background_color": [
+          0.0784313725490196,
+          0.40784313725490196,
+          0.6823529411764706,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 25.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 935.0,
+        "y": 585.0,
+        "width": 290.0,
+        "height": 72.0
+      },
+      "name": "Patient_Resources",
+      "text": "Patient Resources",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 25.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_83",
+      "source_node_ids": [
+        83
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 935.0,
+        "y": 657.0,
+        "width": 290.0,
+        "height": 66.0
+      },
+      "name": "First_Visit_Guide",
+      "text": "First Visit Guide",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_85",
+      "source_node_ids": [
+        85
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 935.0,
+        "y": 723.0,
+        "width": 290.0,
+        "height": 66.0
+      },
+      "name": "Patients_Forms",
+      "text": "Patients Forms",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_87",
+      "source_node_ids": [
+        87
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 935.0,
+        "y": 789.0,
+        "width": 290.0,
+        "height": 11.0
+      },
+      "name": "Postoperative_Rehabilitation_Pro",
+      "text": "Postoperative  Rehabilitation Protocols",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_11",
+        "e_14",
+        "e_17"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 55.0,
+        "y": 0.0,
+        "width": 1170.0,
+        "height": 145.0
+      },
+      "name": "header-container",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_7",
+      "source_element_ids": [
+        "e_11",
+        "e_14",
+        "e_17"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 0.0,
+        "width": 1170.0,
+        "height": 76.0
+      },
+      "name": "table-div",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 7,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_8",
+      "source_element_ids": [
+        "e_11",
+        "e_14"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 28.0,
+        "width": 500.0,
+        "height": 48.0
+      },
+      "name": "table-cell",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 8,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_22",
+      "source_element_ids": [
+        "e_26",
+        "e_28",
+        "e_30",
+        "e_32",
+        "e_34"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 555.0,
+        "y": 100.0,
+        "width": 670.0,
+        "height": 50.0
+      },
+      "name": "menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 0.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 22,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_47",
+      "source_element_ids": [
+        "e_50",
+        "e_56",
+        "e_58",
+        "e_60",
+        "e_62",
+        "e_64",
+        "e_66",
+        "e_68"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 55.0,
+        "y": 362.0,
+        "width": 880.0,
+        "height": 355.0
+      },
+      "name": "textmain",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 47,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_52",
+      "source_element_ids": [
+        "e_56",
+        "e_58",
+        "e_60",
+        "e_62",
+        "e_64",
+        "e_66",
+        "e_68"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 65.0,
+        "y": 422.0,
+        "width": 850.0,
+        "height": 255.0
+      },
+      "name": "list_item_52",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 52,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_69",
+      "source_element_ids": [
+        "e_72",
+        "e_74",
+        "e_75",
+        "e_77",
+        "e_80",
+        "e_83",
+        "e_85",
+        "e_87"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 935.0,
+        "y": 362.0,
+        "width": 290.0,
+        "height": 438.0
+      },
+      "name": "sidebar",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 69,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_81",
+      "source_element_ids": [
+        "e_83",
+        "e_85",
+        "e_87"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 935.0,
+        "y": 657.0,
+        "width": 290.0,
+        "height": 143.0
+      },
+      "name": "sb-pres",
+      "style": {
+        "background_color": [
+          0,
+          0.5450980392156862,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 81,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_3",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_7",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_8",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_22",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_47",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        10.0,
+        20.0,
+        30.0,
+        10.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_52",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        5.0,
+        3.0,
+        5.0,
+        3.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_69",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        10.0,
+        0.0,
+        20.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_81",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_3",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "g_7",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "g_8",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_22",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_47",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_47",
+      "child_id": "g_52",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_69",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "g_81",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_11",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_14",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_17",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "e_26",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "e_28",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "e_30",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "e_32",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "e_34",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_37",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_38",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_39",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_40",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_41",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_42",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_47",
+      "child_id": "e_50",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "e_56",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "e_58",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "e_60",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "e_62",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "e_64",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "e_66",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "e_68",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_72",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_74",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_75",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_77",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_80",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_81",
+      "child_id": "e_83",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_81",
+      "child_id": "e_85",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_81",
+      "child_id": "e_87",
+      "order": 2,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0237",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "bb89da4cba1d0dc2fb49ca77a5d00ee560ac3216807283b6a2e3b20a08bd77c1",
+    "screenshot_sha256": "74cb776e7c9653cf4e4df3657aaa3c304cdbd81b6bea8f6ed292f9e70b9a55f3"
+  }
+}

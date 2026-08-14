@@ -4,17 +4,812 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 138.0,
+        "width": 970.0,
+        "height": 108.0
+      },
+      "name": "WEB_SE_PŘIPRAVUJE",
+      "text": "WEB SE PŘIPRAVUJE",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 90.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 376.0,
+        "width": 970.0,
+        "height": 17.0
+      },
+      "name": "site_copyright",
+      "text": "© 2023 Ctirad Hemelík",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7019607843137254,
+          0.7411764705882353,
+          0.7607843137254902,
+          1
+        ],
+        "border_color": [
+          0.7019607843137254,
+          0.7411764705882353,
+          0.7607843137254902,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 154.21875,
+        "y": 393.0,
+        "width": 50.0,
+        "height": 17.0
+      },
+      "name": "Mioweb",
+      "text": "Mioweb",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 410.0,
+        "width": 1264.0,
+        "height": 17.0
+      },
+      "name": "mw_cookie_bar_title",
+      "text": "Tato stránka používá cookies",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 442.0,
+        "width": 1264.0,
+        "height": 34.0
+      },
+      "name": "Na_stránkách_používáme_soubory_c",
+      "text": "Na stránkách používáme soubory cookies. Některé jsou nezbytné pro fungování stránek, jiné nám umožňu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 273.625,
+        "y": 459.0,
+        "width": 90.25,
+        "height": 17.0
+      },
+      "name": "mw_cookie_more",
+      "text": "Více informací",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 491.0,
+        "width": 109.5625,
+        "height": 17.0
+      },
+      "name": "mw_cookie_bar_setting_link",
+      "text": "Nastavení cookies",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 117.5625,
+        "y": 491.0,
+        "width": 88.75,
+        "height": 17.0
+      },
+      "name": "mw_cookie_button",
+      "text": "Odmítnout vše",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 206.3125,
+        "y": 491.0,
+        "width": 76.265625,
+        "height": 17.0
+      },
+      "name": "mw_cookie_button",
+      "text": "Přijmout vše",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 8.0,
+        "y": 645.0,
+        "width": 300.0,
+        "height": 17.0
+      },
+      "name": "icon_28",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 8.0,
+        "y": 508.0,
+        "width": 300.0,
+        "height": 150.0
+      },
+      "name": "icon_29",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 662.0,
+        "width": 1264.0,
+        "height": 17.0
+      },
+      "name": "mw_cookie_setting_title",
+      "text": "Souhlas s používáním cookies",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 694.0,
+        "width": 1264.0,
+        "height": 102.0
+      },
+      "name": "Cookies_jsou_malé_soubory,_které",
+      "text": "Cookies jsou malé soubory, které se dočasně ukládají ve vašem počítači a pomáhají nám k lepší uživat",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1101.765625,
+        "y": 779.0,
+        "width": 90.25,
+        "height": 17.0
+      },
+      "name": "mw_cookie_more",
+      "text": "Více informací",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_color": [
+          0.08235294117647059,
+          0.5568627450980392,
+          0.7490196078431373,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_9",
+      "source_element_ids": [
+        "e_13",
+        "e_15",
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_28",
+        "e_29",
+        "e_31",
+        "e_32",
+        "e_33"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 8.0,
+        "y": 376.0,
+        "width": 1264.0,
+        "height": 424.0
+      },
+      "name": "section_9",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_color": [
+          0.49019607843137253,
+          0.3215686274509804,
+          0.25098039215686274,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 9,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_9",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_9",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_8",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_13",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_15",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_19",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_20",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_21",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_23",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_24",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_25",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_28",
+      "order": 9,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_29",
+      "order": 8,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_31",
+      "order": 10,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_32",
+      "order": 11,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_33",
+      "order": 12,
+      "confidence": 0.75
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "0409",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0409.json",
+    "ai_preannotation_sha256": "b9921f1228c64a249c5ceb1cd5566246176066323f13eebdb9ba7fc3c9563034",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

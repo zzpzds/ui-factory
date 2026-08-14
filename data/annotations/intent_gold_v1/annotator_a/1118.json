@@ -4,17 +4,1496 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 35.5,
+        "width": 323.515625,
+        "height": 41.0
+      },
+      "name": "site-title",
+      "text": "Jazz Atthe Geor Gian",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 36.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 660.0625,
+        "y": 0.0,
+        "width": 56.8125,
+        "height": 112.0
+      },
+      "name": "Business",
+      "text": "Business",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 745.75,
+        "y": 0.0,
+        "width": 31.921875,
+        "height": 112.0
+      },
+      "name": "Food",
+      "text": "Food",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 806.546875,
+        "y": 0.0,
+        "width": 51.359375,
+        "height": 112.0
+      },
+      "name": "Lifestyle",
+      "text": "Lifestyle",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 886.78125,
+        "y": 0.0,
+        "width": 79.40625,
+        "height": 112.0
+      },
+      "name": "Photography",
+      "text": "Photography",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 995.0625,
+        "y": 0.0,
+        "width": 38.390625,
+        "height": 112.0
+      },
+      "name": "Travel",
+      "text": "Travel",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1062.328125,
+        "y": 0.0,
+        "width": 88.71875,
+        "height": 112.0
+      },
+      "name": "Miscellaneous",
+      "text": "Miscellaneous",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 130.75,
+        "width": 805.015625,
+        "height": 89.28125
+      },
+      "name": "entry-title",
+      "text": "Bounce Time – Together With The Hearts Of Your Football Fans Often",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.9999,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 256.28125,
+        "width": 114.09375,
+        "height": 15.0
+      },
+      "name": "published",
+      "text": "November 29, 2022",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6745098039215687,
+          0.6823529411764706,
+          0.6862745098039216,
+          1
+        ],
+        "border_color": [
+          0.6745098039215687,
+          0.6823529411764706,
+          0.6862745098039216,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 193.0625,
+        "y": 251.28125,
+        "width": 27.453125,
+        "height": 25.0
+      },
+      "name": "url",
+      "text": "Glen",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6745098039215687,
+          0.6823529411764706,
+          0.6862745098039216,
+          1
+        ],
+        "border_color": [
+          0.6745098039215687,
+          0.6823529411764706,
+          0.6862745098039216,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1214.015625,
+        "y": 250.28125,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "name": "screen-reader-text",
+      "text": "Post navigation",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_color": [
+          0.19215686274509805,
+          0.20784313725490197,
+          0.2235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 333.53125,
+        "width": 821.265625,
+        "height": 74.953125
+      },
+      "name": "If_you_want_for_a_football_betti",
+      "text": "If you want for a football betting system, exactly what are you looking for? Are you hoping to find ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 433.46875,
+        "width": 821.265625,
+        "height": 74.953125
+      },
+      "name": "Starting_speed_is_very_rarely_ad",
+      "text": "Starting speed is very rarely addressed by most Football live scores strength and speed shows.at lea",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 533.40625,
+        "width": 821.265625,
+        "height": 99.9375
+      },
+      "name": "Just_what_factors_so_are_we_talk",
+      "text": "Just what factors so are we talking about? Well, the player roster is one. Every game will see not a",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 562.390625,
+        "width": 816.796875,
+        "height": 40.984375
+      },
+      "name": "검증커뮤니티",
+      "text": "검증커뮤니티",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 658.328125,
+        "width": 821.265625,
+        "height": 74.953125
+      },
+      "name": "If_you_search_on_the_internet_lo",
+      "text": "If you search on the internet lowering the come across several websites that arrange these wagers. I",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 64.984375,
+        "y": 758.265625,
+        "width": 821.265625,
+        "height": 41.734375
+      },
+      "name": "The_most_elaborate_sports_blogs_",
+      "text": "The most elaborate sports blogs allow YouTube and streaming videos to remain visible Football news j",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 967.765625,
+        "y": 337.53125,
+        "width": 116.703125,
+        "height": 16.0
+      },
+      "name": "slot_gacor_hari_ini",
+      "text": "slot gacor hari ini",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 967.765625,
+        "y": 400.0,
+        "width": 61.46875,
+        "height": 16.0
+      },
+      "name": "situs_slot",
+      "text": "situs slot",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 967.765625,
+        "y": 462.46875,
+        "width": 93.359375,
+        "height": 16.0
+      },
+      "name": "bonanza88bet",
+      "text": "bonanza88bet",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        67
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 967.765625,
+        "y": 524.9375,
+        "width": 24.890625,
+        "height": 16.0
+      },
+      "name": "slot",
+      "text": "slot",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_72",
+      "source_node_ids": [
+        72
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 967.765625,
+        "y": 587.40625,
+        "width": 141.578125,
+        "height": 16.0
+      },
+      "name": "situs_togel_resmi_toto",
+      "text": "situs togel resmi toto",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 967.765625,
+        "y": 649.875,
+        "width": 59.125,
+        "height": 16.0
+      },
+      "name": "Judi_Slot",
+      "text": "Judi Slot",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_82",
+      "source_node_ids": [
+        82
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 967.765625,
+        "y": 712.34375,
+        "width": 222.46875,
+        "height": 40.984375
+      },
+      "name": "situs_judi_slot_online_paling_ga",
+      "text": "situs judi slot online paling gacor hari ini",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_88",
+      "source_node_ids": [
+        88
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 967.765625,
+        "y": 799.796875,
+        "width": 40.46875,
+        "height": 0.203125
+      },
+      "name": "slot88",
+      "text": "slot88",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_color": [
+          0.03137254901960784,
+          0.5882352941176471,
+          0.996078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_6",
+        "e_11",
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 112.0
+      },
+      "name": "masthead",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 1,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_9",
+      "source_element_ids": [
+        "e_11",
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 660.0625,
+        "y": 0.0,
+        "width": 515.96875,
+        "height": 112.0
+      },
+      "name": "menu-primary-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 9,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_39",
+      "source_element_ids": [
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 64.984375,
+        "y": 333.53125,
+        "width": 821.265625,
+        "height": 466.46875
+      },
+      "name": "post-2351",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.35294117647058826,
+          0.36470588235294116,
+          0.3764705882352941,
+          1
+        ],
+        "border_color": [
+          0.9176470588235294,
+          0.9176470588235294,
+          0.9215686274509803,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 39,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_9",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_39",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        36.5,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_9",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_39",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_6",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_11",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_13",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_15",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_17",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_19",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_21",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_26",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_32",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_35",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_36",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_39",
+      "child_id": "e_41",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_39",
+      "child_id": "e_42",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_39",
+      "child_id": "e_43",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_39",
+      "child_id": "e_44",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_39",
+      "child_id": "e_45",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_39",
+      "child_id": "e_46",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_52",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_57",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_62",
+      "order": 8,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_67",
+      "order": 9,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_72",
+      "order": 10,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_77",
+      "order": 11,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_82",
+      "order": 12,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_88",
+      "order": 13,
+      "confidence": 0.95
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "1118",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1118.json",
+    "ai_preannotation_sha256": "fbac31d4e78b74f5bed2633ccdaa1d103116d79e6f8506ff5fb96e62f6ddafeb",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

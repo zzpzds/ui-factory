@@ -11,6 +11,7 @@
     <div class="brand-block">
       <strong>Intent Annotator</strong>
       <span id="saveState" class="status-badge">已保存</span>
+      <span id="assistanceBadge" class="status-badge assistance-badge hidden"></span>
     </div>
     <div class="header-controls">
       <label class="compact-field mode-field">
@@ -175,6 +176,17 @@
           <textarea id="reviewNotes" placeholder="记录主要分歧、采用依据和重新标注内容"></textarea>
         </label>
         <div id="reviewMeta" class="review-meta"></div>
+      </section>
+      <section id="assistancePanel" class="assistance-panel hidden">
+        <div class="review-status-row">
+          <strong id="assistanceTitle">AI 辅助校正</strong>
+          <span id="assistanceStatus" class="status-badge">待复核</span>
+        </div>
+        <div id="assistanceMeta" class="review-meta"></div>
+        <label class="review-confirmation">
+          <input id="humanReviewConfirmed" type="checkbox">
+          <span>设计师已完成逐项复核</span>
+        </label>
       </section>
       <section class="validation-panel">
         <div class="validation-heading">

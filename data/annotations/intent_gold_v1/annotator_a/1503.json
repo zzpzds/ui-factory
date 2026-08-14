@@ -4,17 +4,1122 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 16.0,
+        "width": 42.6875,
+        "height": 17.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 48.90625,
+        "height": 17.0
+      },
+      "name": "Pricing",
+      "text": "Pricing",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 52.0,
+        "width": 95.8125,
+        "height": 17.0
+      },
+      "name": "On_Sales",
+      "text": "On Sales",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 86.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "headline1-large",
+      "text": "Wordpress Licensing Soft is for Sale",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 104.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "headline1-large",
+      "text": "Get WordPress Licensing Soft for Your Own",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 138.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "WordPress_Licensing_Soft_Script_",
+      "text": "WordPress Licensing Soft Script Code",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 156.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "Own_WordPress_Licensing_Soft_wit",
+      "text": "Own WordPress Licensing Soft with Brand Name.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 348.265625,
+        "y": 174.0,
+        "width": 143.15625,
+        "height": 17.0
+      },
+      "name": "wplicensesoft.com",
+      "text": "wplicensesoft.com",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 192.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "All_WordPress_Licensing_Soft_Cli",
+      "text": "All WordPress Licensing Soft Client Database.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 210.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "WordPress_Licensing_Soft_1_Year_",
+      "text": "WordPress Licensing Soft 1 Year Revision and  Support.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 228.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "Resell_it_with_your_own_price,_b",
+      "text": "Resell it with your own price, because is your.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 262.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "headline1-large",
+      "text": "How Much Price for this Offer?",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 298.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "headline1-large",
+      "text": "Send us your Quote",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 560.0,
+        "y": 350.0,
+        "width": 160.0,
+        "height": 17.0
+      },
+      "name": "Inquiry_your_Offer_to:",
+      "text": "Inquiry your Offer to:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 640.0,
+        "y": 395.0,
+        "width": 70.0,
+        "height": 21.0
+      },
+      "name": "Tweet",
+      "text": "Tweet",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 485.0,
+        "width": 1264.0,
+        "height": 90.0
+      },
+      "name": "Every_effort_has_been_made_to_ac",
+      "text": "Every effort has been made to accurately represent this product and its potential. Even though this ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 625.0,
+        "width": 1264.0,
+        "height": 54.0
+      },
+      "name": "WE_DO_NOT_TRACK_ACTUAL_EARNINGS_",
+      "text": "WE DO NOT TRACK ACTUAL EARNINGS OF USERS OF OUR PRODUCT AS THE SAME WOULD VIOLATE THE USERS TRADE SE",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 729.0,
+        "width": 1264.0,
+        "height": 36.0
+      },
+      "name": "Please_Note:_Additional_Charges_",
+      "text": "Please Note: Additional Charges May Apply. As with any Internet Business you may need to pay for add",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 781.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "footer-left",
+      "text": "Copyright © 2013 WPDeveloper, CV. All Rights Reserved",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_6",
+        "e_8",
+        "e_10"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 8.0,
+        "y": 16.0,
+        "width": 1264.0,
+        "height": 54.0
+      },
+      "name": "menu-main-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 4,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_18",
+      "source_element_ids": [
+        "e_19",
+        "e_20",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 8.0,
+        "y": 138.0,
+        "width": 1264.0,
+        "height": 108.0
+      },
+      "name": "black_tick_list",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 18,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_4",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_18",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_4",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_18",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_6",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_10",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_14",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_15",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_19",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_22",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_23",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_24",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_25",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_26",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_29",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_31",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_34",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_38",
+      "order": 8,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_39",
+      "order": 9,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_40",
+      "order": 10,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_41",
+      "order": 11,
+      "confidence": 0.75
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "1503",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1503.json",
+    "ai_preannotation_sha256": "c21a267b114ff2f26b96b8737863448597e67305f11630c87e6b94240803e76f",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

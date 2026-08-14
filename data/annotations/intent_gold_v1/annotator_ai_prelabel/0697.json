@@ -1,0 +1,555 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 55.0,
+        "y": 24.0,
+        "width": 250.0,
+        "height": 46.875
+      },
+      "name": "image_7",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0.27058823529411763,
+          0,
+          1
+        ],
+        "border_color": [
+          1,
+          0.27058823529411763,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://1.bp.blogspot.com/-hySJ0QUl0d4/YZ4Ez-p5d_I/AAAAAAAAAU0/NjZ3xzklKFkn26pHJ3GoPsDmvDNVgYRsQCLcBGAsYHQ/s400/tzff.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 70.0,
+        "y": 101.0,
+        "width": 28.015625,
+        "height": 34.0
+      },
+      "name": "Inicio",
+      "text": "Inicio",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 98.015625,
+        "y": 101.0,
+        "width": 29.359375,
+        "height": 34.0
+      },
+      "name": "b-label",
+      "text": "futbol",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 127.375,
+        "y": 111.0,
+        "width": 301.53125,
+        "height": 14.0
+      },
+      "name": "current",
+      "text": "Ver Huesca vs Barcelona En vivo La Liga Hoy 13/4/2019",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 150.0,
+        "width": 1170.0,
+        "height": 42.0
+      },
+      "name": "post-title",
+      "text": "Ver Huesca vs Barcelona En vivo La Liga Hoy 13/4/2019",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 207.0,
+        "width": 57.34375,
+        "height": 15.0
+      },
+      "name": "Tuzonafut",
+      "text": "Tuzonafut",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 122.34375,
+        "y": 207.0,
+        "width": 43.375,
+        "height": 15.0
+      },
+      "name": "post-date",
+      "text": "7:15:00",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 165.0,
+        "y": 257.0,
+        "width": 950.0,
+        "height": 475.0
+      },
+      "name": "image_27",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": "https://i.imgur.com/74pQ7YF.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 70.0,
+        "y": 763.0,
+        "width": 1140.0,
+        "height": 24.0
+      },
+      "name": "↓↓_Huesca_vs_Barcelona_En_vivo_↓",
+      "text": "↓↓ Huesca vs Barcelona En vivo ↓↓",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.17254901960784313,
+          0.24313725490196078,
+          0.3137254901960784,
+          1
+        ],
+        "border_color": [
+          0.17254901960784313,
+          0.24313725490196078,
+          0.3137254901960784,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 600,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_15",
+      "source_element_ids": [
+        "e_16",
+        "e_17",
+        "e_18"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 55.0,
+        "y": 101.0,
+        "width": 1170.0,
+        "height": 34.0
+      },
+      "name": "breadcrumb",
+      "style": {
+        "background_color": [
+          0.9921568627450981,
+          0.9921568627450981,
+          1,
+          1
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 15,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_15",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        15.0,
+        0.0,
+        15.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_15",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_16",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_18",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_19",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_22",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_23",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_27",
+      "order": 5,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_29",
+      "order": 6,
+      "confidence": 0.95
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0697",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "946d03df2c032f53d99865bb5a89ab8bf9f5ab84a3228d0f3735dc122e773991",
+    "screenshot_sha256": "10b56f0a05e8b78504ad9182f2a1cff67fe5a5da4ac86a3064e7e86d2246180b"
+  }
+}

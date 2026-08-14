@@ -1,8 +1,9 @@
-# Design Intent 人工标注协议 v1
+# Design Intent 人工标注协议 v1.1
 
 ## 目标
 
-人工标注用于构建独立于 DOM/CSS 规则教师的金标准数据。标注问题不是“页面代码如何组织”，而是：
+本协议区分“独立人工盲标”和“AI 预标注后人工校正”。只有前者独立于 DOM/CSS
+规则教师；后者必须保留辅助来源并单独报告。两类标注最终回答的设计问题相同：
 
 > 如果该页面需要交给设计师继续编辑，哪些对象应独立保留，哪些对象应形成组件，组件应如何布局和复用样式？
 
@@ -123,8 +124,10 @@ python scripts/serve_intent_annotation.py \
   --port 8765
 ```
 
-浏览器访问 `http://127.0.0.1:8765`。工作台只读取 assignment 中声明的
-PageGraph 和截图，不加载 `weak_intent.json`，也不展示另一位标注者的结果。
+Pilot 浏览器访问 `http://127.0.0.1:8765`。独立盲标条件只读取 assignment 中声明
+的 PageGraph 和截图，不加载 `weak_intent.json`，也不展示另一位标注者或 AI 的
+结果。正式 Gold 的 AI 辅助条件按
+`docs/thesis/17_ai_assisted_annotation_protocol.md` 加载独立预标注；盲标对照仍隐藏。
 
 推荐操作顺序：
 
@@ -163,6 +166,13 @@ Token 标注只回答一个问题：**这些对象的该项样式在设计修改
 
 候选只是降低检索负担，不是弱标签或 Gold。最终是否保留仍完全由人工视觉与语义
 判断决定；候选被接受、忽略以及检查时刻写入 `provenance.token_review`，用于审计。
+
+### AI 辅助校正条件
+
+AI 辅助页允许预填原子元素、分组、层级和布局，但设计师必须逐项检查并显式确认。
+任何实体或布局编辑都会撤销已确认状态。提交后的 `label_source` 为
+`human_corrected_ai_preannotation`，不能改写为 `human_annotation`。盲标对照的 AI
+文件保持隐藏，提交来源仍为 `human_annotation`。
 
 草稿允许带校验错误保存，只有全部校验通过后才能提交。切换样本或标注者时，
 未保存内容会先写入当前草稿。

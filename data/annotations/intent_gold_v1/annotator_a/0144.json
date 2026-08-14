@@ -4,17 +4,1380 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        2
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 51.0,
+        "width": 367.21875,
+        "height": 43.0
+      },
+      "name": "|扬州金财财务有限公司",
+      "text": "|扬州金财财务有限公司",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.4,
+          0.7019607843137254,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.4,
+          0.7019607843137254,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 36.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1060.5625,
+        "y": 57.0,
+        "width": 179.4375,
+        "height": 36.0
+      },
+      "name": "189-0527-5581",
+      "text": "189-0527-5581",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          1,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 8.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "网站首页",
+      "text": "网站首页",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        12
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 68.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "注册公司",
+      "text": "注册公司",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 128.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "代理记账",
+      "text": "代理记账",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 447.21875,
+        "y": 188.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "active",
+      "text": "注册商标",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0.6,
+          1,
+          1
+        ],
+        "border_color": [
+          0,
+          0.6,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 248.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "资质代办",
+      "text": "资质代办",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 308.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "公司变更",
+      "text": "公司变更",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 368.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "公司注销",
+      "text": "公司注销",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 428.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "客户案例",
+      "text": "客户案例",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 488.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "新闻中心",
+      "text": "新闻中心",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 548.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "关于我们",
+      "text": "关于我们",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 447.21875,
+        "y": 608.0,
+        "width": 112.0,
+        "height": 60.0
+      },
+      "name": "联系我们",
+      "text": "联系我们",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 428.21875,
+        "y": 149.0,
+        "width": 238.0,
+        "height": 28.0
+      },
+      "name": "注册商标",
+      "text": "注册商标",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 428.21875,
+        "y": 322.0,
+        "width": 238.0,
+        "height": 28.0
+      },
+      "name": "最新动态",
+      "text": "最新动态",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 468.21875,
+        "y": 424.0,
+        "width": 8.0,
+        "height": 18.0
+      },
+      "name": "1",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 468.21875,
+        "y": 488.0,
+        "width": 8.0,
+        "height": 18.0
+      },
+      "name": "2",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 468.21875,
+        "y": 552.0,
+        "width": 8.0,
+        "height": 18.0
+      },
+      "name": "3",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 468.21875,
+        "y": 616.0,
+        "width": 8.0,
+        "height": 18.0
+      },
+      "name": "4",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 468.21875,
+        "y": 680.0,
+        "width": 8.0,
+        "height": 18.0
+      },
+      "name": "5",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        61
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 468.21875,
+        "y": 744.0,
+        "width": 8.0,
+        "height": 18.0
+      },
+      "name": "6",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_65",
+      "source_node_ids": [
+        65
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 730.484375,
+        "y": 172.0,
+        "width": 466.234375,
+        "height": 18.0
+      },
+      "name": "版权所有",
+      "text": "版权所有",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 730.484375,
+        "y": 172.0,
+        "width": 208.0,
+        "height": 18.0
+      },
+      "name": "扬州坚格新网络信息有限公司",
+      "text": "扬州坚格新网络信息有限公司",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        67
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1018.484375,
+        "y": 172.0,
+        "width": 166.234375,
+        "height": 18.0
+      },
+      "name": "苏ICP备2022000377号-1",
+      "text": "苏ICP备2022000377号-1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_8",
+      "source_element_ids": [
+        "e_10",
+        "e_12",
+        "e_14",
+        "e_16",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_30"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 407.21875,
+        "y": 8.0,
+        "width": 152.0,
+        "height": 60.0
+      },
+      "name": "nav",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 8,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_43",
+      "source_element_ids": [
+        "e_46",
+        "e_49",
+        "e_52",
+        "e_55",
+        "e_58",
+        "e_61"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 428.21875,
+        "y": 411.0,
+        "width": 238.0,
+        "height": 389.0
+      },
+      "name": "list_43",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 43,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_8",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_43",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_8",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_43",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_2",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_5",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_10",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_12",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_14",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_16",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_18",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_20",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_22",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_24",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_26",
+      "order": 8,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_28",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_30",
+      "order": 10,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_38",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_41",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_46",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_49",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_52",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_55",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_58",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_61",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_65",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_66",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_67",
+      "order": 6,
+      "confidence": 0.75
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "0144",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0144.json",
+    "ai_preannotation_sha256": "e94032b670c441cd538e28bd48913b486b905405eb648cf2f1814c2dbbb6e1bb",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

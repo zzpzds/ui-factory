@@ -28,6 +28,7 @@ const state = {
   references: { human: null, ai: null },
   differenceFilter: "all",
   activeDifferenceIndex: null,
+  activeReviewStartedAt: null,
 };
 
 const $ = (id) => document.getElementById(id);
@@ -255,15 +256,45 @@ function normalizeAnnotation() {
   refreshGroupSourceElements();
 }
 
-function markDirty() {
+function markDirty(preserveHumanReview = false) {
   if (isEditorLocked()) {
     toast(isAdjudication()
       ? "该样本已完成审核，不能继续修改"
       : "该样本已冻结为金标准，不能继续修改", true);
     return;
   }
+  if (!preserveHumanReview && state.annotation?.provenance?.ai_assistance_mode) {
+    state.annotation.provenance.human_review_confirmed = false;
+    state.annotation.provenance.human_reviewed_at = null;
+  }
+  if (state.annotation?.provenance?.ai_assistance_mode
+    && !state.annotation.provenance.human_review_started_at) {
+    state.annotation.provenance.human_review_started_at = new Date().toISOString();
+  }
   state.dirty = true;
   renderSaveState();
+}
+
+function startReviewTimer() {
+  state.activeReviewStartedAt = (
+    !document.hidden
+    && !isAdjudication()
+    && state.annotation?.provenance?.ai_assistance_mode
+    && !isEditorLocked()
+  ) ? Date.now() : null;
+}
+
+function accumulateReviewTime() {
+  if (!state.activeReviewStartedAt || !state.annotation?.provenance?.ai_assistance_mode) {
+    state.activeReviewStartedAt = null;
+    return;
+  }
+  const elapsed = Math.max(0, (Date.now() - state.activeReviewStartedAt) / 1000);
+  const previous = Number(state.annotation.provenance.human_active_seconds || 0);
+  state.annotation.provenance.human_active_seconds = Math.round(
+    (previous + elapsed) * 10,
+  ) / 10;
+  state.activeReviewStartedAt = null;
 }
 
 function renderSaveState() {
@@ -289,7 +320,11 @@ function renderProgress() {
     const complete = isAdjudication()
       ? ["reviewed", "finalized"].includes(status)
       : status === "complete";
-    option.textContent = `${complete ? "✓ " : ""}${option.value} · ${sample.size_bin}`;
+    const condition = sample.annotation_condition;
+    const conditionMark = condition === "ai_assisted" ? "AI " : (
+      condition === "blind_control" ? "盲 " : ""
+    );
+    option.textContent = `${complete ? "✓ " : conditionMark}${option.value} · ${sample.size_bin}`;
   });
 }
 
@@ -1620,6 +1655,28 @@ function renderAdjudicationPanel() {
     : `${differenceItems().length} 项差异待复核`;
 }
 
+function renderAssistancePanel() {
+  const provenance = state.annotation?.provenance || {};
+  const mode = provenance.ai_assistance_mode;
+  const visible = !isAdjudication() && ["preannotation", "blind_control"].includes(mode);
+  $("assistancePanel").classList.toggle("hidden", !visible);
+  $("assistanceBadge").classList.toggle("hidden", !visible);
+  if (!visible) return;
+
+  const confirmed = provenance.human_review_confirmed === true;
+  const assisted = mode === "preannotation";
+  $("assistanceTitle").textContent = assisted ? "AI 辅助校正" : "盲标对照";
+  $("assistanceBadge").textContent = assisted ? "AI 预标注" : "盲标对照";
+  $("assistanceBadge").classList.toggle("blind", !assisted);
+  $("assistanceStatus").textContent = confirmed ? "已复核" : "待复核";
+  $("assistanceStatus").classList.toggle("complete", confirmed);
+  $("assistanceMeta").textContent = assisted
+    ? `${state.annotation.elements.length} 个元素 · ${state.annotation.groups.length} 个分组 · ${Math.round(Number(provenance.human_active_seconds || 0) / 60)} 分钟`
+    : `独立人工标注 · AI 初稿隐藏 · ${Math.round(Number(provenance.human_active_seconds || 0) / 60)} 分钟`;
+  $("humanReviewConfirmed").checked = confirmed;
+  $("humanReviewConfirmed").disabled = isEditorLocked();
+}
+
 function renderModeChrome() {
   const adjudication = isAdjudication();
   const hasAdjudication = Boolean(state.assignment?.adjudication);
@@ -1631,7 +1688,9 @@ function renderModeChrome() {
   $("referenceControls").classList.toggle("hidden", !adjudication);
   $("adjudicationPanel").classList.toggle("hidden", !adjudication);
   $("saveButton").textContent = adjudication ? "保存仲裁草稿" : "保存草稿";
-  $("submitButton").textContent = adjudication ? "完成人工审核" : "提交完成";
+  const assisted = state.annotation?.provenance?.ai_assistance_mode === "preannotation";
+  $("submitButton").textContent = adjudication
+    ? "完成人工审核" : (assisted ? "提交人工校正版" : "提交完成");
   document.querySelector(".panel-tabs").classList.toggle("adjudication", adjudication);
   document.querySelector(".workspace").classList.toggle(
     "editor-locked", isEditorLocked(),
@@ -1668,6 +1727,12 @@ function localValidation() {
       errors.push("请在 Token 页签检查当前样式候选");
     }
   }
+  if (state.assignment?.annotation_workflow?.require_human_review_confirmation
+    && state.annotation.provenance?.ai_assistance_mode
+    && !isAnnotationLocked()
+    && state.annotation.provenance.human_review_confirmed !== true) {
+    errors.push("请确认设计师已完成 AI 初稿或盲标结果的逐项复核");
+  }
   if (!state.annotation.elements.length) errors.push("完整标注至少需要一个原子元素");
   return errors;
 }
@@ -1678,6 +1743,7 @@ async function saveAnnotation(submit = false, silent = false) {
     if (!silent) toast("该样本为只读状态", true);
     return false;
   }
+  accumulateReviewTime();
   normalizeAnnotation();
   state.validationErrors = localValidation();
   renderValidation();
@@ -1743,6 +1809,7 @@ async function saveAnnotation(submit = false, silent = false) {
   } finally {
     $("saveButton").disabled = isEditorLocked();
     $("submitButton").disabled = isEditorLocked();
+    startReviewTimer();
   }
 }
 
@@ -1757,6 +1824,7 @@ async function loadSample(sampleId) {
   state.validationErrors = [];
   state.adjudication = null;
   state.references = { human: null, ai: null };
+  state.activeReviewStartedAt = null;
   $("reviewerName").value = "";
   $("reviewNotes").value = "";
   $("showAllNodes").checked = !isAdjudication();
@@ -1783,6 +1851,7 @@ async function loadSample(sampleId) {
     $("pageScreenshot").src = apiUrl(`/api/sample/${sampleId}/screenshot`);
     $("pageScreenshot").alt = `样本 ${sampleId} 的网页截图`;
     renderAll();
+    startReviewTimer();
     window.requestAnimationFrame(fitCanvas);
   } catch (error) {
     toast(error.message, true);
@@ -1839,6 +1908,7 @@ function renderAll() {
   renderValidation();
   renderDifferences();
   renderAdjudicationPanel();
+  renderAssistancePanel();
   renderModeChrome();
 }
 
@@ -1865,6 +1935,19 @@ function bindStaticEvents() {
   $("createGroup").addEventListener("click", createGroup);
   $("createToken").addEventListener("click", createToken);
   $("completeTokenReview").addEventListener("click", completeTokenReview);
+  $("humanReviewConfirmed").addEventListener("change", (event) => {
+    state.annotation.provenance.human_review_confirmed = event.target.checked;
+    state.annotation.provenance.human_reviewed_at = event.target.checked
+      ? new Date().toISOString() : null;
+    markDirty(true);
+    state.validationErrors = localValidation();
+    renderValidation();
+    renderAssistancePanel();
+  });
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) accumulateReviewTime();
+    else startReviewTimer();
+  });
   $("deleteEntity").addEventListener("click", deleteActive);
   $("showAllNodes").addEventListener("change", renderCanvas);
   $("showLabels").addEventListener("change", renderCanvas);

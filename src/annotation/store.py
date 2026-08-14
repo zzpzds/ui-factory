@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 from collections import Counter
+from datetime import datetime
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -210,6 +212,45 @@ class AnnotationStore:
         return []
 
     @staticmethod
+    def _sha256(path: Path) -> str:
+        digest = hashlib.sha256()
+        with path.open("rb") as handle:
+            for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                digest.update(chunk)
+        return digest.hexdigest()
+
+    def _assisted_review_errors(
+        self, ir: DesignIntentIR, sample_id: str
+    ) -> list[str]:
+        workflow = self.assignment.get("annotation_workflow", {})
+        mode = ir.provenance.get("ai_assistance_mode")
+        if not mode or sample_id in self.locked_sample_ids:
+            return []
+        errors = []
+        if (
+            workflow.get("require_human_review_confirmation")
+            and ir.provenance.get("human_review_confirmed") is not True
+        ):
+            errors.append("请确认设计师已完成逐项复核")
+        if mode not in {"preannotation", "blind_control"}:
+            errors.append(f"未知 AI 辅助标注模式：{mode}")
+            return errors
+        expected_visible = mode == "preannotation"
+        if ir.provenance.get("ai_preannotation_visible") is not expected_visible:
+            errors.append("AI 初稿可见性与标注条件不一致")
+        raw_path = ir.provenance.get("ai_preannotation_path")
+        expected_hash = ir.provenance.get("ai_preannotation_sha256")
+        if not raw_path or not expected_hash:
+            errors.append("缺少 AI 初稿来源或哈希")
+            return errors
+        path = (self.repo_root / str(raw_path)).resolve()
+        if not path.is_relative_to(self.repo_root) or not path.exists():
+            errors.append("AI 初稿来源文件不存在或越出仓库")
+        elif self._sha256(path) != expected_hash:
+            errors.append("AI 初稿来源哈希已变化")
+        return errors
+
+    @staticmethod
     def _normalize_token_references(ir: DesignIntentIR) -> None:
         token_members = {
             token.id: set(token.member_ids) for token in ir.style_tokens
@@ -241,18 +282,30 @@ class AnnotationStore:
 
         normalize_group_source_elements(ir)
         self._normalize_token_references(ir)
+        assistance_mode = ir.provenance.get("ai_assistance_mode")
+        label_source = (
+            "human_corrected_ai_preannotation"
+            if assistance_mode == "preannotation"
+            else "human_annotation"
+        )
         ir.provenance = {
             **ir.provenance,
             "source_sample_id": sample_id,
-            "label_source": "human_annotation",
+            "label_source": label_source,
             "annotator": annotator,
-            "weak_labels_viewed": False,
+            "weak_labels_viewed": assistance_mode == "preannotation",
+            "ai_assistance_disclosed": bool(assistance_mode),
             "status": "draft",
         }
         errors = self._submission_errors(ir, graph)
         errors.extend(self._token_review_errors(ir, sample_id))
+        errors.extend(self._assisted_review_errors(ir, sample_id))
         if submit and not errors:
             ir.provenance["status"] = "complete"
+            if assistance_mode and not ir.provenance.get("human_reviewed_at"):
+                ir.provenance["human_reviewed_at"] = (
+                    datetime.now().astimezone().isoformat()
+                )
 
         path = self.annotation_path(annotator, sample_id)
         path.parent.mkdir(parents=True, exist_ok=True)

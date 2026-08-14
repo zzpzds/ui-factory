@@ -1,0 +1,3977 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        2
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 270.0,
+        "y": 1.0,
+        "width": 46.0,
+        "height": 57.0
+      },
+      "name": "fltlft",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": "images/tree-small.gif"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        3
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 270.0,
+        "y": 1.0,
+        "width": 750.0,
+        "height": 57.0
+      },
+      "name": "Mathematics_Genealogy_Project",
+      "text": "Mathematics Genealogy Project",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 342.65625,
+        "y": 86.0,
+        "width": 34.6875,
+        "height": 15.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 339.390625,
+        "y": 101.0,
+        "width": 41.203125,
+        "height": 15.0
+      },
+      "name": "Search",
+      "text": "Search",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 335.796875,
+        "y": 116.0,
+        "width": 48.40625,
+        "height": 15.0
+      },
+      "name": "Extrema",
+      "text": "Extrema",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 326.390625,
+        "y": 131.0,
+        "width": 67.203125,
+        "height": 15.0
+      },
+      "name": "menubaritemsubmenu",
+      "text": "About MGP",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 357.953125,
+        "y": 146.0,
+        "width": 44.078125,
+        "height": 15.0
+      },
+      "name": "Mission",
+      "text": "Mission",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 340.640625,
+        "y": 161.0,
+        "width": 78.71875,
+        "height": 15.0
+      },
+      "name": "History_(PDF)",
+      "text": "History (PDF)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 347.46875,
+        "y": 176.0,
+        "width": 65.046875,
+        "height": 15.0
+      },
+      "name": "Support_Us",
+      "text": "Support Us",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 363.734375,
+        "y": 191.0,
+        "width": 32.515625,
+        "height": 15.0
+      },
+      "name": "News",
+      "text": "News",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 366.734375,
+        "y": 206.0,
+        "width": 26.515625,
+        "height": 15.0
+      },
+      "name": "Staff",
+      "text": "Staff",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 345.671875,
+        "y": 221.0,
+        "width": 68.65625,
+        "height": 15.0
+      },
+      "name": "Recognition",
+      "text": "Recognition",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 340.0,
+        "y": 236.0,
+        "width": 105.5,
+        "height": 15.0
+      },
+      "name": "Acknowledgments",
+      "text": "Acknowledgments",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 344.8125,
+        "y": 251.0,
+        "width": 30.359375,
+        "height": 15.0
+      },
+      "name": "Links",
+      "text": "Links",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 343.734375,
+        "y": 266.0,
+        "width": 32.515625,
+        "height": 15.0
+      },
+      "name": "FAQs",
+      "text": "FAQs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 337.953125,
+        "y": 281.0,
+        "width": 44.078125,
+        "height": 15.0
+      },
+      "name": "Posters",
+      "text": "Posters",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 324.21875,
+        "y": 296.0,
+        "width": 71.546875,
+        "height": 15.0
+      },
+      "name": "Submit_Data",
+      "text": "Submit Data",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 337.59375,
+        "y": 311.0,
+        "width": 44.8125,
+        "height": 15.0
+      },
+      "name": "Contact",
+      "text": "Contact",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 339.03125,
+        "y": 326.0,
+        "width": 41.921875,
+        "height": 15.0
+      },
+      "name": "Donate",
+      "text": "Donate",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 260.0,
+        "y": 354.0,
+        "width": 160.0,
+        "height": 75.0
+      },
+      "name": "A_service_of_the_,_in_associatio",
+      "text": "A \nservice of the  , in association with the .",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 367.828125,
+        "y": 354.0,
+        "width": 36.84375,
+        "height": 15.0
+      },
+      "name": "NDSU",
+      "text": "NDSU",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 260.140625,
+        "y": 369.0,
+        "width": 121.046875,
+        "height": 30.0
+      },
+      "name": "Department_of_Mathematics",
+      "text": "Department of Mathematics",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 276.890625,
+        "y": 399.0,
+        "width": 122.59375,
+        "height": 30.0
+      },
+      "name": "American_Mathematical_Society",
+      "text": "American Mathematical Society",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 450.0,
+        "y": 75.4375,
+        "width": 560.0,
+        "height": 28.0
+      },
+      "name": "André_George_Dutoit",
+      "text": "André George Dutoit",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 580.0,
+        "y": 111.4375,
+        "width": 300.0,
+        "height": 2.0
+      },
+      "name": "shape_51",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 701.984375,
+        "y": 127.4375,
+        "width": 48.015625,
+        "height": 17.0
+      },
+      "name": "Ph.D.",
+      "text": "Ph.D.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 685.53125,
+        "y": 159.734375,
+        "width": 88.921875,
+        "height": 17.0
+      },
+      "name": "Dissertation:",
+      "text": "Dissertation:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 450.0,
+        "y": 193.734375,
+        "width": 560.0,
+        "height": 18.0
+      },
+      "name": "Advisor:_Unknown",
+      "text": "Advisor: Unknown",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 450.0,
+        "y": 227.734375,
+        "width": 560.0,
+        "height": 36.0
+      },
+      "name": "Students:_Click_to_see_the_stude",
+      "text": "Students:\n\nClick  to see the students listed in chronological order.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 562.3125,
+        "y": 245.734375,
+        "width": 32.03125,
+        "height": 17.0
+      },
+      "name": "here",
+      "text": "here",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 543.25,
+        "y": 281.734375,
+        "width": 143.40625,
+        "height": 20.0
+      },
+      "name": "Name",
+      "text": "Name",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 688.65625,
+        "y": 281.734375,
+        "width": 82.90625,
+        "height": 20.0
+      },
+      "name": "School",
+      "text": "School",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        64
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 773.5625,
+        "y": 281.734375,
+        "width": 39.59375,
+        "height": 20.0
+      },
+      "name": "Year",
+      "text": "Year",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_65",
+      "source_node_ids": [
+        65
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 815.15625,
+        "y": 281.734375,
+        "width": 101.59375,
+        "height": 20.0
+      },
+      "name": "Descendants",
+      "text": "Descendants",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_68",
+      "source_node_ids": [
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 544.25,
+        "y": 304.734375,
+        "width": 119.1875,
+        "height": 17.0
+      },
+      "name": "Achab,_Moutawé",
+      "text": "Achab, Moutawé",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_69",
+      "source_node_ids": [
+        69
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 688.65625,
+        "y": 303.734375,
+        "width": 82.90625,
+        "height": 20.0
+      },
+      "name": "ETH_Zürich",
+      "text": "ETH Zürich",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_70",
+      "source_node_ids": [
+        70
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 773.5625,
+        "y": 303.734375,
+        "width": 39.59375,
+        "height": 20.0
+      },
+      "name": "1961",
+      "text": "1961",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_74",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 544.25,
+        "y": 326.734375,
+        "width": 141.40625,
+        "height": 17.0
+      },
+      "name": "Mansour,_Mohamed",
+      "text": "Mansour, Mohamed",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 688.65625,
+        "y": 325.734375,
+        "width": 82.90625,
+        "height": 20.0
+      },
+      "name": "ETH_Zürich",
+      "text": "ETH Zürich",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_76",
+      "source_node_ids": [
+        76
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 773.5625,
+        "y": 325.734375,
+        "width": 39.59375,
+        "height": 20.0
+      },
+      "name": "1965",
+      "text": "1965",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 815.15625,
+        "y": 325.734375,
+        "width": 101.59375,
+        "height": 20.0
+      },
+      "name": "9",
+      "text": "9",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 544.25,
+        "y": 348.734375,
+        "width": 77.34375,
+        "height": 17.0
+      },
+      "name": "Meyer,_Urs",
+      "text": "Meyer, Urs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_81",
+      "source_node_ids": [
+        81
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 688.65625,
+        "y": 347.734375,
+        "width": 82.90625,
+        "height": 20.0
+      },
+      "name": "ETH_Zürich",
+      "text": "ETH Zürich",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_82",
+      "source_node_ids": [
+        82
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 773.5625,
+        "y": 347.734375,
+        "width": 39.59375,
+        "height": 20.0
+      },
+      "name": "1973",
+      "text": "1973",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_83",
+      "source_node_ids": [
+        83
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 815.15625,
+        "y": 347.734375,
+        "width": 101.59375,
+        "height": 20.0
+      },
+      "name": "1",
+      "text": "1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_84",
+      "source_node_ids": [
+        84
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 450.0,
+        "y": 385.734375,
+        "width": 560.0,
+        "height": 54.0
+      },
+      "name": "According_to_our_current_on-line",
+      "text": "According to our current on-line database, André Dutoit has 3 students and 13 descendants.\n\nWe welco",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_85",
+      "source_node_ids": [
+        85
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 450.0,
+        "y": 455.734375,
+        "width": 560.0,
+        "height": 45.0
+      },
+      "name": "If_you_have_additional_informati",
+      "text": "If you have additional information or\n corrections regarding this mathematician, please use the . To",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_86",
+      "source_node_ids": [
+        86
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 452.25,
+        "y": 470.734375,
+        "width": 69.375,
+        "height": 15.0
+      },
+      "name": "update_form",
+      "text": "update form",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_87",
+      "source_node_ids": [
+        87
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 858.859375,
+        "y": 470.734375,
+        "width": 82.375,
+        "height": 15.0
+      },
+      "name": "new_data_form",
+      "text": "new\n\t    data form",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_91",
+      "source_node_ids": [
+        91
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 639.390625,
+        "y": 545.734375,
+        "width": 41.203125,
+        "height": 15.0
+      },
+      "name": "Search",
+      "text": "Search",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_93",
+      "source_node_ids": [
+        93
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 626.390625,
+        "y": 560.734375,
+        "width": 67.203125,
+        "height": 15.0
+      },
+      "name": "menubaritemsubmenu",
+      "text": "About MGP",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_96",
+      "source_node_ids": [
+        96
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 657.953125,
+        "y": 575.734375,
+        "width": 44.078125,
+        "height": 15.0
+      },
+      "name": "Mission",
+      "text": "Mission",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_98",
+      "source_node_ids": [
+        98
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 663.734375,
+        "y": 590.734375,
+        "width": 32.515625,
+        "height": 15.0
+      },
+      "name": "News",
+      "text": "News",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_100",
+      "source_node_ids": [
+        100
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 666.734375,
+        "y": 605.734375,
+        "width": 26.515625,
+        "height": 15.0
+      },
+      "name": "Staff",
+      "text": "Staff",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_102",
+      "source_node_ids": [
+        102
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 645.671875,
+        "y": 620.734375,
+        "width": 68.65625,
+        "height": 15.0
+      },
+      "name": "Recognition",
+      "text": "Recognition",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_105",
+      "source_node_ids": [
+        105
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 639.421875,
+        "y": 638.734375,
+        "width": 81.15625,
+        "height": 11.0
+      },
+      "name": "Acknowledgments",
+      "text": "Acknowledgments",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_107",
+      "source_node_ids": [
+        107
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 644.8125,
+        "y": 650.734375,
+        "width": 30.359375,
+        "height": 15.0
+      },
+      "name": "Links",
+      "text": "Links",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_109",
+      "source_node_ids": [
+        109
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 643.734375,
+        "y": 665.734375,
+        "width": 32.515625,
+        "height": 15.0
+      },
+      "name": "FAQs",
+      "text": "FAQs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_111",
+      "source_node_ids": [
+        111
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 637.953125,
+        "y": 680.734375,
+        "width": 44.078125,
+        "height": 15.0
+      },
+      "name": "Posters",
+      "text": "Posters",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_113",
+      "source_node_ids": [
+        113
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 624.21875,
+        "y": 695.734375,
+        "width": 71.546875,
+        "height": 15.0
+      },
+      "name": "Submit_Data",
+      "text": "Submit Data",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_115",
+      "source_node_ids": [
+        115
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 637.59375,
+        "y": 710.734375,
+        "width": 44.8125,
+        "height": 15.0
+      },
+      "name": "Contact",
+      "text": "Contact",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_116",
+      "source_node_ids": [
+        116
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 260.0,
+        "y": 753.734375,
+        "width": 760.0,
+        "height": 46.265625
+      },
+      "name": "The_Mathematics_Genealogy_Projec",
+      "text": "The Mathematics Genealogy Project is in need of funds \nto help pay for student help and other associ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_117",
+      "source_node_ids": [
+        117
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 434.765625,
+        "y": 778.734375,
+        "width": 78.078125,
+        "height": 15.0
+      },
+      "name": "donate_online",
+      "text": "donate online",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_7",
+      "source_element_ids": [
+        "e_9",
+        "e_11",
+        "e_13",
+        "e_15",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_30",
+        "e_32",
+        "e_34",
+        "e_36",
+        "e_38",
+        "e_40",
+        "e_42"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 260.0,
+        "y": 86.0,
+        "width": 160.0,
+        "height": 255.0
+      },
+      "name": "menubar1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 7,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_14",
+      "source_element_ids": [
+        "e_15",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_30"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 300.0,
+        "y": 131.0,
+        "width": 120.0,
+        "height": 120.0
+      },
+      "name": "list_item_14",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 14,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_16",
+      "source_element_ids": [
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_30"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 300.0,
+        "y": 146.0,
+        "width": 120.0,
+        "height": 105.0
+      },
+      "name": "list_16",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 16,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_60",
+      "source_element_ids": [
+        "e_62",
+        "e_63",
+        "e_64",
+        "e_65",
+        "e_68",
+        "e_69",
+        "e_70",
+        "e_74",
+        "e_75",
+        "e_76",
+        "e_77",
+        "e_80",
+        "e_81",
+        "e_82",
+        "e_83"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 543.25,
+        "y": 281.734375,
+        "width": 373.5,
+        "height": 86.0
+      },
+      "name": "container_60",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 60,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_61",
+      "source_element_ids": [
+        "e_62",
+        "e_63",
+        "e_64",
+        "e_65"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 543.25,
+        "y": 281.734375,
+        "width": 373.5,
+        "height": 20.0
+      },
+      "name": "table_row_61",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 61,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_66",
+      "source_element_ids": [
+        "e_68",
+        "e_69",
+        "e_70"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 543.25,
+        "y": 303.734375,
+        "width": 373.5,
+        "height": 20.0
+      },
+      "name": "table_row_66",
+      "style": {
+        "background_color": [
+          0.8980392156862745,
+          0.9019607843137255,
+          0.8117647058823529,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 66,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_72",
+      "source_element_ids": [
+        "e_74",
+        "e_75",
+        "e_76",
+        "e_77"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 543.25,
+        "y": 325.734375,
+        "width": 373.5,
+        "height": 20.0
+      },
+      "name": "table_row_72",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 72,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_78",
+      "source_element_ids": [
+        "e_80",
+        "e_81",
+        "e_82",
+        "e_83"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 543.25,
+        "y": 347.734375,
+        "width": 373.5,
+        "height": 20.0
+      },
+      "name": "table_row_78",
+      "style": {
+        "background_color": [
+          0.8980392156862745,
+          0.9019607843137255,
+          0.8117647058823529,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 78,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_89",
+      "source_element_ids": [
+        "e_91",
+        "e_93",
+        "e_96",
+        "e_98",
+        "e_100",
+        "e_102",
+        "e_105",
+        "e_107",
+        "e_109",
+        "e_111",
+        "e_113",
+        "e_115"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 260.0,
+        "y": 545.734375,
+        "width": 760.0,
+        "height": 180.0
+      },
+      "name": "menubar2",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 89,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_92",
+      "source_element_ids": [
+        "e_93",
+        "e_96",
+        "e_98",
+        "e_100",
+        "e_102",
+        "e_105"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 300.0,
+        "y": 560.734375,
+        "width": 720.0,
+        "height": 90.0
+      },
+      "name": "list_item_92",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 92,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_94",
+      "source_element_ids": [
+        "e_96",
+        "e_98",
+        "e_100",
+        "e_102",
+        "e_105"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 300.0,
+        "y": 575.734375,
+        "width": 720.0,
+        "height": 75.0
+      },
+      "name": "list_94",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 94,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_7",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_14",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_16",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_60",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_61",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_66",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_72",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_78",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_89",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_92",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_94",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_7",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "g_14",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "g_16",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_60",
+      "order": 10,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_60",
+      "child_id": "g_61",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_60",
+      "child_id": "g_66",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_60",
+      "child_id": "g_72",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_60",
+      "child_id": "g_78",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_89",
+      "order": 19,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_89",
+      "child_id": "g_92",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_92",
+      "child_id": "g_94",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_2",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_3",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_9",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_11",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_13",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_15",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_18",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_22",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_24",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_26",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_28",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_30",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_32",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_34",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_36",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_38",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_40",
+      "order": 8,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_42",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_43",
+      "order": 11,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_44",
+      "order": 12,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_45",
+      "order": 13,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_46",
+      "order": 15,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_49",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_51",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_53",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_55",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_56",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_57",
+      "order": 8,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_58",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_61",
+      "child_id": "e_62",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_61",
+      "child_id": "e_63",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_61",
+      "child_id": "e_64",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_61",
+      "child_id": "e_65",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_66",
+      "child_id": "e_68",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_66",
+      "child_id": "e_69",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_66",
+      "child_id": "e_70",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_74",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_75",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_76",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_77",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_78",
+      "child_id": "e_80",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_78",
+      "child_id": "e_81",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_78",
+      "child_id": "e_82",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_78",
+      "child_id": "e_83",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_84",
+      "order": 14,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_85",
+      "order": 16,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_86",
+      "order": 17,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_87",
+      "order": 18,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_89",
+      "child_id": "e_91",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_92",
+      "child_id": "e_93",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_94",
+      "child_id": "e_96",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_94",
+      "child_id": "e_98",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_94",
+      "child_id": "e_100",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_94",
+      "child_id": "e_102",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_94",
+      "child_id": "e_105",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_89",
+      "child_id": "e_107",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_89",
+      "child_id": "e_109",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_89",
+      "child_id": "e_111",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_89",
+      "child_id": "e_113",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_89",
+      "child_id": "e_115",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_116",
+      "order": 20,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_117",
+      "order": 21,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0412",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "7957acba9b74cbb5e7299714bb30da8b125a98f22b6f93edfa33a190ac276470",
+    "screenshot_sha256": "85640dbf293987b8851f8a46253d0df1a9aa1a2411514d2f3236e31147623da8"
+  }
+}

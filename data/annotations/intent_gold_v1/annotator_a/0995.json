@@ -4,17 +4,4263 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 47.078125,
+        "width": 474.375,
+        "height": 41.0
+      },
+      "name": "社長さん！借金の返済額を99％カットする究極の一手、教えます！",
+      "text": "社長さん！借金の返済額を99％カットする究極の一手、教えます！",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.6667,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 397.0,
+        "y": 118.15625,
+        "width": 25.0,
+        "height": 20.0
+      },
+      "name": "image_13",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "right",
+        "image_src": "5_files/btn_cart2.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 422.0,
+        "y": 126.15625,
+        "width": 108.0,
+        "height": 15.0
+      },
+      "name": "ショッピングカート",
+      "text": "ショッピングカート",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 118.15625,
+        "width": 482.0,
+        "height": 32.0
+      },
+      "name": "subheadertitle",
+      "text": "社長さん！借金の返済額を99％カットする究極の一手、教えます！",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 55.0,
+        "y": 181.15625,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "detailproductimage",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": "5_files/5142f7-RxzL.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 94.0,
+        "y": 177.15625,
+        "width": 433.0,
+        "height": 50.0
+      },
+      "name": "社長さん！借金の返済額を99％カットする究極の一手、教えます！",
+      "text": "社長さん！借金の返済額を99％カットする究極の一手、教えます！",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 94.0,
+        "y": 211.15625,
+        "width": 79.546875,
+        "height": 15.0
+      },
+      "name": "by",
+      "text": "By 山田高ノ介",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 97.0,
+        "y": 234.15625,
+        "width": 33.640625,
+        "height": 17.0
+      },
+      "name": "価格:",
+      "text": "価格:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 134.640625,
+        "y": 234.15625,
+        "width": 59.609375,
+        "height": 17.0
+      },
+      "name": "detailofferprice",
+      "text": "￥ 1,680",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 194.25,
+        "y": 236.15625,
+        "width": 263.5625,
+        "height": 15.0
+      },
+      "name": "supersaver",
+      "text": "国内配送料無料 (一部の商品、注文方法を除く)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 457.8125,
+        "y": 236.15625,
+        "width": 24.0,
+        "height": 15.0
+      },
+      "name": "詳細",
+      "text": "詳細",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 94.0,
+        "y": 265.15625,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_38",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 247.0,
+        "y": 265.15625,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_39",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 94.0,
+        "y": 286.15625,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_40",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 247.0,
+        "y": 286.15625,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "buybutton",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "5_files/add-to-cart-yellow.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 94.0,
+        "y": 335.15625,
+        "width": 433.0,
+        "height": 32.0
+      },
+      "name": "在庫あり。販売、発送は_Amazon.co.jp",
+      "text": "在庫あり。販売、発送は Amazon.co.jp",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 94.0,
+        "y": 335.15625,
+        "width": 80.9375,
+        "height": 15.0
+      },
+      "name": "発送可能時期:",
+      "text": "発送可能時期:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 94.0,
+        "y": 379.15625,
+        "width": 159.875,
+        "height": 15.0
+      },
+      "name": "11_新品/中古品価格_￥_1,051",
+      "text": "11 新品/中古品価格 ￥ 1,051",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 163.671875,
+        "y": 408.15625,
+        "width": 56.0,
+        "height": 11.0
+      },
+      "name": "image_47",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": "5_files/star35_tpng.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        48
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 99.453125,
+        "y": 423.15625,
+        "width": 119.859375,
+        "height": 15.0
+      },
+      "name": "9_カスタマーレビュー",
+      "text": "9 カスタマーレビュー",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 48.0,
+        "y": 468.15625,
+        "width": 482.0,
+        "height": 1.0
+      },
+      "name": "shape_51",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 481.15625,
+        "width": 482.0,
+        "height": 16.0
+      },
+      "name": "商品の詳細",
+      "text": "商品の詳細",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        54
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 509.15625,
+        "width": 442.0,
+        "height": 16.0
+      },
+      "name": "Amazon.co.jp_ランキング:_#13318_/_本",
+      "text": "Amazon.co.jp ランキング: #13318 / 本",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 525.15625,
+        "width": 442.0,
+        "height": 16.0
+      },
+      "name": "発売日:_2010-11-01",
+      "text": "発売日: 2010-11-01",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 541.15625,
+        "width": 442.0,
+        "height": 16.0
+      },
+      "name": "成分:_Example_Ingredients",
+      "text": "成分: Example Ingredients",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 557.15625,
+        "width": 442.0,
+        "height": 16.0
+      },
+      "name": "版型:_単行本（ソフトカバー）",
+      "text": "版型: 単行本（ソフトカバー）",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 573.15625,
+        "width": 442.0,
+        "height": 16.0
+      },
+      "name": "240_ページ",
+      "text": "240 ページ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 48.0,
+        "y": 601.15625,
+        "width": 482.0,
+        "height": 1.0
+      },
+      "name": "shape_59",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 614.15625,
+        "width": 482.0,
+        "height": 16.0
+      },
+      "name": "エディターレビュー",
+      "text": "エディターレビュー",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 642.15625,
+        "width": 482.0,
+        "height": 157.84375
+      },
+      "name": "銀行からの借金を返せない！と悩む前に！_数回の面談で月々の返済額",
+      "text": "銀行からの借金を返せない！と悩む前に！  数回の面談で月々の返済額が100分の1になります。 数回の電話で借金総額の2割がチャラになります。 これだけ聞くと、ウソばっかり、この著者の特別なケースでしょ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 642.15625,
+        "width": 48.0,
+        "height": 15.0
+      },
+      "name": "reviewtitle",
+      "text": "内容紹介",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 572.0,
+        "y": 24.0,
+        "width": 200.0,
+        "height": 26.0
+      },
+      "name": "カテゴリーをブラウズする",
+      "text": "カテゴリーをブラウズする",
+      "style": {
+        "background_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_70",
+      "source_node_ids": [
+        70
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 586.0,
+        "y": 64.0,
+        "width": 87.0,
+        "height": 25.0
+      },
+      "name": "image_70",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": "5_files/powered-by-amazon-b.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 586.0,
+        "y": 99.0,
+        "width": 172.0,
+        "height": 1.0
+      },
+      "name": "shape_71",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_72",
+      "source_node_ids": [
+        72
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 112.0,
+        "width": 60.0,
+        "height": 15.0
+      },
+      "name": "料理写真集",
+      "text": "料理写真集",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_73",
+      "source_node_ids": [
+        73
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 128.0,
+        "width": 48.0,
+        "height": 15.0
+      },
+      "name": "庭園の本",
+      "text": "庭園の本",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_74",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 144.0,
+        "width": 96.0,
+        "height": 15.0
+      },
+      "name": "ホームページ作成",
+      "text": "ホームページ作成",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 160.0,
+        "width": 48.0,
+        "height": 15.0
+      },
+      "name": "女性雑誌",
+      "text": "女性雑誌",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_76",
+      "source_node_ids": [
+        76
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 176.0,
+        "width": 72.0,
+        "height": 15.0
+      },
+      "name": "作家で探す本",
+      "text": "作家で探す本",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 192.0,
+        "width": 60.0,
+        "height": 15.0
+      },
+      "name": "新聞縮刷版",
+      "text": "新聞縮刷版",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_78",
+      "source_node_ids": [
+        78
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 208.0,
+        "width": 96.0,
+        "height": 15.0
+      },
+      "name": "ドキュメンタリー",
+      "text": "ドキュメンタリー",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_79",
+      "source_node_ids": [
+        79
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 224.0,
+        "width": 84.0,
+        "height": 15.0
+      },
+      "name": "インターネット",
+      "text": "インターネット",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 240.0,
+        "width": 24.0,
+        "height": 15.0
+      },
+      "name": "雑誌",
+      "text": "雑誌",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_81",
+      "source_node_ids": [
+        81
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 256.0,
+        "width": 48.0,
+        "height": 15.0
+      },
+      "name": "統計調査",
+      "text": "統計調査",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_82",
+      "source_node_ids": [
+        82
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 272.0,
+        "width": 96.0,
+        "height": 15.0
+      },
+      "name": "川_滝_山_地理",
+      "text": "川　滝　山　地理",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_83",
+      "source_node_ids": [
+        83
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 288.0,
+        "width": 60.0,
+        "height": 15.0
+      },
+      "name": "観光写真集",
+      "text": "観光写真集",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_84",
+      "source_node_ids": [
+        84
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 304.0,
+        "width": 100.21875,
+        "height": 15.0
+      },
+      "name": "神社_寺_建築の本",
+      "text": "神社 寺　建築の本",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_85",
+      "source_node_ids": [
+        85
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 320.0,
+        "width": 48.0,
+        "height": 15.0
+      },
+      "name": "植物の本",
+      "text": "植物の本",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_86",
+      "source_node_ids": [
+        86
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 336.0,
+        "width": 36.0,
+        "height": 15.0
+      },
+      "name": "乗り物",
+      "text": "乗り物",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_87",
+      "source_node_ids": [
+        87
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 352.0,
+        "width": 13.734375,
+        "height": 15.0
+      },
+      "name": "cd",
+      "text": "cd",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_88",
+      "source_node_ids": [
+        88
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 368.0,
+        "width": 36.0,
+        "height": 15.0
+      },
+      "name": "宝くじ",
+      "text": "宝くじ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_89",
+      "source_node_ids": [
+        89
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 384.0,
+        "width": 36.0,
+        "height": 15.0
+      },
+      "name": "年賀状",
+      "text": "年賀状",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_90",
+      "source_node_ids": [
+        90
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 400.0,
+        "width": 60.0,
+        "height": 15.0
+      },
+      "name": "その他_本",
+      "text": "その他　本",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_91",
+      "source_node_ids": [
+        91
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 416.0,
+        "width": 26.703125,
+        "height": 15.0
+      },
+      "name": "DVD",
+      "text": "DVD",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_92",
+      "source_node_ids": [
+        92
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 432.0,
+        "width": 48.0,
+        "height": 15.0
+      },
+      "name": "キンドル",
+      "text": "キンドル",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_93",
+      "source_node_ids": [
+        93
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 586.0,
+        "y": 454.0,
+        "width": 172.0,
+        "height": 1.0
+      },
+      "name": "shape_93",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_94",
+      "source_node_ids": [
+        94
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 467.0,
+        "width": 84.0,
+        "height": 15.0
+      },
+      "name": "メナモミネット",
+      "text": "メナモミネット",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_95",
+      "source_node_ids": [
+        95
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 586.0,
+        "y": 489.0,
+        "width": 172.0,
+        "height": 1.0
+      },
+      "name": "shape_95",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_96",
+      "source_node_ids": [
+        96
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 586.0,
+        "y": 502.0,
+        "width": 168.0,
+        "height": 31.0
+      },
+      "name": "このインスタントストアについて",
+      "text": "このインスタントストアについて",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_98",
+      "source_node_ids": [
+        98
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 572.0,
+        "y": 567.0,
+        "width": 200.0,
+        "height": 26.0
+      },
+      "name": "類似商品",
+      "text": "類似商品",
+      "style": {
+        "background_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_105",
+      "source_node_ids": [
+        105
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 579.0,
+        "y": 600.0,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "sidebarproduct",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": "5_files/51RZrol21hL.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_107",
+      "source_node_ids": [
+        107
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 659.03125,
+        "y": 600.0,
+        "width": 96.0,
+        "height": 47.0
+      },
+      "name": "過剰債務に負けない中小企業再生の智恵",
+      "text": "過剰債務に負けない中小企業再生の智恵",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_108",
+      "source_node_ids": [
+        108
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 677.8125,
+        "y": 648.0,
+        "width": 52.21875,
+        "height": 15.0
+      },
+      "name": "by",
+      "text": "川野 雅之",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_109",
+      "source_node_ids": [
+        109
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 659.03125,
+        "y": 664.0,
+        "width": 51.09375,
+        "height": 15.0
+      },
+      "name": "price",
+      "text": "￥ 1,890",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_113",
+      "source_node_ids": [
+        113
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 579.0,
+        "y": 692.0,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "sidebarproduct",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": "5_files/51GrBLCDWbL.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_115",
+      "source_node_ids": [
+        115
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 659.03125,
+        "y": 692.0,
+        "width": 96.0,
+        "height": 31.0
+      },
+      "name": "資金繰りが崖っぷちのとき読む本",
+      "text": "資金繰りが崖っぷちのとき読む本",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_116",
+      "source_node_ids": [
+        116
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 677.8125,
+        "y": 724.0,
+        "width": 52.21875,
+        "height": 15.0
+      },
+      "name": "by",
+      "text": "井上 一生",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_117",
+      "source_node_ids": [
+        117
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 659.03125,
+        "y": 740.0,
+        "width": 51.09375,
+        "height": 15.0
+      },
+      "name": "price",
+      "text": "￥ 1,470",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_121",
+      "source_node_ids": [
+        121
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 579.0,
+        "y": 768.0,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "sidebarproduct",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": "5_files/51ufs69BONL.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_123",
+      "source_node_ids": [
+        123
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 659.03125,
+        "y": 768.0,
+        "width": 96.0,
+        "height": 31.0
+      },
+      "name": "破産倒産競売も呪縛を解けば大爆笑",
+      "text": "破産倒産競売も呪縛を解けば大爆笑",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_color": [
+          0.6431372549019608,
+          0.2235294117647059,
+          0.027450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_19",
+      "source_element_ids": [
+        "e_23",
+        "e_26",
+        "e_27",
+        "e_32",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_45",
+        "e_47",
+        "e_48"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 50.0,
+        "y": 176.15625,
+        "width": 478.0,
+        "height": 264.0
+      },
+      "name": "table_row_19",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 19,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_30",
+      "source_element_ids": [
+        "e_32",
+        "e_34",
+        "e_35",
+        "e_36"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 96.0,
+        "y": 234.15625,
+        "width": 386.8125,
+        "height": 19.0
+      },
+      "name": "ourprice",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 30,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_37",
+      "source_element_ids": [
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 94.0,
+        "y": 265.15625,
+        "width": 433.0,
+        "height": 42.0
+      },
+      "name": "addtocartform",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 37,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_53",
+      "source_element_ids": [
+        "e_54",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 48.0,
+        "y": 509.15625,
+        "width": 482.0,
+        "height": 80.0
+      },
+      "name": "list_53",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 53,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_65",
+      "source_element_ids": [
+        "e_66",
+        "e_70",
+        "e_71",
+        "e_72",
+        "e_73",
+        "e_74",
+        "e_75",
+        "e_76",
+        "e_77",
+        "e_78",
+        "e_79",
+        "e_80",
+        "e_81",
+        "e_82",
+        "e_83",
+        "e_84",
+        "e_85",
+        "e_86",
+        "e_87",
+        "e_88",
+        "e_89",
+        "e_90",
+        "e_91",
+        "e_92",
+        "e_93",
+        "e_94",
+        "e_95",
+        "e_96"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 572.0,
+        "y": 24.0,
+        "width": 200.0,
+        "height": 524.0
+      },
+      "name": "widget",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 65,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_97",
+      "source_element_ids": [
+        "e_98",
+        "e_105",
+        "e_107",
+        "e_108",
+        "e_109",
+        "e_113",
+        "e_115",
+        "e_116",
+        "e_117",
+        "e_121",
+        "e_123"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 572.0,
+        "y": 567.0,
+        "width": 200.0,
+        "height": 233.0
+      },
+      "name": "widget",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 97,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_101",
+      "source_element_ids": [
+        "e_105",
+        "e_107",
+        "e_108",
+        "e_109",
+        "e_113",
+        "e_115",
+        "e_116",
+        "e_117",
+        "e_121",
+        "e_123"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 574.0,
+        "y": 595.0,
+        "width": 196.0,
+        "height": 205.0
+      },
+      "name": "container_101",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 101,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_102",
+      "source_element_ids": [
+        "e_105",
+        "e_107",
+        "e_108",
+        "e_109"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 574.0,
+        "y": 595.0,
+        "width": 196.0,
+        "height": 90.0
+      },
+      "name": "table_row_102",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 102,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_110",
+      "source_element_ids": [
+        "e_113",
+        "e_115",
+        "e_116",
+        "e_117"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 574.0,
+        "y": 687.0,
+        "width": 196.0,
+        "height": 74.0
+      },
+      "name": "table_row_110",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 110,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_118",
+      "source_element_ids": [
+        "e_121",
+        "e_123"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 574.0,
+        "y": 763.0,
+        "width": 196.0,
+        "height": 37.0
+      },
+      "name": "table_row_118",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 118,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_19",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_30",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_37",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_53",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_65",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_97",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_101",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_102",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_110",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_118",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_19",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "g_30",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "g_37",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_53",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_65",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_97",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_97",
+      "child_id": "g_101",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "g_102",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "g_110",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "g_118",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_13",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_14",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_15",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_23",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_26",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_27",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_32",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_34",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_35",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_36",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_38",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_39",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_40",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_41",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_42",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_43",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_45",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_47",
+      "order": 8,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_48",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_51",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_52",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_54",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_55",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_56",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_57",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_58",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_59",
+      "order": 10,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_60",
+      "order": 11,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_62",
+      "order": 12,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_63",
+      "order": 13,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_66",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_70",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_71",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_72",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_73",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_74",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_75",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_76",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_77",
+      "order": 8,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_78",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_79",
+      "order": 10,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_80",
+      "order": 11,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_81",
+      "order": 12,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_82",
+      "order": 13,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_83",
+      "order": 14,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_84",
+      "order": 15,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_85",
+      "order": 16,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_86",
+      "order": 17,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_87",
+      "order": 18,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_88",
+      "order": 19,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_89",
+      "order": 20,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_90",
+      "order": 21,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_91",
+      "order": 22,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_92",
+      "order": 23,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_93",
+      "order": 24,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_94",
+      "order": 25,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_95",
+      "order": 26,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_96",
+      "order": 27,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_97",
+      "child_id": "e_98",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_102",
+      "child_id": "e_105",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_102",
+      "child_id": "e_107",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_102",
+      "child_id": "e_108",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_102",
+      "child_id": "e_109",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_110",
+      "child_id": "e_113",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_110",
+      "child_id": "e_115",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_110",
+      "child_id": "e_116",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_110",
+      "child_id": "e_117",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_118",
+      "child_id": "e_121",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_118",
+      "child_id": "e_123",
+      "order": 1,
+      "confidence": 0.75
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "0995",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0995.json",
+    "ai_preannotation_sha256": "160bf5ba33a5d17f26439ef736d8ea5db2604de966335d094ed0983bdd36f1d4",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

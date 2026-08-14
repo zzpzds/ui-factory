@@ -18,6 +18,7 @@
 14. `14_human_ai_adjudication_sop.md`：逐项差异复核、审核凭证与金标准导出门槛。
 15. `15_adjudicated_gold_report.md`：10 页最终 Gold 的数量、描述性指标与研究限制；
 16. `16_formal_gold_v1_sampling_and_sop.md`：60 页正式 Gold 的筛选设计、解释边界与标注 SOP。
+17. `17_ai_assisted_annotation_protocol.md`：AI 预标注、盲标对照、人工校正与成本审计协议。
 
 ## 新主链路
 
@@ -73,8 +74,9 @@ python scripts/prepare_human_ai_adjudication.py
 # 仅在真实人员完成逐页仲裁后执行；待审核草稿会被拒绝
 python scripts/finalize_human_ai_adjudication.py
 
-# 创建 60 页正式 Gold 扩展包并开始新增 50 页人工标注
+# 创建 60 页正式 Gold，生成 50 页 AI 初稿并初始化人工校正/盲标条件
 python scripts/create_formal_gold_package.py
+python scripts/prepare_ai_assisted_gold.py
 python scripts/serve_intent_annotation.py \
   --package_dir data/annotations/intent_gold_v1 \
   --port 8766
@@ -90,8 +92,9 @@ python scripts/evaluate_intent.py \
 ## 关键约束
 
 - 正式训练必须提供 `data.split_manifest`，禁止内部随机页面切分；
-- 主测试只使用人工 `gold_intent.json`，弱标签不能作为论文真值；
+- 主测试只使用经设计师确认的 `gold_intent.json`，AI 初稿和弱标签不能作为论文真值；
 - AI 代理只能用于差异检测和人工复核，不能冒充第二位真人标注员；
+- AI 辅助 Gold 必须披露预标注来源；5 页盲标对照在人工提交前不得展示 AI 初稿；
 - 三个随机种子固定为 `42`、`123`、`2026`；
 - 测试集在阈值、排除规则和模型选择冻结前不得解封；
 - smoke 指标只证明链路连通，不作为研究结果。

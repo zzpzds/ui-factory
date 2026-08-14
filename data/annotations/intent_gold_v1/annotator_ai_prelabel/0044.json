@@ -1,0 +1,2685 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1148.0625,
+        "y": 0.0,
+        "width": 83.9375,
+        "height": 45.0
+      },
+      "name": "header-button",
+      "text": "Log-in",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 8.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.311,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 428.0,
+        "y": 0.0,
+        "width": 81.28125,
+        "height": 46.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 509.28125,
+        "y": 0.0,
+        "width": 150.125,
+        "height": 46.0
+      },
+      "name": "header-link-hide4",
+      "text": "Add Business",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 659.40625,
+        "y": 0.0,
+        "width": 172.28125,
+        "height": 46.0
+      },
+      "name": "header-link-hide3",
+      "text": "Business Forum",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 831.6875,
+        "y": 0.0,
+        "width": 137.875,
+        "height": 46.0
+      },
+      "name": "header-link-hide2",
+      "text": "Testimonials",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 969.5625,
+        "y": 0.0,
+        "width": 119.015625,
+        "height": 46.0
+      },
+      "name": "header-link-hide1",
+      "text": "Promotion",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 48.0,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "shadow_img",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": "/images/new/twitter.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 108.421875,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "shadow_img",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": "/images/new/facebook.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 168.84375,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "shadow_img",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": "/images/new/linkedin.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 314.125,
+        "y": 197.421875,
+        "width": 224.0,
+        "height": 19.0
+      },
+      "name": "bus_type",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 576.0625,
+        "y": 197.421875,
+        "width": 224.0,
+        "height": 19.0
+      },
+      "name": "location_search",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 810.0625,
+        "y": 188.0,
+        "width": 125.1875,
+        "height": 36.0
+      },
+      "name": "search_button",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 23.305,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 239.0,
+        "width": 118.796875,
+        "height": 16.0
+      },
+      "name": "My_Local_Services",
+      "text": "My Local Services",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.6488,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 179.953125,
+        "y": 239.0,
+        "width": 93.578125,
+        "height": 16.0
+      },
+      "name": "Search_results",
+      "text": "Search results",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.6488,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 265.046875,
+        "width": 158.75,
+        "height": 24.46875
+      },
+      "name": "recentreviewsheader",
+      "text": "Recent searches",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0.4,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0.4,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 298.515625,
+        "width": 185.859375,
+        "height": 22.46875
+      },
+      "name": "fw600",
+      "text": "Landscape Contractors",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1145.859375,
+        "y": 298.515625,
+        "width": 127.640625,
+        "height": 22.46875
+      },
+      "name": "ellipses",
+      "text": "in Calamus, Iowa",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 333.984375,
+        "width": 172.015625,
+        "height": 22.46875
+      },
+      "name": "fw600",
+      "text": "Landscape Designers",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1132.015625,
+        "y": 333.984375,
+        "width": 147.984375,
+        "height": 22.46875
+      },
+      "name": "ellipses",
+      "text": "in Pasadena, California",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 369.453125,
+        "width": 288.4375,
+        "height": 22.46875
+      },
+      "name": "fw600",
+      "text": "Photographic Equipment & Supplies",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        54
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1248.4375,
+        "y": 369.453125,
+        "width": 31.5625,
+        "height": 22.46875
+      },
+      "name": "ellipses",
+      "text": "in Webster, New York",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 404.921875,
+        "width": 67.53125,
+        "height": 22.46875
+      },
+      "name": "fw600",
+      "text": "Caterers",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1027.53125,
+        "y": 404.921875,
+        "width": 174.8125,
+        "height": 22.46875
+      },
+      "name": "ellipses",
+      "text": "in Northfield, Minnesota",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        61
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 440.390625,
+        "width": 127.59375,
+        "height": 22.46875
+      },
+      "name": "fw600",
+      "text": "Floor Coverings",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1087.59375,
+        "y": 440.390625,
+        "width": 192.40625,
+        "height": 22.46875
+      },
+      "name": "ellipses",
+      "text": "in Manheim, Pennsylvania",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_65",
+      "source_node_ids": [
+        65
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 475.859375,
+        "width": 180.28125,
+        "height": 22.46875
+      },
+      "name": "fw600",
+      "text": "Gutters & Downspouts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1140.28125,
+        "y": 475.859375,
+        "width": 139.71875,
+        "height": 22.46875
+      },
+      "name": "ellipses",
+      "text": "in Coldwater, Michigan",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 276.046875,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "menu_left_item_line1",
+      "text": "Leave a",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_74",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 354.5,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "menu_left_item_line1",
+      "text": "Add your",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 432.953125,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "menu_left_item_line1",
+      "text": "View our",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 511.40625,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "menu_left_item_line1",
+      "text": "Business",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_83",
+      "source_node_ids": [
+        83
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 616.5,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "menu_left_item_line1",
+      "text": "Visit our",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_86",
+      "source_node_ids": [
+        86
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 721.59375,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "menu_left_item_line1",
+      "text": "Forum",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_89",
+      "source_node_ids": [
+        89
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220.0,
+        "y": 269.046875,
+        "width": 720.0,
+        "height": 32.953125
+      },
+      "name": "search_results_h1",
+      "text": "Gas Stations near Escalante",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 29.9635,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_90",
+      "source_node_ids": [
+        90
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220.0,
+        "y": 304.0,
+        "width": 720.0,
+        "height": 22.46875
+      },
+      "name": "search_results_near",
+      "text": "Search results",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_92",
+      "source_node_ids": [
+        92
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 220.0,
+        "y": 337.46875,
+        "width": 149.0,
+        "height": 19.0
+      },
+      "name": "input_92",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_93",
+      "source_node_ids": [
+        93
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 369.0,
+        "y": 337.46875,
+        "width": 149.0,
+        "height": 19.0
+      },
+      "name": "input_93",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_95",
+      "source_node_ids": [
+        95
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220.0,
+        "y": 362.9375,
+        "width": 52.71875,
+        "height": 20.0
+      },
+      "name": "Sort_by",
+      "text": "Sort by",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_96",
+      "source_node_ids": [
+        96
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 281.96875,
+        "y": 358.9375,
+        "width": 130.0,
+        "height": 29.0
+      },
+      "name": "order",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_104",
+      "source_node_ids": [
+        104
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 442.578125,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "search_results_bus_name",
+      "text": "Sinclair",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 19.9757,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_106",
+      "source_node_ids": [
+        106
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 467.046875,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "802_E_Highway_12,_Escalante,_Uta",
+      "text": "802 E Highway 12, Escalante, Utah",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_107",
+      "source_node_ids": [
+        107
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 489.515625,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "search_results_distance",
+      "text": "0.7 miles away",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_108",
+      "source_node_ids": [
+        108
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 521.125,
+        "width": 111.25,
+        "height": 42.46875
+      },
+      "name": "yext_special_offer",
+      "text": "Call Today",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.9294117647058824,
+          0.9254901960784314,
+          0.8431372549019608,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 18.311,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_109",
+      "source_node_ids": [
+        109
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 572.734375,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "results_categories",
+      "text": "Gas Stations • Convenience Stores",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_114",
+      "source_node_ids": [
+        114
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 598.203125,
+        "width": 11.453125,
+        "height": 22.46875
+      },
+      "name": "search_check_boxes",
+      "text": "✓",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_116",
+      "source_node_ids": [
+        116
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 811.625,
+        "y": 597.203125,
+        "width": 118.375,
+        "height": 32.46875
+      },
+      "name": "button_search_results",
+      "text": "Full details ▸",
+      "style": {
+        "background_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "border_radius": 5.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_23",
+      "source_element_ids": [
+        "e_26",
+        "e_29",
+        "e_31"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 232.734375,
+        "y": 188.0,
+        "width": 702.515625,
+        "height": 36.0
+      },
+      "name": "form_23",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 23,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_68",
+      "source_element_ids": [
+        "e_71",
+        "e_74",
+        "e_77",
+        "e_80",
+        "e_83",
+        "e_86"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 40.0,
+        "y": 269.046875,
+        "width": 180.0,
+        "height": 507.359375
+      },
+      "name": "list_68",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 68,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_91",
+      "source_element_ids": [
+        "e_92",
+        "e_93",
+        "e_95",
+        "e_96"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 220.0,
+        "y": 334.46875,
+        "width": 298.0,
+        "height": 61.46875
+      },
+      "name": "search_form",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 91,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_97",
+      "source_element_ids": [
+        "e_104",
+        "e_106",
+        "e_107",
+        "e_108",
+        "e_109",
+        "e_114",
+        "e_116"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 220.0,
+        "y": 395.9375,
+        "width": 720.0,
+        "height": 243.734375
+      },
+      "name": "list_97",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 97,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_101",
+      "source_element_ids": [
+        "e_104",
+        "e_106",
+        "e_107",
+        "e_108",
+        "e_109",
+        "e_114",
+        "e_116"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 220.0,
+        "y": 432.578125,
+        "width": 720.0,
+        "height": 207.09375
+      },
+      "name": "list_item_101",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 101,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_23",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_68",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_91",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_97",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_101",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_23",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_68",
+      "order": 13,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_91",
+      "order": 20,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_97",
+      "order": 23,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_97",
+      "child_id": "g_101",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_5",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_9",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_10",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_11",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_17",
+      "order": 6,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_19",
+      "order": 7,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_21",
+      "order": 8,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_26",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_29",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_31",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_37",
+      "order": 10,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_39",
+      "order": 11,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_42",
+      "order": 12,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_45",
+      "order": 15,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_46",
+      "order": 16,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_49",
+      "order": 18,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_50",
+      "order": 19,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_53",
+      "order": 21,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_54",
+      "order": 22,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_57",
+      "order": 24,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_58",
+      "order": 25,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_61",
+      "order": 26,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_62",
+      "order": 27,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_65",
+      "order": 28,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_66",
+      "order": 29,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_68",
+      "child_id": "e_71",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_68",
+      "child_id": "e_74",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_68",
+      "child_id": "e_77",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_68",
+      "child_id": "e_80",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_68",
+      "child_id": "e_83",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_68",
+      "child_id": "e_86",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_89",
+      "order": 14,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_90",
+      "order": 17,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_91",
+      "child_id": "e_92",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_91",
+      "child_id": "e_93",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_91",
+      "child_id": "e_95",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_91",
+      "child_id": "e_96",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "e_104",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "e_106",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "e_107",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "e_108",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "e_109",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "e_114",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_101",
+      "child_id": "e_116",
+      "order": 5,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0044",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "d60c1ff1e3bdbe6d21b11f793d62df92b2a6a38270af4fb144f22e5a0be5ff35",
+    "screenshot_sha256": "d84b5f325931f744a065293f4b53c375885affa07a5e1031154c60977a910728"
+  }
+}

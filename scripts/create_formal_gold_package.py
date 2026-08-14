@@ -614,6 +614,19 @@ def create_package(args: argparse.Namespace) -> dict[str, Any]:
                 stale_path = annotation_dir / f"{sample_id}.json"
                 if stale_path.exists():
                     stale_path.unlink()
+        # AI 辅助标注启动后，重跑采样器不得丢失条件分配和审计配置。
+        if old_assignment.get("annotation_workflow"):
+            assignment["annotation_workflow"] = old_assignment[
+                "annotation_workflow"
+            ]
+            conditions = {
+                item["sample_id"]: item.get("annotation_condition")
+                for item in old_assignment["samples"]
+            }
+            for item in assignment["samples"]:
+                condition = conditions.get(item["sample_id"])
+                if condition:
+                    item["annotation_condition"] = condition
     _write_json(assignment_path, assignment)
     for item in selected:
         target = annotation_dir / f"{item['sample_id']}.json"

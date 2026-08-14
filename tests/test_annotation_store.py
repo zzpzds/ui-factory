@@ -1,3 +1,4 @@
+import hashlib
 import json
 
 import pytest
@@ -290,6 +291,40 @@ def test_candidate_review_mode_requires_explicit_token_review(annotation_store):
     )
 
     assert reviewed["submitted"] is True
+
+
+def test_ai_assisted_submission_requires_human_confirmation(annotation_store):
+    annotation_store.assignment["annotation_workflow"] = {
+        "require_human_review_confirmation": True,
+    }
+    source_path = annotation_store.repo_root / "data/page_graph.json"
+    payload = _valid_annotation()
+    payload["provenance"].update({
+        "ai_assistance_mode": "preannotation",
+        "ai_preannotation_visible": True,
+        "ai_preannotation_path": "data/page_graph.json",
+        "ai_preannotation_sha256": hashlib.sha256(
+            source_path.read_bytes()
+        ).hexdigest(),
+        "human_review_confirmed": False,
+    })
+
+    pending = annotation_store.save(
+        "annotator_a", "sample-1", payload, submit=True
+    )
+    assert pending["submitted"] is False
+    assert any("设计师已完成逐项复核" in error for error in pending["errors"])
+
+    payload["provenance"]["human_review_confirmed"] = True
+    reviewed = annotation_store.save(
+        "annotator_a", "sample-1", payload, submit=True
+    )
+    assert reviewed["submitted"] is True
+    provenance = reviewed["annotation"]["provenance"]
+    assert provenance["label_source"] == "human_corrected_ai_preannotation"
+    assert provenance["weak_labels_viewed"] is True
+    assert provenance["ai_assistance_disclosed"] is True
+    assert provenance["human_reviewed_at"]
 
 
 def test_group_can_directly_contain_only_child_groups(annotation_store):

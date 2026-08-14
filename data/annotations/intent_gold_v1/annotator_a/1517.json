@@ -4,17 +4,1202 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 155.0,
+        "y": 67.0,
+        "width": 199.0,
+        "height": 31.0
+      },
+      "name": "image_9",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": "https://blogger.googleusercontent.com/img/a/AVvXsEhpiYDkDSufTWNwYlduvK_PAfjA57MqS2nRA4fGi_1nagCkea-BC2fphxjlYPHtrCiuYGru9X4-J6pL2E24CiEw-KamyaDlBA1liumTjmd_s0gV3IyoK-xN5P0iQjoJzFS4AUuJDVse6vBbuNZIFoTyE1Ji-vwk0HjQy2gAx4C_BzltvNdVeXrCUEkdWlOR=s199"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9803921568627451,
+          0.2980392156862745,
+          0.16470588235294117,
+          1
+        ],
+        "border_color": [
+          0.9803921568627451,
+          0.2980392156862745,
+          0.16470588235294117,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 185.0,
+        "y": 268.0,
+        "width": 47.234375,
+        "height": 15.0
+      },
+      "name": "b-label",
+      "text": "Incident",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9803921568627451,
+          0.2980392156862745,
+          0.16470588235294117,
+          1
+        ],
+        "border_color": [
+          0.9803921568627451,
+          0.2980392156862745,
+          0.16470588235294117,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 232.234375,
+        "y": 269.0,
+        "width": 339.640625,
+        "height": 12.0
+      },
+      "name": "current",
+      "text": "\"Severe Turbulence\" Sends 11 from Delta Flight to Hospital",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 155.0,
+        "y": 298.0,
+        "width": 620.0,
+        "height": 81.59375
+      },
+      "name": "post-title",
+      "text": "\"Severe Turbulence\" Sends 11 from Delta Flight to Hospital",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 34.0,
+        "font_weight": 800,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 156.0,
+        "y": 394.59375,
+        "width": 83.203125,
+        "height": 12.0
+      },
+      "name": "post-date",
+      "text": "August 31, 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 155.0,
+        "y": 438.59375,
+        "width": 93.53125,
+        "height": 20.0
+      },
+      "name": "Key_Points:",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 155.0,
+        "y": 488.78125,
+        "width": 524.828125,
+        "height": 45.5
+      },
+      "name": "A_Delta_Air_Lines_flight_from_Mi",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 155.0,
+        "y": 571.875,
+        "width": 550.734375,
+        "height": 71.0
+      },
+      "name": "Delta_Air_Lines_confirms_that_th",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 155.0,
+        "y": 680.46875,
+        "width": 610.296875,
+        "height": 45.5
+      },
+      "name": "Crew_members_and_passengers_are_",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 155.0,
+        "y": 756.5625,
+        "width": 620.0,
+        "height": 43.4375
+      },
+      "name": "Delta's_Milan-Atlanta_Flight_Fac",
+      "text": "Delta's Milan-Atlanta Flight Faces Turbulence, Hospitalizes 11",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        48
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 155.015625,
+        "y": 756.5625,
+        "width": 619.96875,
+        "height": 43.4375
+      },
+      "name": "image_48",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIRq_WVUsY3YlCA4tubQtWykOa0U50QgyRJPe3zOP80-xqR_ZVBIpygUFxKreScaCKzNv_xPyjs5dVAmPKU8zNO6uAeKXx-aHO3d8w4YzLPVS_ORw5NqhtOWO1W4FXJy9WTxrSi_bYuCcfjHNJufW_7wDvHQF168ysRcYlT-0WZ1MVseEWvHKVRmBP1wjs/s16000/phpAA8GcAAM.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 825.0,
+        "y": 268.0,
+        "width": 67.5625,
+        "height": 30.0
+      },
+      "name": "title",
+      "text": "Trending",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 825.0,
+        "y": 338.0,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "name": "post-thumb",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja18oVBbQzYrDAYh9YpdBPybRAe4IUC5z0DA_hQ_b5HHwnzs29d1kME7PnJnu7zRSnSgLt6BDFhsOhAElSqYpVteiLA_Wa7KcNCaOJRDcDM99LfG3QM2fybRRbZiVe58ADbZ6Yepax_a2KleSrntv-psVcuxlERqnnwBZn2gsVhBr4E35FyJ8SkQuDzUZ0/w72-h72-p-k-no-nu/Global-Airlines-A380-800.webp"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        61
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 917.0,
+        "y": 338.0,
+        "width": 208.0,
+        "height": 33.59375
+      },
+      "name": "British_Startup_Global_Airlines_",
+      "text": "British Startup Global Airlines Outlines A380 Strategy",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 917.0,
+        "y": 376.59375,
+        "width": 98.9375,
+        "height": 12.0
+      },
+      "name": "post-date",
+      "text": "November 25, 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        67
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 825.0,
+        "y": 413.0,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "name": "post-thumb",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeWzPURldZgo9GS5LPVsJxDgEvGQO7xOSESjcT8_vpAuRNqybfJn8fyyieULr_RXeQh9i0X8Tlu2Wxg_xHGHacglKWFJXQk9xI4slwrvt1rBTwBlzhNPGcDOJVIHw0qb2oXT-BY_bu3F5PczL6F_exYvKmLj0FRfrES_zffEYs2AcgmYtiIQP9CEusaHO3/w72-h72-p-k-no-nu/652658cc55f52b01b35c1ddd.webp"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_70",
+      "source_node_ids": [
+        70
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 917.0,
+        "y": 413.0,
+        "width": 208.0,
+        "height": 50.390625
+      },
+      "name": "Ural_Airlines_Faces_Challenges_R",
+      "text": "Ural Airlines Faces Challenges Returning Stranded A320 from Isolated Siberian Field",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_72",
+      "source_node_ids": [
+        72
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 917.0,
+        "y": 468.390625,
+        "width": 98.9375,
+        "height": 12.0
+      },
+      "name": "post-date",
+      "text": "November 25, 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_76",
+      "source_node_ids": [
+        76
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 825.0,
+        "y": 500.390625,
+        "width": 80.0,
+        "height": 55.0
+      },
+      "name": "post-thumb",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKMUEI4s_RbkyGaOuIxNfnBfa7gv8E69rvCfxI1h-YcKIfwqkbULnCHjY-wKJfmCNR70ABFKBMGmzPZXPBRArysFEbuLhyHJw7AtMLf1ZZGhbF7nK0rVWzeZJZZLu41pcDIpd8stkJmipq49515n4TkVxTUrJMscov96hqBUakycxRGXiOwT1hu-NzBPK4/w72-h72-p-k-no-nu/phpm4OoE9AM.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_79",
+      "source_node_ids": [
+        79
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 917.0,
+        "y": 500.390625,
+        "width": 208.0,
+        "height": 50.390625
+      },
+      "name": "SunExpress_Secures_Future_with_4",
+      "text": "SunExpress Secures Future with 45 Boeing 737 Max Jets, Options for 40 More",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_81",
+      "source_node_ids": [
+        81
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 917.0,
+        "y": 555.78125,
+        "width": 98.9375,
+        "height": 12.0
+      },
+      "name": "post-date",
+      "text": "November 25, 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_20",
+      "source_element_ids": [
+        "e_21",
+        "e_22",
+        "e_23"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 155.0,
+        "y": 268.0,
+        "width": 620.0,
+        "height": 15.0
+      },
+      "name": "breadcrumb",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 20,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_20",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_20",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_9",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_21",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_22",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_23",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_24",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_26",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_29",
+      "order": 10,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_35",
+      "order": 12,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_40",
+      "order": 16,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_45",
+      "order": 17,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_47",
+      "order": 18,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_48",
+      "order": 19,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_53",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_58",
+      "order": 4,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_61",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_63",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_67",
+      "order": 8,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_70",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_72",
+      "order": 11,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_76",
+      "order": 13,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_79",
+      "order": 14,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_81",
+      "order": 15,
+      "confidence": 0.95
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "1517",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1517.json",
+    "ai_preannotation_sha256": "1cc9c4a03fa3eecc29f1999cdfd3deb5aa68e6f89999e5d397c669c099d90d0f",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

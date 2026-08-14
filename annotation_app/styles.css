@@ -167,6 +167,16 @@ button:focus-visible {
   color: #c7fff6;
 }
 
+.assistance-badge {
+  background: #dbeafe;
+  color: #1e3a8a;
+}
+
+.assistance-badge.blind {
+  background: #f2e9ff;
+  color: #6941c6;
+}
+
 .primary-button {
   border-color: #1d4ed8;
   background: var(--blue);
@@ -993,6 +1003,35 @@ button:focus-visible {
 .token-result-label {
   margin: 0;
   padding: 10px 8px 7px;
+}
+
+.assistance-panel {
+  padding: 14px;
+  border-bottom: 1px solid var(--border);
+  background: #f8fafc;
+}
+
+.review-confirmation {
+  margin-top: 12px;
+  padding: 9px 10px;
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.review-confirmation input {
+  width: 16px;
+  min-height: 16px;
+  flex: 0 0 16px;
+}
+
+.review-confirmation span {
+  margin: 0 !important;
+  color: #344054 !important;
+  font-size: 12px !important;
 }
 
 .token-row-main {

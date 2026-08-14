@@ -1,0 +1,1373 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        3
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1221.0,
+        "y": 20.0,
+        "width": 44.0,
+        "height": 34.0
+      },
+      "name": "navbar-toggle",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        4
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1242.0,
+        "y": 29.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "name": "sr-only",
+      "text": "Toggle navigation",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 20.0,
+        "width": 366.4375,
+        "height": 50.0
+      },
+      "name": "navbar-brand",
+      "text": "Shro Pshirehill Sbedand Breakfast",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 200,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        12
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 366.4375,
+        "y": 15.0,
+        "width": 53.1875,
+        "height": 17.0
+      },
+      "name": "Business",
+      "text": "Business",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 366.4375,
+        "y": 38.796875,
+        "width": 29.625,
+        "height": 17.0
+      },
+      "name": "Food",
+      "text": "Food",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 366.4375,
+        "y": 62.59375,
+        "width": 36.890625,
+        "height": 17.0
+      },
+      "name": "Health",
+      "text": "Health",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 86.390625,
+        "width": 33.359375,
+        "height": 17.0
+      },
+      "name": "News",
+      "text": "News",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 110.1875,
+        "width": 82.703125,
+        "height": 17.0
+      },
+      "name": "Miscellaneous",
+      "text": "Miscellaneous",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 185.984375,
+        "width": 1220.0,
+        "height": 35.1875
+      },
+      "name": "entry-title",
+      "text": "What You May Your Occasion At A Spa",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 36.90625,
+        "y": 235.171875,
+        "width": 77.578125,
+        "height": 15.0
+      },
+      "name": "entry-date",
+      "text": "July 20, 2022",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 135.296875,
+        "y": 235.171875,
+        "width": 35.90625,
+        "height": 15.0
+      },
+      "name": "url",
+      "text": "admin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 285.96875,
+        "width": 1220.0,
+        "height": 71.390625
+      },
+      "name": "Most_people_carry_lots_of_stress",
+      "text": "Most people carry lots of stress existence. To have a job that includes a lot of stress is just comm",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 367.359375,
+        "width": 1220.0,
+        "height": 47.59375
+      },
+      "name": "Detox._Detoxification_is_ought_t",
+      "text": "Detox. Detoxification is ought to be familiar purge toxins and excess fluids within the body. A deto",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 424.953125,
+        "width": 1220.0,
+        "height": 47.59375
+      },
+      "name": "6)_Rich_Theme_–_Search_engines_a",
+      "text": "6) Rich Theme – Search engines are taking a look at themes progressively more. Build content (Articl",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 482.546875,
+        "width": 1220.0,
+        "height": 95.1875
+      },
+      "name": "Thai_massage_–_another_popular_t",
+      "text": "Thai massage – another popular type of massage as a result of relaxation anyone feels next. Like shi",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 587.734375,
+        "width": 1220.0,
+        "height": 47.59375
+      },
+      "name": "The_only_thing_more_relaxing_and",
+      "text": "The only thing more relaxing and pleasing than getting a massage is sharing it with someone you love",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 645.328125,
+        "width": 1220.0,
+        "height": 47.59375
+      },
+      "name": "The_nose_is_also_one_with_the_ma",
+      "text": "The nose is also one with the major products in our sensation of taste. Even if you do not put the o",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1071.71875,
+        "y": 648.328125,
+        "width": 60.5625,
+        "height": 16.0
+      },
+      "name": "출장마사지",
+      "text": "출장마사지",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_color": [
+          0.12156862745098039,
+          0.6509803921568628,
+          0.47843137254901963,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 702.921875,
+        "width": 1220.0,
+        "height": 47.59375
+      },
+      "name": "Back_massage_–_one_of_the_most_c",
+      "text": "Back massage – one of the most common areas in feel soreness is back so back massage normally offere",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 760.515625,
+        "width": 1220.0,
+        "height": 23.796875
+      },
+      "name": "It’s_best_not_to_do_this_unless_",
+      "text": "It’s best not to do this unless you’re sure you wouldn’t have chronic prostatitis or some other seri",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 794.3125,
+        "width": 1220.0,
+        "height": 5.6875
+      },
+      "name": "Life_is_challenging_and_stressfu",
+      "text": "Life is challenging and stressful enough as it really is but if you don’t take some time to pamper y",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_3",
+        "e_4",
+        "e_8",
+        "e_12",
+        "e_14",
+        "e_16",
+        "e_18",
+        "e_20"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 1280.0,
+        "height": 133.984375
+      },
+      "name": "navbar",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 1,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_10",
+      "source_element_ids": [
+        "e_12",
+        "e_14",
+        "e_16",
+        "e_18",
+        "e_20"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 1280.0,
+        "height": 118.984375
+      },
+      "name": "menu-main-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 200,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 10,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_26",
+      "source_element_ids": [
+        "e_28",
+        "e_32",
+        "e_35",
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 30.0,
+        "y": 185.984375,
+        "width": 1220.0,
+        "height": 614.015625
+      },
+      "name": "post-1520",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 26,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_27",
+      "source_element_ids": [
+        "e_28",
+        "e_32",
+        "e_35"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 30.0,
+        "y": 185.984375,
+        "width": 1220.0,
+        "height": 78.984375
+      },
+      "name": "entry-header",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_color": [
+          0.4196078431372549,
+          0.4196078431372549,
+          0.4196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 27,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_10",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_26",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_27",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        9.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_10",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_26",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "g_27",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_3",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_4",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_12",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_14",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_16",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_18",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_20",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_28",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_32",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_35",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_37",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_38",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_39",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_40",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_41",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_42",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_43",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_44",
+      "order": 8,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_45",
+      "order": 9,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_46",
+      "order": 10,
+      "confidence": 0.95
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0540",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "d3def0f3c8d6499c039cb344e43727dda38baab937a4f9f52eacaa77f741e62d",
+    "screenshot_sha256": "0d442bf991bf5dc450c477c190ed58374da91710884f421d9cca54ce9e8321cf"
+  }
+}

@@ -4,17 +4,571 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 128.0,
+        "y": 0.0,
+        "width": 93.0,
+        "height": 43.0
+      },
+      "name": "logo",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": "https://billosborne.com/wp-content/themes/Divi/images/logo.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 53.796875,
+        "width": 75.5,
+        "height": 16.0
+      },
+      "name": "select_page",
+      "text": "Select Page",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 74.59375,
+        "width": 1024.0,
+        "height": 40.0
+      },
+      "name": "entry-title",
+      "text": "He has prepared a city",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 114.59375,
+        "width": 1024.0,
+        "height": 38.796875
+      },
+      "name": "post-meta",
+      "text": "by  |  |",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 146.6875,
+        "y": 117.59375,
+        "width": 18.671875,
+        "height": 16.0
+      },
+      "name": "Bill",
+      "text": "Bill",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 176.78125,
+        "y": 117.59375,
+        "width": 72.390625,
+        "height": 16.0
+      },
+      "name": "published",
+      "text": "Oct 1, 2017",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 260.59375,
+        "y": 117.59375,
+        "width": 76.25,
+        "height": 16.0
+      },
+      "name": "0_comments",
+      "text": "0 comments",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 128.0,
+        "y": 153.390625,
+        "width": 1024.0,
+        "height": 646.609375
+      },
+      "name": "image_24",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": "https://billosborne.com/wp-content/uploads/2017/10/He-has-prepared-a-city.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_5",
+        "e_9"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 74.59375
+      },
+      "name": "main-header",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 1,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_15",
+      "source_element_ids": [
+        "e_17",
+        "e_18",
+        "e_20",
+        "e_21",
+        "e_23",
+        "e_24"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 128.0,
+        "y": 74.59375,
+        "width": 1024.0,
+        "height": 725.40625
+      },
+      "name": "post-607",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 15,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_15",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_15",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_9",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_17",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_18",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_20",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_21",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_23",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_24",
+      "order": 5,
+      "confidence": 0.98
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "0118",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0118.json",
+    "ai_preannotation_sha256": "672e8b2e56da89fdf502cdfd2dce616ca557743dc26d03f05300414d9a79ba54",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

@@ -1,0 +1,856 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 15.0,
+        "y": 15.0,
+        "width": 42.0,
+        "height": 28.0
+      },
+      "name": "icon_5",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 1239.0,
+        "y": 20.5,
+        "width": 26.0,
+        "height": 17.0
+      },
+      "name": "js-toggle-active",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 377.09375,
+        "y": 104.875,
+        "width": 525.8125,
+        "height": 52.0
+      },
+      "name": "Burger_Delivery_in_Churwell",
+      "text": "Burger Delivery in Churwell",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 40.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        12
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 377.09375,
+        "y": 176.875,
+        "width": 525.8125,
+        "height": 25.0
+      },
+      "name": "Dope_Burger_(Leeds)",
+      "text": "Dope Burger (Leeds)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 295.0,
+        "width": 1280.0,
+        "height": 32.0
+      },
+      "name": "promotions",
+      "text": "Special Offers",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.30196078431372547,
+          0.30196078431372547,
+          0.30196078431372547,
+          1
+        ],
+        "border_color": [
+          0.30196078431372547,
+          0.30196078431372547,
+          0.30196078431372547,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 600.0,
+        "y": 357.0,
+        "width": 80.0,
+        "height": 3.0
+      },
+      "name": "shape_17",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.8745098039215686,
+          0.45098039215686275,
+          0.23529411764705882,
+          1
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 410.5,
+        "y": 438.0,
+        "width": 437.0,
+        "height": 37.0
+      },
+      "name": "deal-title",
+      "text": "50% OFF",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 28.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 410.5,
+        "y": 475.0,
+        "width": 437.0,
+        "height": 17.0
+      },
+      "name": "deal-description",
+      "text": "50% OFF ON SELECTED ITEMS",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 627.5,
+        "y": 633.0,
+        "width": 200.0,
+        "height": 40.0
+      },
+      "name": "cta-button",
+      "text": "View deal",
+      "style": {
+        "background_color": [
+          0.8745098039215686,
+          0.45098039215686275,
+          0.23529411764705882,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 600,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 15.0,
+        "y": 773.0,
+        "width": 1250.0,
+        "height": 27.0
+      },
+      "name": "Burger_Delivery_in_Churwell",
+      "text": "Burger Delivery in Churwell",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 750.0,
+        "width": 1280.0,
+        "height": 50.0
+      },
+      "name": "cta-button",
+      "text": "See MENU & Order",
+      "style": {
+        "background_color": [
+          0.8745098039215686,
+          0.45098039215686275,
+          0.23529411764705882,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 600,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_5",
+        "e_7"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 58.0
+      },
+      "name": "nav-header",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_10",
+      "source_element_ids": [
+        "e_11",
+        "e_12"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 377.09375,
+        "y": 70.0,
+        "width": 525.8125,
+        "height": 185.0
+      },
+      "name": "staging-headlines",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 10,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_15",
+      "source_element_ids": [
+        "e_16",
+        "e_17",
+        "e_21",
+        "e_22",
+        "e_23"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 0.0,
+        "y": 295.0,
+        "width": 1280.0,
+        "height": 398.0
+      },
+      "name": "promotions",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 15,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_20",
+      "source_element_ids": [
+        "e_21",
+        "e_22",
+        "e_23"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 402.5,
+        "y": 430.0,
+        "width": 445.0,
+        "height": 263.0
+      },
+      "name": "d-flex",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0.15
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 20,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_3",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        15.0,
+        15.0,
+        15.0,
+        15.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_10",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "CENTER",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_15",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_20",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        8.0,
+        0.0,
+        0.0,
+        8.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_3",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_10",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_15",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "g_20",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_7",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_11",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_12",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_16",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_21",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_22",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_23",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_27",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_29",
+      "order": 3,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1035",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "a7bdc9dd04628d0116b5497738d51af46dfea924bb0870b0eda0073c324f9ffd",
+    "screenshot_sha256": "49641993fe371536a354cb88e5c38cda0b455444011328cd918afb72ea865944"
+  }
+}

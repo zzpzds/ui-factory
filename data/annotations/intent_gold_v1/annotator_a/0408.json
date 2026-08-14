@@ -4,17 +4,1409 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 151.0,
+        "y": 36.0,
+        "width": 245.0,
+        "height": 54.6875
+      },
+      "name": "image_7",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": "https://novostroy-dv.ru/img/logo.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 191.0,
+        "y": 107.6875,
+        "width": 58.25,
+        "height": 16.0
+      },
+      "name": "Главная",
+      "text": "Главная",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 191.0,
+        "y": 123.6875,
+        "width": 84.609375,
+        "height": 16.0
+      },
+      "name": "Каталог_ЖК",
+      "text": "Каталог ЖК",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 191.0,
+        "y": 139.6875,
+        "width": 66.125,
+        "height": 16.0
+      },
+      "name": "TRADE_IN",
+      "text": "TRADE IN",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 191.0,
+        "y": 155.6875,
+        "width": 68.828125,
+        "height": 16.0
+      },
+      "name": "Контакты",
+      "text": "Контакты",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 191.0,
+        "y": 171.6875,
+        "width": 71.546875,
+        "height": 16.0
+      },
+      "name": "ЛК_Агента",
+      "text": "ЛК Агента",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 151.0,
+        "y": 216.6875,
+        "width": 96.40625,
+        "height": 15.0
+      },
+      "name": "Главная_страница",
+      "text": "Главная страница",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 266.90625,
+        "y": 216.6875,
+        "width": 104.28125,
+        "height": 15.0
+      },
+      "name": "Жилые_комплексы",
+      "text": "Жилые комплексы",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 390.6875,
+        "y": 216.6875,
+        "width": 95.84375,
+        "height": 15.0
+      },
+      "name": "breadcrumb_last",
+      "text": "ЖК Варяг-Центр",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9882352941176471,
+          0.403921568627451,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.9882352941176471,
+          0.403921568627451,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 548.0,
+        "y": 288.6875,
+        "width": 200.0,
+        "height": 45.0
+      },
+      "name": "image_38",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": "https://novostroy-dv.ru/img/logo2.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 677.515625,
+        "y": 352.6875,
+        "width": 76.1875,
+        "height": 15.0
+      },
+      "name": "Privacy_Policy",
+      "text": "Privacy Policy",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 778.859375,
+        "y": 352.6875,
+        "width": 88.5,
+        "height": 15.0
+      },
+      "name": "Terms_of_Service",
+      "text": "Terms of Service",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 624.46875,
+        "y": 394.6875,
+        "width": 47.046875,
+        "height": 17.0
+      },
+      "name": "Главная",
+      "text": "Главная",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 610.171875,
+        "y": 421.6875,
+        "width": 75.65625,
+        "height": 17.0
+      },
+      "name": "Каталог_ЖК",
+      "text": "Каталог ЖК",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 615.53125,
+        "y": 448.6875,
+        "width": 64.9375,
+        "height": 17.0
+      },
+      "name": "TRADE_IN",
+      "text": "TRADE IN",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 618.140625,
+        "y": 475.6875,
+        "width": 59.703125,
+        "height": 17.0
+      },
+      "name": "Контакты",
+      "text": "Контакты",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 615.6875,
+        "y": 502.6875,
+        "width": 64.625,
+        "height": 17.0
+      },
+      "name": "ЛК_Агента",
+      "text": "ЛК Агента",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 615.53125,
+        "y": 546.6875,
+        "width": 64.9375,
+        "height": 17.0
+      },
+      "name": "TRADE_IN",
+      "text": "TRADE IN",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 554.40625,
+        "y": 573.6875,
+        "width": 187.171875,
+        "height": 17.0
+      },
+      "name": "Политика_конфиденциальности",
+      "text": "Политика конфиденциальности",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        64
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 151.0,
+        "y": 607.6875,
+        "width": 994.0,
+        "height": 16.0
+      },
+      "name": "Адреса_и_контакты",
+      "text": "Адреса и контакты",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_color": [
+          0.403921568627451,
+          0.48627450980392156,
+          0.6078431372549019,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 151.0,
+        "y": 766.6875,
+        "width": 994.0,
+        "height": 24.0
+      },
+      "name": "col-lg-4",
+      "text": "2023 © ГРЦ Новостройки",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6039215686274509,
+          0.615686274509804,
+          0.6352941176470588,
+          1
+        ],
+        "border_color": [
+          0.6039215686274509,
+          0.615686274509804,
+          0.6352941176470588,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_74",
+      "source_node_ids": [
+        74
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 628.03125,
+        "y": 790.6875,
+        "width": 141.0,
+        "height": 9.3125
+      },
+      "name": "image_74",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": "https://novostroy-dv.ru/biz-logica.svg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_7",
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 151.0,
+        "y": 8.0,
+        "width": 994.0,
+        "height": 179.6875
+      },
+      "name": "row",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 4,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_11",
+      "source_element_ids": [
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 151.0,
+        "y": 107.6875,
+        "width": 994.0,
+        "height": 80.0
+      },
+      "name": "menu-main",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 11,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_45",
+      "source_element_ids": [
+        "e_47",
+        "e_49",
+        "e_51",
+        "e_53",
+        "e_55"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 151.0,
+        "y": 394.6875,
+        "width": 994.0,
+        "height": 125.0
+      },
+      "name": "menu-main-1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "source_node_id": 45,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_58",
+      "source_element_ids": [
+        "e_60",
+        "e_62"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 151.0,
+        "y": 546.6875,
+        "width": 994.0,
+        "height": 44.0
+      },
+      "name": "menu-footer_center_menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "source_node_id": 58,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_4",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_11",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_45",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_58",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_4",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "g_11",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_45",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_58",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_13",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_15",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_17",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_19",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_21",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_29",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_31",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_32",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_38",
+      "order": 4,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_41",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_42",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_45",
+      "child_id": "e_47",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_45",
+      "child_id": "e_49",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_45",
+      "child_id": "e_51",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_45",
+      "child_id": "e_53",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_45",
+      "child_id": "e_55",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_58",
+      "child_id": "e_60",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_58",
+      "child_id": "e_62",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_64",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_71",
+      "order": 10,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_74",
+      "order": 11,
+      "confidence": 0.98
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "0408",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0408.json",
+    "ai_preannotation_sha256": "5ad267719b98611d04b45d33cbbf5d27bb6640d754082bdb072df1a6027c8d16",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

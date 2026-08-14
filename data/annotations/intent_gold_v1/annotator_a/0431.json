@@ -4,17 +4,519 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 1090.0,
+        "y": 9.0,
+        "width": 16.0,
+        "height": 11.0
+      },
+      "name": "image_7",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "right",
+        "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAY1BMVEX/AAD8AADzAADqAAD/fYz+dYT6aHr7XG36VGb6R1f4L0H/ECz+mKXw8fH9/f36+vr19vbW1tbS0tIAG493n89cjcZNgsA/eLkzcbUpaLAcYKwAAFEAA4ANU6UAADsAAHgAAGcSgiW+AAAAS0lEQVR4AQXBiQ3CQBAAMc/dConQf688SoIdBIIyQiR9R0tCuM2rNxHpMqsDIWiBEE4NgnBiHhVJcs48P0uSjXsPl4hLmH2EHzb4A7DPDGppZMSwAAAAAElFTkSuQmCC"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 1121.0,
+        "y": 9.0,
+        "width": 16.0,
+        "height": 11.0
+      },
+      "name": "image_10",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "right",
+        "image_src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg=="
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 787.796875,
+        "y": 63.0,
+        "width": 38.90625,
+        "height": 47.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 848.703125,
+        "y": 63.0,
+        "width": 108.171875,
+        "height": 47.0
+      },
+      "name": "Dahlia_Database",
+      "text": "Dahlia Database",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 978.875,
+        "y": 63.0,
+        "width": 77.0,
+        "height": 47.0
+      },
+      "name": "Information",
+      "text": "Information",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1077.875,
+        "y": 63.0,
+        "width": 52.125,
+        "height": 47.0
+      },
+      "name": "Contact",
+      "text": "Contact",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 128.0,
+        "y": 111.0,
+        "width": 1024.0,
+        "height": 682.65625
+      },
+      "name": "image_30",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": "https://www.bloemencommissie.nl/wp-content/uploads/2019/02/15.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_7",
+        "e_10"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 1090.0,
+        "y": 9.0,
+        "width": 62.0,
+        "height": 22.0
+      },
+      "name": "et-secondary-nav",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 4,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_14",
+      "source_element_ids": [
+        "e_16",
+        "e_18",
+        "e_20",
+        "e_22"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 787.796875,
+        "y": 63.0,
+        "width": 364.203125,
+        "height": 47.0
+      },
+      "name": "top-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 14,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_4",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_14",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_4",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_14",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_10",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_16",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_18",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_20",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_22",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_30",
+      "order": 2,
+      "confidence": 0.98
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "0431",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0431.json",
+    "ai_preannotation_sha256": "ac130453df61237b9127e34bfc19b8d37f45c86fcd7b9f12a7919d1f3317b1b2",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

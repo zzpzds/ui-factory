@@ -1,0 +1,336 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        3
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 711.125,
+        "y": 84.15625,
+        "width": 112.953125,
+        "height": 56.0
+      },
+      "name": "com",
+      "text": "com",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.49411764705882355,
+          0.7607843137254902,
+          0.9254901960784314,
+          1
+        ],
+        "border_color": [
+          0.49411764705882355,
+          0.7607843137254902,
+          0.9254901960784314,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 48.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 265.0,
+        "y": 173.3125,
+        "width": 750.0,
+        "height": 30.0
+      },
+      "name": "URL_has_been_shortened",
+      "text": "URL has been shortened",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.12156862745098039,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.12156862745098039,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 265.0,
+        "y": 223.21875,
+        "width": 99.578125,
+        "height": 18.0
+      },
+      "name": "Original_URL:",
+      "text": "Original URL:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 364.578125,
+        "y": 226.21875,
+        "width": 296.453125,
+        "height": 15.0
+      },
+      "name": "https://businessparkwebs.blogspo",
+      "text": "https://businessparkwebs.blogspot.com/",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 265.0,
+        "y": 257.21875,
+        "width": 79.125,
+        "height": 18.0
+      },
+      "name": "Short_URL:",
+      "text": "Short URL:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        12
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 265.0,
+        "y": 291.21875,
+        "width": 750.0,
+        "height": 508.78125
+      },
+      "name": "URL_must_be_in_1930america.com,_",
+      "text": "URL must be in 1930america.com, 1930america.org, 1930online.com, 1930online.org, 1930uscensus.com, 1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [],
+  "layouts": [],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "e_3",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_5",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_7",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_9",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_11",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_12",
+      "order": 5,
+      "confidence": 0.95
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0837",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "ebfdd72a25580653485caa2c45b7c4f9fe164cdb4ec5bdd5730b7f0379ef9bc9",
+    "screenshot_sha256": "77f110d540e7d819ca7cea5f2643e6322f76ab7003bffa541a46f2f72dee8b2d"
+  }
+}

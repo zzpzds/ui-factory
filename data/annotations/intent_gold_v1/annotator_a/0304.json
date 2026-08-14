@@ -15,6 +15,13 @@
     "annotator": "annotator_a",
     "status": "draft",
     "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_blind_control",
+    "ai_assistance_mode": "blind_control",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": false,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0304.json",
+    "ai_preannotation_sha256": "71aae824fdde90dc230636675052c0de63e11b79fcbaad568ccaaacc1dcf44ae",
+    "human_review_confirmed": false,
+    "human_reviewed_at": null
   }
 }

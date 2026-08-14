@@ -1,0 +1,1706 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 80.0,
+        "y": 30.0,
+        "width": 160.0,
+        "height": 80.0
+      },
+      "name": "image_5",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.7372549019607844,
+          0.9490196078431372,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.7372549019607844,
+          0.9490196078431372,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 44.0,
+        "font_weight": 500,
+        "text_align": "center",
+        "image_src": "https://leprechaun.land/wp-content/uploads/2017/08/leprechaun_logo.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 125.0,
+        "width": 137.28125,
+        "height": 52.0
+      },
+      "name": "Семья",
+      "text": "Семья",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 193.28125,
+        "y": 125.0,
+        "width": 140.734375,
+        "height": 52.0
+      },
+      "name": "Жизнь",
+      "text": "Жизнь",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 335.015625,
+        "y": 125.0,
+        "width": 173.640625,
+        "height": 52.0
+      },
+      "name": "Гороскопы",
+      "text": "Гороскопы",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 509.65625,
+        "y": 125.0,
+        "width": 167.265625,
+        "height": 52.0
+      },
+      "name": "Животные",
+      "text": "Животные",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 677.921875,
+        "y": 125.0,
+        "width": 125.46875,
+        "height": 52.0
+      },
+      "name": "Наука",
+      "text": "Наука",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 804.390625,
+        "y": 125.0,
+        "width": 144.609375,
+        "height": 52.0
+      },
+      "name": "Природа",
+      "text": "Природа",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 950.0,
+        "y": 125.0,
+        "width": 115.875,
+        "height": 52.0
+      },
+      "name": "Юмор",
+      "text": "Юмор",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1066.875,
+        "y": 125.0,
+        "width": 136.59375,
+        "height": 52.0
+      },
+      "name": "Видео",
+      "text": "Видео",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 55.0,
+        "y": 10.0,
+        "width": 80.0,
+        "height": 40.0
+      },
+      "name": "image_26",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://leprechaun.land/wp-content/uploads/2017/08/leprechaun_logo.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 151.0,
+        "y": 10.0,
+        "width": 669.0,
+        "height": 80.0
+      },
+      "name": "page-title",
+      "text": "434 000 000 просмотров! Песня «Dernière Danse», которую вы будете напевать очень долго",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 21.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1071.0,
+        "y": 10.0,
+        "width": 154.0,
+        "height": 42.0
+      },
+      "name": "Следующий_пост",
+      "text": "Следующий пост",
+      "style": {
+        "background_color": [
+          0.06666666666666667,
+          0.29411764705882354,
+          0.5372549019607843,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0,
+          0.6235294117647059,
+          0.8156862745098039,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.0,
+        "y": 199.0,
+        "width": 750.390625,
+        "height": 159.0
+      },
+      "name": "title",
+      "text": "434 000 000 просмотров! Песня «Dernière Danse», которую вы будете напевать очень долго",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 38.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 80.0,
+        "y": 384.0,
+        "width": 746.65625,
+        "height": 45.0
+      },
+      "name": "icon_42",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.0,
+        "y": 384.0,
+        "width": 746.65625,
+        "height": 45.0
+      },
+      "name": "Просто_до_мурашек_по_коже!_Индил",
+      "text": "Просто до мурашек по коже! Индила, она же Адила Седрая – певица и автор из Франции. Ее талант к пени",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 80.0,
+        "y": 458.0,
+        "width": 736.796875,
+        "height": 99.0
+      },
+      "name": "icon_45",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.0,
+        "y": 458.0,
+        "width": 736.796875,
+        "height": 99.0
+      },
+      "name": "Индила,_она_же_Адила_Седрая_–_пе",
+      "text": "Индила, она же Адила Седрая – певица и автор из Франции. Ее талант к пению был отмечен окружением ма",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.0,
+        "y": 582.0,
+        "width": 750.390625,
+        "height": 81.0
+      },
+      "name": "В_один_из_таких_творческих_момен",
+      "text": "В один из таких творческих моментов девушку заметили и предложили попробоваться в роли певицы и авто",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        48
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.0,
+        "y": 683.0,
+        "width": 750.390625,
+        "height": 54.0
+      },
+      "name": "Индила_свободно_владеет_нескольк",
+      "text": "Индила свободно владеет несколькими музыкальными направлениями: от современного попа до шансона. Пос",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.0,
+        "y": 757.0,
+        "width": 750.390625,
+        "height": 43.0
+      },
+      "name": "Девушка_начала_работать_с_разным",
+      "text": "Девушка начала работать с разными исполнителями нередко составляя для них разные композиции. Ее альб",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 878.171875,
+        "y": 221.0,
+        "width": 299.828125,
+        "height": 19.0
+      },
+      "name": "widget-title",
+      "text": "ПОПУЛЯРНОЕ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        54
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 878.171875,
+        "y": 255.0,
+        "width": 299.828125,
+        "height": 199.875
+      },
+      "name": "attachment-sociallyviral-widgetfull",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://leprechaun.land/wp-content/uploads/2018/07/glavnaya-50-300x200.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 893.171875,
+        "y": 471.875,
+        "width": 220.6875,
+        "height": 51.0
+      },
+      "name": "В_вашем_доме_появились_пауки?_ВО",
+      "text": "В вашем доме появились пауки? ВОТ ПОЧЕМУ …",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 878.171875,
+        "y": 575.875,
+        "width": 299.828125,
+        "height": 199.875
+      },
+      "name": "attachment-sociallyviral-widgetfull",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://leprechaun.land/wp-content/uploads/2018/04/1-248-300x200.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 893.171875,
+        "y": 792.75,
+        "width": 244.109375,
+        "height": 7.25
+      },
+      "name": "11_маленьких_признаков,_что_вы_с",
+      "text": "11 маленьких признаков, что вы с правильным …",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_0",
+      "source_element_ids": [
+        "e_5",
+        "e_9",
+        "e_11",
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 55.0,
+        "y": 0.0,
+        "width": 1170.0,
+        "height": 163.0
+      },
+      "name": "site-header",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_7",
+      "source_element_ids": [
+        "e_9",
+        "e_11",
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 55.0,
+        "y": 139.0,
+        "width": 1149.46875,
+        "height": 24.0
+      },
+      "name": "navigation",
+      "style": {
+        "background_color": [
+          0.1607843137254902,
+          0.3215686274509804,
+          0.14901960784313725,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 7,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_33",
+      "source_element_ids": [
+        "e_38",
+        "e_42",
+        "e_43",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_48",
+        "e_49"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 80.0,
+        "y": 199.0,
+        "width": 750.390625,
+        "height": 601.0
+      },
+      "name": "article",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 33,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_50",
+      "source_element_ids": [
+        "e_52",
+        "e_54",
+        "e_57",
+        "e_59",
+        "e_62"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 856.171875,
+        "y": 199.0,
+        "width": 343.828125,
+        "height": 601.0
+      },
+      "name": "sidebar",
+      "style": {
+        "background_color": [
+          0.9411764705882353,
+          0.9294117647058824,
+          0.9137254901960784,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 50,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_53",
+      "source_element_ids": [
+        "e_54",
+        "e_57"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 878.171875,
+        "y": 255.0,
+        "width": 299.828125,
+        "height": 290.875
+      },
+      "name": "post-box",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 53,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_58",
+      "source_element_ids": [
+        "e_59",
+        "e_62"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 878.171875,
+        "y": 575.875,
+        "width": 299.828125,
+        "height": 224.125
+      },
+      "name": "post-box",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 58,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_0",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_7",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_33",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_50",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        22.0,
+        22.0,
+        22.0,
+        22.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_53",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_58",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_0",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_7",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_33",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_50",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_50",
+      "child_id": "g_53",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_50",
+      "child_id": "g_58",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_9",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_11",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_13",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_15",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_17",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_19",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_21",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_23",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_26",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_27",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_31",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_38",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_42",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_43",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_45",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_46",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_47",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_48",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_49",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_50",
+      "child_id": "e_52",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_54",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_57",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_58",
+      "child_id": "e_59",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_58",
+      "child_id": "e_62",
+      "order": 1,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0079",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "0abbf8c53844f9069bede03fc4305ed6527a915b83d296627bb9a3918a91e169",
+    "screenshot_sha256": "7ca0c154699068161e2ed1da384c0c2e709fcb093fdfb0685e0d69b37885f2a8"
+  }
+}

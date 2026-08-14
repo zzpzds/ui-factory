@@ -4,17 +4,1173 @@
     "width": 1280.0,
     "height": 800.0
   },
-  "elements": [],
-  "groups": [],
-  "layouts": [],
-  "tree": [],
+  "elements": [
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 314.0,
+        "y": 15.0,
+        "width": 380.015625,
+        "height": 30.0
+      },
+      "name": "The_One-Line_Review_Presents",
+      "text": "The One-Line Review Presents",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 317.0,
+        "y": 51.0,
+        "width": 151.609375,
+        "height": 16.0
+      },
+      "name": "\"The_50_Greatest_Films\"",
+      "text": "\"The 50 Greatest Films\"",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.3,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.0,
+        "y": 561.0,
+        "width": 184.640625,
+        "height": 17.0
+      },
+      "name": "The_Straight_Story_(1999)",
+      "text": "The Straight Story (1999)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.6,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 350.0,
+        "y": 622.40625,
+        "width": 75.578125,
+        "height": 15.0
+      },
+      "name": "Holly_Branch",
+      "text": "Holly      Branch",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 350.0,
+        "y": 643.203125,
+        "width": 87.421875,
+        "height": 15.0
+      },
+      "name": "Dr_Jason_Scott",
+      "text": "Dr      Jason Scott",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 350.0,
+        "y": 664.0,
+        "width": 66.453125,
+        "height": 15.0
+      },
+      "name": "Harry_Yung",
+      "text": "Harry Yung",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 310.0,
+        "y": 695.796875,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "name": "icon-action",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.0,
+        "y": 734.796875,
+        "width": 400.0,
+        "height": 15.0
+      },
+      "name": "No_comments:",
+      "text": "No comments:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.0,
+        "y": 763.796875,
+        "width": 96.828125,
+        "height": 15.0
+      },
+      "name": "Post_a_Comment",
+      "text": "Post a Comment",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 310.0,
+        "y": 794.0,
+        "width": 67.203125,
+        "height": 6.0
+      },
+      "name": "blog1_blog-pager-newer-link",
+      "text": "Newer Post",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 648.578125,
+        "y": 794.0,
+        "width": 61.421875,
+        "height": 6.0
+      },
+      "name": "blog1_blog-pager-older-link",
+      "text": "Older Post",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 495.546875,
+        "y": 794.0,
+        "width": 34.6875,
+        "height": 6.0
+      },
+      "name": "home-link",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 744.0,
+        "y": 562.0,
+        "width": 216.0625,
+        "height": 87.8125
+      },
+      "name": "apple-style-span",
+      "text": "A 2009 poll of film-makers, critics, bloggers, historians, and other assorted cinephiles, attempting",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 744.0,
+        "y": 667.015625,
+        "width": 67.9375,
+        "height": 15.0
+      },
+      "name": "apple-style-span",
+      "text": "Introduction",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 744.0,
+        "y": 687.8125,
+        "width": 67.921875,
+        "height": 15.0
+      },
+      "name": "apple-style-span",
+      "text": "Participants",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_76",
+      "source_node_ids": [
+        76
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 744.0,
+        "y": 708.609375,
+        "width": 128.609375,
+        "height": 15.0
+      },
+      "name": "apple-style-span",
+      "text": "The 50 Greatest Films",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_81",
+      "source_node_ids": [
+        81
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 744.0,
+        "y": 729.40625,
+        "width": 94.65625,
+        "height": 15.0
+      },
+      "name": "apple-style-span",
+      "text": "Top 50      Directors",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_86",
+      "source_node_ids": [
+        86
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 744.0,
+        "y": 750.203125,
+        "width": 110.890625,
+        "height": 15.0
+      },
+      "name": "apple-style-span",
+      "text": "All Films (5+ votes)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_91",
+      "source_node_ids": [
+        91
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 744.0,
+        "y": 771.0,
+        "width": 21.671875,
+        "height": 15.0
+      },
+      "name": "apple-style-span",
+      "text": "A-E",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_96",
+      "source_node_ids": [
+        96
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 744.0,
+        "y": 791.796875,
+        "width": 19.5,
+        "height": 8.203125
+      },
+      "name": "apple-style-span",
+      "text": "F-L",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_color": [
+          0.26666666666666666,
+          0.26666666666666666,
+          0.26666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_25",
+      "source_element_ids": [
+        "e_28",
+        "e_31",
+        "e_34"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 310.0,
+        "y": 620.40625,
+        "width": 400.0,
+        "height": 62.390625
+      },
+      "name": "list_25",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_color": [
+          0.23529411764705882,
+          0.23529411764705882,
+          0.21176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 25,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_59",
+      "source_element_ids": [
+        "e_66",
+        "e_71",
+        "e_76",
+        "e_81",
+        "e_86",
+        "e_91",
+        "e_96"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 744.0,
+        "y": 665.015625,
+        "width": 226.0,
+        "height": 134.984375
+      },
+      "name": "list_59",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 59,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_25",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_59",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_25",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_59",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_8",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_11",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_21",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "e_28",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "e_31",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "e_34",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_40",
+      "order": 6,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_42",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_44",
+      "order": 8,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_47",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_49",
+      "order": 11,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_50",
+      "order": 10,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_58",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "e_66",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "e_71",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "e_76",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "e_81",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "e_86",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "e_91",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "e_96",
+      "order": 6,
+      "confidence": 0.95
+    }
+  ],
   "style_tokens": [],
   "provenance": {
     "source_sample_id": "1084",
-    "label_source": "human_annotation",
+    "label_source": "ai_assisted_annotation_draft",
     "annotator": "annotator_a",
     "status": "draft",
-    "weak_labels_viewed": false,
-    "annotation_phase": "formal_gold_expansion"
+    "annotation_phase": "formal_gold_ai_assisted",
+    "ai_assistance_mode": "preannotation",
+    "ai_assistance_disclosed": true,
+    "ai_preannotation_visible": true,
+    "ai_preannotation_path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1084.json",
+    "ai_preannotation_sha256": "75b8d3737761248e8fd61776854369c009091834969cec60aa91de575bc2e147",
+    "ai_preannotation_generator": "codex_pagegraph_preannotation_v1",
+    "weak_labels_viewed": true,
+    "human_review_confirmed": false,
+    "human_reviewed_at": null,
+    "token_review": {
+      "status": "pending",
+      "accepted_candidate_keys": [],
+      "ignored_candidate_keys": [],
+      "reviewed_candidate_keys": []
+    }
   }
 }

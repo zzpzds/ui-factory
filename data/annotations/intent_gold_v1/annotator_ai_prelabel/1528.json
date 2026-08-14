@@ -1,0 +1,1950 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 21.078125,
+        "y": 662.6875,
+        "width": 124.0,
+        "height": 123.0
+      },
+      "name": "image_5",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "https://www.baby-boy-names.org/baby-boy.gif"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 178.0625,
+        "y": 15.0,
+        "width": 588.0,
+        "height": 40.0
+      },
+      "name": "Primus_Boy_Name",
+      "text": "Primus Boy Name",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 178.0625,
+        "y": 67.0,
+        "width": 588.0,
+        "height": 2.0
+      },
+      "name": "shape_11",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        12
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 178.0625,
+        "y": 77.5,
+        "width": 588.0,
+        "height": 22.0
+      },
+      "name": ">_>_Primus",
+      "text": ">  > Primus",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 178.0625,
+        "y": 78.5,
+        "width": 138.890625,
+        "height": 19.0
+      },
+      "name": "Baby_Boy_Names",
+      "text": "Baby Boy Names",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 336.328125,
+        "y": 78.5,
+        "width": 121.375,
+        "height": 19.0
+      },
+      "name": "Starting_With_P",
+      "text": "Starting With P",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 319.0625,
+        "y": 118.5,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_17",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 472.0625,
+        "y": 118.5,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_18",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 188.0625,
+        "y": 141.0,
+        "width": 464.0,
+        "height": 31.0
+      },
+      "name": "i",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 652.0625,
+        "y": 139.5,
+        "width": 104.0,
+        "height": 34.0
+      },
+      "name": "t",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 178.0625,
+        "y": 161.5,
+        "width": 288.0,
+        "height": 192.0
+      },
+      "name": "image_21",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://www.baby-boy-names.org/names/Primus.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 317.90625,
+        "y": 360.5,
+        "width": 52.90625,
+        "height": 19.0
+      },
+      "name": "Primus",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 288.3125,
+        "y": 487.5,
+        "width": 367.484375,
+        "height": 19.0
+      },
+      "name": "Cumulative_Usage_Chart_for_the_N",
+      "text": "Cumulative Usage Chart for the Name Primus",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 180.0625,
+        "y": 510.5,
+        "width": 270.421875,
+        "height": 46.0
+      },
+      "name": "b",
+      "text": "Use of the Name Primus for Boys During the Last ...",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 180.0625,
+        "y": 558.5,
+        "width": 270.421875,
+        "height": 42.0
+      },
+      "name": "h",
+      "text": "125 Years",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 452.484375,
+        "y": 558.5,
+        "width": 54.078125,
+        "height": 42.0
+      },
+      "name": "h",
+      "text": "50 Years",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 508.5625,
+        "y": 558.5,
+        "width": 54.078125,
+        "height": 42.0
+      },
+      "name": "h",
+      "text": "25 Years",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 564.640625,
+        "y": 558.5,
+        "width": 54.078125,
+        "height": 42.0
+      },
+      "name": "h",
+      "text": "10 Years",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 620.71875,
+        "y": 558.5,
+        "width": 49.203125,
+        "height": 42.0
+      },
+      "name": "h",
+      "text": "5 Years",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 671.921875,
+        "y": 558.5,
+        "width": 49.203125,
+        "height": 42.0
+      },
+      "name": "h",
+      "text": "2 Years",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 723.125,
+        "y": 558.5,
+        "width": 40.9375,
+        "height": 42.0
+      },
+      "name": "h",
+      "text": "1 Year",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 180.0625,
+        "y": 602.5,
+        "width": 270.421875,
+        "height": 22.0
+      },
+      "name": "h",
+      "text": "5",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 452.484375,
+        "y": 602.5,
+        "width": 54.078125,
+        "height": 22.0
+      },
+      "name": "h",
+      "text": "0",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 508.5625,
+        "y": 602.5,
+        "width": 54.078125,
+        "height": 22.0
+      },
+      "name": "h",
+      "text": "0",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 564.640625,
+        "y": 602.5,
+        "width": 54.078125,
+        "height": 22.0
+      },
+      "name": "h",
+      "text": "0",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 620.71875,
+        "y": 602.5,
+        "width": 49.203125,
+        "height": 22.0
+      },
+      "name": "h",
+      "text": "0",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 671.921875,
+        "y": 602.5,
+        "width": 49.203125,
+        "height": 22.0
+      },
+      "name": "h",
+      "text": "0",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 723.125,
+        "y": 602.5,
+        "width": 40.9375,
+        "height": 22.0
+      },
+      "name": "h",
+      "text": "0",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 605.1875,
+        "y": 635.5,
+        "width": 52.90625,
+        "height": 19.0
+      },
+      "name": "Primus",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_5",
+        "e_10",
+        "e_11",
+        "e_12",
+        "e_13",
+        "e_14",
+        "e_17",
+        "e_18",
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_25",
+        "e_28",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 2.0,
+        "y": 2.0,
+        "width": 776.0,
+        "height": 798.0
+      },
+      "name": "table_row_2",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 2,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_16",
+      "source_element_ids": [
+        "e_17",
+        "e_18",
+        "e_19",
+        "e_20"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 186.0625,
+        "y": 115.5,
+        "width": 572.0,
+        "height": 58.0
+      },
+      "name": "searchbox_007037490239063845746_0l068tamso0",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 16,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_23",
+      "source_element_ids": [
+        "e_25",
+        "e_28",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44"
+      ],
+      "role": "TABLE",
+      "bbox": {
+        "x": 178.0625,
+        "y": 486.5,
+        "width": 588.0,
+        "height": 140.0
+      },
+      "name": "c",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 23,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_26",
+      "source_element_ids": [
+        "e_28",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 180.0625,
+        "y": 510.5,
+        "width": 584.0,
+        "height": 114.0
+      },
+      "name": "container_26",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 26,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_29",
+      "source_element_ids": [
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 180.0625,
+        "y": 558.5,
+        "width": 584.0,
+        "height": 42.0
+      },
+      "name": "table_row_29",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 29,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_37",
+      "source_element_ids": [
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 180.0625,
+        "y": 602.5,
+        "width": 584.0,
+        "height": 22.0
+      },
+      "name": "table_row_37",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 37,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_2",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_16",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_23",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_26",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_29",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_37",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_16",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_23",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "g_26",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "g_29",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "g_37",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_5",
+      "order": 10,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_10",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_11",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_12",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_13",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_14",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_17",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_18",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_19",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_20",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_21",
+      "order": 6,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_22",
+      "order": 7,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_25",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_28",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_30",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_31",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_32",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_33",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_34",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_35",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_36",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_38",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_39",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_40",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_41",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_42",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_43",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_44",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_45",
+      "order": 9,
+      "confidence": 0.85
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1528",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "54ee74fcabb50e81a279beddc4248da27632719d6bb22fee6621dad44d471b5c",
+    "screenshot_sha256": "c37c2f4d0fd195b24f1925c4e6478e007ada962203b8661a19e2d7ae6acaf702"
+  }
+}

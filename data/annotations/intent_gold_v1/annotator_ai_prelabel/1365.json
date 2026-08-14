@@ -1,0 +1,2709 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "s5_responsive_mobile_search",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 161.0,
+        "y": 8.0,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_8",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 314.0,
+        "y": 8.0,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_9",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 467.0,
+        "y": 8.0,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_10",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 48.71875,
+        "width": 51.984375,
+        "height": 21.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.72,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 89.4375,
+        "width": 138.296875,
+        "height": 21.0
+      },
+      "name": "Tätigkeitsfelder",
+      "text": "Tätigkeitsfelder",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.72,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 130.15625,
+        "width": 100.5,
+        "height": 17.0
+      },
+      "name": "Elektrotechnik",
+      "text": "Elektrotechnik",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 148.15625,
+        "width": 279.296875,
+        "height": 17.0
+      },
+      "name": "CAD/CAE-Planung_und_Steuerungsba",
+      "text": "CAD/CAE-Planung und Steuerungsbau",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 166.15625,
+        "width": 203.640625,
+        "height": 17.0
+      },
+      "name": "Drucklufttechnik_-_Pneumatik",
+      "text": "Drucklufttechnik - Pneumatik",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 184.15625,
+        "width": 256.15625,
+        "height": 17.0
+      },
+      "name": "Lüftungs-_Absaug-_und_Klimatechn",
+      "text": "Lüftungs- Absaug- und Klimatechnik",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 202.15625,
+        "width": 148.8125,
+        "height": 17.0
+      },
+      "name": "Service_und_Wartung",
+      "text": "Service und Wartung",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 238.875,
+        "width": 177.796875,
+        "height": 21.0
+      },
+      "name": "Innovative_Energien",
+      "text": "Innovative Energien",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.72,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 279.59375,
+        "width": 183.203125,
+        "height": 17.0
+      },
+      "name": "Energiespeicher-Systeme",
+      "text": "Energiespeicher-Systeme",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 297.59375,
+        "width": 123.671875,
+        "height": 17.0
+      },
+      "name": "s5_mobile_sidebar_active",
+      "text": "24 Stunde Sonne",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 315.59375,
+        "width": 71.71875,
+        "height": 17.0
+      },
+      "name": "Varta_Film",
+      "text": "Varta Film",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 352.3125,
+        "width": 99.828125,
+        "height": 21.0
+      },
+      "name": "Impressum",
+      "text": "Impressum",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.72,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        48
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 393.03125,
+        "width": 88.9375,
+        "height": 17.0
+      },
+      "name": "Datenschutz",
+      "text": "Datenschutz",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 429.75,
+        "width": 75.890625,
+        "height": 21.0
+      },
+      "name": "Sponsor",
+      "text": "Sponsor",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.72,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        54
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 470.46875,
+        "width": 167.390625,
+        "height": 21.0
+      },
+      "name": "So_finden_Sie_mich",
+      "text": "So finden Sie mich",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.72,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 8.0,
+        "y": 512.1875,
+        "width": 1188.15625,
+        "height": 92.125
+      },
+      "name": "s5_logo",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "http://sk-technik.biz/templates/shape5_vertex/images/s5_logo.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_70",
+      "source_node_ids": [
+        70
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 624.3125,
+        "width": 48.0,
+        "height": 17.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 429.390625,
+        "y": 642.3125,
+        "width": 156.46875,
+        "height": 17.0
+      },
+      "name": "Tätigkeitsfelder",
+      "text": "Tätigkeitsfelder",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 642.3125,
+        "width": 144.921875,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "Elektrotechnik",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_84",
+      "source_node_ids": [
+        84
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 660.3125,
+        "width": 341.390625,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "CAD/CAE-Planung und Steuerungsbau",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_88",
+      "source_node_ids": [
+        88
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 678.3125,
+        "width": 273.5,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "Drucklufttechnik - Pneumatik",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_92",
+      "source_node_ids": [
+        92
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 696.3125,
+        "width": 327.75,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "Lüftungs- Absaug- und Klimatechnik",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_96",
+      "source_node_ids": [
+        96
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 714.3125,
+        "width": 195.28125,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "Service und Wartung",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_101",
+      "source_node_ids": [
+        101
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 894.375,
+        "y": 660.3125,
+        "width": 182.546875,
+        "height": 17.0
+      },
+      "name": "Innovative_Energien",
+      "text": "Innovative Energien",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_106",
+      "source_node_ids": [
+        106
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 658.765625,
+        "y": 660.3125,
+        "width": 235.609375,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "Energiespeicher-Systeme",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_111",
+      "source_node_ids": [
+        111
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 509.390625,
+        "y": 660.3125,
+        "width": 149.375,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "24 Stunde Sonne",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_115",
+      "source_node_ids": [
+        115
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 509.390625,
+        "y": 678.3125,
+        "width": 90.6875,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "Varta Film",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_120",
+      "source_node_ids": [
+        120
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1052.296875,
+        "y": 678.3125,
+        "width": 96.90625,
+        "height": 17.0
+      },
+      "name": "Impressum",
+      "text": "Impressum",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_125",
+      "source_node_ids": [
+        125
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 934.375,
+        "y": 678.3125,
+        "width": 117.921875,
+        "height": 17.0
+      },
+      "name": "s5_sub_a_span",
+      "text": "Datenschutz",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_130",
+      "source_node_ids": [
+        130
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 429.390625,
+        "y": 696.3125,
+        "width": 80.015625,
+        "height": 17.0
+      },
+      "name": "Sponsor",
+      "text": "Sponsor",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_135",
+      "source_node_ids": [
+        135
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 429.390625,
+        "y": 714.3125,
+        "width": 162.6875,
+        "height": 17.0
+      },
+      "name": "So_finden_Sie_mich",
+      "text": "So finden Sie mich",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_148",
+      "source_node_ids": [
+        148
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 764.3125,
+        "width": 59.578125,
+        "height": 17.0
+      },
+      "name": "Drucken",
+      "text": "Drucken",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_150",
+      "source_node_ids": [
+        150
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 782.3125,
+        "width": 45.34375,
+        "height": 17.0
+      },
+      "name": "E-Mail",
+      "text": "E-Mail",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_color": [
+          0.45098039215686275,
+          0.6274509803921569,
+          0.8117647058823529,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_6",
+      "source_element_ids": [
+        "e_7",
+        "e_8",
+        "e_9",
+        "e_10"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 1264.0,
+        "height": 21.0
+      },
+      "name": "form_6",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 6,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_19",
+      "source_element_ids": [
+        "e_21",
+        "e_23",
+        "e_25",
+        "e_27",
+        "e_29"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 8.0,
+        "y": 130.15625,
+        "width": 1264.0,
+        "height": 90.0
+      },
+      "name": "list_19",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 19,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_35",
+      "source_element_ids": [
+        "e_36",
+        "e_39",
+        "e_41"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 48.0,
+        "y": 279.59375,
+        "width": 1224.0,
+        "height": 54.0
+      },
+      "name": "list_item_35",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 35,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_37",
+      "source_element_ids": [
+        "e_39",
+        "e_41"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 48.0,
+        "y": 297.59375,
+        "width": 1224.0,
+        "height": 36.0
+      },
+      "name": "list_37",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 37,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_65",
+      "source_element_ids": [
+        "e_70",
+        "e_75",
+        "e_80",
+        "e_84",
+        "e_88",
+        "e_92",
+        "e_96",
+        "e_101",
+        "e_106",
+        "e_111",
+        "e_115",
+        "e_120",
+        "e_125",
+        "e_130",
+        "e_135"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 8.0,
+        "y": 624.3125,
+        "width": 1188.15625,
+        "height": 108.0
+      },
+      "name": "s5_nav",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 65,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_71",
+      "source_element_ids": [
+        "e_75",
+        "e_80",
+        "e_84",
+        "e_88",
+        "e_92",
+        "e_96"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 48.0,
+        "y": 642.3125,
+        "width": 1148.15625,
+        "height": 18.0
+      },
+      "name": "list_item_71",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 71,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_76",
+      "source_element_ids": [
+        "e_80",
+        "e_84",
+        "e_88",
+        "e_92",
+        "e_96"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 48.0,
+        "y": 642.3125,
+        "width": 381.390625,
+        "height": 90.0
+      },
+      "name": "list_76",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 76,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_97",
+      "source_element_ids": [
+        "e_101",
+        "e_106",
+        "e_111",
+        "e_115"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 48.0,
+        "y": 660.3125,
+        "width": 1148.15625,
+        "height": 18.0
+      },
+      "name": "active",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 97,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_103",
+      "source_element_ids": [
+        "e_106",
+        "e_111",
+        "e_115"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 469.390625,
+        "y": 660.3125,
+        "width": 424.984375,
+        "height": 18.0
+      },
+      "name": "list_item_103",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 103,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_107",
+      "source_element_ids": [
+        "e_111",
+        "e_115"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 469.390625,
+        "y": 660.3125,
+        "width": 189.375,
+        "height": 36.0
+      },
+      "name": "list_107",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 107,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_116",
+      "source_element_ids": [
+        "e_120",
+        "e_125"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 48.0,
+        "y": 678.3125,
+        "width": 1148.15625,
+        "height": 18.0
+      },
+      "name": "list_item_116",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 116,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_146",
+      "source_element_ids": [
+        "e_148",
+        "e_150"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 8.0,
+        "y": 764.3125,
+        "width": 1188.15625,
+        "height": 35.6875
+      },
+      "name": "dropdown-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 146,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_6",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_19",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_35",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_37",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_65",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_71",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_76",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_97",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_103",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_107",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_116",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_146",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_6",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_19",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_35",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_35",
+      "child_id": "g_37",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_65",
+      "order": 11,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "g_71",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_71",
+      "child_id": "g_76",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "g_97",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_97",
+      "child_id": "g_103",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_103",
+      "child_id": "g_107",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "g_116",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_146",
+      "order": 12,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_9",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_10",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_14",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_17",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_21",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_23",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_25",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_27",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_29",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_32",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_35",
+      "child_id": "e_36",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_39",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_41",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_44",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_48",
+      "order": 7,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_51",
+      "order": 8,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_54",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_63",
+      "order": 10,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_70",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_71",
+      "child_id": "e_75",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_76",
+      "child_id": "e_80",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_76",
+      "child_id": "e_84",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_76",
+      "child_id": "e_88",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_76",
+      "child_id": "e_92",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_76",
+      "child_id": "e_96",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_97",
+      "child_id": "e_101",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_103",
+      "child_id": "e_106",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_107",
+      "child_id": "e_111",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_107",
+      "child_id": "e_115",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_116",
+      "child_id": "e_120",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_116",
+      "child_id": "e_125",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_130",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_135",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_146",
+      "child_id": "e_148",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_146",
+      "child_id": "e_150",
+      "order": 1,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1365",
+    "label_source": "ai_preannotation",
+    "annotator": "codex_ai_prelabel",
+    "annotator_kind": "ai_preannotation",
+    "generator": "codex_pagegraph_preannotation_v1",
+    "generator_version": "1.0",
+    "status": "complete",
+    "human_labels_viewed": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-14T00:00:00+08:00",
+    "element_confidence_min": 0.75,
+    "group_confidence_min": 0.85,
+    "limitations": [
+      "该文件是 AI 辅助初稿，不是人工标注或最终 Gold。",
+      "层级和语义分组必须由设计师逐项复核。",
+      "Token 不直接预填，由人工候选审核产生。"
+    ],
+    "page_graph_sha256": "ec5f09fd047d1ae1a794363633237e17c6f82393010e0088c586a02bc56cfb84",
+    "screenshot_sha256": "119378ef303086baf5139e901b37e9ce0c95e9c13d337cba4693715590154f4d"
+  }
+}
