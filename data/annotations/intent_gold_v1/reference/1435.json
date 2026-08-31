@@ -1,0 +1,1625 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        1
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1220.0,
+        "y": 0.0,
+        "width": 60.0,
+        "height": 51.0
+      },
+      "name": "navbar-toggle",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        2
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 129.734375,
+        "height": 80.0
+      },
+      "name": "openslidenavlink",
+      "text": "STCG 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 607.5,
+        "y": 120.0,
+        "width": 60.0,
+        "height": 16.0
+      },
+      "name": "image_6",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 36.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": "https://sotaychemgio.com/upload/danhmuc/thumbnail/260ec-nguoc.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 321.546875,
+        "y": 197.59375,
+        "width": 636.890625,
+        "height": 23.0
+      },
+      "name": "Chết_cho_người_phụ_nữ_mình_yêu_t",
+      "text": "Chết cho người phụ nữ mình yêu thì dễ hơn là phải sống chung với họ.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 283.15625,
+        "width": 64.328125,
+        "height": 16.0
+      },
+      "name": "Trang_Chủ",
+      "text": "Trang Chủ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 98.234375,
+        "y": 283.15625,
+        "width": 64.078125,
+        "height": 16.0
+      },
+      "name": "Danh_mục",
+      "text": "Danh mục",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 166.21875,
+        "y": 283.15625,
+        "width": 44.90625,
+        "height": 16.0
+      },
+      "name": "Ngược",
+      "text": "Ngược",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 215.03125,
+        "y": 282.15625,
+        "width": 46.421875,
+        "height": 19.984375
+      },
+      "name": "active",
+      "text": "Bài viết",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 1122.0,
+        "y": 282.15625,
+        "width": 158.0,
+        "height": 22.984375
+      },
+      "name": "search-input",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 710.328125,
+        "y": 326.140625,
+        "width": 158.0,
+        "height": 22.984375
+      },
+      "name": "search-input",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 364.125,
+        "width": 1205.0,
+        "height": 48.5625
+      },
+      "name": "Một_hôm_nọ,_anh_chồng_đi_về_sớm_",
+      "text": "Một hôm nọ, anh chồng đi về sớm hơn mọi khi, gặp vợ đang ngủ với thằng bạn mình. Anh chồng rút súng ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 423.6875,
+        "width": 54.65625,
+        "height": 16.0
+      },
+      "name": "Sưu_tầm",
+      "text": "Sưu tầm",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1127.765625,
+        "y": 463.671875,
+        "width": 137.234375,
+        "height": 19.984375
+      },
+      "name": "text-date",
+      "text": "Cập nhật: 29/12/2020",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 29.0,
+        "y": 503.65625,
+        "width": 47.46875,
+        "height": 25.0
+      },
+      "name": "Ngủ",
+      "text": "Ngủ",
+      "style": {
+        "background_color": [
+          0.20392156862745098,
+          0.596078431372549,
+          0.8588235294117647,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 99.375,
+        "y": 503.65625,
+        "width": 51.328125,
+        "height": 25.0
+      },
+      "name": "Chết",
+      "text": "Chết",
+      "style": {
+        "background_color": [
+          0.20392156862745098,
+          0.596078431372549,
+          0.8588235294117647,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 15.0,
+        "y": 589.90625,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "image_50",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.47843137254901963,
+          0.7176470588235294,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": "https://sotaychemgio.com/upload/danhmuc/thumbnail/260ec-nguoc.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 45.0,
+        "y": 636.65625,
+        "width": 1195.0,
+        "height": 24.28125
+      },
+      "name": "Để_tiết_kiệm_7k_đi_xe_bus,_tôi_đ",
+      "text": "Để tiết kiệm 7k đi xe bus, tôi đã đi bộ về nhà. Trên đường đi, rất khát nước nên tôi đã mua 1 ly trà",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 45.0,
+        "y": 671.9375,
+        "width": 54.65625,
+        "height": 16.0
+      },
+      "name": "Sưu_tầm",
+      "text": "Sưu tầm",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 45.0,
+        "y": 731.921875,
+        "width": 1195.0,
+        "height": 24.28125
+      },
+      "name": "Tôi_biết_tính_khí_của_tôi_không_",
+      "text": "Tôi biết tính khí của tôi không tốt, nếu bạn không chịu được thì tốt nhất nên xem xét lại bản thân, ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        64
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 45.0,
+        "y": 767.203125,
+        "width": 54.65625,
+        "height": 16.0
+      },
+      "name": "Sưu_tầm",
+      "text": "Sưu tầm",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_color": [
+          0.4666666666666667,
+          0.4666666666666667,
+          0.4666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_0",
+      "source_element_ids": [
+        "e_1",
+        "e_2"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 81.0
+      },
+      "name": "mainnav",
+      "style": {
+        "background_color": [
+          0.17254901960784313,
+          0.24313725490196078,
+          0.3137254901960784,
+          1
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_6",
+        "e_8"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 274.15625
+      },
+      "name": "postdetail",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_11",
+      "source_element_ids": [
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_18",
+        "e_20"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 15.0,
+        "y": 274.15625,
+        "width": 1265.0,
+        "height": 35.984375
+      },
+      "name": "breadcrumb",
+      "style": {
+        "background_color": [
+          0.9607843137254902,
+          0.9607843137254902,
+          0.9607843137254902,
+          1
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 4.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 11,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_31",
+      "source_element_ids": [
+        "e_33",
+        "e_35"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 15.0,
+        "y": 354.125,
+        "width": 1250.0,
+        "height": 109.546875
+      },
+      "name": "post-item",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 31,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_41",
+      "source_element_ids": [
+        "e_43",
+        "e_45"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 15.0,
+        "y": 503.65625,
+        "width": 140.703125,
+        "height": 35.0
+      },
+      "name": "list_41",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 41,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_0",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_3",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        100.0,
+        15.0,
+        40.0,
+        15.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_11",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        8.0,
+        15.0,
+        8.0,
+        15.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_31",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_41",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_0",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_3",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_11",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_31",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_41",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "e_1",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "e_2",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_6",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_13",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_15",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_17",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_18",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_27",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_31",
+      "child_id": "e_33",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_31",
+      "child_id": "e_35",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_39",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_41",
+      "child_id": "e_43",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_41",
+      "child_id": "e_45",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_50",
+      "order": 7,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_56",
+      "order": 8,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_58",
+      "order": 9,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_62",
+      "order": 10,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_64",
+      "order": 11,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.467,
+          0.467,
+          0.467,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_18",
+        "e_2",
+        "e_35",
+        "e_39",
+        "e_58",
+        "e_64"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_33",
+        "e_56",
+        "e_62"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.2,
+          0.478,
+          0.718,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_13",
+        "e_15",
+        "e_17"
+      ],
+      "name": "文字色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_04",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_1",
+        "e_43",
+        "e_45"
+      ],
+      "name": "文字色/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_18",
+        "e_35",
+        "e_39",
+        "e_58",
+        "e_64"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 17.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_33",
+        "e_56",
+        "e_62"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "1435",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "conservative",
+    "visual_review": {
+      "sample_id": "1435",
+      "quality_status": "accepted",
+      "observed_page_type": "humor_quote_detail_with_related_items",
+      "primary_layout": "sparse_site_header_then_quote_card_and_vertical_related_list",
+      "visible_regions": [
+        "site_bar",
+        "broken_logo_and_title",
+        "tagline",
+        "breadcrumb",
+        "primary_quote_card",
+        "tags_and_update_date",
+        "related_section_heading",
+        "related_quote_items",
+        "floating_action_control"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "Two small branding or section images fail to load, but the textual content and repeated quote blocks remain usable. The candidate covers the header, breadcrumb, primary quote, and tags while leaving the related-items section largely ungrouped.",
+      "reviewer_id": "codex_visual_reviewer_3"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_3"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1435.json",
+        "sha256": "0b1bcb57fdd5ee0930ac57bbf2d67056cf00d952ab198a7ee443691db5029d7e"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/1435.json",
+        "sha256": "237e4265c934e970d55c47c398d3d74fe2327253dec9e9208261da2587c7ba3f"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_03.json",
+        "sha256": "4be804af6874bbb24dcb77867cb876ee34a7837f579cb1be7c163d2c2573720b"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/1435.json",
+        "sha256": "0d0888d4680607f8d966d7e048a2348c70c343d28c0e1eb98bb3f66207ada46f"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/1435/screenshot.png",
+      "screenshot_sha256": "8006ed4c6731fef5aeca2b0b7280e8d6c9cac645f881c7321c8109c65136367c",
+      "page_graph_path": "data/processed/1435/page_graph.json",
+      "page_graph_sha256": "c6d3baff3e24fe5405bad13ea5902ee4bb6e10c7d7c362d3080028276a1f35b8"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

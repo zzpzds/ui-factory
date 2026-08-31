@@ -1,0 +1,1639 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 16.0,
+        "width": 42.6875,
+        "height": 17.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 34.0,
+        "width": 48.90625,
+        "height": 17.0
+      },
+      "name": "Pricing",
+      "text": "Pricing",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 52.0,
+        "width": 95.8125,
+        "height": 17.0
+      },
+      "name": "On_Sales",
+      "text": "On Sales",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 86.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "headline1-large",
+      "text": "Wordpress Licensing Soft is for Sale",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 104.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "headline1-large",
+      "text": "Get WordPress Licensing Soft for Your Own",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 138.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "WordPress_Licensing_Soft_Script_",
+      "text": "WordPress Licensing Soft Script Code",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 156.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "Own_WordPress_Licensing_Soft_wit",
+      "text": "Own WordPress Licensing Soft with Brand Name.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 348.265625,
+        "y": 174.0,
+        "width": 143.15625,
+        "height": 17.0
+      },
+      "name": "wplicensesoft.com",
+      "text": "wplicensesoft.com",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 192.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "All_WordPress_Licensing_Soft_Cli",
+      "text": "All WordPress Licensing Soft Client Database.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 210.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "WordPress_Licensing_Soft_1_Year_",
+      "text": "WordPress Licensing Soft 1 Year Revision and  Support.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 228.0,
+        "width": 1224.0,
+        "height": 18.0
+      },
+      "name": "Resell_it_with_your_own_price,_b",
+      "text": "Resell it with your own price, because is your.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 262.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "headline1-large",
+      "text": "How Much Price for this Offer?",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 298.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "headline1-large",
+      "text": "Send us your Quote",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 560.0,
+        "y": 350.0,
+        "width": 160.0,
+        "height": 17.0
+      },
+      "name": "Inquiry_your_Offer_to:",
+      "text": "Inquiry your Offer to:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 640.0,
+        "y": 395.0,
+        "width": 70.0,
+        "height": 21.0
+      },
+      "name": "Tweet",
+      "text": "Tweet",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 485.0,
+        "width": 1264.0,
+        "height": 90.0
+      },
+      "name": "Every_effort_has_been_made_to_ac",
+      "text": "Every effort has been made to accurately represent this product and its potential. Even though this ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 625.0,
+        "width": 1264.0,
+        "height": 54.0
+      },
+      "name": "WE_DO_NOT_TRACK_ACTUAL_EARNINGS_",
+      "text": "WE DO NOT TRACK ACTUAL EARNINGS OF USERS OF OUR PRODUCT AS THE SAME WOULD VIOLATE THE USERS TRADE SE",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 729.0,
+        "width": 1264.0,
+        "height": 36.0
+      },
+      "name": "Please_Note:_Additional_Charges_",
+      "text": "Please Note: Additional Charges May Apply. As with any Internet Business you may need to pay for add",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 781.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "footer-left",
+      "text": "Copyright © 2013 WPDeveloper, CV. All Rights Reserved",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_6",
+        "e_8",
+        "e_10"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 8.0,
+        "y": 16.0,
+        "width": 1264.0,
+        "height": 54.0
+      },
+      "name": "menu-main-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 4,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_13",
+      "source_element_ids": [
+        "e_14",
+        "e_15",
+        "e_19",
+        "e_20",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_29",
+        "e_31",
+        "e_34"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 86.0,
+        "width": 1264.0,
+        "height": 383.0
+      },
+      "name": "launchinnermain",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 13,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_16",
+      "source_element_ids": [
+        "e_19",
+        "e_20",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_29",
+        "e_31"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 138.0,
+        "width": 1264.0,
+        "height": 230.0
+      },
+      "name": "orderboxbk",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 16,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_18",
+      "source_element_ids": [
+        "e_19",
+        "e_20",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 8.0,
+        "y": 138.0,
+        "width": 1264.0,
+        "height": 108.0
+      },
+      "name": "black_tick_list",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 18,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_36",
+      "source_element_ids": [
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 485.0,
+        "width": 1264.0,
+        "height": 315.0
+      },
+      "name": "footer-inside",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 36,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_37",
+      "source_element_ids": [
+        "e_38",
+        "e_39",
+        "e_40"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 485.0,
+        "width": 1264.0,
+        "height": 280.0
+      },
+      "name": "footer-disclaimer",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 37,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_4",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_13",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_16",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_18",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_36",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_37",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_4",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_13",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_16",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "g_18",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_36",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_36",
+      "child_id": "g_37",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_6",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_10",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_15",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_19",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_22",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_23",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_24",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_25",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_26",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_29",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_31",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_34",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_38",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_39",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_40",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_36",
+      "child_id": "e_41",
+      "order": 1,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_14",
+        "e_15",
+        "e_19",
+        "e_20",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_29",
+        "e_31",
+        "e_34",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_10",
+        "e_6",
+        "e_8"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_10",
+        "e_14",
+        "e_15",
+        "e_19",
+        "e_20",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_29",
+        "e_34",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_6",
+        "e_8"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "1503",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "expanded",
+    "visual_review": {
+      "sample_id": "1503",
+      "quality_status": "accepted",
+      "observed_page_type": "software_license_sales_and_pricing_page",
+      "primary_layout": "full_width_flat_stack_of_sales_pricing_inquiry_and_legal_sections",
+      "visible_regions": [
+        "primary_navigation",
+        "product_proposition",
+        "feature_list",
+        "pricing_banner",
+        "quote_inquiry_panel",
+        "legal_disclaimer_blocks",
+        "copyright_footer"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate adds the main sales wrapper, an order-content container around the feature and offer area, and nested footer and disclaimer containers, making it sufficient as a coarse silver-label structure seed. The pricing strip and quote-inquiry panel still lack dedicated groups, the main wrappers use low-confidence generic container roles, and their FREE layouts do not encode the visible vertical section flow.",
+      "reviewer_id": "codex_visual_reviewer_3"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_3"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1503.json",
+        "sha256": "c21a267b114ff2f26b96b8737863448597e67305f11630c87e6b94240803e76f"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/1503.json",
+        "sha256": "0265a4ff4b72914098858a4e8938f796bff6ee2efe776f28454d14174fe16b24"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_03.json",
+        "sha256": "4be804af6874bbb24dcb77867cb876ee34a7837f579cb1be7c163d2c2573720b"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/1503.json",
+        "sha256": "a7602034ce3014ec161b8c8f9e7524a080d99bac86a841c2d38565da47a2e246"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/1503/screenshot.png",
+      "screenshot_sha256": "962f28b9b7c525c36b9a882c0f78c5206cf68103501bd449da5fde60fa2868fd",
+      "page_graph_path": "data/processed/1503/page_graph.json",
+      "page_graph_sha256": "46ac9b7d618acf2276c4809f71a4ce617af4f913b05a66ae25907b127c6282f0"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

@@ -1,0 +1,2501 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_0",
+      "source_node_ids": [
+        0
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 30.0,
+        "y": 28.375,
+        "width": 55.28125,
+        "height": 17.0
+      },
+      "name": "Warning",
+      "text": "Warning",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        1
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 711.546875,
+        "y": 28.375,
+        "width": 517.265625,
+        "height": 17.0
+      },
+      "name": "/srv/disk3/514035/www/oppvaskmas",
+      "text": "/srv/disk3/514035/www/oppvaskmaskin.net/wp-includes/class-wp-hook.php",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        2
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 54.78125,
+        "y": 53.75,
+        "width": 25.03125,
+        "height": 17.0
+      },
+      "name": "303",
+      "text": "303",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 216.0,
+        "y": 161.96875,
+        "width": 229.421875,
+        "height": 36.0
+      },
+      "name": "Oppvaskmaskin",
+      "text": "Oppvaskmaskin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 216.0,
+        "y": 197.96875,
+        "width": 578.0,
+        "height": 22.75
+      },
+      "name": "site-description",
+      "text": "Kjøp oppvaskemaskin, Bosch, Miele, Siemens, Asko",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.47843137254901963,
+          0.47843137254901963,
+          0.47843137254901963,
+          1
+        ],
+        "border_color": [
+          0.47843137254901963,
+          0.47843137254901963,
+          0.47843137254901963,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1064.0,
+        "y": 164.125,
+        "width": 24.453125,
+        "height": 24.375
+      },
+      "name": "assistive-text",
+      "text": "Søk",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        12
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 950.0,
+        "y": 164.125,
+        "width": 114.0,
+        "height": 34.0
+      },
+      "name": "s",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 2.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 140.0,
+        "y": 271.90625,
+        "width": 75.0625,
+        "height": 24.375
+      },
+      "name": "assistive-text",
+      "text": "Hovedmeny",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 216.0,
+        "y": 271.90625,
+        "width": 212.5625,
+        "height": 50.0
+      },
+      "name": "assistive-text",
+      "text": "Gå direkte til hovedinnholdet",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 216.0,
+        "y": 271.90625,
+        "width": 237.296875,
+        "height": 50.0
+      },
+      "name": "assistive-text",
+      "text": "Gå direkte til sekundærinnholdet",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 140.0,
+        "y": 271.90625,
+        "width": 64.796875,
+        "height": 50.0
+      },
+      "name": "AEG",
+      "text": "AEG",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 204.796875,
+        "y": 271.90625,
+        "width": 74.671875,
+        "height": 50.0
+      },
+      "name": "ASKO",
+      "text": "ASKO",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 279.46875,
+        "y": 271.90625,
+        "width": 177.796875,
+        "height": 50.0
+      },
+      "name": "Bosch_oppvaskmaskin",
+      "text": "Bosch oppvaskmaskin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 457.265625,
+        "y": 271.90625,
+        "width": 95.765625,
+        "height": 50.0
+      },
+      "name": "Electrolux",
+      "text": "Electrolux",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 553.03125,
+        "y": 271.90625,
+        "width": 77.984375,
+        "height": 50.0
+      },
+      "name": "GRAM",
+      "text": "GRAM",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 631.015625,
+        "y": 271.90625,
+        "width": 69.125,
+        "height": 50.0
+      },
+      "name": "Miele",
+      "text": "Miele",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 700.140625,
+        "y": 271.90625,
+        "width": 192.0,
+        "height": 50.0
+      },
+      "name": "Siemens_oppvaskmaskin",
+      "text": "Siemens oppvaskmaskin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 892.140625,
+        "y": 271.90625,
+        "width": 61.609375,
+        "height": 50.0
+      },
+      "name": "Test",
+      "text": "Test",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 953.75,
+        "y": 271.90625,
+        "width": 93.6875,
+        "height": 50.0
+      },
+      "name": "Whirlpool",
+      "text": "Whirlpool",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 216.0,
+        "y": 352.28125,
+        "width": 584.0,
+        "height": 26.0
+      },
+      "name": "page-title",
+      "text": "Stikkordarkiv:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 316.3125,
+        "y": 359.28125,
+        "width": 69.765625,
+        "height": 12.0
+      },
+      "name": "varmtvann",
+      "text": "varmtvann",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 216.0,
+        "y": 404.28125,
+        "width": 584.0,
+        "height": 48.75
+      },
+      "name": "Oppvaskmaskin_som_kan_kobles_til",
+      "text": "Oppvaskmaskin som kan kobles til varmtvannskranen.  Med det  kan du spare energi hvis du har tilgang",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 216.0,
+        "y": 524.578125,
+        "width": 584.0,
+        "height": 24.375
+      },
+      "name": "ASKO_oppvaskmaskin",
+      "text": "ASKO oppvaskmaskin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 230.0,
+        "y": 588.328125,
+        "width": 200.0,
+        "height": 200.0
+      },
+      "name": "size-medium",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09803921568627451,
+          0.5098039215686274,
+          0.8196078431372549,
+          1
+        ],
+        "border_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": "/bilder/asko-oppvaskmaskin.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 225.0,
+        "y": 788.328125,
+        "width": 210.0,
+        "height": 11.671875
+      },
+      "name": "wp-caption-text",
+      "text": "Kjøp Asko oppvaskmaskin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 468.375,
+        "y": 576.328125,
+        "width": 304.453125,
+        "height": 42.375
+      },
+      "name": "Asko_D54364IS,_for_innbygging,_m",
+      "text": "Asko D54364IS, for innbygging, med front i rustfritt stål",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 216.0,
+        "y": 792.703125,
+        "width": 584.0,
+        "height": 7.296875
+      },
+      "name": "Denne_modellen_kan_du_også_koble",
+      "text": "Denne modellen kan du også koble til varmtvann (om du har vannbåren varme/er tilkoblet fjernvarme), ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.0,
+        "y": 352.28125,
+        "width": 188.0,
+        "height": 52.0
+      },
+      "name": "widget-title",
+      "text": "Her kjøper du oppvaskmaskin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.0,
+        "y": 406.28125,
+        "width": 62.4375,
+        "height": 15.0
+      },
+      "name": "Whiteaway",
+      "text": "Whiteaway",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09803921568627451,
+          0.5098039215686274,
+          0.8196078431372549,
+          1
+        ],
+        "border_color": [
+          0.09803921568627451,
+          0.5098039215686274,
+          0.8196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.0,
+        "y": 501.78125,
+        "width": 188.0,
+        "height": 97.5
+      },
+      "name": "Jada,_her_får_du_oppvaskmaskin_o",
+      "text": "Jada, her får du oppvaskmaskin også i tillegg til alt mulig annet.  Maskiner fra AEG, Siemens, Bosch",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.0,
+        "y": 503.78125,
+        "width": 36.015625,
+        "height": 15.0
+      },
+      "name": "CDON",
+      "text": "CDON",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09803921568627451,
+          0.5098039215686274,
+          0.8196078431372549,
+          1
+        ],
+        "border_color": [
+          0.09803921568627451,
+          0.5098039215686274,
+          0.8196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.0,
+        "y": 620.78125,
+        "width": 101.828125,
+        "height": 15.0
+      },
+      "name": "Hvitevarer_på_nett",
+      "text": "Hvitevarer på nett",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09803921568627451,
+          0.5098039215686274,
+          0.8196078431372549,
+          1
+        ],
+        "border_color": [
+          0.09803921568627451,
+          0.5098039215686274,
+          0.8196078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_11",
+        "e_12",
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_30",
+        "e_32",
+        "e_34",
+        "e_39",
+        "e_40",
+        "e_42",
+        "e_47",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_56",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_62",
+        "e_8",
+        "e_9"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 140.0,
+        "y": 105.125,
+        "width": 1000.0,
+        "height": 694.875
+      },
+      "name": "page",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_11",
+        "e_12",
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_30",
+        "e_32",
+        "e_34",
+        "e_8",
+        "e_9"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 140.0,
+        "y": 105.125,
+        "width": 1000.0,
+        "height": 176.78125
+      },
+      "name": "branding",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.7333333333333333,
+          0.7333333333333333,
+          0.7333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 4,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_5",
+      "source_element_ids": [
+        "e_8",
+        "e_9"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 216.0,
+        "y": 107.125,
+        "width": 848.0,
+        "height": 113.59375
+      },
+      "name": "container_5",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 5,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_10",
+      "source_element_ids": [
+        "e_11",
+        "e_12"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 950.0,
+        "y": 164.125,
+        "width": 114.0,
+        "height": 34.0
+      },
+      "name": "searchform",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "right",
+        "image_src": null
+      },
+      "source_node_id": 10,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_13",
+      "source_element_ids": [
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_30",
+        "e_32",
+        "e_34"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 140.0,
+        "y": 271.90625,
+        "width": 1000.0,
+        "height": 50.0
+      },
+      "name": "access",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 13,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_35",
+      "source_element_ids": [
+        "e_39",
+        "e_40",
+        "e_42",
+        "e_47",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_56",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_62"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 140.0,
+        "y": 327.90625,
+        "width": 1000.0,
+        "height": 24.375
+      },
+      "name": "main",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 35,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_36",
+      "source_element_ids": [
+        "e_39",
+        "e_40",
+        "e_42",
+        "e_47",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 140.0,
+        "y": 352.28125,
+        "width": 1000.0,
+        "height": 447.71875
+      },
+      "name": "primary",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 36,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_38",
+      "source_element_ids": [
+        "e_39",
+        "e_40",
+        "e_42"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 216.0,
+        "y": 352.28125,
+        "width": 584.0,
+        "height": 100.75
+      },
+      "name": "page-header",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 38,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_43",
+      "source_element_ids": [
+        "e_47",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 216.0,
+        "y": 477.40625,
+        "width": 584.0,
+        "height": 322.59375
+      },
+      "name": "post-263",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 43,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_48",
+      "source_element_ids": [
+        "e_50",
+        "e_51"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 216.0,
+        "y": 579.328125,
+        "width": 228.0,
+        "height": 220.671875
+      },
+      "name": "wp-caption",
+      "style": {
+        "background_color": [
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9333333333333333,
+          1
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 48,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_55",
+      "source_element_ids": [
+        "e_56",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_62"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 876.0,
+        "y": 352.28125,
+        "width": 188.0,
+        "height": 286.0
+      },
+      "name": "text-2",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 55,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_57",
+      "source_element_ids": [
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_62"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 876.0,
+        "y": 404.28125,
+        "width": 188.0,
+        "height": 234.0
+      },
+      "name": "textwidget",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_color": [
+          0.21568627450980393,
+          0.21568627450980393,
+          0.21568627450980393,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 300,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 57,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_3",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_4",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        10.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_5",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_10",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_13",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_35",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        24.375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_36",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_38",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_43",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        24.375,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_48",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        9.0,
+        9.0,
+        9.0,
+        9.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_55",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_57",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_3",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "g_4",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "g_5",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "g_10",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "g_13",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "g_35",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_35",
+      "child_id": "g_36",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_36",
+      "child_id": "g_38",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_36",
+      "child_id": "g_43",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "g_48",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_35",
+      "child_id": "g_55",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_55",
+      "child_id": "g_57",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_0",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_1",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_2",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_8",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_9",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_11",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_12",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_15",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_16",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_18",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_20",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_22",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_24",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_26",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_28",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_30",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_32",
+      "order": 10,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_34",
+      "order": 11,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_38",
+      "child_id": "e_39",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_38",
+      "child_id": "e_40",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_38",
+      "child_id": "e_42",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_47",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "e_50",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "e_51",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_52",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_53",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_55",
+      "child_id": "e_56",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_57",
+      "child_id": "e_58",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_57",
+      "child_id": "e_59",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_57",
+      "child_id": "e_60",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_57",
+      "child_id": "e_62",
+      "order": 3,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0165",
+    "label_source": "expanded_pagegraph_structure_candidate",
+    "annotator_kind": "deterministic_pagegraph_heuristic",
+    "generator": "pagegraph_expanded_structure_v1",
+    "status": "complete",
+    "human_labels_viewed_for_target": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "limitations": [
+      "该文件是高召回结构候选，不是人工标注或最终银标准。",
+      "通用容器可能产生过度分组，必须结合截图审阅选择。"
+    ],
+    "page_graph_sha256": "64f19ec88317a07528b50d687b57e8cfffaf9094efbe34ffd1fd000673aec2f2"
+  }
+}

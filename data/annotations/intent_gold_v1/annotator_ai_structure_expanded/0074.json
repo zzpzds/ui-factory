@@ -1,0 +1,3432 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 140.0,
+        "y": 8.0,
+        "width": 99.046875,
+        "height": 39.984375
+      },
+      "name": "image_7",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://blogger.googleusercontent.com/img/a/AVvXsEhMYUtQhERAMw0riOFK9pdrTDztRcEffM5F_dud1ThM1jBPxOyO5Sho2KlOoAiRJ0GXo8aJsUHtxyotvGhPBYeP-MHAGyVMYnZgaDdPIo0q1O1CmcpYBkQ2LwcBdXIM3PrFBLvzImjvnGSsppOk90fcCGRiYOfS53RYNkrAeJQB2Z2D2qJ4u-6V_s0y=s109"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 155.0,
+        "y": 104.0,
+        "width": 430.34375,
+        "height": 15.0
+      },
+      "name": "query-info",
+      "text": "etiketine sahip yayınlar gösteriliyor",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 155.0,
+        "y": 104.0,
+        "width": 228.015625,
+        "height": 15.0
+      },
+      "name": "search-label",
+      "text": "ankara gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1042.5625,
+        "y": 104.0,
+        "width": 87.4375,
+        "height": 15.0
+      },
+      "name": "show-more",
+      "text": "Tümünü göster",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9176470588235294,
+          0.2980392156862745,
+          0.5372549019607843,
+          1
+        ],
+        "border_color": [
+          0.9176470588235294,
+          0.2980392156862745,
+          0.5372549019607843,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 150.0,
+        "y": 167.0,
+        "width": 293.328125,
+        "height": 200.0
+      },
+      "name": "post-thumb",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgMGWylxWE7PNflOCdIdUpyld3Pcq6LzciDy2HkhBLJUHdnUYnq9uOlpnAQZuIv8DDB5_6xydqhm463yh7dONvn0SBZFQilCr73qM9J2axw25i29123PHHLHTFBe83OVns5w1UVQFjIL-OqIn4rnokEZz4VE_kNz91TLeQq6cEqkuT9lrybR_9otII/w480/audi-gelin-arabasi-susleme-.jpeg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 170.0,
+        "y": 187.0,
+        "width": 253.328125,
+        "height": 22.40625
+      },
+      "name": "post-title",
+      "text": "Siyah Audi Q3 Gelin Arabası Süsleme",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 170.0,
+        "y": 219.40625,
+        "width": 253.328125,
+        "height": 13.0
+      },
+      "name": "post-date",
+      "text": "Kasım 04, 2022",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 11.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 170.0,
+        "y": 242.40625,
+        "width": 253.328125,
+        "height": 57.609375
+      },
+      "name": "post-snippet",
+      "text": "Siyah gelin arabası süsleme Bu gelin arabası süslemesinde siyah audi q3 modelini süsledik.T…",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 150.0,
+        "y": 382.0,
+        "width": 119.65625,
+        "height": 28.0
+      },
+      "name": "read-more",
+      "text": "Devamını oku »",
+      "style": {
+        "background_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 28.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 11.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 531.90625,
+        "y": 427.0,
+        "width": 216.1875,
+        "height": 36.0
+      },
+      "name": "blog1_blog-pager-older-link",
+      "text": "Diğer yayınları yükle",
+      "style": {
+        "background_color": [
+          0.9176470588235294,
+          0.2980392156862745,
+          0.5372549019607843,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 140.0,
+        "y": 543.0,
+        "width": 666.65625,
+        "height": 15.0
+      },
+      "name": "title",
+      "text": "Kategori",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 140.0,
+        "y": 573.0,
+        "width": 145.421875,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "ankara araba süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 295.421875,
+        "y": 573.0,
+        "width": 176.75,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "ankara gelin araba süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 482.171875,
+        "y": 573.0,
+        "width": 186.765625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "ankara gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 140.0,
+        "y": 603.0,
+        "width": 232.78125,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "ankara gelin arabası süsleme fiyatları",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 382.78125,
+        "y": 603.0,
+        "width": 103.390625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "araba süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 496.171875,
+        "y": 603.0,
+        "width": 160.078125,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "araba süsleme modelleri",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 666.25,
+        "y": 603.0,
+        "width": 83.375,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "araba süsü",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 140.0,
+        "y": 633.0,
+        "width": 96.0625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "araç süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 246.0625,
+        "y": 633.0,
+        "width": 172.734375,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "audi gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 428.796875,
+        "y": 633.0,
+        "width": 181.421875,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "beyaz gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 620.21875,
+        "y": 633.0,
+        "width": 175.40625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "bmw gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        61
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 140.0,
+        "y": 663.0,
+        "width": 194.765625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "chrysler gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 344.765625,
+        "y": 663.0,
+        "width": 102.015625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "düğün arabası",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_65",
+      "source_node_ids": [
+        65
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 456.78125,
+        "y": 663.0,
+        "width": 153.390625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "düğün arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        67
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 620.171875,
+        "y": 663.0,
+        "width": 166.0625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "fiat gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_69",
+      "source_node_ids": [
+        69
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 140.0,
+        "y": 693.0,
+        "width": 134.734375,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin araba süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 284.734375,
+        "y": 693.0,
+        "width": 162.734375,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin araba süsleme fiyat",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_73",
+      "source_node_ids": [
+        73
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 457.46875,
+        "y": 693.0,
+        "width": 93.375,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin arabası",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 560.84375,
+        "y": 693.0,
+        "width": 150.0625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin arabası modelleri",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 140.0,
+        "y": 723.0,
+        "width": 144.734375,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_79",
+      "source_node_ids": [
+        79
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 294.734375,
+        "y": 723.0,
+        "width": 190.75,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin arabası süsleme fiyatları",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_81",
+      "source_node_ids": [
+        81
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 495.484375,
+        "y": 723.0,
+        "width": 186.734375,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin arabası süsleme modeli",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_83",
+      "source_node_ids": [
+        83
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 140.0,
+        "y": 753.0,
+        "width": 154.75,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin arabası süslemesi",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_85",
+      "source_node_ids": [
+        85
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 304.75,
+        "y": 753.0,
+        "width": 124.71875,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin arabası süsü",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_87",
+      "source_node_ids": [
+        87
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 439.46875,
+        "y": 753.0,
+        "width": 137.40625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "gelin arabası yazıları",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_89",
+      "source_node_ids": [
+        89
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 586.875,
+        "y": 753.0,
+        "width": 170.0625,
+        "height": 30.0
+      },
+      "name": "label-name",
+      "text": "golf gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_91",
+      "source_node_ids": [
+        91
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 140.0,
+        "y": 783.0,
+        "width": 163.40625,
+        "height": 17.0
+      },
+      "name": "label-name",
+      "text": "gri gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_93",
+      "source_node_ids": [
+        93
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 313.40625,
+        "y": 783.0,
+        "width": 132.703125,
+        "height": 17.0
+      },
+      "name": "label-name",
+      "text": "honda gelin arabası",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_95",
+      "source_node_ids": [
+        95
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 456.109375,
+        "y": 783.0,
+        "width": 172.078125,
+        "height": 17.0
+      },
+      "name": "label-name",
+      "text": "jeep gelin arabası süsleme",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          0.05
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_97",
+      "source_node_ids": [
+        97
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 860.0,
+        "y": 543.0,
+        "width": 280.0,
+        "height": 15.0
+      },
+      "name": "title",
+      "text": "Follow Us",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_101",
+      "source_node_ids": [
+        101
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 860.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "name": "shape_101",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.23137254901960785,
+          0.34901960784313724,
+          0.6,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_103",
+      "source_node_ids": [
+        103
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 900.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "name": "shape_103",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0.6745098039215687,
+          0.9333333333333333,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_105",
+      "source_node_ids": [
+        105
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 940.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "name": "shape_105",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.792156862745098,
+          0.12941176470588237,
+          0.15294117647058825,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_109",
+      "source_node_ids": [
+        109
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 1020.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "name": "shape_109",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.8588235294117647,
+          0.2901960784313726,
+          0.2235294117647059,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_111",
+      "source_node_ids": [
+        111
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 1060.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "name": "shape_111",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.21176470588235294,
+          0.3137254901960784,
+          0.4117647058823529,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_113",
+      "source_node_ids": [
+        113
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 1100.0,
+        "y": 573.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "name": "shape_113",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0.4666666666666667,
+          0.7098039215686275,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_116",
+      "source_node_ids": [
+        116
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 988.4163818359375,
+        "y": 727.6507568359375,
+        "width": 29.698486328125,
+        "height": 29.698486328125
+      },
+      "name": "ww-arrow",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_120",
+      "source_node_ids": [
+        120
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 1215.0,
+        "y": 730.0,
+        "width": 40.0,
+        "height": 40.0
+      },
+      "name": "icon_120",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_radius": 50.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_0",
+      "source_element_ids": [
+        "e_101",
+        "e_103",
+        "e_105",
+        "e_109",
+        "e_111",
+        "e_113",
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_22",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_30",
+        "e_35",
+        "e_39",
+        "e_41",
+        "e_43",
+        "e_45",
+        "e_47",
+        "e_49",
+        "e_51",
+        "e_53",
+        "e_55",
+        "e_57",
+        "e_59",
+        "e_61",
+        "e_63",
+        "e_65",
+        "e_67",
+        "e_69",
+        "e_7",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_79",
+        "e_81",
+        "e_83",
+        "e_85",
+        "e_87",
+        "e_89",
+        "e_91",
+        "e_93",
+        "e_95",
+        "e_97"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 800.0
+      },
+      "name": "outer-wrapper",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_12",
+      "source_element_ids": [
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_22",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_30"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 125.0,
+        "y": 96.0,
+        "width": 1030.0,
+        "height": 367.0
+      },
+      "name": "blog1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 12,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_13",
+      "source_element_ids": [
+        "e_14",
+        "e_15",
+        "e_16"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 140.0,
+        "y": 96.0,
+        "width": 1000.0,
+        "height": 31.0
+      },
+      "name": "querymessage",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 13,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_20",
+      "source_element_ids": [
+        "e_22",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 150.0,
+        "y": 167.0,
+        "width": 293.328125,
+        "height": 200.0
+      },
+      "name": "post-image-wrap",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 20,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_21",
+      "source_element_ids": [
+        "e_22",
+        "e_25",
+        "e_26",
+        "e_27"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 150.0,
+        "y": 167.0,
+        "width": 293.328125,
+        "height": 200.0
+      },
+      "name": "post-image-link",
+      "style": {
+        "background_color": [
+          0.9764705882352941,
+          0.9764705882352941,
+          0.9764705882352941,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 21,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_24",
+      "source_element_ids": [
+        "e_25",
+        "e_26",
+        "e_27"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 170.0,
+        "y": 187.0,
+        "width": 253.328125,
+        "height": 160.0
+      },
+      "name": "post-info-inner",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 24,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_33",
+      "source_element_ids": [
+        "e_101",
+        "e_103",
+        "e_105",
+        "e_109",
+        "e_111",
+        "e_113",
+        "e_35",
+        "e_39",
+        "e_41",
+        "e_43",
+        "e_45",
+        "e_47",
+        "e_49",
+        "e_51",
+        "e_53",
+        "e_55",
+        "e_57",
+        "e_59",
+        "e_61",
+        "e_63",
+        "e_65",
+        "e_67",
+        "e_69",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_79",
+        "e_81",
+        "e_83",
+        "e_85",
+        "e_87",
+        "e_89",
+        "e_91",
+        "e_93",
+        "e_95",
+        "e_97"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 140.0,
+        "y": 513.0,
+        "width": 1000.0,
+        "height": 287.0
+      },
+      "name": "footer-sec",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 33,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_34",
+      "source_element_ids": [
+        "e_35",
+        "e_39",
+        "e_41",
+        "e_43",
+        "e_45",
+        "e_47",
+        "e_49",
+        "e_51",
+        "e_53",
+        "e_55",
+        "e_57",
+        "e_59",
+        "e_61",
+        "e_63",
+        "e_65",
+        "e_67",
+        "e_69",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_79",
+        "e_81",
+        "e_83",
+        "e_85",
+        "e_87",
+        "e_89",
+        "e_91",
+        "e_93",
+        "e_95"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 140.0,
+        "y": 543.0,
+        "width": 666.65625,
+        "height": 257.0
+      },
+      "name": "label1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 34,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_37",
+      "source_element_ids": [
+        "e_39",
+        "e_41",
+        "e_43",
+        "e_45",
+        "e_47",
+        "e_49",
+        "e_51",
+        "e_53",
+        "e_55",
+        "e_57",
+        "e_59",
+        "e_61",
+        "e_63",
+        "e_65",
+        "e_67",
+        "e_69",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_79",
+        "e_81",
+        "e_83",
+        "e_85",
+        "e_87",
+        "e_89",
+        "e_91",
+        "e_93",
+        "e_95"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 140.0,
+        "y": 573.0,
+        "width": 666.65625,
+        "height": 227.0
+      },
+      "name": "label-list",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 37,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_96",
+      "source_element_ids": [
+        "e_101",
+        "e_103",
+        "e_105",
+        "e_109",
+        "e_111",
+        "e_113",
+        "e_97"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 860.0,
+        "y": 543.0,
+        "width": 280.0,
+        "height": 63.0
+      },
+      "name": "linklist75",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 96,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_99",
+      "source_element_ids": [
+        "e_101",
+        "e_103",
+        "e_105",
+        "e_109",
+        "e_111",
+        "e_113"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 860.0,
+        "y": 573.0,
+        "width": 280.0,
+        "height": 33.0
+      },
+      "name": "social-footer",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 99,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_114",
+      "source_element_ids": [
+        "e_116",
+        "e_120"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 979.765625,
+        "y": 720.0,
+        "width": 280.234375,
+        "height": 60.0
+      },
+      "name": "whatsapp-widget",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 114,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_0",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_12",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_13",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        8.0,
+        10.0,
+        8.0,
+        10.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_20",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_21",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_24",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_33",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        30.0,
+        0.0,
+        30.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_34",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_37",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_96",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_99",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_114",
+      "mode": "HORIZONTAL",
+      "gap": 20.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_0",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_12",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "g_13",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "g_20",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_21",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_21",
+      "child_id": "g_24",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_33",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "g_34",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_34",
+      "child_id": "g_37",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "g_96",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_96",
+      "child_id": "g_99",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_114",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_15",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_16",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_21",
+      "child_id": "e_22",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_24",
+      "child_id": "e_25",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_24",
+      "child_id": "e_26",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_24",
+      "child_id": "e_27",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_28",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_30",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_34",
+      "child_id": "e_35",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_39",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_41",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_43",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_45",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_47",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_49",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_51",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_53",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_55",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_57",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_59",
+      "order": 10,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_61",
+      "order": 11,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_63",
+      "order": 12,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_65",
+      "order": 13,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_67",
+      "order": 14,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_69",
+      "order": 15,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_71",
+      "order": 16,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_73",
+      "order": 17,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_75",
+      "order": 18,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_77",
+      "order": 19,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_79",
+      "order": 20,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_81",
+      "order": 21,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_83",
+      "order": 22,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_85",
+      "order": 23,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_87",
+      "order": 24,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_89",
+      "order": 25,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_91",
+      "order": 26,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_93",
+      "order": 27,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_95",
+      "order": 28,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_96",
+      "child_id": "e_97",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_99",
+      "child_id": "e_101",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_99",
+      "child_id": "e_103",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_99",
+      "child_id": "e_105",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_99",
+      "child_id": "e_109",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_99",
+      "child_id": "e_111",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_99",
+      "child_id": "e_113",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_114",
+      "child_id": "e_116",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_114",
+      "child_id": "e_120",
+      "order": 1,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0074",
+    "label_source": "expanded_pagegraph_structure_candidate",
+    "annotator_kind": "deterministic_pagegraph_heuristic",
+    "generator": "pagegraph_expanded_structure_v1",
+    "status": "complete",
+    "human_labels_viewed_for_target": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "limitations": [
+      "该文件是高召回结构候选，不是人工标注或最终银标准。",
+      "通用容器可能产生过度分组，必须结合截图审阅选择。"
+    ],
+    "page_graph_sha256": "382ed2326bcd5500acd10a6a0a7bfee3b75ccb78da7e5f167cff6894fe2a98bc"
+  }
+}

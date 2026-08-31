@@ -225,6 +225,26 @@ def test_assignment_can_configure_one_annotator_and_lock_sample(tmp_path):
         )
 
 
+def test_read_only_reference_cannot_be_saved_or_rewritten(annotation_store):
+    annotation_store.read_only_sample_ids = {"sample-1"}
+    path = annotation_store.annotation_path("annotator_a", "sample-1")
+    before = path.read_bytes()
+    payload = _valid_annotation()
+    payload["provenance"].update({
+        "reference_tier": "ai_silver",
+        "label_source": "ai_multiview_silver",
+        "annotator_kind": "ai_agent_pipeline",
+        "human_review_performed": False,
+    })
+
+    with pytest.raises(ValueError, match="已冻结为参考标注"):
+        annotation_store.save(
+            "annotator_a", "sample-1", payload, submit=True
+        )
+
+    assert path.read_bytes() == before
+
+
 def test_draft_saves_even_when_incomplete(annotation_store):
     result = annotation_store.save(
         "annotator_a",

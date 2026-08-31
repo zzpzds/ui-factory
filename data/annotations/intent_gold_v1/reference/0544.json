@@ -1,0 +1,4288 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        4
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 433.5,
+        "y": 4.0,
+        "width": 177.25,
+        "height": 16.0
+      },
+      "name": "жулики_из_Маркетс_Ком",
+      "text": "жулики из Маркетс Ком",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 499.671875,
+        "y": 64.296875,
+        "width": 164.671875,
+        "height": 16.0
+      },
+      "name": "Пишите_мне_на_почту:",
+      "text": "Пишите мне на почту:",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.011764705882352941,
+          0.00392156862745098,
+          0.00392156862745098,
+          1
+        ],
+        "border_color": [
+          0.011764705882352941,
+          0.00392156862745098,
+          0.00392156862745098,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 667.96875,
+        "y": 64.296875,
+        "width": 112.359375,
+        "height": 16.0
+      },
+      "name": "cf_email",
+      "text": "[email protected]",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          0.25098039215686274,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          0.25098039215686274,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 90.59375,
+        "width": 982.0,
+        "height": 37.6875
+      },
+      "name": "top-header",
+      "text": "Видео с обзорами мошеннической деятельности",
+      "style": {
+        "background_color": [
+          0.9176470588235294,
+          0.9450980392156862,
+          0.9686274509803922,
+          1
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 27.0,
+        "font_weight": 900,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 621.5,
+        "y": 130.28125,
+        "width": 37.0,
+        "height": 24.0
+      },
+      "name": "2023",
+      "text": "2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 501.015625,
+        "y": 151.578125,
+        "width": 12.890625,
+        "height": 24.0
+      },
+      "name": "I",
+      "text": "I",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 513.90625,
+        "y": 150.578125,
+        "width": 18.59375,
+        "height": 25.0
+      },
+      "name": "II",
+      "text": "II",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 532.5,
+        "y": 150.578125,
+        "width": 23.875,
+        "height": 25.0
+      },
+      "name": "III",
+      "text": "III",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 556.375,
+        "y": 150.578125,
+        "width": 24.640625,
+        "height": 25.0
+      },
+      "name": "IV",
+      "text": "IV",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 581.015625,
+        "y": 150.578125,
+        "width": 19.34375,
+        "height": 25.0
+      },
+      "name": "V",
+      "text": "V",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 600.359375,
+        "y": 150.578125,
+        "width": 24.640625,
+        "height": 25.0
+      },
+      "name": "VI",
+      "text": "VI",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 625.0,
+        "y": 151.578125,
+        "width": 30.578125,
+        "height": 24.0
+      },
+      "name": "VII",
+      "text": "VII",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 655.578125,
+        "y": 151.578125,
+        "width": 33.140625,
+        "height": 24.0
+      },
+      "name": "VIII",
+      "text": "VIII",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 688.71875,
+        "y": 151.578125,
+        "width": 22.5625,
+        "height": 24.0
+      },
+      "name": "IX",
+      "text": "IX",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 711.28125,
+        "y": 151.578125,
+        "width": 17.671875,
+        "height": 24.0
+      },
+      "name": "X",
+      "text": "X",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 728.953125,
+        "y": 151.578125,
+        "width": 22.5625,
+        "height": 24.0
+      },
+      "name": "XI",
+      "text": "XI",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 751.515625,
+        "y": 151.578125,
+        "width": 27.453125,
+        "height": 24.0
+      },
+      "name": "XII",
+      "text": "XII",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 308.625,
+        "y": 172.5625,
+        "width": 15.859375,
+        "height": 25.0
+      },
+      "name": "1",
+      "text": "1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 324.484375,
+        "y": 172.5625,
+        "width": 15.859375,
+        "height": 25.0
+      },
+      "name": "2",
+      "text": "2",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 340.34375,
+        "y": 172.5625,
+        "width": 15.859375,
+        "height": 25.0
+      },
+      "name": "3",
+      "text": "3",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 356.203125,
+        "y": 173.5625,
+        "width": 15.25,
+        "height": 24.0
+      },
+      "name": "4",
+      "text": "4",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 371.453125,
+        "y": 172.5625,
+        "width": 15.859375,
+        "height": 25.0
+      },
+      "name": "5",
+      "text": "5",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 387.3125,
+        "y": 172.5625,
+        "width": 15.859375,
+        "height": 25.0
+      },
+      "name": "6",
+      "text": "6",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 403.171875,
+        "y": 172.5625,
+        "width": 15.859375,
+        "height": 25.0
+      },
+      "name": "7",
+      "text": "7",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 419.03125,
+        "y": 172.5625,
+        "width": 15.859375,
+        "height": 25.0
+      },
+      "name": "8",
+      "text": "8",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 434.890625,
+        "y": 172.5625,
+        "width": 15.859375,
+        "height": 25.0
+      },
+      "name": "9",
+      "text": "9",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 450.75,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "10",
+      "text": "10",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 474.453125,
+        "y": 172.5625,
+        "width": 22.84375,
+        "height": 25.0
+      },
+      "name": "11",
+      "text": "11",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 497.296875,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "12",
+      "text": "12",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 521.0,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "13",
+      "text": "13",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 544.703125,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "14",
+      "text": "14",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 568.40625,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "15",
+      "text": "15",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 592.109375,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "16",
+      "text": "16",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 615.8125,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "17",
+      "text": "17",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        48
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 639.515625,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "18",
+      "text": "18",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 663.21875,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "19",
+      "text": "19",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 686.921875,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "20",
+      "text": "20",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 710.625,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "21",
+      "text": "21",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 734.328125,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "22",
+      "text": "22",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 758.03125,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "23",
+      "text": "23",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        54
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 781.734375,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "24",
+      "text": "24",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 805.4375,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "25",
+      "text": "25",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 829.140625,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "26",
+      "text": "26",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 852.84375,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "27",
+      "text": "27",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 876.546875,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "28",
+      "text": "28",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 900.25,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "29",
+      "text": "29",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 923.953125,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "30",
+      "text": "30",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        61
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 947.65625,
+        "y": 172.5625,
+        "width": 23.703125,
+        "height": 25.0
+      },
+      "name": "31",
+      "text": "31",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.7,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 205.546875,
+        "width": 982.0,
+        "height": 20.296875
+      },
+      "name": "ProofFX_-_МОШЕННИКИ_!!!_Видео-об",
+      "text": "ProofFX - МОШЕННИКИ !!! Видео-обзор отзывов об этом forex дилинговом центре",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        64
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 225.84375,
+        "width": 982.0,
+        "height": 20.296875
+      },
+      "name": "TeleTrade-Dj_Com_-_в_новостях_на",
+      "text": "TeleTrade-Dj Com - в новостях на ТВ про РАЗВОДНЯК (видео разбор)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_65",
+      "source_node_ids": [
+        65
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 246.140625,
+        "width": 982.0,
+        "height": 20.296875
+      },
+      "name": "Binarium_-_это_МАХИНАТОР_!!!_И_р",
+      "text": "Binarium - это МАХИНАТОР !!! И регламенты у него обманные",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 266.4375,
+        "width": 982.0,
+        "height": 20.296875
+      },
+      "name": "hqbroker_com_-_жалоба_форекс_тре",
+      "text": "hqbroker com - жалоба форекс трейдера (видео с объективным отзывом)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        67
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 286.734375,
+        "width": 982.0,
+        "height": 20.296875
+      },
+      "name": "Трейд_12_-_достоверный_отзыв_ост",
+      "text": "Трейд 12 - достоверный отзыв оставленного без денег forex игрока (видео обзор)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_68",
+      "source_node_ids": [
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 307.03125,
+        "width": 982.0,
+        "height": 20.296875
+      },
+      "name": "ТелеТрейд_Ру_-_каким_образом_МОШ",
+      "text": "ТелеТрейд Ру - каким образом МОШЕННИКИ грабят народ (видео)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_69",
+      "source_node_ids": [
+        69
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 327.328125,
+        "width": 982.0,
+        "height": 20.296875
+      },
+      "name": "Гермес_Лтд_-_онлайн-переписка_МО",
+      "text": "Гермес Лтд - онлайн-переписка МОШЕННИКОВ и Администрации (видео)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_color": [
+          0.24313725490196078,
+          0.5372549019607843,
+          0.9764705882352941,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_73",
+      "source_node_ids": [
+        73
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 149.0,
+        "y": 358.875,
+        "width": 982.0,
+        "height": 2.0
+      },
+      "name": "shape_73",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_74",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 149.0,
+        "y": 372.125,
+        "width": 982.0,
+        "height": 33.296875
+      },
+      "name": "Контактная_информация",
+      "text": "Контактная информация",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "text_color": [
+          0.9372549019607843,
+          0.9529411764705882,
+          0.9686274509803922,
+          1
+        ],
+        "border_color": [
+          0.9372549019607843,
+          0.9529411764705882,
+          0.9686274509803922,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 23.0,
+        "font_weight": 500,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 520.34375,
+        "y": 376.125,
+        "width": 518.421875,
+        "height": 25.0
+      },
+      "name": "ОФИЦИАЛЬНОГО_веб-ресурса_Markets",
+      "text": "ОФИЦИАЛЬНОГО веб-ресурса Markets COM",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9372549019607843,
+          0.9529411764705882,
+          0.9686274509803922,
+          1
+        ],
+        "border_color": [
+          0.9372549019607843,
+          0.9529411764705882,
+          0.9686274509803922,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 23.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_76",
+      "source_node_ids": [
+        76
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 888.546875,
+        "y": 411.421875,
+        "width": 184.3125,
+        "height": 16.0
+      },
+      "name": "(островной_офшор)",
+      "text": "(островной офшор)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 888.546875,
+        "y": 411.421875,
+        "width": 47.5625,
+        "height": 16.0
+      },
+      "name": "Кипра",
+      "text": "Кипра",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_78",
+      "source_node_ids": [
+        78
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 249.609375,
+        "y": 431.71875,
+        "width": 258.25,
+        "height": 16.0
+      },
+      "name": "В_РФ_деятельность_осуществляется",
+      "text": "В РФ деятельность осуществляется",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 511.484375,
+        "y": 431.71875,
+        "width": 115.640625,
+        "height": 16.0
+      },
+      "name": "НЕЗАКОННО_!!!",
+      "text": "НЕЗАКОННО !!!",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_81",
+      "source_node_ids": [
+        81
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 484.703125,
+        "y": 452.015625,
+        "width": 202.203125,
+        "height": 16.0
+      },
+      "name": "ОТСУТСТВУЕТ_(только_чат)",
+      "text": "ОТСУТСТВУЕТ (только чат)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_82",
+      "source_node_ids": [
+        82
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 188.46875,
+        "y": 472.3125,
+        "width": 448.640625,
+        "height": 16.0
+      },
+      "name": "ОФИЦИАЛЬНЫЙ_адрес_Markets_Com_(S",
+      "text": "ОФИЦИАЛЬНЫЙ адрес Markets Com (Safecap Investments Ltd):",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_03"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_84",
+      "source_node_ids": [
+        84
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 178.453125,
+        "y": 498.609375,
+        "width": 923.078125,
+        "height": 301.390625
+      },
+      "name": "map93912",
+      "text": "Загружаю карту...",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_4",
+        "e_7",
+        "e_11"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 149.0,
+        "y": 2.0,
+        "width": 982.0,
+        "height": 80.59375
+      },
+      "name": "text-center",
+      "style": {
+        "background_color": [
+          0.9176470588235294,
+          0.9450980392156862,
+          0.9686274509803922,
+          1
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 2,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_13",
+      "source_element_ids": [
+        "e_14",
+        "e_16",
+        "e_18",
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_48",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61",
+        "e_63",
+        "e_64",
+        "e_65",
+        "e_66",
+        "e_67",
+        "e_68",
+        "e_69"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 145.0,
+        "y": 84.59375,
+        "width": 990.0,
+        "height": 265.03125
+      },
+      "name": "contentbez-polei",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 13,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_17",
+      "source_element_ids": [
+        "e_18",
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 149.0,
+        "y": 152.578125,
+        "width": 982.0,
+        "height": 21.984375
+      },
+      "name": "mesyac",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 17,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_30",
+      "source_element_ids": [
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_48",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 149.0,
+        "y": 174.5625,
+        "width": 982.0,
+        "height": 21.984375
+      },
+      "name": "dni",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 30,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_62",
+      "source_element_ids": [
+        "e_63",
+        "e_64",
+        "e_65",
+        "e_66",
+        "e_67",
+        "e_68",
+        "e_69"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 149.0,
+        "y": 205.546875,
+        "width": 982.0,
+        "height": 142.078125
+      },
+      "name": "article-st",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 62,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_72",
+      "source_element_ids": [
+        "e_73",
+        "e_74",
+        "e_75",
+        "e_76",
+        "e_77",
+        "e_78",
+        "e_80",
+        "e_81",
+        "e_82",
+        "e_84"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 149.0,
+        "y": 358.875,
+        "width": 982.0,
+        "height": 441.125
+      },
+      "name": "text-center",
+      "style": {
+        "background_color": [
+          0.9176470588235294,
+          0.9450980392156862,
+          0.9686274509803922,
+          1
+        ],
+        "text_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_color": [
+          0.03529411764705882,
+          0.043137254901960784,
+          0.047058823529411764,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.5,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "source_node_id": 72,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_2",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_13",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        2.0,
+        4.0,
+        2.0,
+        4.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_17",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_30",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_62",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_72",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_13",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_17",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_30",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_62",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_72",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_4",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_7",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_11",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_16",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_18",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_19",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_21",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_22",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_23",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_24",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_25",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_26",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_27",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_28",
+      "order": 10,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_29",
+      "order": 11,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_31",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_32",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_33",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_34",
+      "order": 30,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_35",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_36",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_37",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_38",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_39",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_40",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_41",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_42",
+      "order": 10,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_43",
+      "order": 11,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_44",
+      "order": 12,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_45",
+      "order": 13,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_46",
+      "order": 14,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_47",
+      "order": 15,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_48",
+      "order": 16,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_49",
+      "order": 17,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_50",
+      "order": 18,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_51",
+      "order": 19,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_52",
+      "order": 20,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_53",
+      "order": 21,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_54",
+      "order": 22,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_55",
+      "order": 23,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_56",
+      "order": 24,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_57",
+      "order": 25,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_58",
+      "order": 26,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_59",
+      "order": 27,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_60",
+      "order": 28,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_61",
+      "order": 29,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_62",
+      "child_id": "e_63",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_62",
+      "child_id": "e_64",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_62",
+      "child_id": "e_65",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_62",
+      "child_id": "e_66",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_62",
+      "child_id": "e_67",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_62",
+      "child_id": "e_68",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_62",
+      "child_id": "e_69",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_73",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_74",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_75",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_76",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_77",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_78",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_80",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_81",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_82",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_72",
+      "child_id": "e_84",
+      "order": 9,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.243,
+          0.537,
+          0.976,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_35",
+        "e_36",
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_48",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61",
+        "e_63",
+        "e_64",
+        "e_65",
+        "e_66",
+        "e_67",
+        "e_68",
+        "e_69"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.035,
+          0.043,
+          0.047,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_14",
+        "e_16",
+        "e_24",
+        "e_34",
+        "e_78",
+        "e_81",
+        "e_82",
+        "e_84"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.502,
+          0.502,
+          0.502,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_18",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29"
+      ],
+      "name": "文字色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_04",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          1.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_4",
+        "e_76",
+        "e_77",
+        "e_80"
+      ],
+      "name": "文字色/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 15.7,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_35",
+        "e_36",
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_48",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.5,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_18",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29",
+        "e_63",
+        "e_64",
+        "e_65",
+        "e_66",
+        "e_67",
+        "e_68",
+        "e_69",
+        "e_76",
+        "e_84"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_03",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.5,
+        "font_weight": 700
+      },
+      "member_ids": [
+        "e_11",
+        "e_16",
+        "e_24",
+        "e_34",
+        "e_4",
+        "e_7",
+        "e_77",
+        "e_78",
+        "e_80",
+        "e_81",
+        "e_82"
+      ],
+      "name": "文字样式/03",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "0544",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "expanded",
+    "visual_review": {
+      "sample_id": "0544",
+      "quality_status": "accepted",
+      "observed_page_type": "archive_index_and_contact_information_page",
+      "primary_layout": "narrow_centered_single_column_with_stacked_sections",
+      "visible_regions": [
+        "notice_and_contact_link",
+        "archive_title",
+        "year_month_day_navigation",
+        "article_link_list",
+        "contact_information_banner",
+        "contact_details",
+        "unloaded_map_status"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate supplies six useful regions: the upper notice, central content wrapper, month navigation, day navigation, article-link block, and lower contact-information area. It is sufficient as a silver-label starting point, but all groups have low-confidence container semantics, several layouts remain FREE, and the unloaded map must stay an unresolved visual asset rather than an inferred map component.",
+      "reviewer_id": "codex_visual_reviewer_2"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_2"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0544.json",
+        "sha256": "67252c07b8e2ef092335c0f34c8af4ddaaa5f49fb75b823f57d5fcdc2c22cd6e"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/0544.json",
+        "sha256": "88985d6fd9fd1ba198504b95487a8bfc9e90eb0ac2bbdfa10866da86048cacd5"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_02.json",
+        "sha256": "1d332b80a04a3b01f33f3e749aa2231256f086c89c67ae72e7cdca009bbcba01"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/0544.json",
+        "sha256": "190b4491e9c8b5da027efe47af0c6c801b6b84219464bbedaf1ff0f20f0ed96b"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/0544/screenshot.png",
+      "screenshot_sha256": "b28398ce228437f4605c13722931581299b714575c31cd63ef2a40add18a631e",
+      "page_graph_path": "data/processed/0544/page_graph.json",
+      "page_graph_sha256": "5f17fe036be92163eb54e3ffa48c04a1802ff4d7c842fcc4b377d8091d06ea21"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-# Design Intent 人工标注协议 v1.1
+# Design Intent 标注协议 v1.2
 
 ## 目标
 
@@ -8,6 +8,20 @@
 > 如果该页面需要交给设计师继续编辑，哪些对象应独立保留，哪些对象应形成组件，组件应如何布局和复用样式？
 
 标注者可查看截图、实际页面和 PageGraph，但第一轮不得查看 `weak_intent.json`。
+
+## 当前数据集执行状态
+
+本协议保留人工标注规范，但当前 DesignIntent Reference v1 并未对新增 50 页执行
+人工逐项标注。当前正式参考集为：
+
+- 10 页 `human_ai_adjudicated_gold`：单名人工标注者以人工底稿结合 AI 差异提示
+  后定稿；技术来源名沿用历史命名，但不是独立 adjudication；
+- 50 页 `ai_multiview_silver`：AI 基于截图与 PageGraph 生成，无人工逐项复核；
+- 60 页均通过只读工作台查看，不能在 API 或前端改写来源。
+
+因此，下文“双标注与裁决”“设计师 SOP”和人工一致性门槛是未来新增真人标注时的
+协议，不得倒推为当前 50 页已经完成。当前 AI 流程见
+`docs/thesis/18_ai_multiview_silver_protocol.md`。
 
 ## 标注流程
 
@@ -104,6 +118,11 @@
 
 两个值相同不必然代表同一个 token。只有当它们在设计上应同步修改时才归为同一 token。
 
+Reference v1 的 10 页既有 Human Gold 在本步骤执行前已完成，均没有可审计的 token
+复核记录；空列表不能解释为显式负例，也不计算 Human Gold token F1。50 页 AI
+Silver 使用至少 3 个成员、分类型截断和每页最多 12 个的 computed-style proxy，
+与本人工协议不等价。未来新增人工 token 与 AI proxy 混用前，必须统一候选和截断规则。
+
 ## 双标注与裁决
 
 1. 标注者 A、B 独立完成，不交换标注结果；
@@ -124,10 +143,10 @@ python scripts/serve_intent_annotation.py \
   --port 8765
 ```
 
-Pilot 浏览器访问 `http://127.0.0.1:8765`。独立盲标条件只读取 assignment 中声明
-的 PageGraph 和截图，不加载 `weak_intent.json`，也不展示另一位标注者或 AI 的
-结果。正式 Gold 的 AI 辅助条件按
-`docs/thesis/17_ai_assisted_annotation_protocol.md` 加载独立预标注；盲标对照仍隐藏。
+Pilot 浏览器访问 `http://127.0.0.1:8765`。历史独立盲标条件只读取 assignment 中
+声明的 PageGraph 和截图，不加载 `weak_intent.json`，也不展示另一位标注者或 AI
+结果。当前 Reference v1 在端口 8766 以只读方式展示，并直接标明 `人工复核 Gold`
+或 `AI 多阶段银标`。
 
 推荐操作顺序：
 
@@ -268,4 +287,5 @@ python scripts/evaluate_annotation_agreement.py \
 若无法招募第二位真人设计师，可以增加独立 AI 代理标注用于分歧发现和人工
 复核，但不得写入 `annotator_b/` 或伪装为真人结果，也不得将人机一致性表述为
 双人标注者一致性。AI 轨道的隔离、来源记录和论文披露要求见
-`docs/thesis/12_ai_proxy_annotation_protocol.md`。
+`docs/thesis/12_ai_proxy_annotation_protocol.md`。若完全取消新增页的人工复核，输出
+只能定义为 AI Silver，适用边界见 `docs/thesis/18_ai_multiview_silver_protocol.md`。

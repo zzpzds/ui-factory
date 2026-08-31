@@ -1,0 +1,2368 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 1103.0,
+        "y": 8.5,
+        "width": 122.0,
+        "height": 37.0
+      },
+      "name": "s",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 55.0,
+        "y": 81.0,
+        "width": 280.0,
+        "height": 92.75
+      },
+      "name": "header1_headerimg",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "//1.bp.blogspot.com/-acKTv1YuN1s/WznMssrTs3I/AAAAAAAAMvY/aol25AnQIgQu2cFw49g2KQuoX2uQvxtZwCK4BGAYYCw/s1600/Permainan-Bola-Voli.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 1165.0,
+        "y": 206.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "name": "rdn-icon",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.996078431372549,
+          0.8196078431372549,
+          0.18823529411764706,
+          1
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 295.0,
+        "width": 32.015625,
+        "height": 14.0
+      },
+      "name": "bhome",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 87.015625,
+        "y": 295.0,
+        "width": 33.34375,
+        "height": 14.0
+      },
+      "name": "CPNS",
+      "text": "CPNS",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 120.359375,
+        "y": 295.0,
+        "width": 247.921875,
+        "height": 14.0
+      },
+      "name": "Pendaftaran_CPNS_Di_Semarang_Tel",
+      "text": "Pendaftaran CPNS Di Semarang Telah Dibuka",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_color": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 334.0,
+        "width": 723.109375,
+        "height": 45.5
+      },
+      "name": "post-title",
+      "text": "Pendaftaran CPNS Di Semarang Telah Dibuka",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 35.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 389.5,
+        "width": 66.703125,
+        "height": 14.0
+      },
+      "name": "fn",
+      "text": "by",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 71.015625,
+        "y": 389.5,
+        "width": 50.6875,
+        "height": 14.0
+      },
+      "name": "purnama",
+      "text": "purnama",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 121.703125,
+        "y": 389.5,
+        "width": 155.703125,
+        "height": 14.0
+      },
+      "name": "published",
+      "text": "Wednesday, August 27, 2014",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 427.09375,
+        "width": 312.90625,
+        "height": 17.0
+      },
+      "name": "Pendaftaran_CPNS_Di_Semarang_Tel",
+      "text": "Pendaftaran CPNS Di Semarang Telah Dibuka",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 754.40625,
+        "y": 449.59375,
+        "width": 41.6875,
+        "height": 17.0
+      },
+      "name": "CPNS",
+      "text": "CPNS",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.703125,
+        "y": 472.09375,
+        "width": 72.546875,
+        "height": 17.0
+      },
+      "name": "Volimaniak",
+      "text": "Volimaniak",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 560.09375,
+        "width": 779.984375,
+        "height": 112.5
+      },
+      "name": "Pendaftaran_CPNS_di_Semarang_di_",
+      "text": "Pendaftaran CPNS di Semarang di mulai tanggal 25 agustus 2014 sampai dengan 3 september 2014, bagi a",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        54
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 284.984375,
+        "y": 672.59375,
+        "width": 320.0,
+        "height": 127.40625
+      },
+      "name": "image_54",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "//4.bp.blogspot.com/-LoatuHkGFtk/U3IYcoIGWXI/AAAAAAAAAQE/nXeH48CWBrs/s1600/CPNS%2B2014.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 885.703125,
+        "y": 291.0,
+        "width": 339.296875,
+        "height": 34.0
+      },
+      "name": "title",
+      "text": "Social",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 900.703125,
+        "y": 357.0,
+        "width": 50.609375,
+        "height": 18.0
+      },
+      "name": "social-count",
+      "text": "187,255",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 900,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1062.15625,
+        "y": 357.0,
+        "width": 147.84375,
+        "height": 21.0
+      },
+      "name": "social-text",
+      "text": "Follow us on",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        64
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1144.640625,
+        "y": 359.0,
+        "width": 65.359375,
+        "height": 16.0
+      },
+      "name": "Facebook",
+      "text": "Facebook",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 900,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 900.703125,
+        "y": 386.0,
+        "width": 42.0625,
+        "height": 18.0
+      },
+      "name": "social-count",
+      "text": "11,695",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 900,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        67
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1047.875,
+        "y": 386.0,
+        "width": 162.125,
+        "height": 21.0
+      },
+      "name": "social-text",
+      "text": "Subscribe us on",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_68",
+      "source_node_ids": [
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1152.171875,
+        "y": 388.0,
+        "width": 57.828125,
+        "height": 16.0
+      },
+      "name": "YouTube",
+      "text": "YouTube",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 900,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_79",
+      "source_node_ids": [
+        79
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 885.703125,
+        "y": 491.0,
+        "width": 339.296875,
+        "height": 21.0
+      },
+      "name": "widget-content",
+      "text": "6/randomposts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_82",
+      "source_node_ids": [
+        82
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 885.703125,
+        "y": 542.0,
+        "width": 339.296875,
+        "height": 21.0
+      },
+      "name": "widget-content",
+      "text": "5/recentposts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_85",
+      "source_node_ids": [
+        85
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 885.703125,
+        "y": 593.0,
+        "width": 339.296875,
+        "height": 34.0
+      },
+      "name": "title",
+      "text": "FOLLOW THIS BLOG",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_89",
+      "source_node_ids": [
+        89
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 885.703125,
+        "y": 667.0,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "image_89",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "//images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=8e9a192c-5c6a-4553-8b79-ac3369a933b2"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_91",
+      "source_node_ids": [
+        91
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 1192.0,
+        "y": 704.0,
+        "width": 20.0,
+        "height": 30.0
+      },
+      "name": "back-to-top",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.09019607843137255,
+          0.09019607843137255,
+          0.09019607843137255,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_20",
+      "source_element_ids": [
+        "e_31",
+        "e_33",
+        "e_34",
+        "e_36",
+        "e_39",
+        "e_42",
+        "e_45",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_54",
+        "e_58",
+        "e_62",
+        "e_63",
+        "e_64",
+        "e_66",
+        "e_67",
+        "e_68",
+        "e_79",
+        "e_82",
+        "e_85",
+        "e_89"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 291.0,
+        "width": 1170.0,
+        "height": 509.0
+      },
+      "name": "content-wrapper",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 20,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_27",
+      "source_element_ids": [
+        "e_31",
+        "e_33",
+        "e_34",
+        "e_36",
+        "e_39",
+        "e_42",
+        "e_45",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_54"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 291.0,
+        "width": 779.984375,
+        "height": 509.0
+      },
+      "name": "container_27",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 27,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_28",
+      "source_element_ids": [
+        "e_31",
+        "e_33",
+        "e_34",
+        "e_36",
+        "e_39",
+        "e_42",
+        "e_45"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 291.0,
+        "width": 779.984375,
+        "height": 114.09375
+      },
+      "name": "post-header",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 28,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_29",
+      "source_element_ids": [
+        "e_31",
+        "e_33",
+        "e_34"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 291.0,
+        "width": 779.984375,
+        "height": 33.0
+      },
+      "name": "breadcrumbs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 29,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_37",
+      "source_element_ids": [
+        "e_39",
+        "e_42",
+        "e_45"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 389.5,
+        "width": 779.984375,
+        "height": 15.59375
+      },
+      "name": "post-meta",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 37,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_46",
+      "source_element_ids": [
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_54"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 55.0,
+        "y": 425.09375,
+        "width": 779.984375,
+        "height": 374.90625
+      },
+      "name": "card_46",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 46,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_48",
+      "source_element_ids": [
+        "e_49",
+        "e_50",
+        "e_51"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 425.09375,
+        "width": 779.984375,
+        "height": 112.5
+      },
+      "name": "~_Pendaftaran_CPNS_2014_sudah_mu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_color": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": null
+      },
+      "source_node_id": 48,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_55",
+      "source_element_ids": [
+        "e_58",
+        "e_62",
+        "e_63",
+        "e_64",
+        "e_66",
+        "e_67",
+        "e_68",
+        "e_79",
+        "e_82",
+        "e_85",
+        "e_89"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 885.703125,
+        "y": 291.0,
+        "width": 339.296875,
+        "height": 448.0
+      },
+      "name": "sidebar-wrapper",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 55,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_57",
+      "source_element_ids": [
+        "e_58",
+        "e_62",
+        "e_63",
+        "e_64",
+        "e_66",
+        "e_67",
+        "e_68"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 885.703125,
+        "y": 291.0,
+        "width": 339.296875,
+        "height": 126.0
+      },
+      "name": "html4",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 57,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_60",
+      "source_element_ids": [
+        "e_62",
+        "e_63",
+        "e_64",
+        "e_66",
+        "e_67",
+        "e_68"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 885.703125,
+        "y": 345.0,
+        "width": 339.296875,
+        "height": 62.0
+      },
+      "name": "socials",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 60,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_61",
+      "source_element_ids": [
+        "e_62",
+        "e_63",
+        "e_64"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 885.703125,
+        "y": 345.0,
+        "width": 339.296875,
+        "height": 24.0
+      },
+      "name": "social-facebook",
+      "style": {
+        "background_color": [
+          0.10980392156862745,
+          0.24313725490196078,
+          0.403921568627451,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 61,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_65",
+      "source_element_ids": [
+        "e_66",
+        "e_67",
+        "e_68"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 885.703125,
+        "y": 374.0,
+        "width": 339.296875,
+        "height": 24.0
+      },
+      "name": "social-subscribe",
+      "style": {
+        "background_color": [
+          0.8235294117647058,
+          0,
+          0.17254901960784313,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 65,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_69",
+      "source_element_ids": [
+        "e_79",
+        "e_82"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 885.703125,
+        "y": 437.0,
+        "width": 339.296875,
+        "height": 136.0
+      },
+      "name": "sidebar_tabs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 69,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_83",
+      "source_element_ids": [
+        "e_85",
+        "e_89"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 885.703125,
+        "y": 593.0,
+        "width": 339.296875,
+        "height": 106.0
+      },
+      "name": "sidebar2",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 83,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_20",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_27",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_28",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_29",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        10.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_37",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_46",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_48",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_55",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        20.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_57",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_60",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_61",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        12.0,
+        15.0,
+        12.0,
+        15.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_65",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        12.0,
+        15.0,
+        12.0,
+        15.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_69",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_83",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_20",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_27",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "g_28",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "g_29",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "g_37",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "g_46",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "g_48",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_55",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_55",
+      "child_id": "g_57",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_57",
+      "child_id": "g_60",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_60",
+      "child_id": "g_61",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_60",
+      "child_id": "g_65",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_55",
+      "child_id": "g_69",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_55",
+      "child_id": "g_83",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_6",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_13",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_18",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_31",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_33",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_34",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_36",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_39",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_42",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_37",
+      "child_id": "e_45",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "e_49",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "e_50",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "e_51",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "e_52",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "e_54",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_57",
+      "child_id": "e_58",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_61",
+      "child_id": "e_62",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_61",
+      "child_id": "e_63",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_61",
+      "child_id": "e_64",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_66",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_67",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_65",
+      "child_id": "e_68",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_79",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_82",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_83",
+      "child_id": "e_85",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_83",
+      "child_id": "e_89",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_91",
+      "order": 4,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0832",
+    "label_source": "expanded_pagegraph_structure_candidate",
+    "annotator_kind": "deterministic_pagegraph_heuristic",
+    "generator": "pagegraph_expanded_structure_v1",
+    "status": "complete",
+    "human_labels_viewed_for_target": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "limitations": [
+      "该文件是高召回结构候选，不是人工标注或最终银标准。",
+      "通用容器可能产生过度分组，必须结合截图审阅选择。"
+    ],
+    "page_graph_sha256": "23cbbbf310ab1cfa97f051576717c3edcee814edac1f6ce879f548fc9a57afb0"
+  }
+}

@@ -1,0 +1,2224 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        4
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "image_4",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "http://www.medin.com/wp-content/themes/medin-child-theme/images/logo.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 44.0,
+        "width": 39.109375,
+        "height": 18.0
+      },
+      "name": "Home",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        12
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 62.0,
+        "width": 77.765625,
+        "height": 18.0
+      },
+      "name": "Our_Process",
+      "text": "Our Process",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 80.0,
+        "width": 153.75,
+        "height": 18.0
+      },
+      "name": "Overall_Process_Control",
+      "text": "Overall Process Control",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 98.0,
+        "width": 163.984375,
+        "height": 18.0
+      },
+      "name": "Continuous_Improvement",
+      "text": "Continuous Improvement",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 116.0,
+        "width": 151.96875,
+        "height": 18.0
+      },
+      "name": "Design_&_Development",
+      "text": "Design & Development",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 134.0,
+        "width": 140.890625,
+        "height": 18.0
+      },
+      "name": "Finishing_Capabilities",
+      "text": "Finishing Capabilities",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 152.0,
+        "width": 175.515625,
+        "height": 18.0
+      },
+      "name": "Manufacturing_Capabilities",
+      "text": "Manufacturing Capabilities",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 170.0,
+        "width": 121.25,
+        "height": 18.0
+      },
+      "name": "Shippers_and_Totes",
+      "text": "Shippers and Totes",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 88.0,
+        "y": 188.0,
+        "width": 136.4375,
+        "height": 18.0
+      },
+      "name": "Quality_Commitment",
+      "text": "Quality Commitment",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 206.0,
+        "width": 61.78125,
+        "height": 18.0
+      },
+      "name": "About_Us",
+      "text": "About Us",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 224.0,
+        "width": 48.859375,
+        "height": 18.0
+      },
+      "name": "Careers",
+      "text": "Careers",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 242.0,
+        "width": 84.4375,
+        "height": 18.0
+      },
+      "name": "News/Events",
+      "text": "News/Events",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 260.0,
+        "width": 37.0625,
+        "height": 18.0
+      },
+      "name": "FAQs",
+      "text": "FAQs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 278.0,
+        "width": 81.546875,
+        "height": 18.0
+      },
+      "name": "Testimonials",
+      "text": "Testimonials",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 296.0,
+        "width": 71.546875,
+        "height": 18.0
+      },
+      "name": "Contact_Us",
+      "text": "Contact Us",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 335.4375,
+        "width": 1264.0,
+        "height": 37.0
+      },
+      "name": "FAQs",
+      "text": "FAQs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        48
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 12.0,
+        "y": 394.875,
+        "width": 47.0,
+        "height": 26.0
+      },
+      "name": "ac_open_cl_icon",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.23529411764705882,
+          0.40784313725490196,
+          0.6901960784313725,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 56.0,
+        "y": 394.875,
+        "width": 1215.0,
+        "height": 41.0
+      },
+      "name": "ac_title_class",
+      "text": "Will Medin perform sterilization validation of OEM products designed?",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 56.0,
+        "y": 435.875,
+        "width": 1215.0,
+        "height": 55.0
+      },
+      "name": "wpsm_panel-body",
+      "text": "Although successful sterilization is always considered as a design input, Medin does not perform or ",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 12.0,
+        "y": 497.875,
+        "width": 47.0,
+        "height": 26.0
+      },
+      "name": "ac_open_cl_icon",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.23529411764705882,
+          0.40784313725490196,
+          0.6901960784313725,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 56.0,
+        "y": 497.875,
+        "width": 1215.0,
+        "height": 41.0
+      },
+      "name": "ac_title_class",
+      "text": "How long will a sterilization case, tray, basket, or accessory last?",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        61
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 97.0,
+        "y": 554.875,
+        "width": 1173.0,
+        "height": 54.0
+      },
+      "name": "The_expected_life_cycle_of_a_the",
+      "text": "The expected life cycle of a these products varies widely depending upon the design and manufacture,",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 97.0,
+        "y": 608.875,
+        "width": 1173.0,
+        "height": 36.0
+      },
+      "name": "Product_tracking_throughout_the_",
+      "text": "Product tracking throughout the lifecycle of the product and thorough end-user training for handling",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        67
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 12.0,
+        "y": 668.875,
+        "width": 47.0,
+        "height": 26.0
+      },
+      "name": "ac_open_cl_icon",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.23529411764705882,
+          0.40784313725490196,
+          0.6901960784313725,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_68",
+      "source_node_ids": [
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 56.0,
+        "y": 668.875,
+        "width": 1215.0,
+        "height": 41.0
+      },
+      "name": "ac_title_class",
+      "text": "How should sterilization cases, trays, baskets and accessories be cleaned and handled?",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 57.0,
+        "y": 764.59375,
+        "width": 1213.0,
+        "height": 22.0
+      },
+      "name": "Handling,_storage,_packaging_and",
+      "text": "Handling, storage, packaging and preservation",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.72,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_10",
+        "e_12",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23",
+        "e_25",
+        "e_27",
+        "e_29",
+        "e_31",
+        "e_33",
+        "e_35",
+        "e_37",
+        "e_39",
+        "e_4"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 1264.0,
+        "height": 306.0
+      },
+      "name": "header",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 1,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_8",
+      "source_element_ids": [
+        "e_10",
+        "e_12",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23",
+        "e_25",
+        "e_27",
+        "e_29",
+        "e_31",
+        "e_33",
+        "e_35",
+        "e_37",
+        "e_39"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 8.0,
+        "y": 44.0,
+        "width": 1264.0,
+        "height": 270.0
+      },
+      "name": "menu-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 8,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_11",
+      "source_element_ids": [
+        "e_12",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23",
+        "e_25",
+        "e_27"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 48.0,
+        "y": 62.0,
+        "width": 1224.0,
+        "height": 144.0
+      },
+      "name": "menu-item-48",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 11,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_13",
+      "source_element_ids": [
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23",
+        "e_25",
+        "e_27"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 48.0,
+        "y": 80.0,
+        "width": 1224.0,
+        "height": 126.0
+      },
+      "name": "sub-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 13,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_43",
+      "source_element_ids": [
+        "e_48",
+        "e_49",
+        "e_51",
+        "e_56",
+        "e_57",
+        "e_61",
+        "e_62",
+        "e_67",
+        "e_68",
+        "e_71"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 393.875,
+        "width": 1264.0,
+        "height": 406.125
+      },
+      "name": "wpsm_accordion_78",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 43,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_44",
+      "source_element_ids": [
+        "e_48",
+        "e_49",
+        "e_51"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 393.875,
+        "width": 1264.0,
+        "height": 98.0
+      },
+      "name": "wpsm_panel",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 44,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_47",
+      "source_element_ids": [
+        "e_48",
+        "e_49"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 56.0,
+        "y": 394.875,
+        "width": 1215.0,
+        "height": 41.0
+      },
+      "name": "container_47",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 47,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_52",
+      "source_element_ids": [
+        "e_56",
+        "e_57",
+        "e_61",
+        "e_62"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 496.875,
+        "width": 1264.0,
+        "height": 166.0
+      },
+      "name": "wpsm_panel",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 52,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_55",
+      "source_element_ids": [
+        "e_56",
+        "e_57"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 56.0,
+        "y": 497.875,
+        "width": 1215.0,
+        "height": 41.0
+      },
+      "name": "collapsed",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 55,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_60",
+      "source_element_ids": [
+        "e_61",
+        "e_62"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 57.0,
+        "y": 554.875,
+        "width": 1213.0,
+        "height": 90.0
+      },
+      "name": "list_60",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 60,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_63",
+      "source_element_ids": [
+        "e_67",
+        "e_68",
+        "e_71"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 667.875,
+        "width": 1264.0,
+        "height": 132.125
+      },
+      "name": "wpsm_panel",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "border_radius": 4.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 63,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_66",
+      "source_element_ids": [
+        "e_67",
+        "e_68"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 56.0,
+        "y": 668.875,
+        "width": 1215.0,
+        "height": 41.0
+      },
+      "name": "collapsed",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 66,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_8",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_11",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_13",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_43",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_44",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        47.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_47",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_52",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        47.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_55",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_60",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_63",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        47.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_66",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_8",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "g_11",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "g_13",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_43",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "g_44",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_44",
+      "child_id": "g_47",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "g_52",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "g_55",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_52",
+      "child_id": "g_60",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "g_63",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_63",
+      "child_id": "g_66",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_4",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_10",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_12",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_15",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_19",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_21",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_23",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_25",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_27",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_29",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_31",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_33",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_35",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_37",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_39",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_40",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_47",
+      "child_id": "e_48",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_47",
+      "child_id": "e_49",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_44",
+      "child_id": "e_51",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_55",
+      "child_id": "e_56",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_55",
+      "child_id": "e_57",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_60",
+      "child_id": "e_61",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_60",
+      "child_id": "e_62",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_66",
+      "child_id": "e_67",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_66",
+      "child_id": "e_68",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_63",
+      "child_id": "e_71",
+      "order": 1,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1203",
+    "label_source": "expanded_pagegraph_structure_candidate",
+    "annotator_kind": "deterministic_pagegraph_heuristic",
+    "generator": "pagegraph_expanded_structure_v1",
+    "status": "complete",
+    "human_labels_viewed_for_target": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "limitations": [
+      "该文件是高召回结构候选，不是人工标注或最终银标准。",
+      "通用容器可能产生过度分组，必须结合截图审阅选择。"
+    ],
+    "page_graph_sha256": "a39104ff546259aa0c7ad521c372c2941716ec6b22d617fb6fb639747e000df2"
+  }
+}

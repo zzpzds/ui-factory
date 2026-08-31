@@ -1,0 +1,1659 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        4
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 40.0,
+        "y": 20.0,
+        "width": 245.0,
+        "height": 69.0
+      },
+      "name": "header-image",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://www.droits.fr/wp-content/plugins/phastpress/phast.php?service=images&src=https%3A%2F%2Fwww.droits.fr%2Fwp-content%2Fuploads%2F2022%2F03%2Flogo-droits.jpg&cacheMarker=1648128233-21893&token=1af70cac3322db78"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 267.671875,
+        "y": 131.875,
+        "width": 15.0,
+        "height": 15.0
+      },
+      "name": "icon_13",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 302.671875,
+        "y": 109.0,
+        "width": 139.828125,
+        "height": 60.0
+      },
+      "name": "Droit_du_travail",
+      "text": "Droit du travail",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 442.5,
+        "y": 109.0,
+        "width": 114.609375,
+        "height": 60.0
+      },
+      "name": "Droit_pénal",
+      "text": "Droit pénal",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 557.109375,
+        "y": 109.0,
+        "width": 183.9375,
+        "height": 60.0
+      },
+      "name": "Droit_des_assurances",
+      "text": "Droit des assurances",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 835.1875,
+        "y": 131.875,
+        "width": 15.0,
+        "height": 15.0
+      },
+      "name": "icon_24",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 870.1875,
+        "y": 109.0,
+        "width": 71.484375,
+        "height": 60.0
+      },
+      "name": "Actu",
+      "text": "Actu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 941.671875,
+        "y": 109.0,
+        "width": 94.4375,
+        "height": 60.0
+      },
+      "name": "Contact",
+      "text": "Contact",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 1056.109375,
+        "y": 131.875,
+        "width": 15.0,
+        "height": 15.0
+      },
+      "name": "icon_33",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 1071.109375,
+        "y": 131.875,
+        "width": 15.0,
+        "height": 15.0
+      },
+      "name": "icon_34",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.0,
+        "y": 229.0,
+        "width": 740.0,
+        "height": 50.40625
+      },
+      "name": "entry-title",
+      "text": "Nous contacter",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 42.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 80.0,
+        "y": 279.40625,
+        "width": 740.0,
+        "height": 153.0
+      },
+      "name": "N’hésitez_pas_à_nous_contacter_p",
+      "text": "N’hésitez pas à nous contacter pour toutes vos questions liées au site Droits.fr : partenariat, info",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        48
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 920.0,
+        "y": 229.0,
+        "width": 280.0,
+        "height": 30.0
+      },
+      "name": "widget-title",
+      "text": "Articles récents",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 985.0,
+        "y": 289.0,
+        "width": 150.0,
+        "height": 150.0
+      },
+      "name": "attachment-thumbnail",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "https://www.droits.fr/wp-content/uploads/2023/11/Condition-garde-alternee-150x150.webp"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        54
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 920.0,
+        "y": 465.5,
+        "width": 236.265625,
+        "height": 45.5
+      },
+      "name": "wp-block-latest-posts__post-title",
+      "text": "Condition pour garde alternée : notre juriste vous explique tout",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 920.0,
+        "y": 514.5,
+        "width": 280.0,
+        "height": 20.71875
+      },
+      "name": "wp-block-latest-posts__post-date",
+      "text": "28 novembre 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.8125,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 985.0,
+        "y": 543.71875,
+        "width": 150.0,
+        "height": 150.0
+      },
+      "name": "attachment-thumbnail",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "https://www.droits.fr/wp-content/uploads/2023/11/Garde-partagee-50-50-pension-alimentaire-150x150.webp"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 920.0,
+        "y": 720.21875,
+        "width": 233.609375,
+        "height": 45.5
+      },
+      "name": "wp-block-latest-posts__post-title",
+      "text": "Garde partagée 50/50 pension alimentaire : que prévoit la loi ?",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 920.0,
+        "y": 769.21875,
+        "width": 280.0,
+        "height": 20.71875
+      },
+      "name": "wp-block-latest-posts__post-date",
+      "text": "14 novembre 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.8125,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        63
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 985.0,
+        "y": 798.4375,
+        "width": 150.0,
+        "height": 1.5625
+      },
+      "name": "attachment-thumbnail",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "https://www.droits.fr/wp-content/uploads/2023/10/Audition-libre-classement-sans-suite-150x150.webp"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_5",
+      "source_element_ids": [
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_33",
+        "e_34"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 0.0,
+        "y": 109.0,
+        "width": 1280.0,
+        "height": 60.0
+      },
+      "name": "site-navigation",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 5,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_8",
+      "source_element_ids": [
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_24",
+        "e_26",
+        "e_28"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 173.890625,
+        "y": 109.0,
+        "width": 862.21875,
+        "height": 60.0
+      },
+      "name": "menu-primary",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 8,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_32",
+      "source_element_ids": [
+        "e_33",
+        "e_34"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 1056.109375,
+        "y": 130.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "name": "gp-icon",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 32,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_36",
+      "source_element_ids": [
+        "e_42",
+        "e_44",
+        "e_48",
+        "e_53",
+        "e_54",
+        "e_55",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_63"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 40.0,
+        "y": 169.0,
+        "width": 1200.0,
+        "height": 631.0
+      },
+      "name": "content",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 36,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_39",
+      "source_element_ids": [
+        "e_42",
+        "e_44"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 40.0,
+        "y": 189.0,
+        "width": 820.0,
+        "height": 308.90625
+      },
+      "name": "post-285",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 39,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_47",
+      "source_element_ids": [
+        "e_48",
+        "e_53",
+        "e_54",
+        "e_55",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_63"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 880.0,
+        "y": 189.0,
+        "width": 360.0,
+        "height": 611.0
+      },
+      "name": "block-84",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 47,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_50",
+      "source_element_ids": [
+        "e_53",
+        "e_54",
+        "e_55",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_63"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 920.0,
+        "y": 289.0,
+        "width": 280.0,
+        "height": 511.0
+      },
+      "name": "wp-block-latest-posts__list",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 50,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_51",
+      "source_element_ids": [
+        "e_53",
+        "e_54",
+        "e_55"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 920.0,
+        "y": 289.0,
+        "width": 280.0,
+        "height": 246.21875
+      },
+      "name": "list_item_51",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 51,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_56",
+      "source_element_ids": [
+        "e_58",
+        "e_59",
+        "e_60"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 920.0,
+        "y": 543.71875,
+        "width": 280.0,
+        "height": 246.21875
+      },
+      "name": "list_item_56",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 56,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_5",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_8",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "CENTER",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_32",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_36",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_39",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_47",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        40.0,
+        40.0,
+        40.0,
+        40.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_50",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_51",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_56",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_5",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "g_8",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "g_32",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_36",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_36",
+      "child_id": "g_39",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_36",
+      "child_id": "g_47",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_47",
+      "child_id": "g_50",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_50",
+      "child_id": "g_51",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_50",
+      "child_id": "g_56",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_4",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_13",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_15",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_19",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_24",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_26",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_28",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_32",
+      "child_id": "e_33",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_32",
+      "child_id": "e_34",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_39",
+      "child_id": "e_42",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_39",
+      "child_id": "e_44",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_47",
+      "child_id": "e_48",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_51",
+      "child_id": "e_53",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_51",
+      "child_id": "e_54",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_51",
+      "child_id": "e_55",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_56",
+      "child_id": "e_58",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_56",
+      "child_id": "e_59",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_56",
+      "child_id": "e_60",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_50",
+      "child_id": "e_63",
+      "order": 2,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0584",
+    "label_source": "expanded_pagegraph_structure_candidate",
+    "annotator_kind": "deterministic_pagegraph_heuristic",
+    "generator": "pagegraph_expanded_structure_v1",
+    "status": "complete",
+    "human_labels_viewed_for_target": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "limitations": [
+      "该文件是高召回结构候选，不是人工标注或最终银标准。",
+      "通用容器可能产生过度分组，必须结合截图审阅选择。"
+    ],
+    "page_graph_sha256": "50e94f833924c93137c15da1d563f30fe0329e704d83e2f116a5b37493d4d0ab"
+  }
+}

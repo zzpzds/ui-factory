@@ -1,0 +1,2173 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_0",
+      "source_node_ids": [
+        0
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 96.890625,
+        "height": 18.0
+      },
+      "name": "screen-reader-text",
+      "text": "Skip to content",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 42.0,
+        "width": 69.3125,
+        "height": 18.0
+      },
+      "name": "forextoday",
+      "text": "forextoday",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 8.0,
+        "y": 76.0,
+        "width": 76.015625,
+        "height": 22.328125
+      },
+      "name": "menu-toggle",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.9372549019607843,
+          0.9372549019607843,
+          0.9372549019607843,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 16.0,
+        "y": 79.0,
+        "width": 13.328125,
+        "height": 13.328125
+      },
+      "name": "icon_9",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 29.328125,
+        "y": 79.0,
+        "width": 13.328125,
+        "height": 13.328125
+      },
+      "name": "icon_10",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 42.65625,
+        "y": 80.328125,
+        "width": 33.359375,
+        "height": 15.0
+      },
+      "name": "screen-reader-text",
+      "text": "Menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 8.0,
+        "y": 98.328125,
+        "width": 76.015625,
+        "height": 22.328125
+      },
+      "name": "menu-toggle",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.9372549019607843,
+          0.9372549019607843,
+          0.9372549019607843,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 16.0,
+        "y": 101.328125,
+        "width": 13.328125,
+        "height": 13.328125
+      },
+      "name": "icon_16",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 29.328125,
+        "y": 101.328125,
+        "width": 13.328125,
+        "height": 13.328125
+      },
+      "name": "icon_17",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 42.65625,
+        "y": 102.65625,
+        "width": 33.359375,
+        "height": 15.0
+      },
+      "name": "mobile-menu",
+      "text": "Menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 48.0,
+        "y": 136.65625,
+        "width": 83.09375,
+        "height": 18.0
+      },
+      "name": "Sample_Page",
+      "text": "Sample Page",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 176.09375,
+        "width": 884.796875,
+        "height": 37.0
+      },
+      "name": "entry-title",
+      "text": "The Advantages of Wood Pipeline Mats",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 234.53125,
+        "width": 86.671875,
+        "height": 18.0
+      },
+      "name": "entry-date",
+      "text": "July 14, 2023",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 98.671875,
+        "y": 234.53125,
+        "width": 89.3125,
+        "height": 18.0
+      },
+      "name": "byline",
+      "text": "by",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 118.671875,
+        "y": 234.53125,
+        "width": 69.3125,
+        "height": 18.0
+      },
+      "name": "author-name",
+      "text": "forextoday",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 268.53125,
+        "width": 884.796875,
+        "height": 54.0
+      },
+      "name": "At_the_point_when_you_have_any_s",
+      "text": "At the point when you have any sort of significant pipeline project, the mats are one of the main pi",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 338.53125,
+        "width": 884.796875,
+        "height": 18.0
+      },
+      "name": "A_few_enterprises_are_involving_",
+      "text": "A few enterprises are involving steel or elastic mats for specific things, however they can’t give t",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 372.53125,
+        "width": 884.796875,
+        "height": 72.0
+      },
+      "name": "Wood_pipeline_mats_are_both_adap",
+      "text": "Wood pipeline mats are both adaptable and tough. The issue with steel mats is that they are not bend",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 343.53125,
+        "y": 408.53125,
+        "width": 339.6875,
+        "height": 18.0
+      },
+      "name": "How_to_choose_pipe_flanges_of_di",
+      "text": "How to choose pipe flanges of different materials?",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 460.53125,
+        "width": 884.796875,
+        "height": 54.0
+      },
+      "name": "Mats_made_of_wood_can_safeguard_",
+      "text": "Mats made of wood can safeguard the scene. Some of the time pipeline mats are expected to safeguard ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 530.53125,
+        "width": 884.796875,
+        "height": 54.0
+      },
+      "name": "Both_new_and_utilized_mats_are_a",
+      "text": "Both new and utilized mats are accessible. Wood is the ideal material in light of the fact that many",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 600.53125,
+        "width": 884.796875,
+        "height": 54.0
+      },
+      "name": "Wood_mats_can_be_utilized_on_lop",
+      "text": "Wood mats can be utilized on lopsided ground. On the off chance that the ground isn’t totally level,",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 670.53125,
+        "width": 884.796875,
+        "height": 90.0
+      },
+      "name": "Pipeline_mats_are_one_piece_of_t",
+      "text": "Pipeline mats are one piece of the undertaking some development organizations simply don’t contempla",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        51
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 8.0,
+        "y": 776.53125,
+        "width": 16.0,
+        "height": 16.0
+      },
+      "name": "icon_51",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 24.0,
+        "y": 778.53125,
+        "width": 72.421875,
+        "height": 18.0
+      },
+      "name": "screen-reader-text",
+      "text": "Categories",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 96.421875,
+        "y": 778.53125,
+        "width": 93.28125,
+        "height": 18.0
+      },
+      "name": "Uncategorized",
+      "text": "Uncategorized",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 8.0,
+        "y": 796.53125,
+        "width": 16.0,
+        "height": 3.46875
+      },
+      "name": "icon_57",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 24.0,
+        "y": 798.53125,
+        "width": 131.546875,
+        "height": 1.46875
+      },
+      "name": "Casino_Flash_Games",
+      "text": "Casino Flash Games",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_5",
+        "e_7",
+        "e_9",
+        "e_10",
+        "e_11",
+        "e_14",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_22"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 8.0,
+        "y": 42.0,
+        "width": 1264.0,
+        "height": 112.65625
+      },
+      "name": "masthead",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 1,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_6",
+      "source_element_ids": [
+        "e_7",
+        "e_9",
+        "e_10",
+        "e_11"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 8.0,
+        "y": 76.0,
+        "width": 1264.0,
+        "height": 22.328125
+      },
+      "name": "mobile-menu-control-wrapper",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 6,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_12",
+      "source_element_ids": [
+        "e_14",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_22"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 8.0,
+        "y": 98.328125,
+        "width": 1264.0,
+        "height": 56.328125
+      },
+      "name": "site-navigation",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 12,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_27",
+      "source_element_ids": [
+        "e_30",
+        "e_33",
+        "e_34",
+        "e_37",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_57",
+        "e_59"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 8.0,
+        "y": 176.09375,
+        "width": 884.796875,
+        "height": 623.90625
+      },
+      "name": "post-269",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 27,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_29",
+      "source_element_ids": [
+        "e_30",
+        "e_33",
+        "e_34",
+        "e_37"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 8.0,
+        "y": 176.09375,
+        "width": 884.796875,
+        "height": 76.4375
+      },
+      "name": "entry-header",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 29,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_48",
+      "source_element_ids": [
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_57",
+        "e_59"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 8.0,
+        "y": 776.53125,
+        "width": 884.796875,
+        "height": 23.46875
+      },
+      "name": "entry-meta",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 48,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_54",
+      "source_element_ids": [
+        "e_57",
+        "e_59"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 8.0,
+        "y": 796.53125,
+        "width": 884.796875,
+        "height": 3.46875
+      },
+      "name": "nav-below",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 54,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_6",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_12",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_27",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_29",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_48",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_54",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_6",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_12",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_27",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "g_29",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "g_48",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "g_54",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_0",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_9",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_10",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_11",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_16",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_17",
+      "order": 2,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_18",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_22",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_30",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_33",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_34",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_37",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_39",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_40",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_41",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_43",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_44",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_45",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_46",
+      "order": 7,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_47",
+      "order": 8,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "e_51",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "e_52",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_48",
+      "child_id": "e_53",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_54",
+      "child_id": "e_57",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_54",
+      "child_id": "e_59",
+      "order": 1,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_0",
+        "e_11",
+        "e_14",
+        "e_18",
+        "e_22",
+        "e_30",
+        "e_33",
+        "e_34",
+        "e_37",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_5",
+        "e_52",
+        "e_53",
+        "e_59",
+        "e_7"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_0",
+        "e_22",
+        "e_33",
+        "e_34",
+        "e_37",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_5",
+        "e_52",
+        "e_53",
+        "e_59"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 13.3,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_11",
+        "e_14",
+        "e_18",
+        "e_7"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "1328",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "conservative",
+    "visual_review": {
+      "sample_id": "1328",
+      "quality_status": "accepted",
+      "observed_page_type": "single_article_wordpress_blog",
+      "primary_layout": "unstyled_site_header_and_navigation_above_single_column_article",
+      "visible_regions": [
+        "skip_link",
+        "site_title",
+        "duplicate_menu_controls",
+        "site_navigation",
+        "article_header",
+        "article_body",
+        "category_metadata"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The nested masthead, navigation, post, entry-header, and metadata candidates follow the visible semantic hierarchy. Site styling is largely absent and two menu controls render consecutively, so the rendered geometry should be preserved without inferring a polished production header.",
+      "reviewer_id": "codex_visual_reviewer_3"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_3"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1328.json",
+        "sha256": "1d4d95512e7b840e4d7a4551e1166b9e5f987f745fec4ec7f6bd8e602efba9f5"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/1328.json",
+        "sha256": "1adb4f4dbbcd3d8752ee95d596fa2bb8a52b184350cb9e8d68f84398ba38db9e"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_03.json",
+        "sha256": "4be804af6874bbb24dcb77867cb876ee34a7837f579cb1be7c163d2c2573720b"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/1328.json",
+        "sha256": "63d0f4235887aaee4211529ffd56ff72c147b9af3d9ca479974d712004dcd419"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/1328/screenshot.png",
+      "screenshot_sha256": "258e803918fe36b086c21f81ffd3f60be8a8b10255df4227c64b5160995fb888",
+      "page_graph_path": "data/processed/1328/page_graph.json",
+      "page_graph_sha256": "e43077b213b63047274853e257d36ad220f1dd151ac5f09c9222179d334498e1"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

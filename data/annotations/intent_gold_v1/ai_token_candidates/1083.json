@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "1083",
+  "generator": "codex_compact_style_tokens_v1",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "source_structure_sha256": "9fce6afa89724f3a30fd1481fc615b1593d71700979b36ca5ff0101acc06f407",
+  "source_visual_review_sha256": "1d332b80a04a3b01f33f3e749aa2231256f086c89c67ae72e7cdca009bbcba01",
+  "correction_operations_applied": true,
+  "selection_policy": {
+    "minimum_members": 3,
+    "kind_caps": {
+      "COLOR": 4,
+      "TEXT": 4,
+      "RADIUS": 2,
+      "SPACING": 2
+    },
+    "maximum_tokens_per_page": 12
+  },
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_11",
+        "e_17",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_5",
+        "e_64",
+        "e_75",
+        "e_8",
+        "e_83"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_47",
+        "e_49",
+        "e_52",
+        "e_55",
+        "e_67",
+        "e_71",
+        "e_86"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.165,
+          0.165,
+          0.165,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_34",
+        "e_36",
+        "e_38",
+        "e_40",
+        "e_42"
+      ],
+      "name": "文字色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_04",
+      "kind": "COLOR",
+      "value": {
+        "property": "background",
+        "rgba": [
+          1.0,
+          0.537,
+          0.38,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_64",
+        "e_75",
+        "e_83"
+      ],
+      "name": "背景色/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 20.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_52",
+        "e_53",
+        "e_55",
+        "e_67",
+        "e_68",
+        "e_71",
+        "e_72",
+        "e_75",
+        "e_86"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 22.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_34",
+        "e_36",
+        "e_38",
+        "e_40",
+        "e_42"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_03",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_20",
+        "e_22",
+        "e_49",
+        "e_77"
+      ],
+      "name": "文字样式/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_04",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 15.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_11",
+        "e_5",
+        "e_8"
+      ],
+      "name": "文字样式/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_radius_01",
+      "kind": "RADIUS",
+      "value": {
+        "radius": 20.0
+      },
+      "member_ids": [
+        "e_14",
+        "e_15",
+        "e_16"
+      ],
+      "name": "圆角/01",
+      "confidence": 0.9
+    }
+  ]
+}

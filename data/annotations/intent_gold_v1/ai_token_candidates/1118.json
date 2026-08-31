@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "1118",
+  "generator": "codex_compact_style_tokens_v1",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "source_structure_sha256": "fbac31d4e78b74f5bed2633ccdaa1d103116d79e6f8506ff5fb96e62f6ddafeb",
+  "source_visual_review_sha256": "4be804af6874bbb24dcb77867cb876ee34a7837f579cb1be7c163d2c2573720b",
+  "correction_operations_applied": true,
+  "selection_policy": {
+    "minimum_members": 3,
+    "kind_caps": {
+      "COLOR": 4,
+      "TEXT": 4,
+      "RADIUS": 2,
+      "SPACING": 2
+    },
+    "maximum_tokens_per_page": 12
+  },
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.031,
+          0.588,
+          0.996,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_44",
+        "e_52",
+        "e_57",
+        "e_62",
+        "e_67",
+        "e_72",
+        "e_77",
+        "e_82",
+        "e_88"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.192,
+          0.208,
+          0.224,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_11",
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_26",
+        "e_36"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.353,
+          0.365,
+          0.376,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_45",
+        "e_46"
+      ],
+      "name": "文字色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_11",
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 700
+      },
+      "member_ids": [
+        "e_52",
+        "e_57",
+        "e_62",
+        "e_67",
+        "e_72",
+        "e_77",
+        "e_82",
+        "e_88"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    }
+  ]
+}

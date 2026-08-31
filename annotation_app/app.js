@@ -84,11 +84,27 @@ function isAdjudicationLocked() {
 
 function isAnnotationLocked() {
   return !isAdjudication()
-    && (state.assignment?.locked_sample_ids || []).includes(state.sampleId);
+    && (
+      (state.assignment?.locked_sample_ids || []).includes(state.sampleId)
+      || (state.assignment?.read_only_sample_ids || []).includes(state.sampleId)
+    );
 }
 
 function isEditorLocked() {
   return isAdjudicationLocked() || isAnnotationLocked();
+}
+
+function isReferenceWorkflow() {
+  return state.assignment?.purpose === "design_intent_reference_v1"
+    || state.assignment?.annotation_workflow?.mode === "ai_multiview_reference_generation";
+}
+
+function sampleSourceMark(sample) {
+  if (sample?.annotation_condition === "ai_multiview_silver") return "AI";
+  if (sample?.annotation_condition === "existing_human_adjudicated_gold") return "人";
+  if (sample?.annotation_condition === "ai_assisted") return "AI";
+  if (sample?.annotation_condition === "blind_control") return "盲";
+  return "";
 }
 
 function entityById(id) {
@@ -178,6 +194,10 @@ function refreshGroupSourceElements() {
 }
 
 function setParent(childId, parentId) {
+  if (isEditorLocked()) {
+    toast("该样本为只读参考标注", true);
+    return false;
+  }
   const descendants = descendantsOf(childId);
   if (parentId === childId || descendants.has(parentId)) {
     toast("不能把实体放入自身或其后代分组", true);
@@ -320,11 +340,9 @@ function renderProgress() {
     const complete = isAdjudication()
       ? ["reviewed", "finalized"].includes(status)
       : status === "complete";
-    const condition = sample.annotation_condition;
-    const conditionMark = condition === "ai_assisted" ? "AI " : (
-      condition === "blind_control" ? "盲 " : ""
-    );
-    option.textContent = `${complete ? "✓ " : conditionMark}${option.value} · ${sample.size_bin}`;
+    const sourceMark = sampleSourceMark(sample);
+    const prefix = [complete ? "✓" : "", sourceMark].filter(Boolean).join(" ");
+    option.textContent = `${prefix ? `${prefix} ` : ""}${option.value} · ${sample.size_bin}`;
   });
 }
 
@@ -517,6 +535,10 @@ function renderCanvas() {
 }
 
 function createElement() {
+  if (isEditorLocked()) {
+    toast("该样本为只读参考标注", true);
+    return;
+  }
   const nodes = [...state.selectedNodeIds].map(nodeById).filter(Boolean);
   if (!nodes.length) {
     toast("请先选择至少一个实现节点", true);
@@ -605,6 +627,10 @@ function defaultLayout(targetId) {
 }
 
 function createGroup() {
+  if (isEditorLocked()) {
+    toast("该样本为只读参考标注", true);
+    return;
+  }
   const memberIds = [...state.selectedEntityIds]
     .filter((id) => entityKind(id));
   if (!memberIds.length) {
@@ -674,7 +700,9 @@ function renderInspector() {
   $("inspectorEmpty").classList.toggle("hidden", Boolean(entity || token));
   $("entityInspector").classList.toggle("hidden", !entity);
   $("tokenInspector").classList.toggle("hidden", !token);
-  $("deleteEntity").classList.toggle("hidden", !entity && !token);
+  $("deleteEntity").classList.toggle(
+    "hidden", isEditorLocked() || (!entity && !token),
+  );
 
   if (entity) {
     const kind = entityKind(entity.id);
@@ -751,6 +779,10 @@ function renderEntityInspector(entity, kind) {
   }
   $("entityInspector").innerHTML = html;
   bindEntityInspector(entity, isGroup);
+  if (isEditorLocked()) {
+    $("entityInspector").querySelectorAll("input, select, textarea")
+      .forEach((control) => { control.disabled = true; });
+  }
 }
 
 function assignPath(object, path, value) {
@@ -972,6 +1004,10 @@ function addToken(candidate, candidateKey = null) {
 }
 
 function acceptTokenCandidate(key) {
+  if (isEditorLocked()) {
+    toast("该样本为只读参考标注", true);
+    return;
+  }
   const candidate = tokenCandidates().find((item) => item.key === key);
   if (!candidate) return;
   addToken(candidate, key);
@@ -980,6 +1016,10 @@ function acceptTokenCandidate(key) {
 }
 
 function ignoreTokenCandidate(key) {
+  if (isEditorLocked()) {
+    toast("该样本为只读参考标注", true);
+    return;
+  }
   const review = tokenReview();
   review.ignored_candidate_keys.push(key);
   review.accepted_candidate_keys = review.accepted_candidate_keys.filter((item) => item !== key);
@@ -995,6 +1035,10 @@ function ignoreTokenCandidate(key) {
 }
 
 function completeTokenReview() {
+  if (isEditorLocked()) {
+    toast("该样本为只读参考标注", true);
+    return;
+  }
   const review = tokenReview();
   const decided = new Set([
     ...review.accepted_candidate_keys, ...review.ignored_candidate_keys,
@@ -1013,6 +1057,10 @@ function completeTokenReview() {
 }
 
 function createToken() {
+  if (isEditorLocked()) {
+    toast("该样本为只读参考标注", true);
+    return;
+  }
   const memberIds = [...state.selectedEntityIds].filter((id) => entityById(id));
   if (memberIds.length < 2) {
     toast("创建 Token 至少需要选择两个实体", true);
@@ -1037,43 +1085,65 @@ function createToken() {
 }
 
 function renderTokens() {
-  const review = tokenReview();
-  const candidates = tokenCandidates();
-  const reviewedKeys = [...(review.reviewed_candidate_keys || [])].sort();
-  const currentKeys = candidates.map((candidate) => candidate.key).sort();
-  const reviewIsCurrent = review.status === "reviewed"
-    && JSON.stringify(reviewedKeys) === JSON.stringify(currentKeys);
-  const accepted = new Set(review.accepted_candidate_keys);
-  const ignored = new Set(review.ignored_candidate_keys);
-  $("tokenReviewStatus").textContent = reviewIsCurrent ? "已检查" : (
-    review.status === "reviewed" ? "需复查" : "待检查"
+  const referenceMode = state.assignment?.token_annotation_mode === "automatic_reference";
+  const tokenLabelsUnavailable = (
+    state.annotation?.provenance?.token_labels_available === false
   );
-  $("tokenReviewStatus").classList.toggle("complete", reviewIsCurrent);
-  $("completeTokenReview").disabled = isEditorLocked();
-  $("tokenCandidateList").innerHTML = candidates.map((candidate) => {
-    const status = accepted.has(candidate.key) ? "accepted" : (ignored.has(candidate.key) ? "ignored" : "pending");
-    return `<div class="token-candidate ${status}">
-      <div class="token-candidate-main">
-        ${candidate.kind === "COLOR" ? `<span class="token-swatch" style="background:${rgbaToHex(candidate.value.rgba)}"></span>` : ""}
-        <span class="row-copy">
-          <span class="row-title">${escapeHtml(candidate.label)} · ${escapeHtml(tokenValueLabel(candidate))}</span>
-          <span class="row-subtitle">${candidate.member_ids.length} 个成员 · ${escapeHtml(candidate.member_ids.join("、"))}</span>
-        </span>
-        <span class="row-badge">${escapeHtml(candidate.kind)}</span>
-      </div>
-      <div class="token-candidate-actions">
-        <span class="candidate-decision">${status === "accepted" ? "已保留" : (status === "ignored" ? "已忽略" : "未决定")}</span>
-        ${status !== "ignored" ? `<button type="button" data-ignore-token-candidate="${escapeHtml(candidate.key)}">${status === "accepted" ? "改为忽略" : "忽略"}</button>` : ""}
-        ${status !== "accepted" ? `<button class="primary-button" type="button" data-accept-token-candidate="${escapeHtml(candidate.key)}">${status === "ignored" ? "改为保留" : "保留"}</button>` : ""}
-      </div>
-    </div>`;
-  }).join("") || '<div class="empty-state compact">没有重复样式候选</div>';
-  $("tokenCandidateList").querySelectorAll("[data-accept-token-candidate]").forEach((button) => {
-    button.addEventListener("click", () => acceptTokenCandidate(button.dataset.acceptTokenCandidate));
-  });
-  $("tokenCandidateList").querySelectorAll("[data-ignore-token-candidate]").forEach((button) => {
-    button.addEventListener("click", () => ignoreTokenCandidate(button.dataset.ignoreTokenCandidate));
-  });
+  const automaticReference = referenceMode && !tokenLabelsUnavailable;
+  document.querySelector(".token-review-toolbar strong").textContent = referenceMode
+    ? "样式 Token" : "样式候选";
+  $("tokenCandidateList").classList.toggle("hidden", referenceMode);
+  $("completeTokenReview").classList.toggle("hidden", referenceMode);
+  document.querySelector(".manual-token-editor").classList.toggle("hidden", referenceMode);
+  document.querySelector(".token-result-label").textContent = tokenLabelsUnavailable
+    ? "Token 标签不可用" : (automaticReference ? "自动参考 Token" : "已保留 Token");
+
+  if (referenceMode) {
+    $("tokenReviewStatus").textContent = tokenLabelsUnavailable
+      ? "未采集" : "自动生成";
+    $("tokenReviewStatus").classList.toggle("complete", automaticReference);
+    $("tokenCandidateList").innerHTML = "";
+  } else {
+    const review = tokenReview();
+    const candidates = tokenCandidates();
+    const reviewedKeys = [...(review.reviewed_candidate_keys || [])].sort();
+    const currentKeys = candidates.map((candidate) => candidate.key).sort();
+    const reviewIsCurrent = review.status === "reviewed"
+      && JSON.stringify(reviewedKeys) === JSON.stringify(currentKeys);
+    const accepted = new Set(review.accepted_candidate_keys);
+    const ignored = new Set(review.ignored_candidate_keys);
+    $("tokenReviewStatus").textContent = reviewIsCurrent ? "已检查" : (
+      review.status === "reviewed" ? "需复查" : "待检查"
+    );
+    $("tokenReviewStatus").classList.toggle("complete", reviewIsCurrent);
+    $("completeTokenReview").disabled = isEditorLocked();
+    $("tokenCandidateList").innerHTML = candidates.map((candidate) => {
+      const status = accepted.has(candidate.key) ? "accepted" : (ignored.has(candidate.key) ? "ignored" : "pending");
+      return `<div class="token-candidate ${status}">
+        <div class="token-candidate-main">
+          ${candidate.kind === "COLOR" ? `<span class="token-swatch" style="background:${rgbaToHex(candidate.value.rgba)}"></span>` : ""}
+          <span class="row-copy">
+            <span class="row-title">${escapeHtml(candidate.label)} · ${escapeHtml(tokenValueLabel(candidate))}</span>
+            <span class="row-subtitle">${candidate.member_ids.length} 个成员 · ${escapeHtml(candidate.member_ids.join("、"))}</span>
+          </span>
+          <span class="row-badge">${escapeHtml(candidate.kind)}</span>
+        </div>
+        <div class="token-candidate-actions">
+          <span class="candidate-decision">${status === "accepted" ? "已保留" : (status === "ignored" ? "已忽略" : "未决定")}</span>
+          ${status !== "ignored" ? `<button type="button" data-ignore-token-candidate="${escapeHtml(candidate.key)}">${status === "accepted" ? "改为忽略" : "忽略"}</button>` : ""}
+          ${status !== "accepted" ? `<button class="primary-button" type="button" data-accept-token-candidate="${escapeHtml(candidate.key)}">${status === "ignored" ? "改为保留" : "保留"}</button>` : ""}
+        </div>
+      </div>`;
+    }).join("") || '<div class="empty-state compact">没有重复样式候选</div>';
+    $("tokenCandidateList").querySelectorAll("[data-accept-token-candidate]").forEach((button) => {
+      button.addEventListener("click", () => acceptTokenCandidate(button.dataset.acceptTokenCandidate));
+    });
+    $("tokenCandidateList").querySelectorAll("[data-ignore-token-candidate]").forEach((button) => {
+      button.addEventListener("click", () => ignoreTokenCandidate(button.dataset.ignoreTokenCandidate));
+    });
+  }
+  const emptyTokenMessage = tokenLabelsUnavailable
+    ? "未采集 Token 人工标签" : "尚未创建 Token";
   $("tokenList").innerHTML = state.annotation.style_tokens.map((token) => `
     <button type="button" class="token-row ${state.activeTokenId === token.id ? "active" : ""}"
       data-token-id="${escapeHtml(token.id)}">
@@ -1086,7 +1156,7 @@ function renderTokens() {
       </span>
       <span class="row-badge">${escapeHtml(token.kind)}</span>
     </button>
-  `).join("") || '<div class="empty-state compact">尚未创建 Token</div>';
+  `).join("") || `<div class="empty-state compact">${emptyTokenMessage}</div>`;
   $("tokenList").querySelectorAll("[data-token-id]").forEach((row) => {
     row.addEventListener("click", () => {
       state.activeTokenId = row.dataset.tokenId;
@@ -1131,9 +1201,17 @@ function renderTokenInspector(token) {
       renderInspector();
     });
   });
+  if (isEditorLocked()) {
+    form.querySelectorAll("input, select, textarea")
+      .forEach((control) => { control.disabled = true; });
+  }
 }
 
 function deleteActive() {
+  if (isEditorLocked()) {
+    toast("该样本为只读参考标注", true);
+    return;
+  }
   if (state.activeTokenId) {
     const id = state.activeTokenId;
     const token = tokenById(id);
@@ -1658,15 +1736,44 @@ function renderAdjudicationPanel() {
 function renderAssistancePanel() {
   const provenance = state.annotation?.provenance || {};
   const mode = provenance.ai_assistance_mode;
-  const visible = !isAdjudication() && ["preannotation", "blind_control"].includes(mode);
+  const aiSilver = provenance.label_source === "ai_multiview_silver";
+  const humanGold = provenance.label_source === "human_ai_adjudicated_gold";
+  const reference = aiSilver || humanGold;
+  const visible = !isAdjudication()
+    && (reference || ["preannotation", "blind_control"].includes(mode));
   $("assistancePanel").classList.toggle("hidden", !visible);
   $("assistanceBadge").classList.toggle("hidden", !visible);
   if (!visible) return;
 
+  const confirmation = document.querySelector(".review-confirmation");
+  confirmation.classList.toggle("hidden", reference);
+  if (aiSilver) {
+    $("assistanceTitle").textContent = "AI 多视角参考标注";
+    $("assistanceBadge").textContent = "AI 多阶段银标";
+    $("assistanceBadge").classList.remove("blind", "human-gold");
+    $("assistanceStatus").textContent = "已生成 · 只读";
+    $("assistanceStatus").classList.add("complete");
+    const risk = provenance.visual_review?.hierarchy_risk || "未记录";
+    $("assistanceMeta").textContent = `PageGraph 结构候选 + 截图语义审阅 + 自动 Token · ${state.annotation.elements.length} 个元素 · ${state.annotation.groups.length} 个分组 · 层级风险 ${risk}`;
+    return;
+  }
+  if (humanGold) {
+    $("assistanceTitle").textContent = "单人 AI 辅助定稿";
+    $("assistanceBadge").textContent = "人工复核 Gold";
+    $("assistanceBadge").classList.remove("blind");
+    $("assistanceBadge").classList.add("human-gold");
+    $("assistanceStatus").textContent = "已定稿 · 只读";
+    $("assistanceStatus").classList.add("complete");
+    $("assistanceMeta").textContent = `单人主标注 + AI 差异提示 + 人工定稿 · ${state.annotation.elements.length} 个元素 · ${state.annotation.groups.length} 个分组`;
+    return;
+  }
+
+  confirmation.classList.remove("hidden");
   const confirmed = provenance.human_review_confirmed === true;
   const assisted = mode === "preannotation";
   $("assistanceTitle").textContent = assisted ? "AI 辅助校正" : "盲标对照";
   $("assistanceBadge").textContent = assisted ? "AI 预标注" : "盲标对照";
+  $("assistanceBadge").classList.remove("human-gold");
   $("assistanceBadge").classList.toggle("blind", !assisted);
   $("assistanceStatus").textContent = confirmed ? "已复核" : "待复核";
   $("assistanceStatus").classList.toggle("complete", confirmed);
@@ -1679,11 +1786,14 @@ function renderAssistancePanel() {
 
 function renderModeChrome() {
   const adjudication = isAdjudication();
+  const referenceWorkflow = isReferenceWorkflow();
   const hasAdjudication = Boolean(state.assignment?.adjudication);
+  const annotationOption = $("modeSelect").querySelector('option[value="annotation"]');
   const adjudicationOption = $("modeSelect").querySelector('option[value="adjudication"]');
+  annotationOption.textContent = referenceWorkflow ? "参考标注" : "人工标注";
   adjudicationOption.hidden = !hasAdjudication;
   adjudicationOption.disabled = !hasAdjudication;
-  $("annotatorField").classList.toggle("hidden", adjudication);
+  $("annotatorField").classList.toggle("hidden", adjudication || referenceWorkflow);
   $("differencesTabButton").classList.toggle("hidden", !adjudication);
   $("referenceControls").classList.toggle("hidden", !adjudication);
   $("adjudicationPanel").classList.toggle("hidden", !adjudication);
@@ -1695,6 +1805,8 @@ function renderModeChrome() {
   document.querySelector(".workspace").classList.toggle(
     "editor-locked", isEditorLocked(),
   );
+  $("saveButton").classList.toggle("hidden", referenceWorkflow && !adjudication);
+  $("submitButton").classList.toggle("hidden", referenceWorkflow && !adjudication);
   $("saveButton").disabled = isEditorLocked();
   $("submitButton").disabled = isEditorLocked();
 }

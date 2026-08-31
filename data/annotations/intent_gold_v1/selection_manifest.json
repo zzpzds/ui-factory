@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "purpose": "formal_design_intent_gold_v1",
+  "purpose": "design_intent_reference_v1_sampling",
   "created_date": "2026-08-13",
   "seed": 20260813,
   "sampling_strategy": {
@@ -40,7 +40,13 @@
   "visual_review": {
     "status": "complete",
     "completed_date": "2026-08-13",
-    "scope": "contact_sheet_and_full_resolution_review_of_suspected_failures"
+    "scope": "contact_sheet_and_full_resolution_review_of_suspected_failures",
+    "additional_full_resolution_review": "2026-08-31T00:00:00+08:00",
+    "additional_rejections": [
+      "0144",
+      "0553",
+      "1365"
+    ]
   },
   "existing_gold_ids": [
     "0001",
@@ -54,58 +60,7 @@
     "1094",
     "1429"
   ],
-  "annotation_required_ids": [
-    "0044",
-    "0051",
-    "0055",
-    "0074",
-    "0079",
-    "0115",
-    "0118",
-    "0144",
-    "0155",
-    "0165",
-    "0213",
-    "0237",
-    "0304",
-    "0408",
-    "0409",
-    "0412",
-    "0431",
-    "0446",
-    "0540",
-    "0544",
-    "0553",
-    "0616",
-    "0620",
-    "0697",
-    "0827",
-    "0832",
-    "0837",
-    "0995",
-    "0996",
-    "1001",
-    "1030",
-    "1035",
-    "1083",
-    "1084",
-    "1111",
-    "1118",
-    "1203",
-    "1272",
-    "1292",
-    "1302",
-    "1328",
-    "1365",
-    "1373",
-    "1416",
-    "1435",
-    "1437",
-    "1486",
-    "1503",
-    "1517",
-    "1528"
-  ],
+  "annotation_required_ids": [],
   "splits": {
     "train": [
       "0001",
@@ -134,17 +89,17 @@
       "1094",
       "1118",
       "1302",
-      "1365",
       "1416",
       "1486",
-      "1528"
+      "1528",
+      "1530"
     ],
     "validation": [
       "0079",
       "0118",
-      "0144",
       "0304",
-      "0553",
+      "0433",
+      "0584",
       "0601",
       "1030",
       "1111",
@@ -187,15 +142,15 @@
       "small": 20
     },
     "by_page_type": {
-      "commerce": 11,
+      "commerce": 12,
       "content": 7,
-      "form": 8,
+      "form": 7,
       "generic": 4,
       "list": 14,
-      "navigation": 6,
-      "table": 10
+      "navigation": 5,
+      "table": 11
     },
-    "token_rich_candidates": 35
+    "token_rich_candidates": 34
   },
   "visual_exclusions": [
     {
@@ -357,6 +312,24 @@
     {
       "sample_id": "1310",
       "reason": "与样本 0542 属同一新闻模板，主内容图片均加载失败"
+    },
+    {
+      "sample_id": "0144",
+      "reason": "全分辨率复核发现导航、正文与版权区域大面积错位重叠",
+      "excluded_at": "2026-08-31T00:00:00+08:00",
+      "review_method": "full_resolution_ai_visual_semantic_review"
+    },
+    {
+      "sample_id": "0553",
+      "reason": "全分辨率复核发现页面正文持续推广赌场、老虎机与博彩策略",
+      "excluded_at": "2026-08-31T00:00:00+08:00",
+      "review_method": "full_resolution_ai_visual_semantic_review"
+    },
+    {
+      "sample_id": "1365",
+      "reason": "全分辨率复核发现导航重复错位、内容碰撞且缺少稳定主体区域",
+      "excluded_at": "2026-08-31T00:00:00+08:00",
+      "review_method": "full_resolution_ai_visual_semantic_review"
     }
   ],
   "prior_pilot_rejections": [
@@ -425,8 +398,9 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.665976,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "0020",
@@ -479,8 +453,9 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.60187,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "0044",
@@ -533,7 +508,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.580935,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0051",
@@ -586,7 +562,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.980744,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0052",
@@ -639,8 +616,9 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.7714,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "0055",
@@ -689,7 +667,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.432538,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0074",
@@ -742,7 +721,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.885372,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0079",
@@ -795,7 +775,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.077045,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0115",
@@ -844,7 +825,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.668457,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0118",
@@ -889,56 +871,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.352185,
-      "status": "annotation_required"
-    },
-    {
-      "sample_id": "0144",
-      "split": "validation",
-      "node_count": 68,
-      "size_bin": "medium",
-      "page_type": "list",
-      "structure_fingerprint": "9c4ebfe1af0f0778",
-      "duplicate_cluster": "0144",
-      "style_repeat_evidence": {
-        "kind_count": 3,
-        "score": 43.833,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 5,
-            "repeated_members": 31
-          },
-          "TEXT": {
-            "repeated_patterns": 4,
-            "repeated_members": 27
-          },
-          "SPACING": {
-            "repeated_patterns": 6,
-            "repeated_members": 26
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 221.268,
-        "luminance_std": 64.7,
-        "score": 0.8812
-      },
-      "asset_sha256": {
-        "screenshot": "fbefd14c2e22bdc521cfa231dbe0678469fe62a33e048dc5563a52117b2b40c2",
-        "page_graph": "be0fb2975f8a2747ee674f484cfa37397ca58629d746be5d1b56bc31cbf1a293"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 0,
-        "tiny_image_count": 0,
-        "tiny_image_ratio": 0.0,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": true,
-      "selection_noise": 0.776092,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0155",
@@ -987,7 +921,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.985979,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0165",
@@ -1036,7 +971,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.670692,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0213",
@@ -1081,7 +1017,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.558497,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0237",
@@ -1134,7 +1071,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.944432,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0304",
@@ -1183,7 +1121,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.318439,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0319",
@@ -1232,8 +1171,9 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.445946,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "0408",
@@ -1282,7 +1222,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.052764,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0409",
@@ -1327,7 +1268,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.314401,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0412",
@@ -1376,7 +1318,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.747908,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0419",
@@ -1427,8 +1370,9 @@
       "eligible": false,
       "token_rich_candidate": false,
       "selection_noise": 0.449615,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "0431",
@@ -1477,7 +1421,62 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.813158,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
+    },
+    {
+      "sample_id": "0433",
+      "split": "validation",
+      "node_count": 43,
+      "size_bin": "small",
+      "page_type": "list",
+      "structure_fingerprint": "3a16a624ab891331",
+      "duplicate_cluster": "0433",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 29.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 14
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 12
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 8
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 12
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 245.845,
+        "luminance_std": 36.771,
+        "score": 0.5212
+      },
+      "asset_sha256": {
+        "screenshot": "38e23096f7fddc734340f9e931057e717cda9bce63255f8af60aae54549d4ee0",
+        "page_graph": "68de5b07edb6ed9128e03b1b2e3d5b08d25dbcc3f0a3cce656a72260ae475cc2"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.160912,
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0446",
@@ -1526,7 +1525,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.761355,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0540",
@@ -1579,7 +1579,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.529997,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0544",
@@ -1628,56 +1629,58 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.042466,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
-      "sample_id": "0553",
+      "sample_id": "0584",
       "split": "validation",
-      "node_count": 30,
-      "size_bin": "small",
-      "page_type": "navigation",
-      "structure_fingerprint": "3a38c9df965b66d8",
-      "duplicate_cluster": "0553",
+      "node_count": 64,
+      "size_bin": "medium",
+      "page_type": "commerce",
+      "structure_fingerprint": "dd70f0b31043de35",
+      "duplicate_cluster": "0584",
       "style_repeat_evidence": {
         "kind_count": 3,
-        "score": 9.667,
+        "score": 22.5,
         "kinds": {
           "COLOR": {
             "repeated_patterns": 1,
-            "repeated_members": 11
+            "repeated_members": 14
           },
           "TEXT": {
-            "repeated_patterns": 1,
-            "repeated_members": 8
+            "repeated_patterns": 3,
+            "repeated_members": 12
           },
           "SPACING": {
-            "repeated_patterns": 1,
-            "repeated_members": 3
+            "repeated_patterns": 4,
+            "repeated_members": 13
           }
         }
       },
       "quality": {
         "width": 1280.0,
         "height": 800.0,
-        "luminance_mean": 245.429,
-        "luminance_std": 32.72,
-        "score": 0.4744
+        "luminance_mean": 238.494,
+        "luminance_std": 57.198,
+        "score": 0.7728
       },
       "asset_sha256": {
-        "screenshot": "e2a71ff61cf392fe68fbcbe840aa20410c7ae0dc8bcd55e2540eac7d1ad0b480",
-        "page_graph": "22a1e96632911d61ea7c2122c841d8670c5d03336ca4d14352fcb89536f5c53b"
+        "screenshot": "67cc23dee7bdd4670a555841e07609e3930bec0ae61059ed062212ab117b1001",
+        "page_graph": "50e94f833924c93137c15da1d563f30fe0329e704d83e2f116a5b37493d4d0ab"
       },
       "content_safety_flags": [],
       "broken_image_proxy": {
-        "image_count": 0,
+        "image_count": 4,
         "tiny_image_count": 0,
         "tiny_image_ratio": 0.0,
         "mass_failure_suspected": false
       },
       "eligible": true,
       "token_rich_candidate": false,
-      "selection_noise": 0.834265,
-      "status": "annotation_required"
+      "selection_noise": 0.957511,
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0601",
@@ -1726,8 +1729,9 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.82775,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "0616",
@@ -1780,7 +1784,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.806801,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0620",
@@ -1833,7 +1838,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.686929,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0697",
@@ -1882,7 +1888,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.657927,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0827",
@@ -1931,7 +1938,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.587608,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0832",
@@ -1980,7 +1988,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.275309,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0837",
@@ -2025,7 +2034,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.008406,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0860",
@@ -2074,8 +2084,9 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.756188,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "0937",
@@ -2128,8 +2139,9 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.089485,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "0995",
@@ -2178,7 +2190,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.711053,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "0996",
@@ -2231,7 +2244,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.64603,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1001",
@@ -2280,7 +2294,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.475608,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1030",
@@ -2329,7 +2344,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.888783,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1035",
@@ -2378,7 +2394,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.608167,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1083",
@@ -2431,7 +2448,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.335938,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1084",
@@ -2476,7 +2494,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.44438,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1094",
@@ -2525,8 +2544,9 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.493272,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "1111",
@@ -2575,7 +2595,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.036496,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1118",
@@ -2624,7 +2645,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.80732,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1203",
@@ -2677,7 +2699,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.959409,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1272",
@@ -2722,7 +2745,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.838359,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1292",
@@ -2771,7 +2795,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.388918,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1302",
@@ -2820,7 +2845,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.595596,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1328",
@@ -2869,56 +2895,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.57119,
-      "status": "annotation_required"
-    },
-    {
-      "sample_id": "1365",
-      "split": "train",
-      "node_count": 151,
-      "size_bin": "large",
-      "page_type": "form",
-      "structure_fingerprint": "f8e490deca8a3a40",
-      "duplicate_cluster": "1365",
-      "style_repeat_evidence": {
-        "kind_count": 3,
-        "score": 30.333,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 4,
-            "repeated_members": 39
-          },
-          "TEXT": {
-            "repeated_patterns": 3,
-            "repeated_members": 32
-          },
-          "SPACING": {
-            "repeated_patterns": 2,
-            "repeated_members": 14
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 128.908,
-        "luminance_std": 89.448,
-        "score": 0.9648
-      },
-      "asset_sha256": {
-        "screenshot": "119378ef303086baf5139e901b37e9ce0c95e9c13d337cba4693715590154f4d",
-        "page_graph": "ec5f09fd047d1ae1a794363633237e17c6f82393010e0088c586a02bc56cfb84"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 1,
-        "tiny_image_count": 0,
-        "tiny_image_ratio": 0.0,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": true,
-      "selection_noise": 0.584209,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1373",
@@ -2967,7 +2945,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.43394,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1416",
@@ -3016,7 +2995,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.163366,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1429",
@@ -3065,8 +3045,9 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.879778,
-      "status": "existing_gold",
-      "gold_style_token_count": 0
+      "status": "existing_human_adjudicated_gold",
+      "gold_style_token_count": 0,
+      "selection_status": "existing_gold"
     },
     {
       "sample_id": "1435",
@@ -3115,7 +3096,8 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.500299,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1437",
@@ -3160,7 +3142,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.844246,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1486",
@@ -3213,7 +3196,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.892959,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1503",
@@ -3262,7 +3246,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.951143,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1517",
@@ -3311,7 +3296,8 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.955871,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     },
     {
       "sample_id": "1528",
@@ -3360,30 +3346,81 @@
       "eligible": true,
       "token_rich_candidate": false,
       "selection_noise": 0.970985,
-      "status": "annotation_required"
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
+    },
+    {
+      "sample_id": "1530",
+      "split": "train",
+      "node_count": 178,
+      "size_bin": "large",
+      "page_type": "table",
+      "structure_fingerprint": "5059e63c4d8c9b18",
+      "duplicate_cluster": "1530",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 23.0,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 42
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 39
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 71
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 249.044,
+        "luminance_std": 32.35,
+        "score": 0.464
+      },
+      "asset_sha256": {
+        "screenshot": "a60d87814e77a50c75d8c2ee7829aae0dcfffebe8eb5d3d5b0c856f5bc346853",
+        "page_graph": "14bad010886837851b1b8ed43a4754bf6fb272e93b71b37fd6f6778bae2c6f29"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 10,
+        "tiny_image_count": 3,
+        "tiny_image_ratio": 0.3,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": null,
+      "status": "ai_reference_complete",
+      "selection_status": "annotation_required"
     }
   ],
   "reserve_summary": {
-    "total": 20,
+    "total": 18,
     "by_split": {
       "test": 5,
       "train": 10,
-      "validation": 5
+      "validation": 3
     },
     "by_size": {
       "large": 1,
-      "medium": 14,
-      "small": 5
+      "medium": 13,
+      "small": 4
     },
     "by_page_type": {
-      "commerce": 3,
+      "commerce": 2,
       "content": 2,
       "form": 3,
-      "list": 5,
+      "list": 4,
       "navigation": 2,
       "table": 5
     },
-    "token_rich_candidates": 15
+    "token_rich_candidates": 14
   },
   "reserve_samples": [
     {
@@ -3433,202 +3470,6 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.397262
-    },
-    {
-      "sample_id": "0394",
-      "split": "test",
-      "node_count": 83,
-      "size_bin": "medium",
-      "page_type": "table",
-      "structure_fingerprint": "42a34a42d089adf4",
-      "duplicate_cluster": "0394",
-      "style_repeat_evidence": {
-        "kind_count": 3,
-        "score": 36.167,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 4,
-            "repeated_members": 45
-          },
-          "TEXT": {
-            "repeated_patterns": 3,
-            "repeated_members": 38
-          },
-          "SPACING": {
-            "repeated_patterns": 4,
-            "repeated_members": 25
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 249.417,
-        "luminance_std": 29.279,
-        "score": 0.4274
-      },
-      "asset_sha256": {
-        "screenshot": "021f184326d211e16bd68801beb5311e90459824a29774f106e5585c4bee682a",
-        "page_graph": "a34bad97075deddf6bbb45761422fb282b81a9e99d4c6b0d98b707d1be8de350"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 6,
-        "tiny_image_count": 2,
-        "tiny_image_ratio": 0.3333,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": true,
-      "selection_noise": 0.147966
-    },
-    {
-      "sample_id": "1181",
-      "split": "test",
-      "node_count": 92,
-      "size_bin": "medium",
-      "page_type": "list",
-      "structure_fingerprint": "594323863bda42c8",
-      "duplicate_cluster": "1181",
-      "style_repeat_evidence": {
-        "kind_count": 3,
-        "score": 29.5,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 3,
-            "repeated_members": 38
-          },
-          "TEXT": {
-            "repeated_patterns": 5,
-            "repeated_members": 36
-          },
-          "SPACING": {
-            "repeated_patterns": 1,
-            "repeated_members": 9
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 245.964,
-        "luminance_std": 38.062,
-        "score": 0.5361
-      },
-      "asset_sha256": {
-        "screenshot": "4a4863f688123f3f459ae54bc4f9681231356de075a395991cab476b460d1caf",
-        "page_graph": "87a3c1e4b168812eec8f46351357609e925fe39a90f33aeb0f18b08dff57ac26"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 2,
-        "tiny_image_count": 1,
-        "tiny_image_ratio": 0.5,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": true,
-      "selection_noise": 0.754965
-    },
-    {
-      "sample_id": "1331",
-      "split": "test",
-      "node_count": 125,
-      "size_bin": "medium",
-      "page_type": "table",
-      "structure_fingerprint": "0d45f19232803584",
-      "duplicate_cluster": "1331",
-      "style_repeat_evidence": {
-        "kind_count": 4,
-        "score": 52.833,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 6,
-            "repeated_members": 36
-          },
-          "TEXT": {
-            "repeated_patterns": 5,
-            "repeated_members": 19
-          },
-          "RADIUS": {
-            "repeated_patterns": 1,
-            "repeated_members": 2
-          },
-          "SPACING": {
-            "repeated_patterns": 8,
-            "repeated_members": 26
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 251.222,
-        "luminance_std": 24.765,
-        "score": 0.3715
-      },
-      "asset_sha256": {
-        "screenshot": "055cecc9fc5f22950a1287eea311a930cead1debb2cd7f40412e689e0dc9af06",
-        "page_graph": "40a9b13c50b21df2dbd4f2c4325a758c52ae64b01417d7b44c56a9a05eb06ab7"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 6,
-        "tiny_image_count": 3,
-        "tiny_image_ratio": 0.5,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": true,
-      "selection_noise": 0.233831
-    },
-    {
-      "sample_id": "1408",
-      "split": "test",
-      "node_count": 52,
-      "size_bin": "medium",
-      "page_type": "navigation",
-      "structure_fingerprint": "8b026b72f3068c12",
-      "duplicate_cluster": "1408",
-      "style_repeat_evidence": {
-        "kind_count": 3,
-        "score": 19.667,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 2,
-            "repeated_members": 23
-          },
-          "TEXT": {
-            "repeated_patterns": 3,
-            "repeated_members": 21
-          },
-          "SPACING": {
-            "repeated_patterns": 1,
-            "repeated_members": 2
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 246.482,
-        "luminance_std": 39.225,
-        "score": 0.5489
-      },
-      "asset_sha256": {
-        "screenshot": "5efebf05f5e25a766964b05f14bf320a50354c04522fdaaf804672ff0d4797cf",
-        "page_graph": "f2eaf15172944598c194b2f711184890c0ac6cba69bd5898701eb43b6d5b54a8"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 1,
-        "tiny_image_count": 1,
-        "tiny_image_ratio": 1.0,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": false,
-      "selection_noise": 0.419276
     },
     {
       "sample_id": "0288",
@@ -3729,6 +3570,150 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.685777
+    },
+    {
+      "sample_id": "0357",
+      "split": "validation",
+      "node_count": 20,
+      "size_bin": "small",
+      "page_type": "content",
+      "structure_fingerprint": "9cd07886765337fc",
+      "duplicate_cluster": "0357",
+      "style_repeat_evidence": {
+        "kind_count": 2,
+        "score": 5.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 1,
+            "repeated_members": 7
+          },
+          "TEXT": {
+            "repeated_patterns": 1,
+            "repeated_members": 3
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 230.233,
+        "luminance_std": 67.915,
+        "score": 0.8663
+      },
+      "asset_sha256": {
+        "screenshot": "3a83aa4b0319c182f511df44bc42ed73ad3db247bfb63a6223ee2297bd690270",
+        "page_graph": "75307a7fc5055786fd87f7a35b2452f22942ba5ef4272e023ab7fa1d4513c05a"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 0,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.695758
+    },
+    {
+      "sample_id": "0394",
+      "split": "test",
+      "node_count": 83,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "42a34a42d089adf4",
+      "duplicate_cluster": "0394",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 36.167,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 4,
+            "repeated_members": 45
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 38
+          },
+          "SPACING": {
+            "repeated_patterns": 4,
+            "repeated_members": 25
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 249.417,
+        "luminance_std": 29.279,
+        "score": 0.4274
+      },
+      "asset_sha256": {
+        "screenshot": "021f184326d211e16bd68801beb5311e90459824a29774f106e5585c4bee682a",
+        "page_graph": "a34bad97075deddf6bbb45761422fb282b81a9e99d4c6b0d98b707d1be8de350"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 6,
+        "tiny_image_count": 2,
+        "tiny_image_ratio": 0.3333,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.147966
+    },
+    {
+      "sample_id": "0570",
+      "split": "validation",
+      "node_count": 83,
+      "size_bin": "medium",
+      "page_type": "form",
+      "structure_fingerprint": "7c380d64f789275e",
+      "duplicate_cluster": "0570",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 43.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 7,
+            "repeated_members": 33
+          },
+          "TEXT": {
+            "repeated_patterns": 4,
+            "repeated_members": 16
+          },
+          "RADIUS": {
+            "repeated_patterns": 3,
+            "repeated_members": 6
+          },
+          "SPACING": {
+            "repeated_patterns": 3,
+            "repeated_members": 7
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 240.898,
+        "luminance_std": 41.365,
+        "score": 0.5832
+      },
+      "asset_sha256": {
+        "screenshot": "7b258c5a8dcede277b19906daa5a1f05d2ec2c27b44898c36252abe812ffabba",
+        "page_graph": "428272d5222668c9a9c8b2b5cc6c16ad44e57b47e59b04b9673f10a3f509b444"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 3,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.963441
     },
     {
       "sample_id": "0690",
@@ -3971,6 +3956,54 @@
       "selection_noise": 0.091297
     },
     {
+      "sample_id": "1181",
+      "split": "test",
+      "node_count": 92,
+      "size_bin": "medium",
+      "page_type": "list",
+      "structure_fingerprint": "594323863bda42c8",
+      "duplicate_cluster": "1181",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 29.5,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 38
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 36
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 9
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 245.964,
+        "luminance_std": 38.062,
+        "score": 0.5361
+      },
+      "asset_sha256": {
+        "screenshot": "4a4863f688123f3f459ae54bc4f9681231356de075a395991cab476b460d1caf",
+        "page_graph": "87a3c1e4b168812eec8f46351357609e925fe39a90f33aeb0f18b08dff57ac26"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 2,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 0.5,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.754965
+    },
+    {
       "sample_id": "1243",
       "split": "train",
       "node_count": 32,
@@ -4021,6 +4054,154 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.584297
+    },
+    {
+      "sample_id": "1331",
+      "split": "test",
+      "node_count": 125,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "0d45f19232803584",
+      "duplicate_cluster": "1331",
+      "style_repeat_evidence": {
+        "kind_count": 4,
+        "score": 52.833,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 6,
+            "repeated_members": 36
+          },
+          "TEXT": {
+            "repeated_patterns": 5,
+            "repeated_members": 19
+          },
+          "RADIUS": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          },
+          "SPACING": {
+            "repeated_patterns": 8,
+            "repeated_members": 26
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 251.222,
+        "luminance_std": 24.765,
+        "score": 0.3715
+      },
+      "asset_sha256": {
+        "screenshot": "055cecc9fc5f22950a1287eea311a930cead1debb2cd7f40412e689e0dc9af06",
+        "page_graph": "40a9b13c50b21df2dbd4f2c4325a758c52ae64b01417d7b44c56a9a05eb06ab7"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 6,
+        "tiny_image_count": 3,
+        "tiny_image_ratio": 0.5,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": true,
+      "selection_noise": 0.233831
+    },
+    {
+      "sample_id": "1332",
+      "split": "validation",
+      "node_count": 98,
+      "size_bin": "medium",
+      "page_type": "table",
+      "structure_fingerprint": "b9b3225142cdb3d2",
+      "duplicate_cluster": "0564",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 18.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 3,
+            "repeated_members": 6
+          },
+          "TEXT": {
+            "repeated_patterns": 2,
+            "repeated_members": 4
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 37
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 150.331,
+        "luminance_std": 66.163,
+        "score": 0.9994
+      },
+      "asset_sha256": {
+        "screenshot": "1b28fe6bff1b4b42df045294f15620d60d3b1234180bd28eca262e9b54f583e8",
+        "page_graph": "19e1a72b0928c4262420435b4c37161c698b303e2a8e70501091591c13c860f0"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 17,
+        "tiny_image_count": 0,
+        "tiny_image_ratio": 0.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.328305
+    },
+    {
+      "sample_id": "1408",
+      "split": "test",
+      "node_count": 52,
+      "size_bin": "medium",
+      "page_type": "navigation",
+      "structure_fingerprint": "8b026b72f3068c12",
+      "duplicate_cluster": "1408",
+      "style_repeat_evidence": {
+        "kind_count": 3,
+        "score": 19.667,
+        "kinds": {
+          "COLOR": {
+            "repeated_patterns": 2,
+            "repeated_members": 23
+          },
+          "TEXT": {
+            "repeated_patterns": 3,
+            "repeated_members": 21
+          },
+          "SPACING": {
+            "repeated_patterns": 1,
+            "repeated_members": 2
+          }
+        }
+      },
+      "quality": {
+        "width": 1280.0,
+        "height": 800.0,
+        "luminance_mean": 246.482,
+        "luminance_std": 39.225,
+        "score": 0.5489
+      },
+      "asset_sha256": {
+        "screenshot": "5efebf05f5e25a766964b05f14bf320a50354c04522fdaaf804672ff0d4797cf",
+        "page_graph": "f2eaf15172944598c194b2f711184890c0ac6cba69bd5898701eb43b6d5b54a8"
+      },
+      "content_safety_flags": [],
+      "broken_image_proxy": {
+        "image_count": 1,
+        "tiny_image_count": 1,
+        "tiny_image_ratio": 1.0,
+        "mass_failure_suspected": false
+      },
+      "eligible": true,
+      "token_rich_candidate": false,
+      "selection_noise": 0.419276
     },
     {
       "sample_id": "1512",
@@ -4117,250 +4298,158 @@
       "eligible": true,
       "token_rich_candidate": true,
       "selection_noise": 0.232832
-    },
-    {
-      "sample_id": "0357",
-      "split": "validation",
-      "node_count": 20,
-      "size_bin": "small",
-      "page_type": "content",
-      "structure_fingerprint": "9cd07886765337fc",
-      "duplicate_cluster": "0357",
-      "style_repeat_evidence": {
-        "kind_count": 2,
-        "score": 5.667,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 1,
-            "repeated_members": 7
-          },
-          "TEXT": {
-            "repeated_patterns": 1,
-            "repeated_members": 3
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 230.233,
-        "luminance_std": 67.915,
-        "score": 0.8663
-      },
-      "asset_sha256": {
-        "screenshot": "3a83aa4b0319c182f511df44bc42ed73ad3db247bfb63a6223ee2297bd690270",
-        "page_graph": "75307a7fc5055786fd87f7a35b2452f22942ba5ef4272e023ab7fa1d4513c05a"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 0,
-        "tiny_image_count": 0,
-        "tiny_image_ratio": 0.0,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": false,
-      "selection_noise": 0.695758
-    },
-    {
-      "sample_id": "0433",
-      "split": "validation",
-      "node_count": 43,
-      "size_bin": "small",
-      "page_type": "list",
-      "structure_fingerprint": "3a16a624ab891331",
-      "duplicate_cluster": "0433",
-      "style_repeat_evidence": {
-        "kind_count": 4,
-        "score": 29.667,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 3,
-            "repeated_members": 14
-          },
-          "TEXT": {
-            "repeated_patterns": 3,
-            "repeated_members": 12
-          },
-          "RADIUS": {
-            "repeated_patterns": 1,
-            "repeated_members": 8
-          },
-          "SPACING": {
-            "repeated_patterns": 4,
-            "repeated_members": 12
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 245.845,
-        "luminance_std": 36.771,
-        "score": 0.5212
-      },
-      "asset_sha256": {
-        "screenshot": "38e23096f7fddc734340f9e931057e717cda9bce63255f8af60aae54549d4ee0",
-        "page_graph": "68de5b07edb6ed9128e03b1b2e3d5b08d25dbcc3f0a3cce656a72260ae475cc2"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 1,
-        "tiny_image_count": 0,
-        "tiny_image_ratio": 0.0,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": true,
-      "selection_noise": 0.160912
-    },
-    {
-      "sample_id": "0570",
-      "split": "validation",
-      "node_count": 83,
-      "size_bin": "medium",
-      "page_type": "form",
-      "structure_fingerprint": "7c380d64f789275e",
-      "duplicate_cluster": "0570",
-      "style_repeat_evidence": {
-        "kind_count": 4,
-        "score": 43.833,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 7,
-            "repeated_members": 33
-          },
-          "TEXT": {
-            "repeated_patterns": 4,
-            "repeated_members": 16
-          },
-          "RADIUS": {
-            "repeated_patterns": 3,
-            "repeated_members": 6
-          },
-          "SPACING": {
-            "repeated_patterns": 3,
-            "repeated_members": 7
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 240.898,
-        "luminance_std": 41.365,
-        "score": 0.5832
-      },
-      "asset_sha256": {
-        "screenshot": "7b258c5a8dcede277b19906daa5a1f05d2ec2c27b44898c36252abe812ffabba",
-        "page_graph": "428272d5222668c9a9c8b2b5cc6c16ad44e57b47e59b04b9673f10a3f509b444"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 3,
-        "tiny_image_count": 0,
-        "tiny_image_ratio": 0.0,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": true,
-      "selection_noise": 0.963441
-    },
-    {
-      "sample_id": "0584",
-      "split": "validation",
-      "node_count": 64,
-      "size_bin": "medium",
-      "page_type": "commerce",
-      "structure_fingerprint": "dd70f0b31043de35",
-      "duplicate_cluster": "0584",
-      "style_repeat_evidence": {
-        "kind_count": 3,
-        "score": 22.5,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 1,
-            "repeated_members": 14
-          },
-          "TEXT": {
-            "repeated_patterns": 3,
-            "repeated_members": 12
-          },
-          "SPACING": {
-            "repeated_patterns": 4,
-            "repeated_members": 13
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 238.494,
-        "luminance_std": 57.198,
-        "score": 0.7728
-      },
-      "asset_sha256": {
-        "screenshot": "67cc23dee7bdd4670a555841e07609e3930bec0ae61059ed062212ab117b1001",
-        "page_graph": "50e94f833924c93137c15da1d563f30fe0329e704d83e2f116a5b37493d4d0ab"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 4,
-        "tiny_image_count": 0,
-        "tiny_image_ratio": 0.0,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": false,
-      "selection_noise": 0.957511
-    },
-    {
-      "sample_id": "1332",
-      "split": "validation",
-      "node_count": 98,
-      "size_bin": "medium",
-      "page_type": "table",
-      "structure_fingerprint": "b9b3225142cdb3d2",
-      "duplicate_cluster": "0564",
-      "style_repeat_evidence": {
-        "kind_count": 3,
-        "score": 18.667,
-        "kinds": {
-          "COLOR": {
-            "repeated_patterns": 3,
-            "repeated_members": 6
-          },
-          "TEXT": {
-            "repeated_patterns": 2,
-            "repeated_members": 4
-          },
-          "SPACING": {
-            "repeated_patterns": 1,
-            "repeated_members": 37
-          }
-        }
-      },
-      "quality": {
-        "width": 1280.0,
-        "height": 800.0,
-        "luminance_mean": 150.331,
-        "luminance_std": 66.163,
-        "score": 0.9994
-      },
-      "asset_sha256": {
-        "screenshot": "1b28fe6bff1b4b42df045294f15620d60d3b1234180bd28eca262e9b54f583e8",
-        "page_graph": "19e1a72b0928c4262420435b4c37161c698b303e2a8e70501091591c13c860f0"
-      },
-      "content_safety_flags": [],
-      "broken_image_proxy": {
-        "image_count": 17,
-        "tiny_image_count": 0,
-        "tiny_image_ratio": 0.0,
-        "mass_failure_suspected": false
-      },
-      "eligible": true,
-      "token_rich_candidate": false,
-      "selection_noise": 0.328305
     }
+  ],
+  "quality_replacements": [
+    {
+      "old_sample_id": "0144",
+      "new_sample_id": "0433",
+      "split": "validation",
+      "reason": "全分辨率复核发现导航、正文与版权区域大面积错位重叠",
+      "replaced_at": "2026-08-31T00:00:00+08:00",
+      "reviewer_kind": "ai_visual_semantic_reviewer"
+    },
+    {
+      "old_sample_id": "0553",
+      "new_sample_id": "0584",
+      "split": "validation",
+      "reason": "全分辨率复核发现页面正文持续推广赌场、老虎机与博彩策略",
+      "replaced_at": "2026-08-31T00:00:00+08:00",
+      "reviewer_kind": "ai_visual_semantic_reviewer"
+    },
+    {
+      "old_sample_id": "1365",
+      "new_sample_id": "1530",
+      "split": "train",
+      "reason": "全分辨率复核发现导航重复错位、内容碰撞且缺少稳定主体区域",
+      "replaced_at": "2026-08-31T00:00:00+08:00",
+      "reviewer_kind": "ai_visual_semantic_reviewer"
+    }
+  ],
+  "reference_complete_ids": [
+    "0001",
+    "0020",
+    "0044",
+    "0051",
+    "0052",
+    "0055",
+    "0074",
+    "0079",
+    "0115",
+    "0118",
+    "0155",
+    "0165",
+    "0213",
+    "0237",
+    "0304",
+    "0319",
+    "0408",
+    "0409",
+    "0412",
+    "0419",
+    "0431",
+    "0433",
+    "0446",
+    "0540",
+    "0544",
+    "0584",
+    "0601",
+    "0616",
+    "0620",
+    "0697",
+    "0827",
+    "0832",
+    "0837",
+    "0860",
+    "0937",
+    "0995",
+    "0996",
+    "1001",
+    "1030",
+    "1035",
+    "1083",
+    "1084",
+    "1094",
+    "1111",
+    "1118",
+    "1203",
+    "1272",
+    "1292",
+    "1302",
+    "1328",
+    "1373",
+    "1416",
+    "1429",
+    "1435",
+    "1437",
+    "1486",
+    "1503",
+    "1517",
+    "1528",
+    "1530"
+  ],
+  "human_gold_sample_ids": [
+    "0001",
+    "0020",
+    "0052",
+    "0319",
+    "0419",
+    "0601",
+    "0860",
+    "0937",
+    "1094",
+    "1429"
+  ],
+  "ai_silver_sample_ids": [
+    "0044",
+    "0051",
+    "0055",
+    "0074",
+    "0079",
+    "0115",
+    "0118",
+    "0155",
+    "0165",
+    "0213",
+    "0237",
+    "0304",
+    "0408",
+    "0409",
+    "0412",
+    "0431",
+    "0433",
+    "0446",
+    "0540",
+    "0544",
+    "0584",
+    "0616",
+    "0620",
+    "0697",
+    "0827",
+    "0832",
+    "0837",
+    "0995",
+    "0996",
+    "1001",
+    "1030",
+    "1035",
+    "1083",
+    "1084",
+    "1111",
+    "1118",
+    "1203",
+    "1272",
+    "1292",
+    "1302",
+    "1328",
+    "1373",
+    "1416",
+    "1435",
+    "1437",
+    "1486",
+    "1503",
+    "1517",
+    "1528",
+    "1530"
   ]
 }

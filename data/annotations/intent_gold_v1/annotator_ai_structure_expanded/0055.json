@@ -1,0 +1,2116 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 200.0,
+        "y": 14.0,
+        "width": 56.9375,
+        "height": 18.0
+      },
+      "name": "Kalliope",
+      "text": "Kalliope",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 256.9375,
+        "y": 10.0,
+        "width": 24.890625,
+        "height": 29.0
+      },
+      "name": "→",
+      "text": "→",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 281.828125,
+        "y": 14.0,
+        "width": 51.578125,
+        "height": 18.0
+      },
+      "name": "Digtere",
+      "text": "Digtere",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 333.40625,
+        "y": 10.0,
+        "width": 24.890625,
+        "height": 29.0
+      },
+      "name": "→",
+      "text": "→",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 358.296875,
+        "y": 14.0,
+        "width": 125.421875,
+        "height": 18.0
+      },
+      "name": "name",
+      "text": "Sophus Claussen",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 483.71875,
+        "y": 10.0,
+        "width": 24.890625,
+        "height": 29.0
+      },
+      "name": "→",
+      "text": "→",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 508.609375,
+        "y": 14.0,
+        "width": 34.6875,
+        "height": 18.0
+      },
+      "name": "Mina",
+      "text": "Mina",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 547.75,
+        "y": 14.0,
+        "width": 46.25,
+        "height": 18.0
+      },
+      "name": "(1902)",
+      "text": "(1902)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.611764705882353,
+          0.40784313725490196,
+          0.4235294117647059,
+          1
+        ],
+        "border_color": [
+          0.611764705882353,
+          0.40784313725490196,
+          0.4235294117647059,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 594.0,
+        "y": 10.0,
+        "width": 24.890625,
+        "height": 29.0
+      },
+      "name": "→",
+      "text": "→",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 618.890625,
+        "y": 10.0,
+        "width": 78.265625,
+        "height": 29.0
+      },
+      "name": "Eksekution",
+      "text": "Eksekution",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1028.0,
+        "y": 14.0,
+        "width": 18.0,
+        "height": 21.0
+      },
+      "name": "←",
+      "text": "←",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1062.0,
+        "y": 14.0,
+        "width": 18.0,
+        "height": 21.0
+      },
+      "name": "→",
+      "text": "→",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 198.0,
+        "y": 125.0,
+        "width": 438.828125,
+        "height": 64.0
+      },
+      "name": "name",
+      "text": "Sophus Claussen",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 56.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 636.828125,
+        "y": 125.0,
+        "width": 329.953125,
+        "height": 64.0
+      },
+      "name": "lighter",
+      "text": "(1865–1931)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4588235294117647,
+          0.4588235294117647,
+          0.4588235294117647,
+          1
+        ],
+        "border_color": [
+          0.4588235294117647,
+          0.4588235294117647,
+          0.4588235294117647,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 56.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 200.0,
+        "y": 215.0,
+        "width": 101.359375,
+        "height": 32.0
+      },
+      "name": "Værker",
+      "text": "Værker",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        44
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 331.359375,
+        "y": 215.0,
+        "width": 117.953125,
+        "height": 32.0
+      },
+      "name": "Digttitler",
+      "text": "Digttitler",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4392156862745098,
+          0.4392156862745098,
+          0.4392156862745098,
+          1
+        ],
+        "border_color": [
+          0.4392156862745098,
+          0.4392156862745098,
+          0.4392156862745098,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 479.3125,
+        "y": 215.0,
+        "width": 155.90625,
+        "height": 32.0
+      },
+      "name": "Førstelinjer",
+      "text": "Førstelinjer",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4392156862745098,
+          0.4392156862745098,
+          0.4392156862745098,
+          1
+        ],
+        "border_color": [
+          0.4392156862745098,
+          0.4392156862745098,
+          0.4392156862745098,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 665.21875,
+        "y": 215.0,
+        "width": 187.328125,
+        "height": 32.0
+      },
+      "name": "Henvisninger",
+      "text": "Henvisninger",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4392156862745098,
+          0.4392156862745098,
+          0.4392156862745098,
+          1
+        ],
+        "border_color": [
+          0.4392156862745098,
+          0.4392156862745098,
+          0.4392156862745098,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 882.546875,
+        "y": 215.0,
+        "width": 109.671875,
+        "height": 32.0
+      },
+      "name": "Biografi",
+      "text": "Biografi",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4392156862745098,
+          0.4392156862745098,
+          0.4392156862745098,
+          1
+        ],
+        "border_color": [
+          0.4392156862745098,
+          0.4392156862745098,
+          0.4392156862745098,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 1053.171875,
+        "y": 215.0,
+        "width": 26.828125,
+        "height": 150.0
+      },
+      "name": "icon_56",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_65",
+      "source_node_ids": [
+        65
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 227.0,
+        "y": 470.0,
+        "width": 110.5625,
+        "height": 29.0
+      },
+      "name": "textname",
+      "text": "Eksekution",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 25.2,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 353.0,
+        "y": 565.3125,
+        "width": 144.59375,
+        "height": 54.0
+      },
+      "name": "inner-poem-line",
+      "text": "Hun stilled omsigtsfuld paa sit Natbord et Glas",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_73",
+      "source_node_ids": [
+        73
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 353.0,
+        "y": 619.3125,
+        "width": 144.59375,
+        "height": 54.0
+      },
+      "name": "inner-poem-line",
+      "text": "med Mælk... hun nænte ej, han skulde tørste.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 353.0,
+        "y": 673.3125,
+        "width": 144.59375,
+        "height": 81.0
+      },
+      "name": "inner-poem-line",
+      "text": "Vi kommer til det værste: hun bænkede ham Plads,",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 353.0,
+        "y": 754.3125,
+        "width": 144.59375,
+        "height": 45.6875
+      },
+      "name": "inner-poem-line",
+      "text": "kredensed ham sin Vin — den allerførste.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_84",
+      "source_node_ids": [
+        84
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 497.59375,
+        "y": 480.0,
+        "width": 582.40625,
+        "height": 320.0
+      },
+      "name": "jsx-2540361096",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://kalliope.org/static/facsimiles/claussen/115308050388_color/t/017-w800.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_10",
+        "e_14",
+        "e_15",
+        "e_20",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_28",
+        "e_30",
+        "e_34",
+        "e_35",
+        "e_41",
+        "e_44",
+        "e_47",
+        "e_50",
+        "e_53",
+        "e_56",
+        "e_6",
+        "e_65",
+        "e_7",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_84",
+        "e_9"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 180.0,
+        "y": 10.0,
+        "width": 920.0,
+        "height": 790.0
+      },
+      "name": "jsx-2777487723",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 2,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_10",
+        "e_14",
+        "e_15",
+        "e_20",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_28",
+        "e_30",
+        "e_6",
+        "e_7",
+        "e_9"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 200.0,
+        "y": 10.0,
+        "width": 880.0,
+        "height": 29.0
+      },
+      "name": "jsx-2854609158",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_10",
+        "e_14",
+        "e_15",
+        "e_20",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_6",
+        "e_7",
+        "e_9"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 200.0,
+        "y": 10.0,
+        "width": 497.15625,
+        "height": 29.0
+      },
+      "name": "jsx-2854609158",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 4,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_18",
+      "source_element_ids": [
+        "e_20",
+        "e_22"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 508.609375,
+        "y": 14.0,
+        "width": 85.390625,
+        "height": 18.0
+      },
+      "name": "jsx-1734796643",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_color": [
+          0.5450980392156862,
+          0.21568627450980393,
+          0.2549019607843137,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 18,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_26",
+      "source_element_ids": [
+        "e_28",
+        "e_30"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 1012.0,
+        "y": 10.0,
+        "width": 68.0,
+        "height": 29.0
+      },
+      "name": "container_26",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 26,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_33",
+      "source_element_ids": [
+        "e_34",
+        "e_35"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 198.0,
+        "y": 125.0,
+        "width": 768.78125,
+        "height": 64.0
+      },
+      "name": "poetname",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 56.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 33,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_36",
+      "source_element_ids": [
+        "e_41",
+        "e_44",
+        "e_47",
+        "e_50",
+        "e_53",
+        "e_56"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 200.0,
+        "y": 215.0,
+        "width": 880.0,
+        "height": 155.0
+      },
+      "name": "jsx-3629733352",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 36,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_38",
+      "source_element_ids": [
+        "e_41",
+        "e_44",
+        "e_47",
+        "e_50",
+        "e_53"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 200.0,
+        "y": 215.0,
+        "width": 843.171875,
+        "height": 49.0
+      },
+      "name": "tabs",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 38,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_57",
+      "source_element_ids": [
+        "e_65",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_84"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 200.0,
+        "y": 450.0,
+        "width": 880.0,
+        "height": 350.0
+      },
+      "name": "jsx-3196728455",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 57,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_59",
+      "source_element_ids": [
+        "e_65",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 200.0,
+        "y": 450.0,
+        "width": 297.59375,
+        "height": 350.0
+      },
+      "name": "jsx-2315772527",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 59,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_69",
+      "source_element_ids": [
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 200.0,
+        "y": 565.3125,
+        "width": 297.59375,
+        "height": 234.6875
+      },
+      "name": "jsx-531762627",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 69,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_2",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        20.0,
+        0.0,
+        20.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_3",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_4",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_18",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_26",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        4.0,
+        0.0,
+        4.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_33",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_36",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_38",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_57",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_59",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_69",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_3",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "g_4",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "g_18",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "g_26",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_33",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_36",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_36",
+      "child_id": "g_38",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_57",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_57",
+      "child_id": "g_59",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "g_69",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_6",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_9",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_10",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_14",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_15",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_20",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_22",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_23",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_24",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_28",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_30",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_34",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_33",
+      "child_id": "e_35",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_38",
+      "child_id": "e_41",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_38",
+      "child_id": "e_44",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_38",
+      "child_id": "e_47",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_38",
+      "child_id": "e_50",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_38",
+      "child_id": "e_53",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_36",
+      "child_id": "e_56",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_59",
+      "child_id": "e_65",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_71",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_73",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_75",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_69",
+      "child_id": "e_77",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_57",
+      "child_id": "e_84",
+      "order": 1,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0055",
+    "label_source": "expanded_pagegraph_structure_candidate",
+    "annotator_kind": "deterministic_pagegraph_heuristic",
+    "generator": "pagegraph_expanded_structure_v1",
+    "status": "complete",
+    "human_labels_viewed_for_target": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "limitations": [
+      "该文件是高召回结构候选，不是人工标注或最终银标准。",
+      "通用容器可能产生过度分组，必须结合截图审阅选择。"
+    ],
+    "page_graph_sha256": "b8e77896bb9150bf6995268e754a326bd045a433f648149be18332dea2fd55f1"
+  }
+}

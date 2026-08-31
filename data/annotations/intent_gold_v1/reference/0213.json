@@ -1,0 +1,783 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        1
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 85.0,
+        "y": 0.0,
+        "width": 1.0,
+        "height": 1.0
+      },
+      "name": "skip-link",
+      "text": "Skip to content",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 85.0,
+        "y": 57.59375,
+        "width": 330.265625,
+        "height": 52.0
+      },
+      "name": "BM_Saint_Raphaël",
+      "text": "BM Saint Raphaël",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 44.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 85.0,
+        "y": 111.09375,
+        "width": 330.265625,
+        "height": 20.0
+      },
+      "name": "site-description",
+      "text": "Les blogs des membres",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 415.265625,
+        "y": 102.0,
+        "width": 82.0,
+        "height": 59.59375
+      },
+      "name": "primary-menu-toggle",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 5.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 432.265625,
+        "y": 120.59375,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "name": "icon",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 456.265625,
+        "y": 120.59375,
+        "width": 24.0,
+        "height": 24.0
+      },
+      "name": "icon",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 85.0,
+        "y": 212.59375,
+        "width": 850.0,
+        "height": 550.0
+      },
+      "name": "attachment-post-thumbnail",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://www.bm-saintraphael.fr/wp-content/uploads/92033-850x550.png.webp"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 85.0,
+        "y": 775.09375,
+        "width": 892.0,
+        "height": 24.90625
+      },
+      "name": "entry-title",
+      "text": "automaniacs.fr",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 36.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_6",
+        "e_7",
+        "e_9",
+        "e_10",
+        "e_11"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 85.0,
+        "y": 0.0,
+        "width": 1195.0,
+        "height": 161.59375
+      },
+      "name": "masthead",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 2,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_9",
+      "source_element_ids": [
+        "e_10",
+        "e_11"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 415.265625,
+        "y": 102.0,
+        "width": 82.0,
+        "height": 59.59375
+      },
+      "name": "primary-menu-toggle",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 5.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 9,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_15",
+      "source_element_ids": [
+        "e_16",
+        "e_18"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 85.0,
+        "y": 212.59375,
+        "width": 892.0,
+        "height": 587.40625
+      },
+      "name": "post-206",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 17.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 15,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_2",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_9",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        13.6,
+        17.0,
+        17.0,
+        17.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_15",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_9",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_15",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_1",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_6",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_7",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_9",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_10",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_11",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_16",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_18",
+      "order": 1,
+      "confidence": 0.95
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_1",
+        "e_18",
+        "e_6",
+        "e_7",
+        "e_9"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 17.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_1",
+        "e_7",
+        "e_9"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "0213",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "conservative",
+    "visual_review": {
+      "sample_id": "0213",
+      "quality_status": "accepted",
+      "observed_page_type": "博客外链预览文章页",
+      "primary_layout": "深色背景上的站点标题，下方以一张大型网页截图作为文章预览主体",
+      "visible_regions": [
+        "博客标题与副标题",
+        "菜单切换控件",
+        "大型外链网页截图",
+        "文章标题"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "applied_corrections": [
+        "保持 e_16 为单一原子图片元素，不要把图片内部可见的导航、卡片或文字推断为当前页面的子节点。"
+      ],
+      "correction_operations": [],
+      "notes": "视觉主体是嵌入式网页截图而非真实子界面；候选将 e_16 作为图片并与 e_18 组成文章卡片，结构方向正确。",
+      "reviewer_id": "codex_visual_reviewer_1"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_1"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0213.json",
+        "sha256": "50e059ce28084496f98ae316f7c793110adbc2cf52d798cb2f930729f0ab9c8f"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/0213.json",
+        "sha256": "a284faaa1df6fb0f6d2e36e0793af71f49e05d31ee0e3b1cd11de9fc56e82ceb"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_01.json",
+        "sha256": "ec6645f2e68cd46592b3ef53ce727aa4e8f3ad5fc51f9e035f8ad86afdcc9ffd"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/0213.json",
+        "sha256": "9318ba9338b875b77461eeb53f782b8a87f47c96668e981ec0a8cb967af4df8d"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/0213/screenshot.png",
+      "screenshot_sha256": "505799e00861fc9f5ce0751977c5ee209fec1b86a2d60a8933e98637fb586766",
+      "page_graph_path": "data/processed/0213/page_graph.json",
+      "page_graph_sha256": "a644c9b71dcafdb795df9822d60b7de97e00e8e7d22ebbb8e92c6b85ecc6f657"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

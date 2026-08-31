@@ -1,0 +1,1726 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        4
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 8.0,
+        "width": 73.40625,
+        "height": 14.0
+      },
+      "name": "et-info-phone",
+      "text": "06 4603 5910",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 214.40625,
+        "y": 8.0,
+        "width": 115.71875,
+        "height": 14.0
+      },
+      "name": "et-info-email",
+      "text": "lydialooije@ziggo.nl",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 479.296875,
+        "y": 63.0,
+        "width": 81.15625,
+        "height": 47.0
+      },
+      "name": "Lydia_Looije",
+      "text": "Lydia Looije",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 582.453125,
+        "y": 63.0,
+        "width": 130.703125,
+        "height": 47.0
+      },
+      "name": "Familieopstellingen",
+      "text": "Familieopstellingen",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 735.15625,
+        "y": 63.0,
+        "width": 83.265625,
+        "height": 47.0
+      },
+      "name": "Helende_reis",
+      "text": "Helende reis",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 840.421875,
+        "y": 63.0,
+        "width": 142.109375,
+        "height": 47.0
+      },
+      "name": "Workshops_&_Cursus",
+      "text": "Workshops & Cursus",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1004.53125,
+        "y": 63.0,
+        "width": 51.34375,
+        "height": 47.0
+      },
+      "name": "Agenda",
+      "text": "Agenda",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1077.875,
+        "y": 63.0,
+        "width": 52.125,
+        "height": 47.0
+      },
+      "name": "Contact",
+      "text": "Contact",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 111.0,
+        "width": 1024.0,
+        "height": 40.0
+      },
+      "name": "entry-title",
+      "text": "Zondagmiddag 11 maart Gluren bij de buren!",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 181.0,
+        "width": 1024.0,
+        "height": 61.59375
+      },
+      "name": "De_toneelgroep_van_de_Lybertijn_",
+      "text": "De toneelgroep van de Lybertijn doet mee met het huiskameramateurfestival dat zondag 11 maart in Ams",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 852.0,
+        "y": 181.0,
+        "width": 300.0,
+        "height": 225.0
+      },
+      "name": "alignright",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": "https://lybertijn.nl/wp-content/uploads/2018/01/IMG_4284-3-300x225.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 242.59375,
+        "width": 1024.0,
+        "height": 85.390625
+      },
+      "name": "In_onze_eigen_studio_spelen_wij_",
+      "text": "In onze eigen studio spelen wij drie keer een voorstelling van een half uur. Het festival is zo geor",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 537.0,
+        "y": 403.578125,
+        "width": 300.0,
+        "height": 396.421875
+      },
+      "name": "alignright",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.48627450980392156,
+          0.7764705882352941,
+          0.5529411764705883,
+          1
+        ],
+        "border_color": [
+          0.48627450980392156,
+          0.7764705882352941,
+          0.5529411764705883,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": "https://lybertijn.nl/wp-content/uploads/2018/01/IMG_4283-2-300x225.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        43
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 526.375,
+        "width": 1024.0,
+        "height": 28.0
+      },
+      "name": "widgettitle",
+      "text": "Schrijf je in voor de nieuwsbrief",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 557.375,
+        "width": 79.375,
+        "height": 16.0
+      },
+      "name": "Je_mailadres",
+      "text": "Je mailadres",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        50
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 207.375,
+        "y": 555.375,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_50",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_color_03"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 128.0,
+        "y": 593.171875,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_52",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_color_03"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 128.0,
+        "y": 630.96875,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_53",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_color_03"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        54
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 128.0,
+        "y": 654.765625,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_54",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_color_03"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 128.0,
+        "y": 678.5625,
+        "width": 153.0,
+        "height": 21.0
+      },
+      "name": "input_55",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_color_03"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 731.359375,
+        "width": 1024.0,
+        "height": 28.0
+      },
+      "name": "widgettitle",
+      "text": "Agenda",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_04"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 762.359375,
+        "width": 208.546875,
+        "height": 16.0
+      },
+      "name": "Schrijf_je_in_voor_onze_nieuwsbr",
+      "text": "Schrijf je in voor onze nieuwsbrief",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.48627450980392156,
+          0.7764705882352941,
+          0.5529411764705883,
+          1
+        ],
+        "border_color": [
+          0.48627450980392156,
+          0.7764705882352941,
+          0.5529411764705883,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 793.15625,
+        "width": 132.265625,
+        "height": 6.84375
+      },
+      "name": "ZIN_IN_ZINGEN_2019",
+      "text": "ZIN IN ZINGEN 2019",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.48627450980392156,
+          0.7764705882352941,
+          0.5529411764705883,
+          1
+        ],
+        "border_color": [
+          0.48627450980392156,
+          0.7764705882352941,
+          0.5529411764705883,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_11",
+      "source_element_ids": [
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 479.296875,
+        "y": 63.0,
+        "width": 672.703125,
+        "height": 47.0
+      },
+      "name": "top-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 11,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_29",
+      "source_element_ids": [
+        "e_31",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_40"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 128.0,
+        "y": 111.0,
+        "width": 1024.0,
+        "height": 355.375
+      },
+      "name": "post-26451",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 29,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_46",
+      "source_element_ids": [
+        "e_49",
+        "e_50",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 128.0,
+        "y": 554.375,
+        "width": 300.0,
+        "height": 146.984375
+      },
+      "name": "mc4wp-form-1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 46,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_58",
+      "source_element_ids": [
+        "e_60",
+        "e_62"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 128.0,
+        "y": 759.359375,
+        "width": 1024.0,
+        "height": 40.640625
+      },
+      "name": "list_58",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 58,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_11",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_29",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        25.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_46",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_58",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_11",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_29",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_46",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_58",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_4",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_6",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_13",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_15",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_17",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_19",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_21",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_23",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_31",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_33",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_34",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_35",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "e_40",
+      "order": 4,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_43",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "e_49",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "e_50",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "e_52",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "e_53",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "e_54",
+      "order": 4,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_46",
+      "child_id": "e_55",
+      "order": 5,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_57",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_58",
+      "child_id": "e_60",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_58",
+      "child_id": "e_62",
+      "order": 1,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          0.6
+        ]
+      },
+      "member_ids": [
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "background",
+        "rgba": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_50",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55"
+      ],
+      "name": "背景色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "border",
+        "rgba": [
+          0.463,
+          0.463,
+          0.463,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_50",
+        "e_52",
+        "e_53",
+        "e_54",
+        "e_55"
+      ],
+      "name": "边框色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_04",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.2,
+          0.2,
+          0.2,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_31",
+        "e_43",
+        "e_57"
+      ],
+      "name": "文字色/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 600
+      },
+      "member_ids": [
+        "e_13",
+        "e_15",
+        "e_17",
+        "e_19",
+        "e_21",
+        "e_23"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 500
+      },
+      "member_ids": [
+        "e_33",
+        "e_35",
+        "e_49",
+        "e_60",
+        "e_62"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "1111",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "conservative",
+    "visual_review": {
+      "sample_id": "1111",
+      "quality_status": "accepted",
+      "observed_page_type": "event_article_with_newsletter_and_agenda",
+      "primary_layout": "site_header_above_article_media_then_two_column_followup_content",
+      "visible_regions": [
+        "contact_strip",
+        "primary_navigation",
+        "event_article",
+        "article_photos",
+        "newsletter_form",
+        "agenda_links"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The menu, event article, newsletter form, and agenda candidates follow the visible regions closely. One lower article photo remains outside the article group, but its placement is visually unambiguous and does not materially alter the page hierarchy.",
+      "reviewer_id": "codex_visual_reviewer_3"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_3"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1111.json",
+        "sha256": "c500c5e6f40973669dd09b4f08dc5095dc85b60b27442104bbff1a70a3545bc9"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/1111.json",
+        "sha256": "c493336eeb211f4add3816f90b4ccaaa3411796b7ab7fef606fe441d8a09167e"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_03.json",
+        "sha256": "4be804af6874bbb24dcb77867cb876ee34a7837f579cb1be7c163d2c2573720b"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/1111.json",
+        "sha256": "f20b22078b2b035280395de78f7ec6de7aca86f5ee3270ba30e4bcc1ff46626b"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/1111/screenshot.png",
+      "screenshot_sha256": "8cd39929c9f0e7cbca5bead57f8df912ec490e8f095b5a9e77d2a598171ffdc9",
+      "page_graph_path": "data/processed/1111/page_graph.json",
+      "page_graph_sha256": "fea0506d1dc6c9e5ad0caa11136b932bc61a87a89f6cee8a57dc2c6dc60205a7"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

@@ -1,0 +1,1423 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        2
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 96.890625,
+        "height": 18.0
+      },
+      "name": "skip-link",
+      "text": "Skip to content",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 42.0,
+        "width": 161.34375,
+        "height": 18.0
+      },
+      "name": "Slot_Deposit_Akun_Demo",
+      "text": "Slot Deposit Akun Demo",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 76.0,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "site-description",
+      "text": "Daftar Sekarang",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 115.4375,
+        "width": 1264.0,
+        "height": 37.0
+      },
+      "name": "entry-title",
+      "text": "Cara Mengetahui Orang Yang Menyambung Wifi Kita",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 32.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 173.875,
+        "width": 1264.0,
+        "height": 54.0
+      },
+      "name": "–_BANDUNG,_GE_–_Jika_koneksi_int",
+      "text": "– BANDUNG, GE – Jika koneksi internet di rumah atau kantor lemot, ini menjadi masalah yang sangat me",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 173.875,
+        "width": 373.09375,
+        "height": 18.0
+      },
+      "name": "Cara_Mengetahui_Orang_Yang_Menya",
+      "text": "Cara Mengetahui Orang Yang Menyambung Wifi Kita",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 243.875,
+        "width": 1264.0,
+        "height": 54.0
+      },
+      "name": "Laporan_Halaman_ITKoding._Untuk_",
+      "text": "Laporan Halaman ITKoding. Untuk mengetahui pengguna WiFi IndiHome secara akurat, kita perlu mengakse",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 317.78125,
+        "width": 1264.0,
+        "height": 28.0
+      },
+      "name": "Cara_Mengetahui_Orang_Yang_Menya",
+      "text": "Cara Mengetahui Orang Yang Menyambung Wifi Kita",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 365.6875,
+        "width": 1264.0,
+        "height": 36.0
+      },
+      "name": "Pada_modem_Huawei_HG8245H,_infor",
+      "text": "Pada modem Huawei HG8245H, informasi mengenai pengguna WiFi dan perangkat yang terhubung ke WiFi dap",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        21
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 422.953125,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "Cara_Mengetahui_Siapa_Saja_Yang_",
+      "text": "Cara Mengetahui Siapa Saja Yang Menggunakan Wifi Kita (indihome)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 462.21875,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "Halaman_informasi_perangkat_peng",
+      "text": "Halaman informasi perangkat pengguna ini memiliki informasi lengkap. Di sana kita bisa melihat berap",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 496.21875,
+        "width": 1264.0,
+        "height": 36.0
+      },
+      "name": "Sangat_mudah_bukan?_Selain_itu,_",
+      "text": "Sangat mudah bukan? Selain itu, jika WiFi tersebut digunakan oleh orang lain yang tidak kita izinkan",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 26.0,
+        "y": 579.21875,
+        "width": 53.78125,
+        "height": 18.0
+      },
+      "name": "ctatext",
+      "text": "See also",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.9254901960784314,
+          0.9411764705882353,
+          0.9450980392156862,
+          1
+        ],
+        "border_color": [
+          0.9254901960784314,
+          0.9411764705882353,
+          0.9450980392156862,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 87.78125,
+        "y": 579.21875,
+        "width": 274.109375,
+        "height": 18.0
+      },
+      "name": "posttitle",
+      "text": "Cara Melihat Password Wifi Di Hp Kita",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.17254901960784313,
+          0.24313725490196078,
+          0.3137254901960784,
+          1
+        ],
+        "border_color": [
+          0.17254901960784313,
+          0.24313725490196078,
+          0.3137254901960784,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 600,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 1192.0,
+        "y": 548.21875,
+        "width": 80.0,
+        "height": 80.0
+      },
+      "name": "ctabutton",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.8274509803921568,
+          0.32941176470588235,
+          0,
+          1
+        ],
+        "text_color": [
+          0.9254901960784314,
+          0.9411764705882353,
+          0.9450980392156862,
+          1
+        ],
+        "border_color": [
+          0.9254901960784314,
+          0.9411764705882353,
+          0.9450980392156862,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.65
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 644.21875,
+        "width": 1264.0,
+        "height": 36.0
+      },
+      "name": "Jika_Anda_masih_bingung_router_a",
+      "text": "Jika Anda masih bingung router atau modem Huawei mana yang Anda gunakan. Periksa halaman login admin",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 696.21875,
+        "width": 1264.0,
+        "height": 18.0
+      },
+      "name": "Pada_router_ZTE_F609,_informasi_",
+      "text": "Pada router ZTE F609, informasi tentang siapa yang menggunakan WiFi kami dapat ditemukan di Perangka",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 734.125,
+        "width": 1264.0,
+        "height": 28.0
+      },
+      "name": "Cara_Menyambungkan_Hp_Ke_Tv_Deng",
+      "text": "Cara Menyambungkan Hp Ke Tv Dengan Mudah",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 8.0,
+        "y": 782.03125,
+        "width": 1264.0,
+        "height": 17.96875
+      },
+      "name": "Tidak_ada_nama_host_untuk_penggu",
+      "text": "Tidak ada nama host untuk pengguna Wifi di halaman info ZTE. Hal ini mempersulit analisis perangkat ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_14",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_19",
+        "e_2",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_29",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_7",
+        "e_8"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 1264.0,
+        "height": 792.0
+      },
+      "name": "site-inner",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 1,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_7",
+        "e_8"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 8.0,
+        "y": 42.0,
+        "width": 1264.0,
+        "height": 52.0
+      },
+      "name": "masthead",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_12",
+      "source_element_ids": [
+        "e_14",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_29",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 8.0,
+        "y": 115.4375,
+        "width": 1264.0,
+        "height": 684.5625
+      },
+      "name": "post-85064",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 12,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_15",
+      "source_element_ids": [
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_29",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 173.875,
+        "width": 1264.0,
+        "height": 626.125
+      },
+      "name": "entry-content",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 15,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_25",
+      "source_element_ids": [
+        "e_29",
+        "e_30",
+        "e_31"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 548.21875,
+        "width": 1264.0,
+        "height": 80.0
+      },
+      "name": "u40d265a238b9a99b332e4674ccfebd51",
+      "style": {
+        "background_color": [
+          0.9019607843137255,
+          0.49411764705882355,
+          0.13333333333333333,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 25,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_28",
+      "source_element_ids": [
+        "e_29",
+        "e_30"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 26.0,
+        "y": 548.21875,
+        "width": 443.890625,
+        "height": 80.0
+      },
+      "name": "u40d265a238b9a99b332e4674ccfebd51-content",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 28,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_3",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_12",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_15",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_25",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_28",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        108.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_3",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_12",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "g_15",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "g_25",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "g_28",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_2",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_16",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_18",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_19",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_20",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_21",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_22",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_23",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_29",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_30",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "e_31",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_32",
+      "order": 9,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_33",
+      "order": 10,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_34",
+      "order": 11,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_35",
+      "order": 12,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1272",
+    "label_source": "expanded_pagegraph_structure_candidate",
+    "annotator_kind": "deterministic_pagegraph_heuristic",
+    "generator": "pagegraph_expanded_structure_v1",
+    "status": "complete",
+    "human_labels_viewed_for_target": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "limitations": [
+      "该文件是高召回结构候选，不是人工标注或最终银标准。",
+      "通用容器可能产生过度分组，必须结合截图审阅选择。"
+    ],
+    "page_graph_sha256": "22108b8c6a2f8d81bd9205a77c695cf8621734a2dc355386b6cb55d10c47bdbb"
+  }
+}

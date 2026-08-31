@@ -52,9 +52,18 @@ class AnnotationStore:
         self.locked_sample_ids = {
             str(value) for value in self.assignment.get("locked_sample_ids", [])
         }
+        self.read_only_sample_ids = {
+            str(value)
+            for value in self.assignment.get("read_only_sample_ids", [])
+        }
         unknown_locked = self.locked_sample_ids - set(self.samples)
         if unknown_locked:
             raise ValueError(f"冻结列表包含未知样本：{sorted(unknown_locked)}")
+        unknown_read_only = self.read_only_sample_ids - set(self.samples)
+        if unknown_read_only:
+            raise ValueError(
+                f"只读列表包含未知样本：{sorted(unknown_read_only)}"
+            )
 
     def _sample(self, sample_id: str) -> dict[str, Any]:
         if sample_id not in self.samples:
@@ -272,6 +281,8 @@ class AnnotationStore:
         self.annotation_path(annotator, sample_id)
         if sample_id in self.locked_sample_ids:
             raise ValueError("该样本已冻结为金标准，不能继续修改")
+        if sample_id in self.read_only_sample_ids:
+            raise ValueError("该样本已冻结为参考标注，不能继续修改")
         graph = self.graph(sample_id)
         ir = DesignIntentIR.from_dict(payload)
         if (

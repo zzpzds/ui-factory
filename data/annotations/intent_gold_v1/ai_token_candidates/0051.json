@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "0051",
+  "generator": "codex_compact_style_tokens_v1",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "source_structure_sha256": "68bc48eb1d7e1c2bc627915b03205e36428d6ab7521b7da009fffda0d8a818c2",
+  "source_visual_review_sha256": "ec6645f2e68cd46592b3ef53ce727aa4e8f3ad5fc51f9e035f8ad86afdcc9ffd",
+  "correction_operations_applied": true,
+  "selection_policy": {
+    "minimum_members": 3,
+    "kind_caps": {
+      "COLOR": 4,
+      "TEXT": 4,
+      "RADIUS": 2,
+      "SPACING": 2
+    },
+    "maximum_tokens_per_page": 12
+  },
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.141,
+          0.141,
+          0.141,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_104",
+        "e_121",
+        "e_136",
+        "e_153",
+        "e_171",
+        "e_38",
+        "e_39",
+        "e_52",
+        "e_70",
+        "e_88"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "background",
+        "rgba": [
+          0.102,
+          0.537,
+          0.09,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_10",
+        "e_110",
+        "e_125",
+        "e_142",
+        "e_159",
+        "e_175",
+        "e_58",
+        "e_76",
+        "e_92"
+      ],
+      "name": "背景色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "background",
+        "rgba": [
+          0.949,
+          0.949,
+          0.949,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_115",
+        "e_130",
+        "e_147",
+        "e_164",
+        "e_22",
+        "e_46",
+        "e_63",
+        "e_81",
+        "e_97"
+      ],
+      "name": "背景色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_04",
+      "kind": "COLOR",
+      "value": {
+        "property": "border",
+        "rgba": [
+          0.102,
+          0.537,
+          0.09,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_10",
+        "e_110",
+        "e_125",
+        "e_142",
+        "e_159",
+        "e_175",
+        "e_58",
+        "e_76",
+        "e_92"
+      ],
+      "name": "边框色/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_107",
+        "e_110",
+        "e_125",
+        "e_139",
+        "e_142",
+        "e_156",
+        "e_159",
+        "e_175",
+        "e_55",
+        "e_58",
+        "e_73",
+        "e_76",
+        "e_92"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.0,
+        "font_weight": 500
+      },
+      "member_ids": [
+        "e_104",
+        "e_121",
+        "e_136",
+        "e_153",
+        "e_171",
+        "e_52",
+        "e_70",
+        "e_88"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_03",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 13.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_10",
+        "e_14",
+        "e_34",
+        "e_38"
+      ],
+      "name": "文字样式/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_radius_01",
+      "kind": "RADIUS",
+      "value": {
+        "radius": 50.0
+      },
+      "member_ids": [
+        "e_115",
+        "e_130",
+        "e_147",
+        "e_164",
+        "e_22",
+        "e_46",
+        "e_63",
+        "e_81",
+        "e_97"
+      ],
+      "name": "圆角/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_radius_02",
+      "kind": "RADIUS",
+      "value": {
+        "radius": 1386.0
+      },
+      "member_ids": [
+        "e_110",
+        "e_125",
+        "e_142",
+        "e_159",
+        "e_175",
+        "e_58",
+        "e_76",
+        "e_92"
+      ],
+      "name": "圆角/02",
+      "confidence": 0.9
+    }
+  ]
+}

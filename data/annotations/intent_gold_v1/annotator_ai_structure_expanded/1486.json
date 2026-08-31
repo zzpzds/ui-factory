@@ -1,0 +1,1184 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        6
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 687.859375,
+        "y": 33.0,
+        "width": 63.8125,
+        "height": 47.0
+      },
+      "name": "Recursos",
+      "text": "Recursos",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 773.671875,
+        "y": 33.0,
+        "width": 141.625,
+        "height": 47.0
+      },
+      "name": "Programas_y_eventos",
+      "text": "Programas y eventos",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 937.296875,
+        "y": 33.0,
+        "width": 89.46875,
+        "height": 47.0
+      },
+      "name": "Sobre_el_IFYL",
+      "text": "Sobre el IFYL",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        12
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1048.765625,
+        "y": 33.0,
+        "width": 41.234375,
+        "height": 47.0
+      },
+      "name": "DONA",
+      "text": "DONA",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 200.40625,
+        "y": 0.0,
+        "width": 921.59375,
+        "height": 1.5
+      },
+      "name": "et-search-field",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 128.0,
+        "y": 80.0,
+        "width": 1024.0,
+        "height": 640.0
+      },
+      "name": "image_25",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": "https://feylibertad.org/wp-content/uploads/2022/04/blog_ifyl_24-1080x675.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 748.0,
+        "width": 758.78125,
+        "height": 30.0
+      },
+      "name": "Transformemos_el_Viernes_Santo_e",
+      "text": "Transformemos el Viernes Santo en una renovación de nuestra fe",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 26.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 786.0,
+        "width": 1024.0,
+        "height": 14.0
+      },
+      "name": "post-meta",
+      "text": "por  |  | ,",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 152.125,
+        "y": 789.0,
+        "width": 106.609375,
+        "height": 11.0
+      },
+      "name": "Gabriel_J._Zanotti",
+      "text": "Gabriel J. Zanotti",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 269.390625,
+        "y": 789.0,
+        "width": 80.171875,
+        "height": 11.0
+      },
+      "name": "published",
+      "text": "Abr 15, 2022",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        32
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 360.984375,
+        "y": 789.0,
+        "width": 113.625,
+        "height": 11.0
+      },
+      "name": "Blog_Fe_y_Libertad",
+      "text": "Blog Fe y Libertad",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 482.390625,
+        "y": 789.0,
+        "width": 50.59375,
+        "height": 11.0
+      },
+      "name": "Religión",
+      "text": "Religión",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 20.0,
+        "y": 250.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "name": "btg-button",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0.25
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 30.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 20.0,
+        "y": 390.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "name": "btg-button",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0.25
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 30.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 20.0,
+        "y": 460.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "name": "btg-button",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0.25
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 30.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        37
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 20.0,
+        "y": 320.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "name": "btg-button",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0.25
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 30.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_0",
+      "source_element_ids": [
+        "e_10",
+        "e_12",
+        "e_16",
+        "e_25",
+        "e_27",
+        "e_28",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_6",
+        "e_8"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 800.0
+      },
+      "name": "page-container",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_10",
+        "e_12",
+        "e_16",
+        "e_6",
+        "e_8"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 80.0
+      },
+      "name": "main-header",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 1,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_10",
+        "e_12",
+        "e_6",
+        "e_8"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 687.859375,
+        "y": 33.0,
+        "width": 424.140625,
+        "height": 47.0
+      },
+      "name": "top-menu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 600,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 4,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_23",
+      "source_element_ids": [
+        "e_25",
+        "e_27",
+        "e_28",
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 128.0,
+        "y": 80.0,
+        "width": 1024.0,
+        "height": 720.0
+      },
+      "name": "post-1289",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 23,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_28",
+      "source_element_ids": [
+        "e_30",
+        "e_31",
+        "e_32",
+        "e_33"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 128.0,
+        "y": 786.0,
+        "width": 1024.0,
+        "height": 14.0
+      },
+      "name": "post-meta",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 500,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 28,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_0",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        80.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_1",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_4",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_23",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_28",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        15.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_0",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_4",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_23",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "g_28",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_6",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_10",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_12",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_16",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_25",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_27",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_28",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_30",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_31",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_32",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_33",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_34",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_35",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_36",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_37",
+      "order": 2,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1486",
+    "label_source": "expanded_pagegraph_structure_candidate",
+    "annotator_kind": "deterministic_pagegraph_heuristic",
+    "generator": "pagegraph_expanded_structure_v1",
+    "status": "complete",
+    "human_labels_viewed_for_target": false,
+    "visual_input_used": false,
+    "page_graph_used": true,
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "limitations": [
+      "该文件是高召回结构候选，不是人工标注或最终银标准。",
+      "通用容器可能产生过度分组，必须结合截图审阅选择。"
+    ],
+    "page_graph_sha256": "a9ce92d9e1e5bc237a89db430723c4c6303c982d13ce95f480bdeef9b80224e1"
+  }
+}

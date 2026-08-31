@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "reviewed_date": "2026-08-13",
-  "review_method": "人工检查主候选联系表与原始截图",
+  "reviewed_date": "2026-08-31",
+  "review_method": "候选联系表、原始截图与 AI 全分辨率视觉语义复核",
   "samples": [
     {
       "sample_id": "0040",
@@ -162,6 +162,24 @@
     {
       "sample_id": "1310",
       "reason": "与样本 0542 属同一新闻模板，主内容图片均加载失败"
+    },
+    {
+      "sample_id": "0144",
+      "reason": "全分辨率复核发现导航、正文与版权区域大面积错位重叠",
+      "excluded_at": "2026-08-31T00:00:00+08:00",
+      "review_method": "full_resolution_ai_visual_semantic_review"
+    },
+    {
+      "sample_id": "0553",
+      "reason": "全分辨率复核发现页面正文持续推广赌场、老虎机与博彩策略",
+      "excluded_at": "2026-08-31T00:00:00+08:00",
+      "review_method": "full_resolution_ai_visual_semantic_review"
+    },
+    {
+      "sample_id": "1365",
+      "reason": "全分辨率复核发现导航重复错位、内容碰撞且缺少稳定主体区域",
+      "excluded_at": "2026-08-31T00:00:00+08:00",
+      "review_method": "full_resolution_ai_visual_semantic_review"
     }
   ]
 }

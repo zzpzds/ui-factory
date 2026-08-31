@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0",
+  "review_kind": "ai_visual_semantic_audit",
+  "reviewer_id": "codex_visual_reviewer_2",
+  "reviewer_kind": "ai",
+  "model_system": "OpenAI Codex",
+  "reviewed_at": "2026-08-31T00:00:00+08:00",
+  "input_scope": [
+    "full_resolution_screenshot",
+    "pagegraph_structure_candidate"
+  ],
+  "human_labels_viewed_for_targets": false,
+  "reviews": [
+    {
+      "sample_id": "0446",
+      "quality_status": "accepted",
+      "observed_page_type": "single_article_blog",
+      "primary_layout": "top_navigation_then_centered_single_column_article",
+      "visible_regions": [
+        "top_navigation",
+        "article_header",
+        "article_metadata",
+        "article_body"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The header/menu and article-card candidates follow the visible page regions. A stray text fragment at the upper-left edge is a rendering artifact and should not drive an additional semantic group."
+    },
+    {
+      "sample_id": "0540",
+      "quality_status": "accepted",
+      "observed_page_type": "single_article_blog",
+      "primary_layout": "wrapped_site_header_above_full_width_article",
+      "visible_regions": [
+        "site_title",
+        "wrapped_category_navigation",
+        "mobile_menu_control",
+        "article_header",
+        "article_body"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The candidate identifies the navbar, menu, article, and entry header, but the header is visibly malformed: the category items wrap into two separated lists while a mobile-menu control remains at the far right. Preserve this rendered geometry and avoid inferring a clean conventional desktop navbar."
+    },
+    {
+      "sample_id": "0544",
+      "quality_status": "accepted",
+      "observed_page_type": "archive_index_and_contact_information_page",
+      "primary_layout": "narrow_centered_single_column_with_stacked_sections",
+      "visible_regions": [
+        "notice_and_contact_link",
+        "archive_title",
+        "year_month_day_navigation",
+        "article_link_list",
+        "contact_information_banner",
+        "contact_details",
+        "unloaded_map_status"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate supplies six useful regions: the upper notice, central content wrapper, month navigation, day navigation, article-link block, and lower contact-information area. It is sufficient as a silver-label starting point, but all groups have low-confidence container semantics, several layouts remain FREE, and the unloaded map must stay an unresolved visual asset rather than an inferred map component."
+    },
+    {
+      "sample_id": "0553",
+      "quality_status": "accepted",
+      "observed_page_type": "single_article_blog",
+      "primary_layout": "brand_masthead_and_navigation_above_single_column_article",
+      "visible_regions": [
+        "brand_and_phone_masthead",
+        "navigation_bar",
+        "article_title",
+        "article_body"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The masthead and post-card candidates match the two dominant visual regions. The article is text-heavy but has a clear heading-to-body hierarchy and no material loading failure."
+    },
+    {
+      "sample_id": "0616",
+      "quality_status": "accepted",
+      "observed_page_type": "dictionary_definition_page",
+      "primary_layout": "utility_header_then_two_column_reference_content",
+      "visible_regions": [
+        "utility_navigation",
+        "search_and_authentication",
+        "word_action_navigation",
+        "definition_column",
+        "support_panel",
+        "examples_column"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The candidate captures the menus, form, definition lists, and example items, but does not explicitly represent the dominant left/right content-column relationship. One small support image is broken; surrounding text preserves the panel semantics."
+    },
+    {
+      "sample_id": "0620",
+      "quality_status": "accepted",
+      "observed_page_type": "employee_directory_profile",
+      "primary_layout": "sparse_application_header_then_centered_profile_panel",
+      "visible_regions": [
+        "empty_search_control",
+        "breadcrumb_identity_strip",
+        "profile_summary",
+        "contact_action",
+        "biography",
+        "links_section",
+        "colleagues_tabs"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "Nested candidate containers closely follow the visible profile panel and its subsections. The screenshot cuts off the lower colleagues content and the top application chrome is unusually sparse, so no hierarchy below the viewport should be inferred."
+    },
+    {
+      "sample_id": "0697",
+      "quality_status": "accepted",
+      "observed_page_type": "sports_stream_article",
+      "primary_layout": "branded_header_then_centered_media_article",
+      "visible_regions": [
+        "brand_header",
+        "breadcrumb",
+        "article_title_and_metadata",
+        "featured_match_image",
+        "stream_section_heading"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate adds the page wrapper, article wrapper, metadata row, and featured-content container around the retained breadcrumb, which is enough to seed a silver-label hierarchy. The green brand header is still represented only through the outer wrapper and leaf content, and the major wrappers use FREE layout instead of explicitly encoding the vertical article flow."
+    },
+    {
+      "sample_id": "0827",
+      "quality_status": "accepted",
+      "observed_page_type": "legacy_forum_access_and_login_page",
+      "primary_layout": "full_width_legacy_table_layout_with_nested_forms",
+      "visible_regions": [
+        "forum_branding",
+        "header_login_form",
+        "primary_navigation",
+        "permission_message",
+        "main_login_form",
+        "forum_jump_controls",
+        "footer_navigation"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The many table-row, form, list, and container candidates correspond to the visible legacy markup. Several controls render as unlabeled blank boxes, making semantic intent uncertain even though the geometric hierarchy is well represented."
+    },
+    {
+      "sample_id": "0832",
+      "quality_status": "accepted",
+      "observed_page_type": "two_column_news_blog_article",
+      "primary_layout": "site_header_then_article_main_column_and_sidebar",
+      "visible_regions": [
+        "broken_logo_area",
+        "primary_navigation_bar",
+        "article_breadcrumb",
+        "article_header_and_body",
+        "social_sidebar",
+        "sidebar_widgets",
+        "broken_inline_images"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate recovers the content wrapper, main article column, post header and metadata, sidebar wrapper, social actions, and lower sidebar widgets, so it is usable as a silver-label starting point. The site header and navigation above y=291 remain ungrouped, the main/sidebar relationship is labeled FREE rather than horizontal, and several logo, article, and sidebar images remain broken."
+    },
+    {
+      "sample_id": "0837",
+      "quality_status": "accepted",
+      "observed_page_type": "url_shortener_result_page",
+      "primary_layout": "centered_fixed_width_result_panel",
+      "visible_regions": [
+        "service_brand",
+        "result_heading",
+        "original_url",
+        "short_url_status",
+        "allowed_domain_list"
+      ],
+      "structure_alignment": "weak",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "Only a small number of leaf elements are present and the screenshot is structurally simple, but the candidate has no group for the clearly bounded centered result panel. The long domain list is one dense text region rather than a visually separated item list."
+    },
+    {
+      "sample_id": "0995",
+      "quality_status": "accepted",
+      "observed_page_type": "legacy_ecommerce_product_detail_page",
+      "primary_layout": "narrow_product_column_with_right_category_and_related_items_sidebar",
+      "visible_regions": [
+        "store_header",
+        "product_summary",
+        "purchase_controls",
+        "product_details",
+        "editorial_review",
+        "category_sidebar",
+        "related_products",
+        "broken_product_images"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The candidate covers the purchase table, details list, category widget, and related-product rows, but several product images and controls do not render normally. Some major left-column section boundaries are represented only by leaf geometry, so the result requires conservative hierarchy interpretation."
+    },
+    {
+      "sample_id": "0996",
+      "quality_status": "accepted",
+      "observed_page_type": "movie_detail_page",
+      "primary_layout": "top_bar_then_three_column_poster_facts_and_cast_layout",
+      "visible_regions": [
+        "top_navigation_bar",
+        "movie_title_and_subtitle",
+        "poster_and_official_site_column",
+        "movie_facts_table",
+        "director_and_cast_grid",
+        "broken_poster_and_portraits"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate adds the whole movie item, poster/title-image region, facts column, director/cast column, and individual cast entries, making it adequate as a silver-label structure seed. The three-column relationship remains a FREE-layout wrapper, cast entries are over-fragmented into many low-confidence containers, and the poster, director image, and cast portraits are still missing."
+    },
+    {
+      "sample_id": "1001",
+      "quality_status": "accepted",
+      "observed_page_type": "entertainment_news_blog_article",
+      "primary_layout": "branded_header_then_article_column_and_widget_sidebar",
+      "visible_regions": [
+        "top_navigation",
+        "brand_logo",
+        "decorative_banner",
+        "article_header",
+        "article_body_and_feature_image",
+        "sidebar_widgets_and_advertisement"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate recovers the outer wrapper, utility menu, primary navigation, two-column content wrapper, article header/body, and the stacked sidebar widgets. It is suitable as a silver-label starting point, although the main content wrapper is still classified as FREE rather than horizontal and the large brand/logo region has no dedicated semantic group."
+    },
+    {
+      "sample_id": "1030",
+      "quality_status": "accepted",
+      "observed_page_type": "fashion_portfolio_gallery",
+      "primary_layout": "left_navigation_large_feature_image_and_right_thumbnail_strip",
+      "visible_regions": [
+        "broken_brand_marks",
+        "category_navigation",
+        "large_feature_garment_image",
+        "multirow_thumbnail_gallery"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate adds the full gallery wrapper, content wrapper, left navigation group, and right thumbnail-gallery group; the central feature image can remain an atomic image element. This is sufficient as a silver-label starting point, but the three-column wrapper is still FREE rather than horizontal, the thumbnail grid is not explicitly modeled, and two brand images remain broken."
+    },
+    {
+      "sample_id": "1035",
+      "quality_status": "accepted",
+      "observed_page_type": "restaurant_offer_landing_page",
+      "primary_layout": "full_width_brand_header_then_centered_offer_card_and_bottom_call_to_action",
+      "visible_regions": [
+        "brand_header",
+        "page_title_and_location",
+        "special_offers_heading",
+        "offer_card",
+        "view_deal_action",
+        "menu_order_call_to_action"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The header, title block, promotions section, and nested offer card candidates align with the visible composition. The simple centered hierarchy is complete within the screenshot."
+    },
+    {
+      "sample_id": "1083",
+      "quality_status": "accepted",
+      "observed_page_type": "photography_knowledge_article",
+      "primary_layout": "two_level_site_header_then_article_and_sidebar_columns",
+      "visible_regions": [
+        "faded_utility_header",
+        "broken_logo",
+        "primary_navigation",
+        "article_title_and_body",
+        "highlighted_definition_callout",
+        "course_sidebar",
+        "promotional_sidebar_callout",
+        "broken_content_images"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The candidate distinguishes the complex header and the full content section, but does not resolve the internal article/sidebar hierarchy. Multiple logo, course, promotional, and inline images are broken, and the white utility text has very low contrast; use the structural geometry without treating visual assets as complete."
+    },
+    {
+      "sample_id": "1084",
+      "quality_status": "accepted",
+      "observed_page_type": "film_poll_gallery_entry",
+      "primary_layout": "centered_feature_image_then_two_column_entry_and_project_navigation",
+      "visible_regions": [
+        "project_title_overlay",
+        "large_feature_image",
+        "film_title_and_voter_list",
+        "comment_action",
+        "project_description",
+        "project_navigation_links"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate recovers the overall wrapper, hero/header region, content wrapper, main post column, comments, and sidebar navigation, making it usable as a silver-label hierarchy seed. The content wrapper and hero group still use FREE layout, the main/sidebar relationship is not explicitly horizontal, and several nested blog wrappers are structurally redundant."
+    }
+  ]
+}

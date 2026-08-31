@@ -1,0 +1,474 @@
+{
+  "schema_version": "1.0",
+  "review_kind": "ai_visual_semantic_audit",
+  "reviewer_id": "codex_visual_reviewer_1",
+  "reviewer_kind": "ai",
+  "model_system": "OpenAI Codex",
+  "reviewed_at": "2026-08-31T00:00:00+08:00",
+  "input_scope": [
+    "full_resolution_screenshot",
+    "pagegraph_structure_candidate"
+  ],
+  "human_labels_viewed_for_targets": false,
+  "reviews": [
+    {
+      "sample_id": "0044",
+      "quality_status": "accepted",
+      "observed_page_type": "本地商家目录搜索结果页",
+      "primary_layout": "顶部导航与搜索区，下方为左侧推广栏、中部搜索结果、右侧近期搜索的三栏布局",
+      "visible_regions": [
+        "顶部主导航与登录按钮",
+        "商家类型和地点搜索表单",
+        "面包屑",
+        "左侧推广入口列表",
+        "中部筛选区与商家结果卡片",
+        "右侧近期搜索列表"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "applied_corrections": [
+        "将 e_7、e_8、e_9、e_10、e_11 与 e_5 归入同一顶部导航组。",
+        "将 e_42、e_45、e_46、e_49、e_50、e_53、e_54、e_57、e_58、e_61、e_62、e_65、e_66 归入右侧近期搜索列表组。"
+      ],
+      "correction_operations": [
+        {
+          "action": "create_group",
+          "id": "g_visual_top_nav",
+          "name": "顶部导航",
+          "role": "NAV",
+          "child_ids": ["e_5", "e_7", "e_8", "e_9", "e_10", "e_11"],
+          "parent_id": "page_root"
+        },
+        {
+          "action": "create_group",
+          "id": "g_visual_recent_searches",
+          "name": "近期搜索",
+          "role": "LIST",
+          "child_ids": ["e_42", "e_45", "e_46", "e_49", "e_50", "e_53", "e_54", "e_57", "e_58", "e_61", "e_62", "e_65", "e_66"],
+          "parent_id": "page_root"
+        }
+      ],
+      "notes": "主任务区仍可清楚识别，但顶部三个图片资源加载失败，右侧文字被视口裁切；候选已覆盖表单、左栏和结果卡片，遗漏顶部导航及右栏的语义分组。"
+    },
+    {
+      "sample_id": "0051",
+      "quality_status": "accepted",
+      "observed_page_type": "用户关注者列表页",
+      "primary_layout": "窄幅居中的单列重复列表，每行由头像、用户信息和右侧关注按钮组成",
+      "visible_regions": [
+        "顶部应用入口与登录注册操作",
+        "用户页签与关注者计数",
+        "关注者重复列表"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "视觉层次清楚且重复模式稳定；候选完整覆盖列表与各行内部内容，但 DOM 派生的多层容器可能比设计意图层级更深。"
+    },
+    {
+      "sample_id": "0055",
+      "quality_status": "accepted",
+      "observed_page_type": "文学作品档案详情页",
+      "primary_layout": "居中内容列，上方为面包屑和页签导航，下方为左侧作品说明与右侧扫描图的双栏内容",
+      "visible_regions": [
+        "顶部面包屑与前后翻页",
+        "人物标题",
+        "页签导航",
+        "章节分隔线",
+        "作品文本",
+        "书页扫描图"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "截图完整、资源正常，候选导航、页签及正文卡片与视觉区域一致。"
+    },
+    {
+      "sample_id": "0074",
+      "quality_status": "accepted",
+      "observed_page_type": "图片博客标签归档页",
+      "primary_layout": "顶部站点栏，中央为筛选提示、单个图文条目和加载按钮，底部为标签云与社交入口",
+      "visible_regions": [
+        "顶部品牌栏",
+        "标签筛选提示条",
+        "图文帖子预览",
+        "加载更多按钮",
+        "底部分类标签云",
+        "社交媒体入口"
+      ],
+      "structure_alignment": "weak",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "applied_corrections": [
+        "将 e_14、e_15、e_16 归入筛选提示条组。",
+        "将 e_22、e_25、e_26、e_27、e_28 归入单个帖子卡片组。"
+      ],
+      "correction_operations": [],
+      "notes": "保守候选仅建立底部标签列表，遗漏页面主体中的提示条和帖子卡片。expanded 候选新增 g_13 筛选提示、g_20 帖子卡片、g_33 页脚及 g_99 社交列表，与截图分区明显更一致；虽含低置信通用 wrapper，仍更适合作为银标起点。"
+    },
+    {
+      "sample_id": "0079",
+      "quality_status": "accepted",
+      "observed_page_type": "内容资讯文章页",
+      "primary_layout": "站点页眉和横向导航下方为左侧文章正文、右侧热门内容卡片的双栏布局",
+      "visible_regions": [
+        "站点标志",
+        "横向栏目导航",
+        "文章标题与导语",
+        "文章正文",
+        "右侧热门内容列表"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "页眉、文章和侧栏边界明确，候选分组与视觉结构高度一致。"
+    },
+    {
+      "sample_id": "0115",
+      "quality_status": "accepted",
+      "observed_page_type": "网络地址段数据汇总页",
+      "primary_layout": "全宽标题与统计条，下方为左右两列等距 IP 地址链接列表",
+      "visible_regions": [
+        "页面标题",
+        "右上角菜单按钮",
+        "ASN 统计信息条",
+        "左列地址链接",
+        "右列地址链接",
+        "底部色带"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "applied_corrections": [
+        "在 g_25 内将 e_27、e_31、e_35、e_39、e_43、e_47、e_51、e_55、e_59、e_63、e_67、e_71、e_75、e_79、e_83、e_87 归为左列列表。",
+        "在 g_25 内将 e_29、e_33、e_37、e_41、e_45、e_49、e_53、e_57、e_61、e_65、e_69、e_73、e_77、e_81、e_85、e_89 归为右列列表。"
+      ],
+      "correction_operations": [
+        {
+          "action": "create_group",
+          "id": "g_visual_ip_left_column",
+          "name": "左列地址列表",
+          "role": "LIST",
+          "child_ids": ["e_27", "e_31", "e_35", "e_39", "e_43", "e_47", "e_51", "e_55", "e_59", "e_63", "e_67", "e_71", "e_75", "e_79", "e_83", "e_87"],
+          "parent_id": "g_25"
+        },
+        {
+          "action": "create_group",
+          "id": "g_visual_ip_right_column",
+          "name": "右列地址列表",
+          "role": "LIST",
+          "child_ids": ["e_29", "e_33", "e_37", "e_41", "e_45", "e_49", "e_53", "e_57", "e_61", "e_65", "e_69", "e_73", "e_77", "e_81", "e_85", "e_89"],
+          "parent_id": "g_25"
+        }
+      ],
+      "notes": "页面视觉清楚；候选将所有地址统一放入一个容器，未表达明显的左右双列结构，因此父子关系需要修正。"
+    },
+    {
+      "sample_id": "0118",
+      "quality_status": "accepted",
+      "observed_page_type": "博客文章头图页",
+      "primary_layout": "窄幅居中的单列文章，上方为品牌和文章元信息，下方为大幅主图",
+      "visible_regions": [
+        "站点品牌",
+        "页面选择提示",
+        "文章标题",
+        "作者日期与评论元信息",
+        "文章主图"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "主图完整且版式边界明确，候选页眉和文章卡片能够覆盖主要视觉意图。"
+    },
+    {
+      "sample_id": "0144",
+      "quality_status": "rejected",
+      "observed_page_type": "企业服务资讯页",
+      "primary_layout": "预期为企业页眉、导航、资讯列表和页脚，但实际渲染中导航与正文纵向错位并大面积重叠",
+      "visible_regions": [
+        "公司名称与电话",
+        "错位的导航项",
+        "栏目标题",
+        "资讯编号列表",
+        "异常上移的版权栏"
+      ],
+      "structure_alignment": "weak",
+      "hierarchy_risk": "high",
+      "decision": "reject",
+      "correction_directives": [],
+      "notes": "截图存在实质性布局崩坏：导航项从页首贯穿正文，标题、列表和版权栏互相覆盖，候选 g_8 的边界也与成员 e_10 至 e_30 的实际位置严重不一致。该状态不适合作为设计意图训练样本。"
+    },
+    {
+      "sample_id": "0155",
+      "quality_status": "accepted",
+      "observed_page_type": "单图照片浏览详情页",
+      "primary_layout": "黑色全页背景，中部为大幅照片，上下分别放置浏览导航、作者信息和照片元数据",
+      "visible_regions": [
+        "顶部前后照片导航",
+        "主照片",
+        "照片水印",
+        "底部车辆说明",
+        "点赞与登录提示",
+        "地点作者和拍摄日期"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "大图、导航和底部信息区边界稳定，候选分组覆盖主要布局。"
+    },
+    {
+      "sample_id": "0165",
+      "quality_status": "accepted",
+      "observed_page_type": "家电主题博客归档页",
+      "primary_layout": "系统警告条之下为居中站点框架，包含品牌区、横向导航、左侧文章流和右侧推荐栏",
+      "visible_regions": [
+        "顶部 PHP 警告",
+        "站点品牌与搜索框",
+        "横向分类导航",
+        "归档标题与简介",
+        "文章图文区",
+        "右侧购买推荐"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "applied_corrections": [
+        "将 e_0、e_1、e_2 归入独立的系统警告条组，不要并入站点品牌或正文区域。"
+      ],
+      "correction_operations": [
+        {
+          "action": "create_group",
+          "id": "g_visual_system_warning",
+          "name": "系统警告条",
+          "role": "SECTION",
+          "child_ids": ["e_0", "e_1", "e_2"],
+          "parent_id": "page_root"
+        }
+      ],
+      "notes": "站点主体布局仍然可读，但顶部包含服务端警告，正文缩略图 e_50 加载失败；候选主体分组基本正确，遗漏警告条语义。"
+    },
+    {
+      "sample_id": "0213",
+      "quality_status": "accepted",
+      "observed_page_type": "博客外链预览文章页",
+      "primary_layout": "深色背景上的站点标题，下方以一张大型网页截图作为文章预览主体",
+      "visible_regions": [
+        "博客标题与副标题",
+        "菜单切换控件",
+        "大型外链网页截图",
+        "文章标题"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "applied_corrections": [
+        "保持 e_16 为单一原子图片元素，不要把图片内部可见的导航、卡片或文字推断为当前页面的子节点。"
+      ],
+      "correction_operations": [],
+      "notes": "视觉主体是嵌入式网页截图而非真实子界面；候选将 e_16 作为图片并与 e_18 组成文章卡片，结构方向正确。"
+    },
+    {
+      "sample_id": "0237",
+      "quality_status": "accepted",
+      "observed_page_type": "医疗患者评价详情页",
+      "primary_layout": "顶部导航和蓝色标题带，下方为左侧评价正文与右侧医生资料和资源菜单的双栏布局",
+      "visible_regions": [
+        "顶部品牌占位与预约按钮",
+        "主导航",
+        "页面标题与面包屑",
+        "患者评价正文",
+        "医生资料卡",
+        "患者资源列表"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "applied_corrections": [
+        "将 e_37、e_38、e_39、e_40、e_41、e_42 归入独立的页面标题与面包屑横幅组。"
+      ],
+      "correction_operations": [
+        {
+          "action": "create_group",
+          "id": "g_visual_title_banner",
+          "name": "页面标题与面包屑横幅",
+          "role": "SECTION",
+          "child_ids": ["e_37", "e_38", "e_39", "e_40", "e_41", "e_42"],
+          "parent_id": "page_root"
+        }
+      ],
+      "notes": "主体双栏清晰，但顶部品牌图片 e_11、e_14 与医生头像 e_72 加载失败；候选覆盖正文和侧栏，遗漏蓝色标题横幅的整体语义。"
+    },
+    {
+      "sample_id": "0304",
+      "quality_status": "accepted",
+      "observed_page_type": "论坛与知识库目录页",
+      "primary_layout": "全宽纵向目录，由多个蓝色分区标题、嵌套语言列表和两列条目计数组成",
+      "visible_regions": [
+        "站点名称",
+        "论坛目录",
+        "论坛语言及主题计数",
+        "知识库目录",
+        "语言切换列表",
+        "登录注册入口",
+        "下方重复语言区"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "样式较原始但信息结构可辨；候选正确保留嵌套列表、列表项及每行名称与计数的表格行关系。"
+    },
+    {
+      "sample_id": "0408",
+      "quality_status": "accepted",
+      "observed_page_type": "房地产项目空内容或受保护状态页",
+      "primary_layout": "顶部品牌和纵向菜单，面包屑后直接进入大幅居中页脚信息区",
+      "visible_regions": [
+        "品牌标志",
+        "顶部主菜单",
+        "面包屑",
+        "页脚品牌与隐私说明",
+        "页脚导航",
+        "联系信息",
+        "版权栏"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "applied_corrections": [
+        "将 e_29、e_31、e_32 归入独立面包屑组。",
+        "将 e_38、e_41、e_42、g_45、g_58、e_64、e_71、e_74 归入统一页脚区域。"
+      ],
+      "correction_operations": [
+        {
+          "action": "create_group",
+          "id": "g_visual_breadcrumb",
+          "name": "面包屑",
+          "role": "NAV",
+          "child_ids": ["e_29", "e_31", "e_32"],
+          "parent_id": "page_root"
+        },
+        {
+          "action": "create_group",
+          "id": "g_visual_footer",
+          "name": "页脚区域",
+          "role": "SECTION",
+          "child_ids": ["e_38", "e_41", "e_42", "g_45", "g_58", "e_64", "e_71", "e_74"],
+          "parent_id": "page_root"
+        }
+      ],
+      "notes": "截图可解析但正文区为空，首屏主要由页脚占据；候选识别了菜单列表，却未建立面包屑及页脚整体容器。"
+    },
+    {
+      "sample_id": "0409",
+      "quality_status": "accepted",
+      "observed_page_type": "网站建设中占位页与 Cookie 设置面板",
+      "primary_layout": "上半部为大幅建设中提示和版权条，下半部为展开的 Cookie 简介与详细设置内容",
+      "visible_regions": [
+        "建设中主标题",
+        "版权与建站平台信息",
+        "Cookie 简介",
+        "Cookie 操作链接",
+        "Cookie 详细说明"
+      ],
+      "structure_alignment": "weak",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "applied_corrections": [
+        "将 g_9 拆分为版权条组 e_13、e_15，以及 Cookie 设置组 e_19、e_20、e_21、e_23、e_24、e_25、e_28、e_29、e_31、e_32、e_33。"
+      ],
+      "correction_operations": [],
+      "notes": "保守候选仅用 g_9 混合页脚版权与 Cookie 面板。expanded 候选新增 g_12 页脚、g_16 Cookie 总容器、g_17 简介条、g_22 操作区和 g_26 详细设置区，与截图层级一致，因此选择 expanded 作为银标起点。"
+    },
+    {
+      "sample_id": "0412",
+      "quality_status": "accepted",
+      "observed_page_type": "数学家谱人物详情页",
+      "primary_layout": "固定宽度三段式页面，页眉下为左侧导航和右侧人物资料表，底部为重复导航与募捐说明",
+      "visible_regions": [
+        "站点页眉",
+        "左侧主导航",
+        "机构说明",
+        "人物标题与学位信息",
+        "学生数据表",
+        "补充说明与表单链接",
+        "底部导航",
+        "募捐说明"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "applied_corrections": [
+        "将 e_49、e_51、e_53、e_55、e_56、e_57、e_58、g_60、e_84、e_85、e_86、e_87 归入右侧人物主内容组。",
+        "将 g_89、e_116、e_117 归入统一页脚组。"
+      ],
+      "correction_operations": [
+        {
+          "action": "create_group",
+          "id": "g_visual_person_content",
+          "name": "人物主内容",
+          "role": "SECTION",
+          "child_ids": ["e_49", "e_51", "e_53", "e_55", "e_56", "e_57", "e_58", "g_60", "e_84", "e_85", "e_86", "e_87"],
+          "parent_id": "page_root"
+        },
+        {
+          "action": "create_group",
+          "id": "g_visual_footer",
+          "name": "页脚",
+          "role": "SECTION",
+          "child_ids": ["g_89", "e_116", "e_117"],
+          "parent_id": "page_root"
+        }
+      ],
+      "notes": "旧式布局但结构清楚；候选正确表示侧栏、表格行和底部菜单，尚缺人物主内容与页脚的高层容器。页眉左侧小图加载失败。"
+    },
+    {
+      "sample_id": "0431",
+      "quality_status": "accepted",
+      "observed_page_type": "花卉数据库首页主视觉页",
+      "primary_layout": "顶部语言切换和右对齐导航，下方为占据主体的大幅花田主图",
+      "visible_regions": [
+        "顶部蓝色色带",
+        "语言旗帜切换",
+        "主导航",
+        "花田主视觉图"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "截图资源完整、构图清楚；候选正确识别语言列表和主导航，主图 e_30 作为页面根级原子图片合理。"
+    }
+  ]
+}

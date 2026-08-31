@@ -1,0 +1,973 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 55.0,
+        "y": 24.0,
+        "width": 250.0,
+        "height": 46.875
+      },
+      "name": "image_7",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0.27058823529411763,
+          0,
+          1
+        ],
+        "border_color": [
+          1,
+          0.27058823529411763,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "https://1.bp.blogspot.com/-hySJ0QUl0d4/YZ4Ez-p5d_I/AAAAAAAAAU0/NjZ3xzklKFkn26pHJ3GoPsDmvDNVgYRsQCLcBGAsYHQ/s400/tzff.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 70.0,
+        "y": 101.0,
+        "width": 28.015625,
+        "height": 34.0
+      },
+      "name": "Inicio",
+      "text": "Inicio",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 98.015625,
+        "y": 101.0,
+        "width": 29.359375,
+        "height": 34.0
+      },
+      "name": "b-label",
+      "text": "futbol",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 127.375,
+        "y": 111.0,
+        "width": 301.53125,
+        "height": 14.0
+      },
+      "name": "current",
+      "text": "Ver Huesca vs Barcelona En vivo La Liga Hoy 13/4/2019",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 150.0,
+        "width": 1170.0,
+        "height": 42.0
+      },
+      "name": "post-title",
+      "text": "Ver Huesca vs Barcelona En vivo La Liga Hoy 13/4/2019",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 30.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 55.0,
+        "y": 207.0,
+        "width": 57.34375,
+        "height": 15.0
+      },
+      "name": "Tuzonafut",
+      "text": "Tuzonafut",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        23
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 122.34375,
+        "y": 207.0,
+        "width": 43.375,
+        "height": 15.0
+      },
+      "name": "post-date",
+      "text": "7:15:00",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 165.0,
+        "y": 257.0,
+        "width": 950.0,
+        "height": 475.0
+      },
+      "name": "image_27",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "-webkit-center",
+        "image_src": "https://i.imgur.com/74pQ7YF.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        29
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 70.0,
+        "y": 763.0,
+        "width": 1140.0,
+        "height": 24.0
+      },
+      "name": "↓↓_Huesca_vs_Barcelona_En_vivo_↓",
+      "text": "↓↓ Huesca vs Barcelona En vivo ↓↓",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.17254901960784313,
+          0.24313725490196078,
+          0.3137254901960784,
+          1
+        ],
+        "border_color": [
+          0.17254901960784313,
+          0.24313725490196078,
+          0.3137254901960784,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 24.0,
+        "font_weight": 600,
+        "text_align": "-webkit-center",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_0",
+      "source_element_ids": [
+        "e_7",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_19",
+        "e_22",
+        "e_23",
+        "e_27",
+        "e_29"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 25.0,
+        "y": 0.0,
+        "width": 1230.0,
+        "height": 800.0
+      },
+      "name": "outer-wrapper",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_14",
+      "source_element_ids": [
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_19",
+        "e_22",
+        "e_23",
+        "e_27",
+        "e_29"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 101.0,
+        "width": 1170.0,
+        "height": 699.0
+      },
+      "name": "post-item-inner",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_radius": 3.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 14,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_15",
+      "source_element_ids": [
+        "e_16",
+        "e_17",
+        "e_18"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 55.0,
+        "y": 101.0,
+        "width": 1170.0,
+        "height": 34.0
+      },
+      "name": "breadcrumb",
+      "style": {
+        "background_color": [
+          0.9921568627450981,
+          0.9921568627450981,
+          1,
+          1
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 15,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_20",
+      "source_element_ids": [
+        "e_22",
+        "e_23"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 55.0,
+        "y": 207.0,
+        "width": 1170.0,
+        "height": 15.0
+      },
+      "name": "post-meta",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_color": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.6666666666666666,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 20,
+      "confidence": 0.65
+    },
+    {
+      "id": "g_25",
+      "source_element_ids": [
+        "e_27",
+        "e_29"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 70.0,
+        "y": 257.0,
+        "width": 1140.0,
+        "height": 543.0
+      },
+      "name": "Sigue_los_pasos_y_disfruta_en_tu",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_color": [
+          0.396078431372549,
+          0.396078431372549,
+          0.396078431372549,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 25,
+      "confidence": 0.65
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_0",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_14",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_15",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        15.0,
+        0.0,
+        15.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_20",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_25",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_0",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_14",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "g_15",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "g_20",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "g_25",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_16",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_18",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_19",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_22",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_23",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "e_27",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "e_29",
+      "order": 1,
+      "confidence": 0.9
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.667,
+          0.667,
+          0.667,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_22",
+        "e_23"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 12.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_16",
+        "e_17",
+        "e_18"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "0697",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "expanded",
+    "visual_review": {
+      "sample_id": "0697",
+      "quality_status": "accepted",
+      "observed_page_type": "sports_stream_article",
+      "primary_layout": "branded_header_then_centered_media_article",
+      "visible_regions": [
+        "brand_header",
+        "breadcrumb",
+        "article_title_and_metadata",
+        "featured_match_image",
+        "stream_section_heading"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate adds the page wrapper, article wrapper, metadata row, and featured-content container around the retained breadcrumb, which is enough to seed a silver-label hierarchy. The green brand header is still represented only through the outer wrapper and leaf content, and the major wrappers use FREE layout instead of explicitly encoding the vertical article flow.",
+      "reviewer_id": "codex_visual_reviewer_2"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_2"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0697.json",
+        "sha256": "715541dba521fd8d6b1b80a1d6db87e3057282992eb91e3a17f76a7f84f86b3f"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/0697.json",
+        "sha256": "88f0254f0732473a644d1a07236e6b6311901f74cb5f6c014883cc6334386985"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_02.json",
+        "sha256": "1d332b80a04a3b01f33f3e749aa2231256f086c89c67ae72e7cdca009bbcba01"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/0697.json",
+        "sha256": "6043ccf45cf05a4049e9fe0f12cccab6bc6a79d7a41e628c120fa807e223dbc0"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/0697/screenshot.png",
+      "screenshot_sha256": "10b56f0a05e8b78504ad9182f2a1cff67fe5a5da4ac86a3064e7e86d2246180b",
+      "page_graph_path": "data/processed/0697/page_graph.json",
+      "page_graph_sha256": "946d03df2c032f53d99865bb5a89ab8bf9f5ab84a3228d0f3735dc122e773991"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

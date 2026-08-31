@@ -17,8 +17,9 @@
 13. `13_ai_proxy_pilot_report.md`：AI 代理标注与人机跨来源初步结果；
 14. `14_human_ai_adjudication_sop.md`：逐项差异复核、审核凭证与金标准导出门槛。
 15. `15_adjudicated_gold_report.md`：10 页最终 Gold 的数量、描述性指标与研究限制；
-16. `16_formal_gold_v1_sampling_and_sop.md`：60 页正式 Gold 的筛选设计、解释边界与标注 SOP。
-17. `17_ai_assisted_annotation_protocol.md`：AI 预标注、盲标对照、人工校正与成本审计协议。
+16. `16_formal_gold_v1_sampling_and_sop.md`：DesignIntent Reference v1 的双层来源、筛选与使用边界；
+17. `17_ai_assisted_annotation_protocol.md`：未完成人工复核即终止的 AI 辅助历史方案；
+18. `18_ai_multiview_silver_protocol.md`：50 页 AI 多视角银标的生成、审计与论文披露协议。
 
 ## 新主链路
 
@@ -54,7 +55,7 @@ python scripts/detect_near_duplicates.py \
   --data_dir data/processed \
   --split_manifest data/intent_pilot_split.json
 
-# 盲双人试标注
+# 历史双人盲标工作台（未完成第二位真人标注）
 python scripts/serve_intent_annotation.py \
   --package_dir data/annotations/intent_pilot_v1 \
   --port 8765
@@ -71,30 +72,35 @@ python scripts/evaluate_annotation_agreement.py \
   --output outputs/intent-pilot-500/human-ai-agreement.json
 python scripts/prepare_human_ai_adjudication.py
 
-# 仅在真实人员完成逐页仲裁后执行；待审核草稿会被拒绝
+# 仅在单名人工标注者提交审核声明并定稿后执行；待审核草稿会被拒绝
 python scripts/finalize_human_ai_adjudication.py
 
-# 创建 60 页正式 Gold，生成 50 页 AI 初稿并初始化人工校正/盲标条件
+# 创建初始 60 页清单；后两步执行质量替换并生成当前 Reference v1
 python scripts/create_formal_gold_package.py
-python scripts/prepare_ai_assisted_gold.py
+python scripts/replace_formal_reference_samples.py
+python scripts/prepare_ai_reference_gold.py
 python scripts/serve_intent_annotation.py \
   --package_dir data/annotations/intent_gold_v1 \
   --port 8766
 
-# 训练与测试
+# Reference v1 完整性门禁
+python -m pytest tests/test_formal_gold_package.py -q
+
+# 训练 smoke；正式评测需先完成 reference_tier-aware loader
 python scripts/train_intent.py --config configs/intent/full.yaml
-python scripts/evaluate_intent.py \
-  --checkpoint outputs/intent-full-v1/best.pt \
-  --annotation_name gold_intent.json \
-  --split test
 ```
 
 ## 关键约束
 
 - 正式训练必须提供 `data.split_manifest`，禁止内部随机页面切分；
-- 主测试只使用经设计师确认的 `gold_intent.json`，AI 初稿和弱标签不能作为论文真值；
+- Reference v1 必须区分 10 页 `human_ai_adjudicated_gold` 与 50 页
+  `ai_multiview_silver`，不能把 60 页统称人工 Gold；
+- Human Gold test 只有 2 页，相关结果只能作为探索性证据；AI Silver 指标只表示
+  模型与 AI 参考标签的一致性；
 - AI 代理只能用于差异检测和人工复核，不能冒充第二位真人标注员；
-- AI 辅助 Gold 必须披露预标注来源；5 页盲标对照在人工提交前不得展示 AI 初稿；
+- 旧的 45 页 AI 辅助与 5 页盲标对照方案未完成人工执行，只作为历史审计记录；
+- 混合 validation/test 指标必须按标签来源分层报告；
 - 三个随机种子固定为 `42`、`123`、`2026`；
-- 测试集在阈值、排除规则和模型选择冻结前不得解封；
+- 测试集只在主模型、阈值和排除规则冻结后用于正式评测；这不表示 Reference v1
+  构建过程对 2 页 Human Gold 保证了开发者盲法；
 - smoke 指标只证明链路连通，不作为研究结果。

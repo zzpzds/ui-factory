@@ -371,7 +371,8 @@ def prepare(
         "blind_control_sample_count": len(blind_controls),
         "blind_control_sample_ids": blind_controls,
         "require_human_review_confirmation": True,
-        "test_labels_not_used_for_prelabel_calibration": True,
+        "test_labels_not_used_for_diagnostic_replay": True,
+        "generator_threshold_selection_used_human_gold": False,
     }
     _write_json(assignment_path, assignment)
 
@@ -384,15 +385,19 @@ def prepare(
         "visual_input_used_for_generation": False,
         "pending_samples": len(pending),
         "ai_prelabels_generated": len(prepared),
-        "human_assisted_samples": len(pending) - len(blind_controls),
-        "blind_control_samples": blind_controls,
+        "human_assisted_samples_planned": len(pending) - len(blind_controls),
+        "blind_control_sample_ids_planned": blind_controls,
+        "human_reviews_completed": 0,
+        "blind_control_annotations_completed": 0,
+        "human_study_results_available": False,
         "calibration": calibration_report(assignment, data_dir),
         "interpretation_boundary": [
-            "AI 辅助页不能称为独立人工盲标。",
-            "盲标对照用于估计 AI 锚定与人工修改幅度。",
-            "AI 初稿不能直接作为 Gold，必须经过设计师确认。",
-            "test Gold 未用于预标注规则校准。",
+            "45 页 AI 辅助和 5 页盲标是计划分配，未执行真人复核。",
+            "calibration 字段是固定规则的诊断性回放，不是阈值选择记录。",
+            "该计划没有产生锚定效应或人工修改幅度的研究结果。",
+            "test Human Gold 未参与诊断性回放。",
         ],
+        "status": "planned_not_executed",
     }
     _write_json(package_dir / "ai_assistance_manifest.json", manifest)
     return manifest
@@ -412,8 +417,8 @@ def main() -> None:
     )
     print(json.dumps({
         "generated": manifest["ai_prelabels_generated"],
-        "assisted": manifest["human_assisted_samples"],
-        "blind_controls": manifest["blind_control_samples"],
+        "assisted_planned": manifest["human_assisted_samples_planned"],
+        "blind_controls_planned": manifest["blind_control_sample_ids_planned"],
     }, ensure_ascii=False, indent=2))
 
 

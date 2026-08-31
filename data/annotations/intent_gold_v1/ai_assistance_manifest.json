@@ -9,14 +9,6 @@
   "visual_input_used_for_generation": false,
   "pending_samples": 50,
   "ai_prelabels_generated": 50,
-  "human_assisted_samples": 45,
-  "blind_control_samples": [
-    "0165",
-    "0304",
-    "0832",
-    "1035",
-    "1365"
-  ],
   "calibration": {
     "scope": "existing_locked_train_validation_only",
     "test_gold_used": false,
@@ -277,9 +269,25 @@
     }
   },
   "interpretation_boundary": [
-    "AI 辅助页不能称为独立人工盲标。",
-    "盲标对照用于估计 AI 锚定与人工修改幅度。",
-    "AI 初稿不能直接作为 Gold，必须经过设计师确认。",
-    "test Gold 未用于预标注规则校准。"
-  ]
+    "45 页 AI 辅助和 5 页盲标是历史计划分配，未执行真人复核。",
+    "calibration 字段只记录固定规则在 8 页既有 Human Gold 上的诊断性回放。",
+    "该回放没有选择、更新或冻结生成器阈值。",
+    "本清单不包含人工研究结果，不能估计锚定效应或人工修改幅度。"
+  ],
+  "status": "superseded",
+  "superseded_at": "2026-08-31T00:00:00+08:00",
+  "superseded_by": "data/annotations/intent_gold_v1/ai_reference_manifest.json",
+  "human_assisted_samples_planned": 45,
+  "blind_control_sample_ids_planned": [
+    "0165",
+    "0304",
+    "0832",
+    "1035",
+    "1365"
+  ],
+  "human_reviews_completed": 0,
+  "blind_control_annotations_completed": 0,
+  "human_study_results_available": false,
+  "calibration_interpretation": "diagnostic_replay_only",
+  "generator_threshold_selection_used_human_gold": false
 }

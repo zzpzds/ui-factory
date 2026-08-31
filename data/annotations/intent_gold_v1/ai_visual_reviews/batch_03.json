@@ -1,0 +1,345 @@
+{
+  "schema_version": "1.0",
+  "review_kind": "ai_visual_semantic_audit",
+  "reviewer_id": "codex_visual_reviewer_3",
+  "reviewer_kind": "ai",
+  "model_system": "OpenAI Codex",
+  "reviewed_at": "2026-08-31T00:00:00+08:00",
+  "input_scope": [
+    "full_resolution_screenshot",
+    "pagegraph_structure_candidate"
+  ],
+  "human_labels_viewed_for_targets": false,
+  "reviews": [
+    {
+      "sample_id": "1111",
+      "quality_status": "accepted",
+      "observed_page_type": "event_article_with_newsletter_and_agenda",
+      "primary_layout": "site_header_above_article_media_then_two_column_followup_content",
+      "visible_regions": [
+        "contact_strip",
+        "primary_navigation",
+        "event_article",
+        "article_photos",
+        "newsletter_form",
+        "agenda_links"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The menu, event article, newsletter form, and agenda candidates follow the visible regions closely. One lower article photo remains outside the article group, but its placement is visually unambiguous and does not materially alter the page hierarchy."
+    },
+    {
+      "sample_id": "1118",
+      "quality_status": "accepted",
+      "observed_page_type": "two_column_blog_article_with_link_sidebar",
+      "primary_layout": "masthead_then_article_main_column_and_right_link_sidebar",
+      "visible_regions": [
+        "site_title",
+        "category_navigation",
+        "article_title_banner",
+        "article_metadata",
+        "article_body",
+        "sidebar_link_list"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The candidate captures the masthead, category menu, and main article, but leaves the visually distinct right sidebar as root-level leaves. A dark body overlay creates very low contrast below the first paragraph, so visual style should be treated as degraded while the two-column composition remains usable."
+    },
+    {
+      "sample_id": "1203",
+      "quality_status": "accepted",
+      "observed_page_type": "corporate_faq_page",
+      "primary_layout": "unstyled_multilevel_navigation_above_full_width_faq_accordion",
+      "visible_regions": [
+        "broken_logo",
+        "multilevel_site_navigation",
+        "faq_heading",
+        "faq_accordion_panels",
+        "accordion_answer_lists"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate adds the page header, overall FAQ accordion, three visible panel containers, their question headers, and the nested answer list, so it is sufficient as a silver-label structure seed. The logo remains broken, most site styling is absent, and the recovered containers use low-confidence generic roles and mostly FREE layouts rather than explicit accordion semantics."
+    },
+    {
+      "sample_id": "1272",
+      "quality_status": "accepted",
+      "observed_page_type": "single_article_information_blog",
+      "primary_layout": "minimal_masthead_then_full_width_single_column_article",
+      "visible_regions": [
+        "skip_link",
+        "site_identity_and_call_to_action",
+        "article_title",
+        "article_sections",
+        "inline_see_also_callout"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The rendered page is visually plain, but the masthead and single post-card candidates contain the visible title, section headings, paragraphs, and callout in their correct high-level order."
+    },
+    {
+      "sample_id": "1292",
+      "quality_status": "accepted",
+      "observed_page_type": "chinese_social_content_post",
+      "primary_layout": "full_width_single_column_post_header_then_large_media",
+      "visible_regions": [
+        "post_title",
+        "author_identity_and_metadata",
+        "broken_author_avatar",
+        "post_description",
+        "large_landscape_image"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate supplies an outer post wrapper, padded header region, nested author-information groups, and a content wrapper that binds the description to the dominant landscape image. This is adequate as a silver-label starting point, but the title remains a direct child of the outer wrapper, the content wrapper has only generic container semantics, and the small author avatar is still broken."
+    },
+    {
+      "sample_id": "1302",
+      "quality_status": "accepted",
+      "observed_page_type": "software_and_game_resource_directory",
+      "primary_layout": "three_column_grid_of_download_and_resource_cards",
+      "visible_regions": [
+        "download_cards",
+        "mapping_tools_card",
+        "engine_study_card",
+        "randomizers_card",
+        "leaderboards_card",
+        "external_race_page_card"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The root flex container and its repeated child containers correspond to all eight visible cards and preserve their heading-to-link-block hierarchy. Some internal roles are generic containers or table rows, but the spatial grouping and repetition are reliable."
+    },
+    {
+      "sample_id": "1328",
+      "quality_status": "accepted",
+      "observed_page_type": "single_article_wordpress_blog",
+      "primary_layout": "unstyled_site_header_and_navigation_above_single_column_article",
+      "visible_regions": [
+        "skip_link",
+        "site_title",
+        "duplicate_menu_controls",
+        "site_navigation",
+        "article_header",
+        "article_body",
+        "category_metadata"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The nested masthead, navigation, post, entry-header, and metadata candidates follow the visible semantic hierarchy. Site styling is largely absent and two menu controls render consecutively, so the rendered geometry should be preserved without inferring a polished production header."
+    },
+    {
+      "sample_id": "1365",
+      "quality_status": "rejected",
+      "observed_page_type": "malformed_corporate_navigation_and_sitemap_page",
+      "primary_layout": "duplicated_collapsed_and_expanded_navigation_with_clipped_content",
+      "visible_regions": [
+        "unlabeled_form_controls",
+        "dark_stacked_navigation_sections",
+        "company_banner",
+        "duplicated_mega_navigation",
+        "print_and_email_toolbar"
+      ],
+      "structure_alignment": "weak",
+      "hierarchy_risk": "high",
+      "decision": "reject",
+      "correction_directives": [],
+      "notes": "The screenshot is not reliable enough for formal visual-intent annotation: navigation content is duplicated in incompatible layouts, links collide and concatenate, several controls are blank, and no stable main content region is visible in the viewport. The many list candidates reflect the malformed markup rather than a recoverable rendered hierarchy."
+    },
+    {
+      "sample_id": "1373",
+      "quality_status": "accepted",
+      "observed_page_type": "chinese_financial_news_article",
+      "primary_layout": "compact_news_header_then_article_main_column_and_widget_sidebar",
+      "visible_regions": [
+        "brand_and_global_navigation",
+        "breadcrumb",
+        "article_header_and_metadata",
+        "key_takeaway_callout",
+        "article_body",
+        "sidebar_search_and_ad",
+        "editor_recommendations",
+        "sidebar_widgets_and_rankings"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate recovers the full page wrapper, utility header, two-column content wrapper, article column, breadcrumb, article title/body containers, sidebar column, and its recommendation and ranking widgets. It is usable as a silver-label hierarchy seed, but most recovered groups are low-confidence generic containers, the main/sidebar relationship remains FREE rather than explicitly horizontal, and the key-takeaway callout has no dedicated semantic role."
+    },
+    {
+      "sample_id": "1416",
+      "quality_status": "accepted",
+      "observed_page_type": "street_directory_index_and_search_results",
+      "primary_layout": "utility_header_and_filters_above_main_directory_with_right_ad_space",
+      "visible_regions": [
+        "brand_header",
+        "global_navigation",
+        "alphabet_navigation",
+        "search_form",
+        "breadcrumb_trail",
+        "page_heading",
+        "prefix_directory",
+        "result_summary",
+        "street_result_list",
+        "empty_ad_sidebar"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The candidate captures the top navigation, search form, and the large results section, but leaves the prominent alphabet and prefix navigation as many root-level links. The large blank area is consistent with an empty advertisement region rather than missing primary content."
+    },
+    {
+      "sample_id": "1435",
+      "quality_status": "accepted",
+      "observed_page_type": "humor_quote_detail_with_related_items",
+      "primary_layout": "sparse_site_header_then_quote_card_and_vertical_related_list",
+      "visible_regions": [
+        "site_bar",
+        "broken_logo_and_title",
+        "tagline",
+        "breadcrumb",
+        "primary_quote_card",
+        "tags_and_update_date",
+        "related_section_heading",
+        "related_quote_items",
+        "floating_action_control"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "Two small branding or section images fail to load, but the textual content and repeated quote blocks remain usable. The candidate covers the header, breadcrumb, primary quote, and tags while leaving the related-items section largely ungrouped."
+    },
+    {
+      "sample_id": "1437",
+      "quality_status": "accepted",
+      "observed_page_type": "public_health_news_article",
+      "primary_layout": "large_empty_header_region_above_navigation_bands_and_single_column_article",
+      "visible_regions": [
+        "large_blank_header_region",
+        "colored_navigation_bands",
+        "collapsed_navigation_control",
+        "article_title",
+        "date_and_view_count",
+        "article_summary",
+        "article_body"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The article candidate accurately contains the visible title, metadata, summary, and body. However, the candidate also assigns a full menu to the top 396-pixel region where no menu text is visibly rendered, so those PageGraph nodes must not be interpreted as visible navigation without additional evidence."
+    },
+    {
+      "sample_id": "1486",
+      "quality_status": "accepted",
+      "observed_page_type": "religious_blog_article_with_hero_image",
+      "primary_layout": "minimal_top_navigation_above_centered_hero_article",
+      "visible_regions": [
+        "top_navigation",
+        "social_share_controls",
+        "hero_image",
+        "article_title",
+        "article_metadata"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The header, horizontal menu, and post-card candidates match the dominant visible regions and correctly bind the hero image to the article header. The four side controls render without icons, but they do not affect the primary content hierarchy."
+    },
+    {
+      "sample_id": "1503",
+      "quality_status": "accepted",
+      "observed_page_type": "software_license_sales_and_pricing_page",
+      "primary_layout": "full_width_flat_stack_of_sales_pricing_inquiry_and_legal_sections",
+      "visible_regions": [
+        "primary_navigation",
+        "product_proposition",
+        "feature_list",
+        "pricing_banner",
+        "quote_inquiry_panel",
+        "legal_disclaimer_blocks",
+        "copyright_footer"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate adds the main sales wrapper, an order-content container around the feature and offer area, and nested footer and disclaimer containers, making it sufficient as a coarse silver-label structure seed. The pricing strip and quote-inquiry panel still lack dedicated groups, the main wrappers use low-confidence generic container roles, and their FREE layouts do not encode the visible vertical section flow."
+    },
+    {
+      "sample_id": "1517",
+      "quality_status": "accepted",
+      "observed_page_type": "aviation_news_article_with_trending_sidebar",
+      "primary_layout": "fixed_width_brand_header_then_article_main_column_and_trending_sidebar",
+      "visible_regions": [
+        "brand_header",
+        "empty_navigation_separators",
+        "breadcrumb",
+        "article_title_and_date",
+        "key_points_and_article_body",
+        "trending_sidebar",
+        "missing_trending_thumbnails",
+        "featured_image_start"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "The expanded candidate recovers the outer page wrapper, two-column content wrapper, blog-post column, breadcrumb, post body, Trending widget, and three repeated sidebar-item containers. It is suitable as a silver-label starting point, although the main/sidebar wrapper remains FREE rather than horizontal, the brand header is represented only through the outer wrapper and leaves, and the Trending thumbnails remain blank."
+    },
+    {
+      "sample_id": "1528",
+      "quality_status": "accepted",
+      "observed_page_type": "legacy_baby_name_reference_and_statistics_page",
+      "primary_layout": "fixed_width_legacy_table_layout_with_left_rail_and_main_reference_content",
+      "visible_regions": [
+        "colored_left_rail",
+        "title_and_breadcrumb",
+        "unlabeled_search_form",
+        "name_hero_image",
+        "introductory_explanation",
+        "usage_statistics_table",
+        "historical_description",
+        "sidebar_promo_image"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The candidate preserves the legacy outer table row, search form, statistics table, and nested table rows. It does not explicitly separate the colored side rail, hero, and explanatory text blocks, so the table hierarchy is useful but should not be treated as a complete semantic section model."
+    }
+  ]
+}

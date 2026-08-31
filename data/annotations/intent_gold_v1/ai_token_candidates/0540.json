@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "0540",
+  "generator": "codex_compact_style_tokens_v1",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "source_structure_sha256": "578b23d8cce9cc3362b5c7e64a55c2770078a1bb4827513047c2979b268d884e",
+  "source_visual_review_sha256": "1d332b80a04a3b01f33f3e749aa2231256f086c89c67ae72e7cdca009bbcba01",
+  "correction_operations_applied": true,
+  "selection_policy": {
+    "minimum_members": 3,
+    "kind_caps": {
+      "COLOR": 4,
+      "TEXT": 4,
+      "RADIUS": 2,
+      "SPACING": 2
+    },
+    "maximum_tokens_per_page": 12
+  },
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.42,
+          0.42,
+          0.42,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_3",
+        "e_32",
+        "e_35",
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_4",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_44",
+        "e_45",
+        "e_46"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.122,
+          0.651,
+          0.478,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_12",
+        "e_14",
+        "e_16",
+        "e_18",
+        "e_20",
+        "e_43",
+        "e_8"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 200
+      },
+      "member_ids": [
+        "e_12",
+        "e_14",
+        "e_16",
+        "e_18",
+        "e_20",
+        "e_3",
+        "e_4"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,3165 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        4
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 0.0,
+        "y": 16.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "name": "svg-inline--fa",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 27.0,
+        "y": 14.5,
+        "width": 71.671875,
+        "height": 21.0
+      },
+      "name": "KATTINTS",
+      "text": "KATTINTS",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_04"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 139.265625,
+        "y": 16.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "name": "svg-inline--fa",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 166.265625,
+        "y": 14.5,
+        "width": 212.328125,
+        "height": 21.0
+      },
+      "name": "1137_Budapest,_Jászai_Mari_tér_5",
+      "text": "1137 Budapest, Jászai Mari tér 5-6.",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_04"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 419.1875,
+        "y": 16.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "name": "svg-inline--fa",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        11
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 446.1875,
+        "y": 14.5,
+        "width": 100.375,
+        "height": 21.0
+      },
+      "name": "Írj_messengeren!",
+      "text": "Írj messengeren!",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 15.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_04"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 647.8229370117188,
+        "y": 1.666666030883789,
+        "width": 30.0,
+        "height": 29.999998092651367
+      },
+      "name": "input_14",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 20.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_radius_01"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        15
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 707.8229370117188,
+        "y": 1.666666030883789,
+        "width": 29.99993896484375,
+        "height": 29.999998092651367
+      },
+      "name": "input_15",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 20.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_radius_01"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 767.8228759765625,
+        "y": 1.666666030883789,
+        "width": 30.0,
+        "height": 29.999998092651367
+      },
+      "name": "input_16",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 20.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_radius_01"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 792.7218017578125,
+        "y": 16.565567016601562,
+        "width": 10.60662841796875,
+        "height": 10.60660171508789
+      },
+      "name": "search-btn",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 797.613525390625,
+        "y": 22.015262603759766,
+        "width": 0.26519775390625,
+        "height": 0.2651634216308594
+      },
+      "name": "Search",
+      "text": "Search",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        20
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 865.15625,
+        "y": 13.796875,
+        "width": 88.84375,
+        "height": 22.40625
+      },
+      "name": "Bejelentkezés",
+      "text": "Bejelentkezés",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_03"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 999.0,
+        "y": 13.796875,
+        "width": 135.53125,
+        "height": 22.40625
+      },
+      "name": "Hallgatóink_mondták",
+      "text": "Hallgatóink mondták",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_03"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        24
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 1175.125,
+        "y": 16.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "name": "svg-inline--fa",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 1217.125,
+        "y": 16.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "name": "svg-inline--fa",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 1259.125,
+        "y": 16.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      "name": "svg-inline--fa",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 0.0,
+        "y": 67.796875,
+        "width": 357.0,
+        "height": 38.0
+      },
+      "name": "image_30",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "/images/jancso-logo.png"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 622.796875,
+        "y": 74.59375,
+        "width": 67.234375,
+        "height": 30.796875
+      },
+      "name": "Főoldal",
+      "text": "Főoldal",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 738.03125,
+        "y": 74.59375,
+        "width": 76.21875,
+        "height": 30.796875
+      },
+      "name": "Tudástár",
+      "text": "Tudástár",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 862.25,
+        "y": 74.59375,
+        "width": 85.546875,
+        "height": 30.796875
+      },
+      "name": "Kurzusok",
+      "text": "Kurzusok",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 995.796875,
+        "y": 74.59375,
+        "width": 100.234375,
+        "height": 30.796875
+      },
+      "name": "Filozófiánk",
+      "text": "Filozófiánk",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1144.03125,
+        "y": 74.59375,
+        "width": 87.96875,
+        "height": 30.796875
+      },
+      "name": "Kapcsolat",
+      "text": "Kapcsolat",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_color": [
+          0.16470588235294117,
+          0.16470588235294117,
+          0.16470588235294117,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 22.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_03",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 190.796875,
+        "width": 900.40625,
+        "height": 46.203125
+      },
+      "name": "dicttitle",
+      "text": "Gyújtótávolság",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 33.0,
+        "font_weight": 100,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 239.0,
+        "width": 41.703125,
+        "height": 18.0
+      },
+      "name": "Vissza",
+      "text": "Vissza",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_03"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 306.21875,
+        "width": 866.9375,
+        "height": 51.0
+      },
+      "name": "Az_objektívek_egyik_legfontosabb",
+      "text": "Az objektívek egyik legfontosabb tulajdonsága a fényerő mellett a . Ez a szám megmutatja az objektív",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 535.9375,
+        "y": 306.21875,
+        "width": 117.765625,
+        "height": 23.0
+      },
+      "name": "autolinkeles",
+      "text": "gyújtótávolság",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "border_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 384.625,
+        "width": 890.796875,
+        "height": 79.0
+      },
+      "name": "Minél_kisebb_ez_a_szám,_annál_na",
+      "text": "Minél kisebb ez a szám, annál nagyobb a látószög, azaz több minden fér bele a képbe. Ez például akko",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 0.0,
+        "y": 489.03125,
+        "width": 900.40625,
+        "height": 20.0
+      },
+      "name": "image_57",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "/upload/userupload/2/images/17mm.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 0.0,
+        "y": 515.4375,
+        "width": 900.40625,
+        "height": 20.0
+      },
+      "name": "image_59",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "/upload/userupload/2/images/400mm.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        64
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 176.640625,
+        "y": 567.25,
+        "width": 547.109375,
+        "height": 32.0
+      },
+      "name": "A_hivatalos_definíció,_ami_senki",
+      "text": "A hivatalos definíció, ami senkit se érdekel:",
+      "style": {
+        "background_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 28.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_04"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        67
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 150.59375,
+        "y": 607.453125,
+        "width": 599.21875,
+        "height": 80.0
+      },
+      "name": "A_annak_a_pontnak_a_távolságát_j",
+      "text": "A  annak a pontnak a távolságát jelöli,\nahova az objektívbe párhuzamosan beeső fénysugarakat összegy",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_68",
+      "source_node_ids": [
+        68
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 237.90625,
+        "y": 607.453125,
+        "width": 127.390625,
+        "height": 22.0
+      },
+      "name": "autolinkeles",
+      "text": "gyújtótávolság",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "border_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_69",
+      "source_node_ids": [
+        69
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 0.0,
+        "y": 713.859375,
+        "width": 900.40625,
+        "height": 2.0
+      },
+      "name": "shape_69",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.8156862745098039,
+          0.8156862745098039,
+          0.8156862745098039,
+          1
+        ],
+        "text_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 740.265625,
+        "width": 854.75,
+        "height": 59.734375
+      },
+      "name": "24_mm_alattiakat_nagylátószögnek",
+      "text": "24 mm  alattiakat nagylátószögnek szokták nevezni, bár erre nincs mindenki által elfogadott szám, ho",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_72",
+      "source_node_ids": [
+        72
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 61.125,
+        "y": 740.265625,
+        "width": 117.765625,
+        "height": 23.0
+      },
+      "name": "autolinkeles",
+      "text": "gyújtótávolság",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "border_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 0.0,
+        "y": 797.265625,
+        "width": 193.234375,
+        "height": 2.734375
+      },
+      "name": "Milyen_témákhoz_jó?",
+      "text": "Milyen témákhoz jó?",
+      "style": {
+        "background_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_04",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_77",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 940.78125,
+        "y": 168.390625,
+        "width": 339.203125,
+        "height": 50.40625
+      },
+      "name": "coursestitle",
+      "text": "Népszerű fotós kurzusok",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5098039215686274,
+          0.4392156862745098,
+          0.12941176470588237,
+          1
+        ],
+        "border_color": [
+          0.5098039215686274,
+          0.4392156862745098,
+          0.12941176470588237,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_text_03"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 940.78125,
+        "y": 233.796875,
+        "width": 339.203125,
+        "height": 192.203125
+      },
+      "name": "image_80",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "kep/480x272/32292.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_83",
+      "source_node_ids": [
+        83
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 940.78125,
+        "y": 441.0,
+        "width": 339.203125,
+        "height": 45.203125
+      },
+      "name": "titletext",
+      "text": "Kattints ide, tudj meg többet",
+      "style": {
+        "background_color": [
+          1,
+          0.5372549019607843,
+          0.3803921568627451,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 700,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_04"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_86",
+      "source_node_ids": [
+        86
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 940.78125,
+        "y": 503.203125,
+        "width": 339.203125,
+        "height": 135.0
+      },
+      "name": "Megnyitsz_Photoshopban_egy_új_fo",
+      "text": "Megnyitsz Photoshopban egy új fotót, amit nem rég készítettél. De nem tudod pontosan, hogyan dolgozd",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 20.0,
+        "font_weight": 400,
+        "text_align": "justify",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_89",
+      "source_node_ids": [
+        89
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 940.78125,
+        "y": 706.859375,
+        "width": 339.203125,
+        "height": 93.140625
+      },
+      "name": "image_89",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": "kep/480x272/32148.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_0",
+      "source_element_ids": [
+        "e_4",
+        "e_5",
+        "e_7",
+        "e_8",
+        "e_10",
+        "e_11",
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28",
+        "e_30",
+        "e_34",
+        "e_36",
+        "e_38",
+        "e_40",
+        "e_42"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 130.0
+      },
+      "name": "section_0",
+      "style": {
+        "background_color": [
+          0.9686274509803922,
+          0.9686274509803922,
+          0.9686274509803922,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_4",
+        "e_5",
+        "e_7",
+        "e_8",
+        "e_10",
+        "e_11",
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 50.0
+      },
+      "name": "list_1",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 1,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_4",
+        "e_5",
+        "e_7",
+        "e_8",
+        "e_10",
+        "e_11"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 0.0,
+        "y": 14.5,
+        "width": 587.15625,
+        "height": 21.0
+      },
+      "name": "list_item_2",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 2,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_4",
+        "e_5"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 0.0,
+        "y": 14.5,
+        "width": 124.265625,
+        "height": 21.0
+      },
+      "name": "hallgatok",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_6",
+      "source_element_ids": [
+        "e_7",
+        "e_8"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 139.265625,
+        "y": 14.5,
+        "width": 264.921875,
+        "height": 21.0
+      },
+      "name": "hallgatokcim",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 6,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_9",
+      "source_element_ids": [
+        "e_10",
+        "e_11"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 419.1875,
+        "y": 14.5,
+        "width": 152.96875,
+        "height": 21.0
+      },
+      "name": "hallgatok",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 9,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_12",
+      "source_element_ids": [
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_24",
+        "e_26",
+        "e_28"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 587.15625,
+        "y": 0.0,
+        "width": 692.84375,
+        "height": 79.0
+      },
+      "name": "list_item_12",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 12,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_13",
+      "source_element_ids": [
+        "e_14",
+        "e_15",
+        "e_16",
+        "e_17",
+        "e_18"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 587.15625,
+        "y": 0.0,
+        "width": 268.0,
+        "height": 79.0
+      },
+      "name": "search-bar",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 13,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_32",
+      "source_element_ids": [
+        "e_34",
+        "e_36",
+        "e_38",
+        "e_40",
+        "e_42"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 622.796875,
+        "y": 50.0,
+        "width": 657.203125,
+        "height": 80.0
+      },
+      "name": "list_32",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 32,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_43",
+      "source_element_ids": [
+        "e_47",
+        "e_49",
+        "e_52",
+        "e_53",
+        "e_55",
+        "e_57",
+        "e_59",
+        "e_64",
+        "e_67",
+        "e_68",
+        "e_69",
+        "e_71",
+        "e_72",
+        "e_75",
+        "e_77",
+        "e_80",
+        "e_83",
+        "e_86",
+        "e_89"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 0.0,
+        "y": 130.0,
+        "width": 1280.0,
+        "height": 670.0
+      },
+      "name": "section_43",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 43,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_0",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_1",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_2",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_3",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        25.6,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_6",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        25.6,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_9",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        25.6,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_12",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_13",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        24.0,
+        24.0,
+        24.0,
+        24.0
+      ],
+      "primary_align": "CENTER",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_32",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_43",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_0",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_2",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_3",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_6",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_9",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "g_12",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "g_13",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_32",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_43",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_4",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_7",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_8",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_10",
+      "order": 1,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_11",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_15",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_16",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_17",
+      "order": 3,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "e_18",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_22",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_24",
+      "order": 3,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_26",
+      "order": 4,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_28",
+      "order": 5,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "e_30",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_32",
+      "child_id": "e_34",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_32",
+      "child_id": "e_36",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_32",
+      "child_id": "e_38",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_32",
+      "child_id": "e_40",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_32",
+      "child_id": "e_42",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_47",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_49",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_52",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_53",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_55",
+      "order": 6,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_57",
+      "order": 8,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_59",
+      "order": 10,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_64",
+      "order": 11,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_67",
+      "order": 12,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_68",
+      "order": 13,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_69",
+      "order": 15,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_71",
+      "order": 16,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_72",
+      "order": 17,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_75",
+      "order": 18,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_77",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_80",
+      "order": 2,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_83",
+      "order": 7,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_86",
+      "order": 9,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_89",
+      "order": 14,
+      "confidence": 0.98
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_11",
+        "e_17",
+        "e_18",
+        "e_20",
+        "e_22",
+        "e_5",
+        "e_64",
+        "e_75",
+        "e_8",
+        "e_83"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_47",
+        "e_49",
+        "e_52",
+        "e_55",
+        "e_67",
+        "e_71",
+        "e_86"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.165,
+          0.165,
+          0.165,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_34",
+        "e_36",
+        "e_38",
+        "e_40",
+        "e_42"
+      ],
+      "name": "文字色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_04",
+      "kind": "COLOR",
+      "value": {
+        "property": "background",
+        "rgba": [
+          1.0,
+          0.537,
+          0.38,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_64",
+        "e_75",
+        "e_83"
+      ],
+      "name": "背景色/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 20.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_52",
+        "e_53",
+        "e_55",
+        "e_67",
+        "e_68",
+        "e_71",
+        "e_72",
+        "e_75",
+        "e_86"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 22.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_34",
+        "e_36",
+        "e_38",
+        "e_40",
+        "e_42"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_03",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 16.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_20",
+        "e_22",
+        "e_49",
+        "e_77"
+      ],
+      "name": "文字样式/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_04",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 15.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_11",
+        "e_5",
+        "e_8"
+      ],
+      "name": "文字样式/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_radius_01",
+      "kind": "RADIUS",
+      "value": {
+        "radius": 20.0
+      },
+      "member_ids": [
+        "e_14",
+        "e_15",
+        "e_16"
+      ],
+      "name": "圆角/01",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "1083",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "conservative",
+    "visual_review": {
+      "sample_id": "1083",
+      "quality_status": "accepted",
+      "observed_page_type": "photography_knowledge_article",
+      "primary_layout": "two_level_site_header_then_article_and_sidebar_columns",
+      "visible_regions": [
+        "faded_utility_header",
+        "broken_logo",
+        "primary_navigation",
+        "article_title_and_body",
+        "highlighted_definition_callout",
+        "course_sidebar",
+        "promotional_sidebar_callout",
+        "broken_content_images"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "high",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The candidate distinguishes the complex header and the full content section, but does not resolve the internal article/sidebar hierarchy. Multiple logo, course, promotional, and inline images are broken, and the white utility text has very low contrast; use the structural geometry without treating visual assets as complete.",
+      "reviewer_id": "codex_visual_reviewer_2"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_2"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1083.json",
+        "sha256": "9fce6afa89724f3a30fd1481fc615b1593d71700979b36ca5ff0101acc06f407"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/1083.json",
+        "sha256": "71124909a59ffbe64637b1b8c8438bfa8db70d5742dfe1bffbcf5296d48e44b3"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_02.json",
+        "sha256": "1d332b80a04a3b01f33f3e749aa2231256f086c89c67ae72e7cdca009bbcba01"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/1083.json",
+        "sha256": "ea5802aad83f88ce78b5f7bfe3df2b779d08c24e1589d689d997ca3bbbc1c93c"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/1083/screenshot.png",
+      "screenshot_sha256": "4a159ddba909e1fa5031e6b987cdb666e4f79942b6d2b4202b243cb5c12e66ce",
+      "page_graph_path": "data/processed/1083/page_graph.json",
+      "page_graph_sha256": "20b57a7f82cfc2913f81e0023ae3260fa7efa7c2650d5702f42ea63315dd7bbc"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

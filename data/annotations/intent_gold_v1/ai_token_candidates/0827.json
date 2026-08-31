@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "0827",
+  "generator": "codex_compact_style_tokens_v1",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "source_structure_sha256": "cad8b32ea2a45f75874d361167f6ba3b68cd22bd4d749cbd84001b238e5db2e2",
+  "source_visual_review_sha256": "1d332b80a04a3b01f33f3e749aa2231256f086c89c67ae72e7cdca009bbcba01",
+  "correction_operations_applied": true,
+  "selection_policy": {
+    "minimum_members": 3,
+    "kind_caps": {
+      "COLOR": 4,
+      "TEXT": 4,
+      "RADIUS": 2,
+      "SPACING": 2
+    },
+    "maximum_tokens_per_page": 12
+  },
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "background",
+        "rgba": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_100",
+        "e_103",
+        "e_104",
+        "e_113",
+        "e_114",
+        "e_116",
+        "e_117",
+        "e_125",
+        "e_37",
+        "e_40",
+        "e_45",
+        "e_47",
+        "e_48",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_74",
+        "e_75",
+        "e_76",
+        "e_77",
+        "e_78",
+        "e_79",
+        "e_91",
+        "e_94"
+      ],
+      "name": "背景色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "border",
+        "rgba": [
+          0.463,
+          0.463,
+          0.463,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_100",
+        "e_103",
+        "e_104",
+        "e_113",
+        "e_114",
+        "e_116",
+        "e_117",
+        "e_125",
+        "e_37",
+        "e_40",
+        "e_45",
+        "e_47",
+        "e_48",
+        "e_49",
+        "e_50",
+        "e_51",
+        "e_52",
+        "e_74",
+        "e_75",
+        "e_76",
+        "e_77",
+        "e_78",
+        "e_79",
+        "e_91",
+        "e_94"
+      ],
+      "name": "边框色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_106",
+        "e_115",
+        "e_23",
+        "e_28",
+        "e_35",
+        "e_39",
+        "e_43",
+        "e_80",
+        "e_82",
+        "e_83",
+        "e_84",
+        "e_98",
+        "e_99"
+      ],
+      "name": "文字色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_04",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.878,
+          0.878,
+          0.965,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_128",
+        "e_129",
+        "e_130",
+        "e_131",
+        "e_132"
+      ],
+      "name": "文字色/04",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 11.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_106",
+        "e_119",
+        "e_23",
+        "e_35",
+        "e_39",
+        "e_43",
+        "e_80",
+        "e_82",
+        "e_83",
+        "e_84",
+        "e_86",
+        "e_98",
+        "e_99"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 11.0,
+        "font_weight": 700
+      },
+      "member_ids": [
+        "e_115",
+        "e_128",
+        "e_129",
+        "e_130",
+        "e_131",
+        "e_132",
+        "e_58",
+        "e_60",
+        "e_62",
+        "e_64"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    }
+  ]
+}

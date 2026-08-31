@@ -1,0 +1,1035 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        6
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 917.296875,
+        "y": 9.0,
+        "width": 82.015625,
+        "height": 21.0
+      },
+      "name": "跳转链接",
+      "text": "Read our Blog",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 12,
+        "font_weight": 600,
+        "line_height": 12,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        8
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1014.3125,
+        "y": 9.0,
+        "width": 122.6875,
+        "height": 21.0
+      },
+      "name": "跳转链接",
+      "text": "Listen to our Podcast",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 12,
+        "font_weight": 600,
+        "line_height": 12,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        14
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 425.765625,
+        "y": 63.0,
+        "width": 38.90625,
+        "height": 47.0
+      },
+      "name": "导航按钮",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 600,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        16
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 486.671875,
+        "y": 63.0,
+        "width": 88.421875,
+        "height": 47.0
+      },
+      "name": "导航按钮",
+      "text": "START HERE",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 600,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        18
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 597.09375,
+        "y": 63.0,
+        "width": 184.9375,
+        "height": 47.0
+      },
+      "name": "导航按钮",
+      "text": "Get Weekly Marketing Ideas",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 600,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        20
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 804.03125,
+        "y": 63.0,
+        "width": 62.25,
+        "height": 47.0
+      },
+      "name": "导航按钮",
+      "text": "Speaking",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 600,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        22
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 888.28125,
+        "y": 63.0,
+        "width": 105.8125,
+        "height": 47.0
+      },
+      "name": "导航按钮",
+      "text": "1-832-7ENROLL",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 600,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        24
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1016.09375,
+        "y": 63.0,
+        "width": 73.90625,
+        "height": 47.0
+      },
+      "name": "导航按钮",
+      "text": "Contact Us",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          0.6
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 600,
+        "line_height": 14,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        1
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 30.0
+      },
+      "name": "头部背景",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 12,
+        "font_weight": 500,
+        "line_height": 12,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 109.0,
+        "width": 560.765625,
+        "height": 30.0
+      },
+      "name": "标题",
+      "text": "Feed the Beast: A Fresh Look at Press Releases",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 26,
+        "font_weight": 500,
+        "line_height": 26,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        39
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 365.0,
+        "y": 147.0,
+        "width": 550.0,
+        "height": 300.0
+      },
+      "name": "配图",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 500,
+        "line_height": 23.8,
+        "opacity": 1,
+        "image_src": "https://www.yourschoolmarketing.com/wp-content/uploads/2012/08/school_marketing_blog_press_releases.png"
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        40
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 461.0,
+        "width": 1024.0,
+        "height": 37.796875
+      },
+      "name": "第一段文本",
+      "text": "You’re this far along in the school year and you haven’t put out a press release yet?  Really?  Is t",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 500,
+        "line_height": 23.8,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        41
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 498.796875,
+        "width": 1024.0,
+        "height": 85.390625
+      },
+      "name": "第二段文本",
+      "text": "First of all, whether you’re reading this 2 weeks after opening day, or if it’s 2 months before scho",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 500,
+        "line_height": 23.8,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        43
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 593.125,
+        "y": 549.390625,
+        "width": 55.234375,
+        "height": 16.0
+      },
+      "name": "展开全文按钮",
+      "text": "(more…)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_color": [
+          0.1803921568627451,
+          0.6392156862745098,
+          0.9490196078431372,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 500,
+        "line_height": 23.8,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 128.0,
+        "y": 658.1875,
+        "width": 1024.0,
+        "height": 28.0
+      },
+      "name": "小标题",
+      "text": "Our Services: How You Can Work With Us",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_color": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 18,
+        "font_weight": 500,
+        "line_height": 18,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        50
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 527.5,
+        "y": 686.1875,
+        "width": 225.0,
+        "height": 113.8125
+      },
+      "name": "网站说明图片",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.4,
+          0.4,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14,
+        "font_weight": 500,
+        "line_height": 23.8,
+        "opacity": 1,
+        "image_src": "https://www.yourschoolmarketing.com/wp-content/uploads/2015/05/services-consulting-225px.png"
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_1",
+        "e_2",
+        "e_9"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1280.0,
+        "height": 30.0
+      },
+      "name": "网站头部栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_3",
+        "e_4",
+        "e_5",
+        "e_6",
+        "e_7",
+        "e_8"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 425.765625,
+        "y": 63.0,
+        "width": 664.234375,
+        "height": 47.0
+      },
+      "name": "导航栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_13",
+        "e_14"
+      ],
+      "role": "SECTION",
+      "bbox": {
+        "x": 128.0,
+        "y": 498.796875,
+        "width": 1024.0,
+        "height": 85.390625
+      },
+      "name": "可展开伸缩文本",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_10",
+        "e_11",
+        "e_12",
+        "e_13",
+        "e_14"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 128.0,
+        "y": 109.0,
+        "width": 1024.0,
+        "height": 475.1875
+      },
+      "name": "内容区域",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_5",
+      "source_element_ids": [
+        "e_15",
+        "e_16"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 128.0,
+        "y": 658.1875,
+        "width": 1024.0,
+        "height": 141.8125
+      },
+      "name": "网站底部区域",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_2",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_3",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_4",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_5",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_1",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_2",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_9",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_3",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_4",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_5",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_6",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_7",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_8",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_13",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_14",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_4",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "g_3",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_12",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_11",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_10",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_5",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_15",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "e_16",
+      "order": 1,
+      "confidence": 1.0
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "1094",
+    "label_source": "human_ai_adjudicated_gold",
+    "status": "complete",
+    "adjudication_status": "finalized",
+    "gold_finalized": true,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "1094",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "7799e86c2019d7bad58a8906a3dd6af5693cd2af38817f5e77b1acf57ab9b9c7",
+    "ai_annotation_sha256": "20f75c8321edc3e9fdc097f837ee47a9888e0d806e977c9ce4d27991e756c85d",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_at": "2026-08-13T15:16:58+08:00",
+    "review_notes": "以人工标注为准",
+    "ai_assistance_disclosed": true,
+    "adjudication_record": "data/annotations/intent_pilot_v1/adjudication/1094.json",
+    "reference_tier": "human_gold",
+    "human_reviewer_count": 1,
+    "review_process": "single_human_ai_assisted_finalization",
+    "reviewer_id": "human_reviewer_01",
+    "reviewer_independent_of_base_annotator": false,
+    "reviewer_qualification_documented": false,
+    "reviewer_relationship_to_author": "not_documented",
+    "reviewer_conflict_of_interest_status": "not_documented",
+    "reviewer_public_name_removed": true,
+    "public_name_consent_status": "not_documented",
+    "review_notes_detail": "brief_summary_only",
+    "token_labels_available": false,
+    "token_review": {
+      "status": "not_collected",
+      "positive_labels_available": false,
+      "explicit_negative_labels_available": false
+    },
+    "reference_packaged_at": "2026-08-31T00:00:00+08:00"
+  }
+}

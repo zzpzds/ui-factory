@@ -1,0 +1,4853 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_1",
+      "source_node_ids": [
+        5
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 1148.0625,
+        "y": 0.0,
+        "width": 83.9375,
+        "height": 45.0
+      },
+      "name": "登录按钮",
+      "text": "Log-in",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 8,
+        "font_size": 18.311,
+        "font_weight": 600,
+        "line_height": 24.9696,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_2",
+      "source_node_ids": [
+        7
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 428.0,
+        "y": 0.0,
+        "width": 81.28125,
+        "height": 46.0
+      },
+      "name": "导航链接",
+      "text": "Home",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "line_height": 24.9696,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_3",
+      "source_node_ids": [
+        8
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 509.28125,
+        "y": 0.0,
+        "width": 150.125,
+        "height": 46.0
+      },
+      "name": "导航链接",
+      "text": "Add Business",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "line_height": 24.9696,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        9
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 659.40625,
+        "y": 0.0,
+        "width": 172.28125,
+        "height": 46.0
+      },
+      "name": "导航链接",
+      "text": "Business Forum",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "line_height": 24.9696,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        10
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 831.6875,
+        "y": 0.0,
+        "width": 137.875,
+        "height": 46.0
+      },
+      "name": "导航链接",
+      "text": "Testimonials",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "line_height": 24.9696,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_6",
+      "source_node_ids": [
+        11
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 969.5625,
+        "y": 0.0,
+        "width": 119.015625,
+        "height": 46.0
+      },
+      "name": "导航链接",
+      "text": "Promotion",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4,
+          0.3215686274509804,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.9757,
+        "font_weight": 400,
+        "line_height": 24.9696,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        17
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 48.0,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "图片链接",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1,
+        "image_src": "/images/new/twitter.png"
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        19
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 108.421875,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "图片链接",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1,
+        "image_src": "/images/new/facebook.png"
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        21
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 168.84375,
+        "y": 186.0,
+        "width": 36.0,
+        "height": 36.0
+      },
+      "name": "图片链接",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1,
+        "image_src": "/images/new/linkedin.png"
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        24
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 232.734375,
+        "y": 194.421875,
+        "width": 80.0,
+        "height": 22.46875
+      },
+      "name": "表单项标签",
+      "text": "Search for",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_11",
+      "source_node_ids": [
+        26
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 314.125,
+        "y": 197.421875,
+        "width": 224.0,
+        "height": 19.0
+      },
+      "name": "搜索输入框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_12",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 538.125,
+        "y": 194.421875,
+        "width": 36.0,
+        "height": 22.46875
+      },
+      "name": "表单项标签",
+      "text": "near",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        29
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 576.0625,
+        "y": 197.421875,
+        "width": 224.0,
+        "height": 19.0
+      },
+      "name": "搜索输入框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        31
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 810.0625,
+        "y": 188.0,
+        "width": 125.1875,
+        "height": 36.0
+      },
+      "name": "搜索框按钮",
+      "text": "",
+      "style": {
+        "background_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 4,
+        "font_size": 23.305,
+        "font_weight": 700,
+        "line_height": 20,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_15",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 239.0,
+        "width": 118.796875,
+        "height": 16.0
+      },
+      "name": "面包屑一级",
+      "text": "My Local Services",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.6488,
+        "font_weight": 400,
+        "line_height": 19.0435,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 179.953125,
+        "y": 239.0,
+        "width": 93.578125,
+        "height": 16.0
+      },
+      "name": "面包屑二级",
+      "text": "Search results",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.6488,
+        "font_weight": 400,
+        "line_height": 19.0435,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        35
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 160.0,
+        "y": 239.0,
+        "width": 18.0,
+        "height": 16.0
+      },
+      "name": "面包屑箭头",
+      "text": "›",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_color": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.6488,
+        "font_weight": 400,
+        "line_height": 19.0435,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 265.046875,
+        "width": 158.75,
+        "height": 24.46875
+      },
+      "name": "搜索历史列表的标题",
+      "text": "Recent searches",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0.4,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0.4,
+          0,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.9757,
+        "font_weight": 600,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 298.515625,
+        "width": 113.75,
+        "height": 22.46875
+      },
+      "name": "列表项小标题",
+      "text": "Food Services",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_20",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1073.75,
+        "y": 298.515625,
+        "width": 163.703125,
+        "height": 22.46875
+      },
+      "name": "列表项内容",
+      "text": "in Clarkston, Michigan",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_21",
+      "source_node_ids": [
+        49
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 333.984375,
+        "width": 159.046875,
+        "height": 22.46875
+      },
+      "name": "列表项小标题",
+      "text": "Insurance Company",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        50
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1119.046875,
+        "y": 333.984375,
+        "width": 160.953125,
+        "height": 22.46875
+      },
+      "name": "列表项内容",
+      "text": "in Topsfield, Massachusetts",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_23",
+      "source_node_ids": [
+        53
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 369.453125,
+        "width": 225.625,
+        "height": 22.46875
+      },
+      "name": "列表项小标题",
+      "text": "Accident & Health Insurance",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_24",
+      "source_node_ids": [
+        54
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1185.625,
+        "y": 369.453125,
+        "width": 94.375,
+        "height": 22.46875
+      },
+      "name": "列表项内容",
+      "text": "in Huntingburg, Indiana",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 404.921875,
+        "width": 293.109375,
+        "height": 22.46875
+      },
+      "name": "列表项小标题",
+      "text": "Health Clubs Studios & Gymnasiums",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1253.109375,
+        "y": 404.921875,
+        "width": 26.890625,
+        "height": 22.46875
+      },
+      "name": "列表项内容",
+      "text": "in Fort Worth, Texas",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        61
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 440.390625,
+        "width": 186.84375,
+        "height": 22.46875
+      },
+      "name": "列表项小标题",
+      "text": "Money Transfer Service",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        62
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1146.84375,
+        "y": 440.390625,
+        "width": 133.15625,
+        "height": 22.46875
+      },
+      "name": "列表项内容",
+      "text": "in Dyersburg, Tennessee",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_29",
+      "source_node_ids": [
+        65
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 960.0,
+        "y": 475.859375,
+        "width": 178.4375,
+        "height": 22.46875
+      },
+      "name": "列表项小标题",
+      "text": "Bathroom Remodeling",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 600,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1138.4375,
+        "y": 475.859375,
+        "width": 141.5625,
+        "height": 22.46875
+      },
+      "name": "列表项内容",
+      "text": "in Greencastle, Pennsylvania",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        70
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 269.046875,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "按钮内文字",
+      "text": "Review »",
+      "style": {
+        "background_color": [
+          0.4,
+          0.7529411764705882,
+          0.4196078431372549,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "line_height": 26.6342,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_32",
+      "source_node_ids": [
+        71
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 276.046875,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "按钮内文字",
+      "text": "Leave a",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "line_height": 19.1767,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        69
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 40.0,
+        "y": 269.046875,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "按钮区域",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        72
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 40.0,
+        "y": 347.5,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "按钮区域",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        73
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 347.5,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "按钮内文字",
+      "text": "Business »",
+      "style": {
+        "background_color": [
+          0.3176470588235294,
+          0.6666666666666666,
+          0.3411764705882353,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "line_height": 26.6342,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 354.5,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "按钮内文字",
+      "text": "Add your",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "line_height": 19.1767,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        75
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 40.0,
+        "y": 425.953125,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "按钮区域",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        76
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 425.953125,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "按钮内文字",
+      "text": "Feedback »",
+      "style": {
+        "background_color": [
+          0.2549019607843137,
+          0.6039215686274509,
+          0.2784313725490196,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "line_height": 26.6342,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        77
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 432.953125,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "按钮内文字",
+      "text": "View our",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "line_height": 19.1767,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_40",
+      "source_node_ids": [
+        78
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 40.0,
+        "y": 504.40625,
+        "width": 160.0,
+        "height": 88.453125
+      },
+      "name": "按钮区域",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_41",
+      "source_node_ids": [
+        79
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 504.40625,
+        "width": 160.0,
+        "height": 88.453125
+      },
+      "name": "按钮内文字",
+      "text": "Promotion »",
+      "style": {
+        "background_color": [
+          0.043137254901960784,
+          0.5058823529411764,
+          0.25882352941176473,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "line_height": 26.6342,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        80
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 511.40625,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "按钮内文字",
+      "text": "Business",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "line_height": 19.1767,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_43",
+      "source_node_ids": [
+        81
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 40.0,
+        "y": 609.5,
+        "width": 160.0,
+        "height": 88.453125
+      },
+      "name": "按钮区域",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_44",
+      "source_node_ids": [
+        82
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 609.5,
+        "width": 160.0,
+        "height": 88.453125
+      },
+      "name": "按钮内文字",
+      "text": "Business Forum",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "line_height": 26.6342,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        83
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 616.5,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "按钮内文字",
+      "text": "Visit our",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "line_height": 19.1767,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        84
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 40.0,
+        "y": 714.59375,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "按钮区域",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        85
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 40.0,
+        "y": 714.59375,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "按钮内文字",
+      "text": "Showcase",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 26.6342,
+        "font_weight": 600,
+        "line_height": 26.6342,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_48",
+      "source_node_ids": [
+        86
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 49.0,
+        "y": 721.59375,
+        "width": 150.0,
+        "height": 19.171875
+      },
+      "name": "按钮内文字",
+      "text": "Forum",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 21.3074,
+        "font_weight": 500,
+        "line_height": 19.1767,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_49",
+      "source_node_ids": [
+        89
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220.0,
+        "y": 269.046875,
+        "width": 720.0,
+        "height": 32.953125
+      },
+      "name": "标题",
+      "text": "Painting Contractor near Galway",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 29.9635,
+        "font_weight": 700,
+        "line_height": 32.9599,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_50",
+      "source_node_ids": [
+        90
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220.0,
+        "y": 304.0,
+        "width": 720.0,
+        "height": 22.46875
+      },
+      "name": "小标题",
+      "text": "Search results",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 700,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_51",
+      "source_node_ids": [
+        92
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 220.0,
+        "y": 337.46875,
+        "width": 149.0,
+        "height": 19.0
+      },
+      "name": "搜索输入框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        93
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 369.0,
+        "y": 337.46875,
+        "width": 149.0,
+        "height": 19.0
+      },
+      "name": "搜索输入框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.4627450980392157,
+          0.4627450980392157,
+          0.4627450980392157,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 13.3333,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_53",
+      "source_node_ids": [
+        95
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 220.0,
+        "y": 362.9375,
+        "width": 52.71875,
+        "height": 20.0
+      },
+      "name": "排序依据标签",
+      "text": "Sort by",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_54",
+      "source_node_ids": [
+        96
+      ],
+      "type": "INPUT",
+      "bbox": {
+        "x": 281.96875,
+        "y": 358.9375,
+        "width": 130.0,
+        "height": 29.0
+      },
+      "name": "排序下拉选择框",
+      "text": "",
+      "style": {
+        "background_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 0,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        104
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 442.578125,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "列表项标题",
+      "text": "N.E.S Painting and Pressure Cleaning",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.9757,
+        "font_weight": 700,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        106
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 467.046875,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "列表地址信息",
+      "text": "378 Fayville Rd, Saratoga, New York",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        107
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 489.515625,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "列表距离信息",
+      "text": "3.8 miles away",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        108
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 511.984375,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "列表标签信息",
+      "text": "Painting Contractor • Painters • Pressure Washing Equipment (Wholesale)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        112
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 240.0,
+        "y": 537.453125,
+        "width": 90.0,
+        "height": 22.46875
+      },
+      "name": "标记文字",
+      "text": "Contact form",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        113
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 230.0,
+        "y": 537.453125,
+        "width": 11.453125,
+        "height": 22.46875
+      },
+      "name": "标记icon",
+      "text": "✓",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        114
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 351.203125,
+        "y": 537.453125,
+        "width": 99.0,
+        "height": 22.46875
+      },
+      "name": "标记文字",
+      "text": "Verified listing",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_62",
+      "source_node_ids": [
+        115
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 341.203125,
+        "y": 537.453125,
+        "width": 11.453125,
+        "height": 22.46875
+      },
+      "name": "标记icon",
+      "text": "✓",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_63",
+      "source_node_ids": [
+        117
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 811.625,
+        "y": 536.453125,
+        "width": 118.375,
+        "height": 32.46875
+      },
+      "name": "详情按钮",
+      "text": "Full details ▸",
+      "style": {
+        "background_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 16.6464,
+        "font_weight": 700,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_64",
+      "source_node_ids": [
+        121
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 605.5625,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "列表项标题",
+      "text": "Zachary Painting",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 19.9757,
+        "font_weight": 700,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_65",
+      "source_node_ids": [
+        123
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 630.03125,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "列表项地址信息",
+      "text": "39 Pruyn Hill Road, Saratoga, New York",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        124
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 652.5,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "列表项距离信息",
+      "text": "6.8 miles away",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_67",
+      "source_node_ids": [
+        125
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 230.0,
+        "y": 674.96875,
+        "width": 700.0,
+        "height": 22.46875
+      },
+      "name": "列表项标签信息",
+      "text": "Painters • Painting Contractor • Kitchen Cabinets & Equipment",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 16.6464,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_68",
+      "source_node_ids": [
+        129
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 240.0,
+        "y": 700.4375,
+        "width": 90.0,
+        "height": 22.46875
+      },
+      "name": "标记文字",
+      "text": "Contact form",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_69",
+      "source_node_ids": [
+        130
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 230.0,
+        "y": 700.4375,
+        "width": 11.453125,
+        "height": 22.46875
+      },
+      "name": "标记icon",
+      "text": "✓",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_70",
+      "source_node_ids": [
+        131
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 352.0,
+        "y": 700.4375,
+        "width": 99.0,
+        "height": 22.46875
+      },
+      "name": "标记文字",
+      "text": "Verified listing",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_color": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        132
+      ],
+      "type": "SHAPE",
+      "bbox": {
+        "x": 341.203125,
+        "y": 700.4375,
+        "width": 11.453125,
+        "height": 22.46875
+      },
+      "name": "标记icon",
+      "text": "✓",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_color": [
+          0.21176470588235294,
+          0.5647058823529412,
+          0.23137254901960785,
+          1
+        ],
+        "border_radius": 0,
+        "font_size": 14.9818,
+        "font_weight": 400,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    },
+    {
+      "id": "e_72",
+      "source_node_ids": [
+        134
+      ],
+      "type": "BUTTON_VISUAL",
+      "bbox": {
+        "x": 811.625,
+        "y": 699.4375,
+        "width": 118.375,
+        "height": 32.46875
+      },
+      "name": "详情按钮",
+      "text": "Full details ▸",
+      "style": {
+        "background_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "text_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_color": [
+          0.17647058823529413,
+          0.5254901960784314,
+          0.23921568627450981,
+          1
+        ],
+        "border_radius": 5,
+        "font_size": 16.6464,
+        "font_weight": 700,
+        "line_height": 22.4726,
+        "opacity": 1
+      },
+      "style_token_refs": [],
+      "confidence": 1.0
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_1",
+      "source_element_ids": [
+        "e_2",
+        "e_3",
+        "e_4",
+        "e_5",
+        "e_6"
+      ],
+      "role": "NAV",
+      "bbox": {
+        "x": 428.0,
+        "y": 0.0,
+        "width": 660.578125,
+        "height": 46.0
+      },
+      "name": "导航列表",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_1",
+        "e_2",
+        "e_3",
+        "e_4",
+        "e_5",
+        "e_6"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 428.0,
+        "y": 0.0,
+        "width": 804.0,
+        "height": 46.0
+      },
+      "name": "页面顶部",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_7",
+        "e_8",
+        "e_9"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 48.0,
+        "y": 186.0,
+        "width": 156.84375,
+        "height": 36.0
+      },
+      "name": "搜索前的图片列表",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_4",
+      "source_element_ids": [
+        "e_10",
+        "e_11",
+        "e_12",
+        "e_13",
+        "e_14"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 232.734375,
+        "y": 188.0,
+        "width": 702.515625,
+        "height": 36.0
+      },
+      "name": "搜索表单",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_5",
+      "source_element_ids": [
+        "e_7",
+        "e_8",
+        "e_9",
+        "e_10",
+        "e_11",
+        "e_12",
+        "e_13",
+        "e_14"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 48.0,
+        "y": 186.0,
+        "width": 887.25,
+        "height": 38.0
+      },
+      "name": "搜索栏",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_6",
+      "source_element_ids": [
+        "e_15",
+        "e_16",
+        "e_17"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 40.0,
+        "y": 239.0,
+        "width": 233.53125,
+        "height": 16.0
+      },
+      "name": "面包屑导航",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_7",
+      "source_element_ids": [
+        "e_19",
+        "e_20"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 960.0,
+        "y": 298.515625,
+        "width": 280.0,
+        "height": 22.46875
+      },
+      "name": "搜索历史列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_8",
+      "source_element_ids": [
+        "e_21",
+        "e_22"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 960.0,
+        "y": 333.984375,
+        "width": 280.0,
+        "height": 22.46875
+      },
+      "name": "搜索历史列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_9",
+      "source_element_ids": [
+        "e_23",
+        "e_24"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 960.0,
+        "y": 369.453125,
+        "width": 280.0,
+        "height": 22.46875
+      },
+      "name": "搜索历史列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_10",
+      "source_element_ids": [
+        "e_25",
+        "e_26"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 960.0,
+        "y": 404.921875,
+        "width": 280.0,
+        "height": 22.46875
+      },
+      "name": "搜索历史列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_11",
+      "source_element_ids": [
+        "e_27",
+        "e_28"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 960.0,
+        "y": 440.390625,
+        "width": 280.0,
+        "height": 22.46875
+      },
+      "name": "搜索历史列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_12",
+      "source_element_ids": [
+        "e_29",
+        "e_30"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 960.0,
+        "y": 475.859375,
+        "width": 280.0,
+        "height": 22.46875
+      },
+      "name": "搜索历史列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_13",
+      "source_element_ids": [
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29",
+        "e_30"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 960.0,
+        "y": 298.515625,
+        "width": 280.0,
+        "height": 199.8125
+      },
+      "name": "搜索历史列表",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_14",
+      "source_element_ids": [
+        "e_18",
+        "e_19",
+        "e_20",
+        "e_21",
+        "e_22",
+        "e_23",
+        "e_24",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_29",
+        "e_30"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 960.0,
+        "y": 265.046875,
+        "width": 280.0,
+        "height": 233.28125
+      },
+      "name": "搜索历史模块",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_15",
+      "source_element_ids": [
+        "e_51",
+        "e_52",
+        "e_53",
+        "e_54"
+      ],
+      "role": "FORM",
+      "bbox": {
+        "x": 220.0,
+        "y": 337.46875,
+        "width": 298.0,
+        "height": 50.46875
+      },
+      "name": "搜索排序表单",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_16",
+      "source_element_ids": [
+        "e_31",
+        "e_32",
+        "e_33"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 40.0,
+        "y": 269.046875,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "左侧按钮项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_17",
+      "source_element_ids": [
+        "e_34",
+        "e_35",
+        "e_36"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 40.0,
+        "y": 347.5,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "左侧按钮项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_18",
+      "source_element_ids": [
+        "e_37",
+        "e_38",
+        "e_39"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 40.0,
+        "y": 425.953125,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "左侧按钮项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_19",
+      "source_element_ids": [
+        "e_40",
+        "e_41",
+        "e_42"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 40.0,
+        "y": 504.40625,
+        "width": 160.0,
+        "height": 88.453125
+      },
+      "name": "左侧按钮项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_20",
+      "source_element_ids": [
+        "e_43",
+        "e_44",
+        "e_45"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 40.0,
+        "y": 609.5,
+        "width": 160.0,
+        "height": 88.453125
+      },
+      "name": "左侧按钮项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_21",
+      "source_element_ids": [
+        "e_46",
+        "e_47",
+        "e_48"
+      ],
+      "role": "CARD",
+      "bbox": {
+        "x": 40.0,
+        "y": 714.59375,
+        "width": 160.0,
+        "height": 61.8125
+      },
+      "name": "左侧按钮项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_22",
+      "source_element_ids": [
+        "e_31",
+        "e_32",
+        "e_33",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_37",
+        "e_38",
+        "e_39",
+        "e_40",
+        "e_41",
+        "e_42",
+        "e_43",
+        "e_44",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_48"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 40.0,
+        "y": 269.046875,
+        "width": 160.0,
+        "height": 507.359375
+      },
+      "name": "左侧按钮列表",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_23",
+      "source_element_ids": [
+        "e_59",
+        "e_60"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 230.0,
+        "y": 537.453125,
+        "width": 100.0,
+        "height": 22.46875
+      },
+      "name": "搜索结果标记项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_24",
+      "source_element_ids": [
+        "e_61",
+        "e_62"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 341.203125,
+        "y": 537.453125,
+        "width": 109.0,
+        "height": 22.46875
+      },
+      "name": "搜索结果标记项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_25",
+      "source_element_ids": [
+        "e_59",
+        "e_60",
+        "e_61",
+        "e_62"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 230.0,
+        "y": 537.453125,
+        "width": 220.203125,
+        "height": 22.46875
+      },
+      "name": "搜索结果标记组",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_26",
+      "source_element_ids": [
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61",
+        "e_62",
+        "e_63"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 230.0,
+        "y": 442.578125,
+        "width": 700.0,
+        "height": 126.34375
+      },
+      "name": "搜索结果列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_27",
+      "source_element_ids": [
+        "e_68",
+        "e_69"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 230.0,
+        "y": 700.4375,
+        "width": 100.0,
+        "height": 22.46875
+      },
+      "name": "搜索结果标记列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_28",
+      "source_element_ids": [
+        "e_70",
+        "e_71"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 341.203125,
+        "y": 700.4375,
+        "width": 109.796875,
+        "height": 22.46875
+      },
+      "name": "搜索结果标记列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_29",
+      "source_element_ids": [
+        "e_68",
+        "e_69",
+        "e_70",
+        "e_71"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 230.0,
+        "y": 700.4375,
+        "width": 221.0,
+        "height": 22.46875
+      },
+      "name": "搜索结果标记组",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_30",
+      "source_element_ids": [
+        "e_64",
+        "e_65",
+        "e_66",
+        "e_67",
+        "e_68",
+        "e_69",
+        "e_70",
+        "e_71",
+        "e_72"
+      ],
+      "role": "LIST_ITEM",
+      "bbox": {
+        "x": 230.0,
+        "y": 605.5625,
+        "width": 700.0,
+        "height": 126.34375
+      },
+      "name": "搜索结果列表项",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "g_31",
+      "source_element_ids": [
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61",
+        "e_62",
+        "e_63",
+        "e_64",
+        "e_65",
+        "e_66",
+        "e_67",
+        "e_68",
+        "e_69",
+        "e_70",
+        "e_71",
+        "e_72"
+      ],
+      "role": "LIST",
+      "bbox": {
+        "x": 230.0,
+        "y": 442.578125,
+        "width": 700.0,
+        "height": 289.328125
+      },
+      "name": "搜索结果列表",
+      "style": {},
+      "source_node_id": null,
+      "confidence": 1.0
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_1",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_2",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_3",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_4",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_5",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_6",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_7",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_8",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_9",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_10",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_11",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_12",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_13",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_14",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_15",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_16",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_17",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_18",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_19",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_20",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_21",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_22",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_23",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_24",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_25",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_26",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_27",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_28",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_29",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "SPACE_BETWEEN",
+      "cross_align": "CENTER",
+      "horizontal_resize": "HUG",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_30",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 1.0
+    },
+    {
+      "target_id": "g_31",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 1.0
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "e_49",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_50",
+      "order": 6,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_2",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_3",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_4",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_5",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_1",
+      "child_id": "e_6",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "g_1",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_1",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_7",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_8",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_9",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_10",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_11",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_12",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_13",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_4",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_5",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "g_3",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_5",
+      "child_id": "g_4",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_6",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_15",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_16",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_19",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_7",
+      "child_id": "e_20",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_21",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_8",
+      "child_id": "e_22",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_23",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_9",
+      "child_id": "e_24",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_25",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_10",
+      "child_id": "e_26",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_28",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_11",
+      "child_id": "e_27",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_29",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_30",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_7",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_8",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_9",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_10",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_11",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_13",
+      "child_id": "g_12",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_14",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "g_13",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_18",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_15",
+      "order": 7,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_51",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_52",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_53",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_15",
+      "child_id": "e_54",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_31",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_32",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_16",
+      "child_id": "e_33",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_34",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_35",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_17",
+      "child_id": "e_36",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_37",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_38",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_18",
+      "child_id": "e_39",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_40",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_41",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_19",
+      "child_id": "e_42",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_43",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_44",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_45",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_21",
+      "child_id": "e_46",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_21",
+      "child_id": "e_47",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_21",
+      "child_id": "e_48",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_22",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "g_16",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "g_17",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "g_18",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "g_19",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "g_20",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_22",
+      "child_id": "g_21",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_59",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_60",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_24",
+      "child_id": "e_61",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_24",
+      "child_id": "e_62",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "g_23",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "g_24",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "g_25",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_55",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_56",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_57",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_58",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_26",
+      "child_id": "e_63",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_68",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_27",
+      "child_id": "e_69",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_70",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_71",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "g_27",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_29",
+      "child_id": "g_28",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "g_29",
+      "order": 5,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_64",
+      "order": 0,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_65",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_66",
+      "order": 2,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_67",
+      "order": 3,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_30",
+      "child_id": "e_72",
+      "order": 4,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_31",
+      "order": 8,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_31",
+      "child_id": "g_30",
+      "order": 1,
+      "confidence": 1.0
+    },
+    {
+      "parent_id": "g_31",
+      "child_id": "g_26",
+      "order": 0,
+      "confidence": 1.0
+    }
+  ],
+  "style_tokens": [],
+  "provenance": {
+    "source_sample_id": "0937",
+    "label_source": "human_ai_adjudicated_gold",
+    "status": "complete",
+    "adjudication_status": "finalized",
+    "gold_finalized": true,
+    "base_annotation": "annotator_a",
+    "base_annotation_provenance": {
+      "source_sample_id": "0937",
+      "label_source": "human_annotation",
+      "annotator": "annotator_a",
+      "status": "complete",
+      "weak_labels_viewed": false
+    },
+    "human_annotation_sha256": "bd0c2ab69c1c51d29f42b29347108eb6e690230104062e2c7a81103309cd61ef",
+    "ai_annotation_sha256": "d7fad422cde8e833b6cc3ce5a97ebf2ae96e46b84da04b22131df07b04838e9a",
+    "ai_used_for_disagreement_review": true,
+    "ai_treated_as_human_annotator": false,
+    "reviewed_at": "2026-08-13T15:29:04+08:00",
+    "review_notes": "除token外以人工标注为准",
+    "ai_assistance_disclosed": true,
+    "adjudication_record": "data/annotations/intent_pilot_v1/adjudication/0937.json",
+    "reference_tier": "human_gold",
+    "human_reviewer_count": 1,
+    "review_process": "single_human_ai_assisted_finalization",
+    "reviewer_id": "human_reviewer_01",
+    "reviewer_independent_of_base_annotator": false,
+    "reviewer_qualification_documented": false,
+    "reviewer_relationship_to_author": "not_documented",
+    "reviewer_conflict_of_interest_status": "not_documented",
+    "reviewer_public_name_removed": true,
+    "public_name_consent_status": "not_documented",
+    "review_notes_detail": "specific_change_summary",
+    "token_labels_available": false,
+    "token_review": {
+      "status": "not_collected",
+      "positive_labels_available": false,
+      "explicit_negative_labels_available": false
+    },
+    "reference_packaged_at": "2026-08-31T00:00:00+08:00"
+  }
+}

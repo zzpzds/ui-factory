@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "0074",
+  "generator": "codex_compact_style_tokens_v1",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "source_structure_sha256": "2d3ea7d4597eec9936c10bed90202dff13ce53ba6b3026d3cb94d5218c3733b9",
+  "source_visual_review_sha256": "ec6645f2e68cd46592b3ef53ce727aa4e8f3ad5fc51f9e035f8ad86afdcc9ffd",
+  "correction_operations_applied": true,
+  "selection_policy": {
+    "minimum_members": 3,
+    "kind_caps": {
+      "COLOR": 4,
+      "TEXT": 4,
+      "RADIUS": 2,
+      "SPACING": 2
+    },
+    "maximum_tokens_per_page": 12
+  },
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_28",
+        "e_30",
+        "e_35",
+        "e_39",
+        "e_41",
+        "e_43",
+        "e_45",
+        "e_47",
+        "e_49",
+        "e_51",
+        "e_53",
+        "e_55",
+        "e_57",
+        "e_59",
+        "e_61",
+        "e_63",
+        "e_65",
+        "e_67",
+        "e_69",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_79",
+        "e_81",
+        "e_83",
+        "e_85",
+        "e_87",
+        "e_89",
+        "e_91",
+        "e_93",
+        "e_95",
+        "e_97"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.09,
+          0.09,
+          0.09,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_14",
+        "e_15",
+        "e_25"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 12.0,
+        "font_weight": 600
+      },
+      "member_ids": [
+        "e_39",
+        "e_41",
+        "e_43",
+        "e_45",
+        "e_47",
+        "e_49",
+        "e_51",
+        "e_53",
+        "e_55",
+        "e_57",
+        "e_59",
+        "e_61",
+        "e_63",
+        "e_65",
+        "e_67",
+        "e_69",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_79",
+        "e_81",
+        "e_83",
+        "e_85",
+        "e_87",
+        "e_89",
+        "e_91",
+        "e_93",
+        "e_95"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_radius_01",
+      "kind": "RADIUS",
+      "value": {
+        "radius": 3.0
+      },
+      "member_ids": [
+        "e_101",
+        "e_103",
+        "e_105",
+        "e_109",
+        "e_111",
+        "e_113",
+        "e_30",
+        "e_39",
+        "e_41",
+        "e_43",
+        "e_45",
+        "e_47",
+        "e_49",
+        "e_51",
+        "e_53",
+        "e_55",
+        "e_57",
+        "e_59",
+        "e_61",
+        "e_63",
+        "e_65",
+        "e_67",
+        "e_69",
+        "e_71",
+        "e_73",
+        "e_75",
+        "e_77",
+        "e_79",
+        "e_81",
+        "e_83",
+        "e_85",
+        "e_87",
+        "e_89",
+        "e_91",
+        "e_93",
+        "e_95",
+        "g_13",
+        "g_20"
+      ],
+      "name": "圆角/01",
+      "confidence": 0.9
+    }
+  ]
+}

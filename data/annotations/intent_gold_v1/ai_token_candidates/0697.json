@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "sample_id": "0697",
+  "generator": "codex_compact_style_tokens_v1",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "source_structure_sha256": "88f0254f0732473a644d1a07236e6b6311901f74cb5f6c014883cc6334386985",
+  "source_visual_review_sha256": "1d332b80a04a3b01f33f3e749aa2231256f086c89c67ae72e7cdca009bbcba01",
+  "correction_operations_applied": true,
+  "selection_policy": {
+    "minimum_members": 3,
+    "kind_caps": {
+      "COLOR": 4,
+      "TEXT": 4,
+      "RADIUS": 2,
+      "SPACING": 2
+    },
+    "maximum_tokens_per_page": 12
+  },
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.667,
+          0.667,
+          0.667,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_16",
+        "e_17",
+        "e_18",
+        "e_22",
+        "e_23"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 12.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_16",
+        "e_17",
+        "e_18"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    }
+  ]
+}

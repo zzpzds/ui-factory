@@ -177,6 +177,11 @@ button:focus-visible {
   color: #6941c6;
 }
 
+.assistance-badge.human-gold {
+  background: #fff4d6;
+  color: #8a4d04;
+}
+
 .primary-button {
   border-color: #1d4ed8;
   background: var(--blue);
@@ -858,8 +863,8 @@ button:focus-visible {
   color: #0e647a;
 }
 
-.workspace.editor-locked .left-panel button:not(.panel-tab):not(.difference-focus),
-.workspace.editor-locked .left-panel input:not(#differenceFilter),
+.workspace.editor-locked .left-panel button:not(.panel-tab):not(.difference-focus):not(.list-row):not(.token-row),
+.workspace.editor-locked .left-panel input:not(#nodeSearch):not(#differenceFilter),
 .workspace.editor-locked .left-panel select:not(#differenceFilter),
 .workspace.editor-locked .right-panel form input,
 .workspace.editor-locked .right-panel form select,
@@ -1022,6 +1027,10 @@ button:focus-visible {
   background: #fff;
 }
 
+.review-confirmation.hidden {
+  display: none !important;
+}
+
 .review-confirmation input {
   width: 16px;
   min-height: 16px;
@@ -1080,6 +1089,8 @@ button:focus-visible {
 @media (max-width: 880px) {
   html,
   body {
+    height: auto;
+    min-height: 100%;
     overflow: auto;
   }
 

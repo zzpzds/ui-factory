@@ -2,7 +2,8 @@
 
 ## 实验目的
 
-主实验回答完整双流模型是否比启发式转换、旧模型和单模态模型更准确地恢复可编辑设计意图。
+当前主实验比较完整双流模型、启发式转换、旧模型和单模态模型的工程表现及代理标签
+一致性。除非补充独立真人测试集，否则它不能充分回答“相对人类设计意图是否更准确”。
 
 ## 数据冻结
 
@@ -10,7 +11,8 @@
 
 - 随机请求 500 页，成功获得 492 个有效弱标注页面；
 - 去重后有效独立页面估算为 410；
-- 已创建 10 页双人试标注包，当前等待人工完成；
+- 10 页由同一名人工标注者完成底稿并结合 AI 差异提示定稿；其设计资历、与作者
+  关系及利益冲突状态未记录，因此只作为探索性 Human Gold；
 - 目的：验证失败率、标注耗时、显存和指标行为；
 - Pilot 结果不进入论文主结果表。
 
@@ -18,11 +20,15 @@
 
 ### Main
 
-- `D_weak`：去重后 5,000-10,000 个独立页面；
-- `D_gold_train`：120 页；
-- `D_gold_val`：40 页；
-- `D_gold_test`：40 页；
+- `D_weak_pilot`：492 个成功渲染页面，独立页面估算 410；
+- `D_reference_train`：30 页（Human Gold 7 + AI Silver 23）；
+- `D_reference_val`：10 页（Human Gold 1 + AI Silver 9）；
+- `D_reference_test`：20 页（Human Gold 2 + AI Silver 18）；
 - 测试集只在模型、阈值和排除规则冻结后运行。
+
+`D_reference_test` 不是 20 页人工测试集。AI Silver 和 Human Gold 必须分别汇总；
+Human Gold `n=2` 只逐页描述，不能支撑稳定的总体性能结论。AI Silver `n=18` 的
+结构与布局指标只衡量代理一致性；禁止对混合 20 页做单一推断。
 
 数据切分命令：
 
@@ -51,10 +57,10 @@ python scripts/detect_near_duplicates.py \
 | B0 | DOM 全量直接映射 | 无 |
 | B1 | `weak_supervision_v1` 强启发式 | 无 |
 | B2 | 旧 `FigmaGenerationModel` | 弱标签 |
-| B3 | 代码单模态 Intent 模型 | 弱 + gold train |
-| B4 | 视觉单模态 Intent 模型 | 弱 + gold train |
-| B5 | 双流、无显式对齐 | 弱 + gold train |
-| M | 完整双流模型 | 弱 + gold train |
+| B3 | 代码单模态 Intent 模型 | 弱 + tier-aware Reference train |
+| B4 | 视觉单模态 Intent 模型 | 弱 + tier-aware Reference train |
+| B5 | 双流、无显式对齐 | 弱 + tier-aware Reference train |
+| M | 完整双流模型 | 弱 + tier-aware Reference train |
 
 所有学习方法共享：
 
@@ -62,7 +68,7 @@ python scripts/detect_near_duplicates.py \
 - 相同数据切分；
 - 相同训练轮次或早停规则；
 - 相同约束求解器；
-- 相同金标准微调集。
+- 相同 Reference train，并保持 Human Gold / AI Silver 样本权重一致。
 
 ## 主指标
 
@@ -76,10 +82,12 @@ python scripts/detect_near_duplicates.py \
 - Normalized Tree Edit Distance；
 - Layout Mode Macro-F1；
 - Gap/Padding MAE；
-- Token B-cubed F1；
+- Token B-cubed F1（仅 AI Silver capped computed-style proxy 诊断）；
 - 重渲染 SSIM。
 
 主指标不合并成单一总分。综合可编辑性分数仅用于可视化，并在实验前冻结权重。
+Human Gold 未获得可审计的 token 正例或显式负例，因此其 token 指标记为 N/A，
+不把空 token 列表当作完美负例。
 
 ## 辅助诊断
 
@@ -94,9 +102,10 @@ python scripts/detect_near_duplicates.py \
 ## 随机性与统计
 
 - 随机种子：`42`、`123`、`2026`；
-- 报告均值和标准差；
-- 页面级 bootstrap 10,000 次计算 95% CI；
-- M 与最强基线做双侧配对置换检验；
+- AI Silver `n=18` 单独报告均值、标准差、效应量和页面级 bootstrap 95% CI，明确
+  低统计功效；M 与最强基线的双侧配对置换检验只作探索性分析；
+- Human Gold `n=2` 仅逐页报告，不计算 CI 或 `p` 值；
+- 禁止对来源混合的 20 页 test 做单一 bootstrap 或显著性检验；
 - 多指标比较使用 Holm 校正；
 - 同时报告效应量；
 - `alpha = 0.05`。
@@ -125,7 +134,8 @@ python scripts/detect_near_duplicates.py \
 | A4 | ✓ | ✓ | ✓ | ✓ |  | ✓ |
 | A5 | ✓ | ✓ | ✓ | ✓ | ✓ |  |
 
-另做训练数据规模：500、1k、5k、10k；金标准微调：0、40、120。
+另做训练数据规模：500、1k、5k、10k；Reference 微调做 0 页、仅 7 页 Human
+Gold、23 页 AI Silver、完整 30 页四档。AI Silver 权重至少比较 0.25、0.5、1.0。
 
 ## 运行顺序
 
@@ -141,23 +151,15 @@ python scripts/validate_intent_data.py \
 # 3. 训练
 python scripts/train_intent.py --config configs/intent/full.yaml
 
-# 4. 评测模型
-python scripts/evaluate_intent.py \
-  --checkpoint outputs/intent-full-v1/best.pt \
-  --annotation_name gold_intent.json
+# 4. 当前先校验 Reference v1；接入训练 loader 后按 reference_tier 分层评测
+python -m pytest tests/test_formal_gold_package.py -q
 
-# 5. 评测强启发式
-python scripts/evaluate_intent_baseline.py \
-  --data_dir data/gold \
-  --gold_name gold_intent.json \
-  --split_manifest data/gold_split.json \
-  --split test
-
-# 6. 页面级配对统计
-python scripts/compare_intent_results.py \
-  --method outputs/intent-evaluation.json \
-  --baseline outputs/intent-baseline.json
+# 5. 后续先接入 reference_tier-aware loader，再运行基线和模型评测
 ```
+
+现有评测入口默认按 `gold_intent.json` 扫描，尚不能安全消费双层 Reference v1。
+在来源感知 loader 与分层汇总测试完成前，不得把 `reference/` 批量改名或复制成
+`gold_intent.json` 来绕过该门槛。
 
 ## 结果冻结要求
 
@@ -171,4 +173,6 @@ python scripts/compare_intent_results.py \
 - GPU 型号；
 - 训练时长；
 - 三个随机种子；
-- 测试集解封时间。
+- 测试集解封时间；
+- Human Gold 与 AI Silver 的独立指标文件；
+- AI Silver 训练权重与无 Silver 消融结果。

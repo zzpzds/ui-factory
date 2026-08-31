@@ -1,0 +1,3205 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 29.5,
+        "y": 29.5,
+        "width": 297.0,
+        "height": 34.0
+      },
+      "name": "resource-title",
+      "text": "Knytt Stories Homepage",
+      "style": {
+        "background_color": [
+          0.22745098039215686,
+          0.4,
+          0.5294117647058824,
+          0.6
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_8",
+      "source_node_ids": [
+        8
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 134.0,
+        "width": 156.203125,
+        "height": 16.0
+      },
+      "name": "Direct_download_(v1.2.1)",
+      "text": "Direct download (v1.2.1)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 150.0,
+        "width": 156.203125,
+        "height": 16.0
+      },
+      "name": "Direct_download_(v1.0.4)",
+      "text": "Direct download (v1.0.4)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_14",
+      "source_node_ids": [
+        14
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 369.5,
+        "y": 29.5,
+        "width": 297.0,
+        "height": 34.0
+      },
+      "name": "resource-title",
+      "text": "Knytt Stories Plus",
+      "style": {
+        "background_color": [
+          0.22745098039215686,
+          0.4,
+          0.5294117647058824,
+          0.6
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_17",
+      "source_node_ids": [
+        17
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 391.0,
+        "y": 142.0,
+        "width": 102.546875,
+        "height": 16.0
+      },
+      "name": "Direct_download",
+      "text": "Direct download",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_22",
+      "source_node_ids": [
+        22
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 709.5,
+        "y": 29.5,
+        "width": 297.0,
+        "height": 34.0
+      },
+      "name": "resource-title",
+      "text": "KS Speedrunner Edition",
+      "style": {
+        "background_color": [
+          0.22745098039215686,
+          0.4,
+          0.5294117647058824,
+          0.6
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_25",
+      "source_node_ids": [
+        25
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 731.0,
+        "y": 118.0,
+        "width": 156.203125,
+        "height": 16.0
+      },
+      "name": "Direct_download_(v0.3.3)",
+      "text": "Direct download (v0.3.3)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 731.0,
+        "y": 134.0,
+        "width": 156.203125,
+        "height": 16.0
+      },
+      "name": "Direct_download_(v0.3.2)",
+      "text": "Direct download (v0.3.2)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 731.0,
+        "y": 150.0,
+        "width": 156.203125,
+        "height": 16.0
+      },
+      "name": "Direct_download_(v0.3.1)",
+      "text": "Direct download (v0.3.1)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_28",
+      "source_node_ids": [
+        28
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 731.0,
+        "y": 166.0,
+        "width": 156.203125,
+        "height": 16.0
+      },
+      "name": "Direct_download_(v0.2.2)",
+      "text": "Direct download (v0.2.2)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_33",
+      "source_node_ids": [
+        33
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 29.5,
+        "y": 279.5,
+        "width": 297.0,
+        "height": 34.0
+      },
+      "name": "resource-title",
+      "text": "Level Mapping Software",
+      "style": {
+        "background_color": [
+          0.22745098039215686,
+          0.4,
+          0.5294117647058824,
+          0.6
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 384.0,
+        "width": 197.96875,
+        "height": 16.0
+      },
+      "name": "Haskell-driven_Mapper_(GitHub)",
+      "text": "Haskell-driven Mapper (GitHub)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_37",
+      "source_node_ids": [
+        37
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 400.0,
+        "width": 245.5,
+        "height": 16.0
+      },
+      "name": "MMF2-driven_Mapper_(direct_downl",
+      "text": "MMF2-driven Mapper (direct download)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_42",
+      "source_node_ids": [
+        42
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 369.5,
+        "y": 279.5,
+        "width": 297.0,
+        "height": 34.0
+      },
+      "name": "resource-title",
+      "text": "Engine Study",
+      "style": {
+        "background_color": [
+          0.1411764705882353,
+          0.25098039215686274,
+          0.32941176470588235,
+          0.9
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_45",
+      "source_node_ids": [
+        45
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 391.0,
+        "y": 376.0,
+        "width": 185.578125,
+        "height": 16.0
+      },
+      "name": "Subpixel_Movement_Simulator",
+      "text": "Subpixel Movement Simulator",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_46",
+      "source_node_ids": [
+        46
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 391.0,
+        "y": 392.0,
+        "width": 259.796875,
+        "height": 16.0
+      },
+      "name": "Umbrella_Pump_Optimizer_(Python_",
+      "text": "Umbrella Pump Optimizer (Python script)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_47",
+      "source_node_ids": [
+        47
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 391.0,
+        "y": 408.0,
+        "width": 108.8125,
+        "height": 16.0
+      },
+      "name": "TASer's_Handbook",
+      "text": "TASer's Handbook",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_52",
+      "source_node_ids": [
+        52
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 709.5,
+        "y": 279.5,
+        "width": 297.0,
+        "height": 34.0
+      },
+      "name": "resource-title",
+      "text": "Randomizers",
+      "style": {
+        "background_color": [
+          0.22745098039215686,
+          0.4,
+          0.5294117647058824,
+          0.6
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_55",
+      "source_node_ids": [
+        55
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 731.0,
+        "y": 360.0,
+        "width": 170.359375,
+        "height": 16.0
+      },
+      "name": "Machine_Randomizer_(v1.3)",
+      "text": "Machine Randomizer (v1.3)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_56",
+      "source_node_ids": [
+        56
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 731.0,
+        "y": 376.0,
+        "width": 170.359375,
+        "height": 16.0
+      },
+      "name": "Machine_Randomizer_(v1.2)",
+      "text": "Machine Randomizer (v1.2)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_57",
+      "source_node_ids": [
+        57
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 731.0,
+        "y": 392.0,
+        "width": 146.484375,
+        "height": 16.0
+      },
+      "name": "KS_Randomizer_(v2.0.4)",
+      "text": "KS Randomizer (v2.0.4)",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_58",
+      "source_node_ids": [
+        58
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 934.828125,
+        "y": 408.0,
+        "width": 49.453125,
+        "height": 16.0
+      },
+      "name": "[v2.0.3]",
+      "text": "[v2.0.3]",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_59",
+      "source_node_ids": [
+        59
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 731.0,
+        "y": 424.0,
+        "width": 42.59375,
+        "height": 16.0
+      },
+      "name": "[2.0.2]",
+      "text": "[2.0.2]",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_60",
+      "source_node_ids": [
+        60
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 773.59375,
+        "y": 424.0,
+        "width": 30.109375,
+        "height": 16.0
+      },
+      "name": "[1.1]",
+      "text": "[1.1]",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_61",
+      "source_node_ids": [
+        61
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 803.703125,
+        "y": 424.0,
+        "width": 30.109375,
+        "height": 16.0
+      },
+      "name": "[1.0]",
+      "text": "[1.0]",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_66",
+      "source_node_ids": [
+        66
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 29.5,
+        "y": 529.5,
+        "width": 297.0,
+        "height": 34.0
+      },
+      "name": "resource-title",
+      "text": "Speedrun.com Leaderboards",
+      "style": {
+        "background_color": [
+          0.22745098039215686,
+          0.4,
+          0.5294117647058824,
+          0.6
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_69",
+      "source_node_ids": [
+        69
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 594.0,
+        "width": 132.53125,
+        "height": 16.0
+      },
+      "name": "Nifflas_-_The_Machine",
+      "text": "Nifflas - The Machine",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_70",
+      "source_node_ids": [
+        70
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 610.0,
+        "width": 157.1875,
+        "height": 16.0
+      },
+      "name": "Nifflas_-_A_Strange_Dream",
+      "text": "Nifflas - A Strange Dream",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_71",
+      "source_node_ids": [
+        71
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 626.0,
+        "width": 215.296875,
+        "height": 16.0
+      },
+      "name": "Nifflas_-_An_Underwater_Adventur",
+      "text": "Nifflas - An Underwater Adventure",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_72",
+      "source_node_ids": [
+        72
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 642.0,
+        "width": 165.578125,
+        "height": 16.0
+      },
+      "name": "Nifflas_-_Gustav's_Daughter",
+      "text": "Nifflas - Gustav's Daughter",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_73",
+      "source_node_ids": [
+        73
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 658.0,
+        "width": 121.40625,
+        "height": 16.0
+      },
+      "name": "Nifflas_-_Sky_Flower",
+      "text": "Nifflas - Sky Flower",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_74",
+      "source_node_ids": [
+        74
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 674.0,
+        "width": 201.046875,
+        "height": 16.0
+      },
+      "name": "Nifflas_-_This_Level_Is_Unfinish",
+      "text": "Nifflas - This Level Is Unfinished",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_75",
+      "source_node_ids": [
+        75
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 51.0,
+        "y": 690.0,
+        "width": 243.09375,
+        "height": 16.0
+      },
+      "name": "Uncle_Sporky_-_Don't_Eat_the_Mus",
+      "text": "Uncle Sporky - Don't Eat the Mushroom",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_80",
+      "source_node_ids": [
+        80
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 369.5,
+        "y": 529.5,
+        "width": 297.0,
+        "height": 34.0
+      },
+      "name": "resource-title",
+      "text": "SpeedRunsLive",
+      "style": {
+        "background_color": [
+          0.22745098039215686,
+          0.4,
+          0.5294117647058824,
+          0.6
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 18.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_83",
+      "source_node_ids": [
+        83
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 391.0,
+        "y": 642.0,
+        "width": 147.71875,
+        "height": 16.0
+      },
+      "name": "Knytt_Stories_Race_Page",
+      "text": "Knytt Stories Race Page",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 14.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_0",
+      "source_element_ids": [
+        "e_5",
+        "e_8",
+        "e_9",
+        "e_14",
+        "e_17",
+        "e_22",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_33",
+        "e_36",
+        "e_37",
+        "e_42",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_52",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61",
+        "e_66",
+        "e_69",
+        "e_70",
+        "e_71",
+        "e_72",
+        "e_73",
+        "e_74",
+        "e_75",
+        "e_80",
+        "e_83"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 8.0,
+        "y": 8.0,
+        "width": 1264.0,
+        "height": 750.0
+      },
+      "name": "flex-container",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 0,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_3",
+      "source_element_ids": [
+        "e_5",
+        "e_8",
+        "e_9"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 29.5,
+        "y": 29.5,
+        "width": 297.0,
+        "height": 207.0
+      },
+      "name": "container_3",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 3,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_6",
+      "source_element_ids": [
+        "e_8",
+        "e_9"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 29.5,
+        "y": 63.5,
+        "width": 297.0,
+        "height": 173.0
+      },
+      "name": "table_row_6",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 3.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 6,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_12",
+      "source_element_ids": [
+        "e_14",
+        "e_17"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 369.5,
+        "y": 29.5,
+        "width": 297.0,
+        "height": 207.0
+      },
+      "name": "container_12",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 12,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_20",
+      "source_element_ids": [
+        "e_22",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 709.5,
+        "y": 29.5,
+        "width": 297.0,
+        "height": 207.0
+      },
+      "name": "container_20",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 20,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_23",
+      "source_element_ids": [
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 709.5,
+        "y": 63.5,
+        "width": 297.0,
+        "height": 173.0
+      },
+      "name": "table_row_23",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 3.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 23,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_31",
+      "source_element_ids": [
+        "e_33",
+        "e_36",
+        "e_37"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 29.5,
+        "y": 279.5,
+        "width": 297.0,
+        "height": 207.0
+      },
+      "name": "container_31",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 31,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_34",
+      "source_element_ids": [
+        "e_36",
+        "e_37"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 29.5,
+        "y": 313.5,
+        "width": 297.0,
+        "height": 173.0
+      },
+      "name": "table_row_34",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 3.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 34,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_40",
+      "source_element_ids": [
+        "e_42",
+        "e_45",
+        "e_46",
+        "e_47"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 369.5,
+        "y": 279.5,
+        "width": 297.0,
+        "height": 207.0
+      },
+      "name": "container_40",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 40,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_43",
+      "source_element_ids": [
+        "e_45",
+        "e_46",
+        "e_47"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 369.5,
+        "y": 313.5,
+        "width": 297.0,
+        "height": 173.0
+      },
+      "name": "table_row_43",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 3.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 43,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_50",
+      "source_element_ids": [
+        "e_52",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 709.5,
+        "y": 279.5,
+        "width": 297.0,
+        "height": 207.0
+      },
+      "name": "container_50",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 50,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_53",
+      "source_element_ids": [
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 709.5,
+        "y": 313.5,
+        "width": 297.0,
+        "height": 173.0
+      },
+      "name": "table_row_53",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 3.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 53,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_64",
+      "source_element_ids": [
+        "e_66",
+        "e_69",
+        "e_70",
+        "e_71",
+        "e_72",
+        "e_73",
+        "e_74",
+        "e_75"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 29.5,
+        "y": 529.5,
+        "width": 297.0,
+        "height": 207.0
+      },
+      "name": "container_64",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 64,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_67",
+      "source_element_ids": [
+        "e_69",
+        "e_70",
+        "e_71",
+        "e_72",
+        "e_73",
+        "e_74",
+        "e_75"
+      ],
+      "role": "TABLE_ROW",
+      "bbox": {
+        "x": 29.5,
+        "y": 563.5,
+        "width": 297.0,
+        "height": 173.0
+      },
+      "name": "table_row_67",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 3.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 67,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_78",
+      "source_element_ids": [
+        "e_80",
+        "e_83"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 369.5,
+        "y": 529.5,
+        "width": 297.0,
+        "height": 207.0
+      },
+      "name": "container_78",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.8666666666666667,
+          0.8666666666666667,
+          0.8666666666666667,
+          1
+        ],
+        "border_color": [
+          0.5019607843137255,
+          0.5019607843137255,
+          0.5019607843137255,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 16.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 78,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_0",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_3",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_6",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_12",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_20",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_23",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_31",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_34",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_40",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_43",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_50",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_53",
+      "mode": "FREE",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "FIXED",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_64",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_67",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    },
+    {
+      "target_id": "g_78",
+      "mode": "VERTICAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "FIXED",
+      "vertical_resize": "HUG",
+      "confidence": 0.65
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_0",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_3",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "g_6",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_12",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_20",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "g_23",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_31",
+      "order": 3,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_31",
+      "child_id": "g_34",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_40",
+      "order": 4,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_40",
+      "child_id": "g_43",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_50",
+      "order": 5,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_50",
+      "child_id": "g_53",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_64",
+      "order": 6,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_64",
+      "child_id": "g_67",
+      "order": 1,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_0",
+      "child_id": "g_78",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_3",
+      "child_id": "e_5",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_8",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_6",
+      "child_id": "e_9",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_14",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_12",
+      "child_id": "e_17",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_20",
+      "child_id": "e_22",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_25",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_26",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_27",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_23",
+      "child_id": "e_28",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_31",
+      "child_id": "e_33",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_34",
+      "child_id": "e_36",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_34",
+      "child_id": "e_37",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_40",
+      "child_id": "e_42",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_45",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_46",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_43",
+      "child_id": "e_47",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_50",
+      "child_id": "e_52",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_55",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_56",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_57",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_58",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_59",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_60",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_53",
+      "child_id": "e_61",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_64",
+      "child_id": "e_66",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_67",
+      "child_id": "e_69",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_67",
+      "child_id": "e_70",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_67",
+      "child_id": "e_71",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_67",
+      "child_id": "e_72",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_67",
+      "child_id": "e_73",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_67",
+      "child_id": "e_74",
+      "order": 5,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_67",
+      "child_id": "e_75",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_78",
+      "child_id": "e_80",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_78",
+      "child_id": "e_83",
+      "order": 1,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.867,
+          0.867,
+          0.867,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_14",
+        "e_17",
+        "e_22",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_33",
+        "e_36",
+        "e_37",
+        "e_42",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_5",
+        "e_52",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61",
+        "e_66",
+        "e_69",
+        "e_70",
+        "e_71",
+        "e_72",
+        "e_73",
+        "e_74",
+        "e_75",
+        "e_8",
+        "e_80",
+        "e_83",
+        "e_9"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "background",
+        "rgba": [
+          0.227,
+          0.4,
+          0.529,
+          0.6
+        ]
+      },
+      "member_ids": [
+        "e_14",
+        "e_22",
+        "e_33",
+        "e_5",
+        "e_52",
+        "e_66",
+        "e_80"
+      ],
+      "name": "背景色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_03",
+      "kind": "COLOR",
+      "value": {
+        "property": "border",
+        "rgba": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "g_23",
+        "g_34",
+        "g_43",
+        "g_53",
+        "g_6",
+        "g_67"
+      ],
+      "name": "边框色/03",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 14.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_17",
+        "e_25",
+        "e_26",
+        "e_27",
+        "e_28",
+        "e_36",
+        "e_37",
+        "e_45",
+        "e_46",
+        "e_47",
+        "e_55",
+        "e_56",
+        "e_57",
+        "e_58",
+        "e_59",
+        "e_60",
+        "e_61",
+        "e_69",
+        "e_70",
+        "e_71",
+        "e_72",
+        "e_73",
+        "e_74",
+        "e_75",
+        "e_8",
+        "e_83",
+        "e_9"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 18.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_14",
+        "e_22",
+        "e_33",
+        "e_42",
+        "e_5",
+        "e_52",
+        "e_66",
+        "e_80"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "1302",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "conservative",
+    "visual_review": {
+      "sample_id": "1302",
+      "quality_status": "accepted",
+      "observed_page_type": "software_and_game_resource_directory",
+      "primary_layout": "three_column_grid_of_download_and_resource_cards",
+      "visible_regions": [
+        "download_cards",
+        "mapping_tools_card",
+        "engine_study_card",
+        "randomizers_card",
+        "leaderboards_card",
+        "external_race_page_card"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "The root flex container and its repeated child containers correspond to all eight visible cards and preserve their heading-to-link-block hierarchy. Some internal roles are generic containers or table rows, but the spatial grouping and repetition are reliable.",
+      "reviewer_id": "codex_visual_reviewer_3"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_3"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/1302.json",
+        "sha256": "a8a5325be9bdb4987d2bc6616cd3a09e90d4f228cd70bbc6309bf54d59c246a7"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/1302.json",
+        "sha256": "13a09949932a4098495429c07cda0fc63eaffcbfe621a856a000a7e1ec081d7a"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_03.json",
+        "sha256": "4be804af6874bbb24dcb77867cb876ee34a7837f579cb1be7c163d2c2573720b"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/1302.json",
+        "sha256": "1a37b093688b6b4ce5dc8d08b52dcdd7a83db0c1e5420224a5f8d290aa476307"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/1302/screenshot.png",
+      "screenshot_sha256": "068fcd137310546991fc9725ee5e734fbc1a1e0fc0bd28e8cccc4720027cea0d",
+      "page_graph_path": "data/processed/1302/page_graph.json",
+      "page_graph_sha256": "ebae0c7a4df4c1104e1a911f3e167340ad784ee332ce049c1462a72948f4e157"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

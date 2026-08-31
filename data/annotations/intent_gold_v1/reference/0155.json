@@ -1,0 +1,1435 @@
+{
+  "schema_version": "1.0",
+  "canvas": {
+    "width": 1280.0,
+    "height": 800.0
+  },
+  "elements": [
+    {
+      "id": "e_4",
+      "source_node_ids": [
+        4
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 136.0,
+        "y": 10.0,
+        "width": 10.203125,
+        "height": 15.0
+      },
+      "name": "arrow",
+      "text": "«",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_5",
+      "source_node_ids": [
+        5
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 146.203125,
+        "y": 10.0,
+        "width": 127.265625,
+        "height": 15.0
+      },
+      "name": "link-label",
+      "text": "populárnější fotka",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_7",
+      "source_node_ids": [
+        7
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 594.875,
+        "y": 10.0,
+        "width": 90.234375,
+        "height": 15.0
+      },
+      "name": "link-label",
+      "text": "přehled fotek",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "start",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_9",
+      "source_node_ids": [
+        9
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 985.15625,
+        "y": 10.0,
+        "width": 148.640625,
+        "height": 15.0
+      },
+      "name": "link-label",
+      "text": "méně populární fotka",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_10",
+      "source_node_ids": [
+        10
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1133.796875,
+        "y": 10.0,
+        "width": 10.203125,
+        "height": 15.0
+      },
+      "name": "arrow",
+      "text": "»",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_13",
+      "source_node_ids": [
+        13
+      ],
+      "type": "IMAGE",
+      "bbox": {
+        "x": 126.0,
+        "y": 35.0,
+        "width": 1028.0,
+        "height": 687.0
+      },
+      "name": "image_13",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 2.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "center",
+        "image_src": "https://foto-busy.eu-central-1.linodeobjects.com/105392.jpg"
+      },
+      "style_token_refs": [],
+      "confidence": 0.98
+    },
+    {
+      "id": "e_16",
+      "source_node_ids": [
+        16
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 136.0,
+        "y": 732.0,
+        "width": 125.265625,
+        "height": 16.0
+      },
+      "name": "Karosa_C934.1351",
+      "text": "Karosa\n\t\t\t\t\t\t\t\t\tC934.1351",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_18",
+      "source_node_ids": [
+        18
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 261.265625,
+        "y": 734.0,
+        "width": 21.359375,
+        "height": 13.0
+      },
+      "name": "SPZ",
+      "text": "SPZ",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 10.8333,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_19",
+      "source_node_ids": [
+        19
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 282.625,
+        "y": 732.0,
+        "width": 65.921875,
+        "height": 16.0
+      },
+      "name": "TC_83-66",
+      "text": "TC 83-66",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_26",
+      "source_node_ids": [
+        26
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 145.0,
+        "y": 768.0,
+        "width": 9.25,
+        "height": 16.0
+      },
+      "name": "count",
+      "text": "0",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 700,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_27",
+      "source_node_ids": [
+        27
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 162.25,
+        "y": 768.0,
+        "width": 76.265625,
+        "height": 16.0
+      },
+      "name": "text",
+      "text": "to se mi líbí",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02",
+        "token_text_02"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "e_30",
+      "source_node_ids": [
+        30
+      ],
+      "type": "ICON",
+      "bbox": {
+        "x": 252.515625,
+        "y": 768.0,
+        "width": 305.0,
+        "height": 16.0
+      },
+      "name": "Pro_lajkování_a_přehled_lajkujíc",
+      "text": "",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [],
+      "confidence": 0.85
+    },
+    {
+      "id": "e_31",
+      "source_node_ids": [
+        31
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 496.3125,
+        "y": 768.0,
+        "width": 56.46875,
+        "height": 16.0
+      },
+      "name": "přihlaste",
+      "text": "přihlaste",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_02"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_34",
+      "source_node_ids": [
+        34
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 908.640625,
+        "y": 731.0,
+        "width": 36.578125,
+        "height": 15.0
+      },
+      "name": "bold",
+      "text": "Plzeň",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_35",
+      "source_node_ids": [
+        35
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 950.671875,
+        "y": 731.0,
+        "width": 103.15625,
+        "height": 15.0
+      },
+      "name": "bold",
+      "text": "Jižní Předměstí",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_36",
+      "source_node_ids": [
+        36
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1094.21875,
+        "y": 731.0,
+        "width": 49.78125,
+        "height": 15.0
+      },
+      "name": "bold",
+      "text": "Husova",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 700,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01",
+        "token_text_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_38",
+      "source_node_ids": [
+        38
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1062.25,
+        "y": 755.40625,
+        "width": 81.75,
+        "height": 15.0
+      },
+      "name": "Martin_Janota",
+      "text": "Martin Janota",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_01"
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "e_39",
+      "source_node_ids": [
+        39
+      ],
+      "type": "TEXT",
+      "bbox": {
+        "x": 1015.21875,
+        "y": 780.8125,
+        "width": 128.78125,
+        "height": 19.1875
+      },
+      "name": "section",
+      "text": "vyfoceno 21. 8. 2014",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "right",
+        "image_src": null
+      },
+      "style_token_refs": [
+        "token_color_02"
+      ],
+      "confidence": 0.75
+    }
+  ],
+  "groups": [
+    {
+      "id": "g_2",
+      "source_element_ids": [
+        "e_4",
+        "e_5",
+        "e_7",
+        "e_9",
+        "e_10"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 126.0,
+        "y": 0.0,
+        "width": 1028.0,
+        "height": 35.0
+      },
+      "name": "navigation",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 2,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_14",
+      "source_element_ids": [
+        "e_16",
+        "e_18",
+        "e_19",
+        "e_26",
+        "e_27",
+        "e_30",
+        "e_31",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_38",
+        "e_39"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 126.0,
+        "y": 732.0,
+        "width": 1028.0,
+        "height": 68.0
+      },
+      "name": "bottom",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 12.0,
+        "font_weight": 400,
+        "text_align": "start",
+        "image_src": null
+      },
+      "source_node_id": 14,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_25",
+      "source_element_ids": [
+        "e_26",
+        "e_27"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 136.0,
+        "y": 762.0,
+        "width": 111.515625,
+        "height": 28.0
+      },
+      "name": "like-button",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          0.7529411764705882,
+          0.7529411764705882,
+          0.7529411764705882,
+          1
+        ],
+        "border_radius": 6.0,
+        "border_width": 1.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 25,
+      "confidence": 0.9
+    },
+    {
+      "id": "g_28",
+      "source_element_ids": [
+        "e_30",
+        "e_31"
+      ],
+      "role": "CONTAINER",
+      "bbox": {
+        "x": 247.515625,
+        "y": 758.0,
+        "width": 310.0,
+        "height": 26.0
+      },
+      "name": "snippet-photodetail-likers",
+      "style": {
+        "background_color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "text_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_color": [
+          0.5647058823529412,
+          0.5647058823529412,
+          0.5647058823529412,
+          1
+        ],
+        "border_radius": 0.0,
+        "border_width": 0.0,
+        "opacity": 1.0,
+        "font_size": 13.0,
+        "font_weight": 400,
+        "text_align": "left",
+        "image_src": null
+      },
+      "source_node_id": 28,
+      "confidence": 0.9
+    }
+  ],
+  "layouts": [
+    {
+      "target_id": "g_2",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_14",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_25",
+      "mode": "HORIZONTAL",
+      "gap": 8.0,
+      "padding": [
+        3.0,
+        8.0,
+        3.0,
+        8.0
+      ],
+      "primary_align": "START",
+      "cross_align": "CENTER",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    },
+    {
+      "target_id": "g_28",
+      "mode": "HORIZONTAL",
+      "gap": 0.0,
+      "padding": [
+        0.0,
+        0.0,
+        0.0,
+        5.0
+      ],
+      "primary_align": "START",
+      "cross_align": "START",
+      "horizontal_resize": "STRETCH",
+      "vertical_resize": "HUG",
+      "confidence": 0.95
+    }
+  ],
+  "tree": [
+    {
+      "parent_id": "page_root",
+      "child_id": "g_2",
+      "order": 0,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "g_14",
+      "order": 2,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "g_25",
+      "order": 8,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "g_28",
+      "order": 7,
+      "confidence": 0.9
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_4",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_5",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_7",
+      "order": 2,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_9",
+      "order": 3,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_2",
+      "child_id": "e_10",
+      "order": 4,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "page_root",
+      "child_id": "e_13",
+      "order": 1,
+      "confidence": 0.98
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_16",
+      "order": 3,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_18",
+      "order": 5,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_19",
+      "order": 4,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "e_26",
+      "order": 0,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_25",
+      "child_id": "e_27",
+      "order": 1,
+      "confidence": 0.95
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_30",
+      "order": 0,
+      "confidence": 0.85
+    },
+    {
+      "parent_id": "g_28",
+      "child_id": "e_31",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_34",
+      "order": 0,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_35",
+      "order": 1,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_36",
+      "order": 2,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_38",
+      "order": 6,
+      "confidence": 0.75
+    },
+    {
+      "parent_id": "g_14",
+      "child_id": "e_39",
+      "order": 9,
+      "confidence": 0.75
+    }
+  ],
+  "style_tokens": [
+    {
+      "id": "token_color_01",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.753,
+          0.753,
+          0.753,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_10",
+        "e_16",
+        "e_18",
+        "e_19",
+        "e_31",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_38",
+        "e_4",
+        "e_5",
+        "e_7",
+        "e_9"
+      ],
+      "name": "文字色/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_color_02",
+      "kind": "COLOR",
+      "value": {
+        "property": "foreground",
+        "rgba": [
+          0.565,
+          0.565,
+          0.565,
+          1.0
+        ]
+      },
+      "member_ids": [
+        "e_26",
+        "e_27",
+        "e_39"
+      ],
+      "name": "文字色/02",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_01",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 12.0,
+        "font_weight": 700
+      },
+      "member_ids": [
+        "e_10",
+        "e_34",
+        "e_35",
+        "e_36",
+        "e_4",
+        "e_5",
+        "e_7",
+        "e_9"
+      ],
+      "name": "文字样式/01",
+      "confidence": 0.9
+    },
+    {
+      "id": "token_text_02",
+      "kind": "TEXT",
+      "value": {
+        "font_size": 13.0,
+        "font_weight": 400
+      },
+      "member_ids": [
+        "e_16",
+        "e_27",
+        "e_31"
+      ],
+      "name": "文字样式/02",
+      "confidence": 0.9
+    }
+  ],
+  "provenance": {
+    "source_sample_id": "0155",
+    "reference_tier": "ai_silver",
+    "label_source": "ai_multiview_silver",
+    "annotator": "codex_multiview_reference_v1",
+    "annotator_kind": "ai_agent_pipeline",
+    "status": "complete",
+    "annotation_phase": "formal_reference_v1",
+    "generator": "codex_multiview_reference_v1",
+    "generated_at": "2026-08-31T00:00:00+08:00",
+    "human_review_performed": false,
+    "human_labels_viewed_for_target": false,
+    "human_gold_used_for_generator_calibration": false,
+    "human_gold_diagnostic_replay_performed": true,
+    "generator_diagnostic_replay_sample_ids": [
+      "0001",
+      "0020",
+      "0319",
+      "0419",
+      "0601",
+      "0860",
+      "0937",
+      "1094"
+    ],
+    "generator_diagnostic_replay_artifact": {
+      "path": "data/annotations/intent_gold_v1/ai_assistance_manifest.json",
+      "sha256": "b5646650f588eb7f28c90616db21628812a46988d534b8abb74de36c13fac30a",
+      "scope": "fixed_rule_diagnostic_replay",
+      "reported_structure_metrics": {
+        "group_pair_f1": 0.6234099219789934,
+        "group_match_f1": 0.539537752037752,
+        "parent_f1": 0.39518959000502407
+      },
+      "token_metrics_interpretable": false
+    },
+    "developer_human_gold_blinding_status": "not_guaranteed",
+    "ai_treated_as_human_annotator": false,
+    "visual_input_used": true,
+    "page_graph_used": true,
+    "selected_structure_candidate": "conservative",
+    "visual_review": {
+      "sample_id": "0155",
+      "quality_status": "accepted",
+      "observed_page_type": "单图照片浏览详情页",
+      "primary_layout": "黑色全页背景，中部为大幅照片，上下分别放置浏览导航、作者信息和照片元数据",
+      "visible_regions": [
+        "顶部前后照片导航",
+        "主照片",
+        "照片水印",
+        "底部车辆说明",
+        "点赞与登录提示",
+        "地点作者和拍摄日期"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "low",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "大图、导航和底部信息区边界稳定，候选分组覆盖主要布局。",
+      "reviewer_id": "codex_visual_reviewer_1"
+    },
+    "review_roles": [
+      {
+        "role": "structure_candidate",
+        "system": "deterministic_pagegraph_heuristic"
+      },
+      {
+        "role": "visual_semantic_reviewer",
+        "system": "OpenAI Codex",
+        "reviewer_id": "codex_visual_reviewer_1"
+      },
+      {
+        "role": "multiview_adjudicator",
+        "system": "codex_multiview_reference_v1"
+      }
+    ],
+    "pipeline_inputs": [
+      {
+        "kind": "pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_prelabel/0155.json",
+        "sha256": "340dfc23a9cb9e58ccb863b86b412bff4081bc4e095b530731ed27890ca5494b"
+      },
+      {
+        "kind": "expanded_pagegraph_structure_candidate",
+        "path": "data/annotations/intent_gold_v1/annotator_ai_structure_expanded/0155.json",
+        "sha256": "9ac370cadaec04f113b568caf815b32820236bcc00e429875db72598e309b32f"
+      },
+      {
+        "kind": "screenshot_visual_semantic_review",
+        "path": "data/annotations/intent_gold_v1/ai_visual_reviews/batch_01.json",
+        "sha256": "ec6645f2e68cd46592b3ef53ce727aa4e8f3ad5fc51f9e035f8ad86afdcc9ffd"
+      },
+      {
+        "kind": "computed_style_token_candidate",
+        "path": "data/annotations/intent_gold_v1/ai_token_candidates/0155.json",
+        "sha256": "affc43e7843a80e8d06ceef1817c335fd74d63e3556c62238c4391f77fdfe7d6"
+      }
+    ],
+    "source_assets": {
+      "screenshot_path": "data/processed/0155/screenshot.png",
+      "screenshot_sha256": "a86750fe255885efc5b081a8a84e9ac93cf888b19b64b4d0df7b36a1c4b434d3",
+      "page_graph_path": "data/processed/0155/page_graph.json",
+      "page_graph_sha256": "ea3d4b29192c09503a4bc595febbb14fa3dfa31a0dfa3a99e513497700fdfeed"
+    },
+    "limitations": [
+      "该文件是 AI 多视角参考标注，不是人工标注。",
+      "视觉角色审阅整体构图与语义，不等同于第二份完整独立 IR 标注。",
+      "父子层级主要继承 PageGraph 候选，既有诊断性回放显示该维度风险较高。",
+      "8 页 Human Gold 只做固定规则的诊断性回放，未用于选择或修改阈值。",
+      "作者开发后续流程时可能已接触 Human Gold，不能声称开发过程完全盲法。",
+      "各角色属于同一 Codex 工作流，不能解释为跨模型一致性。"
+    ]
+  }
+}

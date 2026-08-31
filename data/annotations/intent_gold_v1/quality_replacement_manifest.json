@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "purpose": "formal_reference_quality_replacement",
+  "replaced_at": "2026-08-31T00:00:00+08:00",
+  "replacements": [
+    {
+      "old_sample_id": "0144",
+      "new_sample_id": "0433",
+      "split": "validation",
+      "reason": "全分辨率复核发现导航、正文与版权区域大面积错位重叠",
+      "replaced_at": "2026-08-31T00:00:00+08:00",
+      "reviewer_kind": "ai_visual_semantic_reviewer"
+    },
+    {
+      "old_sample_id": "0553",
+      "new_sample_id": "0584",
+      "split": "validation",
+      "reason": "全分辨率复核发现页面正文持续推广赌场、老虎机与博彩策略",
+      "replaced_at": "2026-08-31T00:00:00+08:00",
+      "reviewer_kind": "ai_visual_semantic_reviewer"
+    },
+    {
+      "old_sample_id": "1365",
+      "new_sample_id": "1530",
+      "split": "train",
+      "reason": "全分辨率复核发现导航重复错位、内容碰撞且缺少稳定主体区域",
+      "replaced_at": "2026-08-31T00:00:00+08:00",
+      "reviewer_kind": "ai_visual_semantic_reviewer"
+    }
+  ],
+  "selected_samples_after_replacement": 60,
+  "reserve_samples_after_replacement": 18
+}

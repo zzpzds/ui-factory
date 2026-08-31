@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "review_kind": "ai_visual_semantic_audit",
+  "reviewer_id": "codex_visual_reviewer_root_replacements",
+  "reviewer_kind": "ai",
+  "model_system": "OpenAI Codex",
+  "reviewed_at": "2026-08-31T00:00:00+08:00",
+  "input_scope": [
+    "full_resolution_screenshot",
+    "pagegraph_structure_candidate"
+  ],
+  "human_labels_viewed_for_targets": false,
+  "reviews": [
+    {
+      "sample_id": "0433",
+      "quality_status": "accepted",
+      "observed_page_type": "devotional_article_page",
+      "primary_layout": "centered_header_navigation_then_single_column_article",
+      "visible_regions": [
+        "primary_navigation",
+        "article_date_heading",
+        "centered_quote",
+        "article_paragraphs",
+        "author_and_category_metadata"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "expanded",
+      "correction_directives": [],
+      "notes": "全分辨率截图清晰完整；expanded 候选补充了导航与文章容器，但细粒度段落仍主要继承 PageGraph 层级。"
+    },
+    {
+      "sample_id": "0584",
+      "quality_status": "accepted",
+      "observed_page_type": "legal_information_contact_page",
+      "primary_layout": "brand_header_navigation_then_main_content_and_recent_articles_sidebar",
+      "visible_regions": [
+        "brand_header",
+        "primary_navigation",
+        "contact_heading_and_description",
+        "recent_articles_sidebar",
+        "article_thumbnails_and_metadata"
+      ],
+      "structure_alignment": "strong",
+      "hierarchy_risk": "medium",
+      "decision": "accept_structure_candidate",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "全分辨率截图资源完整，候选覆盖导航、主内容与侧栏的主要语义分区。"
+    },
+    {
+      "sample_id": "1530",
+      "quality_status": "accepted",
+      "observed_page_type": "regulatory_carrier_detail_page",
+      "primary_layout": "government_header_navigation_then_left_search_sidebar_and_company_detail_table",
+      "visible_regions": [
+        "utility_and_primary_navigation",
+        "breadcrumb",
+        "left_search_sidebar",
+        "company_status_heading",
+        "authorization_warning",
+        "company_details_table"
+      ],
+      "structure_alignment": "moderate",
+      "hierarchy_risk": "medium",
+      "decision": "accept_with_limitations",
+      "preferred_structure_candidate": "conservative",
+      "correction_directives": [],
+      "notes": "主体监管信息和详情表完整可读，仅品牌与返回图标加载失败；候选包含主要行组，但未形成统一 TABLE 上层语义。"
+    }
+  ]
+}

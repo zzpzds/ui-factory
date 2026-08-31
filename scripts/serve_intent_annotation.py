@@ -63,6 +63,11 @@ class AnnotationHandler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
         parts = self._parts(parsed.path)
         try:
+            if parsed.path == "/favicon.ico":
+                self.send_response(204)
+                self.send_header("Cache-Control", "public, max-age=86400")
+                self.end_headers()
+                return
             if parsed.path == "/api/assignment":
                 payload = self.store.assignment_payload()
                 payload["adjudication"] = (
