@@ -35,7 +35,8 @@ Human Gold `n=2` 只逐页描述，不能支撑稳定的总体性能结论。AI 
 ```bash
 python scripts/split_intent_dataset.py \
   --data_dir data/processed \
-  --output data/intent_split.json \
+  --sample_manifest data/intent_pilot_success_manifest.json \
+  --output data/intent_pilot_split.json \
   --train_ratio 0.8 \
   --val_ratio 0.1 \
   --seed 42
@@ -46,7 +47,7 @@ python scripts/split_intent_dataset.py \
 ```bash
 python scripts/detect_near_duplicates.py \
   --data_dir data/processed \
-  --split_manifest data/intent_split.json \
+  --split_manifest data/intent_pilot_split.json \
   --output outputs/near-duplicate-report.json
 ```
 
@@ -141,25 +142,60 @@ Gold、23 页 AI Silver、完整 30 页四档。AI Silver 权重至少比较 0.2
 
 ```bash
 # 1. 生成 PageGraph 与弱标签
-python scripts/prepare_intent_data.py --data_dir data/sampled
+python scripts/prepare_intent_data.py \
+  --data_dir data/processed \
+  --manifest data/intent_pilot_success_manifest.json
 
 # 2. 校验
 python scripts/validate_intent_data.py \
-  --data_dir data/sampled \
-  --annotation_name weak_intent.json
+  --data_dir data/processed \
+  --annotation_name weak_intent.json \
+  --manifest data/intent_pilot_success_manifest.json
 
-# 3. 训练
+# 3. 训练弱监督主模型；Reference 微调 checkpoint 依赖该 best.pt
 python scripts/train_intent.py --config configs/intent/full.yaml
 
-# 4. 当前先校验 Reference v1；接入训练 loader 后按 reference_tier 分层评测
+# 4. 校验 Reference v1 与来源感知链路
 python -m pytest tests/test_formal_gold_package.py -q
+python -m pytest \
+  tests/test_reference_intent_dataset.py \
+  tests/test_intent_training_v2.py \
+  tests/test_intent_evaluation.py \
+  tests/test_intent_comparison.py -q
 
-# 5. 后续先接入 reference_tier-aware loader，再运行基线和模型评测
+# 5. 主 Reference 微调；其余来源/权重消融使用同目录下对应配置
+python scripts/train_intent.py \
+  --config configs/intent/reference_finetune.yaml
+
+# 6. 冻结前只运行 validation，确认 v2 分层输出
+python scripts/evaluate_intent.py \
+  --checkpoint outputs/intent-reference-finetune-v2/best.pt \
+  --reference-package data/annotations/intent_gold_v1 \
+  --split validation \
+  --output outputs/intent-reference-v1/validation.json
+
+# 7. 仅在模型、阈值和排除规则冻结后运行正式 test；命令会写固定 unseal
+python scripts/evaluate_intent.py \
+  --checkpoint outputs/intent-reference-finetune-v2/best.pt \
+  --reference-package data/annotations/intent_gold_v1 \
+  --split test \
+  --output outputs/intent-reference-v1/test-main.json
+
+# 8. 仅在两份报告的 AI Silver 预定/有效 cohort 完全一致时做配对比较
+python scripts/compare_intent_results.py \
+  --method outputs/intent-reference-v1/test-main.json \
+  --baseline outputs/intent-reference-v1/test-baseline.json \
+  --tier ai_silver \
+  --output outputs/intent-reference-v1/main-vs-baseline.json
 ```
 
-现有评测入口默认按 `gold_intent.json` 扫描，尚不能安全消费双层 Reference v1。
-在来源感知 loader 与分层汇总测试完成前，不得把 `reference/` 批量改名或复制成
-`gold_intent.json` 来绕过该门槛。
+Reference 模式已直接消费只读 `reference/`，禁止将其批量改名或复制成
+`gold_intent.json`。正式 test 的固定解封记录位于
+`outputs/intent-reference-v1/test_unseal.json`；开发验证不得通过训练/评测 Dataset
+加载正式 test。Reference、legacy 和弱启发式 baseline 评测入口都必须显式指定
+`--split`，弱启发式 baseline 还必须提供 `--split_manifest`，不得默认选择 test 或遍历
+整个数据目录。正式 Reference test 不允许关闭 `verify_hashes`。Reference 构建与完整性
+审计不属于开发者盲法，且不得用于调参。
 
 ## 结果冻结要求
 
@@ -174,5 +210,5 @@ python -m pytest tests/test_formal_gold_package.py -q
 - 训练时长；
 - 三个随机种子；
 - 测试集解封时间；
-- Human Gold 与 AI Silver 的独立指标文件；
+- Human Gold 与 AI Silver 的独立分层指标；
 - AI Silver 训练权重与无 Silver 消融结果。

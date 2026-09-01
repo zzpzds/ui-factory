@@ -1,12 +1,13 @@
 experiment:
-  name: intent-no-dom-graph-v1
-  output_dir: outputs/intent-no-dom-graph-v1
+  name: intent-no-dom-graph-v2
+  output_dir: outputs/intent-no-dom-graph-v2
   seed: 42
 data:
-  data_dir: data/sampled
+  dataset_kind: page_directory
+  data_dir: data/processed
   annotation_name: weak_intent.json
   max_nodes: 192
-  split_manifest: data/intent_split.json
+  split_manifest: data/intent_pilot_split.json
 model:
   dim: 256
   freeze_visual: true

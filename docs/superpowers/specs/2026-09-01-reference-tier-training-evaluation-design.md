@@ -2,7 +2,7 @@
 
 **日期**：2026-09-01
 
-**状态**：已批准设计，待实施
+**状态**：已实施并通过本地回归；正式多随机种子实验尚未运行
 
 **范围**：Reference v1 数据加载、来源感知损失、训练配置、分层评测与统计防护
 
@@ -135,6 +135,9 @@ Dataset 初始化时必须验证：
 9. 请求的 split 和 tier 非空，且不能包含未知值。
 
 任何冲突均抛出带 sample ID、字段名、期望值和实际值的异常，不静默跳过页面。
+metadata-only 预检必须先校验所有记录哈希为 64 位小写 SHA-256；manifest 的 JSON 解析
+与审计哈希必须来自同一字节快照，禁止解析后重新打开文件计算哈希。正式 Reference
+test 不允许关闭 `verify_hashes`。
 
 ### 4.4 Batch 契约
 
@@ -605,10 +608,20 @@ checkpoint SHA-256。
 
 评测结果另行记录预定页、失败页和失败阶段；这些字段不写入训练 checkpoint。
 
-真实 Reference test 首次运行时，在读取任何 test IR 或执行 test 推理之前，使用排他
-创建写入固定路径 `outputs/intent-reference-v1/test_unseal.json`。该文件独立于方法和
-单次结果目录，包含时间、Git commit、assignment hash 和 checkpoint hash；已存在时
-读取并沿用首次时间，禁止覆盖。使用临时合成 fixture 的 test 不创建该文件。
+Reference test 首次进入模型训练/评测消费入口时，CLI 先完成配置、JSON、checkpoint、
+模型加载，以及只检查 manifest 语义、记录哈希格式、规范路径、文件存在性和 manifest
+hash 的元数据
+预检；该预检不打开或哈希 active test 资源和 IR。预检成功后、完整 Dataset 打开 test
+IR 或执行 test 推理之前，使用排他创建写入固定路径
+`outputs/intent-reference-v1/test_unseal.json`。该文件独立于方法和单次结果目录，包含
+时间、Git commit、assignment hash 和 checkpoint hash；已存在时读取并沿用首次时间，
+禁止覆盖。完整 Dataset 本身必须拒绝未解封的正式 test，且预检与完整构造的 manifest
+hash 必须一致，不能只依赖 CLI 调用顺序。
+
+该门禁不是开发者盲法声明。Reference 构建、标注工作台和包完整性测试已经读取过标注，
+且 AI Silver 由同一研究工作流生成；这些操作不产生模型指标，也不得用于模型、阈值或
+排除规则选择。使用临时合成 fixture 的 test 不创建正式 unseal。边界定义与已知访问
+事件见 `docs/thesis/19_reference_test_access_audit.md`。
 
 ## 10. 代码边界
 

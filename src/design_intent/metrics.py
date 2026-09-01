@@ -4,9 +4,103 @@ from __future__ import annotations
 
 from collections import defaultdict
 from collections.abc import Iterable
+from dataclasses import dataclass
 from typing import Any
 
 from .schema import DesignIntentIR, PageGraph
+
+
+@dataclass(frozen=True)
+class MetricSpec:
+    family: str
+    direction: str
+    allowed_tiers: frozenset[str]
+    primary: bool = False
+    holm_family: str | None = None
+    interpretation: str | None = None
+
+
+_ALL_REFERENCE_TIERS = frozenset(
+    {"human_gold", "ai_silver", "overall_mixed_descriptive"}
+)
+_SILVER_ONLY = frozenset({"ai_silver"})
+
+
+def _metric_spec(
+    family: str,
+    direction: str,
+    *,
+    primary: bool = False,
+    holm_family: str | None = None,
+    token_proxy: bool = False,
+) -> MetricSpec:
+    return MetricSpec(
+        family=family,
+        direction=direction,
+        allowed_tiers=_SILVER_ONLY if token_proxy else _ALL_REFERENCE_TIERS,
+        primary=primary,
+        holm_family=holm_family,
+        interpretation=("ai_computed_style_proxy_only" if token_proxy else None),
+    )
+
+
+METRIC_SPECS: dict[str, MetricSpec] = {
+    "leaf_f1": _metric_spec(
+        "structure", "higher", primary=True, holm_family="structure_primary"
+    ),
+    "group_pair_f1": _metric_spec(
+        "structure", "higher", primary=True, holm_family="structure_primary"
+    ),
+    "group_bcubed_f1": _metric_spec(
+        "structure", "higher", primary=True, holm_family="structure_primary"
+    ),
+    "group_match_f1": _metric_spec(
+        "structure", "higher", primary=True, holm_family="structure_primary"
+    ),
+    "parent_f1": _metric_spec(
+        "structure", "higher", primary=True, holm_family="structure_primary"
+    ),
+    "tree_normalized_edit_distance": _metric_spec(
+        "structure", "lower", primary=True, holm_family="structure_primary"
+    ),
+    "layout_mode_macro_f1": _metric_spec(
+        "layout", "higher", primary=True, holm_family="layout_primary"
+    ),
+    "gap_normalized_mae": _metric_spec(
+        "layout", "lower", primary=True, holm_family="layout_primary"
+    ),
+    "padding_normalized_mae": _metric_spec(
+        "layout", "lower", primary=True, holm_family="layout_primary"
+    ),
+    "token_bcubed_f1": _metric_spec(
+        "token_proxy",
+        "higher",
+        primary=True,
+        holm_family="token_proxy_primary",
+        token_proxy=True,
+    ),
+    "leaf_precision": _metric_spec("structure", "higher"),
+    "leaf_recall": _metric_spec("structure", "higher"),
+    "group_pair_precision": _metric_spec("structure", "higher"),
+    "group_pair_recall": _metric_spec("structure", "higher"),
+    "group_bcubed_precision": _metric_spec("structure", "higher"),
+    "group_bcubed_recall": _metric_spec("structure", "higher"),
+    "group_match_precision": _metric_spec("structure", "higher"),
+    "group_match_recall": _metric_spec("structure", "higher"),
+    "parent_precision": _metric_spec("structure", "higher"),
+    "parent_recall": _metric_spec("structure", "higher"),
+    "layout_mode_accuracy": _metric_spec("layout", "higher"),
+    "layout_match_coverage": _metric_spec("layout", "higher"),
+    "token_bcubed_precision": _metric_spec(
+        "token_proxy", "higher", token_proxy=True
+    ),
+    "token_bcubed_recall": _metric_spec(
+        "token_proxy", "higher", token_proxy=True
+    ),
+    "token_coverage": _metric_spec("token_proxy", "higher", token_proxy=True),
+    "semantic_naming_rate": _metric_spec("diagnostic", "higher"),
+    "layer_compression_ratio": _metric_spec("diagnostic", "higher"),
+}
 
 
 def _f1(precision: float, recall: float) -> float:
@@ -191,23 +285,29 @@ def _layout_by_signature(ir: DesignIntentIR) -> dict[tuple[int, ...], Any]:
     return result
 
 
-def layout_mode_accuracy(predicted: DesignIntentIR, gold: DesignIntentIR) -> float:
+def layout_mode_accuracy(
+    predicted: DesignIntentIR,
+    gold: DesignIntentIR,
+) -> float | None:
     pred_by_members = _layout_by_signature(predicted)
     gold_by_members = _layout_by_signature(gold)
     common = set(pred_by_members) & set(gold_by_members)
     if not common:
-        return 0.0
+        return None
     return sum(
         pred_by_members[key].mode == gold_by_members[key].mode for key in common
     ) / len(common)
 
 
-def layout_mode_macro_f1(predicted: DesignIntentIR, gold: DesignIntentIR) -> float:
+def layout_mode_macro_f1(
+    predicted: DesignIntentIR,
+    gold: DesignIntentIR,
+) -> float | None:
     pred = _layout_by_signature(predicted)
     target = _layout_by_signature(gold)
     common = set(pred) & set(target)
     if not common:
-        return 0.0
+        return None
     classes = sorted(
         {pred[key].mode for key in common} | {target[key].mode for key in common}
     )
@@ -231,12 +331,12 @@ def layout_mode_macro_f1(predicted: DesignIntentIR, gold: DesignIntentIR) -> flo
 def layout_numeric_errors(
     predicted: DesignIntentIR,
     gold: DesignIntentIR,
-) -> tuple[float, float]:
+) -> tuple[float | None, float | None]:
     pred = _layout_by_signature(predicted)
     target = _layout_by_signature(gold)
     common = set(pred) & set(target)
     if not common:
-        return 0.0, 0.0
+        return None, None
     normalizer = max(gold.canvas.width, gold.canvas.height, 1.0)
     gap_error = sum(
         abs(pred[key].gap - target[key].gap) / normalizer for key in common
@@ -250,6 +350,17 @@ def layout_numeric_errors(
         for key in common
     ) / len(common)
     return gap_error, padding_error
+
+
+def layout_match_coverage(
+    predicted: DesignIntentIR,
+    gold: DesignIntentIR,
+) -> float | None:
+    predicted_signatures = set(_layout_by_signature(predicted))
+    gold_signatures = set(_layout_by_signature(gold))
+    if not gold_signatures:
+        return None
+    return len(predicted_signatures & gold_signatures) / len(gold_signatures)
 
 
 def token_coverage(ir: DesignIntentIR) -> float:
@@ -283,7 +394,9 @@ def compute_intent_metrics(
     predicted: DesignIntentIR,
     gold: DesignIntentIR,
     graph: PageGraph | None = None,
-) -> dict[str, float]:
+    *,
+    include_token_metrics: bool = True,
+) -> dict[str, float | None]:
     def signature_text(ir: DesignIntentIR, entity_id: str) -> str:
         return ",".join(str(value) for value in _source_signature(ir, entity_id))
 
@@ -295,35 +408,37 @@ def compute_intent_metrics(
         [signature_text(gold, element_id) for element_id in group.source_element_ids]
         for group in gold.groups
     ]
-    predicted_tokens = [
-        [signature_text(predicted, member_id) for member_id in token.member_ids]
-        for token in predicted.style_tokens
-    ]
-    gold_tokens = [
-        [signature_text(gold, member_id) for member_id in token.member_ids]
-        for token in gold.style_tokens
-    ]
-
-    result: dict[str, float] = {}
+    result: dict[str, float | None] = {}
     for prefix, values in (
         ("leaf", leaf_preservation_f1(predicted, gold)),
         ("group_pair", pairwise_cluster_f1(predicted_groups, gold_groups)),
         ("group_bcubed", bcubed_f1(predicted_groups, gold_groups)),
         ("group_match", group_match_f1(predicted_groups, gold_groups)),
         ("parent", parent_edge_f1(predicted, gold)),
-        ("token_bcubed", bcubed_f1(predicted_tokens, gold_tokens)),
     ):
         for key, value in values.items():
             result[f"{prefix}_{key}"] = value
     result["layout_mode_accuracy"] = layout_mode_accuracy(predicted, gold)
     result["layout_mode_macro_f1"] = layout_mode_macro_f1(predicted, gold)
+    result["layout_match_coverage"] = layout_match_coverage(predicted, gold)
     gap_mae, padding_mae = layout_numeric_errors(predicted, gold)
     result["gap_normalized_mae"] = gap_mae
     result["padding_normalized_mae"] = padding_mae
     result["tree_normalized_edit_distance"] = normalized_tree_edit_distance(
         predicted, gold
     )
-    result["token_coverage"] = token_coverage(predicted)
+    if include_token_metrics:
+        predicted_tokens = [
+            [signature_text(predicted, member_id) for member_id in token.member_ids]
+            for token in predicted.style_tokens
+        ]
+        gold_tokens = [
+            [signature_text(gold, member_id) for member_id in token.member_ids]
+            for token in gold.style_tokens
+        ]
+        for key, value in bcubed_f1(predicted_tokens, gold_tokens).items():
+            result[f"token_bcubed_{key}"] = value
+        result["token_coverage"] = token_coverage(predicted)
     result["semantic_naming_rate"] = semantic_naming_rate(predicted)
     if graph is not None:
         result["layer_compression_ratio"] = layer_compression_ratio(

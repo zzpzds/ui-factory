@@ -1,15 +1,16 @@
 experiment:
-  name: intent-full-v2
-  output_dir: outputs/intent-full-v2
+  name: intent-reference-finetune-v2
+  output_dir: outputs/intent-reference-finetune-v2
   seed: 42
-
 data:
-  dataset_kind: page_directory
+  dataset_kind: reference
   data_dir: data/processed
-  annotation_name: weak_intent.json
+  package_dir: data/annotations/intent_gold_v1
+  source_split_manifest: data/intent_pilot_split.json
+  train_tiers: [human_gold, ai_silver]
+  validation_tiers: [human_gold, ai_silver]
+  verify_hashes: true
   max_nodes: 192
-  split_manifest: data/intent_pilot_split.json
-
 model:
   dim: 256
   freeze_visual: true
@@ -21,15 +22,18 @@ model:
   use_tags: true
   use_structured: true
   use_dom_graph: true
-
 training:
-  init_checkpoint: null
-  epochs: 30
+  init_checkpoint: outputs/intent-full-v2/best.pt
+  epochs: 15
   batch_size: 1
   grad_accum: 4
-  learning_rate: 2.0e-4
+  learning_rate: 5.0e-5
   weight_decay: 0.01
   grad_clip: 1.0
+  reference_tier_weights:
+    human_gold: 1.0
+    ai_silver: 0.5
+  model_selection_tier: ai_silver
   loss_weights:
     action: 1.0
     element: 0.8

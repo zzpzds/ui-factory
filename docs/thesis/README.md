@@ -20,6 +20,7 @@
 16. `16_formal_gold_v1_sampling_and_sop.md`：DesignIntent Reference v1 的双层来源、筛选与使用边界；
 17. `17_ai_assisted_annotation_protocol.md`：未完成人工复核即终止的 AI 辅助历史方案；
 18. `18_ai_multiview_silver_protocol.md`：50 页 AI 多视角银标的生成、审计与论文披露协议。
+19. `19_reference_test_access_audit.md`：Reference test 的实际访问边界、已知事件与解封语义。
 
 ## 新主链路
 
@@ -86,8 +87,17 @@ python scripts/serve_intent_annotation.py \
 # Reference v1 完整性门禁
 python -m pytest tests/test_formal_gold_package.py -q
 
-# 训练 smoke；正式评测需先完成 reference_tier-aware loader
+# 弱监督训练与来源分层 Reference 微调
 python scripts/train_intent.py --config configs/intent/full.yaml
+python scripts/train_intent.py \
+  --config configs/intent/reference_finetune.yaml
+
+# 冻结前只允许 validation；正式 test 命令见 06_experiment_protocol.md
+python scripts/evaluate_intent.py \
+  --checkpoint outputs/intent-reference-finetune-v2/best.pt \
+  --reference-package data/annotations/intent_gold_v1 \
+  --split validation \
+  --output outputs/intent-reference-v1/validation.json
 ```
 
 ## 关键约束
@@ -100,6 +110,11 @@ python scripts/train_intent.py --config configs/intent/full.yaml
 - AI 代理只能用于差异检测和人工复核，不能冒充第二位真人标注员；
 - 旧的 45 页 AI 辅助与 5 页盲标对照方案未完成人工执行，只作为历史审计记录；
 - 混合 validation/test 指标必须按标签来源分层报告；
+- Reference checkpoint 必须记录完整 `split x tier`、manifest hash、来源权重和运行环境；
+- 正式 test 前必须先完成 checkpoint/model 与 manifest 语义预检，首次 test 会排他创建
+  固定 unseal；正式 test 强制校验内容哈希，所有评测入口都必须显式指定 split 和对应
+  split manifest；
+- unseal 只审计模型训练/评测消费，不代表 Reference 构建过程具备开发者盲法；
 - 三个随机种子固定为 `42`、`123`、`2026`；
 - 测试集只在主模型、阈值和排除规则冻结后用于正式评测；这不表示 Reference v1
   构建过程对 2 页 Human Gold 保证了开发者盲法；

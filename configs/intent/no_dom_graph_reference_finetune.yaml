@@ -1,13 +1,13 @@
 experiment:
-  name: intent-gold-finetune-v2
-  output_dir: outputs/intent-gold-finetune-v2
+  name: intent-no-dom-graph-reference-finetune-v2
+  output_dir: outputs/intent-no-dom-graph-reference-finetune-v2
   seed: 42
 data:
   dataset_kind: reference
   data_dir: data/processed
   package_dir: data/annotations/intent_gold_v1
   source_split_manifest: data/intent_pilot_split.json
-  train_tiers: [human_gold]
+  train_tiers: [human_gold, ai_silver]
   validation_tiers: [human_gold, ai_silver]
   verify_hashes: true
   max_nodes: 192
@@ -21,9 +21,9 @@ model:
   use_text: true
   use_tags: true
   use_structured: true
-  use_dom_graph: true
+  use_dom_graph: false
 training:
-  init_checkpoint: outputs/intent-full-v2/best.pt
+  init_checkpoint: outputs/intent-no-dom-graph-v2/best.pt
   epochs: 15
   batch_size: 1
   grad_accum: 4
@@ -32,6 +32,7 @@ training:
   grad_clip: 1.0
   reference_tier_weights:
     human_gold: 1.0
+    ai_silver: 0.5
   model_selection_tier: ai_silver
   loss_weights:
     action: 1.0

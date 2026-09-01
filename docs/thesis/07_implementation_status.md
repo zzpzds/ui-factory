@@ -43,15 +43,20 @@
 - 保守/扩展 PageGraph 结构候选、全分辨率截图语义审阅和显式视觉修正；
 - AI Silver 每页最多 12 个的自动紧凑样式 Token；Human Gold Token 标为未采集；
 - 60 页只读参考标注工作台，以及 AI Silver / Human Gold 直观来源标识；
-- 参考文件、结构候选、截图、PageGraph 和视觉审阅的 SHA-256 审计链。
+- 参考文件、结构候选、截图、PageGraph 和视觉审阅的 SHA-256 审计链；
+- Reference v1 来源感知 Dataset、完整 `split x tier` 审计和 test IR 访问边界；
+- Human/AI 任务可用性掩码、页级来源权重与无权重 AI Silver checkpoint 选择；
+- `intent-evaluation/v2` 分层报告、失败分母、Human 聚合抑制和 AI Silver bootstrap；
+- `intent-comparison/v2` cohort 防缩减、配对置换、效应量与 Holm 校正；
+- 正式 test 固定路径排他解封，且 checkpoint/model 与 manifest 语义预检早于解封。
 
 ## 尚未完成
 
 - 第二位独立真人设计师标注（当前 AI 代理轨道不能替代双人信度）；
-- Reference v1 的来源感知训练 loader、AI Silver 权重和分层评测输出；
 - 原生 Figma 插件/API 导出；
 - 外部图片资源本地缓存；
 - 无约束求解消融；
+- 正式弱监督 checkpoint、Reference 微调与主结果生成；
 - 三随机种子批量实验；
 - 系统性文献综述；
 - 主实验完成后的论文章节初稿。
@@ -59,7 +64,7 @@
 ## 已验证
 
 ```text
-pytest: 62 passed
+pytest: 195 passed（2026-09-01 全量回归）
 真实 Playwright 渲染: 1/1 成功
 旧数据迁移: 1/1 成功
 真实样本闭环: 170 nodes → 39 elements + 31 groups
@@ -80,6 +85,11 @@ DesignIntent Reference v1: 60/60 complete，10 Human Gold + 50 AI Silver
 AI Silver: 1573 elements + 447 groups + 245 tokens，0 invalid
 视觉结构候选: conservative 35 / expanded 15
 视觉审阅复现边界: 冻结审阅 JSON 后的 artifact replay；不支持端到端重生成视觉判断
+Reference train/validation 实际加载: 30/10，tier 为 7+23 / 1+9
+Reference 完整审计计数: train 7+23 / validation 1+9 / test 2+18
+Reference 1 epoch mock 训练与 v2 合成评测: 通过
+正式模型评测: 未运行，固定 test_unseal.json 不存在
+访问审计: 回归测试曾误构造 model-ready test Dataset；无推理/指标，已移除并加门禁
 ```
 
 Smoke 指标不代表模型效果，只证明数据、训练、求解与评测链路连通。

@@ -17,26 +17,24 @@ from src.design_intent.validation import validate_intent_ir
 from src.design_intent.weak_supervision import build_weak_intent
 
 
-def main() -> None:
+def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", default="data/sampled")
     parser.add_argument("--gold_name", default="gold_intent.json")
-    parser.add_argument("--split_manifest", default=None)
-    parser.add_argument("--split", default="test")
+    parser.add_argument("--split_manifest", required=True)
+    parser.add_argument("--split", required=True)
     parser.add_argument("--output", default="outputs/intent-baseline.json")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     totals: dict[str, list[float]] = defaultdict(list)
     failures = []
     evaluated = 0
-    per_sample: dict[str, dict[str, float]] = {}
-    selected: set[str] | None = None
-    if args.split_manifest:
-        with open(args.split_manifest, encoding="utf-8") as f:
-            manifest = json.load(f)
-        selected = set(manifest["splits"][args.split])
+    per_sample: dict[str, dict[str, float | None]] = {}
+    with open(args.split_manifest, encoding="utf-8") as f:
+        manifest = json.load(f)
+    selected = set(manifest["splits"][args.split])
     for sample_dir in sorted(Path(args.data_dir).iterdir()):
-        if selected is not None and sample_dir.name not in selected:
+        if sample_dir.name not in selected:
             continue
         graph_path = sample_dir / "page_graph.json"
         gold_path = sample_dir / args.gold_name
@@ -52,13 +50,14 @@ def main() -> None:
         metrics = compute_intent_metrics(predicted, gold, graph)
         per_sample[sample_dir.name] = metrics
         for name, value in metrics.items():
-            totals[name].append(value)
+            if value is not None:
+                totals[name].append(value)
         evaluated += 1
 
     result = {
         "baseline": "weak_supervision_v1",
         "gold_name": args.gold_name,
-        "split": args.split if selected is not None else "all",
+        "split": args.split,
         "evaluated": evaluated,
         "metrics": {
             name: sum(values) / len(values) for name, values in totals.items()
