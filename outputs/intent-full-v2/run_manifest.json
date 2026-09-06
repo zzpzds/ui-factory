@@ -1,0 +1,14 @@
+{
+  "training_started_at": "2026-09-06T20:42:39.927800+08:00",
+  "training_finished_at": "2026-09-06T21:13:41.010749+08:00",
+  "checkpoints": {
+    "best": {
+      "path": "outputs\\intent-full-v2\\best.pt",
+      "sha256": "afb98a5e62dffc205301e44d37a4340f698da15288913a2ae9ee883572c4d059"
+    },
+    "last": {
+      "path": "outputs\\intent-full-v2\\last.pt",
+      "sha256": "07779548a2bda736eacc43ae9513b83d77c4411d987ad08828d9a9ef7c0c7690"
+    }
+  }
+}

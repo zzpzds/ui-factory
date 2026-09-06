@@ -1,0 +1,14 @@
+{
+  "training_started_at": "2026-09-06T21:16:38.620837+08:00",
+  "training_finished_at": "2026-09-06T21:18:27.139646+08:00",
+  "checkpoints": {
+    "best": {
+      "path": "outputs\\intent-reference-finetune-v2\\best.pt",
+      "sha256": "4474b91363d818dd521e26e4254c293bf85168da003e58e3c7b8817a5e9b42ca"
+    },
+    "last": {
+      "path": "outputs\\intent-reference-finetune-v2\\last.pt",
+      "sha256": "70c96f4ec6ac283e464704f81560e36296bcc21829e77f39acb6ddefc24ed781"
+    }
+  }
+}
